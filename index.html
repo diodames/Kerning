@@ -184,7 +184,7 @@
   .link { text-decoration: underline; color: var(--ink); }
   .btn:hover, .text-act:hover, .chip:hover, .link:hover { color: var(--ink); }
   .btn:disabled { opacity: .4; cursor: default; }
-  .btn:active, .chip:active, .tab:active, .text-act:active, .link:active {
+  .btn:active, .chip:active, .tab:active, .text-act:active, .link:active, .seed-x:active {
     transform: scale(0.96);
   }
   .btn.saved, .text-act.saved { color: var(--ink); font-weight: 500; }
@@ -601,6 +601,73 @@
     position: absolute;
     inset: -10px -8px;
   }
+  .seeds--chips {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+  .seed-article {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    width: max-content;
+    max-width: 100%;
+    padding: 6px 10px 6px 12px;
+    border: 0;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--ink) 6%, var(--paper));
+    color: var(--ink);
+  }
+  .seed-article .seed-main {
+    display: flex;
+    align-items: baseline;
+    gap: 0.35em;
+    min-width: 0;
+  }
+  .seed-article .seed-title {
+    flex: 0 1 auto;
+    width: auto;
+    min-width: 3ch;
+    min-height: 0;
+    padding: 0;
+    color: inherit;
+    caret-color: var(--ink);
+    field-sizing: content;
+  }
+  .seed-article .seed-host {
+    flex: 0 0 auto;
+    font-size: var(--text-meta);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: var(--mute);
+    white-space: nowrap;
+  }
+  .seed-x {
+    flex: none;
+    position: relative;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0;
+    color: var(--faint);
+    background: none;
+    border: 0;
+    padding: 0 2px;
+    min-height: 0;
+    cursor: pointer;
+    transition: color 180ms var(--ease-out), opacity 180ms var(--ease-out),
+      transform 160ms var(--ease-out);
+  }
+  .seed-x::after {
+    content: "";
+    position: absolute;
+    inset: -10px -8px;
+  }
+  .seed-x:hover { color: var(--ink); }
+  .seed-article:hover .seed-x,
+  .seed-article:focus-within .seed-x { opacity: 1; }
   .net { position: relative; display: flex; flex-wrap: wrap; gap: 14px; margin-top: 2px; }
   .net .chip { font-size: 13px; min-height: 40px; padding: 6px 0; }
   .taste-primer { margin: 0 0 32px; }
@@ -623,12 +690,15 @@
     .list:hover .item { opacity: 0.32; }
     .list:hover .item:hover { opacity: 1; }
     a.title:hover { text-decoration: underline; }
-    .rkind .seeds:hover .seed-resource { opacity: 0.32; }
-    .rkind .seeds:hover .seed-resource:hover { opacity: 1; }
+    .seeds:hover .seed-resource { opacity: 0.32; }
+    .seeds:hover .seed-resource:hover { opacity: 1; }
     .rkind a.seed-main:hover .seed-title { text-decoration: underline; }
     .seed-resource .text-act { opacity: 0; }
     .seed-resource:hover .text-act,
     .seed-resource:focus-within .text-act { opacity: 1; }
+    .seed-x { opacity: 0; }
+    .seed-article:hover .seed-x,
+    .seed-article:focus-within .seed-x { opacity: 1; }
     .tab:hover { color: var(--ink); }
     .spider:hover .spider-term,
     .spider:hover .spider-arm,
@@ -646,8 +716,8 @@
       transition-duration: 0.01ms !important;
     }
     .list:hover .item { opacity: 1; }
-    .rkind .seeds:hover .seed-resource { opacity: 1; }
-    .btn:active, .chip:active, .tab:active, .text-act:active, .link:active {
+    .seeds:hover .seed-resource { opacity: 1; }
+    .btn:active, .chip:active, .tab:active, .text-act:active, .link:active, .seed-x:active {
       transform: none;
     }
   }
@@ -683,6 +753,7 @@
   }
   @media (forced-colors: active) {
     .chip.on, .tab.on { outline: 2px solid CanvasText; }
+    .seed-article { background: Canvas; color: CanvasText; }
     .sel-dot { background: CanvasText; }
     .bar > i { background: CanvasText; }
     .spider-web, .spider-axis, .spider-shape { stroke: CanvasText; }
@@ -2516,14 +2587,19 @@ function renderTasteRank() {
   const articles = profile.seeds.articles;
 
   const articleList = articles.length
-    ? '<ul class="seeds">' + articles.map((a) =>
-        '<li class="seed"><div>'
-        + '<input class="seed-title" data-article-title="' + esc(a.id)
-        + '" value="' + esc(a.title) + '" aria-label="Title for '
-        + esc(domainOf(a.url) || a.url) + '">'
-        + '<p class="sub"><span>' + esc(domainOf(a.url) || a.url) + "</span></p></div>"
-        + '<div class="acts"><button type="button" class="text-act" data-act="drop-article" data-id="'
-        + esc(a.id) + '">Remove</button></div></li>').join("") + "</ul>"
+    ? '<ul class="seeds seeds--chips">' + articles.map((a) => {
+        const host = domainOf(a.url) || a.url;
+        const title = a.title || host;
+        const showHost = host && title.trim().toLowerCase() !== String(host).toLowerCase();
+        return '<li class="seed seed-article">'
+          + '<div class="seed-main">'
+          + '<input class="seed-title" data-article-title="' + esc(a.id)
+          + '" value="' + esc(title) + '" aria-label="Title for ' + esc(host) + '">'
+          + (showHost ? '<span class="seed-host">(' + esc(host) + ")</span>" : "")
+          + "</div>"
+          + '<button type="button" class="seed-x" data-act="drop-article" data-id="'
+          + esc(a.id) + '" aria-label="Remove"><span aria-hidden="true">×</span></button></li>';
+      }).join("") + "</ul>"
     : "";
 
   return '<p class="note taste-primer">' + tastePrimer() + "</p>"
