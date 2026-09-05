@@ -38,3 +38,8 @@ evilmartians.com
 tylergaw.com
 danmall.bsky.social
 robinrendle.bsky.social
+
+# product
+producttalk.bsky.social
+martycagan.bsky.social
+johncutle.fish

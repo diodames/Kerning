@@ -1,9 +1,9 @@
 # Kerning
 
-A design digest you can read daily, weekly, or monthly. Pulls from Hacker News,
-Lobsters, design publications, Substack, design-system release feeds, and links
-shared by designers on Bluesky. Ranks this calendar month, cuts three editions,
-and learns from what you rate.
+A design and product digest you can read daily, weekly, or monthly. Pulls from
+Hacker News, Lobsters, design and product publications, Substack, design-system
+release feeds, and links shared on Bluesky. Ranks this calendar month, cuts
+three editions, and learns from what you rate.
 
 ## Setup
 

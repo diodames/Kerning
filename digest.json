@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:01:55.597274+00:00",
+  "generated_at": "2026-09-05T10:27:36.881976+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
@@ -20,7 +20,7 @@
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.572,
+          "score": 2.56,
           "why": []
         },
         {
@@ -35,7 +35,7 @@
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.535,
+          "score": 2.525,
           "why": []
         },
         {
@@ -50,7 +50,7 @@
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.44,
+          "score": 2.426,
           "why": []
         },
         {
@@ -65,7 +65,7 @@
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.147,
+          "score": 2.134,
           "why": []
         }
       ]
@@ -92,7 +92,7 @@
             "Lobsters"
           ],
           "sharers": 0,
-          "score": 7.014,
+          "score": 7.013,
           "why": [
             "picked up by Hacker News and Lobsters"
           ]
@@ -109,10 +109,14 @@
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 6.007,
+          "score": 6.006,
           "why": [
             "shared by 2 design accounts",
             "2 Bluesky posts"
+          ],
+          "authors": [
+            "bradfrost.com",
+            "lea.verou.me"
           ]
         },
         {
@@ -127,7 +131,7 @@
             "Design systems"
           ],
           "sharers": 0,
-          "score": 4.762,
+          "score": 4.761,
           "why": [
             "editor's pick at Design systems"
           ]
@@ -144,7 +148,7 @@
             "Design systems"
           ],
           "sharers": 0,
-          "score": 4.762,
+          "score": 4.761,
           "why": [
             "editor's pick at Design systems"
           ]
@@ -161,9 +165,12 @@
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 4.342,
+          "score": 4.341,
           "why": [
             "spotted on Bluesky"
+          ],
+          "authors": [
+            "bradfrost.com"
           ]
         },
         {
@@ -178,7 +185,7 @@
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 4.164,
+          "score": 4.163,
           "why": [
             "305 points"
           ]
@@ -195,7 +202,7 @@
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 4.121,
+          "score": 4.12,
           "why": []
         },
         {
@@ -210,7 +217,7 @@
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.968,
+          "score": 3.967,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -227,7 +234,7 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.926,
+          "score": 3.925,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -244,7 +251,7 @@
             "NN/g"
           ],
           "sharers": 0,
-          "score": 3.758,
+          "score": 3.757,
           "why": [
             "editor's pick at NN/g"
           ]
@@ -267,20 +274,20 @@
           ]
         },
         {
-          "id": "96aa9af75e61",
-          "title": "UX Conference November Announced (Nov 16 - Nov 19)",
-          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "id": "5da86bcb008d",
+          "title": "Make your logo brighter than white",
+          "url": "https://www.soverybright.com/",
+          "hn": "https://www.soverybright.com/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1788407449,
+          "created_at_i": 1788408761,
           "sources": [
-            "NN/g"
+            "Sidebar"
           ],
           "sharers": 0,
           "score": 3.678,
           "why": [
-            "editor's pick at NN/g"
+            "editor's pick at Sidebar"
           ]
         }
       ]
@@ -303,7 +310,7 @@
             "Lobsters"
           ],
           "sharers": 0,
-          "score": 7.115,
+          "score": 7.114,
           "why": [
             "picked up by Hacker News and Lobsters"
           ]
@@ -324,6 +331,10 @@
           "why": [
             "shared by 2 design accounts",
             "2 Bluesky posts"
+          ],
+          "authors": [
+            "bradfrost.com",
+            "lea.verou.me"
           ]
         },
         {
@@ -375,6 +386,9 @@
           "score": 4.363,
           "why": [
             "spotted on Bluesky"
+          ],
+          "authors": [
+            "bradfrost.com"
           ]
         },
         {
@@ -438,7 +452,7 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 4.032,
+          "score": 4.031,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -478,20 +492,20 @@
           ]
         },
         {
-          "id": "5da86bcb008d",
-          "title": "Make your logo brighter than white",
-          "url": "https://www.soverybright.com/",
-          "hn": "https://www.soverybright.com/",
+          "id": "96aa9af75e61",
+          "title": "UX Conference November Announced (Nov 16 - Nov 19)",
+          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1788408761,
+          "created_at_i": 1788407449,
           "sources": [
-            "Sidebar"
+            "NN/g"
           ],
           "sharers": 0,
-          "score": 3.742,
+          "score": 3.741,
           "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at NN/g"
           ]
         }
       ]
@@ -511,7 +525,7 @@
         "Lobsters"
       ],
       "sharers": 0,
-      "score": 7.014,
+      "score": 7.013,
       "why": [
         "picked up by Hacker News and Lobsters"
       ]
@@ -528,10 +542,14 @@
         "Bluesky"
       ],
       "sharers": 2,
-      "score": 6.007,
+      "score": 6.006,
       "why": [
         "shared by 2 design accounts",
         "2 Bluesky posts"
+      ],
+      "authors": [
+        "bradfrost.com",
+        "lea.verou.me"
       ]
     },
     {
@@ -546,7 +564,7 @@
         "Design systems"
       ],
       "sharers": 0,
-      "score": 4.762,
+      "score": 4.761,
       "why": [
         "editor's pick at Design systems"
       ]
@@ -563,7 +581,7 @@
         "Design systems"
       ],
       "sharers": 0,
-      "score": 4.762,
+      "score": 4.761,
       "why": [
         "editor's pick at Design systems"
       ]
@@ -580,9 +598,12 @@
         "Bluesky"
       ],
       "sharers": 1,
-      "score": 4.342,
+      "score": 4.341,
       "why": [
         "spotted on Bluesky"
+      ],
+      "authors": [
+        "bradfrost.com"
       ]
     },
     {
@@ -597,7 +618,7 @@
         "Hacker News"
       ],
       "sharers": 0,
-      "score": 4.164,
+      "score": 4.163,
       "why": [
         "305 points"
       ]
@@ -614,7 +635,7 @@
         "Hacker News"
       ],
       "sharers": 0,
-      "score": 4.121,
+      "score": 4.12,
       "why": []
     },
     {
@@ -629,7 +650,7 @@
         "Sidebar"
       ],
       "sharers": 0,
-      "score": 3.968,
+      "score": 3.967,
       "why": [
         "editor's pick at Sidebar"
       ]
@@ -646,7 +667,7 @@
         "UX Collective"
       ],
       "sharers": 0,
-      "score": 3.926,
+      "score": 3.925,
       "why": [
         "editor's pick at UX Collective"
       ]
@@ -663,7 +684,7 @@
         "NN/g"
       ],
       "sharers": 0,
-      "score": 3.758,
+      "score": 3.757,
       "why": [
         "editor's pick at NN/g"
       ]
@@ -686,20 +707,20 @@
       ]
     },
     {
-      "id": "96aa9af75e61",
-      "title": "UX Conference November Announced (Nov 16 - Nov 19)",
-      "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "id": "5da86bcb008d",
+      "title": "Make your logo brighter than white",
+      "url": "https://www.soverybright.com/",
+      "hn": "https://www.soverybright.com/",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1788407449,
+      "created_at_i": 1788408761,
       "sources": [
-        "NN/g"
+        "Sidebar"
       ],
       "sharers": 0,
       "score": 3.678,
       "why": [
-        "editor's pick at NN/g"
+        "editor's pick at Sidebar"
       ]
     }
   ],

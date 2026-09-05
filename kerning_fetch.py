@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Kerning — a design digest you can read daily, weekly, or monthly.
+Kerning — a design and product digest you can read daily, weekly, or monthly.
 
-Pulls from Hacker News, Lobsters, hand-curated design publications, Substack,
+Pulls from Hacker News, Lobsters, design and product publications, Substack,
 and the release feeds of major design systems. Merges everything by canonical
 URL, then cuts three ranked editions from this calendar month.
 
@@ -85,6 +85,9 @@ CURATED_FEEDS = {
     "UX Collective":      "https://uxdesign.cc/feed",
     "Sidebar":            "https://sidebar.io/feed.xml",
     "Typographica":       "https://typographica.org/feed/",
+    "SVPG":               "https://www.svpg.com/feed",
+    "Product Talk":       "https://www.producttalk.org/feed",
+    "Intercom":           "https://www.intercom.com/blog/feed",
 }
 
 # Design systems and primitives. Release notes are the earliest, highest-
@@ -1391,7 +1394,7 @@ def write_markdown(path, cadences):
         items = pack.get("items") or []
         lines.append(f"## {blurbs.get(kind, kind)} — {label}")
         lines.append("")
-        lines.append(f"The {len(items)} best design reads.")
+        lines.append(f"The {len(items)} best design and product reads.")
         lines.append("")
         lines.extend(_md_items(items))
     with open(path, "w", encoding="utf-8") as f:
@@ -1401,7 +1404,7 @@ def write_markdown(path, cadences):
 # --------------------------------------------------------------------------
 
 def main():
-    ap = argparse.ArgumentParser(description="Build daily, weekly, and monthly design digests.")
+    ap = argparse.ArgumentParser(description="Build daily, weekly, and monthly design and product digests.")
     ap.add_argument("--days", type=int, default=None,
                     help="rolling window in days (default: this calendar week)")
     ap.add_argument("--limit", type=int, default=12)

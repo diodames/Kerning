@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kerning — design digest</title>
+<title>Kerning — design and product digest</title>
 <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
 <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
 <style>
@@ -344,7 +344,7 @@
   <header class="hero">
     <h1>Kerning</h1>
     <p class="hero-role">
-      A design digest
+      A design and product digest
       <span class="hero-dot" aria-hidden="true">·</span>
       <span class="mute">Ranked by what you&nbsp;like</span>
     </p>
@@ -376,7 +376,7 @@
 
   <footer class="site-foot">
     <p class="note" id="footer-note">
-      A digest from Hacker News, Lobsters, and design publications.
+      A digest from Hacker News, Lobsters, and design and product publications.
       Everything you add on Taste stays in this&nbsp;browser.
     </p>
     <p class="copy">© 2026 Kerning</p>
@@ -1249,7 +1249,7 @@ function renderDigest() {
     statusEl.innerHTML = '<div class="bar"><i></i></div>'
       + '<p class="note">' + (mode === "curated"
         ? (CADENCE_COPY[cadence] || CADENCE_COPY.weekly).loading
-        : "Searching " + QUERIES.length + " design topics on Hacker News.") + "</p>";
+        : "Searching " + QUERIES.length + " design and product topics on Hacker News.") + "</p>";
     listEl.innerHTML = ""; stripsEl.className = "strips hidden"; return;
   }
   if (status === "error") {
@@ -1295,7 +1295,7 @@ function renderDigest() {
   const foot = document.getElementById("footer-note");
   if (foot) {
     foot.textContent = mode === "curated"
-      ? "Built from Hacker News, publications, Substack, design-system releases, and Bluesky. Ratings and Taste stay in this browser."
+      ? "Built from Hacker News, design and product publications, Substack, design-system releases, and Bluesky. Ratings and Taste stay in this browser."
       : "Live results come from the public Hacker News search API. Ratings and Taste stay in this browser.";
   }
   document.getElementById("cadence").classList.toggle("hidden", mode !== "curated");
