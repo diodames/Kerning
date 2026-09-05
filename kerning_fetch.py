@@ -354,6 +354,19 @@ def taste_score(title: str, url: str, weights: dict, authors=None) -> float:
     return sum(weights.get(t, 0) for t in toks) / math.sqrt(len(toks))
 
 
+def downvoted_urls(profile_data) -> set:
+    """Canonical URLs the reader marked less like this."""
+    out = set()
+    ratings = (profile_data or {}).get("ratings") or {}
+    for rec in ratings.values():
+        if not rec or rec.get("r", 0) >= 0:
+            continue
+        key = canonical(rec.get("url") or "")
+        if key:
+            out.add(key)
+    return out
+
+
 # --------------------------------------------------------------------------
 # Sources
 # --------------------------------------------------------------------------
@@ -1325,7 +1338,7 @@ def merge(rows):
     return list(merged.values())
 
 
-def score(item, weights, now, recency_tau=7):
+def score(item, weights, now, recency_tau=7, skip_urls=None):
     rel = 0 if item["always_relevant"] else lexicon_score(item["title"], item["url"])
     if item["always_relevant"]:
         rel = 6
@@ -1355,6 +1368,8 @@ def score(item, weights, now, recency_tau=7):
         + W["taste"] * taste
         + W["recency"] * recency
     )
+    if skip_urls and item.get("key") in skip_urls:
+        total -= 50
 
     why = []
     if n_src > 1:
@@ -1430,10 +1445,14 @@ def serialize_item(it):
     return out
 
 
-def cut_edition(items, since, limit, weights, now, recency_tau):
-    pool = [dict(it) for it in items if it["ts"] >= since]
+def cut_edition(items, since, limit, weights, now, recency_tau, skip_urls=None):
+    skip_urls = skip_urls or set()
+    pool = [
+        dict(it) for it in items
+        if it["ts"] >= since and it.get("key") not in skip_urls
+    ]
     ranked = sorted(
-        (score(it, weights, now, recency_tau) for it in pool),
+        (score(it, weights, now, recency_tau, skip_urls) for it in pool),
         key=lambda x: x["score"],
         reverse=True,
     )
@@ -1581,12 +1600,15 @@ def main():
     n_resources = apply_profile_resources(
         profile_data, feeds, repos, substack_pubs,
     )
+    skip_urls = downvoted_urls(profile_data)
     if profile_ok:
         extra = []
         if n_follows:
             extra.append(f"+{n_follows} follows")
         if n_resources:
             extra.append(f"+{n_resources} resources")
+        if skip_urls:
+            extra.append(f"skipping {len(skip_urls)} downvoted urls")
         suffix = (", " + ", ".join(extra)) if extra else ""
         print(f"taste profile: {len(weights)} learned terms{suffix}", file=sys.stderr)
 
@@ -1681,10 +1703,15 @@ def main():
     now = time.time()
     items = [i for i in items
              if i["always_relevant"] or lexicon_score(i["title"], i["url"]) >= 2]
+    if skip_urls:
+        items = [i for i in items if i.get("key") not in skip_urls]
 
     short_tau = RECENCY_TAU["monthly"] if args.days is None else 7
-    shortlist = sorted(items, key=lambda i: score(i, weights, now, short_tau)["score"],
-                       reverse=True)[:SHORTLIST]
+    shortlist = sorted(
+        items,
+        key=lambda i: score(i, weights, now, short_tau, skip_urls)["score"],
+        reverse=True,
+    )[:SHORTLIST]
 
     searcher = None if args.no_buzz else BlueskySearch()
     for it in shortlist:
@@ -1704,7 +1731,9 @@ def main():
     cadences = {}
     for kind, (start, end) in periods.items():
         tau = RECENCY_TAU.get(kind, 7)
-        picked = cut_edition(items, start.timestamp(), args.limit, weights, now, tau)
+        picked = cut_edition(
+            items, start.timestamp(), args.limit, weights, now, tau, skip_urls,
+        )
         pack = edition_meta(kind, start, end)
         pack["items"] = [serialize_item(it) for it in picked]
         cadences[kind] = pack

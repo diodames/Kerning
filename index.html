@@ -1160,6 +1160,34 @@ function tokensOf(item) {
   return Array.from(set);
 }
 
+function downvotedRatings() {
+  return Object.keys(profile.ratings)
+    .map((id) => {
+      const rec = profile.ratings[id];
+      if (!rec || !(rec.r < 0)) return null;
+      return { id: id, title: rec.title || "", url: rec.url || "", at: rec.at || 0 };
+    })
+    .filter(Boolean)
+    .sort((a, b) => (b.at || 0) - (a.at || 0));
+}
+
+function downvotedCanonSet() {
+  const set = {};
+  downvotedRatings().forEach((a) => {
+    const c = canonUrl(a.url);
+    if (c) set[c] = true;
+  });
+  return set;
+}
+
+function isDownvotedItem(item) {
+  if (!item) return false;
+  const rec = profile.ratings[item.id];
+  if (rec && rec.r < 0) return true;
+  const c = canonUrl(item.url);
+  return !!(c && downvotedCanonSet()[c]);
+}
+
 function rank(item) {
   const base = lexiconScore(item);
   const toks = tokensOf(item);
@@ -1176,10 +1204,11 @@ function rank(item) {
   learned = learned / Math.sqrt(Math.max(toks.length, 1));
 
   const ageDays = (Date.now() / 1000 - item.created_at_i) / 86400;
-  const total = base * 1.0
+  let total = base * 1.0
     + learned * 1.8
     + Math.log10(1 + item.points) * 0.6
     + Math.exp(-ageDays / 9) * 1.2;
+  if (isDownvotedItem(item)) total -= 8;
 
   contrib.sort((a, b) => Math.abs(b[1]) - Math.abs(a[1]));
   return { total: total, base: base, reasons: hasTaste ? contrib.slice(0, 3) : [] };
@@ -1377,7 +1406,9 @@ function rebuildWeights() {
       url: src.url || rec.url || "",
       authors: src.authors || rec.authors || [],
     };
-    bump(tokensOf(item), rec.r);
+    let toks = tokensOf(item);
+    if (rec.r < 0) toks = toks.filter((t) => t.indexOf("site:") !== 0);
+    bump(toks, rec.r);
   });
   profile.weights = weights;
 }
@@ -2095,7 +2126,12 @@ function renderDigest() {
   const statusEl = document.getElementById("digest-status");
   const listEl = document.getElementById("digest-list");
   const stripsEl = document.getElementById("strips");
-  const queue = ranked.filter((it) => !profile.ratings[it.id]);
+  const downCanons = downvotedCanonSet();
+  const queue = ranked.filter((it) => {
+    if (profile.ratings[it.id]) return false;
+    const c = canonUrl(it.url);
+    return !(c && downCanons[c]);
+  });
   const nRatings = Object.keys(profile.ratings).length;
 
   document.getElementById("refresh").disabled = status === "loading";
@@ -2259,7 +2295,7 @@ function tasteColumn(title, rows, color) {
   return '<div class="tcol"><h3>' + title + "</h3>"
     + (rows.length
       ? tasteRowsHTML(rows, color, max)
-      : '<p class="note">Nothing here yet.</p>')
+      : '<p class="note">Mark a story Less like this in the&nbsp;digest.</p>')
     + "</div>";
 }
 
@@ -2576,30 +2612,38 @@ function renderTasteSources() {
     + groupedResources(resources) + "</section>";
 }
 
+function articleChip(item, dropAct) {
+  const host = domainOf(item.url) || item.url || "";
+  const title = item.title || host;
+  const showHost = host && title.trim().toLowerCase() !== String(host).toLowerCase();
+  const editable = dropAct === "drop-article";
+  return '<li class="seed seed-article">'
+    + '<div class="seed-main">'
+    + '<input class="seed-title"'
+    + (editable ? ' data-article-title="' + esc(item.id) + '"' : ' readonly tabindex="-1"')
+    + ' value="' + esc(title) + '" aria-label="Title for ' + esc(host) + '">'
+    + (showHost ? '<span class="seed-host">(' + esc(host) + ")</span>" : "")
+    + "</div>"
+    + '<button type="button" class="seed-x" data-act="' + dropAct + '" data-id="'
+    + esc(item.id) + '" aria-label="Remove"><span aria-hidden="true">×</span></button></li>';
+}
+
+function pushingAwayHTML() {
+  const rows = downvotedRatings();
+  const body = rows.length
+    ? '<ul class="seeds seeds--chips">' + rows.map((a) => articleChip(a, "drop-rating")).join("") + "</ul>"
+    : '<p class="note">Mark a story Less like this in the&nbsp;digest.</p>';
+  return '<div class="tcol"><h3>Pushing stories away</h3>' + body + "</div>";
+}
+
 function renderTasteRank() {
-  const entries = Object.entries(profile.weights).filter((e) => {
-    if (e[0].indexOf("site:") === 0) return Math.abs(e[1]) >= 2;
-    return Math.abs(e[1]) >= 1;
-  });
+  const entries = Object.entries(profile.weights).filter((e) => Math.abs(e[1]) >= 1);
   entries.sort((a, b) => b[1] - a[1]);
   const up = entries.filter((e) => e[1] > 0);
-  const down = entries.filter((e) => e[1] < 0).slice(-14).reverse();
   const articles = profile.seeds.articles;
 
   const articleList = articles.length
-    ? '<ul class="seeds seeds--chips">' + articles.map((a) => {
-        const host = domainOf(a.url) || a.url;
-        const title = a.title || host;
-        const showHost = host && title.trim().toLowerCase() !== String(host).toLowerCase();
-        return '<li class="seed seed-article">'
-          + '<div class="seed-main">'
-          + '<input class="seed-title" data-article-title="' + esc(a.id)
-          + '" value="' + esc(title) + '" aria-label="Title for ' + esc(host) + '">'
-          + (showHost ? '<span class="seed-host">(' + esc(host) + ")</span>" : "")
-          + "</div>"
-          + '<button type="button" class="seed-x" data-act="drop-article" data-id="'
-          + esc(a.id) + '" aria-label="Remove"><span aria-hidden="true">×</span></button></li>';
-      }).join("") + "</ul>"
+    ? '<ul class="seeds seeds--chips">' + articles.map((a) => articleChip(a, "drop-article")).join("") + "</ul>"
     : "";
 
   return '<p class="note taste-primer">' + tastePrimer() + "</p>"
@@ -2618,7 +2662,7 @@ function renderTasteRank() {
     + '<section class="tsec" aria-labelledby="taste-profile">'
     + '<h2 id="taste-profile">Your reading&nbsp;profile</h2>'
     + tasteSpider("Pulling stories toward you", tasteGroupRows(up), "var(--ink)")
-    + tasteColumn("Pushing stories away", down, "var(--faint)")
+    + pushingAwayHTML()
     + "</section>"
 
     + '<div class="reset"><div class="acts">'
@@ -2919,6 +2963,7 @@ document.body.addEventListener("click", (e) => {
   if (act === "unsave") { toggleSave({ id: id }); return; }
   if (act === "drop-person") { removePerson(id); return; }
   if (act === "drop-article") { removeArticle(id); return; }
+  if (act === "drop-rating") { undo({ id: id }); return; }
   if (act === "drop-resource") { removeResource(id); return; }
   if (act === "net") { setPersonNetwork(id, b.dataset.network, b); return; }
   if (act === "res-kind") { setResourceKind(id, b.dataset.kind); return; }
