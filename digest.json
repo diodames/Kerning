@@ -1,0 +1,710 @@
+{
+  "generated_at": "2026-09-05T10:01:55.597274+00:00",
+  "cadence": "weekly",
+  "window_days": 7,
+  "cadences": {
+    "daily": {
+      "label": "5 September 2026",
+      "period_start": "2026-09-05",
+      "period_end": "2026-09-05",
+      "items": [
+        {
+          "id": "e911d64ae234",
+          "title": "Show HN: Arena, the same design system in React and Angular from one contract",
+          "url": "https://arena.dravensoft.org/web-benches/",
+          "hn": "https://news.ycombinator.com/item?id=49572451",
+          "points": 1,
+          "comments": 0,
+          "created_at_i": 1788574596,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.572,
+          "why": []
+        },
+        {
+          "id": "8c35b4598086",
+          "title": "Fontra – The browser-based Font Editor",
+          "url": "https://fontra.xyz",
+          "hn": "https://news.ycombinator.com/item?id=49571360",
+          "points": 3,
+          "comments": 1,
+          "created_at_i": 1788564258,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": []
+        },
+        {
+          "id": "f4ff457f9975",
+          "title": "Iroh inside Tape – Critical UX for self-hosted music streaming suite",
+          "url": "https://tapemusicsuite.com/blog/iroh-device-connection-without-tailscale",
+          "hn": "https://news.ycombinator.com/item?id=49574700",
+          "points": 1,
+          "comments": 0,
+          "created_at_i": 1788599157,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.44,
+          "why": []
+        },
+        {
+          "id": "0c359ce859b5",
+          "title": "CSS is Turing Complete (2022)",
+          "url": "https://github.com/Mooninaut/css-is-turing-complete",
+          "hn": "https://news.ycombinator.com/item?id=49573279",
+          "points": 2,
+          "comments": 0,
+          "created_at_i": 1788585263,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.147,
+          "why": []
+        }
+      ]
+    },
+    "weekly": {
+      "label": "31 August – 6 September 2026",
+      "period_start": "2026-08-31",
+      "period_end": "2026-09-06",
+      "week_start": "2026-08-31",
+      "week_end": "2026-09-06",
+      "week_label": "31 August – 6 September 2026",
+      "iso_week": "2026-W36",
+      "items": [
+        {
+          "id": "7f129790849b",
+          "title": "Is Minifying CSS Necessary? (2023)",
+          "url": "https://shivjm.blog/is-minifying-css-necessary/",
+          "hn": "https://news.ycombinator.com/item?id=49533489",
+          "points": 64,
+          "comments": 25,
+          "created_at_i": 1788277364,
+          "sources": [
+            "Hacker News",
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 7.014,
+          "why": [
+            "picked up by Hacker News and Lobsters"
+          ]
+        },
+        {
+          "id": "686c70dbadf7",
+          "title": "The best dark mode toggle is probably none • Lea Verou",
+          "url": "https://lea.verou.me/blog/2026/dark-mode-toggles-2/",
+          "hn": "https://bsky.app/profile/lea.verou.me/post/3mukdzdwaps2q",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788366376,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 6.007,
+          "why": [
+            "shared by 2 design accounts",
+            "2 Bluesky posts"
+          ]
+        },
+        {
+          "id": "309cdb5bc8b7",
+          "title": "Spectrum (Adobe) — @react-spectrum/s2@1.7.1",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.7.1",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.7.1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788544817,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.762,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "ee88ba3634dd",
+          "title": "Spectrum (Adobe) — @react-spectrum/filetrigger@3.1.5",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.5",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.5",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788544817,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.762,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "e24783e3ef46",
+          "title": "AI & Design Systems Course with Brad Frost, TJ Pitre, and Ian Frost",
+          "url": "https://aianddesign.systems",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3muphgq275p2u",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788541845,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 4.342,
+          "why": [
+            "spotted on Bluesky"
+          ]
+        },
+        {
+          "id": "8c4eb6f516c2",
+          "title": "Ambient CSS v3 – Blender meets CSS",
+          "url": "https://ambientcss.vercel.app/",
+          "hn": "https://news.ycombinator.com/item?id=49523387",
+          "points": 305,
+          "comments": 98,
+          "created_at_i": 1788276911,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.164,
+          "why": [
+            "305 points"
+          ]
+        },
+        {
+          "id": "805e31c30481",
+          "title": "Top Web Design Styles of 1993",
+          "url": "https://contemporary-home-computing.org/prof-dr-style/",
+          "hn": "https://news.ycombinator.com/item?id=49516117",
+          "points": 67,
+          "comments": 14,
+          "created_at_i": 1788219304,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.121,
+          "why": []
+        },
+        {
+          "id": "c7a3cc9f1a8e",
+          "title": "How AI-ready is your design system?",
+          "url": "https://christophhellmuth.com/open-design-system-bench/",
+          "hn": "https://christophhellmuth.com/open-design-system-bench/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788333334,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.968,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "2bfc87c0febb",
+          "title": "Users don’t see your design system",
+          "url": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788258531,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.926,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "f9c6fab30e34",
+          "title": "Using AI for UX Work: Study Guide",
+          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788537600,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.758,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "ba05ae13a044",
+          "title": "A geometric typeface made for the age of AI",
+          "url": "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai",
+          "hn": "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788491040,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.728,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "96aa9af75e61",
+          "title": "UX Conference November Announced (Nov 16 - Nov 19)",
+          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788407449,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.678,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        }
+      ]
+    },
+    "monthly": {
+      "label": "September 2026",
+      "period_start": "2026-09-01",
+      "period_end": "2026-09-30",
+      "items": [
+        {
+          "id": "7f129790849b",
+          "title": "Is Minifying CSS Necessary? (2023)",
+          "url": "https://shivjm.blog/is-minifying-css-necessary/",
+          "hn": "https://news.ycombinator.com/item?id=49533489",
+          "points": 64,
+          "comments": 25,
+          "created_at_i": 1788277364,
+          "sources": [
+            "Hacker News",
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 7.115,
+          "why": [
+            "picked up by Hacker News and Lobsters"
+          ]
+        },
+        {
+          "id": "686c70dbadf7",
+          "title": "The best dark mode toggle is probably none • Lea Verou",
+          "url": "https://lea.verou.me/blog/2026/dark-mode-toggles-2/",
+          "hn": "https://bsky.app/profile/lea.verou.me/post/3mukdzdwaps2q",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788366376,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 6.082,
+          "why": [
+            "shared by 2 design accounts",
+            "2 Bluesky posts"
+          ]
+        },
+        {
+          "id": "309cdb5bc8b7",
+          "title": "Spectrum (Adobe) — @react-spectrum/s2@1.7.1",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.7.1",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.7.1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788544817,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.782,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "ee88ba3634dd",
+          "title": "Spectrum (Adobe) — @react-spectrum/filetrigger@3.1.5",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.5",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.5",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788544817,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.782,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "e24783e3ef46",
+          "title": "AI & Design Systems Course with Brad Frost, TJ Pitre, and Ian Frost",
+          "url": "https://aianddesign.systems",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3muphgq275p2u",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788541845,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 4.363,
+          "why": [
+            "spotted on Bluesky"
+          ]
+        },
+        {
+          "id": "8c4eb6f516c2",
+          "title": "Ambient CSS v3 – Blender meets CSS",
+          "url": "https://ambientcss.vercel.app/",
+          "hn": "https://news.ycombinator.com/item?id=49523387",
+          "points": 305,
+          "comments": 98,
+          "created_at_i": 1788276911,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.264,
+          "why": [
+            "305 points"
+          ]
+        },
+        {
+          "id": "805e31c30481",
+          "title": "Top Web Design Styles of 1993",
+          "url": "https://contemporary-home-computing.org/prof-dr-style/",
+          "hn": "https://news.ycombinator.com/item?id=49516117",
+          "points": 67,
+          "comments": 14,
+          "created_at_i": 1788219304,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.237,
+          "why": []
+        },
+        {
+          "id": "c7a3cc9f1a8e",
+          "title": "How AI-ready is your design system?",
+          "url": "https://christophhellmuth.com/open-design-system-bench/",
+          "hn": "https://christophhellmuth.com/open-design-system-bench/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788333334,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 4.053,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "2bfc87c0febb",
+          "title": "Users don’t see your design system",
+          "url": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788258531,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.032,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "f9c6fab30e34",
+          "title": "Using AI for UX Work: Study Guide",
+          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788537600,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.78,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "ba05ae13a044",
+          "title": "A geometric typeface made for the age of AI",
+          "url": "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai",
+          "hn": "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788491040,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.766,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "5da86bcb008d",
+          "title": "Make your logo brighter than white",
+          "url": "https://www.soverybright.com/",
+          "hn": "https://www.soverybright.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788408761,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.742,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "7f129790849b",
+      "title": "Is Minifying CSS Necessary? (2023)",
+      "url": "https://shivjm.blog/is-minifying-css-necessary/",
+      "hn": "https://news.ycombinator.com/item?id=49533489",
+      "points": 64,
+      "comments": 25,
+      "created_at_i": 1788277364,
+      "sources": [
+        "Hacker News",
+        "Lobsters"
+      ],
+      "sharers": 0,
+      "score": 7.014,
+      "why": [
+        "picked up by Hacker News and Lobsters"
+      ]
+    },
+    {
+      "id": "686c70dbadf7",
+      "title": "The best dark mode toggle is probably none • Lea Verou",
+      "url": "https://lea.verou.me/blog/2026/dark-mode-toggles-2/",
+      "hn": "https://bsky.app/profile/lea.verou.me/post/3mukdzdwaps2q",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1788366376,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 6.007,
+      "why": [
+        "shared by 2 design accounts",
+        "2 Bluesky posts"
+      ]
+    },
+    {
+      "id": "309cdb5bc8b7",
+      "title": "Spectrum (Adobe) — @react-spectrum/s2@1.7.1",
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.7.1",
+      "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.7.1",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1788544817,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.762,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "ee88ba3634dd",
+      "title": "Spectrum (Adobe) — @react-spectrum/filetrigger@3.1.5",
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.5",
+      "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.5",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1788544817,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.762,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "e24783e3ef46",
+      "title": "AI & Design Systems Course with Brad Frost, TJ Pitre, and Ian Frost",
+      "url": "https://aianddesign.systems",
+      "hn": "https://bsky.app/profile/bradfrost.com/post/3muphgq275p2u",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1788541845,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 4.342,
+      "why": [
+        "spotted on Bluesky"
+      ]
+    },
+    {
+      "id": "8c4eb6f516c2",
+      "title": "Ambient CSS v3 – Blender meets CSS",
+      "url": "https://ambientcss.vercel.app/",
+      "hn": "https://news.ycombinator.com/item?id=49523387",
+      "points": 305,
+      "comments": 98,
+      "created_at_i": 1788276911,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.164,
+      "why": [
+        "305 points"
+      ]
+    },
+    {
+      "id": "805e31c30481",
+      "title": "Top Web Design Styles of 1993",
+      "url": "https://contemporary-home-computing.org/prof-dr-style/",
+      "hn": "https://news.ycombinator.com/item?id=49516117",
+      "points": 67,
+      "comments": 14,
+      "created_at_i": 1788219304,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.121,
+      "why": []
+    },
+    {
+      "id": "c7a3cc9f1a8e",
+      "title": "How AI-ready is your design system?",
+      "url": "https://christophhellmuth.com/open-design-system-bench/",
+      "hn": "https://christophhellmuth.com/open-design-system-bench/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1788333334,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.968,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "2bfc87c0febb",
+      "title": "Users don’t see your design system",
+      "url": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1788258531,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 3.926,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "f9c6fab30e34",
+      "title": "Using AI for UX Work: Study Guide",
+      "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1788537600,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.758,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
+      "id": "ba05ae13a044",
+      "title": "A geometric typeface made for the age of AI",
+      "url": "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai",
+      "hn": "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1788491040,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.728,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "96aa9af75e61",
+      "title": "UX Conference November Announced (Nov 16 - Nov 19)",
+      "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1788407449,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.678,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    }
+  ],
+  "week_start": "2026-08-31",
+  "week_end": "2026-09-06",
+  "week_label": "31 August – 6 September 2026",
+  "iso_week": "2026-W36"
+}

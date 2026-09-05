@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kerning — design digest</title>
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f7f5f2;
+    --ink: #1a1a1a;
+    --ink-deep: #0c0c0c;
+    --mute: #5c5c58;
+    --faint: #8e8e8a;
+    --line: rgba(109, 109, 106, 0.18);
+    --sage: #3f6d56;
+    --warm: #8a3d28;
+    --pad: clamp(20px, 4vw, 40px);
+    --nav-h: 62px;
+    --ease: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --type: "Satoshi", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --text-display: clamp(3.25rem, 8vw, 7.5rem);
+    --text-title: 1.125rem;
+    --text-body: 1rem;
+    --text-meta: 0.8125rem;
+    --text-micro: 0.6875rem;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--paper); }
+  html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+  body {
+    color: var(--ink);
+    font-family: var(--type);
+    font-weight: 400;
+    font-size: var(--text-body);
+    letter-spacing: -0.02em;
+    line-height: 1.45;
+  }
+  ::selection { background: var(--ink); color: var(--paper); }
+  .skip {
+    position: absolute; left: var(--pad); top: 8px; z-index: 40;
+    padding: 8px 12px; background: var(--ink); color: var(--paper);
+    text-decoration: none; font-size: var(--text-meta);
+    transform: translateY(-120%);
+  }
+  .skip:focus { transform: none; }
+  button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible {
+    outline: 2px solid var(--ink);
+    outline-offset: 3px;
+  }
+  .site-nav {
+    position: sticky; top: 0; z-index: 20;
+    display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+    min-height: var(--nav-h);
+    padding: 4px var(--pad);
+    background: var(--paper);
+  }
+  .nav-logo {
+    margin-right: auto;
+    color: var(--ink); text-decoration: none;
+    font-weight: 700; font-size: 13px; letter-spacing: -0.02em;
+    white-space: nowrap;
+  }
+  .nav-logo:hover { color: var(--ink); }
+  .nav-dash { font-weight: 400; color: var(--faint); padding: 0 0.15em; }
+  .tabs {
+    display: flex; align-items: center; gap: 22px;
+    margin: 0; border: 0;
+  }
+  .tab {
+    background: none; border: 0; padding: 10px 0;
+    min-height: 44px; cursor: pointer;
+    font: inherit; font-size: 15px; letter-spacing: -0.02em;
+    color: var(--faint);
+    transition: color 180ms var(--ease-out);
+  }
+  .tab.on { color: var(--ink); font-weight: 500; }
+  .wrap { padding: 0 var(--pad) 96px; }
+  .hero { padding: clamp(28px, 6vh, 72px) 0 clamp(40px, 8vh, 88px); }
+  h1 {
+    margin: 0;
+    font-size: var(--text-display);
+    font-weight: 500;
+    letter-spacing: -0.07em;
+    line-height: 0.84;
+    text-wrap: balance;
+  }
+  .hero-role {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 0.7em;
+    row-gap: 0.2em;
+    margin: 28px 0 0;
+    font-size: var(--text-body);
+    font-weight: 400;
+    line-height: 1.35;
+    letter-spacing: -0.02em;
+    max-width: 52ch;
+    text-wrap: pretty;
+  }
+  .hero-dot {
+    color: var(--faint);
+    user-select: none;
+  }
+  .hero-role .mute { color: var(--mute); }
+
+  .controls {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 16px; margin: 0 0 8px; flex-wrap: wrap;
+  }
+  .range { display: flex; gap: 20px; align-items: center; }
+  .chip, .btn, .link, .text-act {
+    font: inherit; letter-spacing: -0.02em; cursor: pointer;
+    background: none; border: 0; padding: 10px 0;
+    min-height: 44px; color: var(--mute);
+    transition: color 180ms var(--ease-out), opacity 180ms var(--ease-out),
+      transform 160ms var(--ease-out);
+  }
+  .chip { font-size: 15px; }
+  .chip.on { color: var(--ink); font-weight: 500; }
+  .btn, .text-act, .link {
+    font-size: 14px; color: var(--mute);
+    text-decoration: none;
+    text-underline-offset: 3px;
+    text-decoration-thickness: from-font;
+  }
+  .link { text-decoration: underline; color: var(--ink); }
+  .btn:hover, .text-act:hover, .chip:hover, .link:hover { color: var(--ink); }
+  .btn:disabled { opacity: .4; cursor: default; }
+  .btn:active, .chip:active, .tab:active, .text-act:active, .link:active {
+    transform: scale(0.96);
+  }
+  .btn.saved, .text-act.saved { color: var(--ink); font-weight: 500; }
+
+  .bar { height: 1px; background: var(--line); overflow: hidden; margin-top: 28px; }
+  .bar > i {
+    display: block; height: 100%; background: var(--ink);
+    width: 0; transition: width 300ms var(--ease-out);
+  }
+  .note {
+    font-size: var(--text-meta); color: var(--mute);
+    line-height: 1.55; margin: 10px 0 0;
+    max-width: 58ch; text-wrap: pretty;
+  }
+  .primer {
+    font-size: 15px; color: var(--mute); line-height: 1.5;
+    margin: 0 0 28px; max-width: 54ch; text-wrap: pretty;
+  }
+  .empty { padding: 56px 0 24px; }
+  .empty h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 500;
+    letter-spacing: -0.04em; line-height: 1.15; margin: 0;
+    text-wrap: balance;
+  }
+
+  ol.list, ul.list { list-style: none; margin: 0; padding: 0; }
+  li.item {
+    display: grid;
+    grid-template-columns: 5.5rem minmax(0, 1fr);
+    column-gap: 24px;
+    align-items: start;
+    padding: 28px 0;
+    border-bottom: 1px solid var(--line);
+    transition: opacity 200ms var(--ease-out);
+  }
+  li.item:first-child { border-top: 1px solid var(--line); }
+  li.item--plain { grid-template-columns: minmax(0, 1fr); }
+  .rank {
+    font-size: 15px; line-height: 1.4; color: var(--faint);
+    font-variant-numeric: tabular-nums;
+    padding-top: 2px;
+  }
+  .rank-of { color: var(--faint); }
+  .body { min-width: 0; }
+  a.title {
+    font-size: var(--text-title); font-weight: 500;
+    line-height: 1.28; letter-spacing: -0.03em;
+    color: var(--ink); text-decoration: none;
+    display: block; max-width: 46ch;
+    text-wrap: balance;
+    text-underline-offset: 4px;
+    text-decoration-thickness: from-font;
+  }
+  #digest-list { scroll-margin-top: calc(var(--nav-h) + 12px); }
+  .primer code { font-size: 0.92em; letter-spacing: 0; }
+  .hero.hidden + main { padding-top: 28px; }
+  .meta {
+    display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 8px 0 0;
+    font-size: var(--text-meta); color: var(--mute); line-height: 1.45;
+  }
+  .meta a {
+    color: var(--mute); text-decoration: none;
+    text-underline-offset: 3px; text-decoration-thickness: from-font;
+  }
+  .meta a:hover { color: var(--ink); text-decoration: underline; }
+  .why {
+    display: flex; flex-wrap: wrap; gap: 10px 14px;
+    margin: 8px 0 0; font-size: var(--text-micro);
+    color: var(--mute);
+  }
+  .why .pos { color: var(--sage); }
+  .why .neg { color: var(--warm); }
+  .acts { display: flex; flex-wrap: wrap; gap: 4px 22px; margin-top: 6px; }
+  .acts .up:hover { color: var(--sage); }
+  .acts .down:hover { color: var(--warm); }
+
+  .strips { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); }
+  .strip {
+    display: grid; grid-template-columns: 3.2rem minmax(0, 1fr) auto;
+    gap: 12px; align-items: center; padding: 10px 0;
+    font-size: var(--text-meta); color: var(--mute);
+  }
+  .strip .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .week-dates { white-space: nowrap; }
+
+  .tcol { margin-bottom: 40px; }
+  .tcol h2, .tcol h3 {
+    font-size: var(--text-title); font-weight: 500;
+    letter-spacing: -0.03em; margin: 0 0 16px;
+  }
+  .trow {
+    display: grid; grid-template-columns: minmax(0, 38%) 1fr;
+    gap: 16px; align-items: center; padding: 9px 0;
+  }
+  .trow .term {
+    font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .trow .tb { height: 1px; background: var(--line); }
+  .trow .tb > i { display: block; height: 100%; background: var(--ink); }
+  .reset { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); }
+  .tsec { margin: 8px 0 48px; }
+  .tsec > h2 {
+    font-size: var(--text-title); font-weight: 500;
+    letter-spacing: -0.03em; margin: 0 0 8px;
+  }
+  .tadd {
+    display: flex; gap: 16px; align-items: flex-end;
+    flex-wrap: wrap; margin: 12px 0 0;
+  }
+  .tfield { flex: 1 1 16rem; min-width: 0; }
+  .tfield label {
+    display: block;
+    font-size: var(--text-micro); color: var(--mute);
+    margin: 0 0 6px;
+  }
+  .tfield input {
+    width: 100%;
+    font: inherit; font-size: 15px; letter-spacing: -0.02em;
+    color: var(--ink); background: transparent;
+    border: 0; border-bottom: 1px solid var(--line); border-radius: 0;
+    padding: 8px 0 10px; min-height: 44px;
+  }
+  .tfield input::placeholder { color: var(--faint); }
+  .tfield input:focus { border-bottom-color: var(--ink); }
+  .tfield input[aria-invalid="true"] { border-bottom-color: var(--warm); }
+  .field-err {
+    font-size: var(--text-meta); color: var(--warm);
+    margin: 8px 0 0; max-width: 54ch;
+  }
+  .seeds { list-style: none; margin: 16px 0 0; padding: 0; }
+  .seed {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px 16px;
+    align-items: start;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .seed:first-child { border-top: 1px solid var(--line); }
+  .seed .name, .seed-title {
+    font: inherit; font-size: 15px; font-weight: 500;
+    letter-spacing: -0.03em; color: var(--ink);
+    background: transparent; border: 0; padding: 0;
+    width: 100%; text-align: left;
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .seed-title { min-height: 44px; cursor: text; }
+  .seed .sub {
+    display: flex; flex-wrap: wrap; gap: 4px 16px;
+    margin: 4px 0 0;
+    font-size: var(--text-meta); color: var(--mute);
+  }
+  .net { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 2px; }
+  .net .chip { font-size: 13px; min-height: 40px; padding: 6px 0; }
+  .taste-primer { margin: 8px 0 32px; }
+  footer.site-foot {
+    display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap;
+    margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--line);
+  }
+  footer.site-foot .note { margin: 0; }
+  .copy { font-size: var(--text-meta); color: var(--mute); white-space: nowrap; }
+  .hidden { display: none; }
+
+  @media (hover: hover) and (pointer: fine) {
+    .list:hover .item { opacity: 0.32; }
+    .list:hover .item:hover { opacity: 1; }
+    a.title:hover { text-decoration: underline; }
+    .tab:hover { color: var(--ink); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+    .list:hover .item { opacity: 1; }
+    .btn:active, .chip:active, .tab:active, .text-act:active, .link:active {
+      transform: none;
+    }
+  }
+  @media (max-width: 640px) {
+    :root { --nav-h: 56px; }
+    .tabs { gap: 16px; }
+    .tab, .chip { font-size: 14px; }
+    li.item { grid-template-columns: 2.6rem minmax(0, 1fr); column-gap: 12px; padding: 22px 0; }
+    .rank-of { display: none; }
+    a.title { font-size: 1.0625rem; }
+    .hero { padding: 24px 0 48px; }
+    .trow { grid-template-columns: minmax(0, 46%) 1fr; }
+    .tfield input { font-size: 16px; }
+    .seed { grid-template-columns: minmax(0, 1fr); }
+    .seed .acts { margin-top: 0; }
+  }
+  @media (forced-colors: active) {
+    .chip.on, .tab.on { outline: 2px solid CanvasText; }
+    .bar > i { background: CanvasText; }
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#digest-list">Skip to stories</a>
+<header class="site-nav">
+  <a class="nav-logo" href="./kerning.html">K<span class="nav-dash" aria-hidden="true">⎯</span>©’26</a>
+  <nav class="tabs" id="tabs" aria-label="Primary">
+    <button type="button" class="tab on" data-tab="digest" aria-current="page">Digest</button>
+    <button type="button" class="tab" data-tab="saved">Saved</button>
+    <button type="button" class="tab" data-tab="taste">Taste</button>
+  </nav>
+</header>
+<div class="wrap">
+  <header class="hero">
+    <h1>Kerning</h1>
+    <p class="hero-role">
+      A design digest
+      <span class="hero-dot" aria-hidden="true">·</span>
+      <span class="mute">Ranked by what you&nbsp;like</span>
+    </p>
+  </header>
+
+  <main>
+  <section id="view-digest">
+    <div class="controls">
+      <div class="range" id="cadence" role="radiogroup" aria-label="Digest period">
+        <button type="button" class="chip" role="radio" aria-checked="false" data-cadence="daily">Daily</button>
+        <button type="button" class="chip on" role="radio" aria-checked="true" data-cadence="weekly">Weekly</button>
+        <button type="button" class="chip" role="radio" aria-checked="false" data-cadence="monthly">Monthly</button>
+      </div>
+      <div class="range hidden" id="range" role="radiogroup" aria-label="Live window">
+        <button type="button" class="chip" role="radio" aria-checked="false" data-days="3">3 days</button>
+        <button type="button" class="chip on" role="radio" aria-checked="true" data-days="7">7 days</button>
+        <button type="button" class="chip" role="radio" aria-checked="false" data-days="30">30 days</button>
+      </div>
+      <button type="button" class="btn" id="refresh">Refresh</button>
+    </div>
+    <div id="digest-status" role="status"></div>
+    <ol class="list" id="digest-list"></ol>
+    <div class="strips hidden" id="strips"></div>
+  </section>
+
+  <section id="view-saved" class="hidden"></section>
+  <section id="view-taste" class="hidden"></section>
+  </main>
+
+  <footer class="site-foot">
+    <p class="note" id="footer-note">
+      A digest from Hacker News, Lobsters, and design publications.
+      Everything you add on Taste stays in this&nbsp;browser.
+    </p>
+    <p class="copy">© 2026 Kerning</p>
+  </footer>
+</div>
+
+<script>
+"use strict";
+
+/* ---------------------------------------------------------------- */
+/* Config                                                            */
+/* ---------------------------------------------------------------- */
+
+const KEY = "kerning:profile:v1";
+const CADENCE_KEY = "kerning:cadence";
+const CADENCES = ["daily", "weekly", "monthly"];
+const CADENCE_COPY = {
+  daily: {
+    prefix: "Today",
+    rate: " Rate a few and tomorrow\u2019s ranking follows your taste.",
+    taste: " Or add people you follow on Taste.",
+    empty: "That\u2019s today\u2019s list.",
+    emptyNote: "Saved stories stay here. A new issue lands tomorrow.",
+    loading: "Opening today\u2019s digest.",
+    vacant: "Nothing in today\u2019s digest yet.",
+    vacantNote: "Try Weekly, or check back later today.",
+  },
+  weekly: {
+    prefix: "This week",
+    rate: " Rate a few and next week\u2019s ranking follows your taste.",
+    taste: " Or add people you follow on Taste.",
+    empty: "That\u2019s this week\u2019s list.",
+    emptyNote: "Saved stories stay here. A new issue lands Monday.",
+    loading: "Opening this week\u2019s digest.",
+    vacant: "Nothing in this week\u2019s digest yet.",
+    vacantNote: "Try Monthly, or rebuild later in the week.",
+  },
+  monthly: {
+    prefix: "This month",
+    rate: " Rate a few and next month\u2019s ranking follows your taste.",
+    taste: " Or add people you follow on Taste.",
+    empty: "That\u2019s this month\u2019s list.",
+    emptyNote: "Saved stories stay here. A new issue lands on the 1st.",
+    loading: "Opening this month\u2019s digest.",
+    vacant: "Nothing in this month\u2019s digest yet.",
+    vacantNote: "Rebuild the digest, or try Weekly.",
+  },
+};
+
+const QUERIES = [
+  "design", "typography", "typeface", "fonts", "font", "lettering",
+  "UX", "user interface", "usability", "accessibility",
+  "design system", "design tools", "figma", "CSS", "web design",
+  "icons", "illustration", "branding", "logo", "color palette",
+  "animation", "product design", "interaction design",
+  "product management", "product discovery", "product manager",
+  "jobs to be done", "product strategy", "user research",
+];
+
+const LEXICON = [
+  ["typography",3],["typographic",3],["typeface",3],["typesetting",3],["kerning",3],
+  ["baseline grid",3],["font",3],["fonts",3],["variable font",3],["lettering",3],
+  ["figma",3],["design system",3],["design systems",3],["design tokens",3],
+  ["ux",3],["user experience",3],["ui",3],["user interface",3],["usability",3],
+  ["interaction design",3],["visual design",3],["graphic design",3],
+  ["product design",3],["industrial design",3],["information architecture",3],
+  ["wireframe",3],["human interface",3],["material design",3],["skeuomorph",3],
+  ["bauhaus",3],["swiss design",3],["illustration",3],["iconography",3],
+  ["accessibility",3],["a11y",3],["wcag",3],["screen reader",3],["motion design",3],
+  ["brand identity",3],["color palette",3],["grid system",3],["web design",3],
+  ["logo",3],["legibility",3],["type design",3],
+  ["icons",2],["illustrator",2],["branding",2],["palette",2],["colour",2],
+  ["layout",2],["css",2],["tailwind",2],["svg",2],["animation",2],["prototype",2],
+  ["prototyping",2],["poster",2],["dark mode",2],["aesthetic",2],["aesthetics",2],
+  ["designer",2],["redesign",2],["readability",2],
+  ["product strategy",2],["product sense",2],["roadmap",2],
+  ["prioritization",2],["prd",2],["user research",2],
+  ["outcome-based",2],["product-led",2],
+  ["product management",3],["product manager",3],
+  ["product discovery",3],["jobs to be done",3],["jtbd",3],
+  ["opportunity solution tree",3],["dual-track",3],
+  ["continuous discovery",3],["product ops",3],
+  ["design",1],["craft",1],["interface",1],
+];
+
+const STOP = new Set(("the a an and or of for to in on with from this that how why what " +
+  "your you are is it its at as be by we our not new using use can show ask hn i my me " +
+  "was were has have had but if then than so out up more most about into over after " +
+  "before all any some one two three via just like get got make makes made don doe " +
+  "doesn isn does what's here there when who").split(/\s+/));
+
+/* ---------------------------------------------------------------- */
+/* State                                                             */
+/* ---------------------------------------------------------------- */
+
+const NETWORKS = ["bsky", "x", "substack"];
+const NET_LABEL = { bsky: "Bluesky", x: "X", substack: "Substack" };
+const X_RESERVED = new Set(("home explore notifications messages search i following " +
+  "followers bookmarks lists topics settings compose intent").split(/\s+/));
+
+function emptySeeds() {
+  return { people: [], articles: [] };
+}
+function emptyProfile() {
+  return { weights: {}, ratings: {}, saved: [], seeds: emptySeeds() };
+}
+function normalizeProfile(p) {
+  const seeds = (p && p.seeds) || {};
+  return {
+    weights: (p && p.weights) || {},
+    ratings: (p && p.ratings) || {},
+    saved: (p && p.saved) || [],
+    seeds: {
+      people: Array.isArray(seeds.people) ? seeds.people : [],
+      articles: Array.isArray(seeds.articles) ? seeds.articles : [],
+    },
+  };
+}
+
+let profile = emptyProfile();
+let raw = [];
+let ranked = [];
+let justRated = {};
+let days = 7;
+let tab = "digest";
+let status = "idle";
+
+// "curated" reads digest.json built by kerning_fetch.py (all sources, already
+// ranked). "live" queries Hacker News directly from the browser. The app
+// prefers curated and falls back to live when the file isn't there.
+let mode = "curated";
+let digestMeta = null;
+let digestPack = null;
+let cadence = "weekly";
+
+function loadProfile() {
+  try {
+    const s = localStorage.getItem(KEY);
+    if (s) {
+      const p = JSON.parse(s);
+      profile = normalizeProfile(p);
+    }
+  } catch (e) { /* start fresh */ }
+  try {
+    const c = localStorage.getItem(CADENCE_KEY);
+    if (CADENCES.indexOf(c) >= 0) cadence = c;
+  } catch (e) { /* keep weekly */ }
+  rebuildWeights();
+  seedPendingBluesky();
+}
+function saveCadence() {
+  try { localStorage.setItem(CADENCE_KEY, cadence); }
+  catch (e) { /* private mode */ }
+}
+function saveProfile() {
+  try { localStorage.setItem(KEY, JSON.stringify(profile)); }
+  catch (e) { /* quota or private mode — app still works this session */ }
+}
+
+/* ---------------------------------------------------------------- */
+/* Scoring                                                           */
+/* ---------------------------------------------------------------- */
+
+const clamp = (n, lo, hi) => Math.max(lo, Math.min(hi, n));
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) =>
+  ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+
+function domainOf(url) {
+  if (!url) return "";
+  try { return new URL(url).hostname.replace(/^www\./, ""); } catch (e) { return ""; }
+}
+
+function lexiconScore(item) {
+  const hay = (item.title + " " + domainOf(item.url)).toLowerCase();
+  let score = 0;
+  for (const pair of LEXICON) {
+    const term = pair[0], w = pair[1];
+    const hit = term.indexOf(" ") >= 0
+      ? hay.indexOf(term) >= 0
+      : new RegExp("\\b" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(hay);
+    if (hit) score += w;
+  }
+  return score;
+}
+
+function tokensOf(item) {
+  const hay = ((item.title || "") + " " + domainOf(item.url)).toLowerCase();
+  const set = new Set();
+  for (let i = 0; i < LEXICON.length; i++) {
+    const term = LEXICON[i][0], w = LEXICON[i][1];
+    if (w < 2) continue;
+    const hit = term.indexOf(" ") >= 0
+      ? hay.indexOf(term) >= 0
+      : new RegExp("\\b" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(hay);
+    if (hit) set.add(term);
+  }
+  const d = domainOf(item.url);
+  if (d) set.add("site:" + d);
+  (item.authors || []).forEach((a) => {
+    if (a) set.add("person:" + String(a).toLowerCase());
+  });
+  return Array.from(set);
+}
+
+function rank(item) {
+  const base = lexiconScore(item);
+  const toks = tokensOf(item);
+  const hasTaste = Object.keys(profile.ratings).length > 0
+    || profile.seeds.people.length > 0
+    || profile.seeds.articles.length > 0;
+
+  let learned = 0;
+  const contrib = [];
+  for (const t of toks) {
+    const w = profile.weights[t] || 0;
+    if (w !== 0) { learned += w; contrib.push([t, w]); }
+  }
+  learned = learned / Math.sqrt(Math.max(toks.length, 1));
+
+  const ageDays = (Date.now() / 1000 - item.created_at_i) / 86400;
+  const total = base * 1.0
+    + learned * 1.8
+    + Math.log10(1 + item.points) * 0.6
+    + Math.exp(-ageDays / 9) * 1.2;
+
+  contrib.sort((a, b) => Math.abs(b[1]) - Math.abs(a[1]));
+  return { total: total, base: base, reasons: hasTaste ? contrib.slice(0, 3) : [] };
+}
+
+function timeAgo(unix) {
+  const h = Math.floor((Date.now() / 1000 - unix) / 3600);
+  if (h < 1) return "just now";
+  if (h < 24) return h + "h ago";
+  const d = Math.round(h / 24);
+  return d === 1 ? "yesterday" : d + "d ago";
+}
+
+function weekdayOf(unix) {
+  return new Date(unix * 1000).toLocaleDateString(undefined, { weekday: "long" });
+}
+
+function periodDates(meta) {
+  const start = meta.period_start || meta.week_start;
+  const end = meta.period_end || meta.week_end;
+  if (!start) return meta.label || meta.week_label || "";
+  const a = new Date(start + "T00:00:00");
+  const b = new Date((end || start) + "T00:00:00");
+  if (cadence === "daily") {
+    return a.toLocaleDateString(undefined, { weekday: "long", day: "numeric", month: "short" });
+  }
+  if (cadence === "monthly") {
+    return a.toLocaleDateString(undefined, { month: "long", year: "numeric" });
+  }
+  const left = a.toLocaleDateString(undefined, { day: "numeric", month: "short" });
+  const right = b.toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
+  return left + " \u2013 " + right;
+}
+
+function itemWhen(unix) {
+  if (mode !== "curated") return timeAgo(unix);
+  if (cadence === "daily") return timeAgo(unix);
+  if (cadence === "monthly") {
+    return new Date(unix * 1000).toLocaleDateString(undefined, { day: "numeric", month: "short" });
+  }
+  return weekdayOf(unix);
+}
+
+function mapDigestItems(items) {
+  return (items || []).map((it) => ({
+    id: String(it.id),
+    title: it.title,
+    url: it.url,
+    hn: it.hn || it.url,
+    points: it.points || 0,
+    comments: it.comments || 0,
+    created_at_i: it.created_at_i,
+    sources: it.sources || [],
+    authors: it.authors || [],
+    reasons: (it.why || []).map((w) => [w, 1]),
+    total: it.score || 0,
+    base: 99,
+  }));
+}
+
+function setCadenceChips() {
+  document.querySelectorAll("#cadence .chip").forEach((c) => {
+    const on = c.dataset.cadence === cadence;
+    c.classList.toggle("on", on);
+    c.setAttribute("aria-checked", on ? "true" : "false");
+  });
+}
+
+function applyCadence(name, renderNow) {
+  if (CADENCES.indexOf(name) < 0) name = "weekly";
+  cadence = name;
+  saveCadence();
+  setCadenceChips();
+  if (!digestPack) return;
+  const pack = digestPack.cadences[name]
+    || digestPack.cadences.weekly
+    || digestPack.cadences.daily
+    || digestPack.cadences.monthly
+    || { items: [] };
+  digestMeta = {
+    generated_at: digestPack.generated_at,
+    cadence: name,
+    label: pack.label || null,
+    period_start: pack.period_start || pack.week_start || null,
+    period_end: pack.period_end || pack.week_end || null,
+    week_label: pack.week_label || pack.label || null,
+    week_start: pack.week_start || pack.period_start || null,
+    week_end: pack.week_end || pack.period_end || null,
+    iso_week: pack.iso_week || null,
+  };
+  raw = mapDigestItems(pack.items);
+  rebuildWeights();
+  saveProfile();
+  recompute();
+  if (renderNow !== false) render();
+}
+
+/* ---------------------------------------------------------------- */
+/* Fetching — straight at the Algolia API, no proxy needed           */
+/* ---------------------------------------------------------------- */
+
+async function fetchStories(d, onProgress) {
+  const since = Math.floor(Date.now() / 1000) - d * 86400;
+  const base = "https://hn.algolia.com/api/v1/search";
+  const urls = QUERIES.map((q) =>
+    base + "?query=" + encodeURIComponent(q) + "&tags=story"
+      + "&numericFilters=created_at_i%3E" + since + "&hitsPerPage=40");
+  urls.push(base + "?tags=front_page&hitsPerPage=60");
+
+  let done = 0;
+  const results = await Promise.allSettled(urls.map(async (u) => {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 15000);
+    try {
+      const res = await fetch(u, { signal: ctrl.signal });
+      if (!res.ok) throw new Error(res.status);
+      return await res.json();
+    } finally {
+      clearTimeout(t);
+      done++;
+      onProgress(done / urls.length);
+    }
+  }));
+
+  const ok = results.filter((r) => r.status === "fulfilled");
+  if (!ok.length) throw new Error("network");
+
+  const byId = new Map();
+  for (const r of ok) {
+    for (const h of (r.value.hits || [])) {
+      if (!h.objectID || !h.title) continue;
+      if ((h.created_at_i || 0) < since) continue;
+      if (byId.has(h.objectID)) continue;
+      byId.set(h.objectID, {
+        id: h.objectID,
+        title: h.title,
+        url: h.url || "https://news.ycombinator.com/item?id=" + h.objectID,
+        hn: "https://news.ycombinator.com/item?id=" + h.objectID,
+        points: h.points || 0,
+        comments: h.num_comments || 0,
+        created_at_i: h.created_at_i,
+      });
+    }
+  }
+  return Array.from(byId.values());
+}
+
+function recompute() {
+  if (mode === "curated") {
+    ranked = raw.slice();   // already scored and cut by kerning_fetch.py
+    return;
+  }
+  ranked = raw.map((it) => Object.assign({}, it, rank(it)))
+    .filter((it) => it.base >= 2 || it.total > 4)
+    .sort((a, b) => b.total - a.total)
+    .slice(0, 80);
+}
+
+/* ---------------------------------------------------------------- */
+/* Actions                                                           */
+/* ---------------------------------------------------------------- */
+
+function rebuildWeights() {
+  const byId = {};
+  raw.forEach((it) => { byId[it.id] = it; });
+  ranked.forEach((it) => { if (!byId[it.id]) byId[it.id] = it; });
+  const weights = {};
+  function bump(tokens, delta) {
+    tokens.forEach((t) => {
+      weights[t] = clamp((weights[t] || 0) + delta, -6, 6);
+    });
+  }
+  (profile.seeds.articles || []).forEach((a) => {
+    if (!a || !a.url) return;
+    bump(tokensOf({ title: a.title || "", url: a.url }), 1);
+  });
+  (profile.seeds.people || []).forEach((p) => {
+    if (!p || !p.handle) return;
+    bump(["person:" + String(p.handle).toLowerCase()], 2);
+    const seen = new Set();
+    (p.links || []).forEach((lnk) => {
+      tokensOf({ title: (lnk && lnk.title) || "", url: (lnk && lnk.url) || "" })
+        .forEach((t) => { if (t.indexOf("person:") !== 0) seen.add(t); });
+    });
+    bump(Array.from(seen), 1);
+  });
+  Object.keys(profile.ratings).forEach((id) => {
+    const rec = profile.ratings[id];
+    if (!rec || !rec.r) return;
+    const src = byId[id] || {};
+    if (!rec.url && src.url) rec.url = src.url;
+    const item = {
+      id: id,
+      title: src.title || rec.title || "",
+      url: src.url || rec.url || "",
+      authors: src.authors || rec.authors || [],
+    };
+    bump(tokensOf(item), rec.r);
+  });
+  profile.weights = weights;
+}
+
+function persistTaste() {
+  rebuildWeights();
+  saveProfile();
+  recompute();
+  render();
+}
+
+function hasSeeds() {
+  return profile.seeds.people.length > 0 || profile.seeds.articles.length > 0;
+}
+
+function personKey(network, handle) {
+  return network + ":" + handle;
+}
+
+function splitPeopleInput(raw) {
+  const chunks = String(raw || "").split(/[\n,;]+/).map((s) => s.trim()).filter(Boolean);
+  const out = [];
+  chunks.forEach((c) => {
+    if (/\s/.test(c) && !/^https?:\/\//i.test(c)) {
+      c.split(/\s+/).forEach((p) => { if (p) out.push(p); });
+    } else {
+      out.push(c);
+    }
+  });
+  return out;
+}
+
+function parsePersonLine(raw) {
+  let line = String(raw || "").trim();
+  if (!line || line.charAt(0) === "#") return null;
+  line = line.split(/\s+/)[0];
+  const stripped = line.replace(/^@/, "");
+
+  try {
+    const withProto = /^https?:\/\//i.test(line) ? line : "https://" + line;
+    const u = new URL(withProto);
+    const host = u.hostname.replace(/^www\./, "").toLowerCase();
+    const path = u.pathname.replace(/\/+$/, "");
+    if (host === "bsky.app") {
+      const m = path.match(/^\/profile\/([^/]+)/i);
+      if (m) return { network: "bsky", handle: decodeURIComponent(m[1]).toLowerCase() };
+    }
+    if (host === "x.com" || host === "twitter.com") {
+      const m = path.match(/^\/([A-Za-z0-9_]{1,15})$/i);
+      if (m && !X_RESERVED.has(m[1].toLowerCase())) {
+        return { network: "x", handle: m[1].toLowerCase() };
+      }
+    }
+    if (host === "substack.com" || host.endsWith(".substack.com")) {
+      if (host.endsWith(".substack.com")) return { network: "substack", handle: host };
+      const slug = path.replace(/^\//, "").split("/")[0];
+      if (slug) return { network: "substack", handle: slug.toLowerCase() };
+    }
+    if (host.endsWith(".bsky.social")) return { network: "bsky", handle: host };
+    if (host.indexOf(".") >= 0) return { network: "bsky", handle: host };
+  } catch (e) { /* not a URL */ }
+
+  if (/^[A-Za-z0-9_]{1,15}$/.test(stripped) && line.charAt(0) === "@") {
+    return { network: "x", handle: stripped.toLowerCase() };
+  }
+  if (/^[A-Za-z0-9._-]+\.bsky\.social$/i.test(stripped)) {
+    return { network: "bsky", handle: stripped.toLowerCase() };
+  }
+  if (/\.substack\.com$/i.test(stripped)) {
+    return { network: "substack", handle: stripped.toLowerCase() };
+  }
+  if (stripped.indexOf(".") >= 0 && !/\s/.test(stripped)) {
+    return { network: "bsky", handle: stripped.toLowerCase() };
+  }
+  if (/^[A-Za-z0-9._-]+$/.test(stripped)) {
+    return { network: "bsky", handle: stripped.toLowerCase() };
+  }
+  return null;
+}
+
+function titleFromUrl(url) {
+  try {
+    const u = new URL(/^https?:\/\//i.test(url) ? url : "https://" + url);
+    const parts = u.pathname.split("/").filter(Boolean);
+    const last = parts.length ? decodeURIComponent(parts[parts.length - 1]) : "";
+    const slug = last.replace(/\.[a-z0-9]+$/i, "").replace(/[-_]+/g, " ").trim();
+    const host = u.hostname.replace(/^www\./, "");
+    if (slug && slug.length > 2 && !/^(index|home|post|posts|p|blog)$/i.test(slug)) {
+      return slug;
+    }
+    return host;
+  } catch (e) {
+    return url;
+  }
+}
+
+function normalizeArticleUrl(raw) {
+  const s = String(raw || "").trim();
+  if (!s) return "";
+  try {
+    const u = new URL(/^https?:\/\//i.test(s) ? s : "https://" + s);
+    u.hash = "";
+    return u.toString();
+  } catch (e) {
+    return "";
+  }
+}
+
+async function titleForUrl(url) {
+  const fallback = titleFromUrl(url);
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 8000);
+    const res = await fetch(
+      "https://hn.algolia.com/api/v1/search?query=" + encodeURIComponent(url)
+        + "&restrictSearchableAttributes=url&hitsPerPage=5",
+      { signal: ctrl.signal }
+    );
+    clearTimeout(t);
+    if (!res.ok) return fallback;
+    const data = await res.json();
+    const canon = url.replace(/\/+$/, "").toLowerCase();
+    const hits = data.hits || [];
+    const hit = hits.find((h) => {
+      const u = (h.url || "").replace(/\/+$/, "").toLowerCase();
+      return u && (u === canon || u.indexOf(canon) >= 0 || canon.indexOf(u) >= 0);
+    }) || hits[0];
+    if (hit && hit.title) return hit.title;
+  } catch (e) { /* HN lookup is optional */ }
+  return fallback;
+}
+
+function bskyLinksFromPost(post) {
+  const found = [];
+  const rec = (post && post.record) || {};
+  function add(url, title) {
+    if (!url || String(url).indexOf("http") !== 0) return;
+    const d = domainOf(url);
+    if (!d || d === "bsky.app" || d === "x.com" || d === "twitter.com"
+        || d === "t.co" || d.endsWith(".t.co")) return;
+    found.push({ url: url, title: (title || "").trim() });
+  }
+  function walk(obj) {
+    if (!obj || typeof obj !== "object") return;
+    if (Array.isArray(obj)) { obj.forEach(walk); return; }
+    const ext = obj.external;
+    if (ext && ext.uri) add(ext.uri, ext.title || "");
+    Object.keys(obj).forEach((k) => {
+      if (k === "external") return;
+      walk(obj[k]);
+    });
+  }
+  walk(post.embed || rec.embed);
+  (rec.facets || []).forEach((f) => {
+    (f.features || []).forEach((feat) => { if (feat.uri) add(feat.uri, ""); });
+  });
+  const seen = new Set();
+  const out = [];
+  found.forEach((x) => {
+    const key = x.url.replace(/\/+$/, "").toLowerCase();
+    if (seen.has(key)) return;
+    seen.add(key);
+    out.push(x);
+  });
+  return out;
+}
+
+async function seedFromBluesky(handle) {
+  const ctrl = new AbortController();
+  const t = setTimeout(() => ctrl.abort(), 8000);
+  try {
+    const res = await fetch(
+      "https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?actor="
+        + encodeURIComponent(handle) + "&limit=30&filter=posts_no_replies",
+      { signal: ctrl.signal }
+    );
+    if (!res.ok) return [];
+    const data = await res.json();
+    const seen = new Set();
+    const links = [];
+    (data.feed || []).forEach((item) => {
+      bskyLinksFromPost(item.post || {}).forEach((lnk) => {
+        const key = lnk.url.replace(/\/+$/, "").toLowerCase();
+        if (seen.has(key)) return;
+        seen.add(key);
+        links.push(lnk);
+      });
+    });
+    return links.slice(0, 20);
+  } catch (e) {
+    return [];
+  } finally {
+    clearTimeout(t);
+  }
+}
+
+function seedPendingBluesky() {
+  (profile.seeds.people || []).forEach((p) => {
+    if (!p || p.network !== "bsky" || p.seeded || !p.handle) return;
+    p.seeded = true;
+    const id = p.id;
+    seedFromBluesky(p.handle).then((links) => {
+      const cur = profile.seeds.people.find((x) => x.id === id);
+      if (!cur) return;
+      cur.links = links;
+      persistTaste();
+    });
+  });
+}
+
+function addPeople(raw) {
+  const lines = splitPeopleInput(raw);
+  if (!lines.length) return { added: 0, skipped: 0, bad: true };
+  let added = 0, skipped = 0, bad = 0;
+  const fresh = [];
+  lines.forEach((line) => {
+    const parsed = parsePersonLine(line);
+    if (!parsed) { bad++; return; }
+    const id = personKey(parsed.network, parsed.handle);
+    if (profile.seeds.people.some((p) => p.id === id
+        || (p.network === parsed.network && p.handle === parsed.handle))) {
+      skipped++;
+      return;
+    }
+    const person = {
+      id: id,
+      network: parsed.network,
+      handle: parsed.handle,
+      addedAt: Date.now(),
+      links: [],
+      seeded: parsed.network !== "bsky",
+    };
+    profile.seeds.people.unshift(person);
+    fresh.push(person);
+    added++;
+  });
+  if (added) persistTaste();
+  seedPendingBluesky();
+  return { added: added, skipped: skipped, bad: bad };
+}
+
+function removePerson(id) {
+  profile.seeds.people = profile.seeds.people.filter((p) => p.id !== id);
+  persistTaste();
+}
+
+function setPersonNetwork(id, network) {
+  const p = profile.seeds.people.find((x) => x.id === id);
+  if (!p || p.network === network || NETWORKS.indexOf(network) < 0) return;
+  if (profile.seeds.people.some((x) => x !== p && x.network === network
+      && x.handle === p.handle)) {
+    return;
+  }
+  p.network = network;
+  p.id = personKey(network, p.handle);
+  if (network === "bsky") p.seeded = false;
+  persistTaste();
+  seedPendingBluesky();
+}
+
+function articleId(url) {
+  return "art:" + url.replace(/\/+$/, "").toLowerCase();
+}
+
+function addArticle(raw) {
+  const url = normalizeArticleUrl(raw);
+  if (!url) return { ok: false };
+  const id = articleId(url);
+  if (profile.seeds.articles.some((a) => a.id === id)) return { ok: true, dup: true };
+  const article = {
+    id: id, url: url, title: titleFromUrl(url), addedAt: Date.now(),
+  };
+  profile.seeds.articles.unshift(article);
+  persistTaste();
+  titleForUrl(url).then((title) => {
+    const cur = profile.seeds.articles.find((a) => a.id === id);
+    if (!cur) return;
+    if (title && title !== cur.title) {
+      cur.title = title;
+      persistTaste();
+    }
+  });
+  return { ok: true };
+}
+
+function removeArticle(id) {
+  profile.seeds.articles = profile.seeds.articles.filter((a) => a.id !== id);
+  persistTaste();
+}
+
+function renameArticle(id, title) {
+  const a = profile.seeds.articles.find((x) => x.id === id);
+  if (!a) return;
+  const next = String(title || "").trim();
+  if (!next || next === a.title) return;
+  a.title = next;
+  persistTaste();
+}
+
+function rate(item, r) {
+  profile.ratings[item.id] = {
+    r: r, at: Date.now(), title: item.title, url: item.url || "",
+  };
+  justRated[item.id] = r;
+  rebuildWeights();
+  saveProfile(); recompute(); render();
+}
+
+function undo(item) {
+  if (!profile.ratings[item.id]) return;
+  delete profile.ratings[item.id];
+  delete justRated[item.id];
+  rebuildWeights();
+  saveProfile(); recompute(); render();
+}
+
+function toggleSave(item) {
+  const i = profile.saved.findIndex((s) => s.id === item.id);
+  if (i >= 0) profile.saved.splice(i, 1);
+  else profile.saved.unshift({ id: item.id, title: item.title, url: item.url,
+    hn: item.hn, points: item.points, at: Date.now() });
+  saveProfile(); render();
+}
+
+function isSaved(id) { return profile.saved.some((s) => s.id === id); }
+
+function exportProfile() {
+  const blob = new Blob([JSON.stringify(profile, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "kerning-profile.json";
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+
+function importProfile(file) {
+  const fr = new FileReader();
+  fr.onload = () => {
+    try {
+      const p = JSON.parse(fr.result);
+      profile = normalizeProfile(p);
+      rebuildWeights();
+      saveProfile(); recompute(); render();
+      seedPendingBluesky();
+    } catch (e) {
+      alert("That file isn't a Kerning profile. Pick the kerning-profile.json you exported.");
+    }
+  };
+  fr.readAsText(file);
+}
+
+async function loadDigest() {
+  const res = await fetch("digest.json?t=" + Date.now());
+  if (!res.ok) throw new Error(res.status);
+  const data = await res.json();
+  const packs = data.cadences || {};
+  if (!packs.daily && !packs.weekly && !packs.monthly) {
+    if (!data.items || !data.items.length) throw new Error("empty");
+    packs.weekly = {
+      label: data.week_label || "",
+      period_start: data.week_start || null,
+      period_end: data.week_end || null,
+      week_start: data.week_start || null,
+      week_end: data.week_end || null,
+      week_label: data.week_label || null,
+      iso_week: data.iso_week || null,
+      items: data.items,
+    };
+  }
+  digestPack = { generated_at: data.generated_at, cadences: packs };
+  applyCadence(cadence, false);
+}
+
+async function load() {
+  status = "loading"; render();
+  try {
+    if (mode === "curated") {
+      try {
+        await loadDigest();
+        status = "ok"; recompute(); render(); return;
+      } catch (e) {
+        mode = "live";   // no digest.json yet, or served from file://
+      }
+    }
+    raw = await fetchStories(days, (p) => {
+      const f = document.querySelector("#digest-status .bar > i");
+      if (f) f.style.width = (p * 100) + "%";
+    });
+    rebuildWeights();
+    saveProfile();
+    status = "ok";
+  } catch (e) {
+    status = "error";
+  }
+  recompute(); render();
+}
+
+/* ---------------------------------------------------------------- */
+/* Render                                                            */
+/* ---------------------------------------------------------------- */
+
+function displayTerm(t) {
+  return String(t).replace(/^site:/, "").replace(/^person:/, "");
+}
+
+function itemHTML(item, i, total) {
+  const dom = domainOf(item.url) || "news.ycombinator.com";
+  const n = String(i + 1).padStart(2, "0");
+  const tot = String(total || 0).padStart(2, "0");
+  const why = item.reasons && item.reasons.length
+    ? '<p class="why">' + item.reasons.map((c) =>
+        '<span class="' + (c[1] > 0 ? "pos" : "neg") + '">'
+        + esc(displayTerm(c[0])) + "</span>").join("") + "</p>"
+    : "";
+  return '<li class="item">'
+    + '<span class="rank">' + n + ' <span class="rank-of">/ ' + tot + "</span></span>"
+    + '<div class="body">'
+    + '<a class="title" href="' + esc(item.url) + '" target="_blank" rel="noreferrer">'
+    + esc(item.title) + "</a>"
+    + '<p class="meta"><span>' + esc(dom) + "</span>"
+    + (item.sources && item.sources.length > 1
+        ? "<span>" + esc(item.sources.join(" + ")) + "</span>" : "")
+    + "<span>" + item.points + " point" + (item.points === 1 ? "" : "s") + "</span>"
+    + '<span><a href="' + esc(item.hn) + '" target="_blank" rel="noreferrer">'
+    + item.comments + " comment" + (item.comments === 1 ? "" : "s") + "</a></span>"
+    + "<span>" + itemWhen(item.created_at_i) + "</span></p>"
+    + why
+    + '<div class="acts">'
+    + '<button type="button" class="text-act up" data-act="up" data-id="' + item.id + '">More like this</button>'
+    + '<button type="button" class="text-act down" data-act="down" data-id="' + item.id + '">Less like this</button>'
+    + '<button type="button" class="text-act' + (isSaved(item.id) ? " saved" : "") + '" data-act="save" data-id="'
+    + item.id + '">' + (isSaved(item.id) ? "Saved" : "Save") + "</button>"
+    + "</div></div></li>";
+}
+
+function renderDigest() {
+  const statusEl = document.getElementById("digest-status");
+  const listEl = document.getElementById("digest-list");
+  const stripsEl = document.getElementById("strips");
+  const queue = ranked.filter((it) => !profile.ratings[it.id]);
+  const nRatings = Object.keys(profile.ratings).length;
+
+  document.getElementById("refresh").disabled = status === "loading";
+  document.getElementById("refresh").textContent =
+    status === "loading" ? "Fetching" : "Refresh";
+
+  if (status === "loading") {
+    statusEl.innerHTML = '<div class="bar"><i></i></div>'
+      + '<p class="note">' + (mode === "curated"
+        ? (CADENCE_COPY[cadence] || CADENCE_COPY.weekly).loading
+        : "Searching " + QUERIES.length + " design topics on Hacker News.") + "</p>";
+    listEl.innerHTML = ""; stripsEl.className = "strips hidden"; return;
+  }
+  if (status === "error") {
+    statusEl.innerHTML = '<div class="empty"><h2>Couldn\'t reach Hacker News search.</h2>'
+      + '<p class="note">Check your connection, then try again. If you opened this file '
+      + 'directly from disk and it keeps failing, try a different browser.</p>'
+      + '<p class="note"><button type="button" class="btn" id="retry">Try again</button></p></div>';
+    listEl.innerHTML = ""; stripsEl.className = "strips hidden";
+    document.getElementById("retry").onclick = load; return;
+  }
+  if (status === "idle") { statusEl.innerHTML = ""; return; }
+
+  const copy = CADENCE_COPY[cadence] || CADENCE_COPY.weekly;
+  const dates = mode === "curated" && digestMeta ? periodDates(digestMeta) : "";
+  let head = "";
+  if (dates) {
+    head = '<p class="primer">\u2193 ' + esc(copy.prefix) + ' \u00b7 <span class="week-dates">'
+      + esc(dates) + "</span>."
+      + (nRatings === 0 ? copy.rate + (hasSeeds() ? "" : copy.taste) : "") + "</p>";
+  } else if (mode === "curated" && digestMeta) {
+    head = '<p class="primer">' + esc(copy.prefix) + "\u2019s digest, from Hacker News, publications, and Bluesky.</p>";
+  } else if (mode === "live") {
+    head = '<p class="primer">Live Hacker News only. Run '
+      + '<code>python3 kerning_fetch.py</code> for the curated digest.</p>';
+  }
+
+  if (nRatings === 0 && !hasSeeds() && queue.length && !dates && mode === "live") {
+    head = '<p class="primer">This first pass is deliberately broad. Rate a dozen or so '
+      + "stories, or add people you follow on Taste, and the ranking starts "
+      + "reflecting your taste instead of mine.</p>";
+  }
+  if (!ranked.length && mode === "curated") {
+    head = '<div class="empty"><h2>' + copy.vacant + "</h2>"
+      + '<p class="note">' + copy.vacantNote + "</p></div>";
+  } else if (!queue.length) {
+    head = mode === "curated"
+      ? '<div class="empty"><h2>' + copy.empty + "</h2>"
+        + '<p class="note">' + copy.emptyNote + "</p></div>"
+      : '<div class="empty"><h2>Nothing left in the queue.</h2>'
+        + '<p class="note">Widen the window to 30 days, or refresh later for new stories.</p></div>';
+  }
+  statusEl.innerHTML = head;
+  const foot = document.getElementById("footer-note");
+  if (foot) {
+    foot.textContent = mode === "curated"
+      ? "Built from Hacker News, publications, Substack, design-system releases, and Bluesky. Ratings and Taste stay in this browser."
+      : "Live results come from the public Hacker News search API. Ratings and Taste stay in this browser.";
+  }
+  document.getElementById("cadence").classList.toggle("hidden", mode !== "curated");
+  document.getElementById("range").classList.toggle("hidden", mode !== "live");
+  setCadenceChips();
+  listEl.innerHTML = queue.map((it, i) => itemHTML(it, i, queue.length)).join("");
+
+  const strips = ranked.filter((it) => justRated[it.id]);
+  if (strips.length) {
+    stripsEl.className = "strips";
+    stripsEl.innerHTML = '<p class="note" style="margin:0 0 10px">Rated this session</p>'
+      + strips.map((it) => '<div class="strip"><span class="'
+        + (justRated[it.id] > 0 ? "pos" : "neg") + '">'
+        + (justRated[it.id] > 0 ? "More" : "Less") + "</span>"
+        + '<span class="t">' + esc(it.title) + "</span>"
+        + '<button type="button" class="link" data-act="undo" data-id="' + it.id + '">Undo</button></div>').join("");
+  } else {
+    stripsEl.className = "strips hidden"; stripsEl.innerHTML = "";
+  }
+}
+
+function renderSaved() {
+  const el = document.getElementById("view-saved");
+  if (!profile.saved.length) {
+    el.innerHTML = '<div class="empty"><h2>Nothing saved yet.</h2>'
+      + '<p class="note">Save a story from the digest to keep it here.</p></div>';
+    return;
+  }
+  el.innerHTML = '<div class="controls"><span class="note">' + profile.saved.length
+    + ' saved</span><button type="button" class="btn" id="copy-md">Copy as markdown</button></div>'
+    + '<ul class="list">' + profile.saved.map((s) =>
+      '<li class="item item--plain"><div class="body">'
+      + '<a class="title" href="' + esc(s.url) + '" target="_blank" rel="noreferrer">'
+      + esc(s.title) + "</a>"
+      + '<p class="meta"><span>' + esc(domainOf(s.url)) + "</span><span>"
+      + s.points + " points</span></p>"
+      + '<div class="acts"><button type="button" class="text-act" data-act="unsave" data-id="'
+      + s.id + '">Remove</button></div></div></li>').join("") + "</ul>";
+
+  document.getElementById("copy-md").onclick = function () {
+    const md = profile.saved.map((s) => "- [" + s.title + "](" + s.url + ")").join("\n");
+    navigator.clipboard.writeText(md).then(() => {
+      this.textContent = "Copied";
+      setTimeout(() => { this.textContent = "Copy as markdown"; }, 1800);
+    });
+  };
+}
+
+function tasteColumn(title, rows, color) {
+  const max = Math.max.apply(null, [1].concat(rows.map((r) => Math.abs(r[1]))));
+  return '<div class="tcol"><h3>' + title + "</h3>"
+    + (rows.length
+      ? rows.map((r) => '<div class="trow"><span class="term">'
+          + esc(displayTerm(r[0])) + '</span><span class="tb"><i style="width:'
+          + ((Math.abs(r[1]) / max) * 100) + "%;background:" + color
+          + '"></i></span></div>').join("")
+      : '<p class="note">Nothing here yet.</p>')
+    + "</div>";
+}
+
+function tasteBuiltCopy() {
+  const nP = profile.seeds.people.length;
+  const nA = profile.seeds.articles.length;
+  const nR = Object.keys(profile.ratings).length;
+  const parts = [];
+  if (nP) parts.push(nP + (nP === 1 ? " person" : " people"));
+  if (nA) parts.push(nA + " article" + (nA === 1 ? "" : "s"));
+  if (nR) parts.push(nR + " rating" + (nR === 1 ? "" : "s"));
+  if (!parts.length) {
+    return "Add people you follow and a few articles you like. Kerning builds a profile from those, then from what you rate.";
+  }
+  return "Built from " + parts.join(", ") + ".";
+}
+
+function networkChips(p) {
+  return '<div class="net" role="radiogroup" aria-label="Network for '
+    + esc(p.handle) + '">'
+    + NETWORKS.map((n) => {
+      const on = p.network === n;
+      return '<button type="button" class="chip' + (on ? " on" : "")
+        + '" role="radio" aria-checked="' + (on ? "true" : "false")
+        + '" data-act="net" data-id="' + esc(p.id) + '" data-network="' + n + '">'
+        + NET_LABEL[n] + "</button>";
+    }).join("")
+    + "</div>";
+}
+
+function renderTaste() {
+  const el = document.getElementById("view-taste");
+  const entries = Object.entries(profile.weights).filter((e) => {
+    if (e[0].indexOf("site:") === 0) return Math.abs(e[1]) >= 2;
+    return Math.abs(e[1]) >= 1;
+  });
+  entries.sort((a, b) => b[1] - a[1]);
+  const up = entries.filter((e) => e[1] > 0).slice(0, 14);
+  const down = entries.filter((e) => e[1] < 0).slice(-14).reverse();
+  const people = profile.seeds.people;
+  const articles = profile.seeds.articles;
+
+  const peopleList = people.length
+    ? '<ul class="seeds">' + people.map((p) =>
+        '<li class="seed"><div><div class="name">' + esc(p.handle) + "</div>"
+        + networkChips(p) + "</div>"
+        + '<div class="acts"><button type="button" class="text-act" data-act="drop-person" data-id="'
+        + esc(p.id) + '">Remove</button></div></li>').join("") + "</ul>"
+    : "";
+
+  const articleList = articles.length
+    ? '<ul class="seeds">' + articles.map((a) =>
+        '<li class="seed"><div>'
+        + '<input class="seed-title" data-article-title="' + esc(a.id)
+        + '" value="' + esc(a.title) + '" aria-label="Title for '
+        + esc(domainOf(a.url) || a.url) + '">'
+        + '<p class="sub"><span>' + esc(domainOf(a.url) || a.url) + "</span></p></div>"
+        + '<div class="acts"><button type="button" class="text-act" data-act="drop-article" data-id="'
+        + esc(a.id) + '">Remove</button></div></li>').join("") + "</ul>"
+    : "";
+
+  el.innerHTML = '<p class="note taste-primer">' + tasteBuiltCopy() + "</p>"
+
+    + '<section class="tsec" aria-labelledby="taste-people">'
+    + '<h2 id="taste-people">People you follow</h2>'
+    + '<p class="note">Bluesky, X, or Substack. Paste a list if you have one.</p>'
+    + '<form class="tadd" id="add-people">'
+    + '<div class="tfield"><label for="people-input">Handle, URL, or a pasted list</label>'
+    + '<input id="people-input" name="people" type="text" spellcheck="false" autocomplete="off" '
+    + 'placeholder="lea.verou.me" aria-describedby="people-err"></div>'
+    + '<button type="submit" class="btn">Add person</button></form>'
+    + '<p class="field-err" id="people-err" role="status"></p>'
+    + peopleList + "</section>"
+
+    + '<section class="tsec" aria-labelledby="taste-articles">'
+    + '<h2 id="taste-articles">Articles you like</h2>'
+    + '<p class="note">A URL is enough. Title can be edited after it lands.</p>'
+    + '<form class="tadd" id="add-article">'
+    + '<div class="tfield"><label for="article-input">Article URL</label>'
+    + '<input id="article-input" name="article" type="text" inputmode="url" spellcheck="false" '
+    + 'autocomplete="off" placeholder="https://" aria-describedby="article-err"></div>'
+    + '<button type="submit" class="btn">Add article</button></form>'
+    + '<p class="field-err" id="article-err" role="status"></p>'
+    + articleList + "</section>"
+
+    + '<section class="tsec" aria-labelledby="taste-profile">'
+    + '<h2 id="taste-profile">Your profile</h2>'
+    + tasteColumn("Pulling stories toward you", up, "var(--ink)")
+    + tasteColumn("Pushing stories away", down, "var(--faint)")
+    + "</section>"
+
+    + '<div class="reset"><div class="acts">'
+    + '<button type="button" class="btn" id="export">Export profile</button>'
+    + '<button type="button" class="btn" id="import-btn">Import profile</button>'
+    + '<button type="button" class="btn down" id="reset">Start over</button></div>'
+    + '<input type="file" accept="application/json" id="import-file" class="hidden">'
+    + "<p class=\"note\">Export writes kerning-profile.json. Put it beside the fetch script "
+    + "so the next run ranks with these weights and watches anyone you&nbsp;added.</p></div>";
+
+  document.getElementById("add-people").onsubmit = function (e) {
+    e.preventDefault();
+    const input = document.getElementById("people-input");
+    const err = document.getElementById("people-err");
+    const result = addPeople(input.value);
+    if (result.bad && !result.added) {
+      err.textContent = "Enter a handle or URL. Bluesky, X, and Substack all work.";
+      input.setAttribute("aria-invalid", "true");
+      input.focus();
+      return;
+    }
+    if (!result.added && result.skipped) {
+      err.textContent = "Already on your list.";
+      input.setAttribute("aria-invalid", "true");
+      input.focus();
+      return;
+    }
+    input.value = "";
+    input.removeAttribute("aria-invalid");
+    err.textContent = "";
+  };
+
+  document.getElementById("add-article").onsubmit = function (e) {
+    e.preventDefault();
+    const input = document.getElementById("article-input");
+    const err = document.getElementById("article-err");
+    const result = addArticle(input.value);
+    if (!result.ok) {
+      err.textContent = "Enter a full URL, including the site.";
+      input.setAttribute("aria-invalid", "true");
+      input.focus();
+      return;
+    }
+    if (result.dup) {
+      err.textContent = "Already on your list.";
+      input.setAttribute("aria-invalid", "true");
+      input.focus();
+      return;
+    }
+    input.value = "";
+    input.removeAttribute("aria-invalid");
+    err.textContent = "";
+  };
+
+  el.querySelectorAll("[data-article-title]").forEach((input) => {
+    input.addEventListener("change", function () {
+      renameArticle(this.getAttribute("data-article-title"), this.value);
+    });
+  });
+
+  document.getElementById("export").onclick = exportProfile;
+  document.getElementById("import-btn").onclick = () =>
+    document.getElementById("import-file").click();
+  document.getElementById("import-file").onchange = function () {
+    if (this.files && this.files[0]) importProfile(this.files[0]);
+  };
+  document.getElementById("reset").onclick = function () {
+    if (!confirm("Clear people, articles, ratings, saved stories, and the learned profile?")) return;
+    profile = emptyProfile();
+    justRated = {};
+    saveProfile(); recompute(); render();
+  };
+}
+
+function render() {
+  document.querySelectorAll(".tab").forEach((b) => {
+    const on = b.dataset.tab === tab;
+    b.classList.toggle("on", on);
+    if (on) b.setAttribute("aria-current", "page");
+    else b.removeAttribute("aria-current");
+  });
+  document.querySelector(".hero").classList.toggle("hidden", tab !== "digest");
+  document.getElementById("view-digest").className = tab === "digest" ? "" : "hidden";
+  document.getElementById("view-saved").className = tab === "saved" ? "" : "hidden";
+  document.getElementById("view-taste").className = tab === "taste" ? "" : "hidden";
+
+  const q = ranked.filter((it) => !profile.ratings[it.id]).length;
+  document.querySelector('[data-tab="digest"]').textContent = "Digest" + (q ? " (" + q + ")" : "");
+  document.querySelector('[data-tab="saved"]').textContent =
+    "Saved" + (profile.saved.length ? " (" + profile.saved.length + ")" : "");
+
+  if (tab === "digest") renderDigest();
+  else if (tab === "saved") renderSaved();
+  else renderTaste();
+}
+
+/* ---------------------------------------------------------------- */
+/* Wiring                                                            */
+/* ---------------------------------------------------------------- */
+
+document.getElementById("tabs").onclick = (e) => {
+  const b = e.target.closest(".tab");
+  if (b) { tab = b.dataset.tab; render(); }
+};
+
+document.getElementById("range").onclick = (e) => {
+  const b = e.target.closest(".chip");
+  if (!b) return;
+  days = Number(b.dataset.days);
+  document.querySelectorAll("#range .chip").forEach((c) => {
+    const on = c === b;
+    c.classList.toggle("on", on);
+    c.setAttribute("aria-checked", on ? "true" : "false");
+  });
+  load();
+};
+
+document.getElementById("cadence").onclick = (e) => {
+  const b = e.target.closest("[data-cadence]");
+  if (!b || mode !== "curated") return;
+  applyCadence(b.dataset.cadence);
+};
+
+document.getElementById("cadence").addEventListener("keydown", (e) => {
+  if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+  const chips = Array.from(document.querySelectorAll("#cadence [data-cadence]"));
+  const i = chips.findIndex((c) => c.classList.contains("on"));
+  const next = chips[(i + (e.key === "ArrowRight" ? 1 : -1) + chips.length) % chips.length];
+  next.focus();
+  applyCadence(next.dataset.cadence);
+  e.preventDefault();
+});
+
+document.getElementById("refresh").onclick = load;
+
+document.body.addEventListener("click", (e) => {
+  const b = e.target.closest("[data-act]");
+  if (!b) return;
+  const act = b.dataset.act, id = b.dataset.id;
+  if (act === "unsave") { toggleSave({ id: id }); return; }
+  if (act === "drop-person") { removePerson(id); return; }
+  if (act === "drop-article") { removeArticle(id); return; }
+  if (act === "net") { setPersonNetwork(id, b.dataset.network); return; }
+  const item = ranked.find((x) => x.id === id);
+  if (!item) return;
+  if (act === "up") rate(item, 1);
+  else if (act === "down") rate(item, -1);
+  else if (act === "save") toggleSave(item);
+  else if (act === "undo") undo(item);
+});
+
+loadProfile();
+render();
+load();
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+# Design Substacks. One publication per line.
+# Slug (lookingglass), host (proofofconcept.pub), or full URL.
+# # starts a comment.
+
+# active in 2026
+designsystemscollective
+aiforux
+departmentofproduct
+nathanacurtis
+whydesignishard
+southleft
+jaimederringer
+pablostanley
+https://www.proofofconcept.pub
+https://www.densediscovery.com
+
+# slower, still worth watching
+designlobster
+weandthecolor
+uxpsychology
+fuguux

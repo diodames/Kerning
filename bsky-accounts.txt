@@ -1,0 +1,40 @@
+# Bluesky accounts whose shared links are worth watching.
+# One handle per line. Custom domains work. # starts a comment.
+#
+# Feeds are public — no Bluesky login needed.
+
+# publications
+smashingmagazine.com
+alistapart.com
+css-tricks.bsky.social
+piccalil.li
+figma.com
+fontsinuse.com
+ilovetypography.bsky.social
+
+# practitioners
+jensimmons.bsky.social
+adactio.com
+bradfrost.com
+zeldman.bsky.social
+shadcn.com
+heydonworks.com
+mrmrs.bsky.social
+erikdkennedy.bsky.social
+lea.verou.me
+una.im
+joshwcomeau.com
+nerdy.dev
+khoi.bsky.social
+mikeindustries.com
+sarasoueidan.com
+rachelandrew.co.uk
+ericwbailey.website
+csswizardry.com
+geoffgraham.me
+macwright.com
+tonsky.me
+evilmartians.com
+tylergaw.com
+danmall.bsky.social
+robinrendle.bsky.social
