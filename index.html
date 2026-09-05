@@ -161,8 +161,7 @@
   .link { text-decoration: underline; color: var(--ink); }
   .btn:hover, .text-act:hover, .chip:hover, .link:hover { color: var(--ink); }
   .btn:disabled { opacity: .4; cursor: default; }
-  .btn:active, .chip:active, .tab:active, .text-act:active, .link:active,
-  .rkind > summary:active {
+  .btn:active, .chip:active, .tab:active, .text-act:active, .link:active {
     transform: scale(0.96);
   }
   .btn.saved, .text-act.saved { color: var(--ink); font-weight: 500; }
@@ -459,16 +458,31 @@
   .tadd + .field-err + .seeds,
   .tadd + .field-err + .rkind { margin-top: 32px; }
   .rkind + .rkind { margin-top: 8px; }
-  .rkind[open] + .rkind { margin-top: 28px; }
+  .rkind::details-content {
+    interpolate-size: allow-keywords;
+    height: 0;
+    overflow: clip;
+    opacity: 0;
+    transition:
+      height 220ms var(--ease-out),
+      opacity 180ms var(--ease-out),
+      content-visibility 220ms allow-discrete;
+  }
+  .rkind[open]::details-content {
+    height: auto;
+    opacity: 1;
+  }
   .rkind > summary {
     display: flex; align-items: center; gap: 8px;
     min-height: 44px; padding: 10px 0; margin: 0;
     cursor: pointer; list-style: none;
+    user-select: none;
     font-size: var(--text-meta); font-weight: 500;
     letter-spacing: -0.02em; color: var(--mute);
-    transition: color 180ms var(--ease-out), transform 160ms var(--ease-out);
+    transition: color 180ms var(--ease-out);
   }
   .rkind > summary::-webkit-details-marker { display: none; }
+  .rkind > summary::marker { content: none; }
   .rkind > summary::before {
     content: "";
     flex: none;
@@ -477,20 +491,22 @@
     border-inline-end: 1.5px solid currentColor;
     border-bottom: 1.5px solid currentColor;
     transform: rotate(-45deg);
-    transition: transform 180ms var(--ease-out), margin 180ms var(--ease-out);
+    transition: transform 220ms var(--ease-out), margin 220ms var(--ease-out);
   }
   .rkind[open] > summary::before {
     transform: rotate(45deg);
     margin-block-start: -0.28em;
   }
-  .rkind > summary:hover { color: var(--ink); }
+  .rkind > summary:hover,
+  .rkind > summary:active { color: var(--ink); }
   .rkind-count {
     color: var(--faint);
     font-weight: 400;
     font-variant-numeric: tabular-nums;
   }
-  .rkind > summary:hover .rkind-count { color: inherit; }
-  .rkind .seeds { margin-top: 0; }
+  .rkind > summary:hover .rkind-count,
+  .rkind > summary:active .rkind-count { color: inherit; }
+  .rkind .seeds { margin-top: 0; padding-bottom: 20px; }
   .seed {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
@@ -608,8 +624,7 @@
     }
     .list:hover .item { opacity: 1; }
     .rkind .seeds:hover .seed-resource { opacity: 1; }
-    .btn:active, .chip:active, .tab:active, .text-act:active, .link:active,
-    .rkind > summary:active {
+    .btn:active, .chip:active, .tab:active, .text-act:active, .link:active {
       transform: none;
     }
   }
