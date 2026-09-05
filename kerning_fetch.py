@@ -129,26 +129,36 @@ BSKY_FEED_PAGES = 3                     # 50 posts each; stop once older than --
 BSKY_MIN_SHARERS_FOR_LOOKUP = 2
 
 LEXICON = [
-    ("typography", 3), ("typographic", 3), ("typeface", 3), ("typesetting", 3),
-    ("kerning", 3), ("font", 3), ("fonts", 3), ("lettering", 3), ("type design", 3),
-    ("figma", 3), ("design system", 3), ("design systems", 3), ("design token", 3),
-    ("ux", 3), ("user experience", 3), ("user interface", 3), ("usability", 3),
+    ("typography", 3, ("typographic",)),
+    ("typeface", 3), ("typesetting", 3), ("kerning", 3),
+    ("font", 3, ("fonts",)), ("lettering", 3), ("type design", 3),
+    ("figma", 3),
+    ("design system", 3, ("design systems",)),
+    ("design token", 3, ("design tokens",)),
+    ("ux", 3, ("user experience",)),
+    ("ui", 3, ("user interface",)),
+    ("usability", 3),
     ("interaction design", 3), ("visual design", 3), ("graphic design", 3),
     ("product design", 3), ("information architecture", 3), ("wireframe", 3),
     ("human interface", 3), ("material design", 3), ("skeuomorph", 3),
-    ("bauhaus", 3), ("illustration", 3), ("iconography", 3), ("accessibility", 3),
-    ("a11y", 3), ("wcag", 3), ("screen reader", 3), ("motion design", 3),
+    ("bauhaus", 3), ("illustration", 3), ("iconography", 3),
+    ("accessibility", 3, ("a11y",)),
+    ("wcag", 3), ("screen reader", 3), ("motion design", 3),
     ("brand identity", 3), ("color palette", 3), ("grid system", 3),
     ("web design", 3), ("legibility", 3), ("logo", 3),
     ("icons", 2), ("branding", 2), ("palette", 2), ("layout", 2), ("css", 2),
-    ("svg", 2), ("animation", 2), ("prototype", 2), ("dark mode", 2),
-    ("aesthetic", 2), ("designer", 2), ("redesign", 2), ("readability", 2),
-    ("ui", 2), ("responsive", 2),
+    ("svg", 2), ("animation", 2),
+    ("prototype", 2, ("prototyping",)),
+    ("dark mode", 2),
+    ("aesthetic", 2, ("aesthetics",)),
+    ("designer", 2), ("redesign", 2), ("readability", 2),
+    ("responsive", 2),
     ("product strategy", 2), ("product sense", 2), ("roadmap", 2),
     ("prioritization", 2), ("prd", 2), ("user research", 2),
     ("outcome-based", 2), ("product-led", 2),
     ("product management", 3), ("product manager", 3),
-    ("product discovery", 3), ("jobs to be done", 3), ("jtbd", 3),
+    ("product discovery", 3),
+    ("jobs to be done", 3, ("jtbd",)),
     ("opportunity solution tree", 3), ("dual-track", 3),
     ("continuous discovery", 3), ("product ops", 3),
     ("design", 1), ("interface", 1), ("craft", 1),
@@ -288,15 +298,31 @@ def domain_of(url: str) -> str:
 # Relevance and taste
 # --------------------------------------------------------------------------
 
+def _lexicon_form_hits(hay: str, form: str) -> bool:
+    if " " in form:
+        return form in hay
+    return bool(re.search(rf"\b{re.escape(form)}\b", hay))
+
+
+def _lexicon_parts(entry):
+    term, weight = entry[0], entry[1]
+    aliases = entry[2] if len(entry) > 2 else ()
+    return term, weight, aliases
+
+
+def _lexicon_entry_hits(hay: str, entry) -> bool:
+    term, _, aliases = _lexicon_parts(entry)
+    if _lexicon_form_hits(hay, term):
+        return True
+    return any(_lexicon_form_hits(hay, a) for a in aliases)
+
+
 def lexicon_score(title: str, url: str) -> int:
     hay = f"{title} {domain_of(url)}".lower()
     total = 0
-    for term, weight in LEXICON:
-        if " " in term:
-            if term in hay:
-                total += weight
-        elif re.search(rf"\b{re.escape(term)}\b", hay):
-            total += weight
+    for entry in LEXICON:
+        if _lexicon_entry_hits(hay, entry):
+            total += entry[1]
     return total
 
 
@@ -304,13 +330,11 @@ def tokens_of(title: str, url: str, authors=None):
     """Design topics from the lexicon, plus publisher and author tokens."""
     hay = f"{title or ''} {domain_of(url)}".lower()
     words = set()
-    for term, weight in LEXICON:
+    for entry in LEXICON:
+        term, weight, _ = _lexicon_parts(entry)
         if weight < 2:
             continue
-        hit = term in hay if " " in term else bool(
-            re.search(rf"\b{re.escape(term)}\b", hay)
-        )
-        if hit:
+        if _lexicon_entry_hits(hay, entry):
             words.add(term)
     d = domain_of(url)
     if d:
@@ -414,9 +438,10 @@ def _entry_ts(e):
     return time.time()
 
 
-def fetch_feeds(days: int):
+def fetch_feeds(days: int, feeds=None):
     cutoff = time.time() - days * 86400
     out = []
+    feeds = feeds if feeds is not None else CURATED_FEEDS
 
     def one(item):
         name, url = item
@@ -445,15 +470,16 @@ def fetch_feeds(days: int):
         return rows
 
     with ThreadPoolExecutor(max_workers=6) as ex:
-        for rows in ex.map(one, CURATED_FEEDS.items()):
+        for rows in ex.map(one, feeds.items()):
             out.extend(rows)
     return out
 
 
-def fetch_releases(days: int):
+def fetch_releases(days: int, repos=None):
     """Design system releases via GitHub's per-repo Atom feed. No token needed."""
     cutoff = time.time() - days * 86400
     out = []
+    repos = repos if repos is not None else GITHUB_REPOS
 
     def one(item):
         name, repo = item
@@ -482,7 +508,7 @@ def fetch_releases(days: int):
         return rows
 
     with ThreadPoolExecutor(max_workers=6) as ex:
-        for rows in ex.map(one, GITHUB_REPOS.items()):
+        for rows in ex.map(one, repos.items()):
             out.extend(rows)
     return out
 
@@ -784,6 +810,74 @@ def apply_profile_follows(profile, accounts, bsky_accounts, substack_pubs):
                 sub_seen.add(feed)
                 substack_pubs.append(feed)
                 added += 1
+    return added
+
+
+def _unique_name(name, existing):
+    if name not in existing:
+        return name
+    n = 2
+    while f"{name} ({n})" in existing:
+        n += 1
+    return f"{name} ({n})"
+
+
+def apply_profile_resources(profile, curated_feeds, github_repos, substack_pubs):
+    """Apply Taste-tab resources onto feeds, GitHub repos, and Substacks.
+
+    Additive: skips a feed or repo that is already present. When the profile
+    has seeds.resourcesCatalog, the caller starts from empty lists so this
+    list is the watch list.
+    """
+    resources = ((profile or {}).get("seeds") or {}).get("resources") or []
+    added = 0
+    sub_seen = set(substack_pubs)
+    feed_urls = set(curated_feeds.values())
+    repo_vals = set(github_repos.values())
+    for r in resources:
+        if not isinstance(r, dict):
+            continue
+        kind = (r.get("kind") or "rss").lower()
+        name = (r.get("name") or "").strip()
+        if kind == "github":
+            repo = (r.get("repo") or "").strip()
+            if not repo:
+                url = (r.get("url") or r.get("feed") or "")
+                m = re.search(r"github\.com/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)", url, re.I)
+                if m:
+                    repo = m.group(1)
+            repo = repo.replace(".git", "").strip("/")
+            if not repo or repo in repo_vals:
+                continue
+            label = name or repo
+            github_repos[_unique_name(label, github_repos)] = repo
+            repo_vals.add(repo)
+            added += 1
+        elif kind == "substack":
+            handle = (r.get("feed") or r.get("url") or r.get("name") or "").strip()
+            if not handle:
+                continue
+            feed = substack_feed_url(handle)
+            if not feed or feed in sub_seen:
+                continue
+            sub_seen.add(feed)
+            substack_pubs.append(feed)
+            added += 1
+        else:
+            feed = (r.get("feed") or r.get("url") or "").strip()
+            if not feed:
+                continue
+            if not feed.startswith(("http://", "https://")):
+                feed = "https://" + feed
+            if feed in feed_urls:
+                continue
+            host = urlparse(feed).netloc.lower()
+            if host.startswith("www."):
+                host = host[4:]
+            label = name or host or "Feed"
+            curated_feeds[_unique_name(label, curated_feeds)] = feed
+            feed_urls.add(feed)
+            added += 1
     return added
 
 
@@ -1457,12 +1551,6 @@ def main():
     else:
         bsky_accounts = []
 
-    if os.path.exists(args.substack):
-        substack_pubs = load_substack_pubs(args.substack)
-        print(f"substack: {len(substack_pubs)} from {args.substack}", file=sys.stderr)
-    else:
-        substack_pubs = []
-
     weights = {}
     profile_data = {}
     profile_ok = False
@@ -1474,12 +1562,33 @@ def main():
         except Exception:
             print("taste profile: unreadable, ignoring", file=sys.stderr)
 
+    catalog = bool(((profile_data or {}).get("seeds") or {}).get("resourcesCatalog"))
+    if catalog:
+        substack_pubs = []
+        print("taste catalog: watching only resources from the profile",
+              file=sys.stderr)
+    elif os.path.exists(args.substack):
+        substack_pubs = load_substack_pubs(args.substack)
+        print(f"substack: {len(substack_pubs)} from {args.substack}", file=sys.stderr)
+    else:
+        substack_pubs = []
+
     n_follows = apply_profile_follows(
         profile_data, accounts, bsky_accounts, substack_pubs,
     )
+    feeds = {} if catalog else dict(CURATED_FEEDS)
+    repos = {} if catalog else dict(GITHUB_REPOS)
+    n_resources = apply_profile_resources(
+        profile_data, feeds, repos, substack_pubs,
+    )
     if profile_ok:
-        extra = f", +{n_follows} follows" if n_follows else ""
-        print(f"taste profile: {len(weights)} learned terms{extra}", file=sys.stderr)
+        extra = []
+        if n_follows:
+            extra.append(f"+{n_follows} follows")
+        if n_resources:
+            extra.append(f"+{n_resources} resources")
+        suffix = (", " + ", ".join(extra)) if extra else ""
+        print(f"taste profile: {len(weights)} learned terms{suffix}", file=sys.stderr)
 
     now_dt = datetime.now().astimezone()
     day_start, day_end = this_day(now_dt)
@@ -1506,10 +1615,19 @@ def main():
 
     rows = []
     bsky_buzz = {}
-    for label, fn in (("hacker news", fetch_hn), ("lobsters", fetch_lobsters),
-                      ("publications", fetch_feeds), ("design systems", fetch_releases)):
+    for label, fn in (("hacker news", fetch_hn), ("lobsters", fetch_lobsters)):
         try:
             got = fn(days)
+            rows.extend(got)
+            print(f"{label}: {len(got)}", file=sys.stderr)
+        except Exception as e:
+            print(f"{label}: failed ({e})", file=sys.stderr)
+    for label, fn, arg in (
+        ("publications", fetch_feeds, feeds),
+        ("design systems", fetch_releases, repos),
+    ):
+        try:
+            got = fn(days, arg)
             rows.extend(got)
             print(f"{label}: {len(got)}", file=sys.stderr)
         except Exception as e:

@@ -34,6 +34,7 @@
     --nav-h: 62px;
     --ease: cubic-bezier(0.16, 1, 0.3, 1);
     --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+    --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
     --type: "Satoshi", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --text-display: clamp(3.25rem, 8vw, 7.5rem);
     --text-title: 1.125rem;
@@ -60,7 +61,8 @@
     transform: translateY(-120%);
   }
   .skip:focus { transform: none; }
-  button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible {
+  button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible,
+  summary:focus-visible {
     outline: 2px solid var(--ink);
     outline-offset: 3px;
   }
@@ -80,6 +82,7 @@
   .nav-logo:hover { color: var(--ink); }
   .nav-dash { font-weight: 400; color: var(--faint); padding: 0 0.15em; }
   .tabs {
+    position: relative;
     display: flex; align-items: center; gap: 22px;
     margin: 0; border: 0;
   }
@@ -91,6 +94,20 @@
     transition: color 180ms var(--ease-out);
   }
   .tab.on { color: var(--ink); font-weight: 500; }
+  .sel-dot {
+    position: absolute;
+    left: 0;
+    bottom: 6px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--ink);
+    pointer-events: none;
+    transition-property: transform;
+    transition-duration: 420ms;
+    transition-timing-function: var(--ease-in-out);
+  }
+  .sel-dot.snap { transition-duration: 0s; }
   .wrap { padding: 0 var(--pad) 96px; }
   .hero { padding: clamp(28px, 6vh, 72px) 0 clamp(40px, 8vh, 88px); }
   h1 {
@@ -125,7 +142,7 @@
     display: flex; align-items: center; justify-content: space-between;
     gap: 16px; margin: 0 0 8px; flex-wrap: wrap;
   }
-  .range { display: flex; gap: 20px; align-items: center; }
+  .range { position: relative; display: flex; gap: 20px; align-items: center; }
   .chip, .btn, .link, .text-act {
     font: inherit; letter-spacing: -0.02em; cursor: pointer;
     background: none; border: 0; padding: 10px 0;
@@ -144,7 +161,8 @@
   .link { text-decoration: underline; color: var(--ink); }
   .btn:hover, .text-act:hover, .chip:hover, .link:hover { color: var(--ink); }
   .btn:disabled { opacity: .4; cursor: default; }
-  .btn:active, .chip:active, .tab:active, .text-act:active, .link:active {
+  .btn:active, .chip:active, .tab:active, .text-act:active, .link:active,
+  .rkind > summary:active {
     transform: scale(0.96);
   }
   .btn.saved, .text-act.saved { color: var(--ink); font-weight: 500; }
@@ -163,12 +181,21 @@
     font-size: 15px; color: var(--mute); line-height: 1.5;
     margin: 0 0 28px; max-width: 54ch; text-wrap: pretty;
   }
+  @media (min-width: 641px) {
+    .primer--period {
+      max-width: none;
+      white-space: nowrap;
+    }
+  }
   .empty { padding: 56px 0 24px; }
   .empty h2 {
     font-size: clamp(1.5rem, 3vw, 2rem); font-weight: 500;
     letter-spacing: -0.04em; line-height: 1.15; margin: 0;
     text-wrap: balance;
   }
+  .saved-add { margin: 0 0 28px; }
+  .saved-add .tadd { margin-top: 0; }
+  .saved-add + .empty { padding-top: 28px; }
 
   ol.list, ul.list { list-style: none; margin: 0; padding: 0; }
   li.item {
@@ -204,6 +231,17 @@
   .meta {
     display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 8px 0 0;
     font-size: var(--text-meta); color: var(--mute); line-height: 1.45;
+  }
+  .meta-run {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    white-space: nowrap;
+  }
+  .meta-run > * + *::before {
+    content: "·";
+    margin-inline: 0.35em;
+    color: var(--faint);
   }
   .meta a {
     color: var(--mute); text-decoration: none;
@@ -244,7 +282,149 @@
   }
   .trow .tb { height: 1px; background: var(--line); }
   .trow .tb > i { display: block; height: 100%; background: var(--ink); }
+  .tcol--spider { position: relative; }
+  .tcol--spider .trow { display: none; }
+  .spider-plot {
+    position: relative;
+    width: min(100%, 28rem);
+    margin-inline: auto;
+  }
+  .spider-svg {
+    display: block; width: 100%; height: auto; overflow: visible;
+  }
+  .spider-web, .spider-axis {
+    fill: none; stroke: var(--line); stroke-width: 1; stroke-linecap: round;
+    vector-effect: non-scaling-stroke;
+  }
+  .spider-shape {
+    fill: color-mix(in srgb, var(--ink) 7%, transparent);
+    stroke: var(--ink); stroke-width: 1; stroke-linejoin: round;
+    vector-effect: non-scaling-stroke;
+  }
+  .spider-dot { fill: var(--ink); }
+  .spider-arm, .spider-term, .spider-shape, .spider-axis {
+    transition-property: opacity;
+    transition-duration: 180ms;
+    transition-timing-function: var(--ease-out);
+  }
+  .spider-term {
+    position: absolute;
+    left: var(--x); top: var(--y);
+    transform: translate(var(--tx), var(--ty)) scale(var(--press, 1));
+    margin: 0; border: 0; padding: 8px;
+    min-height: 40px; min-width: 40px;
+    background: none; cursor: pointer;
+    font: inherit; font-size: 14px; font-weight: 500; letter-spacing: -0.02em;
+    color: var(--ink); white-space: nowrap;
+    text-align: inherit;
+  }
+  .spider-term[data-empty="true"] { color: var(--mute); font-weight: 400; }
+  .spider-term[data-anchor="start"] { --tx: 8px; --ty: -50%; text-align: start; }
+  .spider-term[data-anchor="end"] { --tx: calc(-100% - 8px); --ty: -50%; text-align: end; }
+  .spider-term[data-anchor="middle"] { --tx: -50%; --ty: calc(-100% - 4px); text-align: center; }
+  .spider-term[data-anchor="bottom"] { --tx: -50%; --ty: 4px; text-align: center; }
+  .spider-term:active { --press: 0.96; }
+  .spider-meta {
+    display: block;
+    margin-top: 2px;
+    font-size: var(--text-meta); font-weight: 400;
+    color: var(--mute); line-height: 1.35;
+    white-space: normal; max-width: 16ch;
+    text-wrap: pretty;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 180ms;
+    transition-timing-function: var(--ease-out);
+  }
+  .spider-term:hover .spider-meta,
+  .spider-term:focus-visible .spider-meta,
+  .spider-term[aria-expanded="true"] .spider-meta { opacity: 1; }
+  .spider:focus-within .spider-term,
+  .spider:focus-within .spider-arm,
+  .spider:focus-within .spider-axis,
+  .spider:focus-within .spider-shape { opacity: 0.32; }
+  .spider:focus-within .spider-term:focus-visible,
+  .spider:focus-within .spider-term[aria-expanded="true"],
+  .spider:focus-within .spider-arm.on,
+  .spider:focus-within .spider-axis.on { opacity: 1; }
+  .spider-peek { margin-top: 4px; }
+  .spider-peek[hidden] { display: none; }
+  .spider-peek ul { list-style: none; margin: 0; padding: 0; }
+  .spider-peek li {
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .spider-peek li:first-child { border-top: 1px solid var(--line); }
+  .spider-peek .title { max-width: 46ch; }
+  .spider-peek .meta { margin-top: 4px; }
+  @media (prefers-reduced-motion: no-preference) {
+    .spider-shape, .spider-arm {
+      transform-origin: 50% 50%;
+      transform-box: view-box;
+      animation: spider-in 560ms var(--ease-out) both;
+    }
+    .spider-arm { animation-delay: calc(var(--i, 0) * 24ms); }
+  }
+  @keyframes spider-in {
+    from { transform: scale(0.2); }
+    to { transform: none; }
+  }
   .reset { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); }
+  .dlg {
+    width: min(26rem, calc(100% - 2 * var(--pad)));
+    max-height: calc(100dvh - 2 * var(--pad));
+    margin: auto;
+    padding: 28px 28px 24px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink);
+    font: inherit;
+    letter-spacing: -0.02em;
+    overflow: auto;
+    overscroll-behavior: contain;
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 200ms var(--ease-out), transform 200ms var(--ease-out),
+      overlay 200ms var(--ease-out) allow-discrete,
+      display 200ms var(--ease-out) allow-discrete;
+  }
+  .dlg[open] {
+    opacity: 1;
+    transform: none;
+  }
+  @starting-style {
+    .dlg[open] {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+  }
+  .dlg::backdrop {
+    background: color-mix(in srgb, var(--ink-deep) 42%, transparent);
+    opacity: 0;
+    transition: opacity 200ms var(--ease-out),
+      overlay 200ms var(--ease-out) allow-discrete,
+      display 200ms var(--ease-out) allow-discrete;
+  }
+  .dlg[open]::backdrop { opacity: 1; }
+  @starting-style {
+    .dlg[open]::backdrop { opacity: 0; }
+  }
+  .dlg h2 {
+    font-size: var(--text-title); font-weight: 500;
+    letter-spacing: -0.03em; margin: 0 0 10px;
+    text-wrap: balance;
+  }
+  .dlg p {
+    font-size: var(--text-meta); color: var(--mute);
+    line-height: 1.55; margin: 0; max-width: 42ch;
+    text-wrap: pretty;
+  }
+  .dlg-acts {
+    display: flex; flex-wrap: wrap; gap: 4px 22px;
+    justify-content: flex-end; margin-top: 22px;
+  }
+  .dlg .btn.down { color: var(--warm); }
+  .dlg .btn.down:hover { color: var(--ink); }
   .tsec { margin: 8px 0 48px; }
   .tsec > h2 {
     font-size: var(--text-title); font-weight: 500;
@@ -274,7 +454,43 @@
     font-size: var(--text-meta); color: var(--warm);
     margin: 8px 0 0; max-width: 54ch;
   }
+  .field-err:empty { margin: 0; }
   .seeds { list-style: none; margin: 16px 0 0; padding: 0; }
+  .tadd + .field-err + .seeds,
+  .tadd + .field-err + .rkind { margin-top: 32px; }
+  .rkind + .rkind { margin-top: 8px; }
+  .rkind[open] + .rkind { margin-top: 28px; }
+  .rkind > summary {
+    display: flex; align-items: center; gap: 8px;
+    min-height: 44px; padding: 10px 0; margin: 0;
+    cursor: pointer; list-style: none;
+    font-size: var(--text-meta); font-weight: 500;
+    letter-spacing: -0.02em; color: var(--mute);
+    transition: color 180ms var(--ease-out), transform 160ms var(--ease-out);
+  }
+  .rkind > summary::-webkit-details-marker { display: none; }
+  .rkind > summary::before {
+    content: "";
+    flex: none;
+    width: 0.4em; height: 0.4em;
+    margin-block-start: -0.12em;
+    border-inline-end: 1.5px solid currentColor;
+    border-bottom: 1.5px solid currentColor;
+    transform: rotate(-45deg);
+    transition: transform 180ms var(--ease-out), margin 180ms var(--ease-out);
+  }
+  .rkind[open] > summary::before {
+    transform: rotate(45deg);
+    margin-block-start: -0.28em;
+  }
+  .rkind > summary:hover { color: var(--ink); }
+  .rkind-count {
+    color: var(--faint);
+    font-weight: 400;
+    font-variant-numeric: tabular-nums;
+  }
+  .rkind > summary:hover .rkind-count { color: inherit; }
+  .rkind .seeds { margin-top: 0; }
   .seed {
     display: grid;
     grid-template-columns: minmax(0, 1fr) auto;
@@ -283,7 +499,7 @@
     padding: 14px 0;
     border-bottom: 1px solid var(--line);
   }
-  .seed:first-child { border-top: 1px solid var(--line); }
+  .seed:first-child { border-top: none; }
   .seed .name, .seed-title {
     font: inherit; font-size: 15px; font-weight: 500;
     letter-spacing: -0.03em; color: var(--ink);
@@ -297,22 +513,92 @@
     margin: 4px 0 0;
     font-size: var(--text-meta); color: var(--mute);
   }
-  .net { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 2px; }
+  .seed-resource {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 4px 24px;
+    padding: 6px 0;
+    transition: opacity 200ms var(--ease-out);
+  }
+  .seed-resource .seed-main {
+    display: flex;
+    align-items: baseline;
+    gap: 0.35em;
+    min-width: 0;
+  }
+  .seed-resource .seed-title {
+    min-height: 0;
+    padding: 4px 0;
+    width: auto;
+    flex: 0 1 auto;
+    min-width: 3ch;
+    cursor: inherit;
+  }
+  a.seed-main {
+    color: inherit;
+    text-decoration: none;
+    text-underline-offset: 4px;
+    text-decoration-thickness: from-font;
+  }
+  .seed-resource .seed-host {
+    flex: 0 1 auto;
+    min-width: 0;
+    font-size: var(--text-meta);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    color: var(--mute);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .seed-resource .acts { margin-top: 0; }
+  .seed-resource .text-act {
+    min-height: 0;
+    padding: 4px 0;
+    position: relative;
+  }
+  .seed-resource .text-act::after {
+    content: "";
+    position: absolute;
+    inset: -10px -8px;
+  }
+  .net { position: relative; display: flex; flex-wrap: wrap; gap: 14px; margin-top: 2px; }
   .net .chip { font-size: 13px; min-height: 40px; padding: 6px 0; }
-  .taste-primer { margin: 8px 0 32px; }
+  .taste-primer { margin: 0 0 32px; }
   footer.site-foot {
     display: flex; justify-content: space-between; gap: 24px; flex-wrap: wrap;
     margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--line);
   }
   footer.site-foot .note { margin: 0; }
-  .copy { font-size: var(--text-meta); color: var(--mute); white-space: nowrap; }
+  .copy { margin: 0; flex-shrink: 0; font-size: var(--text-meta); color: var(--mute); white-space: nowrap; }
+  .copy a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: from-font;
+  }
+  .copy a:hover { color: var(--ink); }
   .hidden { display: none; }
 
   @media (hover: hover) and (pointer: fine) {
     .list:hover .item { opacity: 0.32; }
     .list:hover .item:hover { opacity: 1; }
     a.title:hover { text-decoration: underline; }
+    .rkind .seeds:hover .seed-resource { opacity: 0.32; }
+    .rkind .seeds:hover .seed-resource:hover { opacity: 1; }
+    .rkind a.seed-main:hover .seed-title { text-decoration: underline; }
+    .seed-resource .text-act { opacity: 0; }
+    .seed-resource:hover .text-act,
+    .seed-resource:focus-within .text-act { opacity: 1; }
     .tab:hover { color: var(--ink); }
+    .spider:hover .spider-term,
+    .spider:hover .spider-arm,
+    .spider:hover .spider-axis,
+    .spider:hover .spider-shape { opacity: 0.32; }
+    .spider:hover .spider-term:hover,
+    .spider:hover .spider-term[aria-expanded="true"],
+    .spider:hover .spider-arm.on,
+    .spider:hover .spider-axis.on { opacity: 1; }
   }
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
@@ -321,7 +607,9 @@
       transition-duration: 0.01ms !important;
     }
     .list:hover .item { opacity: 1; }
-    .btn:active, .chip:active, .tab:active, .text-act:active, .link:active {
+    .rkind .seeds:hover .seed-resource { opacity: 1; }
+    .btn:active, .chip:active, .tab:active, .text-act:active, .link:active,
+    .rkind > summary:active {
       transform: none;
     }
   }
@@ -332,15 +620,38 @@
     li.item { grid-template-columns: 2.6rem minmax(0, 1fr); column-gap: 12px; padding: 22px 0; }
     .rank-of { display: none; }
     a.title { font-size: 1.0625rem; }
+    .meta {
+      flex-wrap: nowrap;
+      gap: 4px 12px;
+      min-width: 0;
+    }
+    .meta-sources { display: none; }
+    .meta > span:first-child {
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .meta-run { flex-shrink: 0; }
     .hero { padding: 24px 0 48px; }
     .trow { grid-template-columns: minmax(0, 46%) 1fr; }
+    .tcol--spider .spider,
+    .tcol--spider .spider-peek { display: none; }
+    .tcol--spider .trow { display: grid; }
     .tfield input { font-size: 16px; }
     .seed { grid-template-columns: minmax(0, 1fr); }
     .seed .acts { margin-top: 0; }
+    .seed-resource { grid-template-columns: minmax(0, 1fr) auto; }
   }
   @media (forced-colors: active) {
     .chip.on, .tab.on { outline: 2px solid CanvasText; }
+    .sel-dot { background: CanvasText; }
     .bar > i { background: CanvasText; }
+    .spider-web, .spider-axis, .spider-shape { stroke: CanvasText; }
+    .spider-shape { fill: Canvas; }
+    .spider-dot { fill: CanvasText; }
+    .dlg { border-color: CanvasText; background: Canvas; color: CanvasText; }
+    .dlg::backdrop { background: CanvasText; opacity: 0.35; }
   }
 </style>
 </head>
@@ -352,6 +663,7 @@
     <button type="button" class="tab on" data-tab="digest" aria-current="page">Digest</button>
     <button type="button" class="tab" data-tab="saved">Saved</button>
     <button type="button" class="tab" data-tab="taste">Taste</button>
+    <span class="sel-dot" aria-hidden="true"></span>
   </nav>
 </header>
 <div class="wrap">
@@ -371,11 +683,13 @@
         <button type="button" class="chip" role="radio" aria-checked="false" data-cadence="daily">Daily</button>
         <button type="button" class="chip on" role="radio" aria-checked="true" data-cadence="weekly">Weekly</button>
         <button type="button" class="chip" role="radio" aria-checked="false" data-cadence="monthly">Monthly</button>
+        <span class="sel-dot" aria-hidden="true"></span>
       </div>
       <div class="range hidden" id="range" role="radiogroup" aria-label="Live window">
         <button type="button" class="chip" role="radio" aria-checked="false" data-days="3">3 days</button>
         <button type="button" class="chip on" role="radio" aria-checked="true" data-days="7">7 days</button>
         <button type="button" class="chip" role="radio" aria-checked="false" data-days="30">30 days</button>
+        <span class="sel-dot" aria-hidden="true"></span>
       </div>
       <button type="button" class="btn" id="refresh">Refresh</button>
     </div>
@@ -385,7 +699,16 @@
   </section>
 
   <section id="view-saved" class="hidden"></section>
-  <section id="view-taste" class="hidden"></section>
+  <section id="view-taste" class="hidden">
+    <div class="controls">
+      <div class="range" id="taste-panes" role="radiogroup" aria-label="Taste">
+        <button type="button" class="chip" role="radio" aria-checked="false" data-taste-pane="sources">Sources</button>
+        <button type="button" class="chip on" role="radio" aria-checked="true" data-taste-pane="taste">Taste</button>
+        <span class="sel-dot" aria-hidden="true"></span>
+      </div>
+    </div>
+    <div id="taste-body"></div>
+  </section>
   </main>
 
   <footer class="site-foot">
@@ -393,9 +716,20 @@
       A digest from Hacker News, Lobsters, and design and product publications.
       Everything you add on Taste stays in this&nbsp;browser.
     </p>
-    <p class="copy">© 2026 Kerning</p>
+    <p class="copy">© 2026 Kerning<span class="hero-dot" aria-hidden="true"> · </span>Crafted by <a href="https://martinandrle.com/">Martin&nbsp;Andrle</a></p>
   </footer>
 </div>
+
+<dialog id="reset-dialog" class="dlg" aria-labelledby="reset-dialog-title" aria-describedby="reset-dialog-body">
+  <form method="dialog">
+    <h2 id="reset-dialog-title">Start over?</h2>
+    <p id="reset-dialog-body">This clears people, resources, articles, ratings, saved stories, and the learned profile. Watched resources return to the defaults.</p>
+    <div class="dlg-acts">
+      <button type="submit" class="btn" value="cancel" autofocus>Cancel</button>
+      <button type="submit" class="btn down" value="confirm">Start over</button>
+    </div>
+  </form>
+</dialog>
 
 <script>
 "use strict";
@@ -411,7 +745,7 @@ const CADENCE_COPY = {
   daily: {
     prefix: "Today",
     rate: " Rate a few and tomorrow\u2019s ranking follows your taste.",
-    taste: " Or add people you follow on Taste.",
+    taste: " Or add people and resources on Taste.",
     empty: "That\u2019s today\u2019s list.",
     emptyNote: "Saved stories stay here. A new issue lands tomorrow.",
     loading: "Opening today\u2019s digest.",
@@ -421,7 +755,7 @@ const CADENCE_COPY = {
   weekly: {
     prefix: "This week",
     rate: " Rate a few and next week\u2019s ranking follows your taste.",
-    taste: " Or add people you follow on Taste.",
+    taste: " Or add people and resources on Taste.",
     empty: "That\u2019s this week\u2019s list.",
     emptyNote: "Saved stories stay here. A new issue lands Monday.",
     loading: "Opening this week\u2019s digest.",
@@ -431,7 +765,7 @@ const CADENCE_COPY = {
   monthly: {
     prefix: "This month",
     rate: " Rate a few and next month\u2019s ranking follows your taste.",
-    taste: " Or add people you follow on Taste.",
+    taste: " Or add people and resources on Taste.",
     empty: "That\u2019s this month\u2019s list.",
     emptyNote: "Saved stories stay here. A new issue lands on the 1st.",
     loading: "Opening this month\u2019s digest.",
@@ -451,30 +785,97 @@ const QUERIES = [
 ];
 
 const LEXICON = [
-  ["typography",3],["typographic",3],["typeface",3],["typesetting",3],["kerning",3],
-  ["baseline grid",3],["font",3],["fonts",3],["variable font",3],["lettering",3],
-  ["figma",3],["design system",3],["design systems",3],["design tokens",3],
-  ["ux",3],["user experience",3],["ui",3],["user interface",3],["usability",3],
+  ["typography",3,"typographic"],["typeface",3],["typesetting",3],["kerning",3],
+  ["baseline grid",3],["font",3,"fonts"],["variable font",3],["lettering",3],
+  ["figma",3],["design system",3,"design systems"],["design token",3,"design tokens"],
+  ["ux",3,"user experience"],["ui",3,"user interface"],["usability",3],
   ["interaction design",3],["visual design",3],["graphic design",3],
   ["product design",3],["industrial design",3],["information architecture",3],
   ["wireframe",3],["human interface",3],["material design",3],["skeuomorph",3],
   ["bauhaus",3],["swiss design",3],["illustration",3],["iconography",3],
-  ["accessibility",3],["a11y",3],["wcag",3],["screen reader",3],["motion design",3],
+  ["accessibility",3,"a11y"],["wcag",3],["screen reader",3],["motion design",3],
   ["brand identity",3],["color palette",3],["grid system",3],["web design",3],
   ["logo",3],["legibility",3],["type design",3],
   ["icons",2],["illustrator",2],["branding",2],["palette",2],["colour",2],
-  ["layout",2],["css",2],["tailwind",2],["svg",2],["animation",2],["prototype",2],
-  ["prototyping",2],["poster",2],["dark mode",2],["aesthetic",2],["aesthetics",2],
+  ["layout",2],["css",2],["tailwind",2],["svg",2],["animation",2],["prototype",2,"prototyping"],
+  ["poster",2],["dark mode",2],["aesthetic",2,"aesthetics"],
   ["designer",2],["redesign",2],["readability",2],
   ["product strategy",2],["product sense",2],["roadmap",2],
   ["prioritization",2],["prd",2],["user research",2],
   ["outcome-based",2],["product-led",2],
   ["product management",3],["product manager",3],
-  ["product discovery",3],["jobs to be done",3],["jtbd",3],
+  ["product discovery",3],["jobs to be done",3,"jtbd"],
   ["opportunity solution tree",3],["dual-track",3],
   ["continuous discovery",3],["product ops",3],
   ["design",1],["craft",1],["interface",1],
 ];
+
+const TASTE_GROUPS = [
+  { id: "craft", label: "Craft" },
+  { id: "systems", label: "Systems" },
+  { id: "product", label: "Product" },
+  { id: "platforms", label: "Platforms" },
+  { id: "people", label: "People" },
+];
+const TASTE_GROUP_OTHER = { id: "other", label: "Other" };
+const TERM_GROUP = {};
+[
+  ["craft", [
+    "typography", "typeface", "typesetting", "kerning", "baseline grid", "font",
+    "variable font", "lettering", "ux", "ui", "usability", "interaction design",
+    "visual design", "graphic design", "product design", "industrial design",
+    "wireframe", "skeuomorph", "bauhaus", "swiss design", "illustration",
+    "iconography", "motion design", "brand identity", "color palette",
+    "grid system", "web design", "logo", "legibility", "type design", "icons",
+    "branding", "palette", "colour", "layout", "css", "tailwind", "svg",
+    "animation", "prototype", "poster", "dark mode", "aesthetic", "designer",
+    "redesign", "readability", "design", "craft", "interface",
+    "color", "motion", "type",
+  ]],
+  ["systems", [
+    "design system", "design token", "information architecture",
+    "human interface", "material design", "accessibility", "wcag",
+    "screen reader",
+  ]],
+  ["product", [
+    "product strategy", "product sense", "roadmap", "prioritization", "prd",
+    "user research", "outcome-based", "product-led", "product management",
+    "product manager", "product discovery", "jobs to be done",
+    "opportunity solution tree", "dual-track", "continuous discovery",
+    "product ops", "product",
+  ]],
+  ["platforms", ["figma", "illustrator"]],
+].forEach((pair) => {
+  pair[1].forEach((term) => { TERM_GROUP[term] = pair[0]; });
+});
+
+function groupOf(term) {
+  if (String(term).indexOf("person:") === 0) return "people";
+  if (String(term).indexOf("site:") === 0) return "platforms";
+  return TERM_GROUP[term] || "other";
+}
+
+function tasteGroupRows(entries) {
+  const byId = {};
+  TASTE_GROUPS.forEach((g) => {
+    byId[g.id] = { id: g.id, label: g.label, sum: 0, members: [] };
+  });
+  byId.other = {
+    id: TASTE_GROUP_OTHER.id, label: TASTE_GROUP_OTHER.label,
+    sum: 0, members: [],
+  };
+  entries.forEach((e) => {
+    const g = byId[groupOf(e[0])] || byId.other;
+    g.sum += e[1];
+    g.members.push(e);
+  });
+  Object.keys(byId).forEach((id) => {
+    byId[id].members.sort((a, b) => b[1] - a[1]);
+  });
+  const rows = TASTE_GROUPS.map((g) => byId[g.id]);
+  if (byId.other.sum > 0) rows.push(byId.other);
+  return rows;
+}
 
 const STOP = new Set(("the a an and or of for to in on with from this that how why what " +
   "your you are is it its at as be by we our not new using use can show ask hn i my me " +
@@ -488,26 +889,68 @@ const STOP = new Set(("the a an and or of for to in on with from this that how w
 
 const NETWORKS = ["bsky", "x", "substack"];
 const NET_LABEL = { bsky: "Bluesky", x: "X", substack: "Substack" };
+const RESOURCE_KINDS = ["rss", "github", "substack"];
+const RESOURCE_LABEL = { rss: "RSS", github: "GitHub", substack: "Substack" };
 const X_RESERVED = new Set(("home explore notifications messages search i following " +
   "followers bookmarks lists topics settings compose intent").split(/\s+/));
 
+// Same sources kerning_fetch.py watches by default (CURATED_FEEDS, GITHUB_REPOS,
+// substack.txt). Taste seeds from this once, then the list is yours.
+const DEFAULT_RESOURCES = [
+  { kind: "rss", name: "NN/g", url: "https://www.nngroup.com/feed/rss/" },
+  { kind: "rss", name: "Smashing Magazine", url: "https://www.smashingmagazine.com/feed/" },
+  { kind: "rss", name: "A List Apart", url: "https://alistapart.com/main/feed/" },
+  { kind: "rss", name: "UX Collective", url: "https://uxdesign.cc/feed" },
+  { kind: "rss", name: "Sidebar", url: "https://sidebar.io/feed.xml" },
+  { kind: "rss", name: "Typographica", url: "https://typographica.org/feed/" },
+  { kind: "rss", name: "SVPG", url: "https://www.svpg.com/feed" },
+  { kind: "rss", name: "Product Talk", url: "https://www.producttalk.org/feed" },
+  { kind: "rss", name: "Intercom", url: "https://www.intercom.com/blog/feed" },
+  { kind: "github", name: "Primer (GitHub)", url: "primer/react" },
+  { kind: "github", name: "Polaris (Shopify)", url: "Shopify/polaris" },
+  { kind: "github", name: "Carbon (IBM)", url: "carbon-design-system/carbon" },
+  { kind: "github", name: "Spectrum (Adobe)", url: "adobe/react-spectrum" },
+  { kind: "github", name: "Radix", url: "radix-ui/primitives" },
+  { kind: "github", name: "shadcn/ui", url: "shadcn-ui/ui" },
+  { kind: "github", name: "Tailwind CSS", url: "tailwindlabs/tailwindcss" },
+  { kind: "substack", name: "Design Systems Collective", url: "designsystemscollective" },
+  { kind: "substack", name: "AI for UX", url: "aiforux" },
+  { kind: "substack", name: "Department of Product", url: "departmentofproduct" },
+  { kind: "substack", name: "Nathan Curtis", url: "nathanacurtis" },
+  { kind: "substack", name: "Why Design Is Hard", url: "whydesignishard" },
+  { kind: "substack", name: "Southleft", url: "southleft" },
+  { kind: "substack", name: "Jaime Derringer", url: "jaimederringer" },
+  { kind: "substack", name: "Pablo Stanley", url: "pablostanley" },
+  { kind: "substack", name: "Proof of Concept", url: "https://www.proofofconcept.pub" },
+  { kind: "substack", name: "Dense Discovery", url: "https://www.densediscovery.com" },
+  { kind: "substack", name: "Lenny's Newsletter", url: "https://www.lennysnewsletter.com" },
+  { kind: "substack", name: "Cutlefish", url: "cutlefish" },
+  { kind: "substack", name: "Design Lobster", url: "designlobster" },
+  { kind: "substack", name: "We and the Color", url: "weandthecolor" },
+  { kind: "substack", name: "UX Psychology", url: "uxpsychology" },
+  { kind: "substack", name: "Fugu UX", url: "fuguux" },
+];
+
 function emptySeeds() {
-  return { people: [], articles: [] };
+  return { people: [], articles: [], resources: [] };
 }
 function emptyProfile() {
   return { weights: {}, ratings: {}, saved: [], seeds: emptySeeds() };
 }
 function normalizeProfile(p) {
   const seeds = (p && p.seeds) || {};
-  return {
+  const out = {
     weights: (p && p.weights) || {},
     ratings: (p && p.ratings) || {},
     saved: (p && p.saved) || [],
     seeds: {
       people: Array.isArray(seeds.people) ? seeds.people : [],
       articles: Array.isArray(seeds.articles) ? seeds.articles : [],
+      resources: Array.isArray(seeds.resources) ? seeds.resources : [],
     },
   };
+  if (seeds.resourcesCatalog) out.seeds.resourcesCatalog = 1;
+  return out;
 }
 
 let profile = emptyProfile();
@@ -516,7 +959,10 @@ let ranked = [];
 let justRated = {};
 let days = 7;
 let tab = "digest";
+let tastePane = "taste";
+let resourceOpen = { rss: false, github: false, substack: false };
 let status = "idle";
+let slideGroup = null;
 
 // "curated" reads digest.json built by kerning_fetch.py (all sources, already
 // ranked). "live" queries Hacker News directly from the browser. The app
@@ -538,7 +984,9 @@ function loadProfile() {
     const c = localStorage.getItem(CADENCE_KEY);
     if (CADENCES.indexOf(c) >= 0) cadence = c;
   } catch (e) { /* keep weekly */ }
+  const seeded = ensureResourcesCatalog();
   rebuildWeights();
+  if (seeded) saveProfile();
   seedPendingBluesky();
 }
 function saveCadence() {
@@ -563,15 +1011,26 @@ function domainOf(url) {
   try { return new URL(url).hostname.replace(/^www\./, ""); } catch (e) { return ""; }
 }
 
+function lexiconFormHits(hay, form) {
+  return form.indexOf(" ") >= 0
+    ? hay.indexOf(form) >= 0
+    : new RegExp("\\b" + form.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(hay);
+}
+
+function lexiconEntryHits(hay, entry) {
+  if (lexiconFormHits(hay, entry[0])) return true;
+  for (let i = 2; i < entry.length; i++) {
+    if (lexiconFormHits(hay, entry[i])) return true;
+  }
+  return false;
+}
+
 function lexiconScore(item) {
   const hay = (item.title + " " + domainOf(item.url)).toLowerCase();
   let score = 0;
-  for (const pair of LEXICON) {
-    const term = pair[0], w = pair[1];
-    const hit = term.indexOf(" ") >= 0
-      ? hay.indexOf(term) >= 0
-      : new RegExp("\\b" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(hay);
-    if (hit) score += w;
+  for (let i = 0; i < LEXICON.length; i++) {
+    const entry = LEXICON[i];
+    if (lexiconEntryHits(hay, entry)) score += entry[1];
   }
   return score;
 }
@@ -580,12 +1039,9 @@ function tokensOf(item) {
   const hay = ((item.title || "") + " " + domainOf(item.url)).toLowerCase();
   const set = new Set();
   for (let i = 0; i < LEXICON.length; i++) {
-    const term = LEXICON[i][0], w = LEXICON[i][1];
-    if (w < 2) continue;
-    const hit = term.indexOf(" ") >= 0
-      ? hay.indexOf(term) >= 0
-      : new RegExp("\\b" + term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(hay);
-    if (hit) set.add(term);
+    const entry = LEXICON[i];
+    if (entry[1] < 2) continue;
+    if (lexiconEntryHits(hay, entry)) set.add(entry[0]);
   }
   const d = domainOf(item.url);
   if (d) set.add("site:" + d);
@@ -825,7 +1281,9 @@ function persistTaste() {
 }
 
 function hasSeeds() {
-  return profile.seeds.people.length > 0 || profile.seeds.articles.length > 0;
+  return profile.seeds.people.length > 0
+    || profile.seeds.articles.length > 0
+    || (profile.seeds.resources || []).length > 0;
 }
 
 function personKey(network, handle) {
@@ -919,6 +1377,10 @@ function normalizeArticleUrl(raw) {
   } catch (e) {
     return "";
   }
+}
+
+function canonUrl(url) {
+  return normalizeArticleUrl(url).replace(/\/+$/, "").toLowerCase();
 }
 
 async function titleForUrl(url) {
@@ -1059,7 +1521,7 @@ function removePerson(id) {
   persistTaste();
 }
 
-function setPersonNetwork(id, network) {
+function setPersonNetwork(id, network, chip) {
   const p = profile.seeds.people.find((x) => x.id === id);
   if (!p || p.network === network || NETWORKS.indexOf(network) < 0) return;
   if (profile.seeds.people.some((x) => x !== p && x.network === network
@@ -1069,7 +1531,30 @@ function setPersonNetwork(id, network) {
   p.network = network;
   p.id = personKey(network, p.handle);
   if (network === "bsky") p.seeded = false;
-  persistTaste();
+  rebuildWeights();
+  saveProfile();
+  recompute();
+  const net = chip && chip.closest(".net");
+  if (net) {
+    net.setAttribute("aria-label", "Network for " + p.handle);
+    net.querySelectorAll(".chip").forEach((c) => {
+      const on = c.dataset.network === network;
+      c.classList.toggle("on", on);
+      c.setAttribute("aria-checked", on ? "true" : "false");
+      c.dataset.id = p.id;
+    });
+    const seed = net.closest(".seed");
+    if (seed) {
+      seed.querySelectorAll("[data-id]").forEach((el) => { el.dataset.id = p.id; });
+    }
+    moveSelDot(net, true);
+  }
+  const q = ranked.filter((it) => !profile.ratings[it.id]).length;
+  const digestTab = document.querySelector('[data-tab="digest"]');
+  if (digestTab) {
+    digestTab.textContent = "Digest" + (q ? " (" + q + ")" : "");
+    moveSelDot(document.getElementById("tabs"), false);
+  }
   seedPendingBluesky();
 }
 
@@ -1112,6 +1597,218 @@ function renameArticle(id, title) {
   persistTaste();
 }
 
+function looksLikeFeedPath(path) {
+  return /\/(feed|rss|atom)(\.(xml|rss|atom))?$/i.test(path)
+    || /\.(xml|rss|atom)$/i.test(path)
+    || /\/releases\.atom$/i.test(path);
+}
+
+function githubRepoFrom(raw) {
+  const s = String(raw || "").trim();
+  const mPath = s.match(/github\.com\/([A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+)/i);
+  if (mPath) return mPath[1].replace(/\.git$/, "");
+  const mBare = s.match(/^@?([A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+)\/?$/);
+  return mBare ? mBare[1] : "";
+}
+
+function substackFeedFrom(raw) {
+  const s = String(raw || "").trim().replace(/^@/, "");
+  if (!s) return "";
+  try {
+    const withProto = /^https?:\/\//i.test(s) ? s : "https://" + s;
+    const u = new URL(withProto);
+    const host = u.hostname.replace(/^www\./, "").toLowerCase();
+    let path = u.pathname.replace(/\/+$/, "");
+    if (host === "substack.com") {
+      const slug = path.replace(/^\//, "").split("/")[0];
+      if (!slug) return "";
+      return "https://" + slug.toLowerCase() + ".substack.com/feed";
+    }
+    if (!path.endsWith("/feed")) path = (path ? path : "") + "/feed";
+    return "https://" + host + (path || "/feed");
+  } catch (e) { /* not a URL */ }
+  if (/^[A-Za-z0-9-]+$/.test(s)) return "https://" + s.toLowerCase() + ".substack.com/feed";
+  if (s.indexOf(".") >= 0) return "https://" + s.toLowerCase().replace(/\/+$/, "") + "/feed";
+  return "";
+}
+
+function rssFeedFrom(raw) {
+  const url = normalizeArticleUrl(raw);
+  if (!url) return "";
+  try {
+    const u = new URL(url);
+    if (looksLikeFeedPath(u.pathname)) return u.toString();
+    u.pathname = (u.pathname.replace(/\/+$/, "") || "") + "/feed";
+    u.search = "";
+    u.hash = "";
+    return u.toString();
+  } catch (e) {
+    return "";
+  }
+}
+
+function detectResourceKind(raw) {
+  const line = String(raw || "").trim().split(/\s+/)[0];
+  if (!line) return "rss";
+  if (githubRepoFrom(line)) return "github";
+  try {
+    const withProto = /^https?:\/\//i.test(line) ? line : "https://" + line;
+    const u = new URL(withProto);
+    const host = u.hostname.replace(/^www\./, "").toLowerCase();
+    if (host === "substack.com" || host.endsWith(".substack.com")) return "substack";
+  } catch (e) { /* not a URL */ }
+  if (/^[A-Za-z0-9-]+$/.test(line)) return "substack";
+  return "rss";
+}
+
+function parseResourceLine(raw, kind) {
+  const line = String(raw || "").trim();
+  if (!line || line.charAt(0) === "#") return null;
+  const k = RESOURCE_KINDS.indexOf(kind) >= 0 ? kind : detectResourceKind(line);
+  if (k === "github") {
+    const repo = githubRepoFrom(line);
+    if (!repo) return null;
+    return {
+      kind: "github",
+      repo: repo,
+      url: "https://github.com/" + repo,
+      feed: "https://github.com/" + repo + "/releases.atom",
+      name: repo,
+    };
+  }
+  if (k === "substack") {
+    const feed = substackFeedFrom(line.split(/\s+/)[0]);
+    if (!feed) return null;
+    let name = "";
+    try { name = new URL(feed).hostname.replace(/\.substack\.com$/, ""); }
+    catch (e) { name = line; }
+    return { kind: "substack", url: feed, feed: feed, name: name };
+  }
+  const feed = rssFeedFrom(line.split(/\s+/)[0]);
+  if (!feed) return null;
+  let name = "";
+  try { name = new URL(feed).hostname.replace(/^www\./, ""); }
+  catch (e) { name = feed; }
+  return { kind: "rss", url: feed, feed: feed, name: name };
+}
+
+function resourceId(parsed) {
+  if (parsed.kind === "github") return "res:github:" + parsed.repo.toLowerCase();
+  return "res:" + parsed.kind + ":" + String(parsed.feed || "").replace(/\/+$/, "").toLowerCase();
+}
+
+function resourceDedupeKey(r) {
+  if (!r) return "";
+  if (r.kind === "github" || r.repo) {
+    const repo = String(r.repo || "").trim().toLowerCase();
+    if (repo) return "repo:" + repo;
+  }
+  const feed = String(r.feed || r.url || "").replace(/\/+$/, "").toLowerCase();
+  return feed ? "feed:" + feed : "";
+}
+
+function defaultResourceFromSpec(spec) {
+  const parsed = parseResourceLine(spec.url, spec.kind);
+  if (!parsed) return null;
+  if (spec.kind === "rss" && spec.url) {
+    parsed.feed = spec.url;
+    parsed.url = spec.url;
+  }
+  return {
+    id: resourceId(parsed),
+    kind: parsed.kind,
+    name: spec.name || parsed.name,
+    url: parsed.url,
+    feed: parsed.feed,
+    repo: parsed.repo || "",
+    addedAt: 0,
+  };
+}
+
+function defaultResourceList() {
+  return DEFAULT_RESOURCES.map(defaultResourceFromSpec).filter(Boolean);
+}
+
+function ensureResourcesCatalog() {
+  if (profile.seeds.resourcesCatalog) return false;
+  const existing = profile.seeds.resources || [];
+  const seen = new Set();
+  existing.forEach((r) => {
+    const k = resourceDedupeKey(r);
+    if (k) seen.add(k);
+  });
+  const merged = existing.slice();
+  defaultResourceList().forEach((d) => {
+    const k = resourceDedupeKey(d);
+    if (!k || seen.has(k)) return;
+    seen.add(k);
+    merged.push(d);
+  });
+  profile.seeds.resources = merged;
+  profile.seeds.resourcesCatalog = 1;
+  return true;
+}
+
+function addResources(raw) {
+  const lines = splitPeopleInput(raw);
+  if (!lines.length) return { added: 0, skipped: 0, bad: true };
+  let added = 0, skipped = 0, bad = 0;
+  lines.forEach((line) => {
+    const parsed = parseResourceLine(line, detectResourceKind(line));
+    if (!parsed) { bad++; return; }
+    const id = resourceId(parsed);
+    if ((profile.seeds.resources || []).some((r) => r.id === id
+        || (r.feed && parsed.feed && r.feed.replace(/\/+$/, "").toLowerCase()
+            === parsed.feed.replace(/\/+$/, "").toLowerCase()))) {
+      skipped++;
+      return;
+    }
+    profile.seeds.resources.unshift({
+      id: id,
+      kind: parsed.kind,
+      name: parsed.name,
+      url: parsed.url,
+      feed: parsed.feed,
+      repo: parsed.repo || "",
+      addedAt: Date.now(),
+    });
+    if (RESOURCE_KINDS.indexOf(parsed.kind) >= 0) resourceOpen[parsed.kind] = true;
+    added++;
+  });
+  if (added) persistTaste();
+  return { added: added, skipped: skipped, bad: bad };
+}
+
+function removeResource(id) {
+  profile.seeds.resources = (profile.seeds.resources || []).filter((r) => r.id !== id);
+  persistTaste();
+}
+
+function renameResource(id, name) {
+  const r = (profile.seeds.resources || []).find((x) => x.id === id);
+  if (!r) return;
+  const next = String(name || "").trim();
+  if (!next || next === r.name) return;
+  r.name = next;
+  persistTaste();
+}
+
+function setResourceKind(id, kind) {
+  const r = (profile.seeds.resources || []).find((x) => x.id === id);
+  if (!r || r.kind === kind || RESOURCE_KINDS.indexOf(kind) < 0) return;
+  const parsed = parseResourceLine(r.repo || r.url || r.feed || r.name, kind);
+  if (!parsed) return;
+  const nextId = resourceId(parsed);
+  if ((profile.seeds.resources || []).some((x) => x !== r && x.id === nextId)) return;
+  r.kind = parsed.kind;
+  r.url = parsed.url;
+  r.feed = parsed.feed;
+  r.repo = parsed.repo || "";
+  if (!r.name || r.name === domainOf(r.url)) r.name = parsed.name;
+  r.id = nextId;
+  persistTaste();
+}
+
 function rate(item, r) {
   profile.ratings[item.id] = {
     r: r, at: Date.now(), title: item.title, url: item.url || "",
@@ -1129,15 +1826,50 @@ function undo(item) {
   saveProfile(); recompute(); render();
 }
 
+function savedIndex(item) {
+  if (!item) return -1;
+  const id = item.id;
+  const canon = canonUrl(item.url);
+  return profile.saved.findIndex((s) =>
+    (id && s.id === id) || (canon && canonUrl(s.url) === canon));
+}
+
+function isSaved(item) {
+  if (!item) return false;
+  if (typeof item === "string") return savedIndex({ id: item }) >= 0;
+  return savedIndex(item) >= 0;
+}
+
 function toggleSave(item) {
-  const i = profile.saved.findIndex((s) => s.id === item.id);
+  const i = savedIndex(item);
   if (i >= 0) profile.saved.splice(i, 1);
-  else profile.saved.unshift({ id: item.id, title: item.title, url: item.url,
-    hn: item.hn, points: item.points, at: Date.now() });
+  else profile.saved.unshift({
+    id: item.id, title: item.title, url: item.url,
+    hn: item.hn || "", points: item.points || 0, at: Date.now(),
+  });
   saveProfile(); render();
 }
 
-function isSaved(id) { return profile.saved.some((s) => s.id === id); }
+function addSavedUrl(raw) {
+  const url = normalizeArticleUrl(raw);
+  if (!url) return { ok: false };
+  if (savedIndex({ url: url }) >= 0) return { ok: true, dup: true };
+  const id = "url:" + canonUrl(url);
+  profile.saved.unshift({
+    id: id, title: titleFromUrl(url), url: url,
+    hn: "", points: 0, at: Date.now(),
+  });
+  saveProfile();
+  render();
+  titleForUrl(url).then((title) => {
+    const cur = profile.saved.find((s) => s.id === id);
+    if (!cur || !title || title === cur.title) return;
+    cur.title = title;
+    saveProfile();
+    render();
+  });
+  return { ok: true };
+}
 
 function exportProfile() {
   const blob = new Blob([JSON.stringify(profile, null, 2)], { type: "application/json" });
@@ -1154,8 +1886,9 @@ function importProfile(file) {
     try {
       const p = JSON.parse(fr.result);
       profile = normalizeProfile(p);
-      rebuildWeights();
-      saveProfile(); recompute(); render();
+      ensureResourcesCatalog();
+      persistTaste();
+      render();
       seedPendingBluesky();
     } catch (e) {
       alert("That file isn't a Kerning profile. Pick the kerning-profile.json you exported.");
@@ -1234,17 +1967,18 @@ function itemHTML(item, i, total) {
     + esc(item.title) + "</a>"
     + '<p class="meta"><span>' + esc(dom) + "</span>"
     + (item.sources && item.sources.length > 1
-        ? "<span>" + esc(item.sources.join(" + ")) + "</span>" : "")
+        ? '<span class="meta-sources">' + esc(item.sources.join(" + ")) + "</span>" : "")
+    + '<span class="meta-run">'
     + "<span>" + item.points + " point" + (item.points === 1 ? "" : "s") + "</span>"
     + '<span><a href="' + esc(item.hn) + '" target="_blank" rel="noreferrer">'
     + item.comments + " comment" + (item.comments === 1 ? "" : "s") + "</a></span>"
-    + "<span>" + itemWhen(item.created_at_i) + "</span></p>"
+    + "<span>" + itemWhen(item.created_at_i) + "</span></span></p>"
     + why
     + '<div class="acts">'
     + '<button type="button" class="text-act up" data-act="up" data-id="' + item.id + '">More like this</button>'
     + '<button type="button" class="text-act down" data-act="down" data-id="' + item.id + '">Less like this</button>'
-    + '<button type="button" class="text-act' + (isSaved(item.id) ? " saved" : "") + '" data-act="save" data-id="'
-    + item.id + '">' + (isSaved(item.id) ? "Saved" : "Save") + "</button>"
+    + '<button type="button" class="text-act' + (isSaved(item) ? " saved" : "") + '" data-act="save" data-id="'
+    + item.id + '">' + (isSaved(item) ? "Saved" : "Save") + "</button>"
     + "</div></div></li>";
 }
 
@@ -1280,7 +2014,7 @@ function renderDigest() {
   const dates = mode === "curated" && digestMeta ? periodDates(digestMeta) : "";
   let head = "";
   if (dates) {
-    head = '<p class="primer">\u2193 ' + esc(copy.prefix) + ' \u00b7 <span class="week-dates">'
+    head = '<p class="primer primer--period">\u2193 ' + esc(copy.prefix) + ' \u00b7 <span class="week-dates">'
       + esc(dates) + "</span>."
       + (nRatings === 0 ? copy.rate + (hasSeeds() ? "" : copy.taste) : "") + "</p>";
   } else if (mode === "curated" && digestMeta) {
@@ -1292,7 +2026,7 @@ function renderDigest() {
 
   if (nRatings === 0 && !hasSeeds() && queue.length && !dates && mode === "live") {
     head = '<p class="primer">This first pass is deliberately broad. Rate a dozen or so '
-      + "stories, or add people you follow on Taste, and the ranking starts "
+      + "stories, or add people and resources on Taste, and the ranking starts "
       + "reflecting your taste instead of mine.</p>";
   }
   if (!ranked.length && mode === "curated") {
@@ -1331,168 +2065,14 @@ function renderDigest() {
   }
 }
 
-function renderSaved() {
-  const el = document.getElementById("view-saved");
-  if (!profile.saved.length) {
-    el.innerHTML = '<div class="empty"><h2>Nothing saved yet.</h2>'
-      + '<p class="note">Save a story from the digest to keep it here.</p></div>';
-    return;
-  }
-  el.innerHTML = '<div class="controls"><span class="note">' + profile.saved.length
-    + ' saved</span><button type="button" class="btn" id="copy-md">Copy as markdown</button></div>'
-    + '<ul class="list">' + profile.saved.map((s) =>
-      '<li class="item item--plain"><div class="body">'
-      + '<a class="title" href="' + esc(s.url) + '" target="_blank" rel="noreferrer">'
-      + esc(s.title) + "</a>"
-      + '<p class="meta"><span>' + esc(domainOf(s.url)) + "</span><span>"
-      + s.points + " points</span></p>"
-      + '<div class="acts"><button type="button" class="text-act" data-act="unsave" data-id="'
-      + s.id + '">Remove</button></div></div></li>').join("") + "</ul>";
-
-  document.getElementById("copy-md").onclick = function () {
-    const md = profile.saved.map((s) => "- [" + s.title + "](" + s.url + ")").join("\n");
-    navigator.clipboard.writeText(md).then(() => {
-      this.textContent = "Copied";
-      setTimeout(() => { this.textContent = "Copy as markdown"; }, 1800);
-    });
-  };
-}
-
-function tasteColumn(title, rows, color) {
-  const max = Math.max.apply(null, [1].concat(rows.map((r) => Math.abs(r[1]))));
-  return '<div class="tcol"><h3>' + title + "</h3>"
-    + (rows.length
-      ? rows.map((r) => '<div class="trow"><span class="term">'
-          + esc(displayTerm(r[0])) + '</span><span class="tb"><i style="width:'
-          + ((Math.abs(r[1]) / max) * 100) + "%;background:" + color
-          + '"></i></span></div>').join("")
-      : '<p class="note">Nothing here yet.</p>')
-    + "</div>";
-}
-
-function tasteBuiltCopy() {
-  const nP = profile.seeds.people.length;
-  const nA = profile.seeds.articles.length;
-  const nR = Object.keys(profile.ratings).length;
-  const parts = [];
-  if (nP) parts.push(nP + (nP === 1 ? " person" : " people"));
-  if (nA) parts.push(nA + " article" + (nA === 1 ? "" : "s"));
-  if (nR) parts.push(nR + " rating" + (nR === 1 ? "" : "s"));
-  if (!parts.length) {
-    return "Add people you follow and a few articles you like. Kerning builds a profile from those, then from what you rate.";
-  }
-  return "Built from " + parts.join(", ") + ".";
-}
-
-function networkChips(p) {
-  return '<div class="net" role="radiogroup" aria-label="Network for '
-    + esc(p.handle) + '">'
-    + NETWORKS.map((n) => {
-      const on = p.network === n;
-      return '<button type="button" class="chip' + (on ? " on" : "")
-        + '" role="radio" aria-checked="' + (on ? "true" : "false")
-        + '" data-act="net" data-id="' + esc(p.id) + '" data-network="' + n + '">'
-        + NET_LABEL[n] + "</button>";
-    }).join("")
-    + "</div>";
-}
-
-function renderTaste() {
-  const el = document.getElementById("view-taste");
-  const entries = Object.entries(profile.weights).filter((e) => {
-    if (e[0].indexOf("site:") === 0) return Math.abs(e[1]) >= 2;
-    return Math.abs(e[1]) >= 1;
-  });
-  entries.sort((a, b) => b[1] - a[1]);
-  const up = entries.filter((e) => e[1] > 0).slice(0, 14);
-  const down = entries.filter((e) => e[1] < 0).slice(-14).reverse();
-  const people = profile.seeds.people;
-  const articles = profile.seeds.articles;
-
-  const peopleList = people.length
-    ? '<ul class="seeds">' + people.map((p) =>
-        '<li class="seed"><div><div class="name">' + esc(p.handle) + "</div>"
-        + networkChips(p) + "</div>"
-        + '<div class="acts"><button type="button" class="text-act" data-act="drop-person" data-id="'
-        + esc(p.id) + '">Remove</button></div></li>').join("") + "</ul>"
-    : "";
-
-  const articleList = articles.length
-    ? '<ul class="seeds">' + articles.map((a) =>
-        '<li class="seed"><div>'
-        + '<input class="seed-title" data-article-title="' + esc(a.id)
-        + '" value="' + esc(a.title) + '" aria-label="Title for '
-        + esc(domainOf(a.url) || a.url) + '">'
-        + '<p class="sub"><span>' + esc(domainOf(a.url) || a.url) + "</span></p></div>"
-        + '<div class="acts"><button type="button" class="text-act" data-act="drop-article" data-id="'
-        + esc(a.id) + '">Remove</button></div></li>').join("") + "</ul>"
-    : "";
-
-  el.innerHTML = '<p class="note taste-primer">' + tasteBuiltCopy() + "</p>"
-
-    + '<section class="tsec" aria-labelledby="taste-people">'
-    + '<h2 id="taste-people">People you follow</h2>'
-    + '<p class="note">Bluesky, X, or Substack. Paste a list if you have one.</p>'
-    + '<form class="tadd" id="add-people">'
-    + '<div class="tfield"><label for="people-input">Handle, URL, or a pasted list</label>'
-    + '<input id="people-input" name="people" type="text" spellcheck="false" autocomplete="off" '
-    + 'placeholder="lea.verou.me" aria-describedby="people-err"></div>'
-    + '<button type="submit" class="btn">Add person</button></form>'
-    + '<p class="field-err" id="people-err" role="status"></p>'
-    + peopleList + "</section>"
-
-    + '<section class="tsec" aria-labelledby="taste-articles">'
-    + '<h2 id="taste-articles">Articles you like</h2>'
-    + '<p class="note">A URL is enough. Title can be edited after it lands.</p>'
-    + '<form class="tadd" id="add-article">'
-    + '<div class="tfield"><label for="article-input">Article URL</label>'
-    + '<input id="article-input" name="article" type="text" inputmode="url" spellcheck="false" '
-    + 'autocomplete="off" placeholder="https://" aria-describedby="article-err"></div>'
-    + '<button type="submit" class="btn">Add article</button></form>'
-    + '<p class="field-err" id="article-err" role="status"></p>'
-    + articleList + "</section>"
-
-    + '<section class="tsec" aria-labelledby="taste-profile">'
-    + '<h2 id="taste-profile">Your profile</h2>'
-    + tasteColumn("Pulling stories toward you", up, "var(--ink)")
-    + tasteColumn("Pushing stories away", down, "var(--faint)")
-    + "</section>"
-
-    + '<div class="reset"><div class="acts">'
-    + '<button type="button" class="btn" id="export">Export profile</button>'
-    + '<button type="button" class="btn" id="import-btn">Import profile</button>'
-    + '<button type="button" class="btn down" id="reset">Start over</button></div>'
-    + '<input type="file" accept="application/json" id="import-file" class="hidden">'
-    + "<p class=\"note\">Export writes kerning-profile.json. Put it beside the fetch script "
-    + "so the next run ranks with these weights and watches anyone you&nbsp;added.</p></div>";
-
-  document.getElementById("add-people").onsubmit = function (e) {
+function bindSavedForm() {
+  const form = document.getElementById("add-saved");
+  if (!form) return;
+  form.onsubmit = function (e) {
     e.preventDefault();
-    const input = document.getElementById("people-input");
-    const err = document.getElementById("people-err");
-    const result = addPeople(input.value);
-    if (result.bad && !result.added) {
-      err.textContent = "Enter a handle or URL. Bluesky, X, and Substack all work.";
-      input.setAttribute("aria-invalid", "true");
-      input.focus();
-      return;
-    }
-    if (!result.added && result.skipped) {
-      err.textContent = "Already on your list.";
-      input.setAttribute("aria-invalid", "true");
-      input.focus();
-      return;
-    }
-    input.value = "";
-    input.removeAttribute("aria-invalid");
-    err.textContent = "";
-  };
-
-  document.getElementById("add-article").onsubmit = function (e) {
-    e.preventDefault();
-    const input = document.getElementById("article-input");
-    const err = document.getElementById("article-err");
-    const result = addArticle(input.value);
+    const input = document.getElementById("saved-input");
+    const err = document.getElementById("saved-err");
+    const result = addSavedUrl(input.value);
     if (!result.ok) {
       err.textContent = "Enter a full URL, including the site.";
       input.setAttribute("aria-invalid", "true");
@@ -1505,17 +2085,568 @@ function renderTaste() {
       input.focus();
       return;
     }
+  };
+}
+
+function savedFormHTML() {
+  return '<div class="saved-add">'
+    + '<form class="tadd" id="add-saved">'
+    + '<div class="tfield"><label for="saved-input">Article URL</label>'
+    + '<input id="saved-input" name="saved" type="text" inputmode="url" spellcheck="false" '
+    + 'autocomplete="off" placeholder="https://" aria-describedby="saved-err"></div>'
+    + '<button type="submit" class="btn">Save article</button></form>'
+    + '<p class="field-err" id="saved-err" role="status"></p></div>';
+}
+
+function renderSaved() {
+  const el = document.getElementById("view-saved");
+  const form = savedFormHTML();
+  if (!profile.saved.length) {
+    el.innerHTML = form
+      + '<div class="empty"><h2>Nothing saved yet.</h2>'
+      + '<p class="note">Paste a URL of something you want to&nbsp;read, '
+      + "or save a story from the&nbsp;digest.</p></div>";
+    bindSavedForm();
+    return;
+  }
+  el.innerHTML = form
+    + '<div class="controls"><span class="note">' + profile.saved.length
+    + ' saved</span><button type="button" class="btn" id="copy-md">Copy as markdown</button></div>'
+    + '<ul class="list">' + profile.saved.map((s) => {
+      const pts = Number(s.points) || 0;
+      return '<li class="item item--plain"><div class="body">'
+        + '<a class="title" href="' + esc(s.url) + '" target="_blank" rel="noreferrer">'
+        + esc(s.title) + "</a>"
+        + '<p class="meta"><span>' + esc(domainOf(s.url)) + "</span>"
+        + (pts ? "<span>" + pts + " point" + (pts === 1 ? "" : "s") + "</span>" : "")
+        + "</p>"
+        + '<div class="acts"><button type="button" class="text-act" data-act="unsave" data-id="'
+        + esc(s.id) + '">Remove</button></div></div></li>';
+    }).join("") + "</ul>";
+
+  bindSavedForm();
+  document.getElementById("copy-md").onclick = function () {
+    const md = profile.saved.map((s) => "- [" + s.title + "](" + s.url + ")").join("\n");
+    navigator.clipboard.writeText(md).then(() => {
+      this.textContent = "Copied";
+      setTimeout(() => { this.textContent = "Copy as markdown"; }, 1800);
+    });
+  };
+}
+
+function tasteRowMax(rows) {
+  return Math.max.apply(null, [1].concat(rows.map((r) => Math.abs(r[1]))));
+}
+
+function tasteRowsHTML(rows, color, max) {
+  return rows.map((r) => '<div class="trow"><span class="term">'
+    + esc(displayTerm(r[0])) + '</span><span class="tb"><i style="width:'
+    + ((Math.abs(r[1]) / max) * 100) + "%;background:" + color
+    + '"></i></span></div>').join("");
+}
+
+function tasteColumn(title, rows, color) {
+  const max = tasteRowMax(rows);
+  return '<div class="tcol"><h3>' + title + "</h3>"
+    + (rows.length
+      ? tasteRowsHTML(rows, color, max)
+      : '<p class="note">Nothing here yet.</p>')
+    + "</div>";
+}
+
+function storiesForTerms(terms) {
+  if (!terms || !terms.length) return [];
+  const set = {};
+  terms.forEach((t) => { set[t] = true; });
+  return ranked.filter((it) => tokensOf(it).some((t) => set[t])).slice(0, 3);
+}
+
+function storiesForTerm(term) {
+  return storiesForTerms([term]);
+}
+
+function tasteSpider(title, groups, color) {
+  const live = groups.filter((g) => g.sum > 0);
+  if (!live.length) {
+    return '<div class="tcol"><h3>' + title + "</h3>"
+      + '<p class="note">Nothing here yet.</p></div>';
+  }
+  const max = tasteRowMax(groups.map((g) => [g.id, g.sum]));
+  const W = 800, H = 600;
+  const cx = W / 2, cy = H / 2;
+  const rMin = 22, rMax = 168;
+  const n = groups.length;
+  function pt(v) { return Math.round(v * 10) / 10; }
+  function ang(i) {
+    return -Math.PI / 2 + (i / n) * Math.PI * 2;
+  }
+  function xy(radius, i) {
+    const a = ang(i);
+    return [cx + Math.cos(a) * radius, cy + Math.sin(a) * radius];
+  }
+  function ring(radius) {
+    const pts = [];
+    for (let i = 0; i < n; i++) {
+      const p = xy(radius, i);
+      pts.push(pt(p[0]) + "," + pt(p[1]));
+    }
+    return pts.join(" ");
+  }
+  function anchorOf(cos, sin) {
+    if (sin > 0.5) return "bottom";
+    if (sin < -0.5) return "middle";
+    return cos >= 0 ? "start" : "end";
+  }
+
+  const placed = groups.map((g, i) => {
+    const a = ang(i);
+    const cos = Math.cos(a), sin = Math.sin(a);
+    const rad = g.sum <= 0 ? rMin : rMin + (g.sum / max) * (rMax - rMin);
+    const names = g.members.slice(0, 3).map((m) => displayTerm(m[0]));
+    return {
+      g: g, i: i, cos: cos, sin: sin, rad: rad,
+      rLabel: rMax + 28,
+      anchor: n === 1 ? "middle" : anchorOf(cos, sin),
+      names: names,
+    };
+  });
+
+  const rings = n < 3
+    ? [1 / 3, 2 / 3, 1].map((t) =>
+        '<circle class="spider-web" cx="' + cx + '" cy="' + cy
+        + '" r="' + pt(rMax * t) + '"/>')
+    : [1 / 3, 2 / 3, 1].map((t) =>
+        '<polygon class="spider-web" points="' + ring(rMax * t) + '"/>');
+  const axes = [];
+  const arms = [];
+  const labels = [];
+  const verts = [];
+  placed.forEach((p) => {
+    const outer = xy(rMax, p.i);
+    const tip = xy(p.rad, p.i);
+    const lab = xy(p.rLabel, p.i);
+    verts.push(pt(tip[0]) + "," + pt(tip[1]));
+    axes.push(
+      '<line class="spider-axis" data-i="' + p.i
+      + '" x1="' + pt(cx) + '" y1="' + pt(cy)
+      + '" x2="' + pt(outer[0]) + '" y2="' + pt(outer[1]) + '"/>'
+    );
+    arms.push(
+      '<g class="spider-arm" data-i="' + p.i + '" style="--i:' + p.i + '">'
+      + '<circle class="spider-dot" cx="' + pt(tip[0]) + '" cy="' + pt(tip[1]) + '" r="3"/>'
+      + "</g>"
+    );
+    const keys = p.g.members.map((m) => m[0]);
+    const empty = p.g.sum <= 0;
+    const meta = p.names.length
+      ? '<span class="spider-meta">' + esc(p.names.join(", ")) + "</span>"
+      : "";
+    labels.push(
+      '<button type="button" class="spider-term" data-i="' + p.i
+      + '" data-group="' + esc(p.g.id) + '" data-terms="' + esc(JSON.stringify(keys))
+      + '" data-empty="' + (empty ? "true" : "false")
+      + '" data-anchor="' + p.anchor
+      + '" style="--i:' + p.i + ";--x:" + pt((lab[0] / W) * 100) + "%;--y:"
+      + pt((lab[1] / H) * 100) + '%" aria-expanded="false" aria-controls="spider-peek"'
+      + ' tabindex="' + (p.i === 0 ? "0" : "-1") + '">'
+      + esc(p.g.label) + meta + "</button>"
+    );
+  });
+
+  const shapeTag = n === 1
+    ? ""
+    : (n === 2 ? "polyline" : "polygon");
+  const shape = shapeTag
+    ? '<' + shapeTag + ' class="spider-shape" points="' + verts.join(" ") + '"/>'
+    : "";
+
+  const barRows = groups.map((g) => [g.label, g.sum]);
+  return '<div class="tcol tcol--spider"><h3>' + title + "</h3>"
+    + '<div class="spider" role="group" aria-label="How your taste pulls stories">'
+    + '<div class="spider-plot">'
+    + '<svg class="spider-svg" viewBox="0 0 ' + W + " " + H
+    + '" aria-hidden="true">'
+    + rings.join("")
+    + axes.join("")
+    + shape
+    + arms.join("")
+    + "</svg>"
+    + labels.join("")
+    + "</div>"
+    + '<div class="spider-peek" id="spider-peek" hidden></div>'
+    + "</div>"
+    + tasteRowsHTML(barRows, color, max)
+    + "</div>";
+}
+
+function joinCounts(parts) {
+  if (parts.length <= 1) return parts[0] || "";
+  return parts.slice(0, -1).join(", ") + " and " + parts[parts.length - 1];
+}
+
+function sourcesPrimer() {
+  const nP = profile.seeds.people.length;
+  const nS = (profile.seeds.resources || []).length;
+  const parts = [];
+  if (nP) parts.push(nP + (nP === 1 ? " person" : " people"));
+  if (nS) parts.push(nS + " resource" + (nS === 1 ? "" : "s"));
+  if (!parts.length) {
+    return "Add people you follow and resources you watch. The next fetch pulls from&nbsp;these.";
+  }
+  return "The next fetch watches " + joinCounts(parts) + ".";
+}
+
+function tastePrimer() {
+  const nA = profile.seeds.articles.length;
+  const nR = Object.keys(profile.ratings).length;
+  const parts = [];
+  if (nA) parts.push(nA + " article" + (nA === 1 ? "" : "s"));
+  if (nR) parts.push(nR + " rating" + (nR === 1 ? "" : "s"));
+  if (!parts.length) {
+    return "Add a few articles you like, or rate stories in the digest. Kerning builds a profile from&nbsp;those.";
+  }
+  return "Built from " + joinCounts(parts) + ".";
+}
+
+function networkChips(p) {
+  return '<div class="net" role="radiogroup" aria-label="Network for '
+    + esc(p.handle) + '">'
+    + NETWORKS.map((n) => {
+      const on = p.network === n;
+      return '<button type="button" class="chip' + (on ? " on" : "")
+        + '" role="radio" aria-checked="' + (on ? "true" : "false")
+        + '" data-act="net" data-id="' + esc(p.id) + '" data-network="' + n + '">'
+        + NET_LABEL[n] + "</button>";
+    }).join("")
+    + '<span class="sel-dot" aria-hidden="true"></span></div>';
+}
+
+function resourceHref(r) {
+  if (!r) return "";
+  if (r.kind === "github") {
+    const repo = String(r.repo || "").replace(/\.git$/i, "").replace(/^\/+|\/+$/g, "");
+    if (repo) return "https://github.com/" + repo;
+    const url = r.url || "";
+    if (/^https?:\/\//i.test(url)) return url;
+    if (url.indexOf("/") >= 0) return "https://github.com/" + url.replace(/^\/+/, "");
+    return "";
+  }
+  const raw = r.url || r.feed || "";
+  try {
+    const u = new URL(raw);
+    u.hash = "";
+    u.search = "";
+    let path = u.pathname.replace(/\/+$/, "");
+    path = path.replace(/\/(index\.xml|feed\.xml|rss\.xml|atom\.xml)$/i, "");
+    path = path.replace(/\/(feed|rss|atom)(\.(xml|rss|atom))?$/i, "");
+    path = path.replace(/\/(feed|rss)$/i, "");
+    u.pathname = path || "/";
+    return u.toString();
+  } catch (e) {
+    return /^https?:\/\//i.test(raw) ? raw : "";
+  }
+}
+
+function resourceSub(r) {
+  if (r.kind === "github") return r.repo || r.url || "";
+  try { return new URL(r.feed || r.url).hostname.replace(/^www\./, ""); }
+  catch (e) { return r.feed || r.url || ""; }
+}
+
+function resourceNameIsHost(name, host) {
+  const n = String(name || "").trim().toLowerCase();
+  const h = String(host || "").trim().toLowerCase();
+  if (!n || !h) return false;
+  if (n === h) return true;
+  return n === h.split(".")[0];
+}
+
+function resourceItem(r) {
+  const host = resourceSub(r);
+  const name = r.name || "";
+  const showHost = host && !resourceNameIsHost(name, host);
+  const href = resourceHref(r);
+  const label = '<span class="seed-title">' + esc(name) + "</span>"
+    + (showHost ? '<span class="seed-host">(' + esc(host) + ")</span>" : "");
+  const main = href
+    ? '<a class="seed-main" href="' + esc(href) + '" target="_blank" rel="noreferrer">'
+      + label + "</a>"
+    : '<div class="seed-main">' + label + "</div>";
+  return '<li class="seed seed-resource">' + main
+    + '<div class="acts"><button type="button" class="text-act" data-act="drop-resource" data-id="'
+    + esc(r.id) + '">Remove</button></div></li>';
+}
+
+function groupedResources(resources) {
+  if (!resources.length) return "";
+  return RESOURCE_KINDS.map((kind) => {
+    const rows = resources.filter((r) => {
+      const k = RESOURCE_KINDS.indexOf(r.kind) >= 0 ? r.kind : "rss";
+      return k === kind;
+    });
+    if (!rows.length) return "";
+    return '<details class="rkind" data-kind="' + kind + '"'
+      + (resourceOpen[kind] ? " open" : "") + ">"
+      + "<summary>" + esc(RESOURCE_LABEL[kind])
+      + '<span class="rkind-count">' + rows.length + "</span></summary>"
+      + '<ul class="seeds">' + rows.map(resourceItem).join("") + "</ul></details>";
+  }).join("");
+}
+
+function bindSeedForm(formId, inputId, errId, submit, messages) {
+  const form = document.getElementById(formId);
+  if (!form) return;
+  form.onsubmit = function (e) {
+    e.preventDefault();
+    const input = document.getElementById(inputId);
+    const err = document.getElementById(errId);
+    const result = submit(input.value);
+    const fail = messages.fail(result);
+    if (fail) {
+      err.textContent = fail;
+      input.setAttribute("aria-invalid", "true");
+      input.focus();
+      return;
+    }
     input.value = "";
     input.removeAttribute("aria-invalid");
     err.textContent = "";
   };
+}
 
-  el.querySelectorAll("[data-article-title]").forEach((input) => {
+function setTastePaneChips() {
+  document.querySelectorAll("#taste-panes .chip").forEach((c) => {
+    const on = c.dataset.tastePane === tastePane;
+    c.classList.toggle("on", on);
+    c.setAttribute("aria-checked", on ? "true" : "false");
+  });
+}
+
+function applyTastePane(name) {
+  if (name !== "sources" && name !== "taste") name = "taste";
+  tastePane = name;
+  setTastePaneChips();
+  renderTaste();
+  moveSelDot(document.getElementById("taste-panes"), true);
+  document.querySelectorAll(".net").forEach((g) => moveSelDot(g, false));
+}
+
+function renderTasteSources() {
+  const people = profile.seeds.people;
+  const resources = profile.seeds.resources || [];
+  const peopleList = people.length
+    ? '<ul class="seeds">' + people.map((p) =>
+        '<li class="seed"><div><div class="name">' + esc(p.handle) + "</div>"
+        + networkChips(p) + "</div>"
+        + '<div class="acts"><button type="button" class="text-act" data-act="drop-person" data-id="'
+        + esc(p.id) + '">Remove</button></div></li>').join("") + "</ul>"
+    : "";
+
+  return '<p class="note taste-primer">' + sourcesPrimer() + "</p>"
+
+    + '<section class="tsec" aria-labelledby="taste-people">'
+    + '<h2 id="taste-people">People you follow</h2>'
+    + '<p class="note">Bluesky, X, or a Substack writer. Paste a list if you have one.</p>'
+    + '<form class="tadd" id="add-people">'
+    + '<div class="tfield"><label for="people-input">Handle, URL, or a pasted list</label>'
+    + '<input id="people-input" name="people" type="text" spellcheck="false" autocomplete="off" '
+    + 'placeholder="lea.verou.me" aria-describedby="people-err"></div>'
+    + '<button type="submit" class="btn">Add person</button></form>'
+    + '<p class="field-err" id="people-err" role="status"></p>'
+    + peopleList + "</section>"
+
+    + '<section class="tsec" aria-labelledby="taste-resources">'
+    + '<h2 id="taste-resources">Resources you watch</h2>'
+    + '<p class="note">RSS, GitHub, or a Substack publication.</p>'
+    + '<form class="tadd" id="add-resource">'
+    + '<div class="tfield"><label for="resource-input">Feed, GitHub repo, or Substack publication</label>'
+    + '<input id="resource-input" name="resource" type="text" spellcheck="false" autocomplete="off" '
+    + 'placeholder="https://sidebar.io/feed.xml" aria-describedby="resource-err"></div>'
+    + '<button type="submit" class="btn">Add resource</button></form>'
+    + '<p class="field-err" id="resource-err" role="status"></p>'
+    + groupedResources(resources) + "</section>";
+}
+
+function renderTasteRank() {
+  const entries = Object.entries(profile.weights).filter((e) => {
+    if (e[0].indexOf("site:") === 0) return Math.abs(e[1]) >= 2;
+    return Math.abs(e[1]) >= 1;
+  });
+  entries.sort((a, b) => b[1] - a[1]);
+  const up = entries.filter((e) => e[1] > 0);
+  const down = entries.filter((e) => e[1] < 0).slice(-14).reverse();
+  const articles = profile.seeds.articles;
+
+  const articleList = articles.length
+    ? '<ul class="seeds">' + articles.map((a) =>
+        '<li class="seed"><div>'
+        + '<input class="seed-title" data-article-title="' + esc(a.id)
+        + '" value="' + esc(a.title) + '" aria-label="Title for '
+        + esc(domainOf(a.url) || a.url) + '">'
+        + '<p class="sub"><span>' + esc(domainOf(a.url) || a.url) + "</span></p></div>"
+        + '<div class="acts"><button type="button" class="text-act" data-act="drop-article" data-id="'
+        + esc(a.id) + '">Remove</button></div></li>').join("") + "</ul>"
+    : "";
+
+  return '<p class="note taste-primer">' + tastePrimer() + "</p>"
+
+    + '<section class="tsec" aria-labelledby="taste-articles">'
+    + '<h2 id="taste-articles">Articles you like</h2>'
+    + '<p class="note">These shape what Kerning pulls toward you. Saved is for later&nbsp;reading.</p>'
+    + '<form class="tadd" id="add-article">'
+    + '<div class="tfield"><label for="article-input">Article URL</label>'
+    + '<input id="article-input" name="article" type="text" inputmode="url" spellcheck="false" '
+    + 'autocomplete="off" placeholder="https://" aria-describedby="article-err"></div>'
+    + '<button type="submit" class="btn">Add article</button></form>'
+    + '<p class="field-err" id="article-err" role="status"></p>'
+    + articleList + "</section>"
+
+    + '<section class="tsec" aria-labelledby="taste-profile">'
+    + '<h2 id="taste-profile">Your reading&nbsp;profile</h2>'
+    + tasteSpider("Pulling stories toward you", tasteGroupRows(up), "var(--ink)")
+    + tasteColumn("Pushing stories away", down, "var(--faint)")
+    + "</section>"
+
+    + '<div class="reset"><div class="acts">'
+    + '<button type="button" class="btn" id="export">Export profile</button>'
+    + '<button type="button" class="btn" id="import-btn">Import profile</button>'
+    + '<button type="button" class="btn down" id="reset">Start over</button></div>'
+    + '<input type="file" accept="application/json" id="import-file" class="hidden">'
+    + "<p class=\"note\">Export writes kerning-profile.json. Put it beside the fetch script "
+    + "so the next run ranks with these weights and watches the people and resources you&nbsp;added.</p></div>";
+}
+
+function bindTasteSources() {
+  bindSeedForm("add-people", "people-input", "people-err", addPeople, {
+    fail: function (result) {
+      if (result.bad && !result.added) {
+        return "Enter a handle or URL for Bluesky, X, or a Substack writer.";
+      }
+      if (!result.added && result.skipped) return "Already on your list.";
+      return "";
+    },
+  });
+  bindSeedForm("add-resource", "resource-input", "resource-err", addResources, {
+    fail: function (result) {
+      if (result.bad && !result.added) {
+        return "Enter a feed URL, GitHub repo, or Substack publication.";
+      }
+      if (!result.added && result.skipped) return "Already on your list.";
+      return "";
+    },
+  });
+  document.getElementById("taste-body").querySelectorAll(".rkind").forEach((el) => {
+    el.addEventListener("toggle", function () {
+      const kind = this.dataset.kind;
+      if (RESOURCE_KINDS.indexOf(kind) >= 0) resourceOpen[kind] = this.open;
+    });
+  });
+}
+
+function spiderPeekHTML(terms) {
+  const stories = storiesForTerms(terms);
+  if (!stories.length) {
+    return "<p class=\"note\">Nothing in this week’s digest uses this yet.</p>";
+  }
+  return "<ul>" + stories.map((s) => {
+    const host = domainOf(s.url) || "";
+    return '<li><a class="title" href="' + esc(s.url)
+      + '" target="_blank" rel="noreferrer">' + esc(s.title) + "</a>"
+      + (host ? '<p class="meta"><span>' + esc(host) + "</span></p>" : "")
+      + "</li>";
+  }).join("") + "</ul>";
+}
+
+function bindSpider() {
+  const root = document.querySelector(".spider");
+  if (!root) return;
+  const peek = document.getElementById("spider-peek");
+  const btns = Array.from(root.querySelectorAll(".spider-term"));
+  const arms = Array.from(root.querySelectorAll(".spider-arm"));
+  const axes = Array.from(root.querySelectorAll(".spider-axis"));
+  if (!peek || !btns.length) return;
+
+  function mark(i) {
+    btns.forEach((b, n) => b.classList.toggle("on", n === i));
+    arms.forEach((a, n) => a.classList.toggle("on", n === i));
+    axes.forEach((a, n) => a.classList.toggle("on", n === i));
+  }
+
+  function closePeek() {
+    const open = root.querySelector(".spider-term[aria-expanded='true']");
+    peek.hidden = true;
+    peek.innerHTML = "";
+    btns.forEach((b) => b.setAttribute("aria-expanded", "false"));
+    return open;
+  }
+
+  function openPeek(btn) {
+    const was = btn.getAttribute("aria-expanded") === "true";
+    closePeek();
+    if (was) return;
+    btn.setAttribute("aria-expanded", "true");
+    mark(btns.indexOf(btn));
+    let terms = [];
+    try { terms = JSON.parse(btn.getAttribute("data-terms") || "[]"); }
+    catch (e) { terms = []; }
+    peek.innerHTML = spiderPeekHTML(terms);
+    peek.hidden = false;
+  }
+
+  function focusAt(i) {
+    const n = btns.length;
+    const next = (i + n) % n;
+    btns.forEach((b, k) => { b.tabIndex = k === next ? 0 : -1; });
+    btns[next].focus();
+    mark(next);
+  }
+
+  btns.forEach((btn, i) => {
+    btn.addEventListener("pointerenter", function () { mark(i); });
+    btn.addEventListener("click", function () { openPeek(btn); });
+  });
+
+  root.addEventListener("keydown", function (e) {
+    const cur = btns.indexOf(document.activeElement);
+    if (e.key === "Escape") {
+      if (peek.hidden) return;
+      e.preventDefault();
+      const open = closePeek();
+      if (open) open.focus();
+      return;
+    }
+    if (cur < 0) return;
+    const n = btns.length;
+    if (e.key === "ArrowRight" || e.key === "ArrowDown") {
+      e.preventDefault();
+      focusAt(cur + 1);
+    } else if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+      e.preventDefault();
+      focusAt(cur - 1);
+    } else if (e.key === "Home") {
+      e.preventDefault();
+      focusAt(0);
+    } else if (e.key === "End") {
+      e.preventDefault();
+      focusAt(n - 1);
+    }
+  });
+}
+
+function bindTasteRank() {
+  bindSeedForm("add-article", "article-input", "article-err", addArticle, {
+    fail: function (result) {
+      if (!result.ok) return "Enter a full URL, including the site.";
+      if (result.dup) return "Already on your list.";
+      return "";
+    },
+  });
+  document.getElementById("taste-body").querySelectorAll("[data-article-title]").forEach((input) => {
     input.addEventListener("change", function () {
       renameArticle(this.getAttribute("data-article-title"), this.value);
     });
   });
-
+  bindSpider();
   document.getElementById("export").onclick = exportProfile;
   document.getElementById("import-btn").onclick = () =>
     document.getElementById("import-file").click();
@@ -1523,14 +2654,66 @@ function renderTaste() {
     if (this.files && this.files[0]) importProfile(this.files[0]);
   };
   document.getElementById("reset").onclick = function () {
-    if (!confirm("Clear people, articles, ratings, saved stories, and the learned profile?")) return;
-    profile = emptyProfile();
-    justRated = {};
-    saveProfile(); recompute(); render();
+    const dlg = document.getElementById("reset-dialog");
+    resetBackdropReady = false;
+    dlg.showModal();
+    requestAnimationFrame(function () {
+      resetBackdropReady = true;
+    });
   };
 }
 
+function renderTaste() {
+  const el = document.getElementById("taste-body");
+  setTastePaneChips();
+  if (tastePane === "sources") {
+    el.innerHTML = renderTasteSources();
+    bindTasteSources();
+  } else {
+    el.innerHTML = renderTasteRank();
+    bindTasteRank();
+  }
+}
+
+function selDotGroups() {
+  return [
+    document.getElementById("tabs"),
+    document.getElementById("cadence"),
+    document.getElementById("range"),
+    document.getElementById("taste-panes"),
+  ].concat(Array.from(document.querySelectorAll(".net")));
+}
+
+function moveSelDot(group, animate) {
+  if (!group) return;
+  const dot = group.querySelector(":scope > .sel-dot");
+  const on = group.querySelector(":scope > .tab.on, :scope > .chip.on");
+  if (!dot) return;
+  if (!on || !group.getClientRects().length) {
+    dot.style.visibility = "hidden";
+    return;
+  }
+  const gr = group.getBoundingClientRect();
+  const br = on.getBoundingClientRect();
+  const x = Math.round(br.left + br.width / 2 - gr.left - 2);
+  dot.style.visibility = "visible";
+  if (!animate) dot.classList.add("snap");
+  dot.style.transform = "translateX(" + x + "px)";
+  if (!animate) {
+    void dot.offsetWidth;
+    dot.classList.remove("snap");
+  }
+}
+
+function syncSelDots(sliding) {
+  selDotGroups().forEach((g) => {
+    if (g) moveSelDot(g, g === sliding);
+  });
+}
+
 function render() {
+  const sliding = slideGroup;
+  slideGroup = null;
   document.querySelectorAll(".tab").forEach((b) => {
     const on = b.dataset.tab === tab;
     b.classList.toggle("on", on);
@@ -1550,6 +2733,7 @@ function render() {
   if (tab === "digest") renderDigest();
   else if (tab === "saved") renderSaved();
   else renderTaste();
+  syncSelDots(sliding);
 }
 
 /* ---------------------------------------------------------------- */
@@ -1558,7 +2742,11 @@ function render() {
 
 document.getElementById("tabs").onclick = (e) => {
   const b = e.target.closest(".tab");
-  if (b) { tab = b.dataset.tab; render(); }
+  if (b) {
+    slideGroup = document.getElementById("tabs");
+    tab = b.dataset.tab;
+    render();
+  }
 };
 
 document.getElementById("range").onclick = (e) => {
@@ -1570,12 +2758,14 @@ document.getElementById("range").onclick = (e) => {
     c.classList.toggle("on", on);
     c.setAttribute("aria-checked", on ? "true" : "false");
   });
+  slideGroup = document.getElementById("range");
   load();
 };
 
 document.getElementById("cadence").onclick = (e) => {
   const b = e.target.closest("[data-cadence]");
   if (!b || mode !== "curated") return;
+  slideGroup = document.getElementById("cadence");
   applyCadence(b.dataset.cadence);
 };
 
@@ -1585,7 +2775,24 @@ document.getElementById("cadence").addEventListener("keydown", (e) => {
   const i = chips.findIndex((c) => c.classList.contains("on"));
   const next = chips[(i + (e.key === "ArrowRight" ? 1 : -1) + chips.length) % chips.length];
   next.focus();
+  slideGroup = document.getElementById("cadence");
   applyCadence(next.dataset.cadence);
+  e.preventDefault();
+});
+
+document.getElementById("taste-panes").onclick = (e) => {
+  const b = e.target.closest("[data-taste-pane]");
+  if (!b) return;
+  applyTastePane(b.dataset.tastePane);
+};
+
+document.getElementById("taste-panes").addEventListener("keydown", (e) => {
+  if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+  const chips = Array.from(document.querySelectorAll("#taste-panes [data-taste-pane]"));
+  const i = chips.findIndex((c) => c.classList.contains("on"));
+  const next = chips[(i + (e.key === "ArrowRight" ? 1 : -1) + chips.length) % chips.length];
+  next.focus();
+  applyTastePane(next.dataset.tastePane);
   e.preventDefault();
 });
 
@@ -1598,7 +2805,9 @@ document.body.addEventListener("click", (e) => {
   if (act === "unsave") { toggleSave({ id: id }); return; }
   if (act === "drop-person") { removePerson(id); return; }
   if (act === "drop-article") { removeArticle(id); return; }
-  if (act === "net") { setPersonNetwork(id, b.dataset.network); return; }
+  if (act === "drop-resource") { removeResource(id); return; }
+  if (act === "net") { setPersonNetwork(id, b.dataset.network, b); return; }
+  if (act === "res-kind") { setResourceKind(id, b.dataset.kind); return; }
   const item = ranked.find((x) => x.id === id);
   if (!item) return;
   if (act === "up") rate(item, 1);
@@ -1607,9 +2816,29 @@ document.body.addEventListener("click", (e) => {
   else if (act === "undo") undo(item);
 });
 
+let resetBackdropReady = false;
+document.getElementById("reset-dialog").addEventListener("click", function (e) {
+  if (!resetBackdropReady) return;
+  if (e.target === this) this.close("cancel");
+});
+document.getElementById("reset-dialog").addEventListener("close", function () {
+  resetBackdropReady = false;
+  if (this.returnValue === "confirm") {
+    profile = emptyProfile();
+    justRated = {};
+    ensureResourcesCatalog();
+    persistTaste();
+  }
+  const trigger = document.getElementById("reset");
+  if (trigger) trigger.focus();
+});
+
 loadProfile();
 render();
 load();
+window.addEventListener("resize", function () {
+  syncSelDots(null);
+});
 </script>
 </body>
 </html>

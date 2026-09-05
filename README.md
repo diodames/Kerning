@@ -41,10 +41,11 @@ Hacker News live. If you see the "Live Hacker News only" banner, that's why.
 
 **3. Close the loop**
 
-On Taste, add people you follow and articles you like. Rate stories in the
-digest too. Then Taste → Export profile. Save it beside the script as
-`kerning-profile.json`. The next run ranks with those weights and watches
-anyone you added, on top of the curated account lists.
+On Taste → Sources, add people you follow and resources you watch (RSS,
+GitHub, Substack). On Taste, add articles you like. Rate stories in the
+digest too. Then export the profile from Taste. Save it beside the script
+as `kerning-profile.json`. The next run ranks with those weights and
+watches anyone and any feed you added, on top of the curated lists.
 
 ## Files
 
