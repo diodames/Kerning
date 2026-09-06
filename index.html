@@ -218,7 +218,7 @@
   ol.list, ul.list { list-style: none; margin: 0; padding: 0; }
   li.item {
     display: grid;
-    grid-template-columns: 5.5rem minmax(0, 1fr);
+    grid-template-columns: 2.6rem minmax(0, 1fr);
     column-gap: 24px;
     align-items: start;
     padding: 28px 0;
@@ -232,13 +232,12 @@
     font-variant-numeric: tabular-nums;
     padding-top: 2px;
   }
-  .rank-of { color: var(--faint); }
   .body { min-width: 0; }
   a.title {
     font-size: var(--text-title); font-weight: 500;
     line-height: 1.28; letter-spacing: -0.03em;
     color: var(--ink); text-decoration: none;
-    display: block; max-width: 46ch;
+    display: block; max-width: 72ch;
     text-wrap: balance;
     text-underline-offset: 4px;
     text-decoration-thickness: from-font;
@@ -742,7 +741,6 @@
     .tabs { gap: 16px; }
     .tab, .chip { font-size: 14px; }
     li.item { grid-template-columns: 2.6rem minmax(0, 1fr); column-gap: 12px; padding: 22px 0; }
-    .rank-of { display: none; }
     a.title { font-size: 1.0625rem; }
     .meta {
       flex-wrap: nowrap;
@@ -2189,17 +2187,16 @@ function displayTerm(t) {
   return String(t).replace(/^site:/, "").replace(/^person:/, "");
 }
 
-function itemHTML(item, i, total) {
+function itemHTML(item, i) {
   const dom = domainOf(item.url) || "news.ycombinator.com";
   const n = String(i + 1).padStart(2, "0");
-  const tot = String(total || 0).padStart(2, "0");
   const why = item.reasons && item.reasons.length
     ? '<p class="why">' + item.reasons.map((c) =>
         '<span class="' + (c[1] > 0 ? "pos" : "neg") + '">'
         + esc(displayTerm(c[0])) + "</span>").join("") + "</p>"
     : "";
   return '<li class="item">'
-    + '<span class="rank">' + n + ' <span class="rank-of">/ ' + tot + "</span></span>"
+    + '<span class="rank">' + n + "</span>"
     + '<div class="body">'
     + '<a class="title" href="' + esc(item.url) + '" target="_blank" rel="noreferrer">'
     + esc(item.title) + "</a>"
@@ -2292,7 +2289,7 @@ function renderDigest() {
   document.getElementById("cadence").classList.toggle("hidden", mode !== "curated");
   document.getElementById("range").classList.toggle("hidden", mode !== "live");
   setCadenceChips();
-  listEl.innerHTML = queue.map((it, i) => itemHTML(it, i, queue.length)).join("");
+  listEl.innerHTML = queue.map((it, i) => itemHTML(it, i)).join("");
 
   const strips = ranked.filter((it) => justRated[it.id]);
   if (strips.length) {
