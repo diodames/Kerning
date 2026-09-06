@@ -1,6 +1,6 @@
 # Kerning
 
-> A design and product digest that learns what you like. Twelve links a day.
+> A design and product digest that learns what you like. Twelve links a week.
 
 Kerning is a free reading list for designers and product people. It ranks
 links from Hacker News, Lobsters, design and product publications, Substack,
