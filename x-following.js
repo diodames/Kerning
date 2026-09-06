@@ -6,7 +6,7 @@
    3. Paste this whole file, press Enter, and leave the tab alone.
 
    It scrolls to the bottom collecting handles, then downloads
-   following.txt. X renders the list in a virtual scroller, so a few
+   x-following.txt. X renders the list in a virtual scroller, so a few
    accounts can be missed on a fast pass — run it twice and diff if you
    want to be thorough.
 
@@ -48,9 +48,9 @@
   const blob = new Blob([list.join("\n") + "\n"], { type: "text/plain" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
-  a.download = "following.txt";
+  a.download = "x-following.txt";
   a.click();
   setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 
-  console.log(`Saved following.txt — ${list.length} handles.`);
+  console.log(`Saved x-following.txt — ${list.length} handles.`);
 })();

@@ -3,7 +3,8 @@
 A design and product digest you can read daily, weekly, or monthly. Pulls from
 Hacker News, Lobsters, design and product publications, Substack, design-system
 release feeds, and links shared on Bluesky. Ranks this calendar month, cuts
-three editions, and learns from what you rate.
+yesterday’s best 4 plus this week and this month, and learns from what you
+rate.
 
 ## Setup
 
@@ -23,7 +24,8 @@ python3 kerning_fetch.py --limit 12
 ```
 
 Writes `digest.json` (read by the app) and `digest.md` (readable on its own).
-One run builds today, this week (Monday–Sunday), and this month. The app
+One run builds yesterday (4), this week (Monday–Sunday, 12), and this month
+(12). Daily is the last complete calendar day, not today-so-far. The app
 switches between them. Pass `--days 7` if you want a single rolling window
 instead. X is skipped unless `APIFY_TOKEN` is set.
 
@@ -53,7 +55,7 @@ watches anyone and any feed you added, on top of the curated lists.
 |---|---|
 | `kerning_fetch.py` | Fetching, merging, scoring. All the source config is at the top. |
 | `kerning.html` | The reading app. Self-contained: HTML, CSS, and JS in one file. |
-| `accounts.txt` | X handles to watch. One per line, `#` for comments. |
+| `accounts.txt` | X handles to watch, and the default Taste → Sources people list. One per line, `#` for comments. |
 | `bsky-accounts.txt` | Bluesky handles to watch. Custom domains work. |
 | `substack.txt` | Substack publications to watch. Slug, host, or URL. |
 | `x-following.js` | Paste into the browser console to export your X following list. |
@@ -84,7 +86,8 @@ The `W` dictionary near the top of `kerning_fetch.py` holds the scoring weights.
 independently beats one with more upvotes in a single place.
 
 `MAX_PER_DOMAIN` and `MAX_PER_SOURCE` stop any one blog or aggregator taking
-over the digest. `--limit` sets how many items survive.
+over the digest. `--limit` sets how many items survive in weekly and monthly
+editions. Daily is always yesterday’s best 4.
 
 ## Substack source (free, no login)
 

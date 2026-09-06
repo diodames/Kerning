@@ -142,11 +142,6 @@
     text-wrap: balance;
   }
   .hero-role {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    column-gap: 0.7em;
-    row-gap: 0.2em;
     margin: 28px 0 0;
     font-size: var(--text-body);
     font-weight: 400;
@@ -160,6 +155,7 @@
     user-select: none;
   }
   .hero-role .mute { color: var(--mute); }
+  .hero-rest { white-space: nowrap; }
 
   .controls {
     display: flex; align-items: center; justify-content: space-between;
@@ -310,6 +306,7 @@
     position: relative;
     width: min(100%, 28rem);
     margin-inline: auto;
+    overflow: visible;
   }
   .spider-svg {
     display: block; width: 100%; height: auto; overflow: visible;
@@ -347,20 +344,26 @@
   .spider-term[data-anchor="bottom"] { --tx: -50%; --ty: 4px; text-align: center; }
   .spider-term:active { --press: 0.96; }
   .spider-meta {
-    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
     margin-top: 2px;
     font-size: var(--text-meta); font-weight: 400;
     color: var(--mute); line-height: 1.35;
     white-space: normal; max-width: 16ch;
     text-wrap: pretty;
     opacity: 0;
+    pointer-events: none;
     transition-property: opacity;
     transition-duration: 180ms;
     transition-timing-function: var(--ease-out);
   }
-  .spider-term:hover .spider-meta,
-  .spider-term:focus-visible .spider-meta,
-  .spider-term[aria-expanded="true"] .spider-meta { opacity: 1; }
+  .spider-term[data-anchor="end"] .spider-meta { left: auto; right: 0; }
+  .spider-term[data-anchor="middle"] .spider-meta,
+  .spider-term[data-anchor="bottom"] .spider-meta {
+    left: 50%;
+    transform: translateX(-50%);
+  }
   .spider:focus-within .spider-term,
   .spider:focus-within .spider-arm,
   .spider:focus-within .spider-axis,
@@ -529,6 +532,12 @@
   }
   .rkind > summary:hover .rkind-count,
   .rkind > summary:active .rkind-count { color: inherit; }
+  .rkind > summary .rkind-drop {
+    margin-inline-start: auto;
+    font-weight: 400;
+    min-height: 0;
+    padding: 4px 0;
+  }
   .rkind .seeds { margin-top: 0; padding-bottom: 20px; }
   .seed {
     display: grid;
@@ -635,6 +644,7 @@
     caret-color: var(--ink);
     field-sizing: content;
   }
+  .seed-article a.seed-main .seed-title { cursor: inherit; }
   .seed-article .seed-host {
     flex: 0 0 auto;
     font-size: var(--text-meta);
@@ -692,7 +702,8 @@
     a.title:hover { text-decoration: underline; }
     .seeds:hover .seed-resource { opacity: 0.32; }
     .seeds:hover .seed-resource:hover { opacity: 1; }
-    .rkind a.seed-main:hover .seed-title { text-decoration: underline; }
+    .rkind a.seed-main:hover .seed-title,
+    .seed-article a.seed-main:hover .seed-title { text-decoration: underline; }
     .seed-resource .text-act { opacity: 0; }
     .seed-resource:hover .text-act,
     .seed-resource:focus-within .text-act { opacity: 1; }
@@ -708,6 +719,11 @@
     .spider:hover .spider-term[aria-expanded="true"],
     .spider:hover .spider-arm.on,
     .spider:hover .spider-axis.on { opacity: 1; }
+  }
+  @media (hover: hover) and (pointer: fine) and (min-width: 641px) {
+    .spider-term:hover .spider-meta,
+    .spider-term:focus-visible .spider-meta,
+    .spider-term[aria-expanded="true"] .spider-meta { opacity: 1; }
   }
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
@@ -743,9 +759,7 @@
     .meta-run { flex-shrink: 0; }
     .hero { padding: 24px 0 48px; }
     .trow { grid-template-columns: minmax(0, 46%) 1fr; }
-    .tcol--spider .spider,
-    .tcol--spider .spider-peek { display: none; }
-    .tcol--spider .trow { display: grid; }
+    .spider { padding-inline: 2.5rem; padding-block: 0.5rem; }
     .tfield input { font-size: 16px; }
     .seed { grid-template-columns: minmax(0, 1fr); }
     .seed .acts { margin-top: 0; }
@@ -780,8 +794,7 @@
     <h1>Kerning</h1>
     <p class="hero-role">
       A design and product digest that learns what you&nbsp;like
-      <span class="hero-dot" aria-hidden="true">·</span>
-      <span class="mute">Twelve links a&nbsp;week</span>
+      <span class="hero-rest"><span class="hero-dot" aria-hidden="true"> · </span><span class="mute">Twelve links a&nbsp;week</span></span>
     </p>
   </header>
 
@@ -832,7 +845,7 @@
 <dialog id="reset-dialog" class="dlg" aria-labelledby="reset-dialog-title" aria-describedby="reset-dialog-body">
   <form method="dialog">
     <h2 id="reset-dialog-title">Start over?</h2>
-    <p id="reset-dialog-body">This clears people, resources, articles, ratings, saved stories, and the learned profile. Watched resources return to the defaults.</p>
+    <p id="reset-dialog-body">This clears people, resources, articles, ratings, saved stories, and the learned profile. People and resources return to the defaults.</p>
     <div class="dlg-acts">
       <button type="submit" class="btn" value="cancel" autofocus>Cancel</button>
       <button type="submit" class="btn down" value="confirm">Start over</button>
@@ -852,14 +865,14 @@ const CADENCE_KEY = "kerning:cadence";
 const CADENCES = ["daily", "weekly", "monthly"];
 const CADENCE_COPY = {
   daily: {
-    prefix: "Today",
-    rate: " Rate a few and tomorrow\u2019s ranking follows your taste.",
+    prefix: "Yesterday",
+    rate: " Rate a few and the next day\u2019s ranking follows your taste.",
     taste: " Or add people and resources on Taste.",
-    empty: "That\u2019s today\u2019s list.",
-    emptyNote: "Saved stories stay here. A new issue lands tomorrow.",
-    loading: "Opening today\u2019s digest.",
-    vacant: "Nothing in today\u2019s digest yet.",
-    vacantNote: "Try Weekly, or check back later today.",
+    empty: "That\u2019s yesterday\u2019s list.",
+    emptyNote: "Saved stories stay here. The next four publish after midnight, on the next rebuild.",
+    loading: "Opening yesterday\u2019s digest.",
+    vacant: "Nothing in yesterday\u2019s digest.",
+    vacantNote: "Try Weekly, or rebuild after another day has closed.",
   },
   weekly: {
     prefix: "This week",
@@ -998,6 +1011,13 @@ const STOP = new Set(("the a an and or of for to in on with from this that how w
 
 const NETWORKS = ["bsky", "x", "substack"];
 const NET_LABEL = { bsky: "Bluesky", x: "X", substack: "Substack" };
+const PEOPLE_GROUPS = ["martin-x", "x", "bsky", "substack"];
+const PEOPLE_GROUP_LABEL = {
+  "martin-x": "Martin’s X following",
+  x: "X writers",
+  bsky: "Bluesky writers",
+  substack: "Substack writers",
+};
 const RESOURCE_KINDS = ["rss", "github", "substack"];
 const RESOURCE_LABEL = { rss: "RSS", github: "GitHub", substack: "Substack" };
 const X_RESERVED = new Set(("home explore notifications messages search i following " +
@@ -1059,6 +1079,7 @@ function normalizeProfile(p) {
     },
   };
   if (seeds.resourcesCatalog) out.seeds.resourcesCatalog = 1;
+  if (seeds.peopleCatalog) out.seeds.peopleCatalog = Number(seeds.peopleCatalog) || 1;
   return out;
 }
 
@@ -1070,6 +1091,7 @@ let days = 7;
 let tab = "digest";
 let tastePane = "taste";
 let resourceOpen = { rss: false, github: false, substack: false };
+let peopleOpen = { "martin-x": false, x: false, bsky: false, substack: false };
 let status = "idle";
 let slideGroup = null;
 
@@ -1097,6 +1119,7 @@ function loadProfile() {
   rebuildWeights();
   if (seeded) saveProfile();
   seedPendingBluesky();
+  seedPeopleCatalog();
 }
 function saveCadence() {
   try { localStorage.setItem(CADENCE_KEY, cadence); }
@@ -1651,13 +1674,23 @@ function addPeople(raw) {
     fresh.push(person);
     added++;
   });
-  if (added) persistTaste();
+  if (added) {
+    fresh.forEach((p) => {
+      if (PEOPLE_GROUPS.indexOf(p.network) >= 0) peopleOpen[p.network] = true;
+    });
+    persistTaste();
+  }
   seedPendingBluesky();
   return { added: added, skipped: skipped, bad: bad };
 }
 
 function removePerson(id) {
   profile.seeds.people = profile.seeds.people.filter((p) => p.id !== id);
+  persistTaste();
+}
+
+function removePack() {
+  profile.seeds.people = (profile.seeds.people || []).filter((p) => !isPackPerson(p));
   persistTaste();
 }
 
@@ -1889,6 +1922,70 @@ function ensureResourcesCatalog() {
   return true;
 }
 
+function parseXFollowingHandle(line) {
+  line = String(line || "").trim();
+  if (!line || line.charAt(0) === "#") return null;
+  line = line.split(/\s+/)[0];
+  const m = line.match(/(?:x\.com\/|twitter\.com\/|@)?([A-Za-z0-9_]{1,15})\/?$/i);
+  if (!m) return null;
+  const handle = m[1].toLowerCase();
+  if (X_RESERVED.has(handle)) return null;
+  return handle;
+}
+
+function defaultPersonFromHandle(handle) {
+  return {
+    id: personKey("x", handle),
+    network: "x",
+    handle: handle,
+    pack: "x-following",
+    addedAt: 0,
+    links: [],
+    seeded: true,
+  };
+}
+
+function isPackPerson(p) {
+  if (!p) return false;
+  if (p.pack === "x-following") return true;
+  return p.addedAt === 0 && p.network === "x";
+}
+
+async function ensurePeopleCatalog() {
+  if (profile.seeds.peopleCatalog === 2) return false;
+  const migrating = profile.seeds.peopleCatalog === 1;
+  if (!migrating && (profile.seeds.people || []).length > 0) {
+    profile.seeds.peopleCatalog = 2;
+    return true;
+  }
+  let text = "";
+  try {
+    const res = await fetch("accounts.txt");
+    if (!res.ok) return false;
+    text = await res.text();
+  } catch (e) {
+    return false;
+  }
+  const seen = new Set();
+  const pack = [];
+  text.split(/\r?\n/).forEach((line) => {
+    const handle = parseXFollowingHandle(line);
+    if (!handle || seen.has(handle)) return;
+    seen.add(handle);
+    pack.push(defaultPersonFromHandle(handle));
+  });
+  const kept = (profile.seeds.people || []).filter((p) => !isPackPerson(p));
+  profile.seeds.people = pack.concat(kept);
+  profile.seeds.peopleCatalog = 2;
+  return true;
+}
+
+function seedPeopleCatalog() {
+  return ensurePeopleCatalog().then((seeded) => {
+    if (seeded) persistTaste();
+  });
+}
+
 function addResources(raw) {
   const lines = splitPeopleInput(raw);
   if (!lines.length) return { added: 0, skipped: 0, bad: true };
@@ -2030,6 +2127,7 @@ function importProfile(file) {
       persistTaste();
       render();
       seedPendingBluesky();
+      seedPeopleCatalog();
     } catch (e) {
       alert("That file isn't a Kerning profile. Pick the kerning-profile.json you exported.");
     }
@@ -2257,17 +2355,8 @@ function renderSaved() {
   el.innerHTML = form
     + '<div class="controls"><span class="note">' + profile.saved.length
     + ' saved</span><button type="button" class="btn" id="copy-md">Copy as markdown</button></div>'
-    + '<ul class="list">' + profile.saved.map((s) => {
-      const pts = Number(s.points) || 0;
-      return '<li class="item item--plain"><div class="body">'
-        + '<a class="title" href="' + esc(s.url) + '" target="_blank" rel="noreferrer">'
-        + esc(s.title) + "</a>"
-        + '<p class="meta"><span>' + esc(domainOf(s.url)) + "</span>"
-        + (pts ? "<span>" + pts + " point" + (pts === 1 ? "" : "s") + "</span>" : "")
-        + "</p>"
-        + '<div class="acts"><button type="button" class="text-act" data-act="unsave" data-id="'
-        + esc(s.id) + '">Remove</button></div></div></li>';
-    }).join("") + "</ul>";
+    + '<ul class="seeds seeds--chips">'
+    + profile.saved.map((s) => articleChip(s, "unsave")).join("") + "</ul>";
 
   bindSavedForm();
   document.getElementById("copy-md").onclick = function () {
@@ -2405,7 +2494,6 @@ function tasteSpider(title, groups, color) {
     ? '<' + shapeTag + ' class="spider-shape" points="' + verts.join(" ") + '"/>'
     : "";
 
-  const barRows = groups.map((g) => [g.label, g.sum]);
   return '<div class="tcol tcol--spider"><h3>' + title + "</h3>"
     + '<div class="spider" role="group" aria-label="How your taste pulls stories">'
     + '<div class="spider-plot">'
@@ -2420,7 +2508,6 @@ function tasteSpider(title, groups, color) {
     + "</div>"
     + '<div class="spider-peek" id="spider-peek" hidden></div>'
     + "</div>"
-    + tasteRowsHTML(barRows, color, max)
     + "</div>";
 }
 
@@ -2538,6 +2625,42 @@ function groupedResources(resources) {
   }).join("");
 }
 
+function personChip(p) {
+  return '<li class="seed seed-article">'
+    + '<div class="seed-main"><span class="seed-title">' + esc(p.handle) + "</span></div>"
+    + '<button type="button" class="seed-x" data-act="drop-person" data-id="'
+    + esc(p.id) + '" aria-label="Remove ' + esc(p.handle) + '">'
+    + '<span aria-hidden="true">×</span></button></li>';
+}
+
+function groupedPeople(people) {
+  if (!people.length) return "";
+  const pack = [];
+  const byNet = { x: [], bsky: [], substack: [] };
+  people.forEach((p) => {
+    if (isPackPerson(p)) pack.push(p);
+    else if (byNet[p.network]) byNet[p.network].push(p);
+  });
+  const groups = [
+    { kind: "martin-x", rows: pack, pack: true },
+    { kind: "x", rows: byNet.x },
+    { kind: "bsky", rows: byNet.bsky },
+    { kind: "substack", rows: byNet.substack },
+  ];
+  return groups.map((g) => {
+    if (!g.rows.length) return "";
+    const remove = g.pack
+      ? '<button type="button" class="text-act rkind-drop" data-act="drop-pack">Remove</button>'
+      : "";
+    return '<details class="rkind" data-kind="' + g.kind + '"'
+      + (peopleOpen[g.kind] ? " open" : "") + ">"
+      + "<summary>" + esc(PEOPLE_GROUP_LABEL[g.kind])
+      + '<span class="rkind-count">' + g.rows.length + "</span>"
+      + remove + "</summary>"
+      + '<ul class="seeds seeds--chips">' + g.rows.map(personChip).join("") + "</ul></details>";
+  }).join("");
+}
+
 function bindSeedForm(formId, inputId, errId, submit, messages) {
   const form = document.getElementById(formId);
   if (!form) return;
@@ -2579,26 +2702,19 @@ function applyTastePane(name) {
 function renderTasteSources() {
   const people = profile.seeds.people;
   const resources = profile.seeds.resources || [];
-  const peopleList = people.length
-    ? '<ul class="seeds">' + people.map((p) =>
-        '<li class="seed"><div><div class="name">' + esc(p.handle) + "</div>"
-        + networkChips(p) + "</div>"
-        + '<div class="acts"><button type="button" class="text-act" data-act="drop-person" data-id="'
-        + esc(p.id) + '">Remove</button></div></li>').join("") + "</ul>"
-    : "";
 
   return '<p class="note taste-primer">' + sourcesPrimer() + "</p>"
 
     + '<section class="tsec" aria-labelledby="taste-people">'
     + '<h2 id="taste-people">People you follow</h2>'
-    + '<p class="note">Bluesky, X, or a Substack writer. Paste a list if you have one.</p>'
+    + '<p class="note">Martin’s X following is a starting list. Add X, Bluesky, or Substack writers of your&nbsp;own.</p>'
     + '<form class="tadd" id="add-people">'
     + '<div class="tfield"><label for="people-input">Handle, URL, or a pasted list</label>'
     + '<input id="people-input" name="people" type="text" spellcheck="false" autocomplete="off" '
     + 'placeholder="lea.verou.me" aria-describedby="people-err"></div>'
     + '<button type="submit" class="btn">Add person</button></form>'
     + '<p class="field-err" id="people-err" role="status"></p>'
-    + peopleList + "</section>"
+    + groupedPeople(people) + "</section>"
 
     + '<section class="tsec" aria-labelledby="taste-resources">'
     + '<h2 id="taste-resources">Resources you watch</h2>'
@@ -2617,13 +2733,22 @@ function articleChip(item, dropAct) {
   const title = item.title || host;
   const showHost = host && title.trim().toLowerCase() !== String(host).toLowerCase();
   const editable = dropAct === "drop-article";
-  return '<li class="seed seed-article">'
-    + '<div class="seed-main">'
-    + '<input class="seed-title"'
-    + (editable ? ' data-article-title="' + esc(item.id) + '"' : ' readonly tabindex="-1"')
-    + ' value="' + esc(title) + '" aria-label="Title for ' + esc(host) + '">'
-    + (showHost ? '<span class="seed-host">(' + esc(host) + ")</span>" : "")
-    + "</div>"
+  const href = !editable && item.url ? item.url : "";
+  const hostSpan = showHost ? '<span class="seed-host">(' + esc(host) + ")</span>" : "";
+  const main = editable
+    ? '<div class="seed-main">'
+      + '<input class="seed-title" data-article-title="' + esc(item.id) + '"'
+      + ' value="' + esc(title) + '" aria-label="Title for ' + esc(host) + '">'
+      + hostSpan + "</div>"
+    : href
+      ? '<a class="seed-main" href="' + esc(href) + '" target="_blank" rel="noreferrer">'
+        + '<span class="seed-title">' + esc(title) + "</span>"
+        + hostSpan + "</a>"
+      : '<div class="seed-main">'
+        + '<input class="seed-title" readonly tabindex="-1" value="' + esc(title)
+        + '" aria-label="Title for ' + esc(host) + '">'
+        + hostSpan + "</div>";
+  return '<li class="seed seed-article">' + main
     + '<button type="button" class="seed-x" data-act="' + dropAct + '" data-id="'
     + esc(item.id) + '" aria-label="Remove"><span aria-hidden="true">×</span></button></li>';
 }
@@ -2697,6 +2822,14 @@ function bindTasteSources() {
     el.addEventListener("toggle", function () {
       const kind = this.dataset.kind;
       if (RESOURCE_KINDS.indexOf(kind) >= 0) resourceOpen[kind] = this.open;
+      if (Object.prototype.hasOwnProperty.call(peopleOpen, kind)) peopleOpen[kind] = this.open;
+    });
+  });
+  document.getElementById("taste-body").querySelectorAll("[data-act='drop-pack']").forEach((btn) => {
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      removePack();
     });
   });
 }
@@ -2962,6 +3095,7 @@ document.body.addEventListener("click", (e) => {
   const act = b.dataset.act, id = b.dataset.id;
   if (act === "unsave") { toggleSave({ id: id }); return; }
   if (act === "drop-person") { removePerson(id); return; }
+  if (act === "drop-pack") { removePack(); return; }
   if (act === "drop-article") { removeArticle(id); return; }
   if (act === "drop-rating") { undo({ id: id }); return; }
   if (act === "drop-resource") { removeResource(id); return; }
@@ -2987,6 +3121,7 @@ document.getElementById("reset-dialog").addEventListener("close", function () {
     justRated = {};
     ensureResourcesCatalog();
     persistTaste();
+    seedPeopleCatalog();
   }
   const trigger = document.getElementById("reset");
   if (trigger) trigger.focus();

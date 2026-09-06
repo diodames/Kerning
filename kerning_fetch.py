@@ -4,7 +4,7 @@ Kerning — a design and product digest you can read daily, weekly, or monthly.
 
 Pulls from Hacker News, Lobsters, design and product publications, Substack,
 and the release feeds of major design systems. Merges everything by canonical
-URL, then cuts three ranked editions from this calendar month.
+URL, then cuts yesterday’s best 4, this week, and this month.
 
     pip install requests feedparser
     python3 kerning_fetch.py --limit 12
@@ -186,6 +186,7 @@ W = {
 
 MAX_PER_DOMAIN = 2
 MAX_PER_SOURCE = 4
+DAILY_LIMIT = 4         # last complete calendar day only
 SHORTLIST = 40          # how many candidates get a buzz lookup
 
 # --------------------------------------------------------------------------
@@ -208,6 +209,12 @@ def this_day(now=None):
     now = now or datetime.now().astimezone()
     start = now.replace(hour=0, minute=0, second=0, microsecond=0)
     return start, start + timedelta(days=1)
+
+
+def yesterday(now=None):
+    """Yesterday 00:00 local through today 00:00 — the last complete calendar day."""
+    today, _ = this_day(now)
+    return today - timedelta(days=1), today
 
 
 def this_month(now=None):
@@ -1445,11 +1452,14 @@ def serialize_item(it):
     return out
 
 
-def cut_edition(items, since, limit, weights, now, recency_tau, skip_urls=None):
+def cut_edition(items, since, limit, weights, now, recency_tau, skip_urls=None,
+                until=None):
     skip_urls = skip_urls or set()
     pool = [
         dict(it) for it in items
-        if it["ts"] >= since and it.get("key") not in skip_urls
+        if it["ts"] >= since
+        and (until is None or it["ts"] < until)
+        and it.get("key") not in skip_urls
     ]
     ranked = sorted(
         (score(it, weights, now, recency_tau, skip_urls) for it in pool),
@@ -1497,7 +1507,7 @@ def write_markdown(path, cadences):
         order = list(cadences)
     lines = ["# Kerning", ""]
     blurbs = {
-        "daily": "Today",
+        "daily": "Yesterday",
         "weekly": "This week",
         "monthly": "This month",
     }
@@ -1520,7 +1530,8 @@ def main():
     ap = argparse.ArgumentParser(description="Build daily, weekly, and monthly design and product digests.")
     ap.add_argument("--days", type=int, default=None,
                     help="rolling window in days (default: this calendar week)")
-    ap.add_argument("--limit", type=int, default=12)
+    ap.add_argument("--limit", type=int, default=12,
+                    help="items in weekly and monthly editions (daily is always 4)")
     ap.add_argument("--profile", default="kerning-profile.json",
                     help="taste profile exported from the Kerning web app")
     ap.add_argument("--out", default="digest")
@@ -1613,7 +1624,7 @@ def main():
         print(f"taste profile: {len(weights)} learned terms{suffix}", file=sys.stderr)
 
     now_dt = datetime.now().astimezone()
-    day_start, day_end = this_day(now_dt)
+    yday_start, yday_end = yesterday(now_dt)
     week_start, week_end = this_week(now_dt)
     month_start, month_end = this_month(now_dt)
 
@@ -1626,11 +1637,11 @@ def main():
     else:
         days = max((time.time() - month_start.timestamp()) / 86400, 1 / 24)
         periods = {
-            "daily": (day_start, day_end),
+            "daily": (yday_start, yday_end),
             "weekly": (week_start, week_end),
             "monthly": (month_start, month_end),
         }
-        print(f"day: {day_start.strftime('%d %B')}", file=sys.stderr)
+        print(f"day: {yday_start.strftime('%d %B')} (yesterday)", file=sys.stderr)
         print(f"week: {week_label(week_start, week_end)} ({iso_week_id(week_start)})",
               file=sys.stderr)
         print(f"month: {month_start.strftime('%B %Y')}", file=sys.stderr)
@@ -1731,8 +1742,10 @@ def main():
     cadences = {}
     for kind, (start, end) in periods.items():
         tau = RECENCY_TAU.get(kind, 7)
+        limit = DAILY_LIMIT if kind == "daily" else args.limit
         picked = cut_edition(
-            items, start.timestamp(), args.limit, weights, now, tau, skip_urls,
+            items, start.timestamp(), limit, weights, now, tau, skip_urls,
+            until=end.timestamp(),
         )
         pack = edition_meta(kind, start, end)
         pack["items"] = [serialize_item(it) for it in picked]
