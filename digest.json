@@ -1,294 +1,145 @@
 {
-  "generated_at": "2026-09-05T10:27:36.881976+00:00",
+  "generated_at": "2026-09-07T15:01:48.967432+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "5 September 2026",
-      "period_start": "2026-09-05",
-      "period_end": "2026-09-05",
+      "label": "6 September 2026",
+      "period_start": "2026-09-06",
+      "period_end": "2026-09-06",
       "items": [
         {
-          "id": "e911d64ae234",
-          "title": "Show HN: Arena, the same design system in React and Angular from one contract",
-          "url": "https://arena.dravensoft.org/web-benches/",
-          "hn": "https://news.ycombinator.com/item?id=49572451",
+          "id": "57fe62dc7da7",
+          "title": "August 31 - September 6 Round Up: Gemini Interface Design, Sci-Fi AI Predictions, Figma System Audits",
+          "url": "https://aiforux.substack.com/p/august-31-september-6-round-up-gemini",
+          "hn": "https://aiforux.substack.com/p/august-31-september-6-round-up-gemini",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788719472,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.945,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "768176aedba8",
+          "title": "Show HN: VODForge – a free local desktop UI for YouTube video/playlist downloads",
+          "url": "https://getvodforge.com/",
+          "hn": "https://news.ycombinator.com/item?id=49590354",
+          "points": 37,
+          "comments": 12,
+          "created_at_i": 1788725250,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.391,
+          "why": []
+        },
+        {
+          "id": "aed35d42cbc6",
+          "title": "Forte UI – React components whose palette derives from one CSS variable",
+          "url": "https://forte-ui.com/",
+          "hn": "https://news.ycombinator.com/item?id=49588892",
           "points": 1,
           "comments": 0,
-          "created_at_i": 1788574596,
+          "created_at_i": 1788716442,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.56,
+          "score": 3.267,
           "why": []
         },
         {
-          "id": "8c35b4598086",
-          "title": "Fontra – The browser-based Font Editor",
-          "url": "https://fontra.xyz",
-          "hn": "https://news.ycombinator.com/item?id=49571360",
-          "points": 3,
-          "comments": 1,
-          "created_at_i": 1788564258,
+          "id": "a6cb33cc9806",
+          "title": "A Figma clone built by GPT-6 Astra",
+          "url": "https://wieslawsoltes.github.io/Vellum/",
+          "hn": "https://news.ycombinator.com/item?id=49583764",
+          "points": 6,
+          "comments": 6,
+          "created_at_i": 1788674597,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.525,
-          "why": []
-        },
-        {
-          "id": "f4ff457f9975",
-          "title": "Iroh inside Tape – Critical UX for self-hosted music streaming suite",
-          "url": "https://tapemusicsuite.com/blog/iroh-device-connection-without-tailscale",
-          "hn": "https://news.ycombinator.com/item?id=49574700",
-          "points": 1,
-          "comments": 0,
-          "created_at_i": 1788599157,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.426,
-          "why": []
-        },
-        {
-          "id": "0c359ce859b5",
-          "title": "CSS is Turing Complete (2022)",
-          "url": "https://github.com/Mooninaut/css-is-turing-complete",
-          "hn": "https://news.ycombinator.com/item?id=49573279",
-          "points": 2,
-          "comments": 0,
-          "created_at_i": 1788585263,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.134,
+          "score": 2.841,
           "why": []
         }
       ]
     },
     "weekly": {
-      "label": "31 August – 6 September 2026",
-      "period_start": "2026-08-31",
-      "period_end": "2026-09-06",
-      "week_start": "2026-08-31",
-      "week_end": "2026-09-06",
-      "week_label": "31 August – 6 September 2026",
-      "iso_week": "2026-W36",
+      "label": "7–13 September 2026",
+      "period_start": "2026-09-07",
+      "period_end": "2026-09-13",
+      "week_start": "2026-09-07",
+      "week_end": "2026-09-13",
+      "week_label": "7–13 September 2026",
+      "iso_week": "2026-W37",
       "items": [
         {
-          "id": "7f129790849b",
-          "title": "Is Minifying CSS Necessary? (2023)",
-          "url": "https://shivjm.blog/is-minifying-css-necessary/",
-          "hn": "https://news.ycombinator.com/item?id=49533489",
-          "points": 64,
-          "comments": 25,
-          "created_at_i": 1788277364,
-          "sources": [
-            "Hacker News",
-            "Lobsters"
-          ],
-          "sharers": 0,
-          "score": 7.013,
-          "why": [
-            "picked up by Hacker News and Lobsters"
-          ]
-        },
-        {
-          "id": "686c70dbadf7",
-          "title": "The best dark mode toggle is probably none • Lea Verou",
-          "url": "https://lea.verou.me/blog/2026/dark-mode-toggles-2/",
-          "hn": "https://bsky.app/profile/lea.verou.me/post/3mukdzdwaps2q",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1788366376,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 6.006,
-          "why": [
-            "shared by 2 design accounts",
-            "2 Bluesky posts"
-          ],
-          "authors": [
-            "bradfrost.com",
-            "lea.verou.me"
-          ]
-        },
-        {
-          "id": "309cdb5bc8b7",
-          "title": "Spectrum (Adobe) — @react-spectrum/s2@1.7.1",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.7.1",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.7.1",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1788544817,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.761,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "ee88ba3634dd",
-          "title": "Spectrum (Adobe) — @react-spectrum/filetrigger@3.1.5",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.5",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.5",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1788544817,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.761,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "e24783e3ef46",
-          "title": "AI & Design Systems Course with Brad Frost, TJ Pitre, and Ian Frost",
-          "url": "https://aianddesign.systems",
-          "hn": "https://bsky.app/profile/bradfrost.com/post/3muphgq275p2u",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1788541845,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 4.341,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "bradfrost.com"
-          ]
-        },
-        {
-          "id": "8c4eb6f516c2",
-          "title": "Ambient CSS v3 – Blender meets CSS",
-          "url": "https://ambientcss.vercel.app/",
-          "hn": "https://news.ycombinator.com/item?id=49523387",
-          "points": 305,
-          "comments": 98,
-          "created_at_i": 1788276911,
+          "id": "e2e8740b0998",
+          "title": "Strata – A design system that records decisions, not components",
+          "url": "https://github.com/Prometheus-000/strata",
+          "hn": "https://news.ycombinator.com/item?id=49598842",
+          "points": 1,
+          "comments": 1,
+          "created_at_i": 1788791159,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 4.163,
-          "why": [
-            "305 points"
-          ]
-        },
-        {
-          "id": "805e31c30481",
-          "title": "Top Web Design Styles of 1993",
-          "url": "https://contemporary-home-computing.org/prof-dr-style/",
-          "hn": "https://news.ycombinator.com/item?id=49516117",
-          "points": 67,
-          "comments": 14,
-          "created_at_i": 1788219304,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.12,
+          "score": 2.903,
           "why": []
         },
         {
-          "id": "c7a3cc9f1a8e",
-          "title": "How AI-ready is your design system?",
-          "url": "https://christophhellmuth.com/open-design-system-bench/",
-          "hn": "https://christophhellmuth.com/open-design-system-bench/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1788333334,
+          "id": "d8534d0fd905",
+          "title": "Ask HN: How do you keep AI coding agents in sync with a changing Figma file?",
+          "url": "https://news.ycombinator.com/item?id=49595961",
+          "hn": "https://news.ycombinator.com/item?id=49595961",
+          "points": 2,
+          "comments": 1,
+          "created_at_i": 1788772620,
           "sources": [
-            "Sidebar"
+            "Hacker News"
           ],
           "sharers": 0,
-          "score": 3.967,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
+          "score": 2.716,
+          "why": []
         },
         {
-          "id": "2bfc87c0febb",
-          "title": "Users don’t see your design system",
-          "url": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
-          "points": 0,
+          "id": "e3c58a9e2e16",
+          "title": "Show HN: The ros2_utils_tool v1.0, a tool for ROS2 activies with full UI support",
+          "url": "https://github.com/MaxFleur/ros2_utils_tool/",
+          "hn": "https://news.ycombinator.com/item?id=49597230",
+          "points": 1,
           "comments": 0,
-          "created_at_i": 1788258531,
+          "created_at_i": 1788781864,
           "sources": [
-            "UX Collective"
+            "Hacker News"
           ],
           "sharers": 0,
-          "score": 3.925,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
+          "score": 2.463,
+          "why": []
         },
         {
-          "id": "f9c6fab30e34",
-          "title": "Using AI for UX Work: Study Guide",
-          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1788537600,
+          "id": "2d38826e8814",
+          "title": "Show HN: I wrote a guide to rendering video from plain HTML/CSS/GSAP",
+          "url": "https://sidheart.gumroad.com/l/lyudd",
+          "hn": "https://news.ycombinator.com/item?id=49594877",
+          "points": 2,
+          "comments": 1,
+          "created_at_i": 1788764591,
           "sources": [
-            "NN/g"
+            "Hacker News"
           ],
           "sharers": 0,
-          "score": 3.757,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "ba05ae13a044",
-          "title": "A geometric typeface made for the age of AI",
-          "url": "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai",
-          "hn": "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1788491040,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.728,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "5da86bcb008d",
-          "title": "Make your logo brighter than white",
-          "url": "https://www.soverybright.com/",
-          "hn": "https://www.soverybright.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1788408761,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.678,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
+          "score": 2.377,
+          "why": []
         }
       ]
     },
@@ -298,6 +149,47 @@
       "period_end": "2026-09-30",
       "items": [
         {
+          "id": "1def34d2dca7",
+          "title": "How to turn your AI into a world-class designer",
+          "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+          "hn": "https://news.ycombinator.com/item?id=49576762",
+          "points": 2,
+          "comments": 0,
+          "created_at_i": 1788263159,
+          "sources": [
+            "Hacker News",
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 9.264,
+          "why": [
+            "picked up by Hacker News and Lenny's Newsletter",
+            "matches your profile"
+          ]
+        },
+        {
+          "id": "5a3e3455042e",
+          "title": "Controlling when CSS custom property values are computed",
+          "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/",
+          "hn": "https://news.ycombinator.com/item?id=49579420",
+          "points": 3,
+          "comments": 0,
+          "created_at_i": 1788528203,
+          "sources": [
+            "Hacker News",
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 9.159,
+          "why": [
+            "picked up by Hacker News and Lobsters and Bluesky"
+          ],
+          "authors": [
+            "joshwcomeau.com"
+          ]
+        },
+        {
           "id": "7f129790849b",
           "title": "Is Minifying CSS Necessary? (2023)",
           "url": "https://shivjm.blog/is-minifying-css-necessary/",
@@ -310,7 +202,7 @@
             "Lobsters"
           ],
           "sharers": 0,
-          "score": 7.114,
+          "score": 7.062,
           "why": [
             "picked up by Hacker News and Lobsters"
           ]
@@ -327,7 +219,7 @@
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 6.082,
+          "score": 6.033,
           "why": [
             "shared by 2 design accounts",
             "2 Bluesky posts"
@@ -349,7 +241,7 @@
             "Design systems"
           ],
           "sharers": 0,
-          "score": 4.782,
+          "score": 4.726,
           "why": [
             "editor's pick at Design systems"
           ]
@@ -366,29 +258,26 @@
             "Design systems"
           ],
           "sharers": 0,
-          "score": 4.782,
+          "score": 4.726,
           "why": [
             "editor's pick at Design systems"
           ]
         },
         {
-          "id": "e24783e3ef46",
-          "title": "AI & Design Systems Course with Brad Frost, TJ Pitre, and Ian Frost",
-          "url": "https://aianddesign.systems",
-          "hn": "https://bsky.app/profile/bradfrost.com/post/3muphgq275p2u",
+          "id": "57fe62dc7da7",
+          "title": "August 31 - September 6 Round Up: Gemini Interface Design, Sci-Fi AI Predictions, Figma System Audits",
+          "url": "https://aiforux.substack.com/p/august-31-september-6-round-up-gemini",
+          "hn": "https://aiforux.substack.com/p/august-31-september-6-round-up-gemini",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1788541845,
+          "created_at_i": 1788719472,
           "sources": [
-            "Bluesky"
+            "AI for UX Substack"
           ],
-          "sharers": 1,
-          "score": 4.363,
+          "sharers": 0,
+          "score": 4.444,
           "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "bradfrost.com"
+            "editor's pick at AI for UX Substack"
           ]
         },
         {
@@ -396,32 +285,17 @@
           "title": "Ambient CSS v3 – Blender meets CSS",
           "url": "https://ambientcss.vercel.app/",
           "hn": "https://news.ycombinator.com/item?id=49523387",
-          "points": 305,
-          "comments": 98,
+          "points": 307,
+          "comments": 99,
           "created_at_i": 1788276911,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 4.264,
+          "score": 4.215,
           "why": [
-            "305 points"
+            "307 points"
           ]
-        },
-        {
-          "id": "805e31c30481",
-          "title": "Top Web Design Styles of 1993",
-          "url": "https://contemporary-home-computing.org/prof-dr-style/",
-          "hn": "https://news.ycombinator.com/item?id=49516117",
-          "points": 67,
-          "comments": 14,
-          "created_at_i": 1788219304,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.237,
-          "why": []
         },
         {
           "id": "c7a3cc9f1a8e",
@@ -435,7 +309,7 @@
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 4.053,
+          "score": 3.999,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -452,7 +326,7 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 4.031,
+          "score": 3.979,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -469,7 +343,7 @@
             "NN/g"
           ],
           "sharers": 0,
-          "score": 3.78,
+          "score": 3.724,
           "why": [
             "editor's pick at NN/g"
           ]
@@ -486,26 +360,9 @@
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.766,
+          "score": 3.71,
           "why": [
             "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "96aa9af75e61",
-          "title": "UX Conference November Announced (Nov 16 - Nov 19)",
-          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1788407449,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.741,
-          "why": [
-            "editor's pick at NN/g"
           ]
         }
       ]
@@ -513,219 +370,68 @@
   },
   "items": [
     {
-      "id": "7f129790849b",
-      "title": "Is Minifying CSS Necessary? (2023)",
-      "url": "https://shivjm.blog/is-minifying-css-necessary/",
-      "hn": "https://news.ycombinator.com/item?id=49533489",
-      "points": 64,
-      "comments": 25,
-      "created_at_i": 1788277364,
-      "sources": [
-        "Hacker News",
-        "Lobsters"
-      ],
-      "sharers": 0,
-      "score": 7.013,
-      "why": [
-        "picked up by Hacker News and Lobsters"
-      ]
-    },
-    {
-      "id": "686c70dbadf7",
-      "title": "The best dark mode toggle is probably none • Lea Verou",
-      "url": "https://lea.verou.me/blog/2026/dark-mode-toggles-2/",
-      "hn": "https://bsky.app/profile/lea.verou.me/post/3mukdzdwaps2q",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1788366376,
-      "sources": [
-        "Bluesky"
-      ],
-      "sharers": 2,
-      "score": 6.006,
-      "why": [
-        "shared by 2 design accounts",
-        "2 Bluesky posts"
-      ],
-      "authors": [
-        "bradfrost.com",
-        "lea.verou.me"
-      ]
-    },
-    {
-      "id": "309cdb5bc8b7",
-      "title": "Spectrum (Adobe) — @react-spectrum/s2@1.7.1",
-      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.7.1",
-      "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.7.1",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1788544817,
-      "sources": [
-        "Design systems"
-      ],
-      "sharers": 0,
-      "score": 4.761,
-      "why": [
-        "editor's pick at Design systems"
-      ]
-    },
-    {
-      "id": "ee88ba3634dd",
-      "title": "Spectrum (Adobe) — @react-spectrum/filetrigger@3.1.5",
-      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.5",
-      "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.5",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1788544817,
-      "sources": [
-        "Design systems"
-      ],
-      "sharers": 0,
-      "score": 4.761,
-      "why": [
-        "editor's pick at Design systems"
-      ]
-    },
-    {
-      "id": "e24783e3ef46",
-      "title": "AI & Design Systems Course with Brad Frost, TJ Pitre, and Ian Frost",
-      "url": "https://aianddesign.systems",
-      "hn": "https://bsky.app/profile/bradfrost.com/post/3muphgq275p2u",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1788541845,
-      "sources": [
-        "Bluesky"
-      ],
-      "sharers": 1,
-      "score": 4.341,
-      "why": [
-        "spotted on Bluesky"
-      ],
-      "authors": [
-        "bradfrost.com"
-      ]
-    },
-    {
-      "id": "8c4eb6f516c2",
-      "title": "Ambient CSS v3 – Blender meets CSS",
-      "url": "https://ambientcss.vercel.app/",
-      "hn": "https://news.ycombinator.com/item?id=49523387",
-      "points": 305,
-      "comments": 98,
-      "created_at_i": 1788276911,
+      "id": "e2e8740b0998",
+      "title": "Strata – A design system that records decisions, not components",
+      "url": "https://github.com/Prometheus-000/strata",
+      "hn": "https://news.ycombinator.com/item?id=49598842",
+      "points": 1,
+      "comments": 1,
+      "created_at_i": 1788791159,
       "sources": [
         "Hacker News"
       ],
       "sharers": 0,
-      "score": 4.163,
-      "why": [
-        "305 points"
-      ]
-    },
-    {
-      "id": "805e31c30481",
-      "title": "Top Web Design Styles of 1993",
-      "url": "https://contemporary-home-computing.org/prof-dr-style/",
-      "hn": "https://news.ycombinator.com/item?id=49516117",
-      "points": 67,
-      "comments": 14,
-      "created_at_i": 1788219304,
-      "sources": [
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 4.12,
+      "score": 2.903,
       "why": []
     },
     {
-      "id": "c7a3cc9f1a8e",
-      "title": "How AI-ready is your design system?",
-      "url": "https://christophhellmuth.com/open-design-system-bench/",
-      "hn": "https://christophhellmuth.com/open-design-system-bench/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1788333334,
+      "id": "d8534d0fd905",
+      "title": "Ask HN: How do you keep AI coding agents in sync with a changing Figma file?",
+      "url": "https://news.ycombinator.com/item?id=49595961",
+      "hn": "https://news.ycombinator.com/item?id=49595961",
+      "points": 2,
+      "comments": 1,
+      "created_at_i": 1788772620,
       "sources": [
-        "Sidebar"
+        "Hacker News"
       ],
       "sharers": 0,
-      "score": 3.967,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
+      "score": 2.716,
+      "why": []
     },
     {
-      "id": "2bfc87c0febb",
-      "title": "Users don’t see your design system",
-      "url": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
-      "points": 0,
+      "id": "e3c58a9e2e16",
+      "title": "Show HN: The ros2_utils_tool v1.0, a tool for ROS2 activies with full UI support",
+      "url": "https://github.com/MaxFleur/ros2_utils_tool/",
+      "hn": "https://news.ycombinator.com/item?id=49597230",
+      "points": 1,
       "comments": 0,
-      "created_at_i": 1788258531,
+      "created_at_i": 1788781864,
       "sources": [
-        "UX Collective"
+        "Hacker News"
       ],
       "sharers": 0,
-      "score": 3.925,
-      "why": [
-        "editor's pick at UX Collective"
-      ]
+      "score": 2.463,
+      "why": []
     },
     {
-      "id": "f9c6fab30e34",
-      "title": "Using AI for UX Work: Study Guide",
-      "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "hn": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1788537600,
+      "id": "2d38826e8814",
+      "title": "Show HN: I wrote a guide to rendering video from plain HTML/CSS/GSAP",
+      "url": "https://sidheart.gumroad.com/l/lyudd",
+      "hn": "https://news.ycombinator.com/item?id=49594877",
+      "points": 2,
+      "comments": 1,
+      "created_at_i": 1788764591,
       "sources": [
-        "NN/g"
+        "Hacker News"
       ],
       "sharers": 0,
-      "score": 3.757,
-      "why": [
-        "editor's pick at NN/g"
-      ]
-    },
-    {
-      "id": "ba05ae13a044",
-      "title": "A geometric typeface made for the age of AI",
-      "url": "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai",
-      "hn": "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1788491040,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.728,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "5da86bcb008d",
-      "title": "Make your logo brighter than white",
-      "url": "https://www.soverybright.com/",
-      "hn": "https://www.soverybright.com/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1788408761,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.678,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
+      "score": 2.377,
+      "why": []
     }
   ],
-  "week_start": "2026-08-31",
-  "week_end": "2026-09-06",
-  "week_label": "31 August – 6 September 2026",
-  "iso_week": "2026-W36"
+  "week_start": "2026-09-07",
+  "week_end": "2026-09-13",
+  "week_label": "7–13 September 2026",
+  "iso_week": "2026-W37"
 }

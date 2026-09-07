@@ -15,9 +15,11 @@ pip install requests feedparser
 ## Running it
 
 Two pieces. The Python script gathers and ranks; the HTML app is how you read
-and rate.
+and rate. Daily, weekly, and monthly rebuild automatically when those windows
+go stale: when you open the app (via the local server), and at 00:20 if you
+install the nightly agent.
 
-**1. Build the digest**
+**1. Build the digest (optional)**
 
 ```bash
 python3 kerning_fetch.py --limit 12
@@ -29,19 +31,36 @@ One run builds yesterday (4), this week (Monday–Sunday, 12), and this month
 switches between them. Pass `--days 7` if you want a single rolling window
 instead. X is skipped unless `APIFY_TOKEN` is set.
 
+A forced rebuild is only needed when you want a new pass before the windows
+change. Opening the app, or the nightly job, runs `kerning_fetch.py --if-stale`
+and skips the network when the file is already current.
+
 **2. Open the app**
 
 ```bash
-python3 -m http.server 8000
+python3 kerning_serve.py
 ```
 
-Then go to <http://localhost:8000/kerning.html>.
+Then go to <http://127.0.0.1:8000/index.html>.
 
-You need the server. Opening the file directly with `file://` means the browser
-blocks `fetch()` of `digest.json`, and the app silently falls back to querying
+You need this server, not `python3 -m http.server`. Plain `http.server` cannot
+rebuild. Opening the file directly with `file://` means the browser blocks
+`fetch()` of `digest.json`, and the app silently falls back to querying
 Hacker News live. If you see the "Live Hacker News only" banner, that's why.
 
-**3. Close the loop**
+**3. Nightly rebuild**
+
+Once, from the repo:
+
+```bash
+bash scripts/install-schedule.sh
+```
+
+That installs a LaunchAgent which runs at 00:20 local and fetches only if
+Daily, Weekly, or Monthly are stale. Unload it with
+`launchctl unload ~/Library/LaunchAgents/com.kerning.fetch.plist`.
+
+**4. Close the loop**
 
 On Taste → Sources, add people you follow and resources you watch (RSS,
 GitHub, Substack). On Taste, add articles you like. Rate stories in the
@@ -53,8 +72,10 @@ watches anyone and any feed you added, on top of the curated lists.
 
 | File | What it is |
 |---|---|
-| `kerning_fetch.py` | Fetching, merging, scoring. All the source config is at the top. |
-| `kerning.html` | The reading app. Self-contained: HTML, CSS, and JS in one file. |
+| `kerning_fetch.py` | Fetching, merging, scoring. All the source config is at the top. `--if-stale` skips a run when the windows are current. |
+| `kerning_serve.py` | Local server. Serves the app and rebuilds a stale digest on open. |
+| `scripts/install-schedule.sh` | One-time install of the 00:20 LaunchAgent. |
+| `index.html` | The reading app. Self-contained: HTML, CSS, and JS in one file. |
 | `accounts.txt` | X handles to watch, and the default Taste → Sources people list. One per line, `#` for comments. |
 | `bsky-accounts.txt` | Bluesky handles to watch. Custom domains work. |
 | `substack.txt` | Substack publications to watch. Slug, host, or URL. |

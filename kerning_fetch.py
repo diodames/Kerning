@@ -20,6 +20,7 @@ buzz still needs credentials if you want it on top:
 """
 
 import argparse
+import fcntl
 import hashlib
 import json
 import math
@@ -29,6 +30,7 @@ import sys
 import time
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
+from contextlib import contextmanager
 from datetime import datetime, timedelta, timezone
 from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 
@@ -264,6 +266,53 @@ def edition_meta(kind, start, end):
         meta["week_label"] = meta["label"]
         meta["iso_week"] = iso_week_id(start)
     return meta
+
+
+FETCH_LOCK = os.path.join(_HERE, ".digest-fetch.lock")
+
+
+def expected_periods(now=None):
+    now = now or datetime.now().astimezone()
+    return {
+        "daily": yesterday(now),
+        "weekly": this_week(now),
+        "monthly": this_month(now),
+    }
+
+
+def digest_current(path, now=None):
+    """True when path already covers yesterday, this week, and this month."""
+    if not os.path.isfile(path):
+        return False
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, ValueError):
+        return False
+    packs = data.get("cadences") or {}
+    now = now or datetime.now().astimezone()
+    for kind, (start, end) in expected_periods(now).items():
+        pack = packs.get(kind) or {}
+        meta = edition_meta(kind, start, end)
+        if pack.get("period_start") != meta["period_start"]:
+            return False
+        if pack.get("period_end") != meta["period_end"]:
+            return False
+    return True
+
+
+@contextmanager
+def fetch_lock():
+    """Exclusive lock so the server and launchd cannot fetch at once."""
+    fh = open(FETCH_LOCK, "a+")
+    try:
+        fcntl.flock(fh.fileno(), fcntl.LOCK_EX)
+        yield
+    finally:
+        try:
+            fcntl.flock(fh.fileno(), fcntl.LOCK_UN)
+        finally:
+            fh.close()
 
 
 def canonical(url: str) -> str:
@@ -1558,6 +1607,9 @@ def main():
                     help="how many accounts to keep when calibrating")
     ap.add_argument("--calibrate-tweets", type=int, default=3000,
                     help="tweet budget for the calibration run")
+    ap.add_argument("--if-stale", action="store_true",
+                    help="skip the fetch when digest.json already covers "
+                         "yesterday, this week, and this month")
     args = ap.parse_args()
 
     if args.calibrate:
@@ -1567,6 +1619,15 @@ def main():
             return 1
         return calibrate(args.days or 7, everyone, args.keep,
                          args.calibrate_tweets, args.accounts)
+
+    with fetch_lock():
+        return build_digest(args)
+
+
+def build_digest(args):
+    if args.if_stale and args.days is None and digest_current(args.out + ".json"):
+        print("digest current, skipping fetch", file=sys.stderr)
+        return 0
 
     if os.path.exists(args.accounts):
         accounts = load_accounts(args.accounts)

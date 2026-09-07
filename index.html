@@ -1247,6 +1247,12 @@ function weekdayOf(unix) {
   return new Date(unix * 1000).toLocaleDateString(undefined, { weekday: "long" });
 }
 
+function localYesterdayISO() {
+  const d = new Date();
+  const y = new Date(d.getFullYear(), d.getMonth(), d.getDate() - 1);
+  return y.getFullYear() + "-" + String(y.getMonth() + 1).padStart(2, "0") + "-" + String(y.getDate()).padStart(2, "0");
+}
+
 function periodDates(meta) {
   const start = meta.period_start || meta.week_start;
   const end = meta.period_end || meta.week_end;
@@ -2155,11 +2161,22 @@ async function loadDigest() {
   applyCadence(cadence, false);
 }
 
+async function ensureFreshDigest() {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), 240000);
+  try {
+    const res = await fetch("/rebuild", { method: "POST", signal: ctrl.signal });
+    if (res.status === 404 || res.status === 403) return;
+  } catch (e) { /* file://, plain http.server, or timeout — read whatever digest exists */ }
+  finally { clearTimeout(timer); }
+}
+
 async function load() {
   status = "loading"; render();
   try {
     if (mode === "curated") {
       try {
+        await ensureFreshDigest();
         await loadDigest();
         status = "ok"; recompute(); render(); return;
       } catch (e) {
@@ -2252,11 +2269,15 @@ function renderDigest() {
 
   const copy = CADENCE_COPY[cadence] || CADENCE_COPY.weekly;
   const dates = mode === "curated" && digestMeta ? periodDates(digestMeta) : "";
+  const prefix = (cadence === "daily" && digestMeta && digestMeta.period_start
+    && digestMeta.period_start !== localYesterdayISO()) ? "" : copy.prefix;
   let head = "";
   if (dates) {
-    head = '<p class="primer primer--period">' + esc(copy.prefix) + ' \u00b7 <span class="week-dates">'
-      + esc(dates) + "</span>."
-      + (nRatings === 0 ? copy.rate + (hasSeeds() ? "" : copy.taste) : "") + "</p>";
+    head = prefix
+      ? '<p class="primer primer--period">' + esc(prefix) + ' \u00b7 <span class="week-dates">'
+        + esc(dates) + "</span>."
+      : '<p class="primer primer--period"><span class="week-dates">' + esc(dates) + "</span>.";
+    head += (nRatings === 0 ? copy.rate + (hasSeeds() ? "" : copy.taste) : "") + "</p>";
   } else if (mode === "curated" && digestMeta) {
     head = '<p class="primer">' + esc(copy.prefix) + "\u2019s digest, from Hacker News, publications, and Bluesky.</p>";
   } else if (mode === "live") {
