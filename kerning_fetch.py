@@ -1355,13 +1355,13 @@ def score(item, weights, now, recency_tau=7, skip_urls=None):
         why.append(f"picked up by {' and '.join(item['sources'])}")
     if sharers > 1:
         why.append(f"shared by {sharers} design accounts")
-    elif sharers == 1 and n_src == 1:
+    elif sharers == 1 and n_src == 1 and posts < 2:
         src0 = item["sources"][0]
         if src0 == "Bluesky":
             why.append("spotted on Bluesky")
         elif src0 == "Design X":
             why.append("spotted on design X")
-    if posts >= 2:
+    if posts >= 2 and not (sharers > 1 and posts == sharers):
         why.append(f"{posts} Bluesky posts")
     if item["points"] >= 150:
         why.append(f"{item['points']} points")

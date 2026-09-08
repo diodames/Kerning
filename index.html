@@ -54,6 +54,7 @@
     --sage: #3f6d56;
     --warm: #8a3d28;
     --pad: clamp(20px, 4vw, 40px);
+    --measure: 40rem;
     --nav-h: 62px;
     --ease: cubic-bezier(0.16, 1, 0.3, 1);
     --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
@@ -78,7 +79,8 @@
   }
   ::selection { background: var(--ink); color: var(--paper); }
   .skip {
-    position: absolute; left: var(--pad); top: 8px; z-index: 40;
+    position: absolute; left: var(--pad);
+    top: calc(8px + env(safe-area-inset-top, 0px)); z-index: 40;
     padding: 8px 12px; background: var(--ink); color: var(--paper);
     text-decoration: none; font-size: var(--text-meta);
     transform: translateY(-120%);
@@ -93,8 +95,28 @@
     position: sticky; top: 0; z-index: 20;
     display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
     min-height: var(--nav-h);
-    padding: 4px var(--pad);
-    background: var(--paper);
+    padding: calc(4px + env(safe-area-inset-top, 0px)) var(--pad) 4px;
+    background: transparent;
+  }
+  .site-nav::before {
+    content: "";
+    position: absolute;
+    inset-inline: 0;
+    top: 0;
+    height: calc(100% + 32px);
+    background: linear-gradient(
+      to bottom,
+      var(--paper) 0,
+      var(--paper) calc(100% - 48px),
+      color-mix(in srgb, var(--paper) 55%, transparent) calc(100% - 22px),
+      transparent 100%
+    );
+    pointer-events: none;
+    z-index: 0;
+  }
+  .site-nav > * {
+    position: relative;
+    z-index: 1;
   }
   .nav-logo {
     margin-right: auto;
@@ -103,6 +125,8 @@
     white-space: nowrap;
   }
   .nav-logo:hover { color: var(--ink); }
+  .nav-k { display: inline-block; }
+  .nav-logo-rest { display: inline; }
   .nav-dash { font-weight: 400; color: var(--faint); padding: 0 0.15em; }
   .nav-auth {
     display: flex; align-items: center; gap: 14px;
@@ -112,7 +136,7 @@
   .nav-auth .nav-email { color: var(--faint); }
   .landing {
     padding: clamp(28px, 6vh, 72px) var(--pad) 96px;
-    max-width: 40rem;
+    max-width: var(--measure);
   }
   .landing h1 { margin: 0; }
   .landing form { margin: 36px 0 0; max-width: 22rem; }
@@ -146,6 +170,17 @@
   .sel-dot.snap { transition-duration: 0s; }
   .wrap { padding: 0 var(--pad) 96px; }
   .hero { padding: clamp(28px, 6vh, 72px) 0 clamp(40px, 8vh, 88px); }
+  .hero.hidden + main { padding-top: 28px; }
+  .sr-only {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+  }
   h1 {
     margin: 0;
     font-size: var(--text-display);
@@ -153,6 +188,11 @@
     letter-spacing: -0.07em;
     line-height: 0.84;
     text-wrap: balance;
+  }
+  h1.sr-only {
+    font-size: 1rem;
+    letter-spacing: 0;
+    line-height: 1;
   }
   .hero-role {
     margin: 28px 0 0;
@@ -169,10 +209,31 @@
   }
   .hero-role .mute { color: var(--mute); }
   .hero-rest { white-space: nowrap; }
+  .hero-k-slot { display: inline-block; position: relative; }
+  .hero-k-ghost {
+    visibility: hidden;
+    pointer-events: none;
+    user-select: none;
+  }
+  .hero-k {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform-origin: 0 0;
+  }
+  .hero-k.is-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 21;
+    margin: 0;
+    pointer-events: none;
+  }
+  .hero-tail { display: inline-block; }
 
   .controls {
-    display: flex; align-items: center; justify-content: space-between;
-    gap: 16px; margin: 0 0 8px; flex-wrap: wrap;
+    display: flex; align-items: center; justify-content: start;
+    gap: 40px; margin: 0 0 8px; flex-wrap: wrap;
   }
   .range { position: relative; display: flex; gap: 20px; align-items: center; }
   .chip, .btn, .link, .text-act {
@@ -236,7 +297,7 @@
     align-items: start;
     padding: 28px 0;
     border-bottom: 1px solid var(--line);
-    transition: opacity 200ms var(--ease-out);
+    transition: opacity 200ms var(--ease-out), transform 160ms var(--ease-out);
   }
   li.item:first-child { border-top: 1px solid var(--line); }
   li.item--plain { grid-template-columns: minmax(0, 1fr); }
@@ -255,9 +316,16 @@
     text-underline-offset: 4px;
     text-decoration-thickness: from-font;
   }
-  #digest-list { scroll-margin-top: calc(var(--nav-h) + 12px); }
+  a.title .title-dot {
+    font-size: 0.55em;
+    font-weight: 400;
+    color: var(--faint);
+    padding-inline: 0.15em;
+    vertical-align: 0.14em;
+  }
+  #main { scroll-margin-top: calc(var(--nav-h) + env(safe-area-inset-top, 0px)); }
+  #digest-list { scroll-margin-top: calc(var(--nav-h) + env(safe-area-inset-top, 0px) + 12px); }
   .primer code { font-size: 0.92em; letter-spacing: 0; }
-  .hero.hidden + main { padding-top: 28px; }
   .meta {
     display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 8px 0 0;
     font-size: var(--text-meta); color: var(--mute); line-height: 1.45;
@@ -279,17 +347,46 @@
   }
   .meta a:hover { color: var(--ink); text-decoration: underline; }
   .why {
-    display: flex; flex-wrap: wrap; gap: 10px 14px;
+    display: flex; flex-wrap: wrap; align-items: baseline;
     margin: 8px 0 0; font-size: var(--text-micro);
     color: var(--mute);
+    text-wrap: pretty;
+  }
+  .why > * + *::before {
+    content: "·";
+    margin-inline: 0.35em;
+    color: var(--faint);
   }
   .why .pos { color: var(--sage); }
   .why .neg { color: var(--warm); }
   .acts { display: flex; flex-wrap: wrap; gap: 4px 22px; margin-top: 6px; }
   .acts .up:hover { color: var(--sage); }
   .acts .down:hover { color: var(--warm); }
+  #digest-list .acts { gap: 4px 32px; align-items: center; }
+  #digest-list .acts-vote { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  #digest-list .acts .text-act { color: var(--ink); }
+  #digest-list .acts .up:hover,
+  #digest-list .acts .up:focus-visible { color: var(--sage); text-decoration: underline; }
+  #digest-list .acts .down:hover,
+  #digest-list .acts .down:focus-visible { color: var(--warm); text-decoration: underline; }
+  #digest-list .acts [data-act="save"]:hover,
+  #digest-list .acts [data-act="save"]:focus-visible {
+    color: var(--ink); text-decoration: underline;
+  }
+  #digest-list .acts.is-confirming .text-act {
+    opacity: 0; pointer-events: none;
+  }
+  #digest-list .acts.is-confirming .text-act.is-chosen { opacity: 1; }
+  #digest-list .acts .up.is-chosen { color: var(--sage); }
+  #digest-list .acts .down.is-chosen { color: var(--warm); }
+  #digest-list .item.item--exiting {
+    opacity: 0;
+    transform: translateY(-4px);
+    pointer-events: none;
+  }
 
-  .strips { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); }
+  .strips { margin-top: 24px; padding-top: 20px; }
+  #digest-list:empty + .strips { border-top: 1px solid var(--line); }
   .strip {
     display: grid; grid-template-columns: 3.2rem minmax(0, 1fr) auto;
     gap: 12px; align-items: center; padding: 10px 0;
@@ -769,6 +866,7 @@
     }
     .meta-run { flex-shrink: 0; }
     .hero { padding: 24px 0 48px; }
+    .hero.hidden + main { padding-top: 20px; }
     .trow { grid-template-columns: minmax(0, 46%) 1fr; }
     .spider { padding-inline: 2.5rem; padding-block: 0.5rem; }
     .tfield input { font-size: 16px; }
@@ -778,6 +876,8 @@
   }
   @media (forced-colors: active) {
     .chip.on, .tab.on { outline: 2px solid CanvasText; }
+    .site-nav { background: Canvas; }
+    .site-nav::before { background: Canvas; height: 100%; }
     .seed-article { background: Canvas; color: CanvasText; }
     .sel-dot { background: CanvasText; }
     .bar > i { background: CanvasText; }
@@ -790,9 +890,9 @@
 </style>
 </head>
 <body>
-<a class="skip" href="#digest-list">Skip to stories</a>
+<a class="skip" href="#main">Skip to content</a>
 <header class="site-nav">
-  <a class="nav-logo" href="./">K<span class="nav-dash" aria-hidden="true">⎯</span>©’26</a>
+  <a class="nav-logo" href="./" aria-label="Kerning"><span class="nav-k">K</span><span class="nav-logo-rest"><span class="nav-dash" aria-hidden="true">⎯</span>©’26</span></a>
   <nav class="tabs" id="tabs" aria-label="Primary">
     <button type="button" class="tab on" data-tab="digest" aria-current="page">Digest</button>
     <button type="button" class="tab" data-tab="saved">Saved</button>
@@ -818,15 +918,16 @@
   <p class="note" id="auth-msg" role="status"></p>
 </section>
 <div class="wrap" id="app-wrap">
-  <header class="hero">
-    <h1>Kerning</h1>
+  <header class="hero" id="hero">
+    <h1 aria-label="Kerning"><span aria-hidden="true"><span class="hero-k-slot"><span class="hero-k-ghost">K</span><span class="hero-k">K</span></span><span class="hero-tail">erning</span></span></h1>
     <p class="hero-role">
       A design and product digest that learns what you&nbsp;like
       <span class="hero-rest"><span class="hero-dot" aria-hidden="true"> · </span><span class="mute">Twelve links a&nbsp;week</span></span>
     </p>
   </header>
 
-  <main>
+  <main id="main">
+  <h1 class="sr-only" id="app-h1" hidden>Kerning</h1>
   <section id="view-digest">
     <div class="controls">
       <div class="range" id="cadence" role="radiogroup" aria-label="Digest period">
@@ -841,7 +942,6 @@
         <button type="button" class="chip" role="radio" aria-checked="false" data-days="30">30 days</button>
         <span class="sel-dot" aria-hidden="true"></span>
       </div>
-      <button type="button" class="btn" id="refresh">Refresh</button>
     </div>
     <div id="digest-status" role="status"></div>
     <ol class="list" id="digest-list"></ol>
@@ -900,7 +1000,8 @@ const CADENCE_COPY = {
     emptyNote: "Saved stories stay here. The next four publish after midnight, on the next rebuild.",
     loading: "Opening yesterday\u2019s digest.",
     vacant: "Nothing in yesterday\u2019s digest.",
-    vacantNote: "Try Weekly, or rebuild after another day has closed.",
+    vacantNote: "Try Weekly, or check back after another day has closed.",
+    stale: "This edition is not yesterday\u2019s.",
   },
   weekly: {
     prefix: "This week",
@@ -910,7 +1011,8 @@ const CADENCE_COPY = {
     emptyNote: "Saved stories stay here. A new issue lands Monday.",
     loading: "Opening this week\u2019s digest.",
     vacant: "Nothing in this week\u2019s digest yet.",
-    vacantNote: "Try Monthly, or rebuild later in the week.",
+    vacantNote: "Try Monthly, or check back later in the week.",
+    stale: "This edition is not this week\u2019s.",
   },
   monthly: {
     prefix: "This month",
@@ -920,7 +1022,8 @@ const CADENCE_COPY = {
     emptyNote: "Saved stories stay here. A new issue lands on the 1st.",
     loading: "Opening this month\u2019s digest.",
     vacant: "Nothing in this month\u2019s digest yet.",
-    vacantNote: "Rebuild the digest, or try Weekly.",
+    vacantNote: "Try Weekly, or check back later in the month.",
+    stale: "This edition is not this month\u2019s.",
   },
 };
 
@@ -961,31 +1064,33 @@ const LEXICON = [
 ];
 
 const TASTE_GROUPS = [
-  { id: "craft", label: "Craft" },
+  { id: "typography", label: "Typography" },
+  { id: "ui", label: "UI/UX" },
   { id: "systems", label: "Systems" },
+  { id: "accessibility", label: "Accessibility" },
   { id: "product", label: "Product" },
-  { id: "platforms", label: "Platforms" },
-  { id: "people", label: "People" },
+  { id: "brand", label: "Brand" },
 ];
-const TASTE_GROUP_OTHER = { id: "other", label: "Other" };
 const TERM_GROUP = {};
 [
-  ["craft", [
+  ["typography", [
     "typography", "typeface", "typesetting", "kerning", "baseline grid", "font",
-    "variable font", "lettering", "ux", "ui", "usability", "interaction design",
-    "visual design", "graphic design", "product design", "industrial design",
-    "wireframe", "skeuomorph", "bauhaus", "swiss design", "illustration",
-    "iconography", "motion design", "brand identity", "color palette",
-    "grid system", "web design", "logo", "legibility", "type design", "icons",
-    "branding", "palette", "colour", "layout", "css", "tailwind", "svg",
-    "animation", "prototype", "poster", "dark mode", "aesthetic", "designer",
-    "redesign", "readability", "design", "craft", "interface",
-    "color", "motion", "type",
+    "variable font", "lettering", "type design", "legibility", "readability",
+    "type",
+  ]],
+  ["ui", [
+    "ux", "ui", "usability", "interaction design", "visual design",
+    "product design", "industrial design", "wireframe", "human interface",
+    "web design", "prototype", "dark mode", "designer", "redesign", "figma",
+    "illustrator", "layout", "motion design", "animation", "motion",
+    "interface", "design", "craft",
   ]],
   ["systems", [
     "design system", "design token", "information architecture",
-    "human interface", "material design", "accessibility", "wcag",
-    "screen reader",
+    "material design", "grid system", "css", "tailwind", "svg",
+  ]],
+  ["accessibility", [
+    "accessibility", "wcag", "screen reader",
   ]],
   ["product", [
     "product strategy", "product sense", "roadmap", "prioritization", "prd",
@@ -994,15 +1099,24 @@ const TERM_GROUP = {};
     "opportunity solution tree", "dual-track", "continuous discovery",
     "product ops", "product",
   ]],
-  ["platforms", ["figma", "illustrator"]],
+  ["brand", [
+    "graphic design", "illustration", "iconography", "brand identity",
+    "color palette", "logo", "icons", "branding", "palette", "colour",
+    "poster", "aesthetic", "bauhaus", "swiss design", "skeuomorph", "color",
+  ]],
 ].forEach((pair) => {
   pair[1].forEach((term) => { TERM_GROUP[term] = pair[0]; });
 });
+const TASTE_META_SKIP = new Set([
+  "designer", "design", "craft", "interface", "redesign",
+  "type", "product", "motion", "color", "colour",
+  "typography", "ux", "ui", "accessibility",
+]);
 
 function groupOf(term) {
-  if (String(term).indexOf("person:") === 0) return "people";
-  if (String(term).indexOf("site:") === 0) return "platforms";
-  return TERM_GROUP[term] || "other";
+  const t = String(term);
+  if (t.indexOf("person:") === 0 || t.indexOf("site:") === 0) return null;
+  return TERM_GROUP[t] || null;
 }
 
 function tasteGroupRows(entries) {
@@ -1010,21 +1124,17 @@ function tasteGroupRows(entries) {
   TASTE_GROUPS.forEach((g) => {
     byId[g.id] = { id: g.id, label: g.label, sum: 0, members: [] };
   });
-  byId.other = {
-    id: TASTE_GROUP_OTHER.id, label: TASTE_GROUP_OTHER.label,
-    sum: 0, members: [],
-  };
   entries.forEach((e) => {
-    const g = byId[groupOf(e[0])] || byId.other;
+    const id = groupOf(e[0]);
+    const g = id && byId[id];
+    if (!g) return;
     g.sum += e[1];
     g.members.push(e);
   });
   Object.keys(byId).forEach((id) => {
     byId[id].members.sort((a, b) => b[1] - a[1]);
   });
-  const rows = TASTE_GROUPS.map((g) => byId[g.id]);
-  if (byId.other.sum > 0) rows.push(byId.other);
-  return rows;
+  return TASTE_GROUPS.map((g) => byId[g.id]);
 }
 
 const STOP = new Set(("the a an and or of for to in on with from this that how why what " +
@@ -1135,7 +1245,7 @@ let me = null;
 let putTimer = 0;
 let rebuildJobId = null;
 let rebuildFailed = false;
-let digestStale = false;
+let canRebuild = true;
 
 function loadProfile() {
   try {
@@ -1328,12 +1438,6 @@ function weekdayOf(unix) {
   return new Date(unix * 1000).toLocaleDateString(undefined, { weekday: "long" });
 }
 
-function localYesterdayISO() {
-  const d = new Date();
-  const y = new Date(d.getFullYear(), d.getMonth(), d.getDate() - 1);
-  return isoDate(y);
-}
-
 function pad2(n) {
   return String(n).padStart(2, "0");
 }
@@ -1369,6 +1473,23 @@ function cadencesCurrent(pack) {
     if (p.period_end !== expected[kind].period_end) return false;
   }
   return true;
+}
+function viewedEditionCurrent() {
+  const expected = expectedCadenceMeta()[cadence];
+  const p = (digestPack && digestPack.cadences && digestPack.cadences[cadence]) || {};
+  return !!(expected && p.period_start === expected.period_start
+    && p.period_end === expected.period_end);
+}
+function retryNote() {
+  return '<p class="note"><button type="button" class="btn" id="retry">Try again</button></p>';
+}
+function bindRetry(opts) {
+  const b = document.getElementById("retry");
+  if (!b) return;
+  b.onclick = function () {
+    if (opts && opts.curated) mode = "curated";
+    load({ force: !!(opts && opts.force) });
+  };
 }
 
 function periodDates(meta) {
@@ -2168,6 +2289,27 @@ function setResourceKind(id, kind) {
   persistTaste();
 }
 
+function prefersReducedMotion() {
+  return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+}
+
+function confirmDigestRate(btn, item, value) {
+  const itemEl = btn.closest("li.item");
+  if (!itemEl || itemEl.dataset.busy === "1") return;
+  if (prefersReducedMotion()) {
+    rate(item, value);
+    return;
+  }
+  itemEl.dataset.busy = "1";
+  const acts = itemEl.querySelector(".acts");
+  if (acts) acts.classList.add("is-confirming");
+  btn.classList.add("is-chosen");
+  window.setTimeout(function () {
+    itemEl.classList.add("item--exiting");
+    window.setTimeout(function () { rate(item, value); }, 160);
+  }, 180);
+}
+
 function rate(item, r) {
   profile.ratings[item.id] = {
     r: r, at: Date.now(), title: item.title, url: item.url || "",
@@ -2386,7 +2528,7 @@ async function load(opts) {
   const force = !!(opts && opts.force === true);
   status = "loading";
   rebuildFailed = false;
-  digestStale = false;
+  canRebuild = true;
   render();
   try {
     if (mode === "curated") {
@@ -2402,16 +2544,15 @@ async function load(opts) {
           if (String(e.message) === "sign in") return;
         }
         const rebuilt = await ensureFreshDigest({ force: force });
+        canRebuild = rebuilt !== "static";
         if (rebuilt === "static") {
           if (have) {
-            digestStale = !cadencesCurrent(digestPack);
             status = "ok"; recompute(); render(); return;
           }
           mode = "live";
         } else {
           try {
             await loadDigest();
-            digestStale = !cadencesCurrent(digestPack);
             status = "ok"; recompute(); render(); return;
           } catch (e) {
             if (String(e.message) === "sign in") return;
@@ -2419,7 +2560,6 @@ async function load(opts) {
             else if (hostedMode && String(e.message) === "digest-missing") {
               const ready = await waitForHostedDigest();
               if (ready) {
-                digestStale = !cadencesCurrent(digestPack);
                 status = "ok"; recompute(); render(); return;
               }
               rebuildFailed = true;
@@ -2465,6 +2605,7 @@ function showLanding(on) {
   const wrap = document.getElementById("app-wrap");
   const tabs = document.getElementById("tabs");
   const slot = document.getElementById("auth-slot");
+  const skip = document.querySelector(".skip");
   if (landing) {
     landing.classList.toggle("hidden", !on);
     landing.hidden = !on;
@@ -2475,6 +2616,8 @@ function showLanding(on) {
   }
   if (tabs) tabs.classList.toggle("hidden", on);
   if (slot && on) slot.classList.add("hidden");
+  if (skip) skip.setAttribute("href", on ? "#landing" : "#main");
+  queueHeroMorph();
 }
 
 function renderAuthSlot() {
@@ -2612,31 +2755,80 @@ function displayTerm(t) {
   return String(t).replace(/^site:/, "").replace(/^person:/, "");
 }
 
+function formatTitle(title) {
+  return esc(title).replace(/\u2022/g, '<span class="title-dot">\u2022</span>');
+}
+
+function whyShareCount(text) {
+  const m = String(text).match(/^shared by (\d+) design accounts$/i);
+  return m ? m[1] : "";
+}
+
+function whyPostCount(text) {
+  const m = String(text).match(/^(\d+) Bluesky posts$/i);
+  return m ? m[1] : "";
+}
+
+function uniqueWhy(reasons, item) {
+  const rows = (reasons || []).map((c) => ({
+    text: displayTerm(c[0]),
+    pos: (c[1] || 0) > 0,
+  })).filter((x) => x.text);
+  const shareN = (rows.map((x) => whyShareCount(x.text)).filter(Boolean)[0]) || "";
+  const seen = {};
+  const out = [];
+  for (const x of rows) {
+    const key = x.text.toLowerCase();
+    if (seen[key]) continue;
+    const postsN = whyPostCount(x.text);
+    if (postsN && shareN && postsN === shareN) continue;
+    if (/^spotted on bluesky$/i.test(x.text)
+        && rows.some((y) => whyPostCount(y.text) || whyShareCount(y.text))) {
+      continue;
+    }
+    if (item && item.points > 0 && /^\d+ points$/i.test(x.text)) continue;
+    seen[key] = true;
+    out.push(x);
+  }
+  return out;
+}
+
 function itemHTML(item, i) {
   const dom = domainOf(item.url) || "news.ycombinator.com";
   const n = String(i + 1).padStart(2, "0");
-  const why = item.reasons && item.reasons.length
-    ? '<p class="why">' + item.reasons.map((c) =>
-        '<span class="' + (c[1] > 0 ? "pos" : "neg") + '">'
-        + esc(displayTerm(c[0])) + "</span>").join("") + "</p>"
+  const bits = uniqueWhy(item.reasons, item);
+  const why = bits.length
+    ? '<p class="why">' + bits.map((c) =>
+        '<span class="' + (c.pos ? "pos" : "neg") + '">'
+        + esc(c.text) + "</span>").join("") + "</p>"
     : "";
+  const hn = item.hn || "";
+  const run = [];
+  if (item.points > 0) {
+    run.push("<span>" + item.points + " point" + (item.points === 1 ? "" : "s") + "</span>");
+  }
+  if (item.comments > 0) {
+    run.push('<span><a href="' + esc(hn || item.url) + '" target="_blank" rel="noreferrer">'
+      + item.comments + " comment" + (item.comments === 1 ? "" : "s") + "</a></span>");
+  } else if (hn && canonUrl(hn) !== canonUrl(item.url)) {
+    run.push('<span><a href="' + esc(hn) + '" target="_blank" rel="noreferrer">Discussion</a></span>');
+  }
+  run.push("<span>" + itemWhen(item.created_at_i) + "</span>");
   return '<li class="item">'
     + '<span class="rank">' + n + "</span>"
     + '<div class="body">'
     + '<a class="title" href="' + esc(item.url) + '" target="_blank" rel="noreferrer">'
-    + esc(item.title) + "</a>"
+    + formatTitle(item.title) + "</a>"
     + '<p class="meta"><span>' + esc(dom) + "</span>"
     + (item.sources && item.sources.length > 1
         ? '<span class="meta-sources">' + esc(item.sources.join(" + ")) + "</span>" : "")
-    + '<span class="meta-run">'
-    + "<span>" + item.points + " point" + (item.points === 1 ? "" : "s") + "</span>"
-    + '<span><a href="' + esc(item.hn) + '" target="_blank" rel="noreferrer">'
-    + item.comments + " comment" + (item.comments === 1 ? "" : "s") + "</a></span>"
-    + "<span>" + itemWhen(item.created_at_i) + "</span></span></p>"
+    + '<span class="meta-run">' + run.join("") + "</span></p>"
     + why
     + '<div class="acts">'
+    + '<div class="acts-vote">'
     + '<button type="button" class="text-act up" data-act="up" data-id="' + item.id + '">More like this</button>'
     + '<button type="button" class="text-act down" data-act="down" data-id="' + item.id + '">Less like this</button>'
+    + "</div>"
     + '<button type="button" class="text-act' + (isSaved(item) ? " saved" : "") + '" data-act="save" data-id="'
     + item.id + '">' + (isSaved(item) ? "Saved" : "Save") + "</button>"
     + "</div></div></li>";
@@ -2654,10 +2846,6 @@ function renderDigest() {
   });
   const nRatings = Object.keys(profile.ratings).length;
 
-  document.getElementById("refresh").disabled = status === "loading";
-  document.getElementById("refresh").textContent =
-    status === "loading" ? "Fetching" : "Refresh";
-
   if (status === "loading") {
     statusEl.innerHTML = '<div class="bar"><i></i></div>'
       + '<p class="note">' + (mode === "curated"
@@ -2669,21 +2857,21 @@ function renderDigest() {
     statusEl.innerHTML = '<div class="empty"><h2>Couldn\'t reach Hacker News search.</h2>'
       + '<p class="note">Check your connection, then try again. If you opened this file '
       + 'directly from disk and it keeps failing, try a different browser.</p>'
-      + '<p class="note"><button type="button" class="btn" id="retry">Try again</button></p></div>';
+      + retryNote() + "</div>";
     listEl.innerHTML = ""; stripsEl.className = "strips hidden";
-    document.getElementById("retry").onclick = load; return;
+    bindRetry(); return;
   }
   if (status === "idle") { statusEl.innerHTML = ""; return; }
 
   const copy = CADENCE_COPY[cadence] || CADENCE_COPY.weekly;
   const dates = mode === "curated" && digestMeta ? periodDates(digestMeta) : "";
-  const dailyOff = cadence === "daily" && digestMeta && digestMeta.period_start
-    && digestMeta.period_start !== localYesterdayISO();
-  const prefix = dailyOff ? "" : copy.prefix;
+  const editionOff = mode === "curated" && digestMeta && !viewedEditionCurrent();
+  const prefix = editionOff ? "" : copy.prefix;
+  let retryOpts = null;
   let head = "";
-  if (dates && dailyOff) {
-    head = '<p class="primer primer--period"><span class="week-dates">'
-      + esc(dates) + "</span>. This edition is not yesterday\u2019s.</p>";
+  if (dates && editionOff) {
+    head = '<p class="primer"><span class="week-dates">'
+      + esc(dates) + "</span>. " + copy.stale + "</p>";
   } else if (dates) {
     head = prefix
       ? '<p class="primer primer--period">' + esc(prefix) + ' \u00b7 <span class="week-dates">'
@@ -2694,29 +2882,37 @@ function renderDigest() {
     head = '<p class="primer">' + esc(copy.prefix) + "\u2019s digest, from Hacker News, publications, and Bluesky.</p>";
   } else if (mode === "live") {
     head = rebuildFailed
-      ? '<p class="primer">Couldn\'t build your digest. This is live Hacker News. Try Refresh in a few minutes.</p>'
+      ? '<p class="primer">Couldn\'t build your digest. This is live Hacker News.</p>'
       : (hostedMode
         ? '<p class="primer">Live Hacker News while your digest is built.</p>'
         : '<p class="primer">Live Hacker News only. Run '
           + '<code>python3 kerning_fetch.py</code> for the curated digest.</p>');
   }
 
-  if (nRatings === 0 && !hasSeeds() && queue.length && !dates && mode === "live") {
+  if (!rebuildFailed && nRatings === 0 && !hasSeeds() && queue.length && !dates && mode === "live") {
     head = '<p class="primer">This first pass is deliberately broad. Rate a dozen or so '
       + "stories, or add people and resources on Taste, and the ranking starts "
       + "reflecting your taste instead of mine.</p>";
   }
+
+  if (rebuildFailed) retryOpts = { curated: true, force: true };
+  else if (editionOff && canRebuild) retryOpts = { curated: true };
+  const retryHtml = retryOpts ? retryNote() : "";
+
   if (!ranked.length && mode === "curated") {
     head = '<div class="empty"><h2>' + copy.vacant + "</h2>"
-      + '<p class="note">' + copy.vacantNote + "</p></div>";
-  } else if (!queue.length) {
+      + '<p class="note">' + copy.vacantNote + "</p>" + retryHtml + "</div>";
+  } else if (!queue.length && !editionOff && !rebuildFailed) {
     head = mode === "curated"
       ? '<div class="empty"><h2>' + copy.empty + "</h2>"
         + '<p class="note">' + copy.emptyNote + "</p></div>"
       : '<div class="empty"><h2>Nothing left in the queue.</h2>'
-        + '<p class="note">Widen the window to 30 days, or refresh later for new stories.</p></div>';
+        + '<p class="note">Widen the window to 30\u00a0days.</p></div>';
+  } else if (retryHtml) {
+    head += retryHtml;
   }
   statusEl.innerHTML = head;
+  if (retryOpts) bindRetry(retryOpts);
   const foot = document.getElementById("footer-note");
   if (foot) {
     foot.textContent = mode === "curated"
@@ -2826,11 +3022,47 @@ function tasteColumn(title, rows, color) {
     + "</div>";
 }
 
+function itemMatchesTerms(item, set) {
+  if (!item || !set) return false;
+  return tokensOf({
+    title: item.title || "",
+    url: item.url || "",
+    authors: item.authors || [],
+  }).some((t) => set[t]);
+}
+
 function storiesForTerms(terms) {
   if (!terms || !terms.length) return [];
   const set = {};
   terms.forEach((t) => { set[t] = true; });
-  return ranked.filter((it) => tokensOf(it).some((t) => set[t])).slice(0, 3);
+  const seen = {};
+  const out = [];
+  function add(item) {
+    if (!item) return;
+    const url = item.url || "";
+    const key = (url && canonUrl(url)) || item.id || item.title;
+    if (!key || seen[key]) return;
+    if (!itemMatchesTerms(item, set)) return;
+    seen[key] = true;
+    out.push({ title: item.title || url, url: url });
+  }
+  (profile.seeds.articles || []).forEach(add);
+  Object.keys(profile.ratings).forEach((id) => {
+    const rec = profile.ratings[id];
+    if (!rec || !(rec.r > 0)) return;
+    const src = raw.find((it) => String(it.id) === String(id)) || {};
+    add({
+      id: id,
+      title: rec.title || src.title || "",
+      url: rec.url || src.url || "",
+      authors: rec.authors || src.authors || [],
+    });
+  });
+  (profile.seeds.people || []).forEach((p) => {
+    (p.links || []).forEach(add);
+  });
+  ranked.forEach(add);
+  return out.slice(0, 3);
 }
 
 function storiesForTerm(term) {
@@ -2874,7 +3106,10 @@ function tasteSpider(title, groups, color) {
     const a = ang(i);
     const cos = Math.cos(a), sin = Math.sin(a);
     const rad = g.sum <= 0 ? rMin : rMin + (g.sum / max) * (rMax - rMin);
-    const names = g.members.slice(0, 3).map((m) => displayTerm(m[0]));
+    const names = g.members
+      .filter((m) => !TASTE_META_SKIP.has(m[0]))
+      .slice(0, 3)
+      .map((m) => displayTerm(m[0]));
     return {
       g: g, i: i, cos: cos, sin: sin, rad: rad,
       rLabel: rMax + 28,
@@ -2933,7 +3168,7 @@ function tasteSpider(title, groups, color) {
     : "";
 
   return '<div class="tcol tcol--spider"><h3>' + title + "</h3>"
-    + '<div class="spider" role="group" aria-label="How your taste pulls stories">'
+    + '<div class="spider" role="group" aria-label="Topics that pull stories toward you">'
     + '<div class="spider-plot">'
     + '<svg class="spider-svg" viewBox="0 0 ' + W + " " + H
     + '" aria-hidden="true">'
@@ -3275,12 +3510,12 @@ function bindTasteSources() {
 function spiderPeekHTML(terms) {
   const stories = storiesForTerms(terms);
   if (!stories.length) {
-    return "<p class=\"note\">Nothing in this week’s digest uses this yet.</p>";
+    return "<p class=\"note\">No stories tied to this topic&nbsp;yet.</p>";
   }
   return "<ul>" + stories.map((s) => {
     const host = domainOf(s.url) || "";
     return '<li><a class="title" href="' + esc(s.url)
-      + '" target="_blank" rel="noreferrer">' + esc(s.title) + "</a>"
+      + '" target="_blank" rel="noreferrer">' + formatTitle(s.title) + "</a>"
       + (host ? '<p class="meta"><span>' + esc(host) + "</span></p>" : "")
       + "</li>";
   }).join("") + "</ul>";
@@ -3449,7 +3684,10 @@ function render() {
     if (on) b.setAttribute("aria-current", "page");
     else b.removeAttribute("aria-current");
   });
-  document.querySelector(".hero").classList.toggle("hidden", tab !== "digest");
+  const hero = document.getElementById("hero");
+  const appH1 = document.getElementById("app-h1");
+  if (hero) hero.classList.toggle("hidden", tab !== "digest");
+  if (appH1) appH1.hidden = tab === "digest";
   document.getElementById("view-digest").className = tab === "digest" ? "" : "hidden";
   document.getElementById("view-saved").className = tab === "saved" ? "" : "hidden";
   document.getElementById("view-taste").className = tab === "taste" ? "" : "hidden";
@@ -3464,6 +3702,7 @@ function render() {
   else renderTaste();
   renderAuthSlot();
   syncSelDots(sliding);
+  queueHeroMorph();
 }
 
 /* ---------------------------------------------------------------- */
@@ -3526,8 +3765,6 @@ document.getElementById("taste-panes").addEventListener("keydown", (e) => {
   e.preventDefault();
 });
 
-document.getElementById("refresh").onclick = function () { load({ force: true }); };
-
 document.body.addEventListener("click", (e) => {
   const b = e.target.closest("[data-act]");
   if (!b) return;
@@ -3542,8 +3779,8 @@ document.body.addEventListener("click", (e) => {
   if (act === "res-kind") { setResourceKind(id, b.dataset.kind); return; }
   const item = ranked.find((x) => x.id === id);
   if (!item) return;
-  if (act === "up") rate(item, 1);
-  else if (act === "down") rate(item, -1);
+  if (act === "up") confirmDigestRate(b, item, 1);
+  else if (act === "down") confirmDigestRate(b, item, -1);
   else if (act === "save") toggleSave(item);
   else if (act === "undo") undo(item);
 });
@@ -3566,10 +3803,125 @@ document.getElementById("reset-dialog").addEventListener("close", function () {
   if (trigger) trigger.focus();
 });
 
+const reduceHeroMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+let heroMorphRaf = 0;
+let heroMorphT = 0;
+let heroMorphFrom = null;
+
+function heroMorphActive() {
+  const wrap = document.getElementById("app-wrap");
+  const hero = document.getElementById("hero");
+  return !!(wrap && hero && !wrap.hidden && !hero.classList.contains("hidden"));
+}
+
+function clamp01(n) {
+  return n < 0 ? 0 : n > 1 ? 1 : n;
+}
+
+function fade(t, a, b) {
+  return clamp01((t - a) / (b - a));
+}
+
+function clearHeroMorph() {
+  const heroK = document.querySelector(".hero-k");
+  const tail = document.querySelector(".hero-tail");
+  const role = document.querySelector("#hero .hero-role");
+  const navK = document.querySelector(".nav-k");
+  const navRest = document.querySelector(".nav-logo-rest");
+  heroMorphT = 0;
+  heroMorphFrom = null;
+  if (heroK) {
+    heroK.classList.remove("is-fixed");
+    heroK.style.cssText = "";
+  }
+  if (tail) {
+    tail.style.opacity = "";
+    tail.style.transform = "";
+  }
+  if (role) role.style.opacity = "";
+  if (navK) navK.style.opacity = "";
+  if (navRest) navRest.style.opacity = "";
+}
+
+function applyHeroMorph() {
+  const heroK = document.querySelector(".hero-k");
+  const ghost = document.querySelector(".hero-k-ghost");
+  const tail = document.querySelector(".hero-tail");
+  const role = document.querySelector("#hero .hero-role");
+  const navK = document.querySelector(".nav-k");
+  const navRest = document.querySelector(".nav-logo-rest");
+  if (!heroMorphActive() || reduceHeroMotion.matches || !heroK || !ghost || !navK) {
+    clearHeroMorph();
+    return;
+  }
+
+  const from = ghost.getBoundingClientRect();
+  const to = navK.getBoundingClientRect();
+  const range = Math.max(from.top + window.scrollY - to.top, 1);
+  const target = clamp01(window.scrollY / range);
+  heroMorphT += (target - heroMorphT) * 0.45;
+  if (Math.abs(target - heroMorphT) <= 0.001) heroMorphT = target;
+  const e = heroMorphT;
+
+  if (e === 0) {
+    clearHeroMorph();
+    navK.style.opacity = "0";
+    if (navRest) navRest.style.opacity = "0";
+    return;
+  }
+
+  const fly = fade(e, 0.12, 1);
+  const handoff = fade(e, 0.82, 1);
+  let x = from.left;
+  let y = from.top;
+  let s = 1;
+  if (fly === 0) {
+    heroMorphFrom = null;
+  } else {
+    if (!heroMorphFrom) {
+      heroMorphFrom = { left: from.left, top: from.top, width: from.width };
+    }
+    const origin = heroMorphFrom;
+    x = origin.left + (to.left - origin.left) * fly;
+    y = origin.top + (to.top - origin.top) * fly;
+    s = origin.width ? 1 + ((to.width / origin.width) - 1) * fly : 1;
+  }
+
+  heroK.classList.add("is-fixed");
+  heroK.style.transform = "translate3d(" + x + "px," + y + "px,0) scale(" + s + ")";
+  heroK.style.opacity = String(1 - handoff);
+  heroK.style.willChange = e < 1 ? "transform" : "";
+
+  if (tail) {
+    const tailFade = fade(e, 0, 0.38);
+    tail.style.opacity = String(1 - tailFade);
+    tail.style.transform = "translateX(" + (-0.06 * tailFade) + "em)";
+  }
+  if (role) role.style.opacity = String(1 - fade(e, 0, 0.45));
+  navK.style.opacity = String(handoff);
+  if (navRest) navRest.style.opacity = String(fade(e, 0.65, 1));
+
+  if (Math.abs(target - e) > 0.001) queueHeroMorph();
+}
+
+function queueHeroMorph() {
+  if (heroMorphRaf) return;
+  heroMorphRaf = requestAnimationFrame(function () {
+    heroMorphRaf = 0;
+    applyHeroMorph();
+  });
+}
+
 boot();
 window.addEventListener("resize", function () {
   syncSelDots(null);
+  heroMorphFrom = null;
+  queueHeroMorph();
 });
+window.addEventListener("scroll", queueHeroMorph, { passive: true });
+if (reduceHeroMotion.addEventListener) {
+  reduceHeroMotion.addEventListener("change", applyHeroMorph);
+}
 </script>
 </body>
 </html>

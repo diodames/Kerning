@@ -33,7 +33,7 @@ docker compose up --build
 ```
 
 If a personal digest cannot be built, the app falls back to live Hacker News
-and asks you to try Refresh.
+and offers Try again.
 
 ### Production (Fly.io)
 
@@ -107,11 +107,12 @@ rebuild.
 <https://kerning-six.vercel.app/> is the single-user reader with Taste in the
 browser. Recut runs in a function, not by rewriting the deployed `digest.json`.
 
-Opening the page (or Refresh) `POST`s `/api/rebuild`. If Daily/Weekly/Monthly
-are stale, that run fetches public sources (no X), writes the pack to Vercel
-Blob, and `/api/digest` serves it. The first open after a window change can take
-up to a few minutes. Refresh sends `{ force: true }`. A cron at 22:20 UTC
-(~00:20 Prague in summer) recuts so the first visitor is not the one who waits.
+Opening the page `POST`s `/api/rebuild`. If Daily/Weekly/Monthly are stale, that
+run fetches public sources (no X), writes the pack to Vercel Blob, and
+`/api/digest` serves it. The first open after a window change can take up to a
+few minutes. Try again after a failed build sends `{ force: true }`. A cron at
+22:20 UTC (~00:20 Prague in summer) recuts so the first visitor is not the one
+who waits.
 
 In the Vercel project:
 
