@@ -195,7 +195,7 @@
     line-height: 1;
   }
   .hero-role {
-    margin: 28px 0 0;
+    margin: 36px 0 0;
     font-size: var(--text-body);
     font-weight: 400;
     line-height: 1.35;
@@ -235,6 +235,7 @@
     display: flex; align-items: center; justify-content: start;
     gap: 40px; margin: 0 0 8px; flex-wrap: wrap;
   }
+  #view-digest .controls { margin-bottom: 20px; }
   .range { position: relative; display: flex; gap: 20px; align-items: center; }
   .chip, .btn, .link, .text-act {
     font: inherit; letter-spacing: -0.02em; cursor: pointer;
@@ -259,15 +260,50 @@
   }
   .btn.saved, .text-act.saved { color: var(--ink); font-weight: 500; }
 
-  .bar { height: 1px; background: var(--line); overflow: hidden; margin-top: 28px; }
-  .bar > i {
-    display: block; height: 100%; background: var(--ink);
-    width: 0; transition: width 300ms var(--ease-out);
-  }
   .note {
     font-size: var(--text-meta); color: var(--mute);
     line-height: 1.55; margin: 10px 0 0;
     max-width: 58ch; text-wrap: pretty;
+  }
+  .load-copy {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    max-width: 64ch;
+    margin-top: 0;
+  }
+  .load-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 10px;
+    height: 10px;
+  }
+  .load-dots {
+    display: grid;
+    grid-template-columns: repeat(3, 2px);
+    grid-template-rows: repeat(3, 2px);
+    gap: 2px;
+    pointer-events: none;
+  }
+  .load-dot {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: var(--ink);
+    opacity: 0.14;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .load-dot {
+      animation: load-dot 2.8s var(--ease-out) infinite;
+      animation-delay: calc(var(--i) * 110ms);
+    }
+  }
+  @keyframes load-dot {
+    0%, 3% { opacity: 0.14; }
+    8%, 62% { opacity: 1; }
+    74%, 100% { opacity: 0.14; }
   }
   .primer {
     font-size: 15px; color: var(--mute); line-height: 1.5;
@@ -452,27 +488,6 @@
   .spider-term[data-anchor="middle"] { --tx: -50%; --ty: calc(-100% - 4px); text-align: center; }
   .spider-term[data-anchor="bottom"] { --tx: -50%; --ty: 4px; text-align: center; }
   .spider-term:active { --press: 0.96; }
-  .spider-meta {
-    position: absolute;
-    left: 0;
-    top: 100%;
-    margin-top: 2px;
-    font-size: var(--text-meta); font-weight: 400;
-    color: var(--mute); line-height: 1.35;
-    white-space: normal; max-width: 16ch;
-    text-wrap: pretty;
-    opacity: 0;
-    pointer-events: none;
-    transition-property: opacity;
-    transition-duration: 180ms;
-    transition-timing-function: var(--ease-out);
-  }
-  .spider-term[data-anchor="end"] .spider-meta { left: auto; right: 0; }
-  .spider-term[data-anchor="middle"] .spider-meta,
-  .spider-term[data-anchor="bottom"] .spider-meta {
-    left: 50%;
-    transform: translateX(-50%);
-  }
   .spider:focus-within .spider-term,
   .spider:focus-within .spider-arm,
   .spider:focus-within .spider-axis,
@@ -481,16 +496,21 @@
   .spider:focus-within .spider-term[aria-expanded="true"],
   .spider:focus-within .spider-arm.on,
   .spider:focus-within .spider-axis.on { opacity: 1; }
-  .spider-peek { margin-top: 4px; }
+  .spider-peek { margin-top: 20px; }
   .spider-peek[hidden] { display: none; }
-  .spider-peek ul { list-style: none; margin: 0; padding: 0; }
-  .spider-peek li {
-    padding: 14px 0;
-    border-bottom: 1px solid var(--line);
+  .spider-peek-label {
+    margin: 0 0 8px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    color: var(--ink);
   }
-  .spider-peek li:first-child { border-top: 1px solid var(--line); }
-  .spider-peek .title { max-width: 46ch; }
-  .spider-peek .meta { margin-top: 4px; }
+  .spider-peek-n {
+    font-weight: 400;
+    color: var(--mute);
+    font-variant-numeric: tabular-nums;
+  }
+  .spider-peek .seeds--chips { margin: 0; }
   @media (prefers-reduced-motion: no-preference) {
     .spider-shape, .spider-arm {
       transform-origin: 50% 50%;
@@ -829,11 +849,6 @@
     .spider:hover .spider-arm.on,
     .spider:hover .spider-axis.on { opacity: 1; }
   }
-  @media (hover: hover) and (pointer: fine) and (min-width: 641px) {
-    .spider-term:hover .spider-meta,
-    .spider-term:focus-visible .spider-meta,
-    .spider-term[aria-expanded="true"] .spider-meta { opacity: 1; }
-  }
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
       animation-duration: 0.01ms !important;
@@ -844,6 +859,10 @@
     .seeds:hover .seed-resource { opacity: 1; }
     .btn:active, .chip:active, .tab:active, .text-act:active, .link:active, .seed-x:active {
       transform: none;
+    }
+    .load-dot {
+      animation: none !important;
+      opacity: 0.45 !important;
     }
   }
   @media (max-width: 640px) {
@@ -880,7 +899,7 @@
     .site-nav::before { background: Canvas; height: 100%; }
     .seed-article { background: Canvas; color: CanvasText; }
     .sel-dot { background: CanvasText; }
-    .bar > i { background: CanvasText; }
+    .load-dot { background: CanvasText; }
     .spider-web, .spider-axis, .spider-shape { stroke: CanvasText; }
     .spider-shape { fill: Canvas; }
     .spider-dot { fill: CanvasText; }
@@ -1107,12 +1126,6 @@ const TERM_GROUP = {};
 ].forEach((pair) => {
   pair[1].forEach((term) => { TERM_GROUP[term] = pair[0]; });
 });
-const TASTE_META_SKIP = new Set([
-  "designer", "design", "craft", "interface", "redesign",
-  "type", "product", "motion", "color", "colour",
-  "typography", "ux", "ui", "accessibility",
-]);
-
 function groupOf(term) {
   const t = String(term);
   if (t.indexOf("person:") === 0 || t.indexOf("site:") === 0) return null;
@@ -1228,6 +1241,7 @@ let justRated = {};
 let days = 7;
 let tab = "digest";
 let tastePane = "taste";
+let spiderOpenId = "";
 let resourceOpen = { rss: false, github: false, substack: false };
 let peopleOpen = { "martin-x": false, x: false, bsky: false, substack: false };
 let status = "idle";
@@ -1507,6 +1521,14 @@ function periodDates(meta) {
   const left = a.toLocaleDateString(undefined, { day: "numeric", month: "short" });
   const right = b.toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" });
   return left + " \u2013 " + right;
+}
+
+function addedWhenLabel(ms) {
+  const n = Number(ms);
+  if (!n) return "";
+  return "Added " + new Date(n).toLocaleDateString(undefined, {
+    day: "numeric", month: "short", year: "numeric",
+  });
 }
 
 function itemWhen(unix) {
@@ -2573,10 +2595,7 @@ async function load(opts) {
       }
     }
     if (rebuildFailed) mode = "live";
-    raw = await fetchStories(days, (p) => {
-      const f = document.querySelector("#digest-status .bar > i");
-      if (f) f.style.width = (p * 100) + "%";
-    });
+    raw = await fetchStories(days, function () {});
     rebuildWeights();
     saveProfile();
     status = "ok";
@@ -2834,6 +2853,25 @@ function itemHTML(item, i) {
     + "</div></div></li>";
 }
 
+function loadingCopy() {
+  if (mode === "curated") {
+    return hostedMode
+      ? "Building your digest."
+      : (CADENCE_COPY[cadence] || CADENCE_COPY.weekly).loading;
+  }
+  return "Searching " + QUERIES.length + " design and product topics on Hacker News.";
+}
+
+function loadingNoteHTML(copy) {
+  let dots = "";
+  for (let i = 0; i < 9; i++) {
+    dots += '<span class="load-dot" style="--i:' + i + '"></span>';
+  }
+  return '<p class="note load-copy">'
+    + '<span class="load-mark" aria-hidden="true"><span class="load-dots">' + dots + "</span></span>"
+    + '<span class="load-copy-text">' + copy + "</span></p>";
+}
+
 function renderDigest() {
   const statusEl = document.getElementById("digest-status");
   const listEl = document.getElementById("digest-list");
@@ -2847,10 +2885,11 @@ function renderDigest() {
   const nRatings = Object.keys(profile.ratings).length;
 
   if (status === "loading") {
-    statusEl.innerHTML = '<div class="bar"><i></i></div>'
-      + '<p class="note">' + (mode === "curated"
-        ? (hostedMode ? "Building your digest." : (CADENCE_COPY[cadence] || CADENCE_COPY.weekly).loading)
-        : "Searching " + QUERIES.length + " design and product topics on Hacker News.") + "</p>";
+    const copy = loadingCopy();
+    const note = statusEl.querySelector(":scope > .note.load-copy");
+    const text = note && note.querySelector(".load-copy-text");
+    if (!note || !text) statusEl.innerHTML = loadingNoteHTML(copy);
+    else if (text.textContent !== copy) text.textContent = copy;
     listEl.innerHTML = ""; stripsEl.className = "strips hidden"; return;
   }
   if (status === "error") {
@@ -3037,16 +3076,26 @@ function storiesForTerms(terms) {
   terms.forEach((t) => { set[t] = true; });
   const seen = {};
   const out = [];
-  function add(item) {
+  function add(item, extra) {
     if (!item) return;
+    extra = extra || {};
     const url = item.url || "";
-    const key = (url && canonUrl(url)) || item.id || item.title;
+    const key = (url && canonUrl(url)) || item.id || extra.id || item.title;
     if (!key || seen[key]) return;
     if (!itemMatchesTerms(item, set)) return;
     seen[key] = true;
-    out.push({ title: item.title || url, url: url });
+    out.push({
+      id: item.id || extra.id || "",
+      title: item.title || url,
+      url: url,
+      authors: item.authors || [],
+      addedAt: extra.addedAt || item.addedAt || item.at || 0,
+      dropAct: extra.dropAct || "",
+    });
   }
-  (profile.seeds.articles || []).forEach(add);
+  (profile.seeds.articles || []).forEach((a) => {
+    add(a, { dropAct: "drop-article", addedAt: a.addedAt || 0 });
+  });
   Object.keys(profile.ratings).forEach((id) => {
     const rec = profile.ratings[id];
     if (!rec || !(rec.r > 0)) return;
@@ -3056,7 +3105,7 @@ function storiesForTerms(terms) {
       title: rec.title || src.title || "",
       url: rec.url || src.url || "",
       authors: rec.authors || src.authors || [],
-    });
+    }, { dropAct: "drop-rating", addedAt: rec.at || 0 });
   });
   (profile.seeds.people || []).forEach((p) => {
     (p.links || []).forEach(add);
@@ -3106,15 +3155,10 @@ function tasteSpider(title, groups, color) {
     const a = ang(i);
     const cos = Math.cos(a), sin = Math.sin(a);
     const rad = g.sum <= 0 ? rMin : rMin + (g.sum / max) * (rMax - rMin);
-    const names = g.members
-      .filter((m) => !TASTE_META_SKIP.has(m[0]))
-      .slice(0, 3)
-      .map((m) => displayTerm(m[0]));
     return {
       g: g, i: i, cos: cos, sin: sin, rad: rad,
       rLabel: rMax + 28,
       anchor: n === 1 ? "middle" : anchorOf(cos, sin),
-      names: names,
     };
   });
 
@@ -3145,9 +3189,6 @@ function tasteSpider(title, groups, color) {
     );
     const keys = p.g.members.map((m) => m[0]);
     const empty = p.g.sum <= 0;
-    const meta = p.names.length
-      ? '<span class="spider-meta">' + esc(p.names.join(", ")) + "</span>"
-      : "";
     labels.push(
       '<button type="button" class="spider-term" data-i="' + p.i
       + '" data-group="' + esc(p.g.id) + '" data-terms="' + esc(JSON.stringify(keys))
@@ -3156,7 +3197,7 @@ function tasteSpider(title, groups, color) {
       + '" style="--i:' + p.i + ";--x:" + pt((lab[0] / W) * 100) + "%;--y:"
       + pt((lab[1] / H) * 100) + '%" aria-expanded="false" aria-controls="spider-peek"'
       + ' tabindex="' + (p.i === 0 ? "0" : "-1") + '">'
-      + esc(p.g.label) + meta + "</button>"
+      + esc(p.g.label) + "</button>"
     );
   });
 
@@ -3365,6 +3406,7 @@ function setTastePaneChips() {
 
 function applyTastePane(name) {
   if (name !== "sources" && name !== "taste") name = "taste";
+  if (name !== "taste") spiderOpenId = "";
   tastePane = name;
   setTastePaneChips();
   renderTaste();
@@ -3401,13 +3443,14 @@ function renderTasteSources() {
     + groupedResources(resources) + "</section>";
 }
 
-function articleChip(item, dropAct) {
+function articleChip(item, dropAct, asLink) {
   const host = domainOf(item.url) || item.url || "";
   const title = item.title || host;
   const showHost = host && title.trim().toLowerCase() !== String(host).toLowerCase();
-  const editable = dropAct === "drop-article";
+  const editable = dropAct === "drop-article" && !asLink;
   const href = !editable && item.url ? item.url : "";
   const hostSpan = showHost ? '<span class="seed-host">(' + esc(host) + ")</span>" : "";
+  const tip = addedWhenLabel(item.addedAt || item.at);
   const main = editable
     ? '<div class="seed-main">'
       + '<input class="seed-title" data-article-title="' + esc(item.id) + '"'
@@ -3421,9 +3464,12 @@ function articleChip(item, dropAct) {
         + '<input class="seed-title" readonly tabindex="-1" value="' + esc(title)
         + '" aria-label="Title for ' + esc(host) + '">'
         + hostSpan + "</div>";
-  return '<li class="seed seed-article">' + main
-    + '<button type="button" class="seed-x" data-act="' + dropAct + '" data-id="'
-    + esc(item.id) + '" aria-label="Remove"><span aria-hidden="true">×</span></button></li>';
+  const x = dropAct && item.id
+    ? '<button type="button" class="seed-x" data-act="' + dropAct + '" data-id="'
+      + esc(item.id) + '" aria-label="Remove"><span aria-hidden="true">×</span></button>'
+    : "";
+  return '<li class="seed seed-article"'
+    + (tip ? ' title="' + esc(tip) + '"' : "") + ">" + main + x + "</li>";
 }
 
 function pushingAwayHTML() {
@@ -3507,18 +3553,16 @@ function bindTasteSources() {
   });
 }
 
-function spiderPeekHTML(terms) {
+function spiderPeekHTML(terms, label) {
   const stories = storiesForTerms(terms);
-  if (!stories.length) {
-    return "<p class=\"note\">No stories tied to this topic&nbsp;yet.</p>";
+  const n = stories.length;
+  const head = '<p class="spider-peek-label">' + esc(label)
+    + '&nbsp;<span class="spider-peek-n">(' + n + ")</span></p>";
+  if (!n) {
+    return head + "<p class=\"note\">No stories tied to this topic&nbsp;yet.</p>";
   }
-  return "<ul>" + stories.map((s) => {
-    const host = domainOf(s.url) || "";
-    return '<li><a class="title" href="' + esc(s.url)
-      + '" target="_blank" rel="noreferrer">' + formatTitle(s.title) + "</a>"
-      + (host ? '<p class="meta"><span>' + esc(host) + "</span></p>" : "")
-      + "</li>";
-  }).join("") + "</ul>";
+  return head + '<ul class="seeds seeds--chips">'
+    + stories.map((s) => articleChip(s, s.dropAct, true)).join("") + "</ul>";
 }
 
 function bindSpider() {
@@ -3536,8 +3580,20 @@ function bindSpider() {
     axes.forEach((a, n) => a.classList.toggle("on", n === i));
   }
 
+  function fillPeek(btn) {
+    btn.setAttribute("aria-expanded", "true");
+    spiderOpenId = btn.getAttribute("data-group") || "";
+    mark(btns.indexOf(btn));
+    let terms = [];
+    try { terms = JSON.parse(btn.getAttribute("data-terms") || "[]"); }
+    catch (e) { terms = []; }
+    peek.innerHTML = spiderPeekHTML(terms, btn.textContent.trim());
+    peek.hidden = false;
+  }
+
   function closePeek() {
     const open = root.querySelector(".spider-term[aria-expanded='true']");
+    spiderOpenId = "";
     peek.hidden = true;
     peek.innerHTML = "";
     btns.forEach((b) => b.setAttribute("aria-expanded", "false"));
@@ -3548,13 +3604,7 @@ function bindSpider() {
     const was = btn.getAttribute("aria-expanded") === "true";
     closePeek();
     if (was) return;
-    btn.setAttribute("aria-expanded", "true");
-    mark(btns.indexOf(btn));
-    let terms = [];
-    try { terms = JSON.parse(btn.getAttribute("data-terms") || "[]"); }
-    catch (e) { terms = []; }
-    peek.innerHTML = spiderPeekHTML(terms);
-    peek.hidden = false;
+    fillPeek(btn);
   }
 
   function focusAt(i) {
@@ -3595,6 +3645,12 @@ function bindSpider() {
       focusAt(n - 1);
     }
   });
+
+  if (spiderOpenId) {
+    const open = btns.find((b) => b.getAttribute("data-group") === spiderOpenId);
+    if (open) fillPeek(open);
+    else spiderOpenId = "";
+  }
 }
 
 function bindTasteRank() {
@@ -3814,6 +3870,24 @@ function heroMorphActive() {
   return !!(wrap && hero && !wrap.hidden && !hero.classList.contains("hidden"));
 }
 
+function heroMorphHasRoom() {
+  const main = document.getElementById("main");
+  if (!main) return false;
+  const nav = document.querySelector(".site-nav");
+  const foot = document.querySelector("#app-wrap .site-foot");
+  const navH = nav ? nav.offsetHeight : 0;
+  const below = main.offsetHeight + (foot ? foot.offsetHeight : 0);
+  return below >= window.innerHeight - navH;
+}
+
+function restHeroMorph() {
+  const navK = document.querySelector(".nav-k");
+  const navRest = document.querySelector(".nav-logo-rest");
+  clearHeroMorph();
+  if (navK) navK.style.opacity = "0";
+  if (navRest) navRest.style.opacity = "0";
+}
+
 function clamp01(n) {
   return n < 0 ? 0 : n > 1 ? 1 : n;
 }
@@ -3854,6 +3928,10 @@ function applyHeroMorph() {
     clearHeroMorph();
     return;
   }
+  if (!heroMorphHasRoom() || window.scrollY < 2) {
+    restHeroMorph();
+    return;
+  }
 
   const from = ghost.getBoundingClientRect();
   const to = navK.getBoundingClientRect();
@@ -3864,9 +3942,7 @@ function applyHeroMorph() {
   const e = heroMorphT;
 
   if (e === 0) {
-    clearHeroMorph();
-    navK.style.opacity = "0";
-    if (navRest) navRest.style.opacity = "0";
+    restHeroMorph();
     return;
   }
 

@@ -193,6 +193,7 @@ SHORTLIST = 40          # how many candidates get a buzz lookup
 
 from kerning_lib.windows import (  # noqa: E402
     RECENCY_TAU,
+    aware_now,
     digest_current,
     edition_meta,
     expected_periods,
@@ -1607,7 +1608,7 @@ def build_digest(args):
         suffix = (", " + ", ".join(extra)) if extra else ""
         print(f"taste profile: {len(weights)} learned terms{suffix}", file=sys.stderr)
 
-    now_dt = datetime.now().astimezone()
+    now_dt = aware_now()
     yday_start, yday_end = yesterday(now_dt)
     week_start, week_end = this_week(now_dt)
     month_start, month_end = this_month(now_dt)

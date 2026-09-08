@@ -52,6 +52,32 @@ class BlobDigestTests(unittest.TestCase):
             else:
                 os.environ["DIGEST_TZ"] = previous
 
+    def test_utc_host_after_prague_midnight_still_needs_yesterdays_cut(self):
+        """Vercel is UTC. At 23:05 UTC on 8 Sep it is already 9 Sep in Prague.
+
+        The skip check follows DIGEST_TZ (yesterday = 8 Sep). The cut used to
+        follow the host clock (yesterday = 7 Sep) and rewrote a stale Daily.
+        """
+        from zoneinfo import ZoneInfo
+
+        from kerning_lib.windows import yesterday
+
+        utc = datetime(2026, 9, 8, 23, 5, tzinfo=timezone.utc)
+        prague = utc.astimezone(ZoneInfo("Europe/Prague"))
+        utc_yday, _ = yesterday(utc)
+        prague_yday, _ = yesterday(prague)
+        self.assertEqual(prague.date().isoformat(), "2026-09-09")
+        self.assertEqual(utc_yday.date().isoformat(), "2026-09-07")
+        self.assertEqual(prague_yday.date().isoformat(), "2026-09-08")
+
+        host_pack = _pack(utc)
+        self.assertEqual(host_pack["cadences"]["daily"]["period_start"], "2026-09-07")
+        self.assertTrue(should_skip_fetch(host_pack, now=utc))
+        self.assertFalse(should_skip_fetch(host_pack, now=prague))
+        self.assertEqual(
+            _pack(prague)["cadences"]["daily"]["period_start"], "2026-09-08"
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
