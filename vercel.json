@@ -3,7 +3,6 @@
   "framework": null,
   "installCommand": "pip install requests feedparser",
   "env": {
-    "TZ": "Europe/Prague",
     "DIGEST_TZ": "Europe/Prague"
   },
   "functions": {

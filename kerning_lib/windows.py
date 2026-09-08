@@ -8,7 +8,7 @@ RECENCY_TAU = {"daily": 1.5, "weekly": 21, "monthly": 45}
 
 
 def default_tz_name():
-    """Vercel pins DIGEST_TZ/TZ to Europe/Prague; local runs use the host zone."""
+    """Vercel pins DIGEST_TZ to Europe/Prague; local runs use the host zone."""
     return os.environ.get("DIGEST_TZ") or os.environ.get("TZ")
 
 

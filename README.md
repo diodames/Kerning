@@ -117,8 +117,8 @@ In the Vercel project:
 
 1. Create a Blob store and link it to this project (`BLOB_READ_WRITE_TOKEN`
    is added automatically).
-2. Set `TZ=Europe/Prague` and `DIGEST_TZ=Europe/Prague` if they are not already
-   set from `vercel.json`.
+2. Set `DIGEST_TZ=Europe/Prague` if it is not already set from `vercel.json`.
+   Vercel reserves `TZ`; do not add it as a project variable.
 3. Redeploy. Confirm `GET /api/digest` and that a stale Daily updates to
    yesterday.
 
