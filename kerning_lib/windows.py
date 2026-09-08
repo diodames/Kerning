@@ -7,8 +7,14 @@ from datetime import datetime, timedelta
 RECENCY_TAU = {"daily": 1.5, "weekly": 21, "monthly": 45}
 
 
+def default_tz_name():
+    """Vercel pins DIGEST_TZ/TZ to Europe/Prague; local runs use the host zone."""
+    return os.environ.get("DIGEST_TZ") or os.environ.get("TZ")
+
+
 def aware_now(tz_name=None):
     """Timezone-aware now. tz_name is an IANA zone, e.g. Europe/Prague."""
+    tz_name = tz_name or default_tz_name()
     if tz_name:
         try:
             from zoneinfo import ZoneInfo
@@ -108,6 +114,13 @@ def cadences_current(cadences, now=None):
     return True
 
 
+def payload_current(data, now=None):
+    """True when a digest payload covers yesterday, this week, and this month."""
+    if not isinstance(data, dict):
+        return False
+    return cadences_current(data.get("cadences") or {}, now)
+
+
 def digest_current(path, now=None):
     """True when a digest.json file already covers the three windows."""
     if not os.path.isfile(path):
@@ -117,4 +130,4 @@ def digest_current(path, now=None):
             data = json.load(f)
     except (OSError, ValueError):
         return False
-    return cadences_current(data.get("cadences") or {}, now)
+    return payload_current(data, now)

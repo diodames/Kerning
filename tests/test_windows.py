@@ -5,6 +5,7 @@ from kerning_lib.windows import (
     cadences_current,
     edition_meta,
     expected_periods,
+    payload_current,
     this_month,
     this_week,
     yesterday,
@@ -48,6 +49,18 @@ class WindowsTests(unittest.TestCase):
         packs["daily"]["period_start"] = "2026-09-05"
         packs["daily"]["period_end"] = "2026-09-05"
         self.assertFalse(cadences_current(packs, now))
+
+    def test_payload_current_false_without_cadences(self):
+        now = datetime(2026, 9, 7, 17, 0, tzinfo=CEST)
+        self.assertFalse(payload_current(None, now))
+        self.assertFalse(payload_current({}, now))
+
+    def test_payload_current_true_for_matching_pack(self):
+        now = datetime(2026, 9, 7, 17, 0, tzinfo=CEST)
+        packs = {}
+        for kind, (start, end) in expected_periods(now).items():
+            packs[kind] = edition_meta(kind, start, end)
+        self.assertTrue(payload_current({"cadences": packs}, now))
 
 
 if __name__ == "__main__":

@@ -67,7 +67,7 @@ class AppTests(unittest.TestCase):
         self.assertEqual(r.json()["weights"]["figma"], 1)
         r = self.client.get("/me/digest")
         self.assertEqual(r.status_code, 404)
-        r = self.client.post("/me/rebuild")
+        r = self.client.post("/me/rebuild", json={"force": True})
         self.assertEqual(r.status_code, 200)
         self.assertTrue(r.json().get("jobId"))
 

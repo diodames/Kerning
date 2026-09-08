@@ -100,7 +100,31 @@ python3 kerning_serve.py
 Then go to <http://127.0.0.1:8000/index.html>.
 
 You need this server, not `python3 -m http.server`. Plain `http.server` cannot
-rebuild. Opening the file directly with `file://` means the browser blocks
+rebuild.
+
+### Vercel (shared public digest)
+
+<https://kerning-six.vercel.app/> is the single-user reader with Taste in the
+browser. Recut runs in a function, not by rewriting the deployed `digest.json`.
+
+Opening the page (or Refresh) `POST`s `/api/rebuild`. If Daily/Weekly/Monthly
+are stale, that run fetches public sources (no X), writes the pack to Vercel
+Blob, and `/api/digest` serves it. The first open after a window change can take
+up to a few minutes. Refresh sends `{ force: true }`. A cron at 22:20 UTC
+(~00:20 Prague in summer) recuts so the first visitor is not the one who waits.
+
+In the Vercel project:
+
+1. Create a Blob store and link it to this project (`BLOB_READ_WRITE_TOKEN`
+   is added automatically).
+2. Set `TZ=Europe/Prague` and `DIGEST_TZ=Europe/Prague` if they are not already
+   set from `vercel.json`.
+3. Redeploy. Confirm `GET /api/digest` and that a stale Daily updates to
+   yesterday.
+
+Do not add `APIFY_TOKEN`. Do not point this project at the Fly FastAPI app.
+
+Opening the file directly with `file://` means the browser blocks
 `fetch()` of `digest.json`, and the app silently falls back to querying
 Hacker News live. If you see the "Live Hacker News only" banner, that's why.
 
@@ -133,12 +157,14 @@ watches anyone and any feed you added, on top of the curated lists.
 | `kerning_lib/` | Calendar windows and digest cuts, shared by the CLI and the hosted worker. |
 | `kerning_fetch.py` | Fetching, merging, scoring. All the source config is at the top. `--if-stale` skips a run when the windows are current. |
 | `kerning_serve.py` | Local single-user server. Serves the app and rebuilds a stale digest on open. |
+| `api/` | Vercel functions: `GET /api/digest`, `POST /api/rebuild`. |
+| `vercel.json` | Static Vercel project, Python functions, nightly cron. Do not detect FastAPI. |
 | `scripts/install-schedule.sh` | One-time install of the 00:20 LaunchAgent for the local path. |
 | `accounts.txt` | X handles used as a Taste watchlist / ranking hints. Hosted fetch does not scrape X for these. |
 | `bsky-accounts.txt` | Bluesky handles to watch. Custom domains work. |
 | `substack.txt` | Substack publications to watch. Slug, host, or URL. |
 | `x-following.js` | Paste into the browser console to export your X following list. |
-| `digest.json` | Generated locally. What the single-user app reads. |
+| `digest.json` | Generated locally. Fallback snapshot on Vercel until Blob has a recut. |
 | `digest.md` | Generated locally. The digest as plain text. |
 | `docker-compose.yml` | Postgres + web + worker for the hosted app. |
 | `.env.example` | Hosted secrets template (`DATABASE_URL`, mail, origin). |

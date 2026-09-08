@@ -214,10 +214,20 @@ _TRACKING = re.compile(r"^(utm_|fbclid|gclid|mc_|ref|ref_src|source|si$)", re.I)
 FETCH_LOCK = os.path.join(_HERE, ".digest-fetch.lock")
 
 
+def _lock_path():
+    """Project dir is read-only on Vercel; fall back to /tmp."""
+    try:
+        fh = open(FETCH_LOCK, "a+")
+        fh.close()
+        return FETCH_LOCK
+    except OSError:
+        return os.path.join("/tmp", ".digest-fetch.lock")
+
+
 @contextmanager
 def fetch_lock():
     """Exclusive lock so the server and launchd cannot fetch at once."""
-    fh = open(FETCH_LOCK, "a+")
+    fh = open(_lock_path(), "a+")
     try:
         fcntl.flock(fh.fileno(), fcntl.LOCK_EX)
         yield

@@ -1135,6 +1135,7 @@ let me = null;
 let putTimer = 0;
 let rebuildJobId = null;
 let rebuildFailed = false;
+let digestStale = false;
 
 function loadProfile() {
   try {
@@ -1330,7 +1331,44 @@ function weekdayOf(unix) {
 function localYesterdayISO() {
   const d = new Date();
   const y = new Date(d.getFullYear(), d.getMonth(), d.getDate() - 1);
-  return y.getFullYear() + "-" + String(y.getMonth() + 1).padStart(2, "0") + "-" + String(y.getDate()).padStart(2, "0");
+  return isoDate(y);
+}
+
+function pad2(n) {
+  return String(n).padStart(2, "0");
+}
+function isoDate(d) {
+  return d.getFullYear() + "-" + pad2(d.getMonth() + 1) + "-" + pad2(d.getDate());
+}
+function startOfLocalDay(d) {
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate());
+}
+function addLocalDays(d, n) {
+  return new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
+}
+function expectedCadenceMeta(now) {
+  const today = startOfLocalDay(now || new Date());
+  const yday = addLocalDays(today, -1);
+  const weekStart = addLocalDays(today, -((today.getDay() + 6) % 7));
+  const weekLast = addLocalDays(weekStart, 6);
+  const monthStart = new Date(today.getFullYear(), today.getMonth(), 1);
+  const monthLast = new Date(today.getFullYear(), today.getMonth() + 1, 0);
+  return {
+    daily: { period_start: isoDate(yday), period_end: isoDate(yday) },
+    weekly: { period_start: isoDate(weekStart), period_end: isoDate(weekLast) },
+    monthly: { period_start: isoDate(monthStart), period_end: isoDate(monthLast) },
+  };
+}
+function cadencesCurrent(pack) {
+  const cadences = (pack && pack.cadences) || {};
+  const expected = expectedCadenceMeta();
+  for (let i = 0; i < CADENCES.length; i++) {
+    const kind = CADENCES[i];
+    const p = cadences[kind] || {};
+    if (p.period_start !== expected[kind].period_start) return false;
+    if (p.period_end !== expected[kind].period_end) return false;
+  }
+  return true;
 }
 
 function periodDates(meta) {
@@ -2228,6 +2266,13 @@ async function loadDigest() {
     applyDigestPayload(data);
     return;
   }
+  try {
+    const live = await fetch("/api/digest?t=" + Date.now());
+    if (live.ok) {
+      applyDigestPayload(await live.json());
+      return;
+    }
+  } catch (e) { /* local file, or a host without Blob */ }
   const res = await fetch("digest.json?t=" + Date.now());
   if (!res.ok) throw new Error(res.status);
   applyDigestPayload(await res.json());
@@ -2265,12 +2310,17 @@ async function pollJob(jobId, until) {
   return "timeout";
 }
 
-async function ensureFreshDigest() {
+async function ensureFreshDigest(opts) {
+  const force = !!(opts && opts.force === true);
   if (hostedMode) {
     const ctrl = new AbortController();
     const timer = setTimeout(() => ctrl.abort(), 240000);
     try {
-      const res = await api("/me/rebuild", { method: "POST", signal: ctrl.signal });
+      const res = await api("/me/rebuild", {
+        method: "POST",
+        signal: ctrl.signal,
+        body: JSON.stringify({ force: force }),
+      });
       if (res.status === 429) return "ok";
       if (!res.ok) return "error";
       const body = await res.json();
@@ -2286,45 +2336,96 @@ async function ensureFreshDigest() {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 240000);
   try {
+    try {
+      const res = await fetch("/api/rebuild", {
+        method: "POST",
+        signal: ctrl.signal,
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ force: force }),
+      });
+      if (res.ok) return "ok";
+      if (res.status === 202) {
+        const before = digestPack && digestPack.generated_at;
+        const outcome = await pollBlobDigest(Date.now() + 180000, {
+          force: force,
+          before: before,
+        });
+        return outcome === "ok" ? "ok" : "error";
+      }
+      if (res.status !== 404 && res.status !== 403) return "error";
+    } catch (e) { /* no Vercel route — try the local server */ }
     const res = await fetch("/rebuild", { method: "POST", signal: ctrl.signal });
-    if (res.status === 404 || res.status === 403) return "ok";
+    if (res.status === 404 || res.status === 403) return "static";
     if (!res.ok) return "error";
-  } catch (e) { /* file://, plain http.server, or timeout — read whatever digest exists */ }
+    return "ok";
+  } catch (e) { return "static"; }
   finally { clearTimeout(timer); }
-  return "ok";
+}
+
+async function pollBlobDigest(until, opts) {
+  const force = !!(opts && opts.force);
+  const before = opts && opts.before;
+  while (Date.now() < until) {
+    try {
+      const res = await fetch("/api/digest?t=" + Date.now());
+      if (res.ok) {
+        applyDigestPayload(await res.json());
+        if (force) {
+          if (digestPack.generated_at && digestPack.generated_at !== before) return "ok";
+        } else if (cadencesCurrent(digestPack)) {
+          return "ok";
+        }
+      }
+    } catch (e) { /* keep polling */ }
+    await new Promise((r) => setTimeout(r, 2000));
+  }
+  return "timeout";
 }
 
 async function load(opts) {
   const force = !!(opts && opts.force === true);
   status = "loading";
   rebuildFailed = false;
+  digestStale = false;
   render();
   try {
     if (mode === "curated") {
       try {
-        if (hostedMode && !force) {
+        let have = false;
+        try {
+          await loadDigest();
+          have = true;
+          if (!force && cadencesCurrent(digestPack)) {
+            status = "ok"; recompute(); render(); return;
+          }
+        } catch (e) {
+          if (String(e.message) === "sign in") return;
+        }
+        const rebuilt = await ensureFreshDigest({ force: force });
+        if (rebuilt === "static") {
+          if (have) {
+            digestStale = !cadencesCurrent(digestPack);
+            status = "ok"; recompute(); render(); return;
+          }
+          mode = "live";
+        } else {
           try {
             await loadDigest();
+            digestStale = !cadencesCurrent(digestPack);
             status = "ok"; recompute(); render(); return;
           } catch (e) {
             if (String(e.message) === "sign in") return;
-          }
-        }
-        const rebuilt = await ensureFreshDigest();
-        try {
-          await loadDigest();
-          status = "ok"; recompute(); render(); return;
-        } catch (e) {
-          if (String(e.message) === "sign in") return;
-          if (hostedMode && rebuilt === "error") rebuildFailed = true;
-          else if (hostedMode && String(e.message) === "digest-missing") {
-            const ready = await waitForHostedDigest();
-            if (ready) {
-              status = "ok"; recompute(); render(); return;
+            if (hostedMode && rebuilt === "error") rebuildFailed = true;
+            else if (hostedMode && String(e.message) === "digest-missing") {
+              const ready = await waitForHostedDigest();
+              if (ready) {
+                digestStale = !cadencesCurrent(digestPack);
+                status = "ok"; recompute(); render(); return;
+              }
+              rebuildFailed = true;
+            } else {
+              mode = "live";
             }
-            rebuildFailed = true;
-          } else {
-            mode = "live";
           }
         }
       } catch (e) {
@@ -2576,10 +2677,14 @@ function renderDigest() {
 
   const copy = CADENCE_COPY[cadence] || CADENCE_COPY.weekly;
   const dates = mode === "curated" && digestMeta ? periodDates(digestMeta) : "";
-  const prefix = (cadence === "daily" && digestMeta && digestMeta.period_start
-    && digestMeta.period_start !== localYesterdayISO()) ? "" : copy.prefix;
+  const dailyOff = cadence === "daily" && digestMeta && digestMeta.period_start
+    && digestMeta.period_start !== localYesterdayISO();
+  const prefix = dailyOff ? "" : copy.prefix;
   let head = "";
-  if (dates) {
+  if (dates && dailyOff) {
+    head = '<p class="primer primer--period"><span class="week-dates">'
+      + esc(dates) + "</span>. This edition is not yesterday\u2019s.</p>";
+  } else if (dates) {
     head = prefix
       ? '<p class="primer primer--period">' + esc(prefix) + ' \u00b7 <span class="week-dates">'
         + esc(dates) + "</span>."

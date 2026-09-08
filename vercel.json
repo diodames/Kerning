@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "pip install requests feedparser",
+  "env": {
+    "TZ": "Europe/Prague",
+    "DIGEST_TZ": "Europe/Prague"
+  },
+  "functions": {
+    "api/rebuild.py": {
+      "maxDuration": 300,
+      "excludeFiles": "{app/**,tests/**,*.png,Dockerfile,fly.toml,docker-compose.yml}"
+    },
+    "api/digest.py": {
+      "maxDuration": 15,
+      "excludeFiles": "{app/**,tests/**,*.png,Dockerfile,fly.toml,docker-compose.yml}"
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/rebuild",
+      "schedule": "20 22 * * *"
+    }
+  ]
+}

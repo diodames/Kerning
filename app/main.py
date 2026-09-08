@@ -94,6 +94,10 @@ class MeIn(BaseModel):
     timezone: str = ""
 
 
+class RebuildIn(BaseModel):
+    force: bool = False
+
+
 def current_user(request: Request, db: Session = Depends(get_db)) -> User:
     raw = request.cookies.get(COOKIE)
     if not raw:
@@ -238,11 +242,12 @@ def get_digest(user: User = Depends(current_user), db: Session = Depends(get_db)
 
 
 @app.post("/me/rebuild")
-def rebuild(request: Request, user: User = Depends(current_user), db: Session = Depends(get_db)):
+def rebuild(user: User = Depends(current_user), db: Session = Depends(get_db),
+            body: RebuildIn = RebuildIn()):
     if not _rate_ok("rebuild:" + user.id, 6, 3600):
         raise HTTPException(429, "too many rebuilds. try again later.")
     crawl = enqueue(db, "crawl", force_soon=True)
-    job = enqueue(db, "cut", user.id, force_soon=True, force=True)
+    job = enqueue(db, "cut", user.id, force_soon=True, force=body.force)
     return {"jobId": job.id, "status": job.status, "crawlId": crawl.id}
 
 
