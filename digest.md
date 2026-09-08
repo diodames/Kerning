@@ -1,23 +1,23 @@
 # Kerning
 
-## Yesterday — 6 September 2026
+## Yesterday — 7 September 2026
 
 The 4 best design and product reads.
 
-**1. [August 31 - September 6 Round Up: Gemini Interface Design, Sci-Fi AI Predictions, Figma System Audits](https://aiforux.substack.com/p/august-31-september-6-round-up-gemini)**
-  aiforux.substack.com — editor's pick at AI for UX Substack
+**1. [Strata – A design system that records decisions, not components](https://github.com/Prometheus-000/strata)**
+  github.com
+  [Discussion](https://news.ycombinator.com/item?id=49598842)
 
-**2. [Show HN: VODForge – a free local desktop UI for YouTube video/playlist downloads](https://getvodforge.com/)**
-  getvodforge.com
-  [Discussion](https://news.ycombinator.com/item?id=49590354)
+**2. [Ask HN: How do you keep AI coding agents in sync with a changing Figma file?](https://news.ycombinator.com/item?id=49595961)**
+  news.ycombinator.com
 
-**3. [Forte UI – React components whose palette derives from one CSS variable](https://forte-ui.com/)**
-  forte-ui.com
-  [Discussion](https://news.ycombinator.com/item?id=49588892)
+**3. [Show HN: Bamboo – build-time, Rust/Oxc, type-safe, zero-runtime CSS-in-JS](https://bamboocss.com/docs/overview/getting-started/)**
+  bamboocss.com
+  [Discussion](https://news.ycombinator.com/item?id=49602667)
 
-**4. [A Figma clone built by GPT-6 Astra](https://wieslawsoltes.github.io/Vellum/)**
-  wieslawsoltes.github.io
-  [Discussion](https://news.ycombinator.com/item?id=49583764)
+**4. [Show HN: I wrote a guide to rendering video from plain HTML/CSS/GSAP](https://sidheart.gumroad.com/l/lyudd)**
+  sidheart.gumroad.com
+  [Discussion](https://news.ycombinator.com/item?id=49594877)
 
 ## This week — 7–13 September 2026
 
@@ -30,13 +30,13 @@ The 4 best design and product reads.
 **2. [Ask HN: How do you keep AI coding agents in sync with a changing Figma file?](https://news.ycombinator.com/item?id=49595961)**
   news.ycombinator.com
 
-**3. [Show HN: The ros2_utils_tool v1.0, a tool for ROS2 activies with full UI support](https://github.com/MaxFleur/ros2_utils_tool/)**
-  github.com
-  [Discussion](https://news.ycombinator.com/item?id=49597230)
-
-**4. [Show HN: I wrote a guide to rendering video from plain HTML/CSS/GSAP](https://sidheart.gumroad.com/l/lyudd)**
+**3. [Show HN: I wrote a guide to rendering video from plain HTML/CSS/GSAP](https://sidheart.gumroad.com/l/lyudd)**
   sidheart.gumroad.com
   [Discussion](https://news.ycombinator.com/item?id=49594877)
+
+**4. [Show HN: Bamboo – build-time, Rust/Oxc, type-safe, zero-runtime CSS-in-JS](https://bamboocss.com/docs/overview/getting-started/)**
+  bamboocss.com
+  [Discussion](https://news.ycombinator.com/item?id=49602667)
 
 ## This month — September 2026
 

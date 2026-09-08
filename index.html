@@ -104,6 +104,19 @@
   }
   .nav-logo:hover { color: var(--ink); }
   .nav-dash { font-weight: 400; color: var(--faint); padding: 0 0.15em; }
+  .nav-auth {
+    display: flex; align-items: center; gap: 14px;
+    font-size: var(--text-meta); color: var(--mute);
+    margin-left: 8px;
+  }
+  .nav-auth .nav-email { color: var(--faint); }
+  .landing {
+    padding: clamp(28px, 6vh, 72px) var(--pad) 96px;
+    max-width: 40rem;
+  }
+  .landing h1 { margin: 0; }
+  .landing form { margin: 36px 0 0; max-width: 22rem; }
+  .landing .tadd { margin-top: 0; }
   .tabs {
     position: relative;
     display: flex; align-items: center; gap: 22px;
@@ -693,7 +706,7 @@
     text-decoration-thickness: from-font;
   }
   .copy a:hover { color: var(--ink); }
-  .hidden { display: none; }
+  .hidden, [hidden] { display: none !important; }
 
   @media (hover: hover) and (pointer: fine) {
     .list:hover .item { opacity: 0.32; }
@@ -779,15 +792,32 @@
 <body>
 <a class="skip" href="#digest-list">Skip to stories</a>
 <header class="site-nav">
-  <a class="nav-logo" href="./kerning.html">K<span class="nav-dash" aria-hidden="true">⎯</span>©’26</a>
+  <a class="nav-logo" href="./">K<span class="nav-dash" aria-hidden="true">⎯</span>©’26</a>
   <nav class="tabs" id="tabs" aria-label="Primary">
     <button type="button" class="tab on" data-tab="digest" aria-current="page">Digest</button>
     <button type="button" class="tab" data-tab="saved">Saved</button>
     <button type="button" class="tab" data-tab="taste">Taste</button>
     <span class="sel-dot" aria-hidden="true"></span>
   </nav>
+  <div class="nav-auth hidden" id="auth-slot"></div>
 </header>
-<div class="wrap">
+<section id="landing" class="landing hidden">
+  <h1>Kerning</h1>
+  <p class="hero-role">
+    A design and product digest that learns what you&nbsp;like
+    <span class="hero-rest"><span class="hero-dot" aria-hidden="true"> · </span><span class="mute">Twelve links a&nbsp;week</span></span>
+  </p>
+  <form class="tadd" id="auth-form">
+    <div class="tfield">
+      <label for="auth-email">Email</label>
+      <input id="auth-email" name="email" type="email" autocomplete="email" required
+        placeholder="you@example.com" aria-describedby="auth-msg">
+    </div>
+    <button type="submit" class="btn" id="auth-submit">Email me a link</button>
+  </form>
+  <p class="note" id="auth-msg" role="status"></p>
+</section>
+<div class="wrap" id="app-wrap">
   <header class="hero">
     <h1>Kerning</h1>
     <p class="hero-role">
@@ -1100,6 +1130,11 @@ let mode = "curated";
 let digestMeta = null;
 let digestPack = null;
 let cadence = "weekly";
+let hostedMode = false;
+let me = null;
+let putTimer = 0;
+let rebuildJobId = null;
+let rebuildFailed = false;
 
 function loadProfile() {
   try {
@@ -1123,9 +1158,54 @@ function saveCadence() {
   try { localStorage.setItem(CADENCE_KEY, cadence); }
   catch (e) { /* private mode */ }
 }
-function saveProfile() {
+function saveProfileLocal() {
   try { localStorage.setItem(KEY, JSON.stringify(profile)); }
   catch (e) { /* quota or private mode — app still works this session */ }
+}
+function saveProfile() {
+  saveProfileLocal();
+  if (hostedMode && me) schedulePutProfile();
+}
+function profileIsEmpty(p) {
+  if (!p) return true;
+  const seeds = p.seeds || {};
+  const people = seeds.people || [];
+  const resources = seeds.resources || [];
+  const articles = seeds.articles || [];
+  const ratings = p.ratings || {};
+  const saved = p.saved || [];
+  return !people.length && !resources.length && !articles.length
+    && !Object.keys(ratings).length && !saved.length
+    && !Object.keys(p.weights || {}).length;
+}
+function browserTimezone() {
+  try { return Intl.DateTimeFormat().resolvedOptions().timeZone || ""; }
+  catch (e) { return ""; }
+}
+async function api(path, opts) {
+  const res = await fetch(path, Object.assign({
+    credentials: "include",
+    headers: { "Content-Type": "application/json" },
+  }, opts || {}));
+  if (res.status === 401) {
+    showLanding(true);
+    throw new Error("sign in");
+  }
+  return res;
+}
+function schedulePutProfile() {
+  clearTimeout(putTimer);
+  putTimer = setTimeout(putProfileNow, 500);
+}
+async function putProfileNow() {
+  if (!hostedMode || !me) return;
+  try {
+    const res = await api("/me/profile", {
+      method: "PUT",
+      body: JSON.stringify(profile),
+    });
+    if (!res.ok) throw new Error(res.status);
+  } catch (e) { /* next edit retries */ }
 }
 
 /* ---------------------------------------------------------------- */
@@ -2140,9 +2220,20 @@ function importProfile(file) {
 }
 
 async function loadDigest() {
+  if (hostedMode) {
+    const res = await api("/me/digest");
+    if (res.status === 404) throw new Error("digest-missing");
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    applyDigestPayload(data);
+    return;
+  }
   const res = await fetch("digest.json?t=" + Date.now());
   if (!res.ok) throw new Error(res.status);
-  const data = await res.json();
+  applyDigestPayload(await res.json());
+}
+
+function applyDigestPayload(data) {
   const packs = data.cadences || {};
   if (!packs.daily && !packs.weekly && !packs.monthly) {
     if (!data.items || !data.items.length) throw new Error("empty");
@@ -2161,28 +2252,86 @@ async function loadDigest() {
   applyCadence(cadence, false);
 }
 
+async function pollJob(jobId, until) {
+  rebuildJobId = jobId;
+  while (Date.now() < until) {
+    const res = await api("/me/jobs/" + encodeURIComponent(jobId));
+    if (!res.ok) return "error";
+    const job = await res.json();
+    if (job.status === "done") return "done";
+    if (job.status === "error") return "error";
+    await new Promise((r) => setTimeout(r, 1500));
+  }
+  return "timeout";
+}
+
 async function ensureFreshDigest() {
+  if (hostedMode) {
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 240000);
+    try {
+      const res = await api("/me/rebuild", { method: "POST", signal: ctrl.signal });
+      if (res.status === 429) return "ok";
+      if (!res.ok) return "error";
+      const body = await res.json();
+      if (body.jobId) {
+        const outcome = await pollJob(body.jobId, Date.now() + 180000);
+        if (outcome === "error") return "error";
+      }
+      return "ok";
+    } catch (e) {
+      return "error";
+    } finally { clearTimeout(timer); }
+  }
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 240000);
   try {
     const res = await fetch("/rebuild", { method: "POST", signal: ctrl.signal });
-    if (res.status === 404 || res.status === 403) return;
+    if (res.status === 404 || res.status === 403) return "ok";
+    if (!res.ok) return "error";
   } catch (e) { /* file://, plain http.server, or timeout — read whatever digest exists */ }
   finally { clearTimeout(timer); }
+  return "ok";
 }
 
-async function load() {
-  status = "loading"; render();
+async function load(opts) {
+  const force = !!(opts && opts.force === true);
+  status = "loading";
+  rebuildFailed = false;
+  render();
   try {
     if (mode === "curated") {
       try {
-        await ensureFreshDigest();
-        await loadDigest();
-        status = "ok"; recompute(); render(); return;
+        if (hostedMode && !force) {
+          try {
+            await loadDigest();
+            status = "ok"; recompute(); render(); return;
+          } catch (e) {
+            if (String(e.message) === "sign in") return;
+          }
+        }
+        const rebuilt = await ensureFreshDigest();
+        try {
+          await loadDigest();
+          status = "ok"; recompute(); render(); return;
+        } catch (e) {
+          if (String(e.message) === "sign in") return;
+          if (hostedMode && rebuilt === "error") rebuildFailed = true;
+          else if (hostedMode && String(e.message) === "digest-missing") {
+            const ready = await waitForHostedDigest();
+            if (ready) {
+              status = "ok"; recompute(); render(); return;
+            }
+            rebuildFailed = true;
+          } else {
+            mode = "live";
+          }
+        }
       } catch (e) {
-        mode = "live";   // no digest.json yet, or served from file://
+        mode = "live";
       }
     }
+    if (rebuildFailed) mode = "live";
     raw = await fetchStories(days, (p) => {
       const f = document.querySelector("#digest-status .bar > i");
       if (f) f.style.width = (p * 100) + "%";
@@ -2194,6 +2343,164 @@ async function load() {
     status = "error";
   }
   recompute(); render();
+}
+
+async function waitForHostedDigest() {
+  const until = Date.now() + 120000;
+  while (Date.now() < until) {
+    try {
+      await loadDigest();
+      return true;
+    } catch (e) {
+      if (String(e.message) === "sign in") return false;
+    }
+    await new Promise((r) => setTimeout(r, 2000));
+  }
+  return false;
+}
+
+function showLanding(on) {
+  const landing = document.getElementById("landing");
+  const wrap = document.getElementById("app-wrap");
+  const tabs = document.getElementById("tabs");
+  const slot = document.getElementById("auth-slot");
+  if (landing) {
+    landing.classList.toggle("hidden", !on);
+    landing.hidden = !on;
+  }
+  if (wrap) {
+    wrap.classList.toggle("hidden", on);
+    wrap.hidden = on;
+  }
+  if (tabs) tabs.classList.toggle("hidden", on);
+  if (slot && on) slot.classList.add("hidden");
+}
+
+function renderAuthSlot() {
+  const slot = document.getElementById("auth-slot");
+  if (!slot) return;
+  if (!hostedMode || !me) {
+    slot.classList.add("hidden");
+    slot.innerHTML = "";
+    return;
+  }
+  slot.classList.remove("hidden");
+  slot.innerHTML = '<span class="nav-email">' + esc(me.email) + "</span>"
+    + '<button type="button" class="btn" id="sign-out">Sign out</button>';
+  const out = document.getElementById("sign-out");
+  if (out) out.onclick = signOut;
+}
+
+async function signOut() {
+  try {
+    await fetch("/auth/logout", { method: "POST", credentials: "include" });
+  } catch (e) { /* still leave */ }
+  me = null;
+  hostedMode = true;
+  showLanding(true);
+}
+
+async function probeHost() {
+  try {
+    const res = await fetch("/me", { credentials: "include" });
+    if (res.status === 401) {
+      hostedMode = true;
+      return "landing";
+    }
+    if (res.ok) {
+      me = await res.json();
+      hostedMode = true;
+      return "hosted";
+    }
+  } catch (e) { /* local file or single-user server */ }
+  hostedMode = false;
+  return "local";
+}
+
+async function hydrateHostedProfile() {
+  const res = await api("/me/profile");
+  if (!res.ok) return;
+  const remote = await res.json();
+  if (profileIsEmpty(remote) && !profileIsEmpty(profile)) {
+    await putProfileNow();
+  } else if (!profileIsEmpty(remote)) {
+    profile = normalizeProfile(remote);
+    saveProfileLocal();
+    rebuildWeights();
+  } else {
+    await putProfileNow();
+  }
+}
+
+async function persistTimezone() {
+  const tz = browserTimezone();
+  if (!hostedMode || !me || !tz) return;
+  if (tz === me.timezone) return;
+  try {
+    const res = await api("/me", { method: "PUT", body: JSON.stringify({ timezone: tz }) });
+    if (res.ok) me = await res.json();
+  } catch (e) { /* labels still use the browser clock */ }
+}
+
+async function boot() {
+  loadProfile();
+  const kind = await probeHost();
+  if (kind === "landing") {
+    showLanding(true);
+    bindAuthForm();
+    if (/[?&]expired=/.test(location.search)) {
+      const msg = document.getElementById("auth-msg");
+      if (msg) msg.textContent = "That link expired. Request a new one.";
+    }
+    return;
+  }
+  showLanding(false);
+  if (kind === "hosted") {
+    await hydrateHostedProfile();
+    await persistTimezone();
+    renderAuthSlot();
+  }
+  render();
+  load();
+}
+
+function bindAuthForm() {
+  const form = document.getElementById("auth-form");
+  if (!form || form.dataset.bound) return;
+  form.dataset.bound = "1";
+  form.onsubmit = async (e) => {
+    e.preventDefault();
+    const input = document.getElementById("auth-email");
+    const msg = document.getElementById("auth-msg");
+    const btn = document.getElementById("auth-submit");
+    const email = (input && input.value || "").trim();
+    if (msg) msg.textContent = "";
+    if (btn) btn.disabled = true;
+    try {
+      const res = await fetch("/auth/request", {
+        method: "POST",
+        credentials: "include",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email: email, timezone: browserTimezone() }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        if (msg) msg.textContent = (typeof data.detail === "string" && data.detail)
+          || "Couldn’t send a link. Try again in a few minutes.";
+        return;
+      }
+      if (data.devLink) {
+        if (msg) msg.innerHTML = "No mail server in this environment. "
+          + '<a class="link" href="' + esc(data.devLink) + '">Open the sign-in link</a>.';
+      } else if (msg) {
+        msg.textContent = "Check your inbox. The link expires in 20 minutes.";
+      }
+    } catch (err) {
+      if (msg) msg.textContent = "Couldn’t send a link. Check your connection and try again.";
+    } finally {
+      if (btn) btn.disabled = false;
+    }
+  };
 }
 
 /* ---------------------------------------------------------------- */
@@ -2253,7 +2560,7 @@ function renderDigest() {
   if (status === "loading") {
     statusEl.innerHTML = '<div class="bar"><i></i></div>'
       + '<p class="note">' + (mode === "curated"
-        ? (CADENCE_COPY[cadence] || CADENCE_COPY.weekly).loading
+        ? (hostedMode ? "Building your digest." : (CADENCE_COPY[cadence] || CADENCE_COPY.weekly).loading)
         : "Searching " + QUERIES.length + " design and product topics on Hacker News.") + "</p>";
     listEl.innerHTML = ""; stripsEl.className = "strips hidden"; return;
   }
@@ -2281,8 +2588,12 @@ function renderDigest() {
   } else if (mode === "curated" && digestMeta) {
     head = '<p class="primer">' + esc(copy.prefix) + "\u2019s digest, from Hacker News, publications, and Bluesky.</p>";
   } else if (mode === "live") {
-    head = '<p class="primer">Live Hacker News only. Run '
-      + '<code>python3 kerning_fetch.py</code> for the curated digest.</p>';
+    head = rebuildFailed
+      ? '<p class="primer">Couldn\'t build your digest. This is live Hacker News. Try Refresh in a few minutes.</p>'
+      : (hostedMode
+        ? '<p class="primer">Live Hacker News while your digest is built.</p>'
+        : '<p class="primer">Live Hacker News only. Run '
+          + '<code>python3 kerning_fetch.py</code> for the curated digest.</p>');
   }
 
   if (nRatings === 0 && !hasSeeds() && queue.length && !dates && mode === "live") {
@@ -2304,8 +2615,12 @@ function renderDigest() {
   const foot = document.getElementById("footer-note");
   if (foot) {
     foot.textContent = mode === "curated"
-      ? "Built from Hacker News, design and product publications, Substack, design-system releases, and Bluesky. Ratings and Taste stay in this browser."
-      : "Live results come from the public Hacker News search API. Ratings and Taste stay in this browser.";
+      ? (hostedMode
+        ? "Built from Hacker News, publications, Substack, design-system releases, and Bluesky. Ratings and Taste stay with your account."
+        : "Built from Hacker News, design and product publications, Substack, design-system releases, and Bluesky. Ratings and Taste stay in this browser.")
+      : (hostedMode
+        ? "Live Hacker News while your digest is built. Ratings and Taste stay with your account."
+        : "Live results come from the public Hacker News search API. Ratings and Taste stay in this browser.");
   }
   document.getElementById("cadence").classList.toggle("hidden", mode !== "curated");
   document.getElementById("range").classList.toggle("hidden", mode !== "live");
@@ -2725,7 +3040,7 @@ function renderTasteSources() {
 
     + '<section class="tsec" aria-labelledby="taste-people">'
     + '<h2 id="taste-people">People you follow</h2>'
-    + '<p class="note">Martin’s X following is a starting list. Add X, Bluesky, or Substack writers of your&nbsp;own.</p>'
+    + '<p class="note">Martin’s X following is a starting list. They shape ranking when they show up as sharers. Add Bluesky, Substack, or RSS to watch writers&nbsp;directly.</p>'
     + '<form class="tadd" id="add-people">'
     + '<div class="tfield"><label for="people-input">Handle, URL, or a pasted list</label>'
     + '<input id="people-input" name="people" type="text" spellcheck="false" autocomplete="off" '
@@ -3042,6 +3357,7 @@ function render() {
   if (tab === "digest") renderDigest();
   else if (tab === "saved") renderSaved();
   else renderTaste();
+  renderAuthSlot();
   syncSelDots(sliding);
 }
 
@@ -3105,7 +3421,7 @@ document.getElementById("taste-panes").addEventListener("keydown", (e) => {
   e.preventDefault();
 });
 
-document.getElementById("refresh").onclick = load;
+document.getElementById("refresh").onclick = function () { load({ force: true }); };
 
 document.body.addEventListener("click", (e) => {
   const b = e.target.closest("[data-act]");
@@ -3145,9 +3461,7 @@ document.getElementById("reset-dialog").addEventListener("close", function () {
   if (trigger) trigger.focus();
 });
 
-loadProfile();
-render();
-load();
+boot();
 window.addEventListener("resize", function () {
   syncSelDots(null);
 });

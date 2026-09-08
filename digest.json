@@ -1,73 +1,71 @@
 {
-  "generated_at": "2026-09-07T15:01:48.967432+00:00",
+  "generated_at": "2026-09-07T22:43:15.050506+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "6 September 2026",
-      "period_start": "2026-09-06",
-      "period_end": "2026-09-06",
+      "label": "7 September 2026",
+      "period_start": "2026-09-07",
+      "period_end": "2026-09-07",
       "items": [
         {
-          "id": "57fe62dc7da7",
-          "title": "August 31 - September 6 Round Up: Gemini Interface Design, Sci-Fi AI Predictions, Figma System Audits",
-          "url": "https://aiforux.substack.com/p/august-31-september-6-round-up-gemini",
-          "hn": "https://aiforux.substack.com/p/august-31-september-6-round-up-gemini",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1788719472,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 3.945,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "768176aedba8",
-          "title": "Show HN: VODForge – a free local desktop UI for YouTube video/playlist downloads",
-          "url": "https://getvodforge.com/",
-          "hn": "https://news.ycombinator.com/item?id=49590354",
-          "points": 37,
-          "comments": 12,
-          "created_at_i": 1788725250,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.391,
-          "why": []
-        },
-        {
-          "id": "aed35d42cbc6",
-          "title": "Forte UI – React components whose palette derives from one CSS variable",
-          "url": "https://forte-ui.com/",
-          "hn": "https://news.ycombinator.com/item?id=49588892",
+          "id": "e2e8740b0998",
+          "title": "Strata – A design system that records decisions, not components",
+          "url": "https://github.com/Prometheus-000/strata",
+          "hn": "https://news.ycombinator.com/item?id=49598842",
           "points": 1,
-          "comments": 0,
-          "created_at_i": 1788716442,
+          "comments": 1,
+          "created_at_i": 1788791159,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 3.267,
+          "score": 2.664,
           "why": []
         },
         {
-          "id": "a6cb33cc9806",
-          "title": "A Figma clone built by GPT-6 Astra",
-          "url": "https://wieslawsoltes.github.io/Vellum/",
-          "hn": "https://news.ycombinator.com/item?id=49583764",
-          "points": 6,
-          "comments": 6,
-          "created_at_i": 1788674597,
+          "id": "d8534d0fd905",
+          "title": "Ask HN: How do you keep AI coding agents in sync with a changing Figma file?",
+          "url": "https://news.ycombinator.com/item?id=49595961",
+          "hn": "https://news.ycombinator.com/item?id=49595961",
+          "points": 2,
+          "comments": 1,
+          "created_at_i": 1788772620,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.841,
+          "score": 2.362,
+          "why": []
+        },
+        {
+          "id": "57ba0d676ced",
+          "title": "Show HN: Bamboo – build-time, Rust/Oxc, type-safe, zero-runtime CSS-in-JS",
+          "url": "https://bamboocss.com/docs/overview/getting-started/",
+          "hn": "https://news.ycombinator.com/item?id=49602667",
+          "points": 1,
+          "comments": 2,
+          "created_at_i": 1788812978,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.274,
+          "why": []
+        },
+        {
+          "id": "2d38826e8814",
+          "title": "Show HN: I wrote a guide to rendering video from plain HTML/CSS/GSAP",
+          "url": "https://sidheart.gumroad.com/l/lyudd",
+          "hn": "https://news.ycombinator.com/item?id=49594877",
+          "points": 2,
+          "comments": 1,
+          "created_at_i": 1788764591,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 1.978,
           "why": []
         }
       ]
@@ -93,7 +91,7 @@
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.903,
+          "score": 2.885,
           "why": []
         },
         {
@@ -108,22 +106,7 @@
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.716,
-          "why": []
-        },
-        {
-          "id": "e3c58a9e2e16",
-          "title": "Show HN: The ros2_utils_tool v1.0, a tool for ROS2 activies with full UI support",
-          "url": "https://github.com/MaxFleur/ros2_utils_tool/",
-          "hn": "https://news.ycombinator.com/item?id=49597230",
-          "points": 1,
-          "comments": 0,
-          "created_at_i": 1788781864,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.463,
+          "score": 2.698,
           "why": []
         },
         {
@@ -138,7 +121,22 @@
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.377,
+          "score": 2.36,
+          "why": []
+        },
+        {
+          "id": "57ba0d676ced",
+          "title": "Show HN: Bamboo – build-time, Rust/Oxc, type-safe, zero-runtime CSS-in-JS",
+          "url": "https://bamboocss.com/docs/overview/getting-started/",
+          "hn": "https://news.ycombinator.com/item?id=49602667",
+          "points": 1,
+          "comments": 2,
+          "created_at_i": 1788812978,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.333,
           "why": []
         }
       ]
@@ -161,7 +159,7 @@
             "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 9.264,
+          "score": 9.257,
           "why": [
             "picked up by Hacker News and Lenny's Newsletter",
             "matches your profile"
@@ -181,7 +179,7 @@
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 9.159,
+          "score": 9.152,
           "why": [
             "picked up by Hacker News and Lobsters and Bluesky"
           ],
@@ -202,7 +200,7 @@
             "Lobsters"
           ],
           "sharers": 0,
-          "score": 7.062,
+          "score": 7.054,
           "why": [
             "picked up by Hacker News and Lobsters"
           ]
@@ -219,7 +217,7 @@
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 6.033,
+          "score": 6.026,
           "why": [
             "shared by 2 design accounts",
             "2 Bluesky posts"
@@ -241,7 +239,7 @@
             "Design systems"
           ],
           "sharers": 0,
-          "score": 4.726,
+          "score": 4.718,
           "why": [
             "editor's pick at Design systems"
           ]
@@ -258,7 +256,7 @@
             "Design systems"
           ],
           "sharers": 0,
-          "score": 4.726,
+          "score": 4.718,
           "why": [
             "editor's pick at Design systems"
           ]
@@ -275,7 +273,7 @@
             "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 4.444,
+          "score": 4.436,
           "why": [
             "editor's pick at AI for UX Substack"
           ]
@@ -292,7 +290,7 @@
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 4.215,
+          "score": 4.208,
           "why": [
             "307 points"
           ]
@@ -309,7 +307,7 @@
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.999,
+          "score": 3.992,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -326,7 +324,7 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.979,
+          "score": 3.972,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -343,7 +341,7 @@
             "NN/g"
           ],
           "sharers": 0,
-          "score": 3.724,
+          "score": 3.716,
           "why": [
             "editor's pick at NN/g"
           ]
@@ -360,7 +358,7 @@
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.71,
+          "score": 3.703,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -381,7 +379,7 @@
         "Hacker News"
       ],
       "sharers": 0,
-      "score": 2.903,
+      "score": 2.885,
       "why": []
     },
     {
@@ -396,22 +394,7 @@
         "Hacker News"
       ],
       "sharers": 0,
-      "score": 2.716,
-      "why": []
-    },
-    {
-      "id": "e3c58a9e2e16",
-      "title": "Show HN: The ros2_utils_tool v1.0, a tool for ROS2 activies with full UI support",
-      "url": "https://github.com/MaxFleur/ros2_utils_tool/",
-      "hn": "https://news.ycombinator.com/item?id=49597230",
-      "points": 1,
-      "comments": 0,
-      "created_at_i": 1788781864,
-      "sources": [
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 2.463,
+      "score": 2.698,
       "why": []
     },
     {
@@ -426,7 +409,22 @@
         "Hacker News"
       ],
       "sharers": 0,
-      "score": 2.377,
+      "score": 2.36,
+      "why": []
+    },
+    {
+      "id": "57ba0d676ced",
+      "title": "Show HN: Bamboo – build-time, Rust/Oxc, type-safe, zero-runtime CSS-in-JS",
+      "url": "https://bamboocss.com/docs/overview/getting-started/",
+      "hn": "https://news.ycombinator.com/item?id=49602667",
+      "points": 1,
+      "comments": 2,
+      "created_at_i": 1788812978,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 2.333,
       "why": []
     }
   ],

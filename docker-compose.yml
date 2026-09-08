@@ -1,0 +1,44 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: kerning
+      POSTGRES_PASSWORD: kerning
+      POSTGRES_DB: kerning
+    volumes:
+      - kerning_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kerning"]
+      interval: 5s
+      timeout: 5s
+      retries: 8
+
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql://kerning:kerning@db:5432/kerning
+      APP_ORIGIN: ${APP_ORIGIN:-http://127.0.0.1:8000}
+      SECRET_KEY: ${SECRET_KEY:-kerning-dev-secret-change-me}
+      RESEND_API_KEY: ${RESEND_API_KEY:-}
+      MAIL_FROM: ${MAIL_FROM:-Kerning <noreply@localhost>}
+      DEFAULT_TZ: ${DEFAULT_TZ:-Europe/Prague}
+    depends_on:
+      db:
+        condition: service_healthy
+
+  worker:
+    build: .
+    command: ["python", "-m", "app.worker"]
+    environment:
+      DATABASE_URL: postgresql://kerning:kerning@db:5432/kerning
+      APP_ORIGIN: ${APP_ORIGIN:-http://127.0.0.1:8000}
+      SECRET_KEY: ${SECRET_KEY:-kerning-dev-secret-change-me}
+      DEFAULT_TZ: ${DEFAULT_TZ:-Europe/Prague}
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  kerning_pg:

@@ -6,3 +6,7 @@ kerning-profile.json
 .digest-fetch.lock
 .kerning-fetch.log
 .cursor/
+kerning.db
+*.db
+.venv/
+venv/

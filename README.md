@@ -6,18 +6,74 @@ release feeds, and links shared on Bluesky. Ranks this calendar month, cuts
 yesterday’s best 4 plus this week and this month, and learns from what you
 rate.
 
-## Setup
+There are two ways to run it.
+
+## Hosted app (per-user)
+
+Each signed-in person has their own Taste and their own Daily, Weekly, and
+Monthly digest. Sign-in is a magic link (no passwords). Hosted fetch does not
+scrape X.
+
+```bash
+python3 -m pip install -r requirements.txt
+cp .env.example .env
+# In one terminal:
+uvicorn app.main:app --reload --port 8000
+# In another:
+python3 -m app.worker
+```
+
+Open <http://127.0.0.1:8000/>. Enter your email. With no `RESEND_API_KEY` the
+landing page shows a local sign-in link (also printed in the web process log).
+
+Or with Postgres:
+
+```bash
+docker compose up --build
+```
+
+If a personal digest cannot be built, the app falls back to live Hacker News
+and asks you to try Refresh.
+
+### Production (Fly.io)
+
+Phone and desktop share one account once this is on HTTPS with magic-link
+mail. Stay on `*.fly.dev` for now. Until you verify a sending domain, Resend
+only delivers to the email on the Resend account — enough for you on two
+devices.
+
+Sign in on the Mac first. The first signed-in browser uploads localStorage
+Taste if the server profile is empty. Then sign in on the phone with the same
+email. If the phone goes first with an empty profile, it can overwrite Taste.
+
+```bash
+fly auth login
+fly postgres create --name kerning-db --region ams
+fly postgres attach kerning-db
+fly secrets set \
+  SECRET_KEY="$(openssl rand -hex 32)" \
+  RESEND_API_KEY=re_... \
+  MAIL_FROM="Kerning <beth.t@example.com>" \
+  APP_ORIGIN=https://kerning.fly.dev
+fly deploy
+fly scale count worker=1
+```
+
+`MAIL_FROM` can stay Resend’s onboarding sender until you own a domain.
+Confirm `GET https://kerning.fly.dev/health` and that worker logs show crawl
+or cut, not a crash loop.
+
+The worker crawls public sources, cuts each user’s digest in their timezone,
+and enqueues a nightly pass at 00:20. Rebuilds from the app are queued; they
+do not block the request.
+
+## Local single-user (this Mac)
+
+One `digest.json` on disk, Taste in this browser. No accounts.
 
 ```bash
 pip install requests feedparser
 ```
-
-## Running it
-
-Two pieces. The Python script gathers and ranks; the HTML app is how you read
-and rate. Daily, weekly, and monthly rebuild automatically when those windows
-go stale: when you open the app (via the local server), and at 00:20 if you
-install the nightly agent.
 
 **1. Build the digest (optional)**
 
@@ -72,20 +128,24 @@ watches anyone and any feed you added, on top of the curated lists.
 
 | File | What it is |
 |---|---|
-| `kerning_fetch.py` | Fetching, merging, scoring. All the source config is at the top. `--if-stale` skips a run when the windows are current. |
-| `kerning_serve.py` | Local server. Serves the app and rebuilds a stale digest on open. |
-| `scripts/install-schedule.sh` | One-time install of the 00:20 LaunchAgent. |
 | `index.html` | The reading app. Self-contained: HTML, CSS, and JS in one file. |
-| `accounts.txt` | X handles to watch, and the default Taste → Sources people list. One per line, `#` for comments. |
+| `app/` | Hosted FastAPI, magic-link auth, Postgres models, crawl + cut jobs. |
+| `kerning_lib/` | Calendar windows and digest cuts, shared by the CLI and the hosted worker. |
+| `kerning_fetch.py` | Fetching, merging, scoring. All the source config is at the top. `--if-stale` skips a run when the windows are current. |
+| `kerning_serve.py` | Local single-user server. Serves the app and rebuilds a stale digest on open. |
+| `scripts/install-schedule.sh` | One-time install of the 00:20 LaunchAgent for the local path. |
+| `accounts.txt` | X handles used as a Taste watchlist / ranking hints. Hosted fetch does not scrape X for these. |
 | `bsky-accounts.txt` | Bluesky handles to watch. Custom domains work. |
 | `substack.txt` | Substack publications to watch. Slug, host, or URL. |
 | `x-following.js` | Paste into the browser console to export your X following list. |
-| `digest.json` | Generated. What the app reads. |
-| `digest.md` | Generated. The digest as plain text. |
+| `digest.json` | Generated locally. What the single-user app reads. |
+| `digest.md` | Generated locally. The digest as plain text. |
+| `docker-compose.yml` | Postgres + web + worker for the hosted app. |
+| `.env.example` | Hosted secrets template (`DATABASE_URL`, mail, origin). |
 
 ## Changing the look
 
-Everything visual lives in the `<style>` block at the top of `kerning.html`.
+Everything visual lives in the `<style>` block at the top of `index.html`.
 
 Colours are five CSS variables under `:root` — `--paper`, `--ink`, `--flame`,
 `--moss`, `--chalk`. Change those and the whole app follows.
@@ -130,9 +190,10 @@ export BSKY_HANDLE=you.bsky.social
 export BSKY_APP_PASSWORD=xxxx-xxxx-xxxx-xxxx
 ```
 
-## X source (optional, paid)
+## X source (optional, local only)
 
-Put the token in a local `.env` file (gitignored) or export it:
+Hosted Kerning never calls Apify. On this Mac, put the token in a local `.env`
+file (gitignored) or export it:
 
 ```bash
 # .env
@@ -153,9 +214,10 @@ for a personal reading list the practical risk is negligible.
 
 ## Known rough edges
 
-- Ratings and Taste live in one browser's local storage. Export the profile if
+- On the hosted app, Taste lives with your account. Export still downloads JSON.
+- The local single-user path keeps ratings in this browser. Export the profile if
   you switch browsers.
 - The X actor breaks whenever X changes its markup. It fails soft — the run
   carries on without that source.
 - X needs `APIFY_TOKEN` in the environment or a local `.env`. Without it the
-  run skips X and still builds from everything else, including Bluesky.
+  local run skips X and still builds from everything else, including Bluesky.

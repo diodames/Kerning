@@ -191,114 +191,27 @@ MAX_PER_SOURCE = 4
 DAILY_LIMIT = 4         # last complete calendar day only
 SHORTLIST = 40          # how many candidates get a buzz lookup
 
+from kerning_lib.windows import (  # noqa: E402
+    RECENCY_TAU,
+    digest_current,
+    edition_meta,
+    expected_periods,
+    iso_week_id,
+    this_day,
+    this_month,
+    this_week,
+    week_label,
+    yesterday,
+)
+from kerning_lib.cut import cut_cadences  # noqa: E402
+
 # --------------------------------------------------------------------------
 # URL canonicalisation — the backbone of cross-source merging
 # --------------------------------------------------------------------------
 
 _TRACKING = re.compile(r"^(utm_|fbclid|gclid|mc_|ref|ref_src|source|si$)", re.I)
 
-
-def this_week(now=None):
-    """Monday 00:00 local through next Monday 00:00."""
-    now = now or datetime.now().astimezone()
-    start = (now - timedelta(days=now.weekday())).replace(
-        hour=0, minute=0, second=0, microsecond=0
-    )
-    return start, start + timedelta(days=7)
-
-
-def this_day(now=None):
-    now = now or datetime.now().astimezone()
-    start = now.replace(hour=0, minute=0, second=0, microsecond=0)
-    return start, start + timedelta(days=1)
-
-
-def yesterday(now=None):
-    """Yesterday 00:00 local through today 00:00 — the last complete calendar day."""
-    today, _ = this_day(now)
-    return today - timedelta(days=1), today
-
-
-def this_month(now=None):
-    now = now or datetime.now().astimezone()
-    start = now.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
-    if start.month == 12:
-        end = start.replace(year=start.year + 1, month=1)
-    else:
-        end = start.replace(month=start.month + 1)
-    return start, end
-
-
-def week_label(start, end):
-    last = end - timedelta(seconds=1)
-    if start.month == last.month and start.year == last.year:
-        return f"{start.day}–{last.day} {start.strftime('%B %Y')}"
-    if start.year == last.year:
-        return f"{start.day} {start.strftime('%B')} – {last.day} {last.strftime('%B %Y')}"
-    return (
-        f"{start.day} {start.strftime('%B %Y')} – "
-        f"{last.day} {last.strftime('%B %Y')}"
-    )
-
-
-def iso_week_id(start):
-    iso = start.isocalendar()
-    return f"{iso[0]}-W{iso[1]:02d}"
-
-
-RECENCY_TAU = {"daily": 1.5, "weekly": 21, "monthly": 45}
-
-
-def edition_meta(kind, start, end):
-    last = end - timedelta(seconds=1)
-    meta = {
-        "label": {
-            "daily": f"{start.day} {start.strftime('%B %Y')}",
-            "weekly": week_label(start, end),
-            "monthly": start.strftime("%B %Y"),
-        }[kind],
-        "period_start": start.date().isoformat(),
-        "period_end": last.date().isoformat(),
-    }
-    if kind == "weekly":
-        meta["week_start"] = meta["period_start"]
-        meta["week_end"] = meta["period_end"]
-        meta["week_label"] = meta["label"]
-        meta["iso_week"] = iso_week_id(start)
-    return meta
-
-
 FETCH_LOCK = os.path.join(_HERE, ".digest-fetch.lock")
-
-
-def expected_periods(now=None):
-    now = now or datetime.now().astimezone()
-    return {
-        "daily": yesterday(now),
-        "weekly": this_week(now),
-        "monthly": this_month(now),
-    }
-
-
-def digest_current(path, now=None):
-    """True when path already covers yesterday, this week, and this month."""
-    if not os.path.isfile(path):
-        return False
-    try:
-        with open(path, encoding="utf-8") as f:
-            data = json.load(f)
-    except (OSError, ValueError):
-        return False
-    packs = data.get("cadences") or {}
-    now = now or datetime.now().astimezone()
-    for kind, (start, end) in expected_periods(now).items():
-        pack = packs.get(kind) or {}
-        meta = edition_meta(kind, start, end)
-        if pack.get("period_start") != meta["period_start"]:
-            return False
-        if pack.get("period_end") != meta["period_end"]:
-            return False
-    return True
 
 
 @contextmanager
@@ -1800,18 +1713,9 @@ def build_digest(args):
     print(f"bluesky: buzz found for {got}/{len(shortlist)}", file=sys.stderr)
 
     generated_at = datetime.now(timezone.utc).isoformat()
-    cadences = {}
-    for kind, (start, end) in periods.items():
-        tau = RECENCY_TAU.get(kind, 7)
-        limit = DAILY_LIMIT if kind == "daily" else args.limit
-        picked = cut_edition(
-            items, start.timestamp(), limit, weights, now, tau, skip_urls,
-            until=end.timestamp(),
-        )
-        pack = edition_meta(kind, start, end)
-        pack["items"] = [serialize_item(it) for it in picked]
-        cadences[kind] = pack
-        print(f"{kind}: {len(picked)} items", file=sys.stderr)
+    cadences = cut_cadences(items, weights, skip_urls, now_dt, args.limit, periods)
+    for kind, pack in cadences.items():
+        print(f"{kind}: {len(pack.get('items') or [])} items", file=sys.stderr)
 
     write_json(args.out + ".json", cadences, generated_at)
     write_markdown(args.out + ".md", cadences)
