@@ -3,8 +3,8 @@
 A design and product digest you can read daily, weekly, or monthly. Pulls from
 Hacker News, Lobsters, design and product publications, Substack, design-system
 release feeds, and links shared on Bluesky. Ranks this calendar month, cuts
-yesterday’s best 4 plus this week and this month, and learns from what you
-rate.
+yesterday’s best 4 plus the last complete week and this month, and learns from
+what you rate.
 
 There are two ways to run it.
 
@@ -82,10 +82,11 @@ python3 kerning_fetch.py --limit 12
 ```
 
 Writes `digest.json` (read by the app) and `digest.md` (readable on its own).
-One run builds yesterday (4), this week (Monday–Sunday, 12), and this month
-(12). Daily is the last complete calendar day, not today-so-far. The app
-switches between them. Pass `--days 7` if you want a single rolling window
-instead. X is skipped unless `APIFY_TOKEN` is set.
+One run builds yesterday (4), the last complete Monday–Sunday (12), and this
+month (12). Daily is the last complete calendar day, not today-so-far. Weekly
+is the last complete week, not this week so far. The app switches between
+them. Pass `--days 7` if you want a single rolling window instead. X is
+skipped unless `APIFY_TOKEN` is set.
 
 A forced rebuild is only needed when you want a new pass before the windows
 change. Opening the app, or the nightly job, runs `kerning_fetch.py --if-stale`
@@ -101,6 +102,37 @@ Then go to <http://127.0.0.1:8000/index.html>.
 
 You need this server, not `python3 -m http.server`. Plain `http.server` cannot
 rebuild.
+
+**Weekly empty or stuck loading**
+
+Serve with `python3 kerning_serve.py`. Do not use `python3 -m http.server`: it
+cannot rebuild, and `POST /api/rebuild` returns 501 so the app never reaches
+`/rebuild`.
+
+Three screens mean different things:
+
+- **Stale banner** (“This edition is not this week’s”) — the file is an
+  older week’s pack. The app shows those stories at once and recuts in the
+  background.
+- **Vacant** (“Nothing in this week’s digest”) — last week’s pack has no
+  stories. Check back Monday, when the next week has closed. Monthly may
+  still be current.
+- **Spinner** (“Opening this week’s digest”) — must clear as soon as
+  `digest.json` loads. If it hangs, a recut is stuck on the fetch lock.
+
+Vacant Weekly on a Monday used to mean the recut targeted the week that had
+just started — often empty — and overwrote the closed Monday–Sunday pack.
+Weekly is now that last complete week, same idea as Daily → yesterday.
+
+If a recut hangs:
+
+```bash
+ps aux | grep kerning_fetch
+```
+
+A lock held too long is `.digest-fetch.lock` in the repo, or
+`/tmp/.digest-fetch.lock` if the repo is not writable. The next fetch steals a
+lock older than 280 seconds. You can also delete that file and reopen the app.
 
 ### Vercel (shared public digest)
 

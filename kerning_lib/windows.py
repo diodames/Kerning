@@ -33,6 +33,12 @@ def this_week(now=None):
     return start, start + timedelta(days=7)
 
 
+def last_week(now=None):
+    """Previous Monday 00:00 through this Monday 00:00 — the last complete week."""
+    start, end = this_week(now)
+    return start - timedelta(days=7), end - timedelta(days=7)
+
+
 def this_day(now=None):
     now = now or aware_now()
     start = now.replace(hour=0, minute=0, second=0, microsecond=0)
@@ -95,13 +101,13 @@ def expected_periods(now=None):
     now = now or aware_now()
     return {
         "daily": yesterday(now),
-        "weekly": this_week(now),
+        "weekly": last_week(now),
         "monthly": this_month(now),
     }
 
 
 def cadences_current(cadences, now=None):
-    """True when cadence packs cover yesterday, this week, and this month."""
+    """True when cadence packs cover yesterday, last week, and this month."""
     packs = cadences or {}
     now = now or aware_now()
     for kind, (start, end) in expected_periods(now).items():
@@ -115,7 +121,7 @@ def cadences_current(cadences, now=None):
 
 
 def payload_current(data, now=None):
-    """True when a digest payload covers yesterday, this week, and this month."""
+    """True when a digest payload covers yesterday, last week, and this month."""
     if not isinstance(data, dict):
         return False
     return cadences_current(data.get("cadences") or {}, now)

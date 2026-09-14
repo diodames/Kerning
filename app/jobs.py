@@ -189,7 +189,7 @@ def run_cut(user_id, force=False):
     import time
     import kerning_fetch as kf
     from app.crawl import crawl_shared, pool_is_fresh, pool_items
-    from kerning_lib.cut import cut_cadences
+    from kerning_lib.cut import cut_cadences, keep_previous_weekly
 
     db = SessionLocal()
     try:
@@ -229,6 +229,8 @@ def run_cut(user_id, force=False):
         weights = profile.get("weights") or {}
         cadences = cut_cadences(items, weights, skip, now_dt, limit=12)
         rec = db.get(UserDigest, user_id)
+        if rec:
+            cadences = keep_previous_weekly(cadences, {"cadences": rec.cadences or {}})
         generated = datetime.now(timezone.utc).isoformat()
         if rec:
             rec.cadences = cadences

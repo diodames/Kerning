@@ -1,10 +1,45 @@
 """Cut Daily / Weekly / Monthly packs from an in-memory item pool."""
 
+import sys
 from datetime import datetime, timezone
 
 from kerning_lib.windows import RECENCY_TAU, edition_meta, expected_periods
 
 DAILY_LIMIT = 4
+_WEEKLY_PAYLOAD_KEYS = ("week_start", "week_end", "week_label", "iso_week")
+
+
+def keep_previous_weekly(cadences, previous):
+    """If the new weekly pack is empty, keep the previous weekly when it has items."""
+    cadences = cadences or {}
+    new_weekly = cadences.get("weekly") or {}
+    if new_weekly.get("items"):
+        return cadences
+    old_weekly = ((previous or {}).get("cadences") or {}).get("weekly") or {}
+    if not old_weekly.get("items"):
+        return cadences
+    print("weekly: empty cut, keeping previous pack", file=sys.stderr)
+    merged = dict(cadences)
+    merged["weekly"] = old_weekly
+    return merged
+
+
+def apply_kept_weekly(payload, previous):
+    """Keep previous weekly on an empty recut, including top-level week fields."""
+    if not isinstance(payload, dict):
+        return payload
+    cadences = payload.get("cadences") or {}
+    kept = keep_previous_weekly(cadences, previous)
+    if kept is cadences:
+        return payload
+    out = dict(payload)
+    out["cadences"] = kept
+    weekly = kept.get("weekly") or {}
+    out["items"] = weekly.get("items") or []
+    for key in _WEEKLY_PAYLOAD_KEYS:
+        if key in weekly:
+            out[key] = weekly[key]
+    return out
 
 
 def cut_cadences(items, weights, skip_urls, now, limit=12, periods=None):

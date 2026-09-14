@@ -8,13 +8,14 @@ from kerning_lib.windows import (
     edition_meta,
     expected_periods,
     iso_week_id,
+    last_week,
     this_day,
     this_month,
     this_week,
     week_label,
     yesterday,
 )
-from kerning_lib.cut import cut_cadences, row_to_item
+from kerning_lib.cut import cut_cadences, keep_previous_weekly, row_to_item
 
 __all__ = [
     "RECENCY_TAU",
@@ -25,6 +26,8 @@ __all__ = [
     "edition_meta",
     "expected_periods",
     "iso_week_id",
+    "keep_previous_weekly",
+    "last_week",
     "row_to_item",
     "this_day",
     "this_month",

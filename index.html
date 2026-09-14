@@ -1029,8 +1029,8 @@ const CADENCE_COPY = {
     empty: "That\u2019s this week\u2019s list.",
     emptyNote: "Saved stories stay here. A new issue lands Monday.",
     loading: "Opening this week\u2019s digest.",
-    vacant: "Nothing in this week\u2019s digest yet.",
-    vacantNote: "Try Monthly, or check back later in the week.",
+    vacant: "Nothing in this week\u2019s digest.",
+    vacantNote: "Try Monthly, or check back Monday, when the next\u00a0week has\u00a0closed.",
     stale: "This edition is not this week\u2019s.",
   },
   monthly: {
@@ -1467,7 +1467,8 @@ function addLocalDays(d, n) {
 function expectedCadenceMeta(now) {
   const today = startOfLocalDay(now || new Date());
   const yday = addLocalDays(today, -1);
-  const weekStart = addLocalDays(today, -((today.getDay() + 6) % 7));
+  const thisMonday = addLocalDays(today, -((today.getDay() + 6) % 7));
+  const weekStart = addLocalDays(thisMonday, -7);
   const weekLast = addLocalDays(weekStart, 6);
   const monthStart = new Date(today.getFullYear(), today.getMonth(), 1);
   const monthLast = new Date(today.getFullYear(), today.getMonth() + 1, 0);
@@ -2475,6 +2476,8 @@ async function pollJob(jobId, until) {
 }
 
 async function ensureFreshDigest(opts) {
+  // 404/403: no Vercel route. 405/501: python -m http.server. Then POST /rebuild.
+  // Keep statuses in sync with kerning_lib.rebuild.after_api_rebuild.
   const force = !!(opts && opts.force === true);
   if (hostedMode) {
     const ctrl = new AbortController();
@@ -2516,7 +2519,7 @@ async function ensureFreshDigest(opts) {
         });
         return outcome === "ok" ? "ok" : "error";
       }
-      if (res.status !== 404 && res.status !== 403) return "error";
+      if (res.status !== 404 && res.status !== 403 && res.status !== 405 && res.status !== 501) return "error";
     } catch (e) { /* no Vercel route — try the local server */ }
     const res = await fetch("/rebuild", { method: "POST", signal: ctrl.signal });
     if (res.status === 404 || res.status === 403) return "static";
@@ -2547,6 +2550,7 @@ async function pollBlobDigest(until, opts) {
 }
 
 async function load(opts) {
+  // Never await recut before first paint when digest.json already loaded.
   const force = !!(opts && opts.force === true);
   status = "loading";
   rebuildFailed = false;
@@ -2561,6 +2565,22 @@ async function load(opts) {
           have = true;
           if (!force && cadencesCurrent(digestPack)) {
             status = "ok"; recompute(); render(); return;
+          }
+          if (have && !force) {
+            status = "ok";
+            recompute();
+            render();
+            ensureFreshDigest({ force: false }).then(async (rebuilt) => {
+              canRebuild = rebuilt !== "static";
+              if (rebuilt !== "ok") return;
+              try {
+                await loadDigest();
+                status = "ok";
+                recompute();
+                render();
+              } catch (e) {}
+            });
+            return;
           }
         } catch (e) {
           if (String(e.message) === "sign in") return;

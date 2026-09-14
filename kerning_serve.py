@@ -64,13 +64,22 @@ class Handler(SimpleHTTPRequestHandler):
 
 def rebuild():
     if digest_current(_DIGEST):
+        print("rebuild: digest current, skip", file=sys.stderr)
         return {"rebuilt": False}
-    run = subprocess.run(
-        [sys.executable, _FETCH, "--limit", "12", "--if-stale"],
-        cwd=_HERE,
-    )
+    print("rebuild: starting kerning_fetch.py --if-stale", file=sys.stderr)
+    try:
+        run = subprocess.run(
+            [sys.executable, _FETCH, "--limit", "12", "--if-stale"],
+            cwd=_HERE,
+            timeout=280,
+        )
+    except subprocess.TimeoutExpired as e:
+        print("rebuild: kerning_fetch.py timed out", file=sys.stderr)
+        raise RuntimeError("kerning_fetch.py timed out") from e
     if run.returncode != 0:
+        print("rebuild: kerning_fetch.py exited %s" % run.returncode, file=sys.stderr)
         raise RuntimeError("kerning_fetch.py exited %s" % run.returncode)
+    print("rebuild: done", file=sys.stderr)
     return {"rebuilt": True}
 
 

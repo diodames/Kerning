@@ -23,6 +23,16 @@ class BlobDigestTests(unittest.TestCase):
         self.assertTrue(should_skip_fetch(data, force=False, now=now))
         self.assertFalse(should_skip_fetch(data, force=True, now=now))
 
+    def test_skip_fetch_when_last_complete_week_matches_prague(self):
+        from zoneinfo import ZoneInfo
+
+        now = datetime(2026, 9, 14, 17, 0, tzinfo=ZoneInfo("Europe/Prague"))
+        data = _pack(now)
+        weekly = data["cadences"]["weekly"]
+        self.assertEqual(weekly["period_start"], "2026-09-07")
+        self.assertEqual(weekly["period_end"], "2026-09-13")
+        self.assertTrue(should_skip_fetch(data, force=False, now=now))
+
     def test_do_not_skip_missing_or_stale(self):
         now = datetime(2026, 9, 8, 9, 0, tzinfo=CEST)
         self.assertFalse(should_skip_fetch(None, now=now))

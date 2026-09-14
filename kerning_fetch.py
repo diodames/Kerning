@@ -4,7 +4,7 @@ Kerning — a design and product digest you can read daily, weekly, or monthly.
 
 Pulls from Hacker News, Lobsters, design and product publications, Substack,
 and the release feeds of major design systems. Merges everything by canonical
-URL, then cuts yesterday’s best 4, this week, and this month.
+URL, then cuts yesterday’s best 4, last week, and this month.
 
     pip install requests feedparser
     python3 kerning_fetch.py --limit 12
@@ -195,16 +195,13 @@ from kerning_lib.windows import (  # noqa: E402
     RECENCY_TAU,
     aware_now,
     digest_current,
-    edition_meta,
-    expected_periods,
     iso_week_id,
-    this_day,
+    last_week,
     this_month,
-    this_week,
     week_label,
     yesterday,
 )
-from kerning_lib.cut import cut_cadences  # noqa: E402
+from kerning_lib.cut import cut_cadences, keep_previous_weekly  # noqa: E402
 
 # --------------------------------------------------------------------------
 # URL canonicalisation — the backbone of cross-source merging
@@ -213,6 +210,8 @@ from kerning_lib.cut import cut_cadences  # noqa: E402
 _TRACKING = re.compile(r"^(utm_|fbclid|gclid|mc_|ref|ref_src|source|si$)", re.I)
 
 FETCH_LOCK = os.path.join(_HERE, ".digest-fetch.lock")
+FETCH_LOCK_TTL_SEC = 280
+FETCH_LOCK_POLL_SEC = 0.25
 
 
 def _lock_path():
@@ -225,18 +224,64 @@ def _lock_path():
         return os.path.join("/tmp", ".digest-fetch.lock")
 
 
-@contextmanager
-def fetch_lock():
-    """Exclusive lock so the server and launchd cannot fetch at once."""
-    fh = open(_lock_path(), "a+")
+def lock_is_stale(path, ttl=FETCH_LOCK_TTL_SEC, now=None):
+    """True when the lock file is older than ttl (a hung fetch)."""
+    now = time.time() if now is None else now
     try:
-        fcntl.flock(fh.fileno(), fcntl.LOCK_EX)
+        return (now - os.path.getmtime(path)) > ttl
+    except OSError:
+        return True
+
+
+@contextmanager
+def fetch_lock(ttl=FETCH_LOCK_TTL_SEC, now_fn=time.time, sleep=time.sleep,
+               path=None, poll=FETCH_LOCK_POLL_SEC):
+    """Exclusive lock so the server and launchd cannot fetch at once.
+
+    Never wait forever: poll LOCK_NB. Steal by unlinking if mtime is older
+    than ttl. Raise TimeoutError if a live lock is held past ttl.
+    """
+    path = path or _lock_path()
+    deadline = now_fn() + ttl
+    fh = open(path, "a+")
+    try:
+        while True:
+            try:
+                fcntl.flock(fh.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+                os.utime(path, None)
+                break
+            except (BlockingIOError, OSError):
+                if lock_is_stale(path, ttl, now_fn()):
+                    print("fetch lock stale (%ss); stealing %s" % (ttl, path),
+                          file=sys.stderr)
+                    try:
+                        fh.close()
+                    except OSError:
+                        pass
+                    try:
+                        os.unlink(path)
+                    except OSError:
+                        pass
+                    fh = open(path, "a+")
+                    try:
+                        fcntl.flock(fh.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+                        os.utime(path, None)
+                        break
+                    except (BlockingIOError, OSError):
+                        pass
+                if now_fn() >= deadline:
+                    raise TimeoutError("fetch lock held past %ss" % ttl)
+                sleep(poll)
         yield
     finally:
         try:
             fcntl.flock(fh.fileno(), fcntl.LOCK_UN)
-        finally:
+        except OSError:
+            pass
+        try:
             fh.close()
+        except OSError:
+            pass
 
 
 def canonical(url: str) -> str:
@@ -1533,7 +1578,7 @@ def main():
                     help="tweet budget for the calibration run")
     ap.add_argument("--if-stale", action="store_true",
                     help="skip the fetch when digest.json already covers "
-                         "yesterday, this week, and this month")
+                         "yesterday, last week, and this month")
     args = ap.parse_args()
 
     if args.calibrate:
@@ -1544,8 +1589,12 @@ def main():
         return calibrate(args.days or 7, everyone, args.keep,
                          args.calibrate_tweets, args.accounts)
 
-    with fetch_lock():
-        return build_digest(args)
+    try:
+        with fetch_lock():
+            return build_digest(args)
+    except TimeoutError as e:
+        print(str(e), file=sys.stderr)
+        return 1
 
 
 def build_digest(args):
@@ -1610,7 +1659,7 @@ def build_digest(args):
 
     now_dt = aware_now()
     yday_start, yday_end = yesterday(now_dt)
-    week_start, week_end = this_week(now_dt)
+    week_start, week_end = last_week(now_dt)
     month_start, month_end = this_month(now_dt)
 
     if args.days is not None:
@@ -1725,10 +1774,19 @@ def build_digest(args):
 
     generated_at = datetime.now(timezone.utc).isoformat()
     cadences = cut_cadences(items, weights, skip_urls, now_dt, args.limit, periods)
+    previous = None
+    json_path = args.out + ".json"
+    if os.path.isfile(json_path):
+        try:
+            with open(json_path, encoding="utf-8") as fh:
+                previous = json.load(fh)
+        except (OSError, ValueError):
+            previous = None
+    cadences = keep_previous_weekly(cadences, previous)
     for kind, pack in cadences.items():
         print(f"{kind}: {len(pack.get('items') or [])} items", file=sys.stderr)
 
-    write_json(args.out + ".json", cadences, generated_at)
+    write_json(json_path, cadences, generated_at)
     write_markdown(args.out + ".md", cadences)
     print(f"\nwrote {args.out}.json and {args.out}.md — "
           + ", ".join(f"{k} {len(cadences[k]['items'])}" for k in cadences),

@@ -1,143 +1,98 @@
 {
-  "generated_at": "2026-09-07T22:43:15.050506+00:00",
+  "generated_at": "2026-09-14T14:02:37.249126+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "7 September 2026",
-      "period_start": "2026-09-07",
-      "period_end": "2026-09-07",
+      "label": "13 September 2026",
+      "period_start": "2026-09-13",
+      "period_end": "2026-09-13",
       "items": [
         {
-          "id": "e2e8740b0998",
-          "title": "Strata – A design system that records decisions, not components",
-          "url": "https://github.com/Prometheus-000/strata",
-          "hn": "https://news.ycombinator.com/item?id=49598842",
-          "points": 1,
-          "comments": 1,
-          "created_at_i": 1788791159,
+          "id": "b7ea6c84ae64",
+          "title": "September 7 - September 13 Round Up: Agentic UX Interfaces, UX Design Eras, Enforcing AI-Generated UI",
+          "url": "https://aiforux.substack.com/p/september-7-september-13-round-up",
+          "hn": "https://aiforux.substack.com/p/september-7-september-13-round-up",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1789320607,
           "sources": [
-            "Hacker News"
+            "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 2.664,
-          "why": []
-        },
-        {
-          "id": "d8534d0fd905",
-          "title": "Ask HN: How do you keep AI coding agents in sync with a changing Figma file?",
-          "url": "https://news.ycombinator.com/item?id=49595961",
-          "hn": "https://news.ycombinator.com/item?id=49595961",
-          "points": 2,
-          "comments": 1,
-          "created_at_i": 1788772620,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.362,
-          "why": []
-        },
-        {
-          "id": "57ba0d676ced",
-          "title": "Show HN: Bamboo – build-time, Rust/Oxc, type-safe, zero-runtime CSS-in-JS",
-          "url": "https://bamboocss.com/docs/overview/getting-started/",
-          "hn": "https://news.ycombinator.com/item?id=49602667",
-          "points": 1,
-          "comments": 2,
-          "created_at_i": 1788812978,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.274,
-          "why": []
-        },
-        {
-          "id": "2d38826e8814",
-          "title": "Show HN: I wrote a guide to rendering video from plain HTML/CSS/GSAP",
-          "url": "https://sidheart.gumroad.com/l/lyudd",
-          "hn": "https://news.ycombinator.com/item?id=49594877",
-          "points": 2,
-          "comments": 1,
-          "created_at_i": 1788764591,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 1.978,
-          "why": []
+          "score": 4.612,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
         }
       ]
     },
     "weekly": {
-      "label": "7–13 September 2026",
-      "period_start": "2026-09-07",
-      "period_end": "2026-09-13",
-      "week_start": "2026-09-07",
-      "week_end": "2026-09-13",
-      "week_label": "7–13 September 2026",
-      "iso_week": "2026-W37",
+      "label": "14–20 September 2026",
+      "period_start": "2026-09-14",
+      "period_end": "2026-09-20",
+      "week_start": "2026-09-14",
+      "week_end": "2026-09-20",
+      "week_label": "14–20 September 2026",
+      "iso_week": "2026-W38",
       "items": [
         {
-          "id": "e2e8740b0998",
-          "title": "Strata – A design system that records decisions, not components",
-          "url": "https://github.com/Prometheus-000/strata",
-          "hn": "https://news.ycombinator.com/item?id=49598842",
-          "points": 1,
-          "comments": 1,
-          "created_at_i": 1788791159,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.885,
-          "why": []
-        },
-        {
-          "id": "d8534d0fd905",
-          "title": "Ask HN: How do you keep AI coding agents in sync with a changing Figma file?",
-          "url": "https://news.ycombinator.com/item?id=49595961",
-          "hn": "https://news.ycombinator.com/item?id=49595961",
+          "id": "69b22098cf85",
+          "title": "CSS Color Gamut Mapping",
+          "url": "https://github.com/web-platform-tests/interop/issues/1394",
+          "hn": "https://news.ycombinator.com/item?id=49695132",
           "points": 2,
-          "comments": 1,
-          "created_at_i": 1788772620,
+          "comments": 0,
+          "created_at_i": 1789385302,
           "sources": [
-            "Hacker News"
+            "Hacker News",
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 2.698,
-          "why": []
+          "sharers": 1,
+          "score": 6.563,
+          "why": [
+            "picked up by Hacker News and Bluesky"
+          ],
+          "authors": [
+            "lea.verou.me"
+          ]
         },
         {
-          "id": "2d38826e8814",
-          "title": "Show HN: I wrote a guide to rendering video from plain HTML/CSS/GSAP",
-          "url": "https://sidheart.gumroad.com/l/lyudd",
-          "hn": "https://news.ycombinator.com/item?id=49594877",
-          "points": 2,
-          "comments": 1,
-          "created_at_i": 1788764591,
+          "id": "fb50234e2a49",
+          "title": "Five eras of UX, First drafts, Logos made of data, Voice AIUX patterns",
+          "url": "https://uxdesign.cc/five-eras-of-ux-first-drafts-logos-made-of-data-voice-aiux-patterns-7b326c9aba4a?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/five-eras-of-ux-first-drafts-logos-made-of-data-voice-aiux-patterns-7b326c9aba4a?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1789381578,
           "sources": [
-            "Hacker News"
+            "UX Collective"
           ],
           "sharers": 0,
-          "score": 2.36,
-          "why": []
+          "score": 3.791,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
         },
         {
-          "id": "57ba0d676ced",
-          "title": "Show HN: Bamboo – build-time, Rust/Oxc, type-safe, zero-runtime CSS-in-JS",
-          "url": "https://bamboocss.com/docs/overview/getting-started/",
-          "hn": "https://news.ycombinator.com/item?id=49602667",
-          "points": 1,
-          "comments": 2,
-          "created_at_i": 1788812978,
+          "id": "697ff7a65bff",
+          "title": "A Layered Approach to Speculation Rules – CSS Wizardry",
+          "url": "https://csswizardry.com/2024/12/a-layered-approach-to-speculation-rules/",
+          "hn": "https://bsky.app/profile/csswizardry.com/post/3mvhuvfndhk25",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1789380930,
           "sources": [
-            "Hacker News"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 2.333,
-          "why": []
+          "sharers": 1,
+          "score": 2.321,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "csswizardry.com"
+          ]
         }
       ]
     },
@@ -147,30 +102,11 @@
       "period_end": "2026-09-30",
       "items": [
         {
-          "id": "1def34d2dca7",
-          "title": "How to turn your AI into a world-class designer",
-          "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
-          "hn": "https://news.ycombinator.com/item?id=49576762",
-          "points": 2,
-          "comments": 0,
-          "created_at_i": 1788263159,
-          "sources": [
-            "Hacker News",
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 9.257,
-          "why": [
-            "picked up by Hacker News and Lenny's Newsletter",
-            "matches your profile"
-          ]
-        },
-        {
           "id": "5a3e3455042e",
           "title": "Controlling when CSS custom property values are computed",
           "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/",
           "hn": "https://news.ycombinator.com/item?id=49579420",
-          "points": 3,
+          "points": 4,
           "comments": 0,
           "created_at_i": 1788528203,
           "sources": [
@@ -179,12 +115,66 @@
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 9.152,
+          "score": 9.088,
           "why": [
             "picked up by Hacker News and Lobsters and Bluesky"
           ],
           "authors": [
             "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "53d42f8ee336",
+          "title": "Five eras of UX design and the lessons to keep in the AI era",
+          "url": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1789076292,
+          "sources": [
+            "UX Collective",
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 7.439,
+          "why": [
+            "picked up by UX Collective and Sidebar"
+          ]
+        },
+        {
+          "id": "19634b73ecac",
+          "title": "Xkcd-Font: The Xkcd Font",
+          "url": "https://github.com/ipython/xkcd-font",
+          "hn": "https://news.ycombinator.com/item?id=49678685",
+          "points": 49,
+          "comments": 5,
+          "created_at_i": 1789227540,
+          "sources": [
+            "Hacker News",
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 7.16,
+          "why": [
+            "picked up by Hacker News and Lobsters"
+          ]
+        },
+        {
+          "id": "4d6e0818d23e",
+          "title": "Designing for Dual Screen and Foldable Devices with CSS (2023)",
+          "url": "https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices/",
+          "hn": "https://news.ycombinator.com/item?id=49643011",
+          "points": 63,
+          "comments": 20,
+          "created_at_i": 1789045166,
+          "sources": [
+            "Hacker News",
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 7.043,
+          "why": [
+            "picked up by Hacker News and Lobsters"
           ]
         },
         {
@@ -200,7 +190,7 @@
             "Lobsters"
           ],
           "sharers": 0,
-          "score": 7.054,
+          "score": 6.911,
           "why": [
             "picked up by Hacker News and Lobsters"
           ]
@@ -217,10 +207,9 @@
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 6.026,
+          "score": 5.884,
           "why": [
-            "shared by 2 design accounts",
-            "2 Bluesky posts"
+            "shared by 2 design accounts"
           ],
           "authors": [
             "bradfrost.com",
@@ -228,37 +217,59 @@
           ]
         },
         {
-          "id": "309cdb5bc8b7",
-          "title": "Spectrum (Adobe) — @react-spectrum/s2@1.7.1",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.7.1",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.7.1",
+          "id": "2573bf19ff0a",
+          "title": "CSS ` border-shape` · Issue #1371 · web-platform-tests/interop",
+          "url": "https://github.com/web-platform-tests/interop/issues/1371",
+          "hn": "https://bsky.app/profile/joshwcomeau.com/post/3muyvlrjdn22i",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1788544817,
+          "created_at_i": 1788866284,
           "sources": [
-            "Design systems"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 4.718,
+          "sharers": 2,
+          "score": 5.808,
           "why": [
-            "editor's pick at Design systems"
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "joshwcomeau.com",
+            "lea.verou.me"
           ]
         },
         {
-          "id": "ee88ba3634dd",
-          "title": "Spectrum (Adobe) — @react-spectrum/filetrigger@3.1.5",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.5",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.5",
+          "id": "1def34d2dca7",
+          "title": "How to turn your AI into a world-class designer",
+          "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+          "hn": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1788544817,
+          "created_at_i": 1788263159,
           "sources": [
-            "Design systems"
+            "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 4.718,
+          "score": 5.285,
           "why": [
-            "editor's pick at Design systems"
+            "editor's pick at Lenny's Newsletter",
+            "matches your profile"
+          ]
+        },
+        {
+          "id": "b7ea6c84ae64",
+          "title": "September 7 - September 13 Round Up: Agentic UX Interfaces, UX Design Eras, Enforcing AI-Generated UI",
+          "url": "https://aiforux.substack.com/p/september-7-september-13-round-up",
+          "hn": "https://aiforux.substack.com/p/september-7-september-13-round-up",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1789320607,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 5.111,
+          "why": [
+            "editor's pick at AI for UX Substack"
           ]
         },
         {
@@ -273,94 +284,46 @@
             "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 4.436,
+          "score": 4.275,
           "why": [
             "editor's pick at AI for UX Substack"
           ]
         },
         {
-          "id": "8c4eb6f516c2",
-          "title": "Ambient CSS v3 – Blender meets CSS",
-          "url": "https://ambientcss.vercel.app/",
-          "hn": "https://news.ycombinator.com/item?id=49523387",
-          "points": 307,
-          "comments": 99,
-          "created_at_i": 1788276911,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.208,
-          "why": [
-            "307 points"
-          ]
-        },
-        {
-          "id": "c7a3cc9f1a8e",
-          "title": "How AI-ready is your design system?",
-          "url": "https://christophhellmuth.com/open-design-system-bench/",
-          "hn": "https://christophhellmuth.com/open-design-system-bench/",
+          "id": "45f8cc3c578c",
+          "title": "Building data-driven design systems",
+          "url": "https://ky.fyi/posts/data-driven",
+          "hn": "https://ky.fyi/posts/data-driven",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1788333334,
+          "created_at_i": 1789099260,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.992,
+          "score": 4.046,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "2bfc87c0febb",
-          "title": "Users don’t see your design system",
-          "url": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/users-dont-see-your-design-system-d6abd51c18fc?source=rss----138adf9c44c---4",
+          "id": "179067fa1f69",
+          "title": "Web Components Demystified online course | Scott Jehl, Web Designer/Developer",
+          "url": "https://scottjehl.com/learn/webcomponentsdemystified/",
+          "hn": "https://bsky.app/profile/scottjehl.com/post/3mv675h3pt22y",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1788258531,
+          "created_at_i": 1789048340,
           "sources": [
-            "UX Collective"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 3.972,
+          "sharers": 1,
+          "score": 4.003,
           "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "f9c6fab30e34",
-          "title": "Using AI for UX Work: Study Guide",
-          "url": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ai-work-study-guide/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1788537600,
-          "sources": [
-            "NN/g"
+            "2 Bluesky posts"
           ],
-          "sharers": 0,
-          "score": 3.716,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "ba05ae13a044",
-          "title": "A geometric typeface made for the age of AI",
-          "url": "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai",
-          "hn": "https://the-brandidentity.com/typeface/ren%C3%A9-bieders-neurath-x-is-a-geometric-typeface-made-for-the-age-of-ai",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1788491040,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.703,
-          "why": [
-            "editor's pick at Sidebar"
+          "authors": [
+            "sarasoueidan.com"
           ]
         }
       ]
@@ -368,68 +331,66 @@
   },
   "items": [
     {
-      "id": "e2e8740b0998",
-      "title": "Strata – A design system that records decisions, not components",
-      "url": "https://github.com/Prometheus-000/strata",
-      "hn": "https://news.ycombinator.com/item?id=49598842",
-      "points": 1,
-      "comments": 1,
-      "created_at_i": 1788791159,
-      "sources": [
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 2.885,
-      "why": []
-    },
-    {
-      "id": "d8534d0fd905",
-      "title": "Ask HN: How do you keep AI coding agents in sync with a changing Figma file?",
-      "url": "https://news.ycombinator.com/item?id=49595961",
-      "hn": "https://news.ycombinator.com/item?id=49595961",
+      "id": "69b22098cf85",
+      "title": "CSS Color Gamut Mapping",
+      "url": "https://github.com/web-platform-tests/interop/issues/1394",
+      "hn": "https://news.ycombinator.com/item?id=49695132",
       "points": 2,
-      "comments": 1,
-      "created_at_i": 1788772620,
+      "comments": 0,
+      "created_at_i": 1789385302,
       "sources": [
-        "Hacker News"
+        "Hacker News",
+        "Bluesky"
       ],
-      "sharers": 0,
-      "score": 2.698,
-      "why": []
+      "sharers": 1,
+      "score": 6.563,
+      "why": [
+        "picked up by Hacker News and Bluesky"
+      ],
+      "authors": [
+        "lea.verou.me"
+      ]
     },
     {
-      "id": "2d38826e8814",
-      "title": "Show HN: I wrote a guide to rendering video from plain HTML/CSS/GSAP",
-      "url": "https://sidheart.gumroad.com/l/lyudd",
-      "hn": "https://news.ycombinator.com/item?id=49594877",
-      "points": 2,
-      "comments": 1,
-      "created_at_i": 1788764591,
+      "id": "fb50234e2a49",
+      "title": "Five eras of UX, First drafts, Logos made of data, Voice AIUX patterns",
+      "url": "https://uxdesign.cc/five-eras-of-ux-first-drafts-logos-made-of-data-voice-aiux-patterns-7b326c9aba4a?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/five-eras-of-ux-first-drafts-logos-made-of-data-voice-aiux-patterns-7b326c9aba4a?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1789381578,
       "sources": [
-        "Hacker News"
+        "UX Collective"
       ],
       "sharers": 0,
-      "score": 2.36,
-      "why": []
+      "score": 3.791,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
     },
     {
-      "id": "57ba0d676ced",
-      "title": "Show HN: Bamboo – build-time, Rust/Oxc, type-safe, zero-runtime CSS-in-JS",
-      "url": "https://bamboocss.com/docs/overview/getting-started/",
-      "hn": "https://news.ycombinator.com/item?id=49602667",
-      "points": 1,
-      "comments": 2,
-      "created_at_i": 1788812978,
+      "id": "697ff7a65bff",
+      "title": "A Layered Approach to Speculation Rules – CSS Wizardry",
+      "url": "https://csswizardry.com/2024/12/a-layered-approach-to-speculation-rules/",
+      "hn": "https://bsky.app/profile/csswizardry.com/post/3mvhuvfndhk25",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1789380930,
       "sources": [
-        "Hacker News"
+        "Bluesky"
       ],
-      "sharers": 0,
-      "score": 2.333,
-      "why": []
+      "sharers": 1,
+      "score": 2.321,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "csswizardry.com"
+      ]
     }
   ],
-  "week_start": "2026-09-07",
-  "week_end": "2026-09-13",
-  "week_label": "7–13 September 2026",
-  "iso_week": "2026-W37"
+  "week_start": "2026-09-14",
+  "week_end": "2026-09-20",
+  "week_label": "14–20 September 2026",
+  "iso_week": "2026-W38"
 }

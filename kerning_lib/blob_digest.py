@@ -12,6 +12,7 @@ from datetime import datetime, timezone
 
 import requests
 
+from kerning_lib.cut import apply_kept_weekly
 from kerning_lib.windows import payload_current
 
 BLOB_API = "https://blob.vercel-storage.com"
@@ -85,6 +86,7 @@ def run_rebuild(force=False):
         path = out_base + ".json"
         with open(path, encoding="utf-8") as fh:
             payload = json.load(fh)
+        payload = apply_kept_weekly(payload, data)
         _put_json(DIGEST_PATH, payload)
         return 200, {"rebuilt": True}
     except subprocess.TimeoutExpired:

@@ -5,6 +5,7 @@ from kerning_lib.windows import (
     cadences_current,
     edition_meta,
     expected_periods,
+    last_week,
     payload_current,
     this_month,
     this_week,
@@ -27,6 +28,20 @@ class WindowsTests(unittest.TestCase):
         start, end = this_week(now)
         self.assertEqual(start.date().isoformat(), "2026-09-07")
         self.assertEqual(end.date().isoformat(), "2026-09-14")
+
+    def test_last_week_is_previous_monday_to_this_monday(self):
+        now = datetime(2026, 9, 14, 17, 0, tzinfo=CEST)
+        start, end = last_week(now)
+        self.assertEqual(start.date().isoformat(), "2026-09-07")
+        self.assertEqual(end.date().isoformat(), "2026-09-14")
+        self.assertEqual(start.hour, 0)
+        self.assertEqual(end.hour, 0)
+        self.assertEqual(start.minute, 0)
+        self.assertEqual(end.minute, 0)
+
+    def test_expected_weekly_is_last_week(self):
+        now = datetime(2026, 9, 14, 17, 0, tzinfo=CEST)
+        self.assertEqual(expected_periods(now)["weekly"], last_week(now))
 
     def test_month_is_calendar_month(self):
         now = datetime(2026, 9, 7, 12, 0, tzinfo=CEST)
