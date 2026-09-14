@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 import requests
 
 from kerning_lib.cut import apply_kept_weekly
-from kerning_lib.windows import payload_current
+from kerning_lib.windows import aware_now, payload_current, resolve_tz_name
 
 BLOB_API = "https://blob.vercel-storage.com"
 API_VERSION = "7"
@@ -58,13 +58,15 @@ def get_digest_payload():
     return _get_json(DIGEST_PATH)
 
 
-def run_rebuild(force=False):
+def run_rebuild(force=False, tz_name=None):
     """Return (status_code, payload) for POST/GET /api/rebuild."""
     if not blob_configured():
         return 404, {"error": "blob-unconfigured"}
 
+    tz_name = resolve_tz_name(tz_name)
+    now = aware_now(tz_name) if tz_name else None
     data = get_digest_payload()
-    if should_skip_fetch(data, force=force):
+    if should_skip_fetch(data, force=force, now=now):
         return 200, {"rebuilt": False}
 
     lock = _get_json(LOCK_PATH)
@@ -80,7 +82,10 @@ def run_rebuild(force=False):
             "--no-x",
             "--out", out_base,
         ]
-        run = subprocess.run(cmd, cwd=_ROOT, timeout=FETCH_TIMEOUT_SEC)
+        env = os.environ.copy()
+        if tz_name:
+            env["DIGEST_TZ"] = tz_name
+        run = subprocess.run(cmd, cwd=_ROOT, timeout=FETCH_TIMEOUT_SEC, env=env)
         if run.returncode != 0:
             return 500, {"error": "fetch-failed", "code": run.returncode}
         path = out_base + ".json"

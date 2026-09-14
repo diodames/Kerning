@@ -1020,18 +1020,16 @@ const CADENCE_COPY = {
     loading: "Opening yesterday\u2019s digest.",
     vacant: "Nothing in yesterday\u2019s digest.",
     vacantNote: "Try Weekly, or check back after another day has closed.",
-    stale: "This edition is not yesterday\u2019s.",
   },
   weekly: {
     prefix: "This week",
     rate: " Rate a few and next week\u2019s ranking follows your taste.",
     taste: " Or add people and resources on Taste.",
     empty: "That\u2019s this week\u2019s list.",
-    emptyNote: "Saved stories stay here. A new issue lands Monday.",
+    emptyNote: "Saved stories stay here. Last week\u2019s issue stays up Monday.",
     loading: "Opening this week\u2019s digest.",
-    vacant: "Nothing in this week\u2019s digest.",
-    vacantNote: "Try Monthly, or check back Monday, when the next\u00a0week has\u00a0closed.",
-    stale: "This edition is not this week\u2019s.",
+    vacant: "Nothing in this week\u2019s digest yet.",
+    vacantNote: "Try Monthly, or check back later in the week.",
   },
   monthly: {
     prefix: "This month",
@@ -1042,9 +1040,26 @@ const CADENCE_COPY = {
     loading: "Opening this month\u2019s digest.",
     vacant: "Nothing in this month\u2019s digest yet.",
     vacantNote: "Try Weekly, or check back later in the month.",
-    stale: "This edition is not this month\u2019s.",
   },
 };
+
+function weeklyHoldsLastComplete(now) {
+  return viewerCalendarDate(now).getDay() === 1;
+}
+function cadenceCopy(kind, now) {
+  const base = CADENCE_COPY[kind] || CADENCE_COPY.weekly;
+  if (kind !== "weekly" || !weeklyHoldsLastComplete(now)) return base;
+  return {
+    prefix: "Last week",
+    rate: base.rate,
+    taste: base.taste,
+    empty: "That\u2019s last week\u2019s list.",
+    emptyNote: "Saved stories stay here. This week\u2019s issue starts Tuesday.",
+    loading: "Opening last week\u2019s digest.",
+    vacant: "Nothing in last week\u2019s digest.",
+    vacantNote: "Try Monthly, or check back Tuesday.",
+  };
+}
 
 const QUERIES = [
   "design", "typography", "typeface", "fonts", "font", "lettering",
@@ -1307,6 +1322,36 @@ function browserTimezone() {
   try { return Intl.DateTimeFormat().resolvedOptions().timeZone || ""; }
   catch (e) { return ""; }
 }
+const VIEWER_TZ_KEY = "kerning:ip-tz";
+let viewerTimeZone = "";
+function viewerTimezone() {
+  return viewerTimeZone || browserTimezone();
+}
+async function resolveViewerTimeZone() {
+  if (viewerTimeZone) return viewerTimeZone;
+  try {
+    const cached = sessionStorage.getItem(VIEWER_TZ_KEY);
+    if (cached) {
+      viewerTimeZone = cached;
+      return viewerTimeZone;
+    }
+  } catch (e) { /* private mode */ }
+  const ctrl = new AbortController();
+  const timer = setTimeout(function () { ctrl.abort(); }, 2500);
+  try {
+    const res = await fetch("https://ipwho.is/?fields=success,timezone", { signal: ctrl.signal });
+    const data = await res.json();
+    const tz = data && data.timezone && (data.timezone.id || data.timezone);
+    if (data && data.success !== false && typeof tz === "string" && tz.length && tz.length < 64) {
+      viewerTimeZone = tz;
+      try { sessionStorage.setItem(VIEWER_TZ_KEY, tz); } catch (e) {}
+      return viewerTimeZone;
+    }
+  } catch (e) { /* fall back to the device zone */ }
+  finally { clearTimeout(timer); }
+  viewerTimeZone = browserTimezone();
+  return viewerTimeZone;
+}
 async function api(path, opts) {
   const res = await fetch(path, Object.assign({
     credentials: "include",
@@ -1464,11 +1509,28 @@ function startOfLocalDay(d) {
 function addLocalDays(d, n) {
   return new Date(d.getFullYear(), d.getMonth(), d.getDate() + n);
 }
+function viewerCalendarDate(now) {
+  const date = now || new Date();
+  if (!viewerTimeZone) return startOfLocalDay(date);
+  try {
+    const s = date.toLocaleString("en-CA", {
+      timeZone: viewerTimeZone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    });
+    const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s);
+    if (!m) return startOfLocalDay(date);
+    return new Date(+m[1], +m[2] - 1, +m[3]);
+  } catch (e) {
+    return startOfLocalDay(date);
+  }
+}
 function expectedCadenceMeta(now) {
-  const today = startOfLocalDay(now || new Date());
+  const today = viewerCalendarDate(now);
   const yday = addLocalDays(today, -1);
   const thisMonday = addLocalDays(today, -((today.getDay() + 6) % 7));
-  const weekStart = addLocalDays(thisMonday, -7);
+  const weekStart = today.getDay() === 1 ? addLocalDays(thisMonday, -7) : thisMonday;
   const weekLast = addLocalDays(weekStart, 6);
   const monthStart = new Date(today.getFullYear(), today.getMonth(), 1);
   const monthLast = new Date(today.getFullYear(), today.getMonth() + 1, 0);
@@ -2486,7 +2548,7 @@ async function ensureFreshDigest(opts) {
       const res = await api("/me/rebuild", {
         method: "POST",
         signal: ctrl.signal,
-        body: JSON.stringify({ force: force }),
+        body: JSON.stringify({ force: force, timezone: viewerTimezone() }),
       });
       if (res.status === 429) return "ok";
       if (!res.ok) return "error";
@@ -2508,7 +2570,7 @@ async function ensureFreshDigest(opts) {
         method: "POST",
         signal: ctrl.signal,
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ force: force }),
+        body: JSON.stringify({ force: force, timezone: viewerTimezone() }),
       });
       if (res.ok) return "ok";
       if (res.status === 202) {
@@ -2716,7 +2778,7 @@ async function hydrateHostedProfile() {
 }
 
 async function persistTimezone() {
-  const tz = browserTimezone();
+  const tz = viewerTimezone();
   if (!hostedMode || !me || !tz) return;
   if (tz === me.timezone) return;
   try {
@@ -2727,6 +2789,7 @@ async function persistTimezone() {
 
 async function boot() {
   loadProfile();
+  await resolveViewerTimeZone();
   const kind = await probeHost();
   if (kind === "landing") {
     showLanding(true);
@@ -2764,7 +2827,7 @@ function bindAuthForm() {
         method: "POST",
         credentials: "include",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: email, timezone: browserTimezone() }),
+        body: JSON.stringify({ email: email, timezone: viewerTimezone() }),
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok) {
@@ -2877,7 +2940,7 @@ function loadingCopy() {
   if (mode === "curated") {
     return hostedMode
       ? "Building your digest."
-      : (CADENCE_COPY[cadence] || CADENCE_COPY.weekly).loading;
+      : cadenceCopy(cadence).loading;
   }
   return "Searching " + QUERIES.length + " design and product topics on Hacker News.";
 }
@@ -2922,15 +2985,15 @@ function renderDigest() {
   }
   if (status === "idle") { statusEl.innerHTML = ""; return; }
 
-  const copy = CADENCE_COPY[cadence] || CADENCE_COPY.weekly;
+  const copy = cadenceCopy(cadence);
   const dates = mode === "curated" && digestMeta ? periodDates(digestMeta) : "";
   const editionOff = mode === "curated" && digestMeta && !viewedEditionCurrent();
   const prefix = editionOff ? "" : copy.prefix;
   let retryOpts = null;
   let head = "";
   if (dates && editionOff) {
-    head = '<p class="primer"><span class="week-dates">'
-      + esc(dates) + "</span>. " + copy.stale + "</p>";
+    head = '<p class="primer primer--period"><span class="week-dates">'
+      + esc(dates) + "</span>.</p>";
   } else if (dates) {
     head = prefix
       ? '<p class="primer primer--period">' + esc(prefix) + ' \u00b7 <span class="week-dates">'

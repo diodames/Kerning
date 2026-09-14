@@ -4,9 +4,11 @@ from datetime import datetime, timedelta, timezone
 from kerning_lib.windows import (
     cadences_current,
     edition_meta,
+    edition_week,
     expected_periods,
     last_week,
     payload_current,
+    resolve_tz_name,
     this_month,
     this_week,
     yesterday,
@@ -39,9 +41,57 @@ class WindowsTests(unittest.TestCase):
         self.assertEqual(start.minute, 0)
         self.assertEqual(end.minute, 0)
 
-    def test_expected_weekly_is_last_week(self):
+    def test_expected_weekly_is_last_week_on_monday(self):
         now = datetime(2026, 9, 14, 17, 0, tzinfo=CEST)
         self.assertEqual(expected_periods(now)["weekly"], last_week(now))
+
+    def test_expected_weekly_is_this_week_from_tuesday(self):
+        now = datetime(2026, 9, 15, 17, 0, tzinfo=CEST)
+        self.assertEqual(expected_periods(now)["weekly"], this_week(now))
+
+    def test_edition_week_follows_viewer_zone(self):
+        from zoneinfo import ZoneInfo
+
+        utc = datetime(2026, 9, 14, 22, 0, tzinfo=timezone.utc)
+        prague = utc.astimezone(ZoneInfo("Europe/Prague"))
+        ny = utc.astimezone(ZoneInfo("America/New_York"))
+        self.assertEqual(prague.weekday(), 1)
+        self.assertEqual(ny.weekday(), 0)
+        self.assertEqual(edition_week(prague), this_week(prague))
+        self.assertEqual(edition_week(ny), last_week(ny))
+
+    def test_edition_week_flips_at_prague_midnight(self):
+        from zoneinfo import ZoneInfo
+
+        prague = ZoneInfo("Europe/Prague")
+        monday = datetime(2026, 9, 14, 0, 0, tzinfo=prague)
+        tuesday = datetime(2026, 9, 15, 0, 0, tzinfo=prague)
+        self.assertEqual(edition_week(monday), last_week(monday))
+        self.assertEqual(edition_week(tuesday), this_week(tuesday))
+
+        still_monday = datetime(2026, 9, 13, 22, 0, tzinfo=timezone.utc).astimezone(prague)
+        already_tuesday = datetime(2026, 9, 14, 22, 0, tzinfo=timezone.utc).astimezone(prague)
+        self.assertEqual(still_monday.date().isoformat(), "2026-09-14")
+        self.assertEqual(already_tuesday.date().isoformat(), "2026-09-15")
+        self.assertEqual(edition_week(still_monday), last_week(still_monday))
+        self.assertEqual(edition_week(already_tuesday), this_week(already_tuesday))
+
+    def test_resolve_tz_name_rejects_junk(self):
+        self.assertEqual(resolve_tz_name("Europe/Prague"), "Europe/Prague")
+        self.assertEqual(resolve_tz_name("UTC"), "UTC")
+        self.assertIsNone(resolve_tz_name(""))
+        self.assertIsNone(resolve_tz_name("not a zone"))
+        self.assertIsNone(resolve_tz_name(None))
+
+    def test_monday_this_week_pack_is_not_current(self):
+        now = datetime(2026, 9, 14, 17, 0, tzinfo=CEST)
+        packs = {}
+        for kind, (start, end) in expected_periods(now).items():
+            packs[kind] = edition_meta(kind, start, end)
+        this_start, this_end = this_week(now)
+        packs["weekly"] = edition_meta("weekly", this_start, this_end)
+        self.assertEqual(packs["weekly"]["period_start"], "2026-09-14")
+        self.assertFalse(cadences_current(packs, now))
 
     def test_month_is_calendar_month(self):
         now = datetime(2026, 9, 7, 12, 0, tzinfo=CEST)

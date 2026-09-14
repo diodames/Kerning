@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T14:02:37.249126+00:00",
+  "generated_at": "2026-09-14T15:14:43.029212+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
@@ -20,7 +20,7 @@
             "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 4.612,
+          "score": 4.589,
           "why": [
             "editor's pick at AI for UX Substack"
           ]
@@ -28,70 +28,225 @@
       ]
     },
     "weekly": {
-      "label": "14–20 September 2026",
-      "period_start": "2026-09-14",
-      "period_end": "2026-09-20",
-      "week_start": "2026-09-14",
-      "week_end": "2026-09-20",
-      "week_label": "14–20 September 2026",
-      "iso_week": "2026-W38",
+      "label": "7–13 September 2026",
+      "period_start": "2026-09-07",
+      "period_end": "2026-09-13",
+      "week_start": "2026-09-07",
+      "week_end": "2026-09-13",
+      "week_label": "7–13 September 2026",
+      "iso_week": "2026-W37",
       "items": [
         {
-          "id": "69b22098cf85",
-          "title": "CSS Color Gamut Mapping",
-          "url": "https://github.com/web-platform-tests/interop/issues/1394",
-          "hn": "https://news.ycombinator.com/item?id=49695132",
-          "points": 2,
+          "id": "53d42f8ee336",
+          "title": "Five eras of UX design and the lessons to keep in the AI era",
+          "url": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9?source=rss----138adf9c44c---4",
+          "points": 0,
           "comments": 0,
-          "created_at_i": 1789385302,
+          "created_at_i": 1789076292,
+          "sources": [
+            "UX Collective",
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 7.338,
+          "why": [
+            "picked up by UX Collective and Sidebar"
+          ]
+        },
+        {
+          "id": "19634b73ecac",
+          "title": "Xkcd-Font: The Xkcd Font",
+          "url": "https://github.com/ipython/xkcd-font",
+          "hn": "https://news.ycombinator.com/item?id=49678685",
+          "points": 49,
+          "comments": 5,
+          "created_at_i": 1789227540,
           "sources": [
             "Hacker News",
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 7.103,
+          "why": [
+            "picked up by Hacker News and Lobsters"
+          ]
+        },
+        {
+          "id": "4d6e0818d23e",
+          "title": "Designing for Dual Screen and Foldable Devices with CSS (2023)",
+          "url": "https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices/",
+          "hn": "https://news.ycombinator.com/item?id=49643011",
+          "points": 63,
+          "comments": 20,
+          "created_at_i": 1789045166,
+          "sources": [
+            "Hacker News",
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 6.934,
+          "why": [
+            "picked up by Hacker News and Lobsters"
+          ]
+        },
+        {
+          "id": "c911df30fe2a",
+          "title": "Antiquated CSS and why we needed it",
+          "url": "https://blog.omgmog.net/post/antiquated-css/",
+          "hn": "https://news.ycombinator.com/item?id=49637213",
+          "points": 13,
+          "comments": 0,
+          "created_at_i": 1789004275,
+          "sources": [
+            "Hacker News",
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 6.064,
+          "why": [
+            "picked up by Hacker News and Lobsters"
+          ]
+        },
+        {
+          "id": "2573bf19ff0a",
+          "title": "CSS ` border-shape` · Issue #1371 · web-platform-tests/interop",
+          "url": "https://github.com/web-platform-tests/interop/issues/1371",
+          "hn": "https://bsky.app/profile/joshwcomeau.com/post/3muyvlrjdn22i",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788866284,
+          "sources": [
             "Bluesky"
           ],
-          "sharers": 1,
-          "score": 6.563,
+          "sharers": 2,
+          "score": 5.655,
           "why": [
-            "picked up by Hacker News and Bluesky"
+            "shared by 2 design accounts"
           ],
           "authors": [
+            "joshwcomeau.com",
             "lea.verou.me"
           ]
         },
         {
-          "id": "fb50234e2a49",
-          "title": "Five eras of UX, First drafts, Logos made of data, Voice AIUX patterns",
-          "url": "https://uxdesign.cc/five-eras-of-ux-first-drafts-logos-made-of-data-voice-aiux-patterns-7b326c9aba4a?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/five-eras-of-ux-first-drafts-logos-made-of-data-voice-aiux-patterns-7b326c9aba4a?source=rss----138adf9c44c---4",
+          "id": "b7ea6c84ae64",
+          "title": "September 7 - September 13 Round Up: Agentic UX Interfaces, UX Design Eras, Enforcing AI-Generated UI",
+          "url": "https://aiforux.substack.com/p/september-7-september-13-round-up",
+          "hn": "https://aiforux.substack.com/p/september-7-september-13-round-up",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1789381578,
+          "created_at_i": 1789320607,
           "sources": [
-            "UX Collective"
+            "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 3.791,
+          "score": 5.083,
           "why": [
-            "editor's pick at UX Collective"
+            "editor's pick at AI for UX Substack"
           ]
         },
         {
-          "id": "697ff7a65bff",
-          "title": "A Layered Approach to Speculation Rules – CSS Wizardry",
-          "url": "https://csswizardry.com/2024/12/a-layered-approach-to-speculation-rules/",
-          "hn": "https://bsky.app/profile/csswizardry.com/post/3mvhuvfndhk25",
+          "id": "634f77dd62fa",
+          "title": "CSS Curiosities of the Past",
+          "url": "https://vale.rocks/posts/css-relics",
+          "hn": "https://news.ycombinator.com/item?id=49654962",
+          "points": 92,
+          "comments": 60,
+          "created_at_i": 1789113437,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.985,
+          "why": []
+        },
+        {
+          "id": "45f8cc3c578c",
+          "title": "Building data-driven design systems",
+          "url": "https://ky.fyi/posts/data-driven",
+          "hn": "https://ky.fyi/posts/data-driven",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1789380930,
+          "created_at_i": 1789099260,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.951,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "a4b90b5ae7cd",
+          "title": "Five Eras Of UX Design And The Lessons To Keep In The AI Era",
+          "url": "https://aiforux.substack.com/p/five-eras-of-ux-design-and-the-lessons",
+          "hn": "https://aiforux.substack.com/p/five-eras-of-ux-design-and-the-lessons",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1789051652,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.924,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "179067fa1f69",
+          "title": "Web Components Demystified online course | Scott Jehl, Web Designer/Developer",
+          "url": "https://scottjehl.com/learn/webcomponentsdemystified/",
+          "hn": "https://bsky.app/profile/scottjehl.com/post/3mv675h3pt22y",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1789048340,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 2.321,
+          "score": 3.895,
           "why": [
-            "spotted on Bluesky"
+            "2 Bluesky posts"
           ],
           "authors": [
-            "csswizardry.com"
+            "sarasoueidan.com"
+          ]
+        },
+        {
+          "id": "34c2b92e3a59",
+          "title": "The designer who drew Cursor’s icons",
+          "url": "https://www.casestudy.club/marek-minor-interview",
+          "hn": "https://www.casestudy.club/marek-minor-interview",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1788926520,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.858,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "a86ea82d513c",
+          "title": "Building A UX ROI Case That Survives The Boardroom",
+          "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
+          "hn": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1789128000,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 3.634,
+          "why": [
+            "editor's pick at Smashing Magazine"
           ]
         }
       ]
@@ -115,7 +270,7 @@
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 9.088,
+          "score": 9.087,
           "why": [
             "picked up by Hacker News and Lobsters and Bluesky"
           ],
@@ -136,7 +291,7 @@
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 7.439,
+          "score": 7.438,
           "why": [
             "picked up by UX Collective and Sidebar"
           ]
@@ -154,7 +309,7 @@
             "Lobsters"
           ],
           "sharers": 0,
-          "score": 7.16,
+          "score": 7.159,
           "why": [
             "picked up by Hacker News and Lobsters"
           ]
@@ -172,7 +327,7 @@
             "Lobsters"
           ],
           "sharers": 0,
-          "score": 7.043,
+          "score": 7.042,
           "why": [
             "picked up by Hacker News and Lobsters"
           ]
@@ -190,7 +345,7 @@
             "Lobsters"
           ],
           "sharers": 0,
-          "score": 6.911,
+          "score": 6.91,
           "why": [
             "picked up by Hacker News and Lobsters"
           ]
@@ -207,7 +362,7 @@
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 5.884,
+          "score": 5.883,
           "why": [
             "shared by 2 design accounts"
           ],
@@ -228,7 +383,7 @@
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 5.808,
+          "score": 5.807,
           "why": [
             "shared by 2 design accounts"
           ],
@@ -249,7 +404,7 @@
             "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 5.285,
+          "score": 5.284,
           "why": [
             "editor's pick at Lenny's Newsletter",
             "matches your profile"
@@ -267,7 +422,7 @@
             "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 5.111,
+          "score": 5.109,
           "why": [
             "editor's pick at AI for UX Substack"
           ]
@@ -284,7 +439,7 @@
             "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 4.275,
+          "score": 4.274,
           "why": [
             "editor's pick at AI for UX Substack"
           ]
@@ -301,7 +456,7 @@
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 4.046,
+          "score": 4.044,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -318,7 +473,7 @@
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 4.003,
+          "score": 4.002,
           "why": [
             "2 Bluesky posts"
           ],
@@ -331,66 +486,221 @@
   },
   "items": [
     {
-      "id": "69b22098cf85",
-      "title": "CSS Color Gamut Mapping",
-      "url": "https://github.com/web-platform-tests/interop/issues/1394",
-      "hn": "https://news.ycombinator.com/item?id=49695132",
-      "points": 2,
+      "id": "53d42f8ee336",
+      "title": "Five eras of UX design and the lessons to keep in the AI era",
+      "url": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9?source=rss----138adf9c44c---4",
+      "points": 0,
       "comments": 0,
-      "created_at_i": 1789385302,
+      "created_at_i": 1789076292,
+      "sources": [
+        "UX Collective",
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 7.338,
+      "why": [
+        "picked up by UX Collective and Sidebar"
+      ]
+    },
+    {
+      "id": "19634b73ecac",
+      "title": "Xkcd-Font: The Xkcd Font",
+      "url": "https://github.com/ipython/xkcd-font",
+      "hn": "https://news.ycombinator.com/item?id=49678685",
+      "points": 49,
+      "comments": 5,
+      "created_at_i": 1789227540,
       "sources": [
         "Hacker News",
+        "Lobsters"
+      ],
+      "sharers": 0,
+      "score": 7.103,
+      "why": [
+        "picked up by Hacker News and Lobsters"
+      ]
+    },
+    {
+      "id": "4d6e0818d23e",
+      "title": "Designing for Dual Screen and Foldable Devices with CSS (2023)",
+      "url": "https://blog.stephaniestimac.com/posts/2023/05/design-foldable-devices/",
+      "hn": "https://news.ycombinator.com/item?id=49643011",
+      "points": 63,
+      "comments": 20,
+      "created_at_i": 1789045166,
+      "sources": [
+        "Hacker News",
+        "Lobsters"
+      ],
+      "sharers": 0,
+      "score": 6.934,
+      "why": [
+        "picked up by Hacker News and Lobsters"
+      ]
+    },
+    {
+      "id": "c911df30fe2a",
+      "title": "Antiquated CSS and why we needed it",
+      "url": "https://blog.omgmog.net/post/antiquated-css/",
+      "hn": "https://news.ycombinator.com/item?id=49637213",
+      "points": 13,
+      "comments": 0,
+      "created_at_i": 1789004275,
+      "sources": [
+        "Hacker News",
+        "Lobsters"
+      ],
+      "sharers": 0,
+      "score": 6.064,
+      "why": [
+        "picked up by Hacker News and Lobsters"
+      ]
+    },
+    {
+      "id": "2573bf19ff0a",
+      "title": "CSS ` border-shape` · Issue #1371 · web-platform-tests/interop",
+      "url": "https://github.com/web-platform-tests/interop/issues/1371",
+      "hn": "https://bsky.app/profile/joshwcomeau.com/post/3muyvlrjdn22i",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1788866284,
+      "sources": [
         "Bluesky"
       ],
-      "sharers": 1,
-      "score": 6.563,
+      "sharers": 2,
+      "score": 5.655,
       "why": [
-        "picked up by Hacker News and Bluesky"
+        "shared by 2 design accounts"
       ],
       "authors": [
+        "joshwcomeau.com",
         "lea.verou.me"
       ]
     },
     {
-      "id": "fb50234e2a49",
-      "title": "Five eras of UX, First drafts, Logos made of data, Voice AIUX patterns",
-      "url": "https://uxdesign.cc/five-eras-of-ux-first-drafts-logos-made-of-data-voice-aiux-patterns-7b326c9aba4a?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/five-eras-of-ux-first-drafts-logos-made-of-data-voice-aiux-patterns-7b326c9aba4a?source=rss----138adf9c44c---4",
+      "id": "b7ea6c84ae64",
+      "title": "September 7 - September 13 Round Up: Agentic UX Interfaces, UX Design Eras, Enforcing AI-Generated UI",
+      "url": "https://aiforux.substack.com/p/september-7-september-13-round-up",
+      "hn": "https://aiforux.substack.com/p/september-7-september-13-round-up",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1789381578,
+      "created_at_i": 1789320607,
       "sources": [
-        "UX Collective"
+        "AI for UX Substack"
       ],
       "sharers": 0,
-      "score": 3.791,
+      "score": 5.083,
       "why": [
-        "editor's pick at UX Collective"
+        "editor's pick at AI for UX Substack"
       ]
     },
     {
-      "id": "697ff7a65bff",
-      "title": "A Layered Approach to Speculation Rules – CSS Wizardry",
-      "url": "https://csswizardry.com/2024/12/a-layered-approach-to-speculation-rules/",
-      "hn": "https://bsky.app/profile/csswizardry.com/post/3mvhuvfndhk25",
+      "id": "634f77dd62fa",
+      "title": "CSS Curiosities of the Past",
+      "url": "https://vale.rocks/posts/css-relics",
+      "hn": "https://news.ycombinator.com/item?id=49654962",
+      "points": 92,
+      "comments": 60,
+      "created_at_i": 1789113437,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.985,
+      "why": []
+    },
+    {
+      "id": "45f8cc3c578c",
+      "title": "Building data-driven design systems",
+      "url": "https://ky.fyi/posts/data-driven",
+      "hn": "https://ky.fyi/posts/data-driven",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1789380930,
+      "created_at_i": 1789099260,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.951,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "a4b90b5ae7cd",
+      "title": "Five Eras Of UX Design And The Lessons To Keep In The AI Era",
+      "url": "https://aiforux.substack.com/p/five-eras-of-ux-design-and-the-lessons",
+      "hn": "https://aiforux.substack.com/p/five-eras-of-ux-design-and-the-lessons",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1789051652,
+      "sources": [
+        "AI for UX Substack"
+      ],
+      "sharers": 0,
+      "score": 3.924,
+      "why": [
+        "editor's pick at AI for UX Substack"
+      ]
+    },
+    {
+      "id": "179067fa1f69",
+      "title": "Web Components Demystified online course | Scott Jehl, Web Designer/Developer",
+      "url": "https://scottjehl.com/learn/webcomponentsdemystified/",
+      "hn": "https://bsky.app/profile/scottjehl.com/post/3mv675h3pt22y",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1789048340,
       "sources": [
         "Bluesky"
       ],
       "sharers": 1,
-      "score": 2.321,
+      "score": 3.895,
       "why": [
-        "spotted on Bluesky"
+        "2 Bluesky posts"
       ],
       "authors": [
-        "csswizardry.com"
+        "sarasoueidan.com"
+      ]
+    },
+    {
+      "id": "34c2b92e3a59",
+      "title": "The designer who drew Cursor’s icons",
+      "url": "https://www.casestudy.club/marek-minor-interview",
+      "hn": "https://www.casestudy.club/marek-minor-interview",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1788926520,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.858,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "a86ea82d513c",
+      "title": "Building A UX ROI Case That Survives The Boardroom",
+      "url": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
+      "hn": "https://smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1789128000,
+      "sources": [
+        "Smashing Magazine"
+      ],
+      "sharers": 0,
+      "score": 3.634,
+      "why": [
+        "editor's pick at Smashing Magazine"
       ]
     }
   ],
-  "week_start": "2026-09-14",
-  "week_end": "2026-09-20",
-  "week_label": "14–20 September 2026",
-  "iso_week": "2026-W38"
+  "week_start": "2026-09-07",
+  "week_end": "2026-09-13",
+  "week_label": "7–13 September 2026",
+  "iso_week": "2026-W37"
 }

@@ -22,15 +22,15 @@ class handler(BaseHTTPRequestHandler):
 
     def do_POST(self):
         body = _read_json(self)
-        _rebuild(self, force=bool(body.get("force")))
+        _rebuild(self, force=bool(body.get("force")), tz_name=body.get("timezone"))
 
     def log_message(self, fmt, *args):
         sys.stderr.write("%s - %s\n" % (self.address_string(), fmt % args))
 
 
-def _rebuild(http, force):
+def _rebuild(http, force, tz_name=None):
     try:
-        status, payload = run_rebuild(force=force)
+        status, payload = run_rebuild(force=force, tz_name=tz_name)
     except Exception as e:
         _send(http, 500, {"error": str(e)})
         return

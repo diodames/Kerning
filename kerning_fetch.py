@@ -4,7 +4,7 @@ Kerning — a design and product digest you can read daily, weekly, or monthly.
 
 Pulls from Hacker News, Lobsters, design and product publications, Substack,
 and the release feeds of major design systems. Merges everything by canonical
-URL, then cuts yesterday’s best 4, last week, and this month.
+URL, then cuts yesterday’s best 4, the weekly edition, and this month.
 
     pip install requests feedparser
     python3 kerning_fetch.py --limit 12
@@ -196,7 +196,7 @@ from kerning_lib.windows import (  # noqa: E402
     aware_now,
     digest_current,
     iso_week_id,
-    last_week,
+    edition_week,
     this_month,
     week_label,
     yesterday,
@@ -1526,7 +1526,7 @@ def write_markdown(path, cadences):
     lines = ["# Kerning", ""]
     blurbs = {
         "daily": "Yesterday",
-        "weekly": "This week",
+        "weekly": "Last week" if aware_now().weekday() == 0 else "This week",
         "monthly": "This month",
     }
     for kind in order:
@@ -1547,7 +1547,7 @@ def write_markdown(path, cadences):
 def main():
     ap = argparse.ArgumentParser(description="Build daily, weekly, and monthly design and product digests.")
     ap.add_argument("--days", type=int, default=None,
-                    help="rolling window in days (default: this calendar week)")
+                    help="rolling window in days (default: the weekly edition)")
     ap.add_argument("--limit", type=int, default=12,
                     help="items in weekly and monthly editions (daily is always 4)")
     ap.add_argument("--profile", default="kerning-profile.json",
@@ -1578,7 +1578,7 @@ def main():
                     help="tweet budget for the calibration run")
     ap.add_argument("--if-stale", action="store_true",
                     help="skip the fetch when digest.json already covers "
-                         "yesterday, last week, and this month")
+                         "yesterday, the weekly edition, and this month")
     args = ap.parse_args()
 
     if args.calibrate:
@@ -1659,7 +1659,7 @@ def build_digest(args):
 
     now_dt = aware_now()
     yday_start, yday_end = yesterday(now_dt)
-    week_start, week_end = last_week(now_dt)
+    week_start, week_end = edition_week(now_dt)
     month_start, month_end = this_month(now_dt)
 
     if args.days is not None:

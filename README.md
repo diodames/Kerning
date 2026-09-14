@@ -3,8 +3,8 @@
 A design and product digest you can read daily, weekly, or monthly. Pulls from
 Hacker News, Lobsters, design and product publications, Substack, design-system
 release feeds, and links shared on Bluesky. Ranks this calendar month, cuts
-yesterday’s best 4 plus the last complete week and this month, and learns from
-what you rate.
+yesterday’s best 4 plus the weekly edition and this month, and learns from
+what you rate. Weekly is last week on Monday, and this week from Tuesday.
 
 There are two ways to run it.
 
@@ -82,9 +82,9 @@ python3 kerning_fetch.py --limit 12
 ```
 
 Writes `digest.json` (read by the app) and `digest.md` (readable on its own).
-One run builds yesterday (4), the last complete Monday–Sunday (12), and this
-month (12). Daily is the last complete calendar day, not today-so-far. Weekly
-is the last complete week, not this week so far. The app switches between
+One run builds yesterday (4), the weekly edition (12), and this month (12).
+Daily is the last complete calendar day, not today-so-far. Weekly is last
+week on Monday, and this Monday–Sunday from Tuesday. The app switches between
 them. Pass `--days 7` if you want a single rolling window instead. X is
 skipped unless `APIFY_TOKEN` is set.
 
@@ -111,18 +111,17 @@ cannot rebuild, and `POST /api/rebuild` returns 501 so the app never reaches
 
 Three screens mean different things:
 
-- **Stale banner** (“This edition is not this week’s”) — the file is an
-  older week’s pack. The app shows those stories at once and recuts in the
-  background.
-- **Vacant** (“Nothing in this week’s digest”) — last week’s pack has no
-  stories. Check back Monday, when the next week has closed. Monthly may
-  still be current.
-- **Spinner** (“Opening this week’s digest”) — must clear as soon as
-  `digest.json` loads. If it hangs, a recut is stuck on the fetch lock.
+- **Dates without “Last week” / “This week”** — the file is an older pack.
+  The app shows those stories at once and recuts in the background. Try
+  again if you want to wait on that recut.
+- **Vacant** (“Nothing in last week’s digest” on Monday, or this week’s
+  from Tuesday) — that pack has no stories. Monthly may still be current.
+- **Spinner** (“Opening last week’s digest” on Monday) — must clear as soon
+  as `digest.json` loads. If it hangs, a recut is stuck on the fetch lock.
 
 Vacant Weekly on a Monday used to mean the recut targeted the week that had
 just started — often empty — and overwrote the closed Monday–Sunday pack.
-Weekly is now that last complete week, same idea as Daily → yesterday.
+Monday now keeps last week; this week starts Tuesday.
 
 If a recut hangs:
 

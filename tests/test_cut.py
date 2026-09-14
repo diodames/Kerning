@@ -41,7 +41,7 @@ class CutTests(unittest.TestCase):
         self.assertNotIn("https://example.com/mon", urls)
         self.assertEqual(packs["daily"]["period_start"], "2026-09-06")
 
-    def test_weekly_is_last_complete_week(self):
+    def test_weekly_is_last_complete_week_on_monday(self):
         now = datetime(2026, 9, 14, 17, 0, tzinfo=CEST)
         last_sun = datetime(2026, 9, 13, 10, 0, tzinfo=CEST).timestamp()
         this_mon = datetime(2026, 9, 14, 10, 0, tzinfo=CEST).timestamp()
@@ -54,6 +54,20 @@ class CutTests(unittest.TestCase):
         self.assertIn("https://example.com/sun", urls)
         self.assertNotIn("https://example.com/mon", urls)
         self.assertEqual(packs["weekly"]["period_start"], "2026-09-07")
+
+    def test_weekly_is_this_week_from_tuesday(self):
+        now = datetime(2026, 9, 15, 17, 0, tzinfo=CEST)
+        last_sun = datetime(2026, 9, 13, 10, 0, tzinfo=CEST).timestamp()
+        this_mon = datetime(2026, 9, 14, 10, 0, tzinfo=CEST).timestamp()
+        items = [
+            _item("https://example.com/sun", "Last Sunday leftover", last_sun, 20),
+            _item("https://example.com/mon", "This Monday", this_mon, 99),
+        ]
+        packs = cut_cadences(items, {}, set(), now, limit=12)
+        urls = [it["url"] for it in packs["weekly"]["items"]]
+        self.assertIn("https://example.com/mon", urls)
+        self.assertNotIn("https://example.com/sun", urls)
+        self.assertEqual(packs["weekly"]["period_start"], "2026-09-14")
 
     def test_empty_weekly_keeps_previous_pack(self):
         previous = {

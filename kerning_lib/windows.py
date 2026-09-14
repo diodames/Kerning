@@ -12,6 +12,21 @@ def default_tz_name():
     return os.environ.get("DIGEST_TZ") or os.environ.get("TZ")
 
 
+def resolve_tz_name(name):
+    """Return a usable IANA zone from a client hint, or None."""
+    if not name or not isinstance(name, str):
+        return None
+    name = name.strip()
+    if not name or len(name) > 64:
+        return None
+    try:
+        from zoneinfo import ZoneInfo
+        ZoneInfo(name)
+        return name
+    except Exception:
+        return None
+
+
 def aware_now(tz_name=None):
     """Timezone-aware now. tz_name is an IANA zone, e.g. Europe/Prague."""
     tz_name = tz_name or default_tz_name()
@@ -37,6 +52,14 @@ def last_week(now=None):
     """Previous Monday 00:00 through this Monday 00:00 — the last complete week."""
     start, end = this_week(now)
     return start - timedelta(days=7), end - timedelta(days=7)
+
+
+def edition_week(now=None):
+    """Last complete week on the viewer's Monday; this Monday–Sunday from Tuesday."""
+    now = now or aware_now()
+    if now.weekday() == 0:
+        return last_week(now)
+    return this_week(now)
 
 
 def this_day(now=None):
@@ -101,13 +124,13 @@ def expected_periods(now=None):
     now = now or aware_now()
     return {
         "daily": yesterday(now),
-        "weekly": last_week(now),
+        "weekly": edition_week(now),
         "monthly": this_month(now),
     }
 
 
 def cadences_current(cadences, now=None):
-    """True when cadence packs cover yesterday, last week, and this month."""
+    """True when cadence packs cover yesterday, the weekly edition, and this month."""
     packs = cadences or {}
     now = now or aware_now()
     for kind, (start, end) in expected_periods(now).items():
@@ -121,7 +144,7 @@ def cadences_current(cadences, now=None):
 
 
 def payload_current(data, now=None):
-    """True when a digest payload covers yesterday, last week, and this month."""
+    """True when a digest payload covers yesterday, the weekly edition, and this month."""
     if not isinstance(data, dict):
         return False
     return cadences_current(data.get("cadences") or {}, now)
