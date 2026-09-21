@@ -236,6 +236,16 @@
     gap: 40px; margin: 0 0 8px; flex-wrap: wrap;
   }
   #view-digest .controls { margin-bottom: 20px; }
+  #view-saved .controls {
+    justify-content: space-between;
+    gap: 16px;
+  }
+  #view-saved .controls .btn {
+    flex-shrink: 0;
+    white-space: nowrap;
+    margin-inline-start: auto;
+  }
+  #saved-list .meta time { font-variant-numeric: tabular-nums; }
   .range { position: relative; display: flex; gap: 20px; align-items: center; }
   .chip, .btn, .link, .text-act {
     font: inherit; letter-spacing: -0.02em; cursor: pointer;
@@ -398,24 +408,38 @@
   .acts { display: flex; flex-wrap: wrap; gap: 4px 22px; margin-top: 6px; }
   .acts .up:hover { color: var(--sage); }
   .acts .down:hover { color: var(--warm); }
-  #digest-list .acts { gap: 4px 32px; align-items: center; }
-  #digest-list .acts-vote { display: flex; flex-wrap: wrap; gap: 4px 14px; }
-  #digest-list .acts .text-act { color: var(--ink); }
+  #digest-list .acts,
+  #saved-list .acts { gap: 4px 32px; align-items: center; }
+  #digest-list .acts-vote,
+  #saved-list .acts-vote { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  #digest-list .acts .text-act,
+  #saved-list .acts .text-act { color: var(--ink); }
   #digest-list .acts .up:hover,
-  #digest-list .acts .up:focus-visible { color: var(--sage); text-decoration: underline; }
+  #digest-list .acts .up:focus-visible,
+  #saved-list .acts .up:hover,
+  #saved-list .acts .up:focus-visible { color: var(--sage); text-decoration: underline; }
   #digest-list .acts .down:hover,
-  #digest-list .acts .down:focus-visible { color: var(--warm); text-decoration: underline; }
+  #digest-list .acts .down:focus-visible,
+  #saved-list .acts .down:hover,
+  #saved-list .acts .down:focus-visible { color: var(--warm); text-decoration: underline; }
   #digest-list .acts [data-act="save"]:hover,
-  #digest-list .acts [data-act="save"]:focus-visible {
+  #digest-list .acts [data-act="save"]:focus-visible,
+  #saved-list .acts [data-act="unsave"]:hover,
+  #saved-list .acts [data-act="unsave"]:focus-visible {
     color: var(--ink); text-decoration: underline;
   }
-  #digest-list .acts.is-confirming .text-act {
+  #digest-list .acts.is-confirming .text-act,
+  #saved-list .acts.is-confirming .text-act {
     opacity: 0; pointer-events: none;
   }
-  #digest-list .acts.is-confirming .text-act.is-chosen { opacity: 1; }
-  #digest-list .acts .up.is-chosen { color: var(--sage); }
-  #digest-list .acts .down.is-chosen { color: var(--warm); }
-  #digest-list .item.item--exiting {
+  #digest-list .acts.is-confirming .text-act.is-chosen,
+  #saved-list .acts.is-confirming .text-act.is-chosen { opacity: 1; }
+  #digest-list .acts .up.is-chosen,
+  #saved-list .acts .up.is-chosen { color: var(--sage); }
+  #digest-list .acts .down.is-chosen,
+  #saved-list .acts .down.is-chosen { color: var(--warm); }
+  #digest-list .item.item--exiting,
+  #saved-list .item.item--exiting {
     opacity: 0;
     transform: translateY(-4px);
     pointer-events: none;
@@ -774,13 +798,22 @@
     field-sizing: content;
   }
   .seed-article a.seed-main .seed-title { cursor: inherit; }
-  .seed-article .seed-host {
+  .seed-article .seed-host,
+  .seed-article .seed-when {
     flex: 0 0 auto;
     font-size: var(--text-meta);
     font-weight: 400;
     letter-spacing: -0.02em;
     color: var(--mute);
     white-space: nowrap;
+  }
+  .seed-article .seed-when {
+    font-variant-numeric: tabular-nums;
+  }
+  .seed-article .seed-when::before {
+    content: "·";
+    margin-inline: 0.35em;
+    color: var(--faint);
   }
   .seed-x {
     flex: none;
@@ -870,6 +903,7 @@
     .tabs { gap: 16px; }
     .tab, .chip { font-size: 14px; }
     li.item { grid-template-columns: 2.6rem minmax(0, 1fr); column-gap: 12px; padding: 22px 0; }
+    li.item--plain { grid-template-columns: minmax(0, 1fr); }
     a.title { font-size: 1.0625rem; }
     .meta {
       flex-wrap: nowrap;
@@ -1009,7 +1043,9 @@
 
 const KEY = "kerning:profile:v1";
 const CADENCE_KEY = "kerning:cadence";
+const SAVED_SORT_KEY = "kerning:saved-sort";
 const CADENCES = ["daily", "weekly", "monthly"];
+const SAVED_SORTS = ["newest", "oldest"];
 const CADENCE_COPY = {
   daily: {
     prefix: "Yesterday",
@@ -1269,6 +1305,7 @@ let mode = "curated";
 let digestMeta = null;
 let digestPack = null;
 let cadence = "weekly";
+let savedSort = "newest";
 let hostedMode = false;
 let me = null;
 let putTimer = 0;
@@ -1288,6 +1325,10 @@ function loadProfile() {
     const c = localStorage.getItem(CADENCE_KEY);
     if (CADENCES.indexOf(c) >= 0) cadence = c;
   } catch (e) { /* keep weekly */ }
+  try {
+    const sort = localStorage.getItem(SAVED_SORT_KEY);
+    if (SAVED_SORTS.indexOf(sort) >= 0) savedSort = sort;
+  } catch (e) { /* keep newest */ }
   const seeded = ensureResourcesCatalog();
   rebuildWeights();
   if (seeded) saveProfile();
@@ -1296,6 +1337,10 @@ function loadProfile() {
 }
 function saveCadence() {
   try { localStorage.setItem(CADENCE_KEY, cadence); }
+  catch (e) { /* private mode */ }
+}
+function saveSavedSort() {
+  try { localStorage.setItem(SAVED_SORT_KEY, savedSort); }
   catch (e) { /* private mode */ }
 }
 function saveProfileLocal() {
@@ -1589,9 +1634,35 @@ function periodDates(meta) {
 function addedWhenLabel(ms) {
   const n = Number(ms);
   if (!n) return "";
-  return "Added " + new Date(n).toLocaleDateString(undefined, {
+  const d = new Date(n);
+  const now = new Date();
+  const opts = { day: "numeric", month: "short" };
+  if (d.getFullYear() !== now.getFullYear()) opts.year = "numeric";
+  return d.toLocaleDateString(undefined, opts);
+}
+
+function savedWhenLabel(ms) {
+  return addedWhenLabel(ms);
+}
+
+function savedWhenTitle(ms) {
+  const n = Number(ms);
+  if (!n) return "";
+  const d = new Date(n);
+  return d.toLocaleString(undefined, {
     day: "numeric", month: "short", year: "numeric",
+    hour: "numeric", minute: "2-digit",
   });
+}
+
+function savedSorted() {
+  const rows = (profile.saved || []).slice();
+  rows.sort(function (a, b) {
+    const da = Number(a && a.at) || 0;
+    const db = Number(b && b.at) || 0;
+    return savedSort === "oldest" ? da - db : db - da;
+  });
+  return rows;
 }
 
 function itemWhen(unix) {
@@ -2381,8 +2452,20 @@ function prefersReducedMotion() {
 function confirmDigestRate(btn, item, value) {
   const itemEl = btn.closest("li.item");
   if (!itemEl || itemEl.dataset.busy === "1") return;
-  if (prefersReducedMotion()) {
+  const fromSaved = !!itemEl.closest("#saved-list");
+  if (fromSaved && value > 0) {
     rate(item, value);
+    return;
+  }
+  function commit() {
+    if (fromSaved && value < 0) {
+      const i = savedIndex(item);
+      if (i >= 0) profile.saved.splice(i, 1);
+    }
+    rate(item, value);
+  }
+  if (prefersReducedMotion()) {
+    commit();
     return;
   }
   itemEl.dataset.busy = "1";
@@ -2391,8 +2474,17 @@ function confirmDigestRate(btn, item, value) {
   btn.classList.add("is-chosen");
   window.setTimeout(function () {
     itemEl.classList.add("item--exiting");
-    window.setTimeout(function () { rate(item, value); }, 160);
+    window.setTimeout(function () { commit(); }, 160);
   }, 180);
+}
+
+function findActItem(id) {
+  if (id == null || id === "") return null;
+  const sid = String(id);
+  const fromRanked = ranked.find((x) => String(x.id) === sid);
+  const fromSaved = (profile.saved || []).find((x) => String(x.id) === sid);
+  if (fromRanked && fromSaved) return Object.assign({}, fromSaved, fromRanked);
+  return fromRanked || fromSaved || null;
 }
 
 function rate(item, r) {
@@ -2936,6 +3028,48 @@ function itemHTML(item, i) {
     + "</div></div></li>";
 }
 
+function savedItemHTML(item) {
+  const dom = domainOf(item.url) || "";
+  const rec = profile.ratings[item.id];
+  const upOn = !!(rec && rec.r > 0);
+  const downOn = !!(rec && rec.r < 0);
+  const href = item.url || "";
+  const title = item.title || href || "Untitled";
+  const when = savedWhenLabel(item.at);
+  const whenFull = savedWhenTitle(item.at);
+  const iso = Number(item.at) ? new Date(Number(item.at)).toISOString() : "";
+  const run = [];
+  if (dom) run.push("<span>" + esc(dom) + "</span>");
+  if (when) {
+    run.push("<span><time datetime=\"" + esc(iso) + "\""
+      + (whenFull && whenFull !== when ? " title=\"" + esc(whenFull) + "\"" : "")
+      + ">" + esc(when) + "</time></span>");
+  }
+  if (item.points > 0) {
+    run.push("<span>" + item.points + " point" + (item.points === 1 ? "" : "s") + "</span>");
+  }
+  const meta = run.length
+    ? ['<span class="meta-run">' + run.join("") + "</span>"]
+    : [];
+  return '<li class="item item--plain">'
+    + '<div class="body">'
+    + (href
+        ? '<a class="title" href="' + esc(href) + '" target="_blank" rel="noreferrer">'
+          + formatTitle(title) + "</a>"
+        : '<span class="title">' + formatTitle(title) + "</span>")
+    + (meta.length ? '<p class="meta">' + meta.join("") + "</p>" : "")
+    + '<div class="acts">'
+    + '<div class="acts-vote">'
+    + '<button type="button" class="text-act up' + (upOn ? " is-chosen" : "") + '" data-act="up" data-id="'
+    + esc(item.id) + '" aria-pressed="' + (upOn ? "true" : "false") + '">More like this</button>'
+    + '<button type="button" class="text-act down' + (downOn ? " is-chosen" : "") + '" data-act="down" data-id="'
+    + esc(item.id) + '" aria-pressed="' + (downOn ? "true" : "false") + '">Less like this</button>'
+    + "</div>"
+    + '<button type="button" class="text-act" data-act="unsave" data-id="'
+    + esc(item.id) + '">Remove</button>'
+    + "</div></div></li>";
+}
+
 function loadingCopy() {
   if (mode === "curated") {
     return hostedMode
@@ -3097,6 +3231,33 @@ function savedFormHTML() {
     + '<p class="field-err" id="saved-err" role="status"></p></div>';
 }
 
+function bindSavedSort() {
+  const sortEl = document.getElementById("saved-sort");
+  if (!sortEl) return;
+  sortEl.onclick = function (e) {
+    const b = e.target.closest("[data-saved-sort]");
+    if (!b) return;
+    const next = b.dataset.savedSort;
+    if (SAVED_SORTS.indexOf(next) < 0 || next === savedSort) return;
+    slideGroup = sortEl;
+    savedSort = next;
+    saveSavedSort();
+    render();
+  };
+  sortEl.addEventListener("keydown", function (e) {
+    if (e.key !== "ArrowRight" && e.key !== "ArrowLeft") return;
+    const chips = Array.from(sortEl.querySelectorAll("[data-saved-sort]"));
+    const i = chips.findIndex((c) => c.classList.contains("on"));
+    const next = chips[(i + (e.key === "ArrowRight" ? 1 : -1) + chips.length) % chips.length];
+    next.focus();
+    slideGroup = sortEl;
+    savedSort = next.dataset.savedSort;
+    saveSavedSort();
+    render();
+    e.preventDefault();
+  });
+}
+
 function renderSaved() {
   const el = document.getElementById("view-saved");
   const form = savedFormHTML();
@@ -3108,15 +3269,26 @@ function renderSaved() {
     bindSavedForm();
     return;
   }
+  const rows = savedSorted();
+  const sort = '<div class="range" id="saved-sort" role="radiogroup" aria-label="Sort saved">'
+    + '<button type="button" class="chip' + (savedSort === "newest" ? " on" : "")
+    + '" role="radio" aria-checked="' + (savedSort === "newest" ? "true" : "false")
+    + '" data-saved-sort="newest">Newest</button>'
+    + '<button type="button" class="chip' + (savedSort === "oldest" ? " on" : "")
+    + '" role="radio" aria-checked="' + (savedSort === "oldest" ? "true" : "false")
+    + '" data-saved-sort="oldest">Oldest</button>'
+    + '<span class="sel-dot" aria-hidden="true"></span></div>';
   el.innerHTML = form
-    + '<div class="controls"><span class="note">' + profile.saved.length
-    + ' saved</span><button type="button" class="btn" id="copy-md">Copy as markdown</button></div>'
-    + '<ul class="seeds seeds--chips">'
-    + profile.saved.map((s) => articleChip(s, "unsave")).join("") + "</ul>";
+    + '<div class="controls">'
+    + (profile.saved.length > 1 ? sort : "")
+    + '<button type="button" class="btn" id="copy-md">Copy as markdown</button></div>'
+    + '<ul class="list" id="saved-list">'
+    + rows.map((s) => savedItemHTML(s)).join("") + "</ul>";
 
   bindSavedForm();
+  bindSavedSort();
   document.getElementById("copy-md").onclick = function () {
-    const md = profile.saved.map((s) => "- [" + s.title + "](" + s.url + ")").join("\n");
+    const md = savedSorted().map((s) => "- [" + s.title + "](" + s.url + ")").join("\n");
     navigator.clipboard.writeText(md).then(() => {
       this.textContent = "Copied";
       setTimeout(() => { this.textContent = "Copy as markdown"; }, 1800);
@@ -3533,26 +3705,33 @@ function articleChip(item, dropAct, asLink) {
   const editable = dropAct === "drop-article" && !asLink;
   const href = !editable && item.url ? item.url : "";
   const hostSpan = showHost ? '<span class="seed-host">(' + esc(host) + ")</span>" : "";
-  const tip = addedWhenLabel(item.addedAt || item.at);
+  const whenMs = item.addedAt || item.at;
+  const when = addedWhenLabel(whenMs);
+  const whenFull = savedWhenTitle(whenMs);
+  const iso = Number(whenMs) ? new Date(Number(whenMs)).toISOString() : "";
+  const whenSpan = when
+    ? '<time class="seed-when" datetime="' + esc(iso) + '"'
+      + (whenFull && whenFull !== when ? ' title="' + esc(whenFull) + '"' : "")
+      + ">" + esc(when) + "</time>"
+    : "";
   const main = editable
     ? '<div class="seed-main">'
       + '<input class="seed-title" data-article-title="' + esc(item.id) + '"'
       + ' value="' + esc(title) + '" aria-label="Title for ' + esc(host) + '">'
-      + hostSpan + "</div>"
+      + hostSpan + whenSpan + "</div>"
     : href
       ? '<a class="seed-main" href="' + esc(href) + '" target="_blank" rel="noreferrer">'
         + '<span class="seed-title">' + esc(title) + "</span>"
-        + hostSpan + "</a>"
+        + hostSpan + whenSpan + "</a>"
       : '<div class="seed-main">'
         + '<input class="seed-title" readonly tabindex="-1" value="' + esc(title)
         + '" aria-label="Title for ' + esc(host) + '">'
-        + hostSpan + "</div>";
+        + hostSpan + whenSpan + "</div>";
   const x = dropAct && item.id
     ? '<button type="button" class="seed-x" data-act="' + dropAct + '" data-id="'
       + esc(item.id) + '" aria-label="Remove"><span aria-hidden="true">×</span></button>'
     : "";
-  return '<li class="seed seed-article"'
-    + (tip ? ' title="' + esc(tip) + '"' : "") + ">" + main + x + "</li>";
+  return '<li class="seed seed-article">' + main + x + "</li>";
 }
 
 function pushingAwayHTML() {
@@ -3784,6 +3963,7 @@ function selDotGroups() {
     document.getElementById("cadence"),
     document.getElementById("range"),
     document.getElementById("taste-panes"),
+    document.getElementById("saved-sort"),
   ].concat(Array.from(document.querySelectorAll(".net")));
 }
 
@@ -3916,7 +4096,7 @@ document.body.addEventListener("click", (e) => {
   if (act === "drop-resource") { removeResource(id); return; }
   if (act === "net") { setPersonNetwork(id, b.dataset.network, b); return; }
   if (act === "res-kind") { setResourceKind(id, b.dataset.kind); return; }
-  const item = ranked.find((x) => x.id === id);
+  const item = findActItem(id);
   if (!item) return;
   if (act === "up") confirmDigestRate(b, item, 1);
   else if (act === "down") confirmDigestRate(b, item, -1);
