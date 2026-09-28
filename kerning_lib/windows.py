@@ -2,7 +2,10 @@
 
 import json
 import os
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
+
+PRAGUE_TZ_NAME = "Europe/Prague"
+POOL_RETENTION_DAYS = 60
 
 RECENCY_TAU = {"daily": 1.5, "weekly": 21, "monthly": 45}
 
@@ -71,7 +74,9 @@ def this_day(now=None):
 def yesterday(now=None):
     """Yesterday 00:00 local through today 00:00 — the last complete calendar day."""
     today, _ = this_day(now)
-    return today - timedelta(days=1), today
+    yday = today.date() - timedelta(days=1)
+    start = today.replace(year=yday.year, month=yday.month, day=yday.day)
+    return start, today
 
 
 def this_month(now=None):
@@ -160,3 +165,43 @@ def digest_current(path, now=None):
     except (OSError, ValueError):
         return False
     return payload_current(data, now)
+
+
+def prague_tz():
+    from zoneinfo import ZoneInfo
+    return ZoneInfo(PRAGUE_TZ_NAME)
+
+
+def to_prague(dt=None):
+    """Timezone-aware datetime in Europe/Prague, including DST."""
+    tz = prague_tz()
+    if dt is None:
+        return datetime.now(tz)
+    if isinstance(dt, str):
+        text = dt.replace("Z", "+00:00")
+        dt = datetime.fromisoformat(text)
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt.astimezone(tz)
+
+
+def prague_date_str(dt=None):
+    """Calendar date in Europe/Prague as YYYY-MM-DD."""
+    return to_prague(dt).date().isoformat()
+
+
+def dates_in_period(start, end):
+    """Inclusive local dates from period start through the last second before end."""
+    last = (end - timedelta(seconds=1)).date()
+    day = start.date()
+    out = []
+    while day <= last:
+        out.append(day.isoformat())
+        day += timedelta(days=1)
+    return out
+
+
+def close_cron_is_after_prague_midnight(now_utc):
+    """True when UTC instant is already the next calendar date in Prague."""
+    utc = now_utc.astimezone(timezone.utc)
+    return to_prague(now_utc).date() > utc.date()

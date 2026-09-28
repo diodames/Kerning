@@ -9,27 +9,43 @@ DAILY_LIMIT = 4
 _WEEKLY_PAYLOAD_KEYS = ("week_start", "week_end", "week_label", "iso_week")
 
 
+ALL_KINDS = ("daily", "weekly", "monthly")
+
+
+def keep_previous_packs(cadences, previous, kinds=ALL_KINDS):
+    """Any empty pack in kinds takes the previous pack of that kind when it has items."""
+    cadences = cadences or {}
+    old = (previous or {}).get("cadences") or {}
+    merged = None
+    for kind in kinds:
+        if (cadences.get(kind) or {}).get("items"):
+            continue
+        old_pack = old.get(kind) or {}
+        if not old_pack.get("items"):
+            continue
+        print("%s: empty cut, keeping previous pack" % kind, file=sys.stderr)
+        if merged is None:
+            merged = dict(cadences)
+        merged[kind] = old_pack
+    return cadences if merged is None else merged
+
+
 def keep_previous_weekly(cadences, previous):
     """If the new weekly pack is empty, keep the previous weekly when it has items."""
-    cadences = cadences or {}
-    new_weekly = cadences.get("weekly") or {}
-    if new_weekly.get("items"):
-        return cadences
-    old_weekly = ((previous or {}).get("cadences") or {}).get("weekly") or {}
-    if not old_weekly.get("items"):
-        return cadences
-    print("weekly: empty cut, keeping previous pack", file=sys.stderr)
-    merged = dict(cadences)
-    merged["weekly"] = old_weekly
-    return merged
+    return keep_previous_packs(cadences, previous, kinds=("weekly",))
 
 
 def apply_kept_weekly(payload, previous):
     """Keep previous weekly on an empty recut, including top-level week fields."""
+    return apply_kept_packs(payload, previous, kinds=("weekly",))
+
+
+def apply_kept_packs(payload, previous, kinds=ALL_KINDS):
+    """keep_previous_packs on a digest payload, refreshing top-level weekly fields."""
     if not isinstance(payload, dict):
         return payload
     cadences = payload.get("cadences") or {}
-    kept = keep_previous_weekly(cadences, previous)
+    kept = keep_previous_packs(cadences, previous, kinds=kinds)
     if kept is cadences:
         return payload
     out = dict(payload)

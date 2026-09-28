@@ -1,0 +1,31 @@
+{
+  "hn": {
+    "min_points": 10,
+    "min_comments": 5
+  },
+  "lobsters": {
+    "min_score": 3
+  },
+  "blocklist": [],
+  "allowlist": [
+    "nngroup.com",
+    "smashingmagazine.com",
+    "alistapart.com",
+    "uxdesign.cc",
+    "sidebar.io",
+    "typographica.org",
+    "svpg.com",
+    "producttalk.org"
+  ],
+  "saas_domains": {
+    "intercom.com": ["intercom"],
+    "linear.app": ["linear"],
+    "notion.so": ["notion"],
+    "framer.com": ["framer"],
+    "webflow.com": ["webflow"],
+    "vercel.com": ["vercel"],
+    "notion.com": ["notion"]
+  },
+  "saas_weight": 0.35,
+  "saas_low_points": 20
+}

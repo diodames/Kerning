@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from kerning_lib.cut import apply_kept_weekly
+from kerning_lib.cut import apply_kept_packs
 from kerning_lib.windows import aware_now, payload_current, resolve_tz_name
 
 BLOB_API = "https://blob.vercel-storage.com"
@@ -37,7 +37,7 @@ def should_skip_fetch(data, force=False, now=None):
     return payload_current(data, now)
 
 
-def lock_is_fresh(lock, now=None):
+def lock_is_fresh(lock, now=None, ttl=LOCK_TTL_SEC):
     """True when another rebuild started recently and may still be running."""
     if not isinstance(lock, dict):
         return False
@@ -49,7 +49,7 @@ def lock_is_fresh(lock, now=None):
         started = started.replace(tzinfo=timezone.utc)
     if now.tzinfo is None:
         now = now.replace(tzinfo=timezone.utc)
-    return (now - started).total_seconds() < LOCK_TTL_SEC
+    return (now - started).total_seconds() < ttl
 
 
 def get_digest_payload():
@@ -91,7 +91,7 @@ def run_rebuild(force=False, tz_name=None):
         path = out_base + ".json"
         with open(path, encoding="utf-8") as fh:
             payload = json.load(fh)
-        payload = apply_kept_weekly(payload, data)
+        payload = apply_kept_packs(payload, data)
         _put_json(DIGEST_PATH, payload)
         return 200, {"rebuilt": True}
     except subprocess.TimeoutExpired:

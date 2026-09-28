@@ -10,3 +10,4 @@ kerning.db
 *.db
 .venv/
 venv/
+data/

@@ -2630,8 +2630,8 @@ async function pollJob(jobId, until) {
 }
 
 async function ensureFreshDigest(opts) {
-  // 404/403: no Vercel route. 405/501: python -m http.server. Then POST /rebuild.
-  // Keep statuses in sync with kerning_lib.rebuild.after_api_rebuild.
+  // Hosted Fly recuts via /me/rebuild. Local kerning_serve.py via POST /rebuild.
+  // The public Vercel reader only GETs /api/digest — collect/close are cron.
   const force = !!(opts && opts.force === true);
   if (hostedMode) {
     const ctrl = new AbortController();
@@ -2657,24 +2657,6 @@ async function ensureFreshDigest(opts) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), 240000);
   try {
-    try {
-      const res = await fetch("/api/rebuild", {
-        method: "POST",
-        signal: ctrl.signal,
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ force: force, timezone: viewerTimezone() }),
-      });
-      if (res.ok) return "ok";
-      if (res.status === 202) {
-        const before = digestPack && digestPack.generated_at;
-        const outcome = await pollBlobDigest(Date.now() + 180000, {
-          force: force,
-          before: before,
-        });
-        return outcome === "ok" ? "ok" : "error";
-      }
-      if (res.status !== 404 && res.status !== 403 && res.status !== 405 && res.status !== 501) return "error";
-    } catch (e) { /* no Vercel route — try the local server */ }
     const res = await fetch("/rebuild", { method: "POST", signal: ctrl.signal });
     if (res.status === 404 || res.status === 403) return "static";
     if (!res.ok) return "error";
@@ -2708,7 +2690,7 @@ async function load(opts) {
   const force = !!(opts && opts.force === true);
   status = "loading";
   rebuildFailed = false;
-  canRebuild = true;
+  canRebuild = hostedMode;
   render();
   try {
     if (mode === "curated") {
@@ -2717,6 +2699,9 @@ async function load(opts) {
         try {
           await loadDigest();
           have = true;
+          if (!hostedMode) {
+            status = "ok"; recompute(); render(); return;
+          }
           if (!force && cadencesCurrent(digestPack)) {
             status = "ok"; recompute(); render(); return;
           }
@@ -2738,29 +2723,42 @@ async function load(opts) {
           }
         } catch (e) {
           if (String(e.message) === "sign in") return;
+          if (!hostedMode) {
+            if (have) {
+              status = "ok"; recompute(); render(); return;
+            }
+            mode = "live";
+          }
         }
-        const rebuilt = await ensureFreshDigest({ force: force });
-        canRebuild = rebuilt !== "static";
-        if (rebuilt === "static") {
+        if (!hostedMode) {
           if (have) {
             status = "ok"; recompute(); render(); return;
           }
           mode = "live";
         } else {
-          try {
-            await loadDigest();
-            status = "ok"; recompute(); render(); return;
-          } catch (e) {
-            if (String(e.message) === "sign in") return;
-            if (hostedMode && rebuilt === "error") rebuildFailed = true;
-            else if (hostedMode && String(e.message) === "digest-missing") {
-              const ready = await waitForHostedDigest();
-              if (ready) {
-                status = "ok"; recompute(); render(); return;
+          const rebuilt = await ensureFreshDigest({ force: force });
+          canRebuild = rebuilt !== "static";
+          if (rebuilt === "static") {
+            if (have) {
+              status = "ok"; recompute(); render(); return;
+            }
+            mode = "live";
+          } else {
+            try {
+              await loadDigest();
+              status = "ok"; recompute(); render(); return;
+            } catch (e) {
+              if (String(e.message) === "sign in") return;
+              if (hostedMode && rebuilt === "error") rebuildFailed = true;
+              else if (hostedMode && String(e.message) === "digest-missing") {
+                const ready = await waitForHostedDigest();
+                if (ready) {
+                  status = "ok"; recompute(); render(); return;
+                }
+                rebuildFailed = true;
+              } else {
+                mode = "live";
               }
-              rebuildFailed = true;
-            } else {
-              mode = "live";
             }
           }
         }

@@ -9,8 +9,8 @@ URL, then cuts yesterday’s best 4, the weekly edition, and this month.
     pip install requests feedparser
     python3 kerning_fetch.py --limit 12
 
-Writes digest.json (for the Kerning web app) and digest.md (to read directly).
-Pass --days N for a single rolling window instead.
+Default: collect into the raw pool, then close yesterday in Prague.
+Pass --collect or --close alone, or --days N for a single rolling window.
 
 Bluesky is a first-class source: public author feeds, no login. Search-based
 buzz still needs credentials if you want it on top:
@@ -201,7 +201,7 @@ from kerning_lib.windows import (  # noqa: E402
     week_label,
     yesterday,
 )
-from kerning_lib.cut import cut_cadences, keep_previous_weekly  # noqa: E402
+from kerning_lib.cut import cut_cadences, keep_previous_packs  # noqa: E402
 
 # --------------------------------------------------------------------------
 # URL canonicalisation — the backbone of cross-source merging
@@ -1579,7 +1579,26 @@ def main():
     ap.add_argument("--if-stale", action="store_true",
                     help="skip the fetch when digest.json already covers "
                          "yesterday, the weekly edition, and this month")
+    ap.add_argument("--collect", action="store_true",
+                    help="refresh the raw pool only (no ranking)")
+    ap.add_argument("--close", action="store_true",
+                    help="close a Prague calendar day from the pool")
+    ap.add_argument("--date", default="",
+                    help="YYYY-MM-DD to close (default: yesterday in Prague)")
+    ap.add_argument("--force", action="store_true",
+                    help="rewrite a closed day")
     args = ap.parse_args()
+
+    if args.collect:
+        from kerning_lib.collect import run_collect
+        payload = run_collect()
+        print(payload, file=sys.stderr)
+        return 0 if payload.get("ok") else 1
+    if args.close:
+        from kerning_lib.close import run_close
+        payload = run_close(date=args.date or None, force=args.force)
+        print(payload, file=sys.stderr)
+        return 0 if payload.get("ok") else 1
 
     if args.calibrate:
         everyone = load_accounts(args.calibrate)
@@ -1589,9 +1608,26 @@ def main():
         return calibrate(args.days or 7, everyone, args.keep,
                          args.calibrate_tweets, args.accounts)
 
+    if args.days is not None:
+        try:
+            with fetch_lock():
+                return build_digest(args)
+        except TimeoutError as e:
+            print(str(e), file=sys.stderr)
+            return 1
+
     try:
         with fetch_lock():
-            return build_digest(args)
+            from kerning_lib.close import run_close
+            from kerning_lib.collect import run_collect
+            if args.if_stale and digest_current(args.out + ".json"):
+                print("digest current, skipping fetch", file=sys.stderr)
+                return 0
+            collected = run_collect()
+            if not collected.get("ok"):
+                return 1
+            closed = run_close(date=args.date or None, force=args.force)
+            return 0 if closed.get("ok") else 1
     except TimeoutError as e:
         print(str(e), file=sys.stderr)
         return 1
@@ -1782,7 +1818,7 @@ def build_digest(args):
                 previous = json.load(fh)
         except (OSError, ValueError):
             previous = None
-    cadences = keep_previous_weekly(cadences, previous)
+    cadences = keep_previous_packs(cadences, previous)
     for kind, pack in cadences.items():
         print(f"{kind}: {len(pack.get('items') or [])} items", file=sys.stderr)
 

@@ -6,8 +6,20 @@
     "DIGEST_TZ": "Europe/Prague"
   },
   "functions": {
-    "api/rebuild.py": {
+    "api/collect.py": {
       "maxDuration": 300,
+      "excludeFiles": "{app/**,tests/**,*.png,Dockerfile,fly.toml,docker-compose.yml}"
+    },
+    "api/close.py": {
+      "maxDuration": 60,
+      "excludeFiles": "{app/**,tests/**,*.png,Dockerfile,fly.toml,docker-compose.yml}"
+    },
+    "api/close-stats.py": {
+      "maxDuration": 15,
+      "excludeFiles": "{app/**,tests/**,*.png,Dockerfile,fly.toml,docker-compose.yml}"
+    },
+    "api/rebuild.py": {
+      "maxDuration": 60,
       "excludeFiles": "{app/**,tests/**,*.png,Dockerfile,fly.toml,docker-compose.yml}"
     },
     "api/digest.py": {
@@ -17,8 +29,8 @@
   },
   "crons": [
     {
-      "path": "/api/rebuild",
-      "schedule": "20 22 * * *"
+      "path": "/api/close",
+      "schedule": "5 23 * * *"
     }
   ]
 }

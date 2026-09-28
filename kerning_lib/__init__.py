@@ -17,7 +17,7 @@ from kerning_lib.windows import (
     week_label,
     yesterday,
 )
-from kerning_lib.cut import cut_cadences, keep_previous_weekly, row_to_item
+from kerning_lib.cut import cut_cadences, keep_previous_packs, keep_previous_weekly, row_to_item
 
 __all__ = [
     "RECENCY_TAU",
@@ -29,6 +29,7 @@ __all__ = [
     "edition_week",
     "expected_periods",
     "iso_week_id",
+    "keep_previous_packs",
     "keep_previous_weekly",
     "last_week",
     "resolve_tz_name",

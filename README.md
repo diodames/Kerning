@@ -78,19 +78,19 @@ pip install requests feedparser
 **1. Build the digest (optional)**
 
 ```bash
-python3 kerning_fetch.py --limit 12
+python3 kerning_fetch.py
 ```
 
-Writes `digest.json` (read by the app) and `digest.md` (readable on its own).
-One run builds yesterday (4), the weekly edition (12), and this month (12).
-Daily is the last complete calendar day, not today-so-far. Weekly is last
-week on Monday, and this Monday–Sunday from Tuesday. The app switches between
-them. Pass `--days 7` if you want a single rolling window instead. X is
-skipped unless `APIFY_TOKEN` is set.
+Collects public sources into `data/pool.json` (no ranking), then closes
+yesterday in Europe/Prague and writes `digest.json`. Daily is the last
+complete calendar day (4 stories). Weekly and Monthly are composed only
+from closed days (12 each). Weekly is last week on Monday, and this
+Monday–Sunday from Tuesday. Pass `--collect` or `--close` to run one
+phase. Pass `--days 7` for the old one-shot rolling window. X is skipped
+unless `APIFY_TOKEN` is set.
 
-A forced rebuild is only needed when you want a new pass before the windows
-change. Opening the app, or the nightly job, runs `kerning_fetch.py --if-stale`
-and skips the network when the file is already current.
+Opening the app does not recut. The nightly LaunchAgent runs
+`kerning_fetch.py --if-stale` and skips when the windows are current.
 
 **2. Open the app**
 
@@ -100,24 +100,23 @@ python3 kerning_serve.py
 
 Then go to <http://127.0.0.1:8000/index.html>.
 
-You need this server, not `python3 -m http.server`. Plain `http.server` cannot
-rebuild.
+You need this server, not `python3 -m http.server`, if you want a local
+`POST /rebuild`. The reader itself only loads `digest.json`.
 
 **Weekly empty or stuck loading**
 
-Serve with `python3 kerning_serve.py`. Do not use `python3 -m http.server`: it
-cannot rebuild, and `POST /api/rebuild` returns 501 so the app never reaches
-`/rebuild`.
+Serve with `python3 kerning_serve.py` so `digest.json` is reachable. Plain
+`python3 -m http.server` still serves the file; it cannot recut.
 
 Three screens mean different things:
 
 - **Dates without “Last week” / “This week”** — the file is an older pack.
-  The app shows those stories at once and recuts in the background. Try
-  again if you want to wait on that recut.
+  The app shows those stories at once. Run `python3 kerning_fetch.py` (or
+  the LaunchAgent) to close a new day.
 - **Vacant** (“Nothing in last week’s digest” on Monday, or this week’s
   from Tuesday) — that pack has no stories. Monthly may still be current.
 - **Spinner** (“Opening last week’s digest” on Monday) — must clear as soon
-  as `digest.json` loads. If it hangs, a recut is stuck on the fetch lock.
+  as `digest.json` loads.
 
 Vacant Weekly on a Monday used to mean the recut targeted the week that had
 just started — often empty — and overwrote the closed Monday–Sunday pack.
@@ -136,14 +135,26 @@ lock older than 280 seconds. You can also delete that file and reopen the app.
 ### Vercel (shared public digest)
 
 <https://kerning-six.vercel.app/> is the single-user reader with Taste in the
-browser. Recut runs in a function, not by rewriting the deployed `digest.json`.
+browser. Collection and close run in functions; they do not rewrite the
+deployed `digest.json`. Opening the page only `GET`s `/api/digest`.
 
-Opening the page `POST`s `/api/rebuild`. If Daily/Weekly/Monthly are stale, that
-run fetches public sources (no X), writes the pack to Vercel Blob, and
-`/api/digest` serves it. The first open after a window change can take up to a
-few minutes. Try again after a failed build sends `{ force: true }`. A cron at
-22:20 UTC (~00:20 Prague in summer) recuts so the first visitor is not the one
-who waits.
+Two phases:
+
+1. **Collect** every two hours (`POST /api/collect`) upserts public sources
+   (no X) into Blob `kerning/pool.json`. GitHub Actions calls this — Hobby
+   Vercel cron is once a day.
+2. **Close** after Prague midnight (`GET /api/close`, cron `5 23 * * *` UTC)
+   ranks yesterday’s pool, writes an immutable `kerning/days/YYYY-MM-DD.json`,
+   composes Weekly/Monthly from closed days, and refreshes `kerning/digest.json`.
+
+Close also backfills any missing day in the Weekly and Monthly windows from
+publish dates, so a fresh pool or a missed cron night never leaves gaps.
+If Daily comes out empty, it shows the latest closed day from the past
+week. Any edition that is still empty keeps its last non-empty pack.
+
+Both endpoints need `Authorization: Bearer ${CRON_SECRET}`. Vercel cron
+sends that header when the env var is set. Idempotent: collect upserts;
+close without `force` returns `{ closed: false }` when the day exists.
 
 In the Vercel project:
 
@@ -151,10 +162,23 @@ In the Vercel project:
    is added automatically).
 2. Set `DIGEST_TZ=Europe/Prague` if it is not already set from `vercel.json`.
    Vercel reserves `TZ`; do not add it as a project variable.
-3. Redeploy. Confirm `GET /api/digest` and that a stale Daily updates to
-   yesterday.
+3. Set `CRON_SECRET` to a long random string. Put the same value in GitHub
+   Actions secrets as `CRON_SECRET`. Optional: `KERN_ORIGIN` if the site is
+   not `https://kerning-six.vercel.app`.
+4. Redeploy. Confirm `GET /api/digest`.
 
 Do not add `APIFY_TOKEN`. Do not point this project at the Fly FastAPI app.
+
+**Regenerate a closed day**
+
+```bash
+curl -X POST \
+  -H "Authorization: Bearer $CRON_SECRET" \
+  "$ORIGIN/api/close?date=2026-09-27&force=true"
+```
+
+`GET /api/close-stats?date=2026-09-27` with the same Bearer header returns
+drop counts (`prerelease`, `blocklist`, `below_threshold`, `lexicon`, …).
 
 Opening the file directly with `file://` means the browser blocks
 `fetch()` of `digest.json`, and the app silently falls back to querying
@@ -186,11 +210,13 @@ watches anyone and any feed you added, on top of the curated lists.
 |---|---|
 | `index.html` | The reading app. Self-contained: HTML, CSS, and JS in one file. |
 | `app/` | Hosted FastAPI, magic-link auth, Postgres models, crawl + cut jobs. |
-| `kerning_lib/` | Calendar windows and digest cuts, shared by the CLI and the hosted worker. |
-| `kerning_fetch.py` | Fetching, merging, scoring. All the source config is at the top. `--if-stale` skips a run when the windows are current. |
-| `kerning_serve.py` | Local single-user server. Serves the app and rebuilds a stale digest on open. |
-| `api/` | Vercel functions: `GET /api/digest`, `POST /api/rebuild`. |
-| `vercel.json` | Static Vercel project, Python functions, nightly cron. Do not detect FastAPI. |
+| `kerning_lib/` | Windows, pool, quality gate, collect/close, Blob/local store. |
+| `kerning_lib/quality.json` | Close-time thresholds, GitHub pre-release rules, domain lists. |
+| `kerning_fetch.py` | Fetching, merging, scoring. `--collect` / `--close` / `--if-stale`. |
+| `kerning_serve.py` | Local single-user server. Serves the app; `POST /rebuild` is opt-in. |
+| `api/` | Vercel: `GET /api/digest`, `POST /api/collect`, `/api/close`, close-stats. |
+| `vercel.json` | Static Vercel project, Python functions, daily close cron. |
+| `.github/workflows/` | Collect every 2h; backup close after Prague midnight. |
 | `scripts/install-schedule.sh` | One-time install of the 00:20 LaunchAgent for the local path. |
 | `accounts.txt` | X handles used as a Taste watchlist / ranking hints. Hosted fetch does not scrape X for these. |
 | `bsky-accounts.txt` | Bluesky handles to watch. Custom domains work. |
@@ -199,7 +225,7 @@ watches anyone and any feed you added, on top of the curated lists.
 | `digest.json` | Generated locally. Fallback snapshot on Vercel until Blob has a recut. |
 | `digest.md` | Generated locally. The digest as plain text. |
 | `docker-compose.yml` | Postgres + web + worker for the hosted app. |
-| `.env.example` | Hosted secrets template (`DATABASE_URL`, mail, origin). |
+| `.env.example` | Secrets template (`DATABASE_URL`, mail, origin, `CRON_SECRET`). |
 
 ## Changing the look
 

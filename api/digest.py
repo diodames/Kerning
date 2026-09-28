@@ -32,7 +32,7 @@ def _send(http, status, payload):
     body = json.dumps(payload).encode("utf-8")
     http.send_response(status)
     http.send_header("Content-Type", "application/json; charset=utf-8")
-    http.send_header("Cache-Control", "no-store")
+    http.send_header("Cache-Control", "public, max-age=60")
     http.send_header("Content-Length", str(len(body)))
     http.end_headers()
     http.wfile.write(body)

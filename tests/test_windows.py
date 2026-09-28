@@ -127,6 +127,43 @@ class WindowsTests(unittest.TestCase):
             packs[kind] = edition_meta(kind, start, end)
         self.assertTrue(payload_current({"cadences": packs}, now))
 
+    def test_prague_dst_spring_forward_yesterday(self):
+        from zoneinfo import ZoneInfo
+
+        from kerning_lib.windows import close_cron_is_after_prague_midnight, to_prague
+
+        prague = ZoneInfo("Europe/Prague")
+        after = datetime(2026, 3, 30, 0, 30, tzinfo=prague)
+        start, end = yesterday(after)
+        self.assertEqual(start.date().isoformat(), "2026-03-29")
+        self.assertEqual(end.date().isoformat(), "2026-03-30")
+        self.assertEqual(start.utcoffset(), timedelta(hours=1))
+        self.assertEqual(end.utcoffset(), timedelta(hours=2))
+        self.assertEqual(end.timestamp() - start.timestamp(), 23 * 3600)
+        winter_cron = datetime(2026, 1, 15, 23, 5, tzinfo=timezone.utc)
+        summer_cron = datetime(2026, 7, 15, 23, 5, tzinfo=timezone.utc)
+        early = datetime(2026, 1, 15, 22, 20, tzinfo=timezone.utc)
+        self.assertTrue(close_cron_is_after_prague_midnight(winter_cron))
+        self.assertTrue(close_cron_is_after_prague_midnight(summer_cron))
+        self.assertFalse(close_cron_is_after_prague_midnight(early))
+        self.assertEqual(to_prague(winter_cron).date().isoformat(), "2026-01-16")
+        self.assertEqual(to_prague(summer_cron).date().isoformat(), "2026-07-16")
+
+    def test_prague_dst_fall_back_yesterday(self):
+        from zoneinfo import ZoneInfo
+
+        from kerning_lib.windows import dates_in_period
+
+        prague = ZoneInfo("Europe/Prague")
+        monday = datetime(2026, 10, 26, 10, 0, tzinfo=prague)
+        start, end = yesterday(monday)
+        self.assertEqual(start.date().isoformat(), "2026-10-25")
+        self.assertEqual(start.utcoffset(), timedelta(hours=2))
+        self.assertEqual(end.utcoffset(), timedelta(hours=1))
+        self.assertEqual(end.timestamp() - start.timestamp(), 25 * 3600)
+        self.assertEqual(dates_in_period(start, end), ["2026-10-25"])
+
+
 
 if __name__ == "__main__":
     unittest.main()

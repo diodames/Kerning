@@ -1,315 +1,292 @@
 {
-  "generated_at": "2026-09-21T17:42:14.666189+00:00",
+  "generated_at": "2026-09-28T08:52:10.277237+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "20 September 2026",
-      "period_start": "2026-09-20",
-      "period_end": "2026-09-20",
+      "label": "27 September 2026",
+      "period_start": "2026-09-27",
+      "period_end": "2026-09-27",
       "items": [
         {
-          "id": "f333d2ae97c2",
-          "title": "Scott Jenson: Are we going to use the same Desktop UX forever? [video]",
-          "url": "https://www.youtube.com/watch?v=V7AfAcQwLW0",
-          "hn": "https://news.ycombinator.com/item?id=49771982",
-          "points": 38,
-          "comments": 9,
-          "created_at_i": 1789870982,
-          "sources": [
-            "Hacker News",
-            "Lobsters"
-          ],
-          "sharers": 0,
-          "score": 6.424,
-          "why": [
-            "picked up by Hacker News and Lobsters"
-          ]
-        },
-        {
-          "id": "f0dd02569793",
-          "title": "September 14 - September 20 Round Up: AI Agent Prototyping, Claude vs Figma AI, Model Benchmark Reality",
-          "url": "https://aiforux.substack.com/p/september-14-september-20-round-up",
-          "hn": "https://aiforux.substack.com/p/september-14-september-20-round-up",
+          "id": "5ae573380727",
+          "title": "September 21 - September 27 Round Up: Generative UI Systems, Entry-Level UX Craft, AI Tool Testing",
+          "url": "https://aiforux.substack.com/p/september-21-september-27-round-up",
+          "hn": "https://aiforux.substack.com/p/september-21-september-27-round-up",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1789934611,
+          "created_at_i": 1790537159,
           "sources": [
             "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 3.925,
+          "score": 4.76,
           "why": [
             "editor's pick at AI for UX Substack"
           ]
         },
         {
-          "id": "a054aed45335",
-          "title": "Design Systems Are a Collection of Decisions",
-          "url": "https://southleft.substack.com/p/design-systems-are-a-collection-of",
-          "hn": "https://southleft.substack.com/p/design-systems-are-a-collection-of",
+          "id": "347c0951efa0",
+          "title": "How we save entry-level UX work that teaches craft in the time of AI. Our field depends on this.",
+          "url": "https://uxdesign.cc/how-we-save-entry-level-ux-work-that-teaches-craft-in-the-time-of-ai-our-field-depends-on-this-e1684a0d67eb?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/how-we-save-entry-level-ux-work-that-teaches-craft-in-the-time-of-ai-our-field-depends-on-this-e1684a0d67eb?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1789900256,
+          "created_at_i": 1790534282,
           "sources": [
-            "Slot Machine"
+            "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.438,
+          "score": 3.742,
           "why": [
-            "editor's pick at Slot Machine"
+            "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "11ccfb748d69",
-          "title": "Video games inspire great UX (2019)",
-          "url": "https://jenson.org/games/",
-          "hn": "https://news.ycombinator.com/item?id=49777121",
-          "points": 4,
+          "id": "f3dc90e5119b",
+          "title": "Optimistic UI is an architectural decision, not a minor UX tweak",
+          "url": "https://rulr.dev/blog/optimistic-ui-is-an-architectural-decision/",
+          "hn": "https://news.ycombinator.com/item?id=49866470",
+          "points": 2,
           "comments": 0,
-          "created_at_i": 1789920013,
+          "created_at_i": 1790515504,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.217,
+          "score": 3.129,
+          "why": []
+        },
+        {
+          "id": "27180e0f4568",
+          "title": "Heypcb: Figma for Hardware, with AI",
+          "url": "https://heypcb.ai",
+          "hn": "https://news.ycombinator.com/item?id=49869886",
+          "points": 1,
+          "comments": 0,
+          "created_at_i": 1790536478,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.093,
           "why": []
         }
       ]
     },
     "weekly": {
-      "label": "14–20 September 2026",
-      "period_start": "2026-09-14",
-      "period_end": "2026-09-20",
-      "week_start": "2026-09-14",
-      "week_end": "2026-09-20",
-      "week_label": "14–20 September 2026",
-      "iso_week": "2026-W38",
+      "label": "21–27 September 2026",
+      "period_start": "2026-09-21",
+      "period_end": "2026-09-27",
+      "week_start": "2026-09-21",
+      "week_end": "2026-09-27",
+      "week_label": "21–27 September 2026",
+      "iso_week": "2026-W39",
       "items": [
         {
-          "id": "669cbe2ee9f6",
-          "title": "Why CSS-Tricks Has Been Quiet Lately - Geoff Graham",
-          "url": "https://geoffgraham.me/why-css-tricks-has-been-quiet/",
-          "hn": "https://news.ycombinator.com/item?id=49708355",
-          "points": 4,
-          "comments": 1,
-          "created_at_i": 1789401550,
-          "sources": [
-            "Hacker News",
-            "Bluesky"
-          ],
-          "sharers": 4,
-          "score": 13.218,
-          "why": [
-            "picked up by Hacker News and Bluesky",
-            "shared by 4 design accounts",
-            "5 Bluesky posts"
-          ],
-          "authors": [
-            "css-tricks.bsky.social",
-            "geoffgraham.me",
-            "joshwcomeau.com",
-            "piccalil.li"
-          ]
-        },
-        {
-          "id": "174f77d92568",
-          "title": "CSS-Tricks in Limbo - 15 Sept 2026 01:35 UTC",
-          "url": "https://vale.rocks/micros/20260915-0135",
-          "hn": "https://news.ycombinator.com/item?id=49708993",
-          "points": 272,
-          "comments": 146,
-          "created_at_i": 1789436075,
-          "sources": [
-            "Hacker News",
-            "Lobsters",
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 10.803,
-          "why": [
-            "picked up by Hacker News and Lobsters and Bluesky",
-            "272 points"
-          ],
-          "authors": [
-            "geoffgraham.me"
-          ]
-        },
-        {
-          "id": "8f3fb5eefdfb",
-          "title": "DigitalOcean has $3 million for DHH and nothing for CSS-Tricks",
-          "url": "https://keith.is/post/digitalocean-and-css-tricks/",
-          "hn": "https://news.ycombinator.com/item?id=49758632",
-          "points": 31,
-          "comments": 5,
-          "created_at_i": 1789751154,
-          "sources": [
-            "Hacker News",
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 7.905,
-          "why": [
-            "picked up by Hacker News and Bluesky"
-          ],
-          "authors": [
-            "joshwcomeau.com"
-          ]
-        },
-        {
-          "id": "f333d2ae97c2",
-          "title": "Scott Jenson: Are we going to use the same Desktop UX forever? [video]",
-          "url": "https://www.youtube.com/watch?v=V7AfAcQwLW0",
-          "hn": "https://news.ycombinator.com/item?id=49771982",
-          "points": 38,
-          "comments": 9,
-          "created_at_i": 1789870982,
+          "id": "651aa80e0d5f",
+          "title": "Improving site performance by shipping more CSS",
+          "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+          "hn": "https://news.ycombinator.com/item?id=49856193",
+          "points": 83,
+          "comments": 69,
+          "created_at_i": 1790428205,
           "sources": [
             "Hacker News",
             "Lobsters"
           ],
           "sharers": 0,
-          "score": 7.131,
+          "score": 7.564,
           "why": [
-            "picked up by Hacker News and Lobsters"
+            "picked up by Hacker News and Lobsters",
+            "heavily argued (69 comments)"
           ]
         },
         {
-          "id": "a658343b9c2f",
-          "title": "Muse review: The personal AI agent that gets consumer UX right",
-          "url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
-          "hn": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
-          "points": 0,
+          "id": "feb2dd14eb31",
+          "title": "12 CSS features you can use today with no build step",
+          "url": "https://flaviocopes.com/modern-css-features/",
+          "hn": "https://news.ycombinator.com/item?id=49784362",
+          "points": 2,
           "comments": 0,
-          "created_at_i": 1789556534,
+          "created_at_i": 1789977532,
           "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 5.655,
-          "why": [
-            "editor's pick at Lenny's Newsletter",
-            "matches your profile"
-          ]
-        },
-        {
-          "id": "b1edb97868ae",
-          "title": "Design System Conventions in Figma",
-          "url": "https://nathanacurtis.substack.com/p/design-system-conventions-in-figma",
-          "hn": "https://nathanacurtis.substack.com/p/design-system-conventions-in-figma",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1789417897,
-          "sources": [
-            "Nathan Curtis"
-          ],
-          "sharers": 0,
-          "score": 4.798,
-          "why": [
-            "editor's pick at Nathan Curtis"
-          ]
-        },
-        {
-          "id": "e054a2c95769",
-          "title": "Primer (GitHub) — @primer/react@38.40.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.40.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.40.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1789732916,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.629,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "80db8f5b3594",
-          "title": "WCAG Accessibility Guidelines Explorer",
-          "url": "https://emesstyle.com/a11y-design/",
-          "hn": "https://emesstyle.com/a11y-design/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1789616379,
-          "sources": [
+            "Hacker News",
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 4.565,
+          "score": 6.954,
           "why": [
-            "editor's pick at Sidebar"
+            "picked up by Hacker News and Sidebar"
           ]
         },
         {
-          "id": "f0dd02569793",
-          "title": "September 14 - September 20 Round Up: AI Agent Prototyping, Claude vs Figma AI, Model Benchmark Reality",
-          "url": "https://aiforux.substack.com/p/september-14-september-20-round-up",
-          "hn": "https://aiforux.substack.com/p/september-14-september-20-round-up",
+          "id": "1834388e1286",
+          "title": "Time-based background colour transitions with Temporal and CSS color-mix - localghost",
+          "url": "https://localghost.dev/blog/time-based-background-colour-transitions-with-temporal-and-css-color-mix/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mvzybhvsbr2o",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1789934611,
+          "created_at_i": 1790003030,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 5.585,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "piccalil.li",
+            "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "5ae573380727",
+          "title": "September 21 - September 27 Round Up: Generative UI Systems, Entry-Level UX Craft, AI Tool Testing",
+          "url": "https://aiforux.substack.com/p/september-21-september-27-round-up",
+          "hn": "https://aiforux.substack.com/p/september-21-september-27-round-up",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1790537159,
           "sources": [
             "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 4.416,
+          "score": 5.102,
           "why": [
             "editor's pick at AI for UX Substack"
           ]
         },
         {
-          "id": "a054aed45335",
-          "title": "Design Systems Are a Collection of Decisions",
-          "url": "https://southleft.substack.com/p/design-systems-are-a-collection-of",
-          "hn": "https://southleft.substack.com/p/design-systems-are-a-collection-of",
+          "id": "d4be896d871e",
+          "title": "A Trump team wants to automate U.S. Web Design System accessibility testing",
+          "url": "https://fedscoop.com/trump-team-automate-uswds-accessibility-testing-ai/",
+          "hn": "https://news.ycombinator.com/item?id=49856793",
+          "points": 3,
+          "comments": 3,
+          "created_at_i": 1790432139,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.611,
+          "why": []
+        },
+        {
+          "id": "a9e8bdcc97af",
+          "title": "Carbon (IBM) — v11.117.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.117.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.117.0",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1789900256,
+          "created_at_i": 1790172581,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.556,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "7a32915fbc7b",
+          "title": "Carbon (IBM) — v11.117.0-rc.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.117.0-rc.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.117.0-rc.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1789998000,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.468,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "347c0951efa0",
+          "title": "How we save entry-level UX work that teaches craft in the time of AI. Our field depends on this.",
+          "url": "https://uxdesign.cc/how-we-save-entry-level-ux-work-that-teaches-craft-in-the-time-of-ai-our-field-depends-on-this-e1684a0d67eb?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/how-we-save-entry-level-ux-work-that-teaches-craft-in-the-time-of-ai-our-field-depends-on-this-e1684a0d67eb?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1790534282,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.1,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "3ea73acf27b4",
+          "title": "Generate fonts where every LLM token is the same width",
+          "url": "https://ampdot.mesh.host/token-space-fonts.html",
+          "hn": "https://news.ycombinator.com/item?id=49851883",
+          "points": 87,
+          "comments": 23,
+          "created_at_i": 1790382603,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.035,
+          "why": []
+        },
+        {
+          "id": "86a80559a47c",
+          "title": "Life After the Design System",
+          "url": "https://southleft.substack.com/p/life-after-the-design-system",
+          "hn": "https://southleft.substack.com/p/life-after-the-design-system",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1790353008,
           "sources": [
             "Slot Machine"
           ],
           "sharers": 0,
-          "score": 4.061,
+          "score": 3.989,
           "why": [
             "editor's pick at Slot Machine"
           ]
         },
         {
-          "id": "53d42f8ee336",
-          "title": "Five eras of UX design and the lessons to keep in the AI era",
-          "url": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9",
-          "hn": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9",
+          "id": "f5b14a0931ab",
+          "title": "How We Save Entry-Level UX Work That Teaches Craft In The Time of AI. Our Field Depends On This.",
+          "url": "https://aiforux.substack.com/p/saving-entry-level-ux-work-that-teaches",
+          "hn": "https://aiforux.substack.com/p/saving-entry-level-ux-work-that-teaches",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1789616411,
+          "created_at_i": 1790271456,
           "sources": [
-            "Sidebar"
+            "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 3.898,
+          "score": 3.943,
           "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at AI for UX Substack"
           ]
         },
         {
-          "id": "39e97e4040b8",
-          "title": "UX Conference December Announced (Dec 2 - Dec 15)",
-          "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1789538359,
+          "id": "f1d7c2ca7ae3",
+          "title": "That About Wraps It Up for Stock Mac UI",
+          "url": "https://inessential.com/2026/09/22/that-about-wraps-it-up-for.html",
+          "hn": "https://lobste.rs/s/vvg9ue/about_wraps_it_up_for_stock_mac_ui",
+          "points": 52,
+          "comments": 21,
+          "created_at_i": 1790105393,
           "sources": [
-            "NN/g"
+            "Lobsters"
           ],
           "sharers": 0,
-          "score": 3.524,
-          "why": [
-            "editor's pick at NN/g"
-          ]
+          "score": 3.796,
+          "why": []
         }
       ]
     },
@@ -331,7 +308,7 @@
             "Bluesky"
           ],
           "sharers": 4,
-          "score": 13.387,
+          "score": 13.246,
           "why": [
             "picked up by Hacker News and Bluesky",
             "shared by 4 design accounts",
@@ -349,7 +326,7 @@
           "title": "CSS-Tricks in Limbo - 15 Sept 2026 01:35 UTC",
           "url": "https://vale.rocks/micros/20260915-0135",
           "hn": "https://news.ycombinator.com/item?id=49708993",
-          "points": 272,
+          "points": 273,
           "comments": 146,
           "created_at_i": 1789436075,
           "sources": [
@@ -358,10 +335,10 @@
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 10.964,
+          "score": 10.824,
           "why": [
             "picked up by Hacker News and Lobsters and Bluesky",
-            "272 points"
+            "273 points"
           ],
           "authors": [
             "geoffgraham.me"
@@ -381,7 +358,7 @@
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 9.018,
+          "score": 8.905,
           "why": [
             "picked up by Hacker News and Lobsters and Bluesky"
           ],
@@ -390,24 +367,43 @@
           ]
         },
         {
-          "id": "8f3fb5eefdfb",
-          "title": "DigitalOcean has $3 million for DHH and nothing for CSS-Tricks",
-          "url": "https://keith.is/post/digitalocean-and-css-tricks/",
-          "hn": "https://news.ycombinator.com/item?id=49758632",
-          "points": 31,
-          "comments": 5,
-          "created_at_i": 1789751154,
+          "id": "d722d6c2f413",
+          "title": "Show HN: Make cursed fonts like Times New Bastard",
+          "url": "https://bastardica.mitpit.com",
+          "hn": "https://news.ycombinator.com/item?id=49823738",
+          "points": 857,
+          "comments": 123,
+          "created_at_i": 1789869773,
           "sources": [
             "Hacker News",
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 8.153,
+          "why": [
+            "picked up by Hacker News and Lobsters",
+            "857 points"
+          ]
+        },
+        {
+          "id": "1834388e1286",
+          "title": "Time-based background colour transitions with Temporal and CSS color-mix - localghost",
+          "url": "https://localghost.dev/blog/time-based-background-colour-transitions-with-temporal-and-css-color-mix/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mvzybhvsbr2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1790003030,
+          "sources": [
             "Bluesky"
           ],
-          "sharers": 1,
-          "score": 7.988,
+          "sharers": 2,
+          "score": 5.748,
           "why": [
-            "picked up by Hacker News and Bluesky"
+            "shared by 2 design accounts"
           ],
           "authors": [
-            "joshwcomeau.com"
+            "piccalil.li",
+            "zeldman.bsky.social"
           ]
         },
         {
@@ -422,7 +418,7 @@
             "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 5.789,
+          "score": 5.642,
           "why": [
             "editor's pick at Lenny's Newsletter",
             "matches your profile"
@@ -440,7 +436,7 @@
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 5.749,
+          "score": 5.639,
           "why": [
             "shared by 2 design accounts"
           ],
@@ -461,7 +457,7 @@
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 5.654,
+          "score": 5.532,
           "why": [
             "shared by 2 design accounts"
           ],
@@ -471,21 +467,20 @@
           ]
         },
         {
-          "id": "1def34d2dca7",
-          "title": "How to turn your AI into a world-class designer",
-          "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
-          "hn": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+          "id": "5ae573380727",
+          "title": "September 21 - September 27 Round Up: Generative UI Systems, Entry-Level UX Craft, AI Tool Testing",
+          "url": "https://aiforux.substack.com/p/september-21-september-27-round-up",
+          "hn": "https://aiforux.substack.com/p/september-21-september-27-round-up",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1788263159,
+          "created_at_i": 1790537159,
           "sources": [
-            "Lenny's Newsletter"
+            "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 5.153,
+          "score": 5.119,
           "why": [
-            "editor's pick at Lenny's Newsletter",
-            "matches your profile"
+            "editor's pick at AI for UX Substack"
           ]
         },
         {
@@ -500,7 +495,7 @@
             "Nathan Curtis"
           ],
           "sharers": 0,
-          "score": 4.963,
+          "score": 4.822,
           "why": [
             "editor's pick at Nathan Curtis"
           ]
@@ -517,43 +512,26 @@
             "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 4.938,
+          "score": 4.8,
           "why": [
             "editor's pick at AI for UX Substack"
           ]
         },
         {
-          "id": "7a32915fbc7b",
-          "title": "Carbon (IBM) — v11.117.0-rc.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.117.0-rc.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.117.0-rc.0",
+          "id": "a9e8bdcc97af",
+          "title": "Carbon (IBM) — v11.117.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.117.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.117.0",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1789998000,
+          "created_at_i": 1790172581,
           "sources": [
             "Design systems"
           ],
           "sharers": 0,
-          "score": 4.796,
+          "score": 4.679,
           "why": [
             "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "80db8f5b3594",
-          "title": "WCAG Accessibility Guidelines Explorer",
-          "url": "https://emesstyle.com/a11y-design/",
-          "hn": "https://emesstyle.com/a11y-design/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1789616379,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 4.684,
-          "why": [
-            "editor's pick at Sidebar"
           ]
         }
       ]
@@ -561,233 +539,213 @@
   },
   "items": [
     {
-      "id": "669cbe2ee9f6",
-      "title": "Why CSS-Tricks Has Been Quiet Lately - Geoff Graham",
-      "url": "https://geoffgraham.me/why-css-tricks-has-been-quiet/",
-      "hn": "https://news.ycombinator.com/item?id=49708355",
-      "points": 4,
-      "comments": 1,
-      "created_at_i": 1789401550,
-      "sources": [
-        "Hacker News",
-        "Bluesky"
-      ],
-      "sharers": 4,
-      "score": 13.218,
-      "why": [
-        "picked up by Hacker News and Bluesky",
-        "shared by 4 design accounts",
-        "5 Bluesky posts"
-      ],
-      "authors": [
-        "css-tricks.bsky.social",
-        "geoffgraham.me",
-        "joshwcomeau.com",
-        "piccalil.li"
-      ]
-    },
-    {
-      "id": "174f77d92568",
-      "title": "CSS-Tricks in Limbo - 15 Sept 2026 01:35 UTC",
-      "url": "https://vale.rocks/micros/20260915-0135",
-      "hn": "https://news.ycombinator.com/item?id=49708993",
-      "points": 272,
-      "comments": 146,
-      "created_at_i": 1789436075,
-      "sources": [
-        "Hacker News",
-        "Lobsters",
-        "Bluesky"
-      ],
-      "sharers": 1,
-      "score": 10.803,
-      "why": [
-        "picked up by Hacker News and Lobsters and Bluesky",
-        "272 points"
-      ],
-      "authors": [
-        "geoffgraham.me"
-      ]
-    },
-    {
-      "id": "8f3fb5eefdfb",
-      "title": "DigitalOcean has $3 million for DHH and nothing for CSS-Tricks",
-      "url": "https://keith.is/post/digitalocean-and-css-tricks/",
-      "hn": "https://news.ycombinator.com/item?id=49758632",
-      "points": 31,
-      "comments": 5,
-      "created_at_i": 1789751154,
-      "sources": [
-        "Hacker News",
-        "Bluesky"
-      ],
-      "sharers": 1,
-      "score": 7.905,
-      "why": [
-        "picked up by Hacker News and Bluesky"
-      ],
-      "authors": [
-        "joshwcomeau.com"
-      ]
-    },
-    {
-      "id": "f333d2ae97c2",
-      "title": "Scott Jenson: Are we going to use the same Desktop UX forever? [video]",
-      "url": "https://www.youtube.com/watch?v=V7AfAcQwLW0",
-      "hn": "https://news.ycombinator.com/item?id=49771982",
-      "points": 38,
-      "comments": 9,
-      "created_at_i": 1789870982,
+      "id": "651aa80e0d5f",
+      "title": "Improving site performance by shipping more CSS",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "hn": "https://news.ycombinator.com/item?id=49856193",
+      "points": 83,
+      "comments": 69,
+      "created_at_i": 1790428205,
       "sources": [
         "Hacker News",
         "Lobsters"
       ],
       "sharers": 0,
-      "score": 7.131,
+      "score": 7.564,
       "why": [
-        "picked up by Hacker News and Lobsters"
+        "picked up by Hacker News and Lobsters",
+        "heavily argued (69 comments)"
       ]
     },
     {
-      "id": "a658343b9c2f",
-      "title": "Muse review: The personal AI agent that gets consumer UX right",
-      "url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
-      "hn": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
-      "points": 0,
+      "id": "feb2dd14eb31",
+      "title": "12 CSS features you can use today with no build step",
+      "url": "https://flaviocopes.com/modern-css-features/",
+      "hn": "https://news.ycombinator.com/item?id=49784362",
+      "points": 2,
       "comments": 0,
-      "created_at_i": 1789556534,
+      "created_at_i": 1789977532,
       "sources": [
-        "Lenny's Newsletter"
-      ],
-      "sharers": 0,
-      "score": 5.655,
-      "why": [
-        "editor's pick at Lenny's Newsletter",
-        "matches your profile"
-      ]
-    },
-    {
-      "id": "b1edb97868ae",
-      "title": "Design System Conventions in Figma",
-      "url": "https://nathanacurtis.substack.com/p/design-system-conventions-in-figma",
-      "hn": "https://nathanacurtis.substack.com/p/design-system-conventions-in-figma",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1789417897,
-      "sources": [
-        "Nathan Curtis"
-      ],
-      "sharers": 0,
-      "score": 4.798,
-      "why": [
-        "editor's pick at Nathan Curtis"
-      ]
-    },
-    {
-      "id": "e054a2c95769",
-      "title": "Primer (GitHub) — @primer/react@38.40.0",
-      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.40.0",
-      "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.40.0",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1789732916,
-      "sources": [
-        "Design systems"
-      ],
-      "sharers": 0,
-      "score": 4.629,
-      "why": [
-        "editor's pick at Design systems"
-      ]
-    },
-    {
-      "id": "80db8f5b3594",
-      "title": "WCAG Accessibility Guidelines Explorer",
-      "url": "https://emesstyle.com/a11y-design/",
-      "hn": "https://emesstyle.com/a11y-design/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1789616379,
-      "sources": [
+        "Hacker News",
         "Sidebar"
       ],
       "sharers": 0,
-      "score": 4.565,
+      "score": 6.954,
       "why": [
-        "editor's pick at Sidebar"
+        "picked up by Hacker News and Sidebar"
       ]
     },
     {
-      "id": "f0dd02569793",
-      "title": "September 14 - September 20 Round Up: AI Agent Prototyping, Claude vs Figma AI, Model Benchmark Reality",
-      "url": "https://aiforux.substack.com/p/september-14-september-20-round-up",
-      "hn": "https://aiforux.substack.com/p/september-14-september-20-round-up",
+      "id": "1834388e1286",
+      "title": "Time-based background colour transitions with Temporal and CSS color-mix - localghost",
+      "url": "https://localghost.dev/blog/time-based-background-colour-transitions-with-temporal-and-css-color-mix/?utm_source=the-index&utm_medium=newsletter",
+      "hn": "https://bsky.app/profile/piccalil.li/post/3mvzybhvsbr2o",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1789934611,
+      "created_at_i": 1790003030,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 5.585,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "piccalil.li",
+        "zeldman.bsky.social"
+      ]
+    },
+    {
+      "id": "5ae573380727",
+      "title": "September 21 - September 27 Round Up: Generative UI Systems, Entry-Level UX Craft, AI Tool Testing",
+      "url": "https://aiforux.substack.com/p/september-21-september-27-round-up",
+      "hn": "https://aiforux.substack.com/p/september-21-september-27-round-up",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1790537159,
       "sources": [
         "AI for UX Substack"
       ],
       "sharers": 0,
-      "score": 4.416,
+      "score": 5.102,
       "why": [
         "editor's pick at AI for UX Substack"
       ]
     },
     {
-      "id": "a054aed45335",
-      "title": "Design Systems Are a Collection of Decisions",
-      "url": "https://southleft.substack.com/p/design-systems-are-a-collection-of",
-      "hn": "https://southleft.substack.com/p/design-systems-are-a-collection-of",
+      "id": "d4be896d871e",
+      "title": "A Trump team wants to automate U.S. Web Design System accessibility testing",
+      "url": "https://fedscoop.com/trump-team-automate-uswds-accessibility-testing-ai/",
+      "hn": "https://news.ycombinator.com/item?id=49856793",
+      "points": 3,
+      "comments": 3,
+      "created_at_i": 1790432139,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.611,
+      "why": []
+    },
+    {
+      "id": "a9e8bdcc97af",
+      "title": "Carbon (IBM) — v11.117.0",
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.117.0",
+      "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.117.0",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1789900256,
+      "created_at_i": 1790172581,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.556,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "7a32915fbc7b",
+      "title": "Carbon (IBM) — v11.117.0-rc.0",
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.117.0-rc.0",
+      "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.117.0-rc.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1789998000,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.468,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "347c0951efa0",
+      "title": "How we save entry-level UX work that teaches craft in the time of AI. Our field depends on this.",
+      "url": "https://uxdesign.cc/how-we-save-entry-level-ux-work-that-teaches-craft-in-the-time-of-ai-our-field-depends-on-this-e1684a0d67eb?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/how-we-save-entry-level-ux-work-that-teaches-craft-in-the-time-of-ai-our-field-depends-on-this-e1684a0d67eb?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1790534282,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 4.1,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "3ea73acf27b4",
+      "title": "Generate fonts where every LLM token is the same width",
+      "url": "https://ampdot.mesh.host/token-space-fonts.html",
+      "hn": "https://news.ycombinator.com/item?id=49851883",
+      "points": 87,
+      "comments": 23,
+      "created_at_i": 1790382603,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.035,
+      "why": []
+    },
+    {
+      "id": "86a80559a47c",
+      "title": "Life After the Design System",
+      "url": "https://southleft.substack.com/p/life-after-the-design-system",
+      "hn": "https://southleft.substack.com/p/life-after-the-design-system",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1790353008,
       "sources": [
         "Slot Machine"
       ],
       "sharers": 0,
-      "score": 4.061,
+      "score": 3.989,
       "why": [
         "editor's pick at Slot Machine"
       ]
     },
     {
-      "id": "53d42f8ee336",
-      "title": "Five eras of UX design and the lessons to keep in the AI era",
-      "url": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9",
-      "hn": "https://uxdesign.cc/five-eras-of-ux-design-and-the-lessons-to-keep-in-the-ai-era-d76a548747a9",
+      "id": "f5b14a0931ab",
+      "title": "How We Save Entry-Level UX Work That Teaches Craft In The Time of AI. Our Field Depends On This.",
+      "url": "https://aiforux.substack.com/p/saving-entry-level-ux-work-that-teaches",
+      "hn": "https://aiforux.substack.com/p/saving-entry-level-ux-work-that-teaches",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1789616411,
+      "created_at_i": 1790271456,
       "sources": [
-        "Sidebar"
+        "AI for UX Substack"
       ],
       "sharers": 0,
-      "score": 3.898,
+      "score": 3.943,
       "why": [
-        "editor's pick at Sidebar"
+        "editor's pick at AI for UX Substack"
       ]
     },
     {
-      "id": "39e97e4040b8",
-      "title": "UX Conference December Announced (Dec 2 - Dec 15)",
-      "url": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "hn": "https://www.nngroup.com/training/december/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1789538359,
+      "id": "f1d7c2ca7ae3",
+      "title": "That About Wraps It Up for Stock Mac UI",
+      "url": "https://inessential.com/2026/09/22/that-about-wraps-it-up-for.html",
+      "hn": "https://lobste.rs/s/vvg9ue/about_wraps_it_up_for_stock_mac_ui",
+      "points": 52,
+      "comments": 21,
+      "created_at_i": 1790105393,
       "sources": [
-        "NN/g"
+        "Lobsters"
       ],
       "sharers": 0,
-      "score": 3.524,
-      "why": [
-        "editor's pick at NN/g"
-      ]
+      "score": 3.796,
+      "why": []
     }
   ],
-  "week_start": "2026-09-14",
-  "week_end": "2026-09-20",
-  "week_label": "14–20 September 2026",
-  "iso_week": "2026-W38"
+  "week_start": "2026-09-21",
+  "week_end": "2026-09-27",
+  "week_label": "21–27 September 2026",
+  "iso_week": "2026-W39"
 }

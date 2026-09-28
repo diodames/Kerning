@@ -1,4 +1,8 @@
-"""POST/GET /api/rebuild — alias for daily close, no fetch. Protected by CRON_SECRET."""
+"""POST/GET /api/close — daily close from the pool. Protected by CRON_SECRET.
+
+GET is for the Vercel cron (23:05 UTC = after Prague midnight year-round).
+POST may pass { date, force } to regenerate a closed day.
+"""
 
 from http.server import BaseHTTPRequestHandler
 import os
@@ -14,11 +18,12 @@ from kerning_lib.http import query_params, read_json_body, require_cron, send_js
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
-        _run(self, force=False)
+        q = query_params(self)
+        _run(self, date=q.get("date"), force=q.get("force") in ("1", "true", "yes"))
 
     def do_POST(self):
-        body = read_json_body(self)
         q = query_params(self)
+        body = read_json_body(self)
         force = bool(body.get("force")) or q.get("force") in ("1", "true", "yes")
         _run(self, date=body.get("date") or q.get("date"), force=force)
 

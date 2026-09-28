@@ -1,7 +1,13 @@
 import unittest
 from datetime import datetime, timedelta, timezone
 
-from kerning_lib.cut import apply_kept_weekly, cut_cadences, keep_previous_weekly
+from kerning_lib.cut import (
+    apply_kept_packs,
+    apply_kept_weekly,
+    cut_cadences,
+    keep_previous_packs,
+    keep_previous_weekly,
+)
 
 
 CEST = timezone(timedelta(hours=2))
@@ -104,6 +110,31 @@ class CutTests(unittest.TestCase):
         kept = keep_previous_weekly(cadences, {"cadences": {"weekly": {"items": []}}})
         self.assertEqual(kept["weekly"]["items"], [])
         self.assertIs(keep_previous_weekly(cadences, None), cadences)
+
+    def test_weekly_wrapper_leaves_daily_alone(self):
+        previous = {"cadences": {"daily": {"items": [{"url": "https://example.com/d"}]}}}
+        cadences = {"daily": {"items": []}, "weekly": {"items": []}}
+        self.assertEqual(keep_previous_weekly(cadences, previous)["daily"]["items"], [])
+
+    def test_empty_daily_and_monthly_keep_previous_packs(self):
+        previous = {"cadences": {
+            "daily": {"period_start": "2026-09-26", "items": [{"url": "https://example.com/d"}]},
+            "weekly": {"items": [{"url": "https://example.com/w"}]},
+            "monthly": {"period_start": "2026-09-01", "items": [{"url": "https://example.com/m"}]},
+        }}
+        cadences = {
+            "daily": {"period_start": "2026-09-27", "items": []},
+            "weekly": {"items": [{"url": "https://example.com/new"}]},
+            "monthly": {"period_start": "2026-09-01", "items": []},
+        }
+        kept = keep_previous_packs(cadences, previous)
+        self.assertEqual(kept["daily"]["items"][0]["url"], "https://example.com/d")
+        self.assertEqual(kept["daily"]["period_start"], "2026-09-26")
+        self.assertEqual(kept["weekly"]["items"][0]["url"], "https://example.com/new")
+        self.assertEqual(kept["monthly"]["items"][0]["url"], "https://example.com/m")
+        payload = apply_kept_packs({"cadences": cadences, "items": []}, previous)
+        self.assertEqual(payload["items"][0]["url"], "https://example.com/new")
+        self.assertIs(keep_previous_packs(kept, previous), kept)
 
 
 if __name__ == "__main__":

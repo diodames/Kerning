@@ -1,0 +1,27 @@
+name: Collect pool
+
+on:
+  schedule:
+    - cron: "10 */2 * * *"
+  workflow_dispatch:
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Refresh raw pool
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          ORIGIN: ${{ secrets.KERN_ORIGIN }}
+        run: |
+          set -euo pipefail
+          origin="${ORIGIN:-https://kerning-six.vercel.app}"
+          if [ -z "${CRON_SECRET:-}" ]; then
+            echo "CRON_SECRET is not set" >&2
+            exit 1
+          fi
+          curl -fsS -X POST \
+            -H "Authorization: Bearer ${CRON_SECRET}" \
+            -H "Content-Type: application/json" \
+            --max-time 300 \
+            "${origin%/}/api/collect"

@@ -1,0 +1,46 @@
+name: Close day backup
+
+on:
+  schedule:
+    - cron: "15 23 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: Prague calendar day YYYY-MM-DD (empty = yesterday)
+        required: false
+        default: ""
+      force:
+        description: Rewrite a closed day
+        required: false
+        default: "false"
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close Prague day
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          ORIGIN: ${{ secrets.KERN_ORIGIN }}
+          DATE: ${{ github.event.inputs.date }}
+          FORCE: ${{ github.event.inputs.force }}
+        run: |
+          set -euo pipefail
+          origin="${ORIGIN:-https://kerning-six.vercel.app}"
+          if [ -z "${CRON_SECRET:-}" ]; then
+            echo "CRON_SECRET is not set" >&2
+            exit 1
+          fi
+          url="${origin%/}/api/close"
+          body="{}"
+          if [ -n "${DATE:-}" ]; then
+            body=$(printf '{"date":"%s","force":%s}' "$DATE" "${FORCE:-false}")
+          elif [ "${FORCE:-false}" = "true" ]; then
+            body='{"force":true}'
+          fi
+          curl -fsS -X POST \
+            -H "Authorization: Bearer ${CRON_SECRET}" \
+            -H "Content-Type: application/json" \
+            --max-time 90 \
+            -d "$body" \
+            "$url"

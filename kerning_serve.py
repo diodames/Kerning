@@ -1,14 +1,13 @@
 #!/usr/bin/env python3
 """
-Serve the Kerning reading app and rebuild digest.json when Daily, Weekly,
-or Monthly have gone stale.
+Serve the Kerning reading app. Digest windows are closed by
+kerning_fetch.py (collect, then close) or the nightly LaunchAgent.
 
     python3 kerning_serve.py
     python3 kerning_serve.py --port 8000
 
 POST /rebuild (localhost only) runs kerning_fetch.py --if-stale and waits.
-Opening the app calls that route, so a new day gets yesterday’s four without
-a manual fetch.
+The reader does not call that on open; it only loads digest.json.
 """
 
 import argparse
