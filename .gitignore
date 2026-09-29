@@ -11,3 +11,4 @@ kerning.db
 .venv/
 venv/
 data/
+.vercel
