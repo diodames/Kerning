@@ -279,3 +279,43 @@ class DailyFallbackTests(unittest.TestCase):
                                            "items": [_day_item("https://old.example/p")]}}}
         payload = compose_from_days({}, now=now, previous=previous)
         self.assertEqual(payload["cadences"]["daily"]["items"][0]["url"], "https://old.example/p")
+
+
+class CandidateTests(unittest.TestCase):
+    def test_day_keeps_wider_candidates_around_its_picks(self):
+        published = datetime(2026, 9, 20, 9, 0, tzinfo=PRAGUE)
+        items = {}
+        for i in range(40):
+            url = "https://s%d.example/p" % i
+            items[url] = _pool_item(url, published, published)
+            items[url]["sources"] = ["Source %d" % i]
+            items[url]["points"] = 20 + i
+        payload, _ = close_day("2026-09-20", {"items": items}, CFG)
+        cand = [it["url"] for it in payload["candidates"]]
+        self.assertEqual(len(payload["items"]), 4)
+        self.assertEqual(len(cand), 30)
+        self.assertTrue({it["url"] for it in payload["items"]} <= set(cand))
+        scores = [it["score"] for it in payload["candidates"]]
+        self.assertEqual(scores, sorted(scores, reverse=True))
+
+    def test_editions_carry_candidates_with_limits(self):
+        now = datetime(2026, 9, 16, 10, 0, tzinfo=PRAGUE)
+        days = {}
+        for d in range(1, 16):
+            date = "2026-09-%02d" % d
+            cands = [_day_item("https://d%d-%d.example/p" % (d, i), score=i) for i in range(30)]
+            days[date] = {"items": cands[-4:], "candidates": cands}
+        cad = compose_from_days(days, now=now, previous=None)["cadences"]
+        self.assertEqual(len(cad["daily"]["candidates"]), 30)
+        self.assertEqual(len(cad["weekly"]["candidates"]), 60)
+        self.assertEqual(len(cad["monthly"]["candidates"]), 100)
+        for kind in ("daily", "weekly", "monthly"):
+            urls = {it["url"] for it in cad[kind]["candidates"]}
+            self.assertTrue({it["url"] for it in cad[kind]["items"]} <= urls, kind)
+
+    def test_days_without_candidates_fall_back_to_items(self):
+        now = datetime(2026, 9, 16, 10, 0, tzinfo=PRAGUE)
+        days = {"2026-09-15": {"items": [_day_item("https://a.example/p")]}}
+        cad = compose_from_days(days, now=now, previous=None)["cadences"]
+        self.assertEqual([it["url"] for it in cad["daily"]["candidates"]], ["https://a.example/p"])
+        self.assertEqual([it["url"] for it in cad["weekly"]["candidates"]], ["https://a.example/p"])

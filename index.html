@@ -601,6 +601,9 @@
     display: flex; flex-wrap: wrap; gap: 4px 22px;
     justify-content: flex-end; margin-top: 22px;
   }
+  .dlg .sync-add { margin-top: 22px; }
+  .dlg .sync-msg { margin-top: 12px; }
+  .dlg .sync-msg:empty { display: none; }
   .dlg .btn.down { color: var(--warm); }
   .dlg .btn.down:hover { color: var(--ink); }
   .tsec { margin: 8px 0 48px; }
@@ -1037,6 +1040,26 @@
   </form>
 </dialog>
 
+<dialog id="sync-dialog" class="dlg" aria-labelledby="sync-dialog-title" aria-describedby="sync-dialog-body">
+  <form id="sync-form" novalidate>
+    <h2 id="sync-dialog-title">Sync across devices</h2>
+    <p id="sync-dialog-body">Saved stories, ratings, people, and resources follow you to every browser where you sign in. We&rsquo;ll email you a sign-in link, so there&rsquo;s no password.</p>
+    <div class="tadd sync-add">
+      <div class="tfield">
+        <label for="sync-email">Email</label>
+        <input id="sync-email" name="email" type="email" autocomplete="email" required
+          placeholder="you@example.com" aria-describedby="sync-msg">
+      </div>
+    </div>
+    <p class="note sync-msg" id="sync-msg" role="status"></p>
+    <div class="dlg-acts">
+      <button type="button" class="btn" id="sync-cancel">Cancel</button>
+      <button type="submit" class="btn" id="sync-submit">Email me a link</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="merge.js"></script>
 <script>
 "use strict";
 
@@ -1269,7 +1292,7 @@ function emptySeeds() {
   return { people: [], articles: [], resources: [] };
 }
 function emptyProfile() {
-  return { weights: {}, ratings: {}, saved: [], seeds: emptySeeds() };
+  return { weights: {}, ratings: {}, saved: [], seeds: emptySeeds(), deleted: {} };
 }
 function normalizeProfile(p) {
   const seeds = (p && p.seeds) || {};
@@ -1277,6 +1300,7 @@ function normalizeProfile(p) {
     weights: (p && p.weights) || {},
     ratings: (p && p.ratings) || {},
     saved: (p && p.saved) || [],
+    deleted: (p && p.deleted && typeof p.deleted === "object") ? p.deleted : {},
     seeds: {
       people: Array.isArray(seeds.people) ? seeds.people : [],
       articles: Array.isArray(seeds.articles) ? seeds.articles : [],
@@ -1307,6 +1331,7 @@ let slideGroup = null;
 let mode = "curated";
 let digestMeta = null;
 let digestPack = null;
+let packItems = [];
 let cadence = "weekly";
 let savedSort = "newest";
 let hostedMode = false;
@@ -1322,6 +1347,7 @@ function loadProfile() {
     if (s) {
       const p = JSON.parse(s);
       profile = normalizeProfile(p);
+      snapshotProfile();
     }
   } catch (e) { /* start fresh */ }
   try {
@@ -1346,13 +1372,21 @@ function saveSavedSort() {
   try { localStorage.setItem(SAVED_SORT_KEY, savedSort); }
   catch (e) { /* private mode */ }
 }
+// Last saved copy; saveProfileLocal diffs against it to stamp mt and tombstones.
+let profileSnapshot = null;
+function snapshotProfile() {
+  profileSnapshot = JSON.parse(JSON.stringify(profile));
+}
 function saveProfileLocal() {
+  if (window.KerningMerge) KerningMerge.stampProfile(profileSnapshot, profile);
+  snapshotProfile();
   try { localStorage.setItem(KEY, JSON.stringify(profile)); }
   catch (e) { /* quota or private mode — app still works this session */ }
 }
 function saveProfile() {
   saveProfileLocal();
   if (hostedMode && me) schedulePutProfile();
+  else if (syncUser) scheduleSync();
 }
 function profileIsEmpty(p) {
   if (!p) return true;
@@ -1689,6 +1723,7 @@ function mapDigestItems(items) {
     sources: it.sources || [],
     authors: it.authors || [],
     reasons: (it.why || []).map((w) => [w, 1]),
+    score: it.score || 0,
     total: it.score || 0,
     base: 99,
   }));
@@ -1724,7 +1759,10 @@ function applyCadence(name, renderNow) {
     week_end: pack.week_end || pack.period_end || null,
     iso_week: pack.iso_week || null,
   };
-  raw = mapDigestItems(pack.items);
+  packItems = mapDigestItems(pack.items);
+  raw = pack.candidates && pack.candidates.length
+    ? mapDigestItems(pack.candidates)
+    : packItems.slice();
   rebuildWeights();
   saveProfile();
   recompute();
@@ -1781,9 +1819,75 @@ async function fetchStories(d, onProgress) {
   return Array.from(byId.values());
 }
 
+const MAX_PER_DOMAIN = 2;
+const MAX_PER_SOURCE = 4;
+const TASTE_WEIGHT = 2.0;
+const MATCHES_PROFILE = "matches your profile";
+
+// Only the reader's own signals count; the default people pack seeds
+// weights for everyone and must not reorder the published picks.
+function hasLearnedTaste() {
+  const seeds = profile.seeds || {};
+  const own = Object.keys(profile.ratings).length > 0
+    || (seeds.articles || []).length > 0
+    || (seeds.people || []).some((p) => !isPackPerson(p));
+  return own && Object.keys(profile.weights).some((k) => profile.weights[k]);
+}
+
+function learnedScore(item) {
+  const toks = tokensOf(item);
+  let sum = 0;
+  toks.forEach((t) => { sum += profile.weights[t] || 0; });
+  return sum / Math.sqrt(Math.max(toks.length, 1));
+}
+
+// Same caps as diversify() in kerning_fetch.py. Pinned items keep their slots.
+function diversifyItems(items, limit, pinned) {
+  const perDomain = {};
+  const perSource = {};
+  const out = [];
+  const taken = new Set();
+  function take(it) {
+    const d = domainOf(it.url);
+    const s = (it.sources || [])[0] || "";
+    perDomain[d] = (perDomain[d] || 0) + 1;
+    perSource[s] = (perSource[s] || 0) + 1;
+    taken.add(it.id);
+    out.push(it);
+  }
+  (pinned || []).forEach(take);
+  for (const it of items) {
+    if (out.length >= limit) break;
+    if (taken.has(it.id)) continue;
+    const d = domainOf(it.url);
+    const s = (it.sources || [])[0] || "";
+    if ((perDomain[d] || 0) >= MAX_PER_DOMAIN || (perSource[s] || 0) >= MAX_PER_SOURCE) continue;
+    take(it);
+  }
+  return out;
+}
+
+// Rerank the edition's candidates by this browser's taste. Without learned
+// weights the published picks are shown as they are.
+function personalize(candidates, picks) {
+  if (!hasLearnedTaste()) return picks.slice();
+  const limit = picks.length;
+  const scored = candidates.map((it) => {
+    const learned = learnedScore(it);
+    const total = (it.score || 0) + TASTE_WEIGHT * learned - (isDownvotedItem(it) ? 8 : 0);
+    let reasons = it.reasons || [];
+    if (learned >= 0.6 && !reasons.some((r) => r[0] === MATCHES_PROFILE)) {
+      reasons = reasons.concat([[MATCHES_PROFILE, 1]]);
+    }
+    return Object.assign({}, it, { total: total, reasons: reasons });
+  }).sort((a, b) => b.total - a.total);
+  const pinned = scored.filter((it) => justRated[it.id]);
+  return diversifyItems(scored, limit, pinned).sort((a, b) => b.total - a.total);
+}
+
 function recompute() {
   if (mode === "curated") {
-    ranked = raw.slice();   // already scored and cut by kerning_fetch.py
+    ranked = personalize(raw, packItems);
     return;
   }
   ranked = raw.map((it) => Object.assign({}, it, rank(it)))
@@ -2493,6 +2597,7 @@ function findActItem(id) {
 function rate(item, r) {
   profile.ratings[item.id] = {
     r: r, at: Date.now(), title: item.title, url: item.url || "",
+    authors: (item.authors || []).slice(0, 8),
   };
   justRated[item.id] = r;
   rebuildWeights();
@@ -2798,6 +2903,10 @@ function showLanding(on) {
 function renderAuthSlot() {
   const slot = document.getElementById("auth-slot");
   if (!slot) return;
+  if (syncMode && !hostedMode) {
+    renderSyncSlot(slot);
+    return;
+  }
   if (!hostedMode || !me) {
     slot.classList.add("hidden");
     slot.innerHTML = "";
@@ -2817,6 +2926,201 @@ async function signOut() {
   me = null;
   hostedMode = true;
   showLanding(true);
+}
+
+/* ---------------------------------------------------------------- */
+/* Sync across devices (Supabase). Optional; the anon key is public  */
+/* by design and row-level security keeps each profile to its owner. */
+/* ---------------------------------------------------------------- */
+
+const SUPABASE_URL = "";
+const SUPABASE_ANON_KEY = "";
+const SUPABASE_JS = "https://esm.sh/@supabase/supabase-js@2";
+const SYNC_DEBOUNCE_MS = 1000;
+
+let syncMode = false;
+let syncClient = null;
+let syncUser = null;
+let syncTimer = 0;
+let syncRunning = null;
+let syncAgain = false;
+
+function syncConfigured() {
+  return !!(SUPABASE_URL && SUPABASE_ANON_KEY && window.KerningMerge);
+}
+
+function syncSessionStored() {
+  try {
+    for (let i = 0; i < localStorage.length; i++) {
+      if (/^sb-.+-auth-token$/.test(localStorage.key(i) || "")) return true;
+    }
+  } catch (e) { /* private mode */ }
+  return false;
+}
+
+function syncCallbackInUrl() {
+  return /(^|[#&])(access_token|error_description)=/.test(location.hash.slice(1));
+}
+
+async function syncLoadClient() {
+  if (syncClient) return syncClient;
+  const mod = await import(SUPABASE_JS);
+  syncClient = mod.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+    // Implicit flow: the emailed link works even when opened in another browser.
+    auth: { flowType: "implicit", persistSession: true, detectSessionInUrl: true, autoRefreshToken: true },
+  });
+  syncClient.auth.onAuthStateChange((event, session) => {
+    const user = (session && session.user) || null;
+    const changed = (user && user.id) !== (syncUser && syncUser.id);
+    syncUser = user;
+    if (!changed) return;
+    renderAuthSlot();
+    // Supabase warns against awaiting its own calls inside this callback.
+    if (user) setTimeout(syncNow, 0);
+  });
+  return syncClient;
+}
+
+async function syncInit() {
+  if (!syncConfigured() || hostedMode) return;
+  syncMode = true;
+  renderAuthSlot();
+  bindSyncDialog();
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible" && syncUser) syncNow();
+  });
+  const callback = syncCallbackInUrl();
+  if (!callback && !syncSessionStored()) return;
+  try {
+    const client = await syncLoadClient();
+    const { data } = await client.auth.getSession();
+    syncUser = (data && data.session && data.session.user) || null;
+    if (callback) history.replaceState(null, "", location.pathname + location.search);
+    renderAuthSlot();
+    if (syncUser) await syncNow();
+  } catch (e) { /* offline or blocked CDN: this browser keeps working alone */ }
+}
+
+function scheduleSync() {
+  if (!syncUser) return;
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(syncNow, SYNC_DEBOUNCE_MS);
+}
+
+function remoteShape(p) {
+  const out = JSON.parse(JSON.stringify(p));
+  delete out.weights;
+  return out;
+}
+
+// Pull, merge, and push back only when the merged profile differs. Always
+// merging first means two devices writing at once never drop each other's edits.
+function syncNow() {
+  if (!syncClient || !syncUser) return Promise.resolve();
+  if (syncRunning) {
+    syncAgain = true;
+    return syncRunning;
+  }
+  syncRunning = (async () => {
+    const userId = syncUser.id;
+    const { data, error } = await syncClient
+      .from("profiles").select("data").eq("user_id", userId).maybeSingle();
+    if (error) return;
+    const remote = data && data.data ? normalizeProfile(data.data) : null;
+    const merged = normalizeProfile(KerningMerge.mergeProfiles(profile, remote || {}));
+    if (!KerningMerge.sameProfile(merged, profile)) {
+      profile = merged;
+      rebuildWeights();
+      snapshotProfile();
+      saveProfileLocal();
+      recompute();
+      render();
+    }
+    if (!remote || !KerningMerge.sameProfile(remoteShape(profile), remote)) {
+      await syncClient.from("profiles").upsert({
+        user_id: userId,
+        data: remoteShape(profile),
+        updated_at: new Date().toISOString(),
+      });
+    }
+  })().catch(() => { /* next edit or tab focus retries */ }).finally(() => {
+    syncRunning = null;
+    if (syncAgain) {
+      syncAgain = false;
+      scheduleSync();
+    }
+  });
+  return syncRunning;
+}
+
+function renderSyncSlot(slot) {
+  slot.classList.remove("hidden");
+  if (syncUser) {
+    slot.innerHTML = '<span class="nav-email">' + esc(syncUser.email || "Synced") + "</span>"
+      + '<button type="button" class="btn" id="sync-sign-out">Sign out</button>';
+    document.getElementById("sync-sign-out").onclick = syncSignOut;
+    return;
+  }
+  slot.innerHTML = '<button type="button" class="btn" id="sync-open">Sync</button>';
+  document.getElementById("sync-open").onclick = openSyncDialog;
+}
+
+function openSyncDialog() {
+  const dlg = document.getElementById("sync-dialog");
+  const msg = document.getElementById("sync-msg");
+  const input = document.getElementById("sync-email");
+  if (msg) msg.textContent = "";
+  if (input) input.removeAttribute("aria-invalid");
+  dlg.showModal();
+  if (input) input.focus();
+}
+
+function bindSyncDialog() {
+  const dlg = document.getElementById("sync-dialog");
+  const form = document.getElementById("sync-form");
+  if (!dlg || !form || form.dataset.bound) return;
+  form.dataset.bound = "1";
+  document.getElementById("sync-cancel").onclick = () => dlg.close();
+  dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+  form.onsubmit = async (e) => {
+    e.preventDefault();
+    const input = document.getElementById("sync-email");
+    const msg = document.getElementById("sync-msg");
+    const btn = document.getElementById("sync-submit");
+    const email = (input.value || "").trim();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      input.setAttribute("aria-invalid", "true");
+      msg.textContent = "Enter your email address, like you@example.com.";
+      input.focus();
+      return;
+    }
+    input.removeAttribute("aria-invalid");
+    msg.textContent = "";
+    btn.disabled = true;
+    try {
+      const client = await syncLoadClient();
+      const { error } = await client.auth.signInWithOtp({
+        email: email,
+        options: { emailRedirectTo: location.origin + location.pathname },
+      });
+      if (error) throw error;
+      msg.textContent = "Check your inbox for the sign-in link. Open it on this device or any other.";
+    } catch (err) {
+      msg.textContent = /rate|limit|seconds/i.test(String(err && err.message))
+        ? "Too many links in a short time. Wait a few minutes, then try again."
+        : "Couldn\u2019t send the link. Check your connection and try again.";
+    } finally {
+      btn.disabled = false;
+    }
+  };
+}
+
+async function syncSignOut() {
+  clearTimeout(syncTimer);
+  try { if (syncClient) await syncClient.auth.signOut(); }
+  catch (e) { /* the local session is cleared either way */ }
+  syncUser = null;
+  renderAuthSlot();
 }
 
 async function probeHost() {
@@ -2882,6 +3186,7 @@ async function boot() {
   }
   render();
   load();
+  if (kind === "local") syncInit();
 }
 
 function bindAuthForm() {

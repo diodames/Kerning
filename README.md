@@ -172,6 +172,61 @@ KERNING_DATA_DIR=path/to/data-checkout python3 kerning_fetch.py --close --date 2
 Each closed day has a `days/YYYY-MM-DD.stats.json` with drop counts
 (`prerelease`, `blocklist`, `below_threshold`, `lexicon`, …).
 
+### Profiles and sync
+
+**Your own ranking.** Each closed day keeps its top 30 `candidates` next to
+the 4 published picks. Every edition in `digest.json` carries candidates too
+(Daily 30, Weekly 60, Monthly 100). Once you rate stories or add people and
+articles on Taste, the browser reranks those candidates by your learned
+weights (published score + 2 × taste) with the same per-domain and
+per-source caps as the close, and shows as many as the edition publishes.
+Without any taste the published picks show unchanged. Days closed before
+candidates existed offer only their picks.
+
+**Sync across devices** is optional and free on Supabase. Signed out, the
+profile stays in this browser as before. Signed in with an emailed link, the
+browser pulls the stored profile, merges it with the local one, and pushes
+the result back when it changes. It syncs on load, one second after an
+edit, and when the tab comes back into view.
+
+Merging works per entry, so two devices editing at once never overwrite
+each other. Every rating, saved story, person, resource, and article
+carries `mt`, the time it last changed. Removing one writes a tombstone in
+`deleted`. The newer entry wins unless a newer tombstone removed it.
+Tombstones expire after 90 days. Catalog defaults start at `mt` 0, so a
+fresh device seeding them never revives one you deleted. Learned weights are
+not stored; each browser rebuilds them after a merge. The logic lives in
+`merge.js` and is tested with `node --test tests/merge.test.mjs`.
+
+Setup:
+
+1. Create a free project at [supabase.com](https://supabase.com).
+2. Authentication → Sign In / Providers: keep Email on (magic link). Under
+   URL Configuration set Site URL to `https://kerning-six.vercel.app` and add
+   `http://localhost:8000/**` to Redirect URLs.
+3. SQL editor:
+
+   ```sql
+   create table public.profiles (
+     user_id uuid primary key references auth.users on delete cascade,
+     data jsonb not null default '{}'::jsonb,
+     updated_at timestamptz not null default now()
+   );
+   alter table public.profiles enable row level security;
+   create policy "own profile" on public.profiles
+     for all using (auth.uid() = user_id) with check (auth.uid() = user_id);
+   ```
+
+4. Project Settings → API: copy the Project URL and the anon public key into
+   `SUPABASE_URL` and `SUPABASE_ANON_KEY` in `index.html`. Both are meant to
+   be public; row-level security keeps each profile readable only by its
+   owner. With either left empty, the Sync button stays hidden.
+
+Free-plan limits: a project pauses after a week without requests (resume it
+from the dashboard; profiles are kept), and the built-in mailer sends only a
+few sign-in emails an hour. Add custom SMTP under Authentication if that
+gets in the way.
+
 Opening the file directly with `file://` means the browser blocks
 `fetch()` of `digest.json`, and the app silently falls back to querying
 Hacker News live. If you see the "Live Hacker News only" banner, that's why.
@@ -200,15 +255,16 @@ watches anyone and any feed you added, on top of the curated lists.
 
 | File | What it is |
 |---|---|
-| `index.html` | The reading app. Self-contained: HTML, CSS, and JS in one file. |
+| `index.html` | The reading app: HTML, CSS, and JS in one file, plus `merge.js`. |
+| `merge.js` | Per-entry profile merge for sync across devices. |
 | `app/` | Hosted FastAPI, magic-link auth, Postgres models, crawl + cut jobs. |
 | `kerning_lib/` | Windows, pool, quality gate, collect/close, Blob/local store. |
 | `kerning_lib/quality.json` | Close-time thresholds, GitHub pre-release rules, domain lists. |
 | `kerning_fetch.py` | Fetching, merging, scoring. `--collect` / `--close` / `--if-stale`. |
 | `kerning_serve.py` | Local single-user server. Serves the app; `POST /rebuild` is opt-in. |
 | `api/` | Vercel: `GET /api/digest` (from the `data` branch); unused Blob collect/close. |
-| `vercel.json` | Static Vercel project, Python functions, daily close cron. |
-| `.github/workflows/` | Collect every 2h; backup close after Prague midnight. |
+| `vercel.json` | Static Vercel project, Python functions, no builds for `data`. |
+| `.github/workflows/` | Collect every 2h and close after Prague midnight, into `data`. |
 | `scripts/install-schedule.sh` | One-time install of the 00:20 LaunchAgent for the local path. |
 | `accounts.txt` | X handles used as a Taste watchlist / ranking hints. Hosted fetch does not scrape X for these. |
 | `bsky-accounts.txt` | Bluesky handles to watch. Custom domains work. |

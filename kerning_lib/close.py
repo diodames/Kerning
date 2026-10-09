@@ -45,6 +45,9 @@ WEEKLY_LIMIT = 12
 MONTHLY_LIMIT = 12
 DAILY_FALLBACK_DAYS = 7
 INDEX_KEEP_DAYS = 70
+# Wider than the published picks so the browser can rerank by taste.
+CANDIDATE_LIMIT = 30
+PACK_CANDIDATES = {"weekly": 60, "monthly": 100}
 
 
 def _parse_date(value, now=None):
@@ -92,7 +95,21 @@ def _filter_and_score(raw_items, cfg, now_ts, tau, limit, skip_keys=None):
         ranked.append(scored)
     ranked.sort(key=lambda x: x["score"], reverse=True)
     kept = kf.diversify(ranked, limit)
-    return kept, dropped
+    return kept, dropped, _candidates(kept, ranked)
+
+
+def _candidates(kept, ranked, limit=CANDIDATE_LIMIT):
+    """The kept picks plus the next best, in score order."""
+    keys = {it["key"] for it in kept}
+    out = list(kept)
+    for it in ranked:
+        if len(out) >= max(limit, len(kept)):
+            break
+        if it["key"] not in keys:
+            keys.add(it["key"])
+            out.append(it)
+    out.sort(key=lambda x: x["score"], reverse=True)
+    return out
 
 
 def close_day(date_str, pool, cfg, now=None, limit=DAILY_LIMIT, raw=None,
@@ -112,13 +129,15 @@ def close_day(date_str, pool, cfg, now=None, limit=DAILY_LIMIT, raw=None,
         for it in items_for_prague_date(pool, date_str) + items_published_on(pool, date_str):
             by_key.setdefault(it.get("key") or it.get("url"), it)
         raw = list(by_key.values())
-    kept, dropped = _filter_and_score(raw, cfg, now_ts, RECENCY_TAU["daily"], limit, skip_keys)
+    kept, dropped, candidates = _filter_and_score(
+        raw, cfg, now_ts, RECENCY_TAU["daily"], limit, skip_keys)
     items = [kf.serialize_item(it) for it in kept]
     reasons = Counter(d["reason"] for d in dropped)
     payload = {
         "date": date_str,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "items": items,
+        "candidates": [kf.serialize_item(it) for it in candidates],
     }
     if backfill:
         payload["backfill"] = True
@@ -151,6 +170,7 @@ def _closed_keys(day):
 def _index_entry(payload, stats):
     entry = {
         "items": list(payload.get("items") or []),
+        "candidates": list(payload.get("candidates") or payload.get("items") or []),
         "pool": int(stats.get("pool") or 0),
         "kept": int(stats.get("kept") or 0),
         "dropped": dict(stats.get("dropped") or {}),
@@ -230,6 +250,12 @@ def _day_items(days, date_str):
     return list((days.get(date_str) or {}).get("items") or [])
 
 
+def _day_candidates(days, date_str):
+    """Days closed before candidates existed fall back to their picks."""
+    entry = days.get(date_str) or {}
+    return list(entry.get("candidates") or entry.get("items") or [])
+
+
 def _daily_pack(periods, days):
     """Yesterday's closed day, or the latest non-empty one within a week."""
     start, end = periods["daily"]
@@ -237,6 +263,7 @@ def _daily_pack(periods, days):
     if items:
         pack = edition_meta("daily", start, end)
         pack["items"] = items
+        pack["candidates"] = _day_candidates(days, prague_date_str(start))
         return pack
     for back in range(1, DAILY_FALLBACK_DAYS + 1):
         d = (start.date() - timedelta(days=back)).isoformat()
@@ -245,10 +272,25 @@ def _daily_pack(periods, days):
             print("daily: yesterday empty, using %s" % d, file=sys.stderr)
             pack = edition_meta("daily", *_day_bounds(d))
             pack["items"] = items
+            pack["candidates"] = _day_candidates(days, d)
             return pack
     pack = edition_meta("daily", start, end)
     pack["items"] = []
+    pack["candidates"] = []
     return pack
+
+
+def _pack_candidates(days, dates, limit):
+    seen = set()
+    out = []
+    for date_str in dates:
+        for it in _day_candidates(days, date_str):
+            url = it.get("url") or ""
+            if url and url not in seen:
+                seen.add(url)
+                out.append(it)
+    out.sort(key=lambda x: float(x.get("score") or 0), reverse=True)
+    return out[:limit]
 
 
 def compose_from_days(days, now=None, previous=None):
@@ -286,6 +328,10 @@ def compose_from_days(days, now=None, previous=None):
         items.sort(key=lambda x: float(x.get("score") or 0), reverse=True)
         pack = edition_meta(kind, start, end)
         pack["items"] = items[:limit]
+        candidates = _pack_candidates(days, dates_in_period(start, end), PACK_CANDIDATES[kind])
+        cand_urls = {it.get("url") for it in candidates}
+        candidates += [it for it in pack["items"] if it.get("url") not in cand_urls]
+        pack["candidates"] = candidates
         cadences[kind] = pack
 
     cadences = keep_previous_packs(cadences, previous)
