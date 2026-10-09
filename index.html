@@ -904,6 +904,7 @@
   @media (max-width: 640px) {
     :root { --nav-h: 56px; }
     .tabs { gap: 16px; }
+    .nav-auth { margin-left: 0; }
     .tab, .chip { font-size: 14px; }
     li.item { grid-template-columns: 2.6rem minmax(0, 1fr); column-gap: 12px; padding: 22px 0; }
     li.item--plain { grid-template-columns: minmax(0, 1fr); }
@@ -929,6 +930,10 @@
     .seed { grid-template-columns: minmax(0, 1fr); }
     .seed .acts { margin-top: 0; }
     .seed-resource { grid-template-columns: minmax(0, 1fr) auto; }
+  }
+  @media (max-width: 360px) {
+    .site-nav, .tabs { gap: 12px; }
+    .nav-logo-rest { display: none; }
   }
   @media (forced-colors: active) {
     .chip.on, .tab.on { outline: 2px solid CanvasText; }
@@ -1042,8 +1047,8 @@
 
 <dialog id="sync-dialog" class="dlg" aria-labelledby="sync-dialog-title" aria-describedby="sync-dialog-body">
   <form id="sync-form" novalidate>
-    <h2 id="sync-dialog-title">Sync across devices</h2>
-    <p id="sync-dialog-body">Saved stories, ratings, people, and resources follow you to every browser where you sign in. We&rsquo;ll email you a sign-in link, so there&rsquo;s no password.</p>
+    <h2 id="sync-dialog-title">Sign in to Kerning</h2>
+    <p id="sync-dialog-body">Keep saved stories, ratings, people, and resources on every device. We&rsquo;ll email you a sign-in link, so there&rsquo;s no password.</p>
     <div class="tadd sync-add">
       <div class="tfield">
         <label for="sync-email">Email</label>
@@ -1057,6 +1062,14 @@
       <button type="submit" class="btn" id="sync-submit">Email me a link</button>
     </div>
   </form>
+  <div id="sync-account" hidden>
+    <h2 id="sync-account-title">Account</h2>
+    <p id="sync-account-body">Signed in as <strong id="sync-account-email"></strong>. Saved stories and taste sync across your devices. <span id="sync-account-when"></span></p>
+    <div class="dlg-acts">
+      <button type="button" class="btn" id="sync-close">Close</button>
+      <button type="button" class="btn" id="sync-sign-out">Sign out</button>
+    </div>
+  </div>
 </dialog>
 
 <script src="merge.js"></script>
@@ -2944,6 +2957,7 @@ let syncUser = null;
 let syncTimer = 0;
 let syncRunning = null;
 let syncAgain = false;
+let syncLastAt = 0;
 
 function syncConfigured() {
   return !!(SUPABASE_URL && SUPABASE_ANON_KEY && window.KerningMerge);
@@ -3037,12 +3051,14 @@ function syncNow() {
       render();
     }
     if (!remote || !KerningMerge.sameProfile(remoteShape(profile), remote)) {
-      await syncClient.from("profiles").upsert({
+      const { error: pushError } = await syncClient.from("profiles").upsert({
         user_id: userId,
         data: remoteShape(profile),
         updated_at: new Date().toISOString(),
       });
+      if (pushError) return;
     }
+    syncLastAt = Date.now();
   })().catch(() => { /* next edit or tab focus retries */ }).finally(() => {
     syncRunning = null;
     if (syncAgain) {
@@ -3055,18 +3071,39 @@ function syncNow() {
 
 function renderSyncSlot(slot) {
   slot.classList.remove("hidden");
-  if (syncUser) {
-    slot.innerHTML = '<span class="nav-email">' + esc(syncUser.email || "Synced") + "</span>"
-      + '<button type="button" class="btn" id="sync-sign-out">Sign out</button>';
-    document.getElementById("sync-sign-out").onclick = syncSignOut;
-    return;
-  }
-  slot.innerHTML = '<button type="button" class="btn" id="sync-open">Sync</button>';
+  const label = syncUser
+    ? ' aria-label="' + esc("Account, signed in as " + (syncUser.email || "you")) + '">Account'
+    : ">Sign in";
+  slot.innerHTML = '<button type="button" class="tab" id="sync-open"' + label + "</button>";
   document.getElementById("sync-open").onclick = openSyncDialog;
+}
+
+function syncedLabel() {
+  if (!syncLastAt) return "Not synced yet.";
+  const min = Math.floor((Date.now() - syncLastAt) / 60000);
+  if (min < 1) return "Last synced just now.";
+  if (min < 60) return "Last synced " + min + " min ago.";
+  return "Last synced " + timeAgo(syncLastAt / 1000) + ".";
 }
 
 function openSyncDialog() {
   const dlg = document.getElementById("sync-dialog");
+  const form = document.getElementById("sync-form");
+  const account = document.getElementById("sync-account");
+  const signedIn = Boolean(syncUser);
+  form.hidden = signedIn;
+  account.hidden = !signedIn;
+  if (signedIn) {
+    dlg.setAttribute("aria-labelledby", "sync-account-title");
+    dlg.setAttribute("aria-describedby", "sync-account-body");
+    document.getElementById("sync-account-email").textContent = syncUser.email || "your account";
+    document.getElementById("sync-account-when").textContent = syncedLabel();
+    dlg.showModal();
+    document.getElementById("sync-close").focus();
+    return;
+  }
+  dlg.setAttribute("aria-labelledby", "sync-dialog-title");
+  dlg.setAttribute("aria-describedby", "sync-dialog-body");
   const msg = document.getElementById("sync-msg");
   const input = document.getElementById("sync-email");
   if (msg) msg.textContent = "";
@@ -3081,6 +3118,8 @@ function bindSyncDialog() {
   if (!dlg || !form || form.dataset.bound) return;
   form.dataset.bound = "1";
   document.getElementById("sync-cancel").onclick = () => dlg.close();
+  document.getElementById("sync-close").onclick = () => dlg.close();
+  document.getElementById("sync-sign-out").onclick = syncSignOut;
   dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
   form.onsubmit = async (e) => {
     e.preventDefault();
@@ -3120,6 +3159,9 @@ async function syncSignOut() {
   try { if (syncClient) await syncClient.auth.signOut(); }
   catch (e) { /* the local session is cleared either way */ }
   syncUser = null;
+  syncLastAt = 0;
+  const dlg = document.getElementById("sync-dialog");
+  if (dlg && dlg.open) dlg.close();
   renderAuthSlot();
 }
 
