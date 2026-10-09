@@ -1,4 +1,10 @@
-"""Phase B: close a Prague calendar day from the pool. No network."""
+"""Phase B: close a Prague calendar day from the pool. No network.
+
+Blob budget: Hobby counts every put against a small monthly allowance, so a
+close reads the pool, the days index, and the digest once each, and writes
+only what changed. A repeat close for an already-closed day writes nothing
+unless the composed digest differs.
+"""
 
 import sys
 from datetime import date as date_cls, datetime, timedelta, timezone
@@ -15,14 +21,12 @@ from kerning_lib.pool import (
 )
 from kerning_lib.quality import load_quality, marketing_weight, quality_reason
 from kerning_lib.store import (
+    DAYS_INDEX_PATH,
     DIGEST_PATH,
-    LOCK_CLOSE,
     POOL_PATH,
-    acquire_lock,
     day_path,
     get_json,
     put_json,
-    release_lock,
     stats_path,
 )
 from kerning_lib.windows import (
@@ -40,6 +44,7 @@ DAILY_LIMIT = 4
 WEEKLY_LIMIT = 12
 MONTHLY_LIMIT = 12
 DAILY_FALLBACK_DAYS = 7
+INDEX_KEEP_DAYS = 70
 
 
 def _parse_date(value, now=None):
@@ -143,25 +148,70 @@ def _closed_keys(day):
     return {kf.canonical(it.get("url") or "") for it in day.get("items") or []}
 
 
-def backfill_missing_days(pool, cfg, now, before_date):
+def _index_entry(payload, stats):
+    entry = {
+        "items": list(payload.get("items") or []),
+        "pool": int(stats.get("pool") or 0),
+        "kept": int(stats.get("kept") or 0),
+        "dropped": dict(stats.get("dropped") or {}),
+    }
+    if payload.get("backfill"):
+        entry["backfill"] = True
+    return entry
+
+
+def load_days_index(now):
+    """{date: entry} for recently closed days.
+
+    Built once from the individual day files when the index does not exist
+    yet; after that close reads this one file instead of a file per day.
+    """
+    data = get_json(DAYS_INDEX_PATH)
+    if isinstance(data, dict) and isinstance(data.get("days"), dict):
+        return dict(data["days"]), False
+    days = {}
+    last = prague_date_str(yesterday(now)[0])
+    for d in _window_dates(now) + [last]:
+        if d in days or d > last:
+            continue
+        day = get_json(day_path(d))
+        if isinstance(day, dict) and day.get("items") is not None:
+            stats = get_json(stats_path(d)) or {"kept": len(day.get("items") or [])}
+            days[d] = _index_entry(day, stats)
+    return days, True
+
+
+def _prune_index(days, now):
+    cutoff = (to_prague(now).date() - timedelta(days=INDEX_KEEP_DAYS)).isoformat()
+    return {d: v for d, v in days.items() if d >= cutoff}
+
+
+def save_days_index(days, now):
+    put_json(DAYS_INDEX_PATH, {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "days": _prune_index(days, now),
+    })
+
+
+def _write_day(date_str, payload, stats, days):
+    put_json(day_path(date_str), payload)
+    put_json(stats_path(date_str), stats)
+    days[date_str] = _index_entry(payload, stats)
+
+
+def backfill_missing_days(pool, cfg, now, before_date, days):
     """Close missing days in the weekly/monthly windows from publish dates.
 
-    Existing day files are never touched. Days with nothing to keep are not
-    written, so a later pool can still fill them. Returns (backfilled dates,
-    keys now closed in any window day including before_date).
+    Existing days are never touched. Days with nothing to keep are not
+    written, so a later pool can still fill them. Mutates days; returns the
+    backfilled dates.
     """
-    dates = _window_dates(now)
-    existing = {}
-    for d in dates + [before_date]:
-        if d in existing:
-            continue
-        existing[d] = get_json(day_path(d))
     closed = set()
-    for day in existing.values():
-        closed |= _closed_keys(day)
+    for entry in days.values():
+        closed |= _closed_keys(entry)
     done = []
-    for d in dates:
-        if d >= before_date or existing.get(d) is not None:
+    for d in _window_dates(now):
+        if d >= before_date or d in days:
             continue
         raw = items_published_on(pool, d)
         if not raw:
@@ -169,36 +219,28 @@ def backfill_missing_days(pool, cfg, now, before_date):
         payload, stats = close_day(d, pool, cfg, raw=raw, backfill=True, skip_keys=closed)
         if not payload["items"]:
             continue
-        put_json(day_path(d), payload)
-        put_json(stats_path(d), stats)
+        _write_day(d, payload, stats, days)
         closed |= _closed_keys(payload)
         done.append(d)
         print("close: backfilled %s kept=%s" % (d, stats["kept"]), file=sys.stderr)
-    return done, closed
+    return done
 
 
-def _load_day(date_str, cache):
-    if date_str not in cache:
-        data = get_json(day_path(date_str))
-        cache[date_str] = data if isinstance(data, dict) else None
-    return cache[date_str]
+def _day_items(days, date_str):
+    return list((days.get(date_str) or {}).get("items") or [])
 
 
-def _day_items(date_str, cache):
-    return list((_load_day(date_str, cache) or {}).get("items") or [])
-
-
-def _daily_pack(now, periods, cache):
+def _daily_pack(periods, days):
     """Yesterday's closed day, or the latest non-empty one within a week."""
     start, end = periods["daily"]
-    items = _day_items(prague_date_str(start), cache)
+    items = _day_items(days, prague_date_str(start))
     if items:
         pack = edition_meta("daily", start, end)
         pack["items"] = items
         return pack
     for back in range(1, DAILY_FALLBACK_DAYS + 1):
         d = (start.date() - timedelta(days=back)).isoformat()
-        items = _day_items(d, cache)
+        items = _day_items(days, d)
         if items:
             print("daily: yesterday empty, using %s" % d, file=sys.stderr)
             pack = edition_meta("daily", *_day_bounds(d))
@@ -209,19 +251,18 @@ def _daily_pack(now, periods, cache):
     return pack
 
 
-def compose_from_days(now=None, previous=None):
-    """Weekly and monthly from closed daily files only. Does not read the pool."""
+def compose_from_days(days, now=None, previous=None):
+    """Daily, Weekly and Monthly from closed days only. Does not read the pool."""
     now = to_prague(now)
     periods = expected_periods(now)
-    cache = {}
-    cadences = {"daily": _daily_pack(now, periods, cache)}
+    cadences = {"daily": _daily_pack(periods, days)}
 
     for kind, limit in (("weekly", WEEKLY_LIMIT), ("monthly", MONTHLY_LIMIT)):
         start, end = periods[kind]
         seen = {}
         merged = []
         for date_str in dates_in_period(start, end):
-            for it in _day_items(date_str, cache):
+            for it in _day_items(days, date_str):
                 url = it.get("url") or ""
                 if not url or url in seen:
                     continue
@@ -262,53 +303,65 @@ def compose_from_days(now=None, previous=None):
     return payload
 
 
+def _same_cadences(a, b):
+    return isinstance(a, dict) and isinstance(b, dict) \
+        and (a.get("cadences") or {}) == (b.get("cadences") or {})
+
+
 def run_close(date=None, force=False, now=None):
     """Close one Prague day if missing (or force). Then refresh digest cache."""
-    if not acquire_lock(LOCK_CLOSE):
-        return {"ok": True, "status": "running", "closed": False}
+    now = to_prague(now)
+    date_str = _parse_date(date, now)
+    days, index_new = load_days_index(now)
+    previous = get_json(DIGEST_PATH)
 
-    try:
-        now = to_prague(now)
-        date_str = _parse_date(date, now)
-        pool = normalize_pool(get_json(POOL_PATH) or empty_pool())
-        cfg = load_quality()
-        backfilled, closed_keys = backfill_missing_days(pool, cfg, now, date_str)
-
-        existing = get_json(day_path(date_str))
-        if existing and existing.get("items") is not None and not force:
-            print("close: %s already closed, skip" % date_str, file=sys.stderr)
-            previous = get_json(DIGEST_PATH)
-            put_json(DIGEST_PATH, compose_from_days(now=now, previous=previous))
-            stats = get_json(stats_path(date_str)) or {}
-            return {
-                "ok": True,
-                "closed": False,
-                "date": date_str,
-                "pool": stats.get("pool") or 0,
-                "kept": stats.get("kept") or len(existing.get("items") or []),
-                "dropped": stats.get("dropped") or {},
-                "backfilled": backfilled,
-            }
-
-        skip = closed_keys - _closed_keys(existing) if force else closed_keys
-        day_payload, stats = close_day(date_str, pool, cfg, now=now, skip_keys=skip)
-        put_json(day_path(date_str), day_payload)
-        put_json(stats_path(date_str), stats)
-        previous = get_json(DIGEST_PATH)
-        put_json(DIGEST_PATH, compose_from_days(now=now, previous=previous))
-        print(
-            "close: %s pool=%s kept=%s dropped=%s"
-            % (date_str, stats["pool"], stats["kept"], stats["dropped"]),
-            file=sys.stderr,
-        )
-        return {
+    if date_str in days and not force:
+        entry = days[date_str]
+        result = {
             "ok": True,
-            "closed": True,
+            "closed": False,
             "date": date_str,
-            "pool": stats["pool"],
-            "kept": stats["kept"],
-            "dropped": stats["dropped"],
-            "backfilled": backfilled,
+            "pool": entry.get("pool") or 0,
+            "kept": entry.get("kept") or len(entry.get("items") or []),
+            "dropped": entry.get("dropped") or {},
+            "backfilled": [],
         }
-    finally:
-        release_lock(LOCK_CLOSE)
+        if index_new:
+            save_days_index(days, now)
+        digest = compose_from_days(days, now=now, previous=previous)
+        if _same_cadences(digest, previous):
+            print("close: %s already closed, digest current" % date_str, file=sys.stderr)
+            return result
+        put_json(DIGEST_PATH, digest)
+        print("close: %s already closed, digest refreshed" % date_str, file=sys.stderr)
+        return result
+
+    pool = normalize_pool(get_json(POOL_PATH) or empty_pool())
+    cfg = load_quality()
+    if force and date_str in days:
+        own = _closed_keys(days.pop(date_str))
+    else:
+        own = set()
+    backfilled = backfill_missing_days(pool, cfg, now, date_str, days)
+    skip = set()
+    for entry in days.values():
+        skip |= _closed_keys(entry)
+    skip -= own
+    day_payload, stats = close_day(date_str, pool, cfg, now=now, skip_keys=skip)
+    _write_day(date_str, day_payload, stats, days)
+    save_days_index(days, now)
+    put_json(DIGEST_PATH, compose_from_days(days, now=now, previous=previous))
+    print(
+        "close: %s pool=%s kept=%s dropped=%s"
+        % (date_str, stats["pool"], stats["kept"], stats["dropped"]),
+        file=sys.stderr,
+    )
+    return {
+        "ok": True,
+        "closed": True,
+        "date": date_str,
+        "pool": stats["pool"],
+        "kept": stats["kept"],
+        "dropped": stats["dropped"],
+        "backfilled": backfilled,
+    }

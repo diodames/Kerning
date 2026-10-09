@@ -1,18 +1,19 @@
-"""Blob or local files for the pool, closed days, and digest cache."""
+"""Blob or local files for the pool, closed days, and digest cache.
+
+No lock files: each lock was a put plus a delete per run, and Hobby Blob
+counts puts against a small monthly allowance. GitHub Actions concurrency
+keeps collect runs from overlapping; close writes are idempotent.
+"""
 
 import json
 import os
-from datetime import datetime, timezone
 
 from kerning_lib.blob_digest import (
     DIGEST_PATH,
-    LOCK_PATH,
-    LOCK_TTL_SEC,
     _delete,
     _get_json,
     _put_json,
     blob_configured,
-    lock_is_fresh,
 )
 
 _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -20,8 +21,7 @@ LOCAL_DATA = os.path.join(_ROOT, "data")
 LOCAL_DIGEST = os.path.join(_ROOT, "digest.json")
 
 POOL_PATH = "kerning/pool.json"
-LOCK_COLLECT = "kerning/collect.lock"
-LOCK_CLOSE = "kerning/close.lock"
+DAYS_INDEX_PATH = "kerning/days/index.json"
 
 
 def day_path(date_str):
@@ -71,16 +71,3 @@ def delete_json(pathname):
         os.unlink(path)
     except OSError:
         pass
-
-
-def acquire_lock(pathname=LOCK_PATH, ttl=LOCK_TTL_SEC):
-    """Return True if this caller holds the lock. False if another run is fresh."""
-    lock = get_json(pathname)
-    if lock_is_fresh(lock, ttl=ttl):
-        return False
-    put_json(pathname, {"started_at": datetime.now(timezone.utc).isoformat()})
-    return True
-
-
-def release_lock(pathname=LOCK_PATH):
-    delete_json(pathname)

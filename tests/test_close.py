@@ -27,21 +27,11 @@ class ComposeFromDaysTests(unittest.TestCase):
         week_start, week_end = edition_week(now)
         month_start, month_end = this_month(now)
         days = {
-            "2026-09-15": {"date": "2026-09-15", "items": [_day_item("https://a.example/p", 5)]},
-            "2026-09-14": {"date": "2026-09-14", "items": [_day_item("https://b.example/q", 4)]},
+            "2026-09-15": {"items": [_day_item("https://a.example/p", 5)]},
+            "2026-09-14": {"items": [_day_item("https://b.example/q", 4)]},
         }
-
-        def fake_get(pathname):
-            if pathname == "kerning/pool.json":
-                self.fail("compose_from_days must not read the pool")
-            if pathname.startswith("kerning/days/") and pathname.endswith(".json") \
-                    and ".stats" not in pathname:
-                date_str = pathname.rsplit("/", 1)[-1].replace(".json", "")
-                return days.get(date_str)
-            return None
-
-        with patch("kerning_lib.close.get_json", side_effect=fake_get):
-            payload = compose_from_days(now=now, previous=None)
+        with patch("kerning_lib.close.get_json", side_effect=AssertionError("no store reads")):
+            payload = compose_from_days(days, now=now, previous=None)
         weekly_urls = [it["url"] for it in payload["cadences"]["weekly"]["items"]]
         self.assertIn("https://a.example/p", weekly_urls)
         self.assertEqual(payload["cadences"]["weekly"]["period_start"], week_start.date().isoformat())
@@ -87,37 +77,6 @@ class CloseDayTests(unittest.TestCase):
         self.assertEqual(stats["dropped"].get("blocklist"), 1)
         self.assertEqual(payload["items"][0]["url"], "https://example.com/keep")
 
-    def test_existing_day_without_force_is_not_rewritten(self):
-        existing = {
-            "date": "2026-09-20",
-            "items": [{"url": "https://a.example/x", "title": "A",
-                       "sources": ["Hacker News"], "score": 1}],
-        }
-        written = []
-
-        def fake_get(path):
-            if path == "kerning/days/2026-09-20.json":
-                return existing
-            if path == "kerning/days/2026-09-20.stats.json":
-                return {"date": "2026-09-20", "pool": 9, "kept": 1,
-                        "dropped": {"lexicon": 2}}
-            return None
-
-        def fake_put(path, data):
-            written.append(path)
-
-        with patch("kerning_lib.close.acquire_lock", return_value=True), \
-                patch("kerning_lib.close.release_lock"), \
-                patch("kerning_lib.close.get_json", side_effect=fake_get), \
-                patch("kerning_lib.close.put_json", side_effect=fake_put), \
-                patch("kerning_lib.close.compose_from_days",
-                      return_value={"cadences": {}, "items": []}):
-            result = run_close(date="2026-09-20", force=False)
-        self.assertTrue(result["ok"])
-        self.assertFalse(result["closed"])
-        self.assertEqual(result["dropped"], {"lexicon": 2})
-        self.assertNotIn("kerning/days/2026-09-20.json", written)
-
 
 CFG = {
     "hn": {"min_points": 10, "min_comments": 5},
@@ -145,19 +104,21 @@ def _pool_item(url, published, first_seen):
 class FakeStore:
     def __init__(self, files=None):
         self.files = dict(files or {})
+        self.puts = []
+        self.gets = []
 
     def get(self, path):
+        self.gets.append(path)
         return self.files.get(path)
 
     def put(self, path, data):
+        self.puts.append(path)
         self.files[path] = data
 
     def patches(self):
         return [
             patch("kerning_lib.close.get_json", side_effect=self.get),
             patch("kerning_lib.close.put_json", side_effect=self.put),
-            patch("kerning_lib.close.acquire_lock", return_value=True),
-            patch("kerning_lib.close.release_lock"),
             patch("kerning_lib.close.load_quality", return_value=CFG),
         ]
 
@@ -235,16 +196,78 @@ class PrePoolDayTests(unittest.TestCase):
         self.assertEqual(store.files["kerning/days/2026-09-27.json"]["items"][0]["url"], url)
 
 
+class BlobBudgetTests(unittest.TestCase):
+    def _fresh(self):
+        seen = datetime(2026, 9, 28, 12, 0, tzinfo=PRAGUE)
+        url = "https://s28.example/p"
+        return FakeStore({"kerning/pool.json": {"items": {
+            url: _pool_item(url, datetime(2026, 9, 28, 9, 0, tzinfo=PRAGUE), seen),
+        }}})
+
+    def test_close_writes_day_stats_index_digest_once(self):
+        store = self._fresh()
+        _run(store, now=datetime(2026, 9, 29, 0, 5, tzinfo=PRAGUE))
+        self.assertEqual(sorted(store.puts), sorted([
+            "kerning/days/2026-09-28.json",
+            "kerning/days/2026-09-28.stats.json",
+            "kerning/days/index.json",
+            "kerning/digest.json",
+        ]))
+
+    def test_after_migration_close_reads_no_day_files(self):
+        store = self._fresh()
+        _run(store, now=datetime(2026, 9, 29, 0, 5, tzinfo=PRAGUE))
+        store.gets.clear()
+        _run(store, now=datetime(2026, 9, 30, 0, 5, tzinfo=PRAGUE))
+        self.assertEqual(sorted(store.gets), [
+            "kerning/days/index.json", "kerning/digest.json", "kerning/pool.json",
+        ])
+
+    def test_repeat_close_writes_nothing_and_skips_pool(self):
+        store = self._fresh()
+        _run(store, now=datetime(2026, 9, 29, 0, 5, tzinfo=PRAGUE))
+        store.puts.clear()
+        store.gets.clear()
+        result = _run(store, now=datetime(2026, 9, 29, 0, 15, tzinfo=PRAGUE))
+        self.assertFalse(result["closed"])
+        self.assertEqual(result["kept"], 1)
+        self.assertEqual(store.puts, [])
+        self.assertEqual(sorted(store.gets), ["kerning/days/index.json", "kerning/digest.json"])
+
+    def test_existing_day_files_migrate_into_index(self):
+        existing = {"date": "2026-09-20", "items": [_day_item("https://a.example/x")]}
+        store = FakeStore({
+            "kerning/days/2026-09-20.json": existing,
+            "kerning/days/2026-09-20.stats.json": {"pool": 9, "kept": 1,
+                                                   "dropped": {"lexicon": 2}},
+        })
+        result = _run(store, date="2026-09-20",
+                      now=datetime(2026, 9, 21, 0, 5, tzinfo=PRAGUE))
+        self.assertFalse(result["closed"])
+        self.assertEqual(result["dropped"], {"lexicon": 2})
+        self.assertNotIn("kerning/days/2026-09-20.json", store.puts)
+        index = store.files["kerning/days/index.json"]["days"]
+        self.assertEqual(index["2026-09-20"]["items"][0]["url"], "https://a.example/x")
+
+    def test_force_rewrites_a_closed_day(self):
+        store = self._fresh()
+        _run(store, now=datetime(2026, 9, 29, 0, 5, tzinfo=PRAGUE))
+        store.puts.clear()
+        result = _run(store, date="2026-09-28", force=True,
+                      now=datetime(2026, 9, 29, 9, 0, tzinfo=PRAGUE))
+        self.assertTrue(result["closed"])
+        self.assertEqual(result["kept"], 1)
+        self.assertIn("kerning/days/2026-09-28.json", store.puts)
+
+
 class DailyFallbackTests(unittest.TestCase):
     def test_empty_yesterday_uses_latest_closed_day_with_its_dates(self):
         now = datetime(2026, 9, 16, 10, 0, tzinfo=PRAGUE)
         days = {
-            "kerning/days/2026-09-15.json": {"date": "2026-09-15", "items": []},
-            "kerning/days/2026-09-13.json": {"date": "2026-09-13",
-                                             "items": [_day_item("https://a.example/p")]},
+            "2026-09-15": {"items": []},
+            "2026-09-13": {"items": [_day_item("https://a.example/p")]},
         }
-        with patch("kerning_lib.close.get_json", side_effect=days.get):
-            payload = compose_from_days(now=now, previous=None)
+        payload = compose_from_days(days, now=now, previous=None)
         daily = payload["cadences"]["daily"]
         self.assertEqual(daily["items"][0]["url"], "https://a.example/p")
         self.assertEqual(daily["period_start"], "2026-09-13")
@@ -254,6 +277,5 @@ class DailyFallbackTests(unittest.TestCase):
         now = datetime(2026, 9, 16, 10, 0, tzinfo=PRAGUE)
         previous = {"cadences": {"daily": {"period_start": "2026-09-01",
                                            "items": [_day_item("https://old.example/p")]}}}
-        with patch("kerning_lib.close.get_json", return_value=None):
-            payload = compose_from_days(now=now, previous=previous)
+        payload = compose_from_days({}, now=now, previous=previous)
         self.assertEqual(payload["cadences"]["daily"]["items"][0]["url"], "https://old.example/p")

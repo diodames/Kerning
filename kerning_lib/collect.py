@@ -3,7 +3,6 @@
 import json
 import os
 import sys
-import time
 
 from kerning_fetch import (
     CURATED_FEEDS,
@@ -21,19 +20,11 @@ from kerning_fetch import (
     merge,
 )
 from kerning_lib.pool import empty_pool, normalize_pool, prune_pool, upsert_rows
-from kerning_lib.store import (
-    LOCK_COLLECT,
-    POOL_PATH,
-    acquire_lock,
-    get_json,
-    put_json,
-    release_lock,
-)
+from kerning_lib.store import POOL_PATH, get_json, put_json
 from kerning_lib.windows import this_month, to_prague
 
 _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 COLLECT_DAYS = 4
-COLLECT_LOCK_TTL = 320
 
 
 def _profile_data(path="kerning-profile.json"):
@@ -104,37 +95,30 @@ def fetch_source_rows(days=COLLECT_DAYS, no_bluesky=False, no_substack=False):
 
 def run_collect(days=None, now=None):
     """Fetch, merge, upsert. Idempotent. Returns a JSON-serializable dict."""
-    if not acquire_lock(LOCK_COLLECT, ttl=COLLECT_LOCK_TTL):
-        return {"ok": True, "status": "running", "collected": False}
+    now_dt = to_prague()
+    month_start, _ = this_month(now_dt)
+    if days is None:
+        days = max((now_dt.timestamp() - month_start.timestamp()) / 86400, COLLECT_DAYS)
+        days = min(max(days, COLLECT_DAYS), 40)
 
-    try:
-        now = now or time.time()
-        now_dt = to_prague()
-        month_start, _ = this_month(now_dt)
-        if days is None:
-            days = max((now_dt.timestamp() - month_start.timestamp()) / 86400, COLLECT_DAYS)
-            days = min(max(days, COLLECT_DAYS), 40)
-
-        rows = fetch_source_rows(days)
-        merged = merge(rows) if rows else []
-        pool = normalize_pool(get_json(POOL_PATH) or empty_pool())
-        pool, inserted, updated = upsert_rows(pool, merged, now=now_dt)
-        pool, pruned = prune_pool(pool, now=now_dt)
-        put_json(POOL_PATH, pool)
-        print(
-            "collect: upserted %s new, %s updated, pruned %s, pool %s"
-            % (inserted, updated, pruned, len(pool["items"])),
-            file=sys.stderr,
-        )
-        return {
-            "ok": True,
-            "collected": True,
-            "fetched": len(rows),
-            "merged": len(merged),
-            "inserted": inserted,
-            "updated": updated,
-            "pruned": pruned,
-            "pool": len(pool["items"]),
-        }
-    finally:
-        release_lock(LOCK_COLLECT)
+    rows = fetch_source_rows(days)
+    merged = merge(rows) if rows else []
+    pool = normalize_pool(get_json(POOL_PATH) or empty_pool())
+    pool, inserted, updated = upsert_rows(pool, merged, now=now_dt)
+    pool, pruned = prune_pool(pool, now=now_dt)
+    put_json(POOL_PATH, pool)
+    print(
+        "collect: upserted %s new, %s updated, pruned %s, pool %s"
+        % (inserted, updated, pruned, len(pool["items"])),
+        file=sys.stderr,
+    )
+    return {
+        "ok": True,
+        "collected": True,
+        "fetched": len(rows),
+        "merged": len(merged),
+        "inserted": inserted,
+        "updated": updated,
+        "pruned": pruned,
+        "pool": len(pool["items"]),
+    }

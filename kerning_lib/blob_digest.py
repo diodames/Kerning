@@ -119,27 +119,32 @@ def _put_headers():
     return headers
 
 
+def store_id(env=None):
+    """Blob store id from BLOB_STORE_ID, else from the read-write token."""
+    env = os.environ if env is None else env
+    sid = (env.get("BLOB_STORE_ID") or "").strip()
+    if sid.startswith("store_"):
+        sid = sid[len("store_"):]
+    if not sid:
+        parts = (env.get("BLOB_READ_WRITE_TOKEN") or "").split("_")
+        if len(parts) >= 5 and parts[:3] == ["vercel", "blob", "rw"]:
+            sid = parts[3]
+    return sid.lower()
+
+
+def blob_url(pathname, env=None):
+    """Fixed URL of a private blob written without a random suffix.
+
+    Reading by URL skips list(), which Hobby counts as an advanced operation.
+    """
+    sid = store_id(env)
+    if not sid:
+        raise RuntimeError("BLOB_STORE_ID is not set")
+    return "https://%s.private.blob.vercel-storage.com/%s" % (sid, pathname)
+
+
 def _get_json(pathname):
-    listed = requests.get(
-        BLOB_API,
-        params={"prefix": pathname, "limit": "10"},
-        headers=_auth_headers(),
-        timeout=20,
-    )
-    if listed.status_code == 404:
-        return None
-    listed.raise_for_status()
-    blobs = listed.json().get("blobs") or []
-    match = None
-    for blob in blobs:
-        if blob.get("pathname") == pathname:
-            match = blob
-            break
-    if match is None and blobs:
-        match = blobs[0]
-    if not match or not match.get("url"):
-        return None
-    got = requests.get(match["url"], headers=_auth_headers(), timeout=20)
+    got = requests.get(blob_url(pathname), headers=_auth_headers(), timeout=20)
     if got.status_code == 404:
         return None
     got.raise_for_status()
@@ -161,24 +166,10 @@ def _put_json(pathname, data):
 
 
 def _delete(pathname):
-    listed = requests.get(
-        BLOB_API,
-        params={"prefix": pathname, "limit": "10"},
-        headers=_auth_headers(),
-        timeout=20,
-    )
-    if listed.status_code != 200:
-        return
-    urls = []
-    for blob in listed.json().get("blobs") or []:
-        if blob.get("pathname") == pathname and blob.get("url"):
-            urls.append(blob["url"])
-    if not urls:
-        return
     requests.post(
         BLOB_API + "/delete",
         headers=_auth_headers(),
-        json={"urls": urls},
+        json={"urls": [blob_url(pathname)]},
         timeout=20,
     )
 

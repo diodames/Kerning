@@ -156,6 +156,15 @@ Both endpoints need `Authorization: Bearer ${CRON_SECRET}`. Vercel cron
 sends that header when the env var is set. Idempotent: collect upserts;
 close without `force` returns `{ closed: false }` when the day exists.
 
+**Hobby Blob budget.** Vercel suspends the Blob store when a month's
+operations run out, and the site then serves the stale `digest.json` from the
+last deploy. Keep it frugal: blobs are read by their fixed URL (never
+`list()`), there are no lock files, close keeps one `kerning/days/index.json`
+instead of rereading every day file, a repeat close writes nothing, and
+`/api/digest` is edge-cached for an hour (the page must not add a cache-busting
+query). A collect costs 1 read + 1 write; a nightly close about 3 reads + 4
+writes.
+
 In the Vercel project:
 
 1. Create a Blob store and link it to this project (`BLOB_READ_WRITE_TOKEN`

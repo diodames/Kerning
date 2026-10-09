@@ -2,7 +2,7 @@ import os
 import unittest
 from datetime import datetime, timedelta, timezone
 
-from kerning_lib.blob_digest import lock_is_fresh, should_skip_fetch
+from kerning_lib.blob_digest import blob_url, lock_is_fresh, should_skip_fetch, store_id
 from kerning_lib.windows import aware_now, edition_meta, expected_periods, resolve_tz_name, this_week
 
 
@@ -14,6 +14,22 @@ def _pack(now):
     for kind, (start, end) in expected_periods(now).items():
         packs[kind] = edition_meta(kind, start, end)
     return {"cadences": packs}
+
+
+class BlobUrlTests(unittest.TestCase):
+    def test_url_from_store_id(self):
+        env = {"BLOB_STORE_ID": "store_y3OzWQB7nsWLkNEv"}
+        self.assertEqual(
+            blob_url("kerning/digest.json", env),
+            "https://y3ozwqb7nswlknev.private.blob.vercel-storage.com/kerning/digest.json",
+        )
+
+    def test_store_id_falls_back_to_token(self):
+        env = {"BLOB_READ_WRITE_TOKEN": "vercel_blob_rw_Y3OzWQB7nsWLkNEv_secretpart"}
+        self.assertEqual(store_id(env), "y3ozwqb7nswlknev")
+        self.assertEqual(store_id({}), "")
+        with self.assertRaises(RuntimeError):
+            blob_url("kerning/pool.json", {})
 
 
 class BlobDigestTests(unittest.TestCase):
