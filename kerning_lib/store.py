@@ -1,8 +1,11 @@
-"""Blob or local files for the pool, closed days, and digest cache.
+"""Local files or Blob for the pool, closed days, and digest cache.
 
-No lock files: each lock was a put plus a delete per run, and Hobby Blob
-counts puts against a small monthly allowance. GitHub Actions concurrency
-keeps collect runs from overlapping; close writes are idempotent.
+KERNING_DATA_DIR wins over Blob: GitHub Actions points it at a checkout of
+the `data` branch and commits the result. Without it, Blob is used when a
+token is set, else the repo's data/ and digest.json.
+
+No lock files: GitHub Actions concurrency keeps runs from overlapping, and
+close writes are idempotent.
 """
 
 import json
@@ -32,14 +35,23 @@ def stats_path(date_str):
     return "kerning/days/%s.stats.json" % date_str
 
 
+def _data_dir():
+    return os.environ.get("KERNING_DATA_DIR") or ""
+
+
+def _use_blob():
+    return blob_configured() and not _data_dir()
+
+
 def _local_file(pathname):
+    root = _data_dir()
     if pathname == DIGEST_PATH:
-        return LOCAL_DIGEST
-    return os.path.join(LOCAL_DATA, pathname.replace("kerning/", "", 1))
+        return os.path.join(root, "digest.json") if root else LOCAL_DIGEST
+    return os.path.join(root or LOCAL_DATA, pathname.replace("kerning/", "", 1))
 
 
 def get_json(pathname):
-    if blob_configured():
+    if _use_blob():
         return _get_json(pathname)
     path = _local_file(pathname)
     if not os.path.isfile(path):
@@ -53,7 +65,7 @@ def get_json(pathname):
 
 
 def put_json(pathname, data):
-    if blob_configured():
+    if _use_blob():
         return _put_json(pathname, data)
     path = _local_file(pathname)
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -63,7 +75,7 @@ def put_json(pathname, data):
 
 
 def delete_json(pathname):
-    if blob_configured():
+    if _use_blob():
         _delete(pathname)
         return
     path = _local_file(pathname)

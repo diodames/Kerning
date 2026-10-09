@@ -32,6 +32,27 @@ class BlobUrlTests(unittest.TestCase):
             blob_url("kerning/pool.json", {})
 
 
+class DataDirTests(unittest.TestCase):
+    def test_data_dir_wins_over_blob_token(self):
+        import tempfile
+        from unittest import mock
+
+        from kerning_lib import store
+
+        with tempfile.TemporaryDirectory() as root:
+            env = {"KERNING_DATA_DIR": root, "BLOB_READ_WRITE_TOKEN": "vercel_blob_rw_x_y"}
+            with mock.patch.dict(os.environ, env), \
+                    mock.patch.object(store, "_put_json") as blob_put:
+                store.put_json(store.POOL_PATH, {"items": []})
+                store.put_json("kerning/digest.json", {"cadences": {}})
+                store.put_json(store.day_path("2026-10-08"), {"items": []})
+                self.assertEqual(store.get_json(store.POOL_PATH), {"items": []})
+            blob_put.assert_not_called()
+            self.assertTrue(os.path.isfile(os.path.join(root, "pool.json")))
+            self.assertTrue(os.path.isfile(os.path.join(root, "digest.json")))
+            self.assertTrue(os.path.isfile(os.path.join(root, "days", "2026-10-08.json")))
+
+
 class BlobDigestTests(unittest.TestCase):
     def test_skip_fetch_when_windows_match(self):
         now = datetime(2026, 9, 8, 9, 0, tzinfo=CEST)

@@ -2589,7 +2589,7 @@ async function loadDigest() {
     return;
   }
   try {
-    // No cache-buster: the edge cache keeps page views off Blob.
+    // No cache-buster: the edge cache answers repeat page views.
     const live = await fetch("/api/digest");
     if (live.ok) {
       applyDigestPayload(await live.json());

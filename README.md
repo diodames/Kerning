@@ -135,59 +135,42 @@ lock older than 280 seconds. You can also delete that file and reopen the app.
 ### Vercel (shared public digest)
 
 <https://kerning-six.vercel.app/> is the single-user reader with Taste in the
-browser. Collection and close run in functions; they do not rewrite the
-deployed `digest.json`. Opening the page only `GET`s `/api/digest`.
+browser. Opening the page only `GET`s `/api/digest`, which serves
+`digest.json` from the repo's `data` branch (edge-cached for ten minutes).
 
-Two phases:
+GitHub Actions does the work and commits the results to `data`:
 
-1. **Collect** every two hours (`POST /api/collect`) upserts public sources
-   (no X) into Blob `kerning/pool.json`. GitHub Actions calls this — Hobby
-   Vercel cron is once a day.
-2. **Close** after Prague midnight (`GET /api/close`, cron `5 23 * * *` UTC)
-   ranks yesterday’s pool, writes an immutable `kerning/days/YYYY-MM-DD.json`,
-   composes Weekly/Monthly from closed days, and refreshes `kerning/digest.json`.
+1. **Collect** every two hours (`.github/workflows/collect.yml`) runs
+   `kerning_fetch.py --collect` and upserts public sources (no X) into
+   `pool.json`.
+2. **Close** after Prague midnight (`close.yml`, 23:15 UTC with a 05:15 UTC
+   backup) ranks yesterday's pool, writes an immutable `days/YYYY-MM-DD.json`,
+   composes Weekly/Monthly from closed days, and refreshes `digest.json`.
 
 Close also backfills any missing day in the Weekly and Monthly windows from
-publish dates, so a fresh pool or a missed cron night never leaves gaps.
+publish dates, so a fresh pool or a missed run never leaves gaps.
 If Daily comes out empty, it shows the latest closed day from the past
 week. Any edition that is still empty keeps its last non-empty pack.
+A repeat close without `force` changes nothing.
 
-Both endpoints need `Authorization: Bearer ${CRON_SECRET}`. Vercel cron
-sends that header when the env var is set. Idempotent: collect upserts;
-close without `force` returns `{ closed: false }` when the day exists.
+Both workflows share one concurrency group, so pushes to `data` never race.
+`vercel.json` turns off deployments for the `data` branch.
 
-**Hobby Blob budget.** Vercel suspends the Blob store when a month's
-operations run out, and the site then serves the stale `digest.json` from the
-last deploy. Keep it frugal: blobs are read by their fixed URL (never
-`list()`), there are no lock files, close keeps one `kerning/days/index.json`
-instead of rereading every day file, a repeat close writes nothing, and
-`/api/digest` is edge-cached for an hour (the page must not add a cache-busting
-query). A collect costs 1 read + 1 write; a nightly close about 3 reads + 4
-writes.
-
-In the Vercel project:
-
-1. Create a Blob store and link it to this project (`BLOB_READ_WRITE_TOKEN`
-   is added automatically).
-2. Set `DIGEST_TZ=Europe/Prague` if it is not already set from `vercel.json`.
-   Vercel reserves `TZ`; do not add it as a project variable.
-3. Set `CRON_SECRET` to a long random string. Put the same value in GitHub
-   Actions secrets as `CRON_SECRET`. Optional: `KERN_ORIGIN` if the site is
-   not `https://kerning-six.vercel.app`.
-4. Redeploy. Confirm `GET /api/digest`.
-
-Do not add `APIFY_TOKEN`. Do not point this project at the Fly FastAPI app.
+This replaced Vercel Blob, whose Hobby allowance (2,000 advanced operations a
+month) ran out and suspended the store. The `/api/collect` and `/api/close`
+functions still exist for Blob but nothing schedules them.
 
 **Regenerate a closed day**
 
+Run the **Close day** workflow by hand (Actions, Run workflow) with a date and
+`force` set to `true`, or locally:
+
 ```bash
-curl -X POST \
-  -H "Authorization: Bearer $CRON_SECRET" \
-  "$ORIGIN/api/close?date=2026-09-27&force=true"
+KERNING_DATA_DIR=path/to/data-checkout python3 kerning_fetch.py --close --date 2026-09-27 --force
 ```
 
-`GET /api/close-stats?date=2026-09-27` with the same Bearer header returns
-drop counts (`prerelease`, `blocklist`, `below_threshold`, `lexicon`, …).
+Each closed day has a `days/YYYY-MM-DD.stats.json` with drop counts
+(`prerelease`, `blocklist`, `below_threshold`, `lexicon`, …).
 
 Opening the file directly with `file://` means the browser blocks
 `fetch()` of `digest.json`, and the app silently falls back to querying
@@ -223,7 +206,7 @@ watches anyone and any feed you added, on top of the curated lists.
 | `kerning_lib/quality.json` | Close-time thresholds, GitHub pre-release rules, domain lists. |
 | `kerning_fetch.py` | Fetching, merging, scoring. `--collect` / `--close` / `--if-stale`. |
 | `kerning_serve.py` | Local single-user server. Serves the app; `POST /rebuild` is opt-in. |
-| `api/` | Vercel: `GET /api/digest`, `POST /api/collect`, `/api/close`, close-stats. |
+| `api/` | Vercel: `GET /api/digest` (from the `data` branch); unused Blob collect/close. |
 | `vercel.json` | Static Vercel project, Python functions, daily close cron. |
 | `.github/workflows/` | Collect every 2h; backup close after Prague midnight. |
 | `scripts/install-schedule.sh` | One-time install of the 00:20 LaunchAgent for the local path. |
@@ -231,7 +214,7 @@ watches anyone and any feed you added, on top of the curated lists.
 | `bsky-accounts.txt` | Bluesky handles to watch. Custom domains work. |
 | `substack.txt` | Substack publications to watch. Slug, host, or URL. |
 | `x-following.js` | Paste into the browser console to export your X following list. |
-| `digest.json` | Generated locally. Fallback snapshot on Vercel until Blob has a recut. |
+| `digest.json` | Generated locally. Fallback snapshot when `/api/digest` fails. |
 | `digest.md` | Generated locally. The digest as plain text. |
 | `docker-compose.yml` | Postgres + web + worker for the hosted app. |
 | `.env.example` | Secrets template (`DATABASE_URL`, mail, origin, `CRON_SECRET`). |

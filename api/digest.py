@@ -1,21 +1,34 @@
-"""GET /api/digest — live digest from Vercel Blob."""
+"""GET /api/digest — the digest GitHub Actions commits to the `data` branch."""
 
 from http.server import BaseHTTPRequestHandler
 import json
 import os
 import sys
 
-_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-if _ROOT not in sys.path:
-    sys.path.insert(0, _ROOT)
+import requests
 
-from kerning_lib.blob_digest import get_digest_payload  # noqa: E402
+DIGEST_URL = os.environ.get(
+    "KERNING_DIGEST_URL",
+    "https://raw.githubusercontent.com/diodames/Kerning/data/digest.json",
+)
+
+# The digest changes once a night; collect runs only touch the pool.
+EDGE_CACHE = "public, max-age=60, s-maxage=600, stale-while-revalidate=86400"
+
+
+def fetch_digest(url=DIGEST_URL):
+    r = requests.get(url, timeout=10)
+    if r.status_code == 404:
+        return None
+    r.raise_for_status()
+    data = r.json()
+    return data if isinstance(data, dict) else None
 
 
 class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         try:
-            data = get_digest_payload()
+            data = fetch_digest()
         except Exception as e:
             _send(self, 500, {"error": str(e)})
             return
@@ -26,11 +39,6 @@ class handler(BaseHTTPRequestHandler):
 
     def log_message(self, fmt, *args):
         sys.stderr.write("%s - %s\n" % (self.address_string(), fmt % args))
-
-
-# The digest changes once a night. Edge caching keeps page views from each
-# reading Blob, which counts against the Hobby monthly allowance.
-EDGE_CACHE = "public, max-age=60, s-maxage=3600, stale-while-revalidate=86400"
 
 
 def _send(http, status, payload, cache="no-store"):

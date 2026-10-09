@@ -27,10 +27,9 @@
       "excludeFiles": "{app/**,tests/**,*.png,Dockerfile,fly.toml,docker-compose.yml}"
     }
   },
-  "crons": [
-    {
-      "path": "/api/close",
-      "schedule": "5 23 * * *"
+  "git": {
+    "deploymentEnabled": {
+      "data": false
     }
-  ]
+  }
 }
