@@ -1088,8 +1088,6 @@ const SAVED_SORTS = ["newest", "oldest"];
 const CADENCE_COPY = {
   daily: {
     prefix: "Yesterday",
-    rate: " Rate a few and the next day\u2019s ranking follows your taste.",
-    taste: " Or add people and resources on Taste.",
     empty: "That\u2019s yesterday\u2019s list.",
     emptyNote: "Saved stories stay here. The next four publish after midnight, on the next rebuild.",
     loading: "Opening yesterday\u2019s digest.",
@@ -1098,8 +1096,6 @@ const CADENCE_COPY = {
   },
   weekly: {
     prefix: "This week",
-    rate: " Rate a few and next week\u2019s ranking follows your taste.",
-    taste: " Or add people and resources on Taste.",
     empty: "That\u2019s this week\u2019s list.",
     emptyNote: "Saved stories stay here. Last week\u2019s issue stays up Monday.",
     loading: "Opening this week\u2019s digest.",
@@ -1108,8 +1104,6 @@ const CADENCE_COPY = {
   },
   monthly: {
     prefix: "This month",
-    rate: " Rate a few and next month\u2019s ranking follows your taste.",
-    taste: " Or add people and resources on Taste.",
     empty: "That\u2019s this month\u2019s list.",
     emptyNote: "Saved stories stay here. A new issue lands on the 1st.",
     loading: "Opening this month\u2019s digest.",
@@ -1126,8 +1120,6 @@ function cadenceCopy(kind, now) {
   if (kind !== "weekly" || !weeklyHoldsLastComplete(now)) return base;
   return {
     prefix: "Last week",
-    rate: base.rate,
-    taste: base.taste,
     empty: "That\u2019s last week\u2019s list.",
     emptyNote: "Saved stories stay here. This week\u2019s issue starts Tuesday.",
     loading: "Opening last week\u2019s digest.",
@@ -3460,9 +3452,8 @@ function renderDigest() {
   } else if (dates) {
     head = prefix
       ? '<p class="primer primer--period">' + esc(prefix) + ' \u00b7 <span class="week-dates">'
-        + esc(dates) + "</span>."
-      : '<p class="primer primer--period"><span class="week-dates">' + esc(dates) + "</span>.";
-    head += (nRatings === 0 ? copy.rate + (hasSeeds() ? "" : copy.taste) : "") + "</p>";
+        + esc(dates) + "</span>.</p>"
+      : '<p class="primer primer--period"><span class="week-dates">' + esc(dates) + "</span>.</p>";
   } else if (mode === "curated" && digestMeta) {
     head = '<p class="primer">' + esc(copy.prefix) + "\u2019s digest, from Hacker News, publications, and Bluesky.</p>";
   } else if (mode === "live") {
