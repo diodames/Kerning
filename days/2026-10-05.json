@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-09T20:08:31.529711+00:00",
+  "items": [
+    {
+      "id": "9dba5aa935dd",
+      "title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "url": "https://github.com/szabadkai/c64-keyboard-font/",
+      "hn": "https://news.ycombinator.com/item?id=49990224",
+      "points": 406,
+      "comments": 66,
+      "created_at_i": 1791234351,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.649,
+      "why": [
+        "406 points"
+      ]
+    },
+    {
+      "id": "cd4614a74b17",
+      "title": "shadcn/ui — @shadcn/registry@0.1.1",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.1",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.1",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791211099,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.578,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    }
+  ],
+  "backfill": true
+}

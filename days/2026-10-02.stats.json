@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-02",
+  "pool": 36,
+  "kept": 2,
+  "dropped": {
+    "below_threshold": 17,
+    "lexicon": 15,
+    "no_title": 2
+  },
+  "dropped_items": [
+    {
+      "url": "https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/",
+      "title": "Can good design stop content creators from having sex in robotaxis?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://llmtobinary.com?hn",
+      "title": "Llmtobinary – a hypothetical chip \"design\", custom instruction set, might work",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://inspenet.com/en/articles/muon-tomography-inspection-and-monitoring/",
+      "title": "Muon Tomography: Inspection and monitoring of assets without internal access",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
+      "title": "Decision Index 0.2.1 – 70 open reproductions of TypeSafe Jev's \"Decision Model\"",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49928454",
+      "title": "Fortress(Tilion YC F26): A stealth Chromium so your agents stop getting blocked",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49934491",
+      "title": "Ask HN: Why do all LLM interfaces look the same?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://konstruukt.com/projects/qlcodepreview/",
+      "title": "Show HN: QLCodePreview, syntax highlighting in Finder's Quick Look",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vuetech.sh/careers",
+      "title": "LF UX Designer – Bay Area Hybrid",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
+      "title": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ericwbailey.website/published/github-repository-landing-pages-now-show-an-accessibility-tab-if-provided/",
+      "title": "GitHub repository landing pages now show an accessibility tab, if provided",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
+      "title": "Guided Vision in Gemini Live: built for accessibility",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://cassidoo.co/post/accessibility-and-the-internet/",
+      "title": "Accessibility and the New Model of the Internet",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cell.com/joule/fulltext/S2542-4351(26)00362-4?_returnURL=https://linkinghub.elsevier.com/retrieve/pii/S2542435126003624%3Fshowall%3Dtruee/pii/S2542435126003624%3Fshowall%3Dtrue",
+      "title": "Toward a future space-based, highly scalable AI infrastructure system design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/PhreshOS/system",
+      "title": "Show HN: PhreshOS – OS for Web Apps",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/ctxrs/figma-server",
+      "title": "Show HN: figma-server, the solution to Figma's hostility towards agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.master.dev/fallbacks-for-css-progress/",
+      "title": "Fallbacks for CSS `Progress()`",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl",
+      "title": "Why media fans want to escape algorithms with CDs, DVDs and vinyl",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bigthink.com/books/a-fabulous-debt/",
+      "title": "Venice’s failed war against Constantinople led to the first bond market",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "title": "Is Claude Conscious?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.rust-lang.org/inside-rust/2026/10/02/generic-const-args-and-you/",
+      "title": "Generic Const Args and You",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/09/28/business/china-ev-geely-nio.html",
+      "title": "China's Crowded EV Car Industry Moves Toward Consolidation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://homefreesociology.com/2026/08/19/zoning-constraints-and-land-price-gradients/",
+      "title": "Zoning Constraints and Land Price Gradients",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/use-junction/usejunction",
+      "title": "Show HN: UseJunction – Find what your team's AI tools usage",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://linuxiac.com/klassik-revives-the-kde-3-desktop-on-modern-plasma-6/",
+      "title": "Klassik Revives the KDE 3 Desktop on Modern Plasma 6",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Empathy Mapping: The First Step in Design Thinking",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/the-index/200/",
+      "title": "The Index: Issue #200",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://trust.ilovetypography.com/font-tech-ai/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://saltercane.bandcamp.com/album/deep-black-water",
+      "title": "Deep Black Water, by Salter Cane",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://powertonerecords.bandcamp.com/album/sam-deans-good-times-end-times-apocalypse-bbq",
+      "title": "Sam & Dean's Good-Times End-Times Apocalypse BBQ, by Samuel Locke Ward & Dean Clean",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://davatron5000.github.io/microlighter/",
+      "title": "MicroLighter - A zero-dep syntax highlighter",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=P5llBhv8TQ4",
+      "title": "OpenAI Nerfed Your Tokens",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://hubs.li/Q04ydHVV0",
+      "title": "",
+      "reason": "no_title"
+    }
+  ],
+  "backfill": true
+}

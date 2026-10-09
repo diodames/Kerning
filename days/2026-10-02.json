@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-09T20:08:31.503341+00:00",
+  "items": [
+    {
+      "id": "f645ab769782",
+      "title": "Apple Pass Designer",
+      "url": "https://developer.apple.com/pass-designer/",
+      "hn": "https://news.ycombinator.com/item?id=49937276",
+      "points": 570,
+      "comments": 339,
+      "created_at_i": 1790968016,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.731,
+      "why": [
+        "570 points"
+      ]
+    },
+    {
+      "id": "402b4c50859a",
+      "title": "A pragmatic guide to modern CSS colours - part one",
+      "url": "https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one/?utm_source=the-index&utm_medium=newsletter",
+      "hn": "https://bsky.app/profile/paulmwatson.com/post/3mwv3fen2tc2g",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1790934096,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.519,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "piccalil.li"
+      ]
+    }
+  ],
+  "backfill": true
+}

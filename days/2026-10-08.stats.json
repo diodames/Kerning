@@ -1,0 +1,348 @@
+{
+  "date": "2026-10-08",
+  "pool": 76,
+  "kept": 4,
+  "dropped": {
+    "lexicon": 21,
+    "below_threshold": 40,
+    "patch": 3,
+    "no_title": 3
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.reddit.com/r/firefox/comments/1wzzk6l/mozilla_met_with_microsoft_to_discuss_their/",
+      "title": "Mozilla met with Microsoft to discuss their harmful design practices",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-designs-a-complete-risc-v-cpu-from-a-219-word-spec-in-just-12-hours",
+      "title": "AI agent designs a complete RISC-V CPU from a 219-word spec sheet in 12 hours",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50004434",
+      "title": "Ask HN: Learning practical system design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.lacma.org/art/exhibition/home-future-1925-1985-designing-domestic-utopias",
+      "title": "Home of the Future, 1925–1985: Designing Domestic Utopias – Lacma",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://portlandaiworks.com/articles/local-model-harness-for-mcp",
+      "title": "Designing a local model harness optimized for MCP use",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.amazon.com/dp/0201479605",
+      "title": "Inner Loops: A Sourcebook for Fast 32-Bit Software Design by Rick Booth (1997)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://type.lol/studies/where-type-comes-from",
+      "title": "Where are typefaces being designed?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/3829807.3829910",
+      "title": "Human-Like and Male? How AI Assistant Design Relates to Monetary Reward",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pingjobs.co/cv-builder",
+      "title": "Show HN: Free CV Templates designed by experts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://typeincube.com/",
+      "title": "Cube Type – Isometric Typography Generator",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=L3KoK0gqekY",
+      "title": "TypeSafe started the decision-model category;OpenAI and AWS did it in 3 weeks",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/mkly/jev-bisect",
+      "title": "Show HN: jev-bisect – Find answers with Jev via bisection search",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lockywolf.net/2025-04-15_fonts-guide-for-2025.d/index.html",
+      "title": "Notes on Using Fonts in Computers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.velocifyer.com/Posts/8,How%20to%20self-host%20a%20font%20from%20Google%20Fonts,%20the%20easy%20way,%20via%20NPM/",
+      "title": "How to self host a font from Google Fonts, the easy way, via NPM",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/DoctorEww/EvilFontTool",
+      "title": "Evil Font Tool",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://datapuddle.app/",
+      "title": "Show HN: Datapuddle – native macOS DuckDB client",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chronophase.vercel.app/",
+      "title": "Chronophase: A fantastic UX to experiment with music and sound",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://interactionmagic.com/UX-LEGO-Interfaces/",
+      "title": "The UX of Lego Interface Panels",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50004192",
+      "title": "Scam Warning",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://design.helpmarq.com",
+      "title": "Show HN: Launching NS UI easy to use components,AI slop should be a term of past",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.cloudflare.com/radar-redesign/",
+      "title": "Bridging technical depth and usability: The story behind Radar's redesign",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://abyss.scurry.io",
+      "title": "Show HN: Abyss – ACP Agent Isolation with Middleware Support",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://accessibility.github.com/documentation/guide/issues/",
+      "title": "Using GitHub Issues with a Screen Reader",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://stayleet.com/",
+      "title": "Show HN: StayLeet – keeping skills sharp in AI coding era",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49999930",
+      "title": "Ask HN: Is the Future of IDEs Bleak?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://upfling.host/",
+      "title": "Show HN: Upfling.host – Free static site hosting for HTML, CSS and JavaScript",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://nucleus.excom.dev/",
+      "title": "Show HN: Nucleus- web apps where document is the state, driven by CSS-like rules",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.techdirt.com/2026/10/07/new-york-declares-state-of-emergency-as-measles-cases-spread-fast/",
+      "title": "New York Declares State of Emergency as Measles Cases Spread Fast",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://bhuvanrj.me/portfolio/the-case-for-personal-software.html",
+      "title": "The Case for Personal Software",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wiyomi.com/",
+      "title": "Show HN: Coding Agent with Cost Saving Built-In",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7567438",
+      "title": "From Moore's Law to Eroom's Law: Power Constraints and the Productivity Slowdown",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://machines.tivra.com/human",
+      "title": "Can we prove LLMs are not conscious?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://reclaimthenet.org/quad9-considers-leaving-france-over-website-blocking-order",
+      "title": "Quad9 Considers Leaving France over Website Blocking Order",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://keyurramoliya.com/posts/Machine-Consciousness/",
+      "title": "The Science and Engineering of Machine Consciousness",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/C2Tech-sys/proxion",
+      "title": "Show HN: Proxion – an open source web console for Proxmox VE",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.regjeringen.no/no/aktuelt/vil-innfore-midlertidig-forbud-mot-ki-briller/id3175516/",
+      "title": "Norway govt considers banning Meta-glasses in selected places",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://wordminos.com/play-en.html",
+      "title": "Show HN: Wordminos – Crosswords Meet Dominos",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/insanai/sibuna",
+      "title": "Show HN: Sibuna an open source web application firewall with proof of work",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://onesvibe.app",
+      "title": "One's Vibe – discover AI-built products you can try",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Obedience-Corp/camp",
+      "title": "Show HN: Camp version controlled context workspaces",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/patrickclery/awesomer",
+      "title": "Show HN: Awesomer – trending GitHub repos, organized by awesome-list",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theregister.com/research/2026/10/07/browser-in-browser-attacks-use-fake-meta-muse-ad-lure-to-steal-credentials/5301505",
+      "title": "Browser-in-browser attacks use fake Meta Muse Ad lure to steal credentials",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://grabthat.ai/",
+      "title": "Show HN: Prepping for First Product Hunt Launch",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://kennyqin.com/please-let-me-contact-you-privately/",
+      "title": "Please Let Me Contact You Privately",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://zweiundeins.gmbh/en/blog/spa-vs-hypermedia-a-collaborative-kanban-board-measured-against-planka",
+      "title": "SPA vs. Hypermedia: A Collaborative Kanban Board Measured Against PLANKA",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sheets.works/data-viz/holding-up-the-internet",
+      "title": "The people holding up the internet",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/ai-incidents-by-design-d4708a3dda9e?source=rss----138adf9c44c---4",
+      "title": "AI: incidents by design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "title": "Agents don’t need memory. They need documentation.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://12axes.vercel.app/en",
+      "title": "12 axes",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://design.lightspark.com/money-as-a-file",
+      "title": "Money as a file",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://agentic.littleplains.com/",
+      "title": "Agentic systems are the future of brands",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/",
+      "title": "Chat is AI’s command line",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.6",
+      "title": "Spectrum (Adobe) — @react-spectrum/filetrigger@3.1.6",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fcodemods%401.2.8",
+      "title": "Spectrum (Adobe) — @react-spectrum/codemods@1.2.8",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40internationalized%2Fnumber%403.6.9",
+      "title": "Spectrum (Adobe) — @internationalized/number@3.6.9",
+      "reason": "patch"
+    },
+    {
+      "url": "https://interop-rank.fxdx.dev/",
+      "title": "Interop Feature Ranking",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dbushell.com/2026/08/20/ruminations-on-notifications/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Ruminations on notifications",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/fieldset",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.tmz.com/2026/10/08/pete-hegseth-public-execution-fort-hood-shooter-live-stream/",
+      "title": "Fort Hood Shooter's Firing Squad Execution Will Stream Live For Public Viewing",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://iamarino.com/what-age-doesnt-teach/",
+      "title": "Shakespeare, Seneca, and How to Age Well",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.propublica.org/article/mark-mcafee-raw-milk-recalls-maha?utm_campaign=propublica-sprout&utm_content=1791429300&utm_medium=social&utm_source=bluesky",
+      "title": "He Profits Off Raw Milk That’s Making People Sick. The Government Isn’t Stopping Him.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.amazon.co.uk/FORGOTTEN-VIKINGS-New-Approaches-Viking-ebook/dp/B0HH46KHLR/ref=sr_1_2?crid=1Y2EHUPXCD3J9&dib=eyJ2IjoiMSJ9.hZloPaKLBOaHRD1ubrbEIXt6nxHblHnTrx5BjAXP7j_GjHj071QN20LucGBJIEps._jSRdaWJRj6czXsbAAVtSQxnI_t8JHBprwS-BWOOJD8&dib_tag=se&keywords=forgotten+vikings&qid=1791446137&s=digital-text&sprefix=forgotten+viking%2Cdigital-text%2C168&sr=1-2",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://csslayout.news/a/3mxc6txvaw323-issue-346?bridge_completed=1",
+      "title": "Issue 346",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sarahmhigley.com/writing/interactive-lists/",
+      "title": "The web needs interactive lists | Sarah Higley",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.jim-nielsen.com/2026/talk-notes-modernization-treadmill/",
+      "title": "“Getting off the Modernization Treadmill”",
+      "reason": "lexicon"
+    },
+    {
+      "url": "http://clouds.sfruby.com",
+      "title": "Find your Ruby friends in the Clouds",
+      "reason": "lexicon"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-09T20:08:31.542073+00:00",
+  "items": [
+    {
+      "id": "e568be3bfb54",
+      "title": "shadcn/ui — @shadcn/registry@0.1.2",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.2",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.2",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791267465,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.376,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "dd31cf7999d3",
+      "title": "Blink:  Intent to Prototype: CSS Linked Parameters for External SVGs",
+      "url": "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/19c0b2a5-ce51-498a-83cf-2d1c7b45436fn%40chromium.org",
+      "hn": "https://bsky.app/profile/patrickbrosset.com/post/3mx7fhcxtw22z",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791288497,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 2.246,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "lea.verou.me"
+      ]
+    },
+    {
+      "id": "572a3a4039e6",
+      "title": "Using CSS scroll-triggered animations - CSS | MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animation_triggers/Using_scroll-triggered_animations",
+      "hn": "https://bsky.app/profile/bram.us/post/3mx74j7hjq22h",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791278896,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.514,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "piccalil.li"
+      ]
+    }
+  ],
+  "backfill": true
+}

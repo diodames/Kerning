@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-09T20:08:31.494887+00:00",
+  "items": [
+    {
+      "id": "8ca2633994ab",
+      "title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
+      "url": "https://twitter.com/GayaniFigma/status/2105295629941350454",
+      "hn": "https://news.ycombinator.com/item?id=49922729",
+      "points": 189,
+      "comments": 106,
+      "created_at_i": 1790867446,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.492,
+      "why": [
+        "189 points"
+      ]
+    },
+    {
+      "id": "c004d46f1456",
+      "title": "shadcn/ui — @shadcn/registry@0.1.0",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.0",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1790850650,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.472,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "386aed7ee363",
+      "title": "CSS Bed: Classless CSS themes to use as starting points in web development",
+      "url": "https://www.cssbed.com",
+      "hn": "https://news.ycombinator.com/item?id=49927212",
+      "points": 167,
+      "comments": 48,
+      "created_at_i": 1790889692,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.078,
+      "why": [
+        "167 points"
+      ]
+    },
+    {
+      "id": "ace020896205",
+      "title": "Generating Opportunity Solution Trees with AI: How Vistaly Rebuilt Its Product Around Interview Synthesis, Evals, and Repair Loops",
+      "url": "https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
+      "hn": "https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1790859645,
+      "sources": [
+        "Product Talk"
+      ],
+      "sharers": 0,
+      "score": 3.535,
+      "why": [
+        "editor's pick at Product Talk"
+      ]
+    }
+  ],
+  "backfill": true
+}

@@ -1,0 +1,254 @@
+{
+  "date": "2026-10-06",
+  "pool": 51,
+  "kept": 3,
+  "dropped": {
+    "lexicon": 26,
+    "below_threshold": 18,
+    "patch": 1,
+    "no_title": 3
+  },
+  "dropped_items": [
+    {
+      "url": "https://gwern.net/doc/design/2026-10-03-gwern-samon.html",
+      "title": "Samon: Designing a Zen Garden Raking Puzzle",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/dplanitzer/Serena",
+      "title": "Serena OS: Modern operating system design meets Amiga computers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xk3UcgbbmxQ",
+      "title": "Auteur Theory of Design [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/alexwkleung/reika",
+      "title": "Show HN: Reika – A coding agent CLI designed around small local models first",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.vals.ai/blogs/independent-evaluation-of-jev",
+      "title": "An Independent Evaluation of TypeSafe's Jev",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/coderexpert123/jev-browser-wingman",
+      "title": "Show HN: Hand your agent's browser clicks to TypeSafe's Jev via an MCP proxy",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tunefuse.app/",
+      "title": "Show HN: Ultrafast Apple Music macOS App",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/05/opinion/ada-lovelace-ai.html",
+      "title": "Ada Lovelace Answered the Big Questions About A.I",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/longsurf-ai/openchart",
+      "title": "Show HN: OpenChart – OSS TradingView alternative with your own AI agent",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://trytofu.ai",
+      "title": "Show HN: Tofu – let your agent deploy full-stack apps",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/allchemylabs/aether-wcag-scanner",
+      "title": "Show HN: Aether: Check and fix web accessibility issues from your coding agent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://alcubi.ai/delegator/",
+      "title": "Show HN: Delegator – Stop juggling coding-agent sessions",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/alexellis/rigmark",
+      "title": "Show HN: RigMark benchmarks local AI the way coding agents use it",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://cssv.dev/",
+      "title": "CSSV – Comma-Separated Styled Values",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://shub.club/writings/2026/october/adventures-in-filters/",
+      "title": "Adventures in CSS and SVG filters and browser performance",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://frutjam.com",
+      "title": "Show HN: Frutjam – Accessible UI components in pure CSS, no JavaScript",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.gss-lang.dev/",
+      "title": "Show HN: GSS – Write 3D scenes in CSS, compiled to a raymarching shader",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.windowslatest.com/2026/10/04/rising-cost-of-memory-microsoft-explains-why-windows-11-will-use-less-ram/",
+      "title": "\"Rising cost of memory,\" Microsoft explains why Windows 11 will use less RAM",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.sidekins.com",
+      "title": "Show HN: Sidekins – Your new social and work buddy",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.jim-nielsen.com/2026/app-icon-hoa/",
+      "title": "Apple's App Icon HOA",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reuters.com/business/energy/google-enters-massive-36-gw-power-deal-with-constellation-energy-2026-10-06/",
+      "title": "Google enters 3.6-GW power deal with Constellation Energy",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://promptowl.ai/resources/product-update-september-2026/",
+      "title": "PromptOwl's Context Management adds native rich media – PDF, Video and Images",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Liebmann5/AA",
+      "title": "Show HN: AA (a.k.a. AutoApply) – open-source job-hunt tool and research project",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mailaccess.pro",
+      "title": "Show HN: MailAccess – the true Email OSINT framework",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dbushell.com/2026/10/07/sustainable-web-career/",
+      "title": "A sustainable web career, for when all this blows over",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://smashingmagazine.com/2026/10/how-name-things/",
+      "title": "A Practical Guide To Naming Things",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.doc.cc/humankind/self-portrait",
+      "title": "Prompting as self-portrait",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.leadershipfolios.com/",
+      "title": "Leadership folios",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?sk=2ea73b57436da9bbef1d1f149f1218e2",
+      "title": "Is Meta’s new AI agent easier to trust because it’s cute?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lukew.com/ff/2165/many-agents-many-views",
+      "title": "Many agents, many views",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/interactive/2026/09/27/opinion/ai-art-creativity.html?unlocked_article_code=1.FlE.ew95.hRKwQHd_aTem",
+      "title": "In defense of the detour",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.producttalk.org/recorded-conversations-all-things-product/",
+      "title": "Recorded Conversations - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.3",
+      "title": "shadcn/ui — shadcn@4.21.3",
+      "reason": "patch"
+    },
+    {
+      "url": "https://adactio.com/notes/22791",
+      "title": "Tuesday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://thishueshallpass.clearleft.com",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://adactio.com/journal/22790",
+      "title": "Journal: Lake Of Souls by Ann Leckie A short story collection in three parts. 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.danvk.org/2026/09/10/mapsnap.html",
+      "title": "Introducing mapsnap: Automated Georeferencing for Historic Sanborn Insurance Maps",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dogdogfish.com/blog/2026/09/30/ai-collective-disaster/",
+      "title": "AI is a Collective Disaster",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.avclub.com/david-zaslav-goodbye-video-to-employees",
+      "title": "David Zaslav bids farewell to industry he helped destroy",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nyti.ms/47z3NMW",
+      "title": "Paramount Closes Its Deal for Warner Bros. Discovery",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ft.trib.al/n5V32VU",
+      "title": "Debt in the spotlight as Paramount closes $111bn deal for Warner Bros",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://derekhanson.blog/wordpress-agencies-spacefast/",
+      "title": "How WordPress agencies can use Spacefast: 11 practical uses",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/oct/06/trump-suggests-let-iran-take-out-los-angeles-san-diego",
+      "title": "Trump suggests he would let Iran ‘take out’ Los Angeles or San Diego",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/923",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://github.com/web-platform-tests/interop/issues/1346",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://samkapila.com/books/",
+      "title": "Inclusive Design Communities, the book » Sameera Kapila",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://projects.propublica.org/american-citizens-detained-dhs-civil-rights/",
+      "title": "More Than 500 U.S. Citizens Have Been Detained, Including Handcuffed or Held at Gunpoint, in Trump’s Immigration Crackdown — ProPublica",
+      "reason": "lexicon"
+    }
+  ],
+  "backfill": true
+}

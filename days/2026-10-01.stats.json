@@ -1,0 +1,225 @@
+{
+  "date": "2026-10-01",
+  "pool": 47,
+  "kept": 4,
+  "dropped": {
+    "lexicon": 17,
+    "below_threshold": 19,
+    "patch": 2,
+    "prerelease": 2,
+    "no_title": 2
+  },
+  "dropped_items": [
+    {
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sudo.music/",
+      "title": "Sudo – A dedicated music player designed around listening to music",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.reuters.com/business/energy/canada-fast-track-oil-pipeline-designed-diversify-economy-away-us-2026-10-01/",
+      "title": "Canada to fast track oil pipeline designed to diversify economy away from US",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/",
+      "title": "Google figures out how to watermark AI-designed proteins",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fieldwork.software/eval/icon-design",
+      "title": "Fieldwork Icon Design Benchmark",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/huemorgan2/say-hi",
+      "title": "Can typesafe.ai Jev model talk? – they said no",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/jeremyipark/vision-demos/tree/main/deadlift",
+      "title": "Show HN: I made a computer vision tool for evaluating deadlift form",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://emnlmn.github.io/snap/",
+      "title": "Show HN: Snap – local first decision engine open weight",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tegaki.ink/",
+      "title": "Show HN: Tegaki – Handwriting animation for any font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.yedric.ai",
+      "title": "Show HN: Add a natural-language interface to your SaaS w/ Yedric",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://seven.systems/xequence2/demo/demo-deploy/www/index.html",
+      "title": "Show HN: DAW with Modular Synth, running in a browser using stock WebAudio nodes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49922231",
+      "title": "Ask HN: Which \"AI\" provider would you choose?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://statecraftapp.com/field-notes/first-class-on-a-ryanair-budget",
+      "title": "First-class design systems on a Ryanair budget",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://medium.com/quantumblack/what-changes-when-your-design-system-can-talk-to-an-ai-0a856b3c40d9",
+      "title": "Agentic Front End Refactoring with QBDS, Claude Code, & Figma MCP",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/dmitry-markin/silta",
+      "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wired.com/story/justice-for-css/",
+      "title": "Justice for CSS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/graphene-data/graphene",
+      "title": "Show HN: Graphene – Data analysis toolkit for your coding agent",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.gitbutler.com/git-3-sha-256",
+      "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://neutrino.website/about/",
+      "title": "Making a shape-shifting web design engine that never breaks",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://usekeel.io/how-it-works",
+      "title": "Show HN: Keel – Give your agent a typed strategy language, not a trading account",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://frn.sh/pagetables/",
+      "title": "Page Table Memory Consumption",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.getprivisy.com/blog/sb-690-cipa-what-changed",
+      "title": "Using a chat widget in California is considered wiretapping (still)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://gmays.com/blind-constraints-not-blind-spots/",
+      "title": "Blind constraints, not blind spots",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://shun126.github.io/Mana/playground/",
+      "title": "Show HN: Mana – an actor-oriented scripting language for games",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.chetu.com/retail/product-information-management.php",
+      "title": "Product Information Management: Centralizing Product Data Across Retail Systems",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://openhand.health",
+      "title": "Show HN: We built a real-time desktop companion for patient's telehealth visits",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49922569",
+      "title": "Ask HN: Who is hiring? (October 2026)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://swesweep.com/",
+      "title": "Show HN: Benchmark: AI doesn't find bugs unless you tell it what's wrong",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49922568",
+      "title": "Ask HN: Who wants to be hired? (October 2026)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://innerloop.works/breadcrumb",
+      "title": "Show HN: Breadcrumb, record everything on your mac + context manager for AI",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://molily.de/web-dev-education/",
+      "title": "The death of web development education",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://lobste.rs/s/fujfew",
+      "title": "django-modern-rest@0.16.0 release",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.oliverdunk.com/2026/09/30/iana-reply",
+      "title": "IANA's email about why example.com changed",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.40.1",
+      "title": "Primer (GitHub) — @primer/react@38.40.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.3",
+      "title": "Carbon (IBM) — v12.0.0-alpha.3",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.2",
+      "title": "Carbon (IBM) — v12.0.0-alpha.2",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.1",
+      "title": "shadcn/ui — shadcn@4.21.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://webdevconf.com",
+      "title": "WDC2026 - October 9 2026, Watershed, Bristol, UK | Web Developers Conference",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22785",
+      "title": "Thursday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://inclusivedesign24.org/2026/schedule/",
+      "title": "Inclusive Design 24 (#id24)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/inclusivedesign24",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://leaflet.pub/new-canvas",
+      "title": "",
+      "reason": "no_title"
+    }
+  ],
+  "backfill": true
+}

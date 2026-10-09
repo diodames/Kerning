@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-03",
+  "pool": 16,
+  "kept": 1,
+  "dropped": {
+    "below_threshold": 7,
+    "lexicon": 8
+  },
+  "dropped_items": [
+    {
+      "url": "https://mastodon.social/@tonofcrates/117241380083291749",
+      "title": "A Design Space Exploration of Async/Await",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.temeculadsp.com/nibbi/play",
+      "title": "Show HN: I made a browser-based instrument out of the CHOMPI CLUB source",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://television.run/",
+      "title": "Show HN: Television – an open source GUI for your agent harness",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://thoreaubasic.com/",
+      "title": "Show HN: Thoreau BASIC – What if BASIC hadn't gone out of fashion?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://fireborn.mataroa.blog/blog/google-still-cant-make-an-accessibility-menu-accessible/",
+      "title": "Google Still Can't Make an Accessibility Menu Accessible",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jzleetcode.github.io/posts/design-how-ssds-work-internally/",
+      "title": "System Design – How SSDs Work Internally",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://techrights.org/n/2026/10/03/In_Case_Anybody_Still_Believes_Microsoft_Lunduke_Cares_About_GN.shtml",
+      "title": "In Case Anybody Still Believes Microsoft Lunduke Cares About GNU/Linux",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/",
+      "title": "Anthropic tried to persuade Pope that AI could be conscious being",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://tryrevline.com/",
+      "title": "Show HN: Revline – an AI web app that researches TikTok and Instagram for you",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "title": "Why don’t more developers \"use the platform\"?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://letterboxd.com/zeldman/film/flesh-for-frankenstein/",
+      "title": "A ★★★½ review of Flesh for Frankenstein (1973)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bit.ly/4y3AFIC",
+      "title": "Paulina Porizkova, 61, Announces Marriage to Partner of 3 Years in a Tiny Red String Bikini",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://webdesignerdepot.com/traditional-web-development-is-dead-and-honestly-good-riddance/",
+      "title": "Traditional Web Development is Dead...(and Honestly? Good Riddance.)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nerdy.dev/front-end-fast-money-with-kevin-powell",
+      "title": "Front End Fast Money With Kevin Powell · October 1, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from",
+      "title": "🧠 Community Wisdom: Getting value from personal AI agents without handing over your inbox, the ego threat of going from IC to manager, uncommon perks to negotiate for, and more",
+      "reason": "lexicon"
+    }
+  ],
+  "backfill": true
+}

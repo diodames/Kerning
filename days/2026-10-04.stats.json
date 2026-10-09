@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-04",
+  "pool": 33,
+  "kept": 4,
+  "dropped": {
+    "lexicon": 10,
+    "below_threshold": 15,
+    "no_title": 4
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.gadgetreview.com/apples-clean-design-is-stupidity-when-it-comes-to-hiding-fire-extinguishers",
+      "title": "Apple's \"Clean Design\" Is Stupidity When It Comes to Hiding Fire Extinguishers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://vedgupta.in/blog/system-design-in-depth/",
+      "title": "system design, in depth. read it, watch it, run it, build it",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://orbeez-kit.vercel.app/chat",
+      "title": "Show HN: Colorful Design System for Agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/startup-typesafe-ais-jev-model-sparks-copycats-talk-of-llm-alternatives-e39ff57d",
+      "title": "Startup TypeSafe AI's Jev Model Sparks Copycats, Talk of LLM Alternatives",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
+      "title": "Show HN: Build with Python – a beginner course where your code draws",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://mistis.tech",
+      "title": "Show HN: Mistis – a decoupled, E2EE protocol for mid-call user authentication",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.pkh.me/p/49-float-and-integer-arithmetic-follow-two-different-paradigms.html",
+      "title": "Float and integer arithmetic follow two different paradigms",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
+      "title": "Design Systems for AI Agents (Luke Wroblewski)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://harut8.github.io/system-design/python-mastery/24-the-gil/",
+      "title": "The GIL: from the cache line to the eval loop",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://livenson.github.io/ficmap/?world=game-of-thrones",
+      "title": "Ficmap: an interactive 3D atlas for Westeros and other fictional worlds",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://kenforthewin.github.io/blog/posts/llm-nethack-ascension/",
+      "title": "An LLM Beat NetHack",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://andreasmoller.dk/blog/why-we-still-argue-over-css",
+      "title": "Why we still argue over CSS in 2026",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.jeremyreimer.com/rockets-item.lsp?f=true&p=272",
+      "title": "The cost of lies: A Mineserver story",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://jacobg.co/emails-at-jacobg-co/",
+      "title": "All I wanted was a custom domain email",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.timeful.io/",
+      "title": "Timeful: Design web apps visually, sync with code instantly",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/maplibre/maplibre-compose",
+      "title": "Show HN: MapLibre Compose, Interactive Vector Maps for Compose Multiplatform",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://astrohelm.app/",
+      "title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.reddit.com/r/origami/comments/xymrdr/why_are_paper_cranes_so_iconic/",
+      "title": "Why are paper cranes so iconic? (2022)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Niko1221/Strata",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/Lionel-Lim/tax-map",
+      "title": "Show HN: Tax Map – Explore property tax scenarios across England",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.ryadh.net/writing/the-engineering-minded-product-manager/",
+      "title": "The Engineering-Minded PM",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49953734",
+      "title": "Ask HN: If you're struggling with p(doom), how are you handling it?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22786",
+      "title": "Sunday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://developer-signals.dev/?browser=chrome&sort=votes_desc&view=list",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://developer-signals.dev/?browser=edge&sort=votes_desc&view=list",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://developer-signals.dev/?browser=firefox&sort=votes_desc&view=list",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://developer-signals.dev/?browser=safari&sort=votes_desc&view=list",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.proofofconcept.pub/p/how-i-work",
+      "title": "How I work",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+      "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
+      "reason": "lexicon"
+    }
+  ],
+  "backfill": true
+}

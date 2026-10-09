@@ -1,0 +1,533 @@
+{
+  "updated_at": "2026-10-09T20:08:31.561295+00:00",
+  "days": {
+    "2026-10-01": {
+      "items": [
+        {
+          "id": "8ca2633994ab",
+          "title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
+          "url": "https://twitter.com/GayaniFigma/status/2105295629941350454",
+          "hn": "https://news.ycombinator.com/item?id=49922729",
+          "points": 189,
+          "comments": 106,
+          "created_at_i": 1790867446,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.492,
+          "why": [
+            "189 points"
+          ]
+        },
+        {
+          "id": "c004d46f1456",
+          "title": "shadcn/ui — @shadcn/registry@0.1.0",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.0",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1790850650,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.472,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "386aed7ee363",
+          "title": "CSS Bed: Classless CSS themes to use as starting points in web development",
+          "url": "https://www.cssbed.com",
+          "hn": "https://news.ycombinator.com/item?id=49927212",
+          "points": 167,
+          "comments": 48,
+          "created_at_i": 1790889692,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.078,
+          "why": [
+            "167 points"
+          ]
+        },
+        {
+          "id": "ace020896205",
+          "title": "Generating Opportunity Solution Trees with AI: How Vistaly Rebuilt Its Product Around Interview Synthesis, Evals, and Repair Loops",
+          "url": "https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
+          "hn": "https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1790859645,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 3.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        }
+      ],
+      "pool": 47,
+      "kept": 4,
+      "dropped": {
+        "lexicon": 17,
+        "below_threshold": 19,
+        "patch": 2,
+        "prerelease": 2,
+        "no_title": 2
+      },
+      "backfill": true
+    },
+    "2026-10-02": {
+      "items": [
+        {
+          "id": "f645ab769782",
+          "title": "Apple Pass Designer",
+          "url": "https://developer.apple.com/pass-designer/",
+          "hn": "https://news.ycombinator.com/item?id=49937276",
+          "points": 570,
+          "comments": 339,
+          "created_at_i": 1790968016,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.731,
+          "why": [
+            "570 points"
+          ]
+        },
+        {
+          "id": "402b4c50859a",
+          "title": "A pragmatic guide to modern CSS colours - part one",
+          "url": "https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/paulmwatson.com/post/3mwv3fen2tc2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1790934096,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.519,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        }
+      ],
+      "pool": 36,
+      "kept": 2,
+      "dropped": {
+        "below_threshold": 17,
+        "lexicon": 15,
+        "no_title": 2
+      },
+      "backfill": true
+    },
+    "2026-10-03": {
+      "items": [
+        {
+          "id": "67672f91be0e",
+          "title": "CSS trick: transition `field-sizing: content` on a textarea nerdy.dev/transitionin...",
+          "url": "https://nerdy.dev/transitioning-field-sizing-content-with-css",
+          "hn": "https://bsky.app/profile/nerdy.dev/post/3mwwmhv34lc2p",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1790986794,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.324,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "nerdy.dev"
+          ]
+        }
+      ],
+      "pool": 16,
+      "kept": 1,
+      "dropped": {
+        "below_threshold": 7,
+        "lexicon": 8
+      },
+      "backfill": true
+    },
+    "2026-10-04": {
+      "items": [
+        {
+          "id": "651aa80e0d5f",
+          "title": "Improving site performance by shipping more CSS",
+          "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+          "hn": "https://bsky.app/profile/infrequently.org/post/3mx4jz7sqlsfv",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791071101,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 5,
+          "score": 7.629,
+          "why": [
+            "shared by 5 design accounts"
+          ],
+          "authors": [
+            "csswizardry.com",
+            "ericwbailey.website",
+            "lea.verou.me",
+            "piccalil.li",
+            "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "987ec089fad8",
+          "title": "Pico CSS is no longer maintained (final release v2.1.1)",
+          "url": "https://news.ycombinator.com/item?id=49950772",
+          "hn": "https://news.ycombinator.com/item?id=49950772",
+          "points": 8,
+          "comments": 7,
+          "created_at_i": 1791089794,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.973,
+          "why": []
+        },
+        {
+          "id": "d7b3438d97f3",
+          "title": "GitHub.com has fully moved off CSS-in-JS to CSS Modules, resulting in 55% less server-side render time and 25% faster component init.",
+          "url": "https://github.com",
+          "hn": "https://bsky.app/profile/github.com/post/3mwz2yganio2t",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791071101,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.313,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "lea.verou.me"
+          ]
+        },
+        {
+          "id": "531d617577e1",
+          "title": "PostCSS Mixins And PostCSS Custom Functions | CSS Tools",
+          "url": "https://preset-env.cssdb.org/blog/postcss-mixins-and-custom-functions/",
+          "hn": "https://bsky.app/profile/lea.verou.me/post/3mwywghoag22t",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791066203,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.289,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "lea.verou.me"
+          ]
+        }
+      ],
+      "pool": 33,
+      "kept": 4,
+      "dropped": {
+        "lexicon": 10,
+        "below_threshold": 15,
+        "no_title": 4
+      },
+      "backfill": true
+    },
+    "2026-10-05": {
+      "items": [
+        {
+          "id": "9dba5aa935dd",
+          "title": "A font recreated from photographs of classic Commodore 64 keycaps",
+          "url": "https://github.com/szabadkai/c64-keyboard-font/",
+          "hn": "https://news.ycombinator.com/item?id=49990224",
+          "points": 406,
+          "comments": 66,
+          "created_at_i": 1791234351,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.649,
+          "why": [
+            "406 points"
+          ]
+        },
+        {
+          "id": "cd4614a74b17",
+          "title": "shadcn/ui — @shadcn/registry@0.1.1",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.1",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791211099,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.578,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        }
+      ],
+      "pool": 50,
+      "kept": 2,
+      "dropped": {
+        "below_threshold": 24,
+        "lexicon": 19,
+        "prerelease": 1,
+        "patch": 1,
+        "no_title": 3
+      },
+      "backfill": true
+    },
+    "2026-10-06": {
+      "items": [
+        {
+          "id": "e568be3bfb54",
+          "title": "shadcn/ui — @shadcn/registry@0.1.2",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.2",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.2",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791267465,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.376,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "dd31cf7999d3",
+          "title": "Blink:  Intent to Prototype: CSS Linked Parameters for External SVGs",
+          "url": "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/19c0b2a5-ce51-498a-83cf-2d1c7b45436fn%40chromium.org",
+          "hn": "https://bsky.app/profile/patrickbrosset.com/post/3mx7fhcxtw22z",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791288497,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.246,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "lea.verou.me"
+          ]
+        },
+        {
+          "id": "572a3a4039e6",
+          "title": "Using CSS scroll-triggered animations - CSS | MDN",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animation_triggers/Using_scroll-triggered_animations",
+          "hn": "https://bsky.app/profile/bram.us/post/3mx74j7hjq22h",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791278896,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.514,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        }
+      ],
+      "pool": 51,
+      "kept": 3,
+      "dropped": {
+        "lexicon": 26,
+        "below_threshold": 18,
+        "patch": 1,
+        "no_title": 3
+      },
+      "backfill": true
+    },
+    "2026-10-07": {
+      "items": [
+        {
+          "id": "eaee6e6e800d",
+          "title": "Carbon (IBM) — v11.118.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.118.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.118.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791387284,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.604,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "04f819a38428",
+          "title": "shadcn/ui — @shadcn/registry@0.1.3",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.3",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.3",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791371488,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.489,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "610aa2a31bc5",
+          "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
+          "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791329743,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.244,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "db1e5d8d0395",
+          "title": "On being anything other than a designer",
+          "url": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
+          "hn": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791346021,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.997,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        }
+      ],
+      "pool": 62,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 25,
+        "lexicon": 28,
+        "patch": 1,
+        "no_title": 3
+      },
+      "backfill": true
+    },
+    "2026-10-08": {
+      "items": [
+        {
+          "id": "1c739cc70794",
+          "title": "Spectrum (Adobe) — @react-types/shared@3.37.0",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-types%2Fshared%403.37.0",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-types%2Fshared%403.37.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791411908,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.223,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "1bddf190c408",
+          "title": "Spectrum (Adobe) — react-stately@3.51.0",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/react-stately%403.51.0",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/react-stately%403.51.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791411908,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.223,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "00abf479cd9d",
+          "title": "Paper Mono Typeface",
+          "url": "https://paper.design/mono",
+          "hn": "https://news.ycombinator.com/item?id=50001532",
+          "points": 8,
+          "comments": 6,
+          "created_at_i": 1791429224,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.505,
+          "why": []
+        },
+        {
+          "id": "a9e1b223ddb8",
+          "title": "Show HN: SVG Spark – 10 client-side SVG design and dev tools",
+          "url": "https://svg-spark.vercel.app/",
+          "hn": "https://news.ycombinator.com/item?id=50013931",
+          "points": 44,
+          "comments": 8,
+          "created_at_i": 1791453121,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.49,
+          "why": []
+        }
+      ],
+      "pool": 76,
+      "kept": 4,
+      "dropped": {
+        "lexicon": 21,
+        "below_threshold": 40,
+        "patch": 3,
+        "no_title": 3
+      }
+    }
+  }
+}

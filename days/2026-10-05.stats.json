@@ -1,0 +1,255 @@
+{
+  "date": "2026-10-05",
+  "pool": 50,
+  "kept": 2,
+  "dropped": {
+    "below_threshold": 24,
+    "lexicon": 19,
+    "prerelease": 1,
+    "patch": 1,
+    "no_title": 3
+  },
+  "dropped_items": [
+    {
+      "url": "https://chat.extrudeai.com/",
+      "title": "AI Parametric Part Design with FreeCAD on Browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.editui.app/",
+      "title": "Show HN: EditUI – Cursor/Claude Design-style UI editing directly in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://practicaltypography.com",
+      "title": "Butterick's Practical Typography (2013)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vercel.com/i/jev-vs-perplexity",
+      "title": "TypeSafe AI's Jev vs. Perplexity's Decisions API",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jurl.dev/",
+      "title": "Show HN: Jurl – curl that reads the page for you",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/nicoverbruggen/libron",
+      "title": "Libron E-Reader Font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/hush-a-beautiful-reader-m/ccpcpcolgkpbcljphckfcfigfbdjknpb",
+      "title": "Show HN: Reader Mode for Chrome",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ostra.fm/learn",
+      "title": "Show HN: Learn to program a modular synthesizer in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/halo-personal-ai/id6783715054",
+      "title": "Show HN: Halo – A Personal AI with On-Device Harness, Memory and Browser Agent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/04/8056442/",
+      "title": "Zelenskyy says Ukraine is developing satellite system similar to Starlink",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/imshaikot/browsentic",
+      "title": "Show HN: Browsentic Open-source Claude for Chrome alternative for any agent CLI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vitadesignsystem.com/",
+      "title": "First Agentic AI Design System to Bootstrap Products",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
+      "title": "A Design System in and for the Agentic Era",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/vigmarcarlo/OntoPrune",
+      "title": "OntoPrune – Pruning 85% LLM context tokens and 6.7x TTFT on CPU",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://allthingssmitty.com/2026/10/05/css-does-your-tooltip-positioning-now/",
+      "title": "CSS does your tooltip positioning now",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.master.dev/transferring-sibling-count-to-a-parent-element/",
+      "title": "Counting Elements in CSS: Using Sibling-Count and Hacks",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://designobo.com/",
+      "title": "Show HN: Designobo – AI prototyping tool in 40kb of js",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/world/2026/oct/05/russia-lab-worker-possibly-dies-of-plague-siberia-quarantine-measures-irkutsk",
+      "title": "US closely monitoring case of lab worker who possibly died of plague in Siberia",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.livescience.com/health/cancer/1-in-8-cancer-cases-are-caused-by-infections-underscoring-the-importance-of-vaccines-experts-say",
+      "title": "1 in 8 cancer cases are caused by infections",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.joekarlsson.com/blog/homelab-two-years-later/",
+      "title": "My Homelab Two Years Later, Every Upgrade and What It Cost",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://crazy.eyad.com/",
+      "title": "Show HN: I recreated \"Crazy Ones\" ad as an animated web tribute to Steve Jobs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://soundscaper.org",
+      "title": "Show HN: Soundscaper – Audacity 4-like audio editor in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/dimonomid/montray/",
+      "title": "Montray: A tray icon and desktop alerts for systemd services",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.runeicons.com",
+      "title": "Rune Icons",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.science.org/content/article/how-did-rosalind-franklin-miss-helix-her-iconic-dna-image-she-didn-t",
+      "title": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
+      "title": "Questions for believers in AI consciousness",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/05/science/consciousness-brain-babies.html",
+      "title": "Are Babies Conscious?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.a16z.news/p/top-100-consumer-ai-apps-seventh",
+      "title": "Top Consumer AI Apps",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49960159",
+      "title": "Topscan.me – a new security platform with a new approach to scanning",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.research.autodesk.com/blog/constrain-agent-not-user/",
+      "title": "Constrain the Agent, Not the User",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://daytab.com/",
+      "title": "Show HN: daytab – 1.4M human studies aggregated for interventions and outcomes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tangled.org/poacher.dev/spoonful",
+      "title": "spoonful: static site generator written in Nix",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.118.0-rc.0",
+      "title": "Carbon (IBM) — v11.118.0-rc.0",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.2",
+      "title": "shadcn/ui — shadcn@4.21.2",
+      "reason": "patch"
+    },
+    {
+      "url": "https://adactio.com/links",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://youtu.be/17AHdNvrk5o?si=NTgpM8cUUk_BWvLz",
+      "title": "ORIGINAL 1960's \"Chiller Theatre\" Opening HD - NY WPIX 11",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://scim.ag/4rTKck8",
+      "title": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn’t",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.halstonmedia.com/katonah-lewisboro-times/stories/lewisboro-library-new-director-carrie-bickner,97824",
+      "title": "Lewisboro Library names new director - The Katonah-Lewisboro Times",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.pootlepress.com/2026/10/why-this-terrible-song-is-so-inspiring/",
+      "title": "Why this terrible song is so inspiring | Pootlepress",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/05/opinion/mental-health-diagnosis-labels.html?unlocked_article_code=1.GVE.ABxH.cYSHgKqCUCA0&smid=url-share",
+      "title": "https://www.nytimes.com/2026/10/05/opinion/mental-health-diagnosis-labels.html?unlocked_article_code=1.GVE.ABxH.cYSHgKqCUCA0&smid=url-share",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/PTV0-7L6soc",
+      "title": "I've had this idea in my head for SO MANY years. It's so cool to finally see it. Turtles all the way down. www.youtube.com/shorts/PTV0-...",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/03/world/australia/sperm-whales-sink-yacht-sailors-rescued.html?unlocked_article_code=1.GVE.t5xf.bnfaZ76WgpGP&smid=url-share",
+      "title": "Whale Batters a Yacht, Leaving Its Crew Stranded for 18 Hours (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://forms.gle/ZGqtYGj7V6q8LcuV9",
+      "title": "Interested in a Web Components conference? Let us know below!",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://lea.verou.me/specs/#revert-rule",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://webweekly.email",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.densediscovery.com/issues/409/",
+      "title": "DD409 / Leisure time, but make it useful",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-8-real-jev-use-cases-how",
+      "title": "🎙️ How I AI: 8 real Jev use cases + How OpenAI uses ChatGPT Sites (live at DevDay!) + Claire’s DevDay recap",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live",
+      "title": "How OpenAI uses ChatGPT Sites (live at DevDay!) | Kath Korevec (Product Lead)",
+      "reason": "lexicon"
+    }
+  ],
+  "backfill": true
+}

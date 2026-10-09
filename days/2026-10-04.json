@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-04",
+  "generated_at": "2026-10-09T20:08:31.520457+00:00",
+  "items": [
+    {
+      "id": "651aa80e0d5f",
+      "title": "Improving site performance by shipping more CSS",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "hn": "https://bsky.app/profile/infrequently.org/post/3mx4jz7sqlsfv",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791071101,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 5,
+      "score": 7.629,
+      "why": [
+        "shared by 5 design accounts"
+      ],
+      "authors": [
+        "csswizardry.com",
+        "ericwbailey.website",
+        "lea.verou.me",
+        "piccalil.li",
+        "zeldman.bsky.social"
+      ]
+    },
+    {
+      "id": "987ec089fad8",
+      "title": "Pico CSS is no longer maintained (final release v2.1.1)",
+      "url": "https://news.ycombinator.com/item?id=49950772",
+      "hn": "https://news.ycombinator.com/item?id=49950772",
+      "points": 8,
+      "comments": 7,
+      "created_at_i": 1791089794,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 2.973,
+      "why": []
+    },
+    {
+      "id": "d7b3438d97f3",
+      "title": "GitHub.com has fully moved off CSS-in-JS to CSS Modules, resulting in 55% less server-side render time and 25% faster component init.",
+      "url": "https://github.com",
+      "hn": "https://bsky.app/profile/github.com/post/3mwz2yganio2t",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791071101,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.313,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "lea.verou.me"
+      ]
+    },
+    {
+      "id": "531d617577e1",
+      "title": "PostCSS Mixins And PostCSS Custom Functions | CSS Tools",
+      "url": "https://preset-env.cssdb.org/blog/postcss-mixins-and-custom-functions/",
+      "hn": "https://bsky.app/profile/lea.verou.me/post/3mwywghoag22t",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791066203,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.289,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "lea.verou.me"
+      ]
+    }
+  ],
+  "backfill": true
+}

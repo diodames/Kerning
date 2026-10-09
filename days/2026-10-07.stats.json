@@ -1,0 +1,299 @@
+{
+  "date": "2026-10-07",
+  "pool": 62,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 25,
+    "lexicon": 28,
+    "patch": 1,
+    "no_title": 3
+  },
+  "dropped_items": [
+    {
+      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+      "title": "Opus 5.5 is the first model whose design doesn't look like AI slop",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+      "title": "How to turn your AI into a world-class designer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://calmtech.com/papers/designing-calm-technology",
+      "title": "Designing Calm Technology",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://draganbabic.com/blog/design-is-a-nice-to-have/",
+      "title": "Design Is a Nice-to-Have",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/storytold/artcraft",
+      "title": "ArtCraft is an intentional crafting engine for artists, designers and filmmakers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/sayrud/sayrud",
+      "title": "Show HN: Sayrud – Yet Another Collaborative Spreadsheet",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://imgur.com/a/fAXxUcJ",
+      "title": "YouTube testing a new font: YouTube Marquee",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.velocifyer.com/Posts/3,How%20to%20self%20host%20a%20font%20from%20google%20fonts/",
+      "title": "How to self-host a web font from Google Fonts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49987478",
+      "title": "AI Usage Typology – Fisherman",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/fjosue4/trace-ux",
+      "title": "Show HN: TraceUX – Self-hosted session replay in one Go binary",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://medium.com/@Abby.Gruen/steve-wirts-a-pioneer-in-building-user-interfaces-for-kdb-q-e1c85eb707d6",
+      "title": "Steve Wirts: A Pioneer in building User Interfaces for kdb+/q",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ArcadeMakerSources/ArcadeMaker/tree/master/src/Exp",
+      "title": "Show HN: I improvised my own programming language from scratch",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://buzzcrow.github.io/blog/run-iceberg-in-one-container/",
+      "title": "Show HN: CrowDB – an iceberg table storage single Docker container",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://railcode.dev/",
+      "title": "Show HN: Railcode – Secure cloud for internal software",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://css.earth/",
+      "title": "Explore the universe in 3D CSS. JavaScript is optional. Launching css.earth 🌍 🚀 #WorldSpaceWeek",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/BuildABrowser/BuildABrowser",
+      "title": "Show HN: BuildABrowser – Rendering Engine with CSS Grid, Passes Acid2, in Java",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49988056",
+      "title": "Ask HN: Does AI do better with CSS or Tailwind?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "title": "Google Playground: Create and play custom games",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://worksinprogress.co/issue/a-cops-case-for-flock/",
+      "title": "A Cop's Case for Flock",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theregister.com/security/2026/10/06/trump-mobile-customers-data-dumped-and-some-never-even-received-their-gold-device/5301433",
+      "title": "Trump Mobile customers' data dumped – and some never even received their device",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.rte.ie/news/munster/2026/1007/1594475-strancally-castle-waterford/",
+      "title": "Zuckerberg bought Waterford castle for more than €51M",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://thousandcastles.com/",
+      "title": "Every castle on Earth – an independent catalogue and world ranking",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://energyicons.com/",
+      "title": "Energy Icons for the Energy Transition",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49993551",
+      "title": "Ask HN: Is this the beginning of the end of open source?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://medium.com/@eslam.elsewedy/synthetic-truth-how-marketing-power-and-ai-bend-reality-cd8a1173b968",
+      "title": "LLMs and Data Poisoning Are Weaponized to Manufacture Consensus",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://a16z.com/100-gen-ai-apps-7/",
+      "title": "The Top 100 Gen AI Consumer Apps — 7th Edition",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/07/christa-pike-lawyers-live-updates-tennessee-execution",
+      "title": "Christa Pike's lawyers hold press conference after she regains consciousness",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://variety.com/2026/gaming/news/skydance-games-experiences-products-leadership-1236903948/",
+      "title": "Skydance Sets Leadership Across Games, Experiences, Consumer Products and HR",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
+      "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://agent.reviews/",
+      "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.lol",
+      "title": "Show HN: Pointless but mostly-exact clone of Hacker News",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://puppet-master.xyz/",
+      "title": "Show HN: Puppet Master – Manage coding agents at scale",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ncsu.edu/2026/10/making-metal-alloys-with-eggshells/",
+      "title": "Researchers Use Eggshells to Make Stronger, Lighter Metal Alloys",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49990335",
+      "title": "Google Chrome's AI API actively used for device fingerprinting and profiling",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://thelibre.news/is-cosmic-de-mogging-kde-plasma/",
+      "title": "Is COSMIC DE mogging KDE Plasma?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://andersmurphy.com/2026/09/29/faster-streaming-html-with-batches-and-aggregates.html",
+      "title": "Faster streaming HTML with batches and aggregates",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/bounded-delegation-how-much-authority-should-ai-have-823a58fb4192?source=rss----138adf9c44c---4",
+      "title": "Bounded delegation: How much authority should AI have?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/beyond-streaks-and-nudges-ethical-gamification-ai-design-1c4f6e8ef2cc?source=rss----138adf9c44c---4",
+      "title": "Beyond streaks and nudges: ethical gamification & AI design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/why-designers-need-to-stop-reporting-and-start-recommending-at-work-6fa861f58097?source=rss----138adf9c44c---4",
+      "title": "Why designers need to stop reporting and start recommending at work",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://fglibs.com/",
+      "title": "F*cking good libraries",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.emergingpatterns.design/",
+      "title": "Emerging patterns: design leadership in 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://era-of-cmd-tab.vercel.app/",
+      "title": "The era of cmd+tab",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.4",
+      "title": "shadcn/ui — shadcn@4.21.4",
+      "reason": "patch"
+    },
+    {
+      "url": "https://bulleted.app/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Bulleted — an outliner for lists, notes, and plans",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22792",
+      "title": "Wednesday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://brm.us/page-transitions",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://page-transitions.style/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://paidforby.info",
+      "title": "Who paid for this?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.scientificamerican.com/article/scientists-unlock-the-longevity-secrets-of-194-year-old-jonathan-the-giant-tortoise/",
+      "title": "The oldest known land animal is 194. How did he get so ancient?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+      "title": "What’s the Future for Pure Math Research in the Age of AI?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://getartcraft.com/apps",
+      "title": "Crafting Apps: open-source creative tools",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/viliket/pure-web-bottom-sheet",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xYyMiDgWeY0",
+      "title": "OpenAI Nerfed Your Tokens",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.twitch.tv/wiltostreams",
+      "title": "WiltoStreams - Live on Twitch",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wil.to/posts/googles-prompt-api/",
+      "title": "Google’s Prompt API",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.rascal.news/the-workers-at-wizards-of-the-coast-are-teaming-up/",
+      "title": "The workers at Wizards of the Coast are teaming up",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/dont-bet-on-select-order-shuffle-your-rows-see-what-folds",
+      "title": "Don't bet on SELECT's order: shuffle your rows and see what folds—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    }
+  ],
+  "backfill": true
+}

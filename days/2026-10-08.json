@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-09T20:08:31.560523+00:00",
+  "items": [
+    {
+      "id": "1c739cc70794",
+      "title": "Spectrum (Adobe) — @react-types/shared@3.37.0",
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-types%2Fshared%403.37.0",
+      "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-types%2Fshared%403.37.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791411908,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.223,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "1bddf190c408",
+      "title": "Spectrum (Adobe) — react-stately@3.51.0",
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/react-stately%403.51.0",
+      "hn": "https://github.com/adobe/react-spectrum/releases/tag/react-stately%403.51.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791411908,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.223,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "00abf479cd9d",
+      "title": "Paper Mono Typeface",
+      "url": "https://paper.design/mono",
+      "hn": "https://news.ycombinator.com/item?id=50001532",
+      "points": 8,
+      "comments": 6,
+      "created_at_i": 1791429224,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.505,
+      "why": []
+    },
+    {
+      "id": "a9e1b223ddb8",
+      "title": "Show HN: SVG Spark – 10 client-side SVG design and dev tools",
+      "url": "https://svg-spark.vercel.app/",
+      "hn": "https://news.ycombinator.com/item?id=50013931",
+      "points": 44,
+      "comments": 8,
+      "created_at_i": 1791453121,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.49,
+      "why": []
+    }
+  ]
+}
