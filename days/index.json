@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T20:08:31.561295+00:00",
+  "updated_at": "2026-10-10T02:18:34.208503+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -527,6 +527,323 @@
         "below_threshold": 40,
         "patch": 3,
         "no_title": 3
+      }
+    },
+    "2026-10-09": {
+      "items": [
+        {
+          "id": "dd3d9f61bef8",
+          "title": "Spectrum (Adobe) — @react-spectrum/ai@0.5.1",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791577000,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.744,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "23e1a71d1a81",
+          "title": "AI-generated UI is fast design, not UX",
+          "url": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791501370,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.572,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "8cb5a7ed0686",
+          "title": "Spectrum (Adobe) — React Spectrum S2 1.8.0",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.0",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791515159,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.31,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "98ada552f7b2",
+          "title": "A design system is what it does",
+          "url": "https://matthenry.fyi/posts/a-system-is-what-it-does/",
+          "hn": "https://matthenry.fyi/posts/a-system-is-what-it-does/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791531077,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.736,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "dd3d9f61bef8",
+          "title": "Spectrum (Adobe) — @react-spectrum/ai@0.5.1",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791577000,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.744,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "23e1a71d1a81",
+          "title": "AI-generated UI is fast design, not UX",
+          "url": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791501370,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.572,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "8cb5a7ed0686",
+          "title": "Spectrum (Adobe) — React Spectrum S2 1.8.0",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.0",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791515159,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.31,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "5208b67d8e92",
+          "title": "Spectrum (Adobe) — React Aria Components v1.22.0",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/react-aria-components%401.22.0",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/react-aria-components%401.22.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791515253,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.31,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "28a463b32cd3",
+          "title": "Spectrum (Adobe) — @react-spectrum/ai@0.5.0",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.0",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791411908,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 3.92,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "61ef74abcd0c",
+          "title": "Spectrum (Adobe) — react-aria@3.53.0",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/react-aria%403.53.0",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/react-aria%403.53.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791411908,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 3.92,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "a715f1b93e1e",
+          "title": "Spectrum (Adobe) — @react-aria/optimize-locales-plugin@2.1.0",
+          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-aria%2Foptimize-locales-plugin%402.1.0",
+          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-aria%2Foptimize-locales-plugin%402.1.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791411908,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 3.92,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "98ada552f7b2",
+          "title": "A design system is what it does",
+          "url": "https://matthenry.fyi/posts/a-system-is-what-it-does/",
+          "hn": "https://matthenry.fyi/posts/a-system-is-what-it-does/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791531077,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.736,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "a017a7e6b7d1",
+          "title": "Are synthetic users (really) the future of UX research?",
+          "url": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791501402,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.238,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "66d9bdbc4e0c",
+          "title": "Standards In Progress: Making Video Posters Accessible, Responsive, and an Element | Scott Jehl, Web Designer/Developer",
+          "url": "https://scottjehl.com/posts/responsive-accessible-poster/",
+          "hn": "https://bsky.app/profile/scottjehl.com/post/3mxemq2wd7223",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791468105,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.827,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "59ceed286c0d",
+          "title": "Here's Issue 346 of CSS Layout News!",
+          "url": "https://csslayout.news/a/3mxc6txvaw323-issue-346",
+          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mxdzhauqpj25",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791447405,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.754,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "rachelandrew.co.uk"
+          ]
+        },
+        {
+          "id": "109ee9eaab5f",
+          "title": "SpotCheck: an Accessibility Bookmarklet Toolkit",
+          "url": "https://www.spotcheck.tools/?mc_cid=d93b79b2b1&mc_eid=abc73093e4",
+          "hn": "https://bsky.app/profile/meryl.bsky.social/post/3mwt6qbng6i2k",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1790868963,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.005,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "a9b678af0fd6",
+          "title": "The Future of CSS: Target Multiple Classes with the Class Prefix Selector",
+          "url": "https://www.bram.us/2026/08/20/the-future-of-css-target-multiple-classes-with-the-class-prefix-selector/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mxc7k25s6l2a",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791385222,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 0.927,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        }
+      ],
+      "pool": 433,
+      "kept": 4,
+      "dropped": {
+        "already_closed": 24,
+        "lexicon": 164,
+        "below_threshold": 193,
+        "patch": 14,
+        "prerelease": 3,
+        "no_title": 22
       }
     }
   }

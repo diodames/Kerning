@@ -1,0 +1,2115 @@
+{
+  "date": "2026-10-09",
+  "pool": 433,
+  "kept": 4,
+  "dropped": {
+    "already_closed": 24,
+    "lexicon": 164,
+    "below_threshold": 193,
+    "patch": 14,
+    "prerelease": 3,
+    "no_title": 22
+  },
+  "dropped_items": [
+    {
+      "url": "https://developer.apple.com/pass-designer/",
+      "title": "Apple Pass Designer",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
+      "title": "GPT-Synopsys: Frontier Intelligence to Revolutionize Chip Design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.gadgetreview.com/apples-clean-design-is-stupidity-when-it-comes-to-hiding-fire-extinguishers",
+      "title": "Apple's \"Clean Design\" Is Stupidity When It Comes to Hiding Fire Extinguishers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://gwern.net/doc/design/2026-10-03-gwern-samon.html",
+      "title": "Samon: Designing a Zen Garden Raking Puzzle",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://opentelemetry.io/blog/2026/otel-native-by-design/",
+      "title": "OTel-Native by Design – Building Products That Export to Any Observability Stack",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sudo.music/",
+      "title": "Sudo – A dedicated music player designed around listening to music",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://svg-spark.vercel.app/",
+      "title": "Show HN: SVG Spark – 10 client-side SVG design and dev tools",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://www.reddit.com/r/firefox/comments/1wzzk6l/mozilla_met_with_microsoft_to_discuss_their/",
+      "title": "Mozilla met with Microsoft to discuss their harmful design practices",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.reuters.com/business/energy/canada-fast-track-oil-pipeline-designed-diversify-economy-away-us-2026-10-01/",
+      "title": "Canada to fast track oil pipeline designed to diversify economy away from US",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-designs-a-complete-risc-v-cpu-from-a-219-word-spec-in-just-12-hours",
+      "title": "AI agent designs a complete RISC-V CPU from a 219-word spec sheet in 12 hours",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50004434",
+      "title": "Ask HN: Learning practical system design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+      "title": "Opus 5.5 is the first model whose design doesn't look like AI slop",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chat.extrudeai.com/",
+      "title": "AI Parametric Part Design with FreeCAD on Browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ultimatedotcom.com/",
+      "title": "A website designed to outlive its web host",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/",
+      "title": "Google figures out how to watermark AI-designed proteins",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vedgupta.in/blog/system-design-in-depth/",
+      "title": "system design, in depth. read it, watch it, run it, build it",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/dplanitzer/Serena",
+      "title": "Serena OS: Modern operating system design meets Amiga computers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mastodon.social/@tonofcrates/117241380083291749",
+      "title": "A Design Space Exploration of Async/Await",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis/",
+      "title": "Can good design stop content creators from having sex in robotaxis?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lexifina.com/blog/agent-guis",
+      "title": "Design for Agent GUIs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jgthms.com/web-design-in-4-minutes/",
+      "title": "Web Design in 4 Minutes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.lacma.org/art/exhibition/home-future-1925-1985-designing-domestic-utopias",
+      "title": "Home of the Future, 1925–1985: Designing Domestic Utopias – Lacma",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://portlandaiworks.com/articles/local-model-harness-for-mcp",
+      "title": "Designing a local model harness optimized for MCP use",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.amazon.com/dp/0201479605",
+      "title": "Inner Loops: A Sourcebook for Fast 32-Bit Software Design by Rick Booth (1997)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://type.lol/studies/where-type-comes-from",
+      "title": "Where are typefaces being designed?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+      "title": "How to turn your AI into a world-class designer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xk3UcgbbmxQ",
+      "title": "Auteur Theory of Design [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.editui.app/",
+      "title": "Show HN: EditUI – Cursor/Claude Design-style UI editing directly in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://orbeez-kit.vercel.app/chat",
+      "title": "Show HN: Colorful Design System for Agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://calmtech.com/papers/designing-calm-technology",
+      "title": "Designing Calm Technology",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/alexwkleung/reika",
+      "title": "Show HN: Reika – A coding agent CLI designed around small local models first",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://llmtobinary.com?hn",
+      "title": "Llmtobinary – a hypothetical chip \"design\", custom instruction set, might work",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fieldwork.software/eval/icon-design",
+      "title": "Fieldwork Icon Design Benchmark",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://design.google/library/noto-3d-emoji-design",
+      "title": "The unexpected design challenges of translating 2D emoji into open-source 3D",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/3829807.3829910",
+      "title": "Human-Like and Male? How AI Assistant Design Relates to Monetary Reward",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://draganbabic.com/blog/design-is-a-nice-to-have/",
+      "title": "Design Is a Nice-to-Have",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pingjobs.co/cv-builder",
+      "title": "Show HN: Free CV Templates designed by experts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/storytold/artcraft",
+      "title": "ArtCraft is an intentional crafting engine for artists, designers and filmmakers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://practicaltypography.com",
+      "title": "Butterick's Practical Typography (2013)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://typeincube.com/",
+      "title": "Cube Type – Isometric Typography Generator",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://inspenet.com/en/articles/muon-tomography-inspection-and-monitoring/",
+      "title": "Muon Tomography: Inspection and monitoring of assets without internal access",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://paper.design/mono",
+      "title": "Paper Mono Typeface",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://typesafe.ai/blog/series-ai",
+      "title": "Typesafe AI raises $870M at $7.5B",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=L3KoK0gqekY",
+      "title": "TypeSafe started the decision-model category;OpenAI and AWS did it in 3 weeks",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
+      "title": "Decision Index 0.2.1 – 70 open reproductions of TypeSafe Jev's \"Decision Model\"",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wsj.com/tech/ai/startup-typesafe-ais-jev-model-sparks-copycats-talk-of-llm-alternatives-e39ff57d",
+      "title": "Startup TypeSafe AI's Jev Model Sparks Copycats, Talk of LLM Alternatives",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.vals.ai/blogs/independent-evaluation-of-jev",
+      "title": "An Independent Evaluation of TypeSafe's Jev",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/coderexpert123/jev-browser-wingman",
+      "title": "Show HN: Hand your agent's browser clicks to TypeSafe's Jev via an MCP proxy",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vercel.com/i/jev-vs-perplexity",
+      "title": "TypeSafe AI's Jev vs. Perplexity's Decisions API",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/huemorgan2/say-hi",
+      "title": "Can typesafe.ai Jev model talk? – they said no",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/jeremyipark/vision-demos/tree/main/deadlift",
+      "title": "Show HN: I made a computer vision tool for evaluating deadlift form",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jurl.dev/",
+      "title": "Show HN: Jurl – curl that reads the page for you",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/mkly/jev-bisect",
+      "title": "Show HN: jev-bisect – Find answers with Jev via bisection search",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/sayrud/sayrud",
+      "title": "Show HN: Sayrud – Yet Another Collaborative Spreadsheet",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://emnlmn.github.io/snap/",
+      "title": "Show HN: Snap – local first decision engine open weight",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/szabadkai/c64-keyboard-font/",
+      "title": "A font recreated from photographs of classic Commodore 64 keycaps",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://imgur.com/a/fAXxUcJ",
+      "title": "YouTube testing a new font: YouTube Marquee",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tegaki.ink/",
+      "title": "Show HN: Tegaki – Handwriting animation for any font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.velocifyer.com/Posts/3,How%20to%20self%20host%20a%20font%20from%20google%20fonts/",
+      "title": "How to self-host a web font from Google Fonts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lockywolf.net/2025-04-15_fonts-guide-for-2025.d/index.html",
+      "title": "Notes on Using Fonts in Computers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.velocifyer.com/Posts/8,How%20to%20self-host%20a%20font%20from%20Google%20Fonts,%20the%20easy%20way,%20via%20NPM/",
+      "title": "How to self host a font from Google Fonts, the easy way, via NPM",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://matiasmobilia.substack.com/p/how-do-you-keep-500-years-of-heritage",
+      "title": "Michelangelus, the Story of the Font – Microsoft",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/DoctorEww/EvilFontTool",
+      "title": "Evil Font Tool",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/nicoverbruggen/libron",
+      "title": "Libron E-Reader Font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49928454",
+      "title": "Fortress(Tilion YC F26): A stealth Chromium so your agents stop getting blocked",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/hush-a-beautiful-reader-m/ccpcpcolgkpbcljphckfcfigfbdjknpb",
+      "title": "Show HN: Reader Mode for Chrome",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49934491",
+      "title": "Ask HN: Why do all LLM interfaces look the same?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://konstruukt.com/projects/qlcodepreview/",
+      "title": "Show HN: QLCodePreview, syntax highlighting in Finder's Quick Look",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.frontstageexit.com/p/robin-hanson-begs-you-to-please-use",
+      "title": "Robin Hanson begs you to please use your superpower",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://datapuddle.app/",
+      "title": "Show HN: Datapuddle – native macOS DuckDB client",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/",
+      "title": "The Two UX Gulfs: Evaluation and Execution – NN/G",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vuetech.sh/careers",
+      "title": "LF UX Designer – Bay Area Hybrid",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chronophase.vercel.app/",
+      "title": "Chronophase: A fantastic UX to experiment with music and sound",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://interactionmagic.com/UX-LEGO-Interfaces/",
+      "title": "The UX of Lego Interface Panels",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
+      "title": "Show HN: Build with Python – a beginner course where your code draws",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ostra.fm/learn",
+      "title": "Show HN: Learn to program a modular synthesizer in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/halo-personal-ai/id6783715054",
+      "title": "Show HN: Halo – A Personal AI with On-Device Harness, Memory and Browser Agent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50004192",
+      "title": "Scam Warning",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tunefuse.app/",
+      "title": "Show HN: Ultrafast Apple Music macOS App",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://design.helpmarq.com",
+      "title": "Show HN: Launching NS UI easy to use components,AI slop should be a term of past",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.temeculadsp.com/nibbi/play",
+      "title": "Show HN: I made a browser-based instrument out of the CHOMPI CLUB source",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://products.n0agi.com/ytd/",
+      "title": "Show HN: Ytd – an intuitive, free, simple YouTube downloader for Mac",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://composeunstyled.com/",
+      "title": "Show HN: Compose Unstyled – Unstyled Components for Jetpack Compose and CMP",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49987478",
+      "title": "AI Usage Typology – Fisherman",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mistis.tech",
+      "title": "Show HN: Mistis – a decoupled, E2EE protocol for mid-call user authentication",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/fjosue4/trace-ux",
+      "title": "Show HN: TraceUX – Self-hosted session replay in one Go binary",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/04/8056442/",
+      "title": "Zelenskyy says Ukraine is developing satellite system similar to Starlink",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/05/opinion/ada-lovelace-ai.html",
+      "title": "Ada Lovelace Answered the Big Questions About A.I",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.pkh.me/p/49-float-and-integer-arithmetic-follow-two-different-paradigms.html",
+      "title": "Float and integer arithmetic follow two different paradigms",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://medium.com/@Abby.Gruen/steve-wirts-a-pioneer-in-building-user-interfaces-for-kdb-q-e1c85eb707d6",
+      "title": "Steve Wirts: A Pioneer in building User Interfaces for kdb+/q",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.yedric.ai",
+      "title": "Show HN: Add a natural-language interface to your SaaS w/ Yedric",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://television.run/",
+      "title": "Show HN: Television – an open source GUI for your agent harness",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ArcadeMakerSources/ArcadeMaker/tree/master/src/Exp",
+      "title": "Show HN: I improvised my own programming language from scratch",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/longsurf-ai/openchart",
+      "title": "Show HN: OpenChart – OSS TradingView alternative with your own AI agent",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://buzzcrow.github.io/blog/run-iceberg-in-one-container/",
+      "title": "Show HN: CrowDB – an iceberg table storage single Docker container",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/grandimam/wy",
+      "title": "Show HN: Wy – a Rust terminal tool for understanding AI-generated code",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv/",
+      "title": "Show HN: Our space game has a built-in RISC-V emulator that runs Linux",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50017223",
+      "title": "Why the ways of interactions, social and devices, haven't changed yet",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/anteloc/ldraw-nova",
+      "title": "Show HN: Made an open-source Lego AI generator",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://thoreaubasic.com/",
+      "title": "Show HN: Thoreau BASIC – What if BASIC hadn't gone out of fashion?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://seven.systems/xequence2/demo/demo-deploy/www/index.html",
+      "title": "Show HN: DAW with Modular Synth, running in a browser using stock WebAudio nodes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49922231",
+      "title": "Ask HN: Which \"AI\" provider would you choose?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.cloudflare.com/radar-redesign/",
+      "title": "Bridging technical depth and usability: The story behind Radar's redesign",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+      "title": "We're putting too much faith in AI's ability to say no",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://trytofu.ai",
+      "title": "Show HN: Tofu – let your agent deploy full-stack apps",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://abyss.scurry.io",
+      "title": "Show HN: Abyss – ACP Agent Isolation with Middleware Support",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ericwbailey.website/published/github-repository-landing-pages-now-show-an-accessibility-tab-if-provided/",
+      "title": "GitHub repository landing pages now show an accessibility tab, if provided",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fireborn.mataroa.blog/blog/google-still-cant-make-an-accessibility-menu-accessible/",
+      "title": "Google Still Can't Make an Accessibility Menu Accessible",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
+      "title": "Guided Vision in Gemini Live: built for accessibility",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/allchemylabs/aether-wcag-scanner",
+      "title": "Show HN: Aether: Check and fix web accessibility issues from your coding agent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://cassidoo.co/post/accessibility-and-the-internet/",
+      "title": "Accessibility and the New Model of the Internet",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/imshaikot/browsentic",
+      "title": "Show HN: Browsentic Open-source Claude for Chrome alternative for any agent CLI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://accessibility.github.com/documentation/guide/issues/",
+      "title": "Using GitHub Issues with a Screen Reader",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jzleetcode.github.io/posts/design-how-ssds-work-internally/",
+      "title": "System Design – How SSDs Work Internally",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.lukew.com/ff/2164/design-systems-for-ai-agents",
+      "title": "Design Systems for AI Agents (Luke Wroblewski)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vitadesignsystem.com/",
+      "title": "First Agentic AI Design System to Bootstrap Products",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
+      "title": "A Design System in and for the Agentic Era",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cell.com/joule/fulltext/S2542-4351(26)00362-4?_returnURL=https://linkinghub.elsevier.com/retrieve/pii/S2542435126003624%3Fshowall%3Dtruee/pii/S2542435126003624%3Fshowall%3Dtrue",
+      "title": "Toward a future space-based, highly scalable AI infrastructure system design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://statecraftapp.com/field-notes/first-class-on-a-ryanair-budget",
+      "title": "First-class design systems on a Ryanair budget",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://stayleet.com/",
+      "title": "Show HN: StayLeet – keeping skills sharp in AI coding era",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://railcode.dev/",
+      "title": "Show HN: Railcode – Secure cloud for internal software",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://medium.com/quantumblack/what-changes-when-your-design-system-can-talk-to-an-ai-0a856b3c40d9",
+      "title": "Agentic Front End Refactoring with QBDS, Claude Code, & Figma MCP",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://harut8.github.io/system-design/python-mastery/24-the-gil/",
+      "title": "The GIL: from the cache line to the eval loop",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/PhreshOS/system",
+      "title": "Show HN: PhreshOS – OS for Web Apps",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/dmitry-markin/silta",
+      "title": "Show HN: Silta: family assistant on Matrix with continuity across context limits",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://alcubi.ai/delegator/",
+      "title": "Show HN: Delegator – Stop juggling coding-agent sessions",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twitter.com/GayaniFigma/status/2105295629941350454",
+      "title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/ctxrs/figma-server",
+      "title": "Show HN: figma-server, the solution to Figma's hostility towards agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://usetode.dev/",
+      "title": "Show HN: Tode – Analytics for Figma plugins, which run in a null-origin iframe",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://livenson.github.io/ficmap/?world=game-of-thrones",
+      "title": "Ficmap: an interactive 3D atlas for Westeros and other fictional worlds",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/alexellis/rigmark",
+      "title": "Show HN: RigMark benchmarks local AI the way coding agents use it",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/vigmarcarlo/OntoPrune",
+      "title": "OntoPrune – Pruning 85% LLM context tokens and 6.7x TTFT on CPU",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49999930",
+      "title": "Ask HN: Is the Future of IDEs Bleak?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://kenforthewin.github.io/blog/posts/llm-nethack-ascension/",
+      "title": "An LLM Beat NetHack",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cssbed.com",
+      "title": "CSS Bed: Classless CSS themes to use as starting points in web development",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49950772",
+      "title": "Pico CSS is no longer maintained (final release v2.1.1)",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://upfling.host/",
+      "title": "Show HN: Upfling.host – Free static site hosting for HTML, CSS and JavaScript",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://css.earth/",
+      "title": "Explore the universe in 3D CSS. JavaScript is optional. Launching css.earth 🌍 🚀 #WorldSpaceWeek",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://cssv.dev/",
+      "title": "CSSV – Comma-Separated Styled Values",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://nucleus.excom.dev/",
+      "title": "Show HN: Nucleus- web apps where document is the state, driven by CSS-like rules",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://andreasmoller.dk/blog/why-we-still-argue-over-css",
+      "title": "Why we still argue over CSS in 2026",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://shub.club/writings/2026/october/adventures-in-filters/",
+      "title": "Adventures in CSS and SVG filters and browser performance",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://frutjam.com",
+      "title": "Show HN: Frutjam – Accessible UI components in pure CSS, no JavaScript",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.gss-lang.dev/",
+      "title": "Show HN: GSS – Write 3D scenes in CSS, compiled to a raymarching shader",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://allthingssmitty.com/2026/10/05/css-does-your-tooltip-positioning-now/",
+      "title": "CSS does your tooltip positioning now",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/BuildABrowser/BuildABrowser",
+      "title": "Show HN: BuildABrowser – Rendering Engine with CSS Grid, Passes Acid2, in Java",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://balintmagyar.com/articles/google-web-designer-css-injection-client-rce",
+      "title": "Client-Side RCE via CSS Injection in Google Web Designer for Windows",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49988056",
+      "title": "Ask HN: Does AI do better with CSS or Tailwind?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.master.dev/transferring-sibling-count-to-a-parent-element/",
+      "title": "Counting Elements in CSS: Using Sibling-Count and Hacks",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.master.dev/fallbacks-for-css-progress/",
+      "title": "Fallbacks for CSS `Progress()`",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wired.com/story/justice-for-css/",
+      "title": "Justice for CSS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/graphene-data/graphene",
+      "title": "Show HN: Graphene – Data analysis toolkit for your coding agent",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://designobo.com/",
+      "title": "Show HN: Designobo – AI prototyping tool in 40kb of js",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.gitbutler.com/git-3-sha-256",
+      "title": "Git 3.0's upcoming SHA-256 default will be a costly mistake",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/world/2026/oct/05/russia-lab-worker-possibly-dies-of-plague-siberia-quarantine-measures-irkutsk",
+      "title": "US closely monitoring case of lab worker who possibly died of plague in Siberia",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.jeremyreimer.com/rockets-item.lsp?f=true&p=272",
+      "title": "The cost of lies: A Mineserver story",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "title": "Google Playground: Create and play custom games",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://jacobg.co/emails-at-jacobg-co/",
+      "title": "All I wanted was a custom domain email",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl",
+      "title": "Why media fans want to escape algorithms with CDs, DVDs and vinyl",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.livescience.com/health/cancer/1-in-8-cancer-cases-are-caused-by-infections-underscoring-the-importance-of-vaccines-experts-say",
+      "title": "1 in 8 cancer cases are caused by infections",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.joekarlsson.com/blog/homelab-two-years-later/",
+      "title": "My Homelab Two Years Later, Every Upgrade and What It Cost",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://worldsensorium.com/hucked-and-shucked/",
+      "title": "Hucked and Shucked: The hidden costs of turning America's corn crop into fuel",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://worksinprogress.co/issue/a-cops-case-for-flock/",
+      "title": "A Cop's Case for Flock",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.windowslatest.com/2026/10/04/rising-cost-of-memory-microsoft-explains-why-windows-11-will-use-less-ram/",
+      "title": "\"Rising cost of memory,\" Microsoft explains why Windows 11 will use less RAM",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://techrights.org/n/2026/10/03/In_Case_Anybody_Still_Believes_Microsoft_Lunduke_Cares_About_GN.shtml",
+      "title": "In Case Anybody Still Believes Microsoft Lunduke Cares About GNU/Linux",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theregister.com/security/2026/10/06/trump-mobile-customers-data-dumped-and-some-never-even-received-their-gold-device/5301433",
+      "title": "Trump Mobile customers' data dumped – and some never even received their device",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.techdirt.com/2026/10/07/new-york-declares-state-of-emergency-as-measles-cases-spread-fast/",
+      "title": "New York Declares State of Emergency as Measles Cases Spread Fast",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://bhuvanrj.me/portfolio/the-case-for-personal-software.html",
+      "title": "The Case for Personal Software",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.rte.ie/news/munster/2026/1007/1594475-strancally-castle-waterford/",
+      "title": "Zuckerberg bought Waterford castle for more than €51M",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware/",
+      "title": "Low-cost Android phones ship with residential proxy malware",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wiyomi.com/",
+      "title": "Show HN: Coding Agent with Cost Saving Built-In",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://thousandcastles.com/",
+      "title": "Every castle on Earth – an independent catalogue and world ranking",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://neutrino.website/about/",
+      "title": "Making a shape-shifting web design engine that never breaks",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.timeful.io/",
+      "title": "Timeful: Design web apps visually, sync with code instantly",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://crazy.eyad.com/",
+      "title": "Show HN: I recreated \"Crazy Ones\" ad as an animated web tribute to Steve Jobs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/maplibre/maplibre-compose",
+      "title": "Show HN: MapLibre Compose, Interactive Vector Maps for Compose Multiplatform",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://soundscaper.org",
+      "title": "Show HN: Soundscaper – Audacity 4-like audio editor in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.sidekins.com",
+      "title": "Show HN: Sidekins – Your new social and work buddy",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://astrohelm.app/",
+      "title": "Show HN: AstroHelm – Use your phone camera to aim a telescope or telephoto lens",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50022532",
+      "title": "Show HN: Coolphabets – Teaching kids to read and write in their mother tongue",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/dimonomid/montray/",
+      "title": "Montray: A tray icon and desktop alerts for systemd services",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://energyicons.com/",
+      "title": "Energy Icons for the Energy Transition",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.jim-nielsen.com/2026/app-icon-hoa/",
+      "title": "Apple's App Icon HOA",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.runeicons.com",
+      "title": "Rune Icons",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.science.org/content/article/how-did-rosalind-franklin-miss-helix-her-iconic-dna-image-she-didn-t",
+      "title": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn't",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.reddit.com/r/origami/comments/xymrdr/why_are_paper_cranes_so_iconic/",
+      "title": "Why are paper cranes so iconic? (2022)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49993551",
+      "title": "Ask HN: Is this the beginning of the end of open source?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://usekeel.io/how-it-works",
+      "title": "Show HN: Keel – Give your agent a typed strategy language, not a trading account",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Niko1221/Strata",
+      "title": "Run Qwen 3.8 Flash Next (125B) on consumer hardware (RTX 4090) at 100T/s",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bigthink.com/books/a-fabulous-debt/",
+      "title": "Venice’s failed war against Constantinople led to the first bond market",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://frn.sh/pagetables/",
+      "title": "Page Table Memory Consumption",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/",
+      "title": "Anthropic tried to persuade Pope that AI could be conscious being",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
+      "title": "Questions for believers in AI consciousness",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://medium.com/@eslam.elsewedy/synthetic-truth-how-marketing-power-and-ai-bend-reality-cd8a1173b968",
+      "title": "LLMs and Data Poisoning Are Weaponized to Manufacture Consensus",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
+      "title": "Is Claude Conscious?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/05/science/consciousness-brain-babies.html",
+      "title": "Are Babies Conscious?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://a16z.com/100-gen-ai-apps-7/",
+      "title": "The Top 100 Gen AI Consumer Apps — 7th Edition",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/live/2026/oct/07/christa-pike-lawyers-live-updates-tennessee-execution",
+      "title": "Christa Pike's lawyers hold press conference after she regains consciousness",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.rust-lang.org/inside-rust/2026/10/02/generic-const-args-and-you/",
+      "title": "Generic Const Args and You",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/09/28/business/china-ev-geely-nio.html",
+      "title": "China's Crowded EV Car Industry Moves Toward Consolidation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7567438",
+      "title": "From Moore's Law to Eroom's Law: Power Constraints and the Productivity Slowdown",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reuters.com/business/energy/google-enters-massive-36-gw-power-deal-with-constellation-energy-2026-10-06/",
+      "title": "Google enters 3.6-GW power deal with Constellation Energy",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://homefreesociology.com/2026/08/19/zoning-constraints-and-land-price-gradients/",
+      "title": "Zoning Constraints and Land Price Gradients",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://machines.tivra.com/human",
+      "title": "Can we prove LLMs are not conscious?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.getprivisy.com/blog/sb-690-cipa-what-changed",
+      "title": "Using a chat widget in California is considered wiretapping (still)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.plan99.net/the-looming-ai-consciousness-train-wreck-2e23165b3246",
+      "title": "The looming AI consciousness trainwreck (2022)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Marchetti%27s_constant",
+      "title": "Marchetti's Constant",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://reclaimthenet.org/quad9-considers-leaving-france-over-website-blocking-order",
+      "title": "Quad9 Considers Leaving France over Website Blocking Order",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://keyurramoliya.com/posts/Machine-Consciousness/",
+      "title": "The Science and Engineering of Machine Consciousness",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://variety.com/2026/gaming/news/skydance-games-experiences-products-leadership-1236903948/",
+      "title": "Skydance Sets Leadership Across Games, Experiences, Consumer Products and HR",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.a16z.news/p/top-100-consumer-ai-apps-seventh",
+      "title": "Top Consumer AI Apps",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://gmays.com/blind-constraints-not-blind-spots/",
+      "title": "Blind constraints, not blind spots",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/C2Tech-sys/proxion",
+      "title": "Show HN: Proxion – an open source web console for Proxmox VE",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.regjeringen.no/no/aktuelt/vil-innfore-midlertidig-forbud-mot-ki-briller/id3175516/",
+      "title": "Norway govt considers banning Meta-glasses in selected places",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://antonfrolov.substack.com/p/i-hired-an-illustrator-to-draw-my",
+      "title": "I hired an illustrator to draw my house. Now it's my Home Assistant dashboard",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/Lionel-Lim/tax-map",
+      "title": "Show HN: Tax Map – Explore property tax scenarios across England",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://shun126.github.io/Mana/playground/",
+      "title": "Show HN: Mana – an actor-oriented scripting language for games",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://wordminos.com/play-en.html",
+      "title": "Show HN: Wordminos – Crosswords Meet Dominos",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.chetu.com/retail/product-information-management.php",
+      "title": "Product Information Management: Centralizing Product Data Across Retail Systems",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://promptowl.ai/resources/product-update-september-2026/",
+      "title": "PromptOwl's Context Management adds native rich media – PDF, Video and Images",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/use-junction/usejunction",
+      "title": "Show HN: UseJunction – Find what your team's AI tools usage",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/insanai/sibuna",
+      "title": "Show HN: Sibuna an open source web application firewall with proof of work",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49960159",
+      "title": "Topscan.me – a new security platform with a new approach to scanning",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://agent.reviews/",
+      "title": "Show HN: Agent.reviews – Where AI agents read and write reviews on tools",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://onesvibe.app",
+      "title": "One's Vibe – discover AI-built products you can try",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://cliphou.se/",
+      "title": "Show HN: Remix Opus 5.5 motion videos online",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://higherlevel.to/",
+      "title": "Show HN: Higherlevel – Define and review what AI agents build",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/darshi1337/apogee",
+      "title": "Show HN: Apogee: Rebuilding Mozilla's Orbit, fully local and private",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.lol",
+      "title": "Show HN: Pointless but mostly-exact clone of Hacker News",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wpsleaderboard.ai/",
+      "title": "Product Manager",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.ryadh.net/writing/the-engineering-minded-product-manager/",
+      "title": "The Engineering-Minded PM",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://age-of-product.com/food-agile-thought-565-ai-age-manager/",
+      "title": "AI Age Manager, Budgeting AI Spending, 10x Revenue by 10x Code?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://puppet-master.xyz/",
+      "title": "Show HN: Puppet Master – Manage coding agents at scale",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://openhand.health",
+      "title": "Show HN: We built a real-time desktop companion for patient's telehealth visits",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50016052",
+      "title": "Show HN: Woodpecker – a browser agent built with Pi and user scripts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Obedience-Corp/camp",
+      "title": "Show HN: Camp version controlled context workspaces",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49922569",
+      "title": "Ask HN: Who is hiring? (October 2026)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/patrickclery/awesomer",
+      "title": "Show HN: Awesomer – trending GitHub repos, organized by awesome-list",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Liebmann5/AA",
+      "title": "Show HN: AA (a.k.a. AutoApply) – open-source job-hunt tool and research project",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.research.autodesk.com/blog/constrain-agent-not-user/",
+      "title": "Constrain the Agent, Not the User",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tryrevline.com/",
+      "title": "Show HN: Revline – an AI web app that researches TikTok and Instagram for you",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://swesweep.com/",
+      "title": "Show HN: Benchmark: AI doesn't find bugs unless you tell it what's wrong",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://daytab.com/",
+      "title": "Show HN: daytab – 1.4M human studies aggregated for interventions and outcomes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ncsu.edu/2026/10/making-metal-alloys-with-eggshells/",
+      "title": "Researchers Use Eggshells to Make Stronger, Lighter Metal Alloys",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49990335",
+      "title": "Google Chrome's AI API actively used for device fingerprinting and profiling",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theregister.com/research/2026/10/07/browser-in-browser-attacks-use-fake-meta-muse-ad-lure-to-steal-credentials/5301505",
+      "title": "Browser-in-browser attacks use fake Meta Muse Ad lure to steal credentials",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mailaccess.pro",
+      "title": "Show HN: MailAccess – the true Email OSINT framework",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49953734",
+      "title": "Ask HN: If you're struggling with p(doom), how are you handling it?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50017172",
+      "title": "Can an AI learn what you like, rather than just what you've searched for?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49922568",
+      "title": "Ask HN: Who wants to be hired? (October 2026)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://innerloop.works/breadcrumb",
+      "title": "Show HN: Breadcrumb, record everything on your mac + context manager for AI",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://grabthat.ai/",
+      "title": "Show HN: Prepping for First Product Hunt Launch",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blueberrywren.dev/blog/primes/",
+      "title": "A tale of four theorem provers, or: A (reasonably) opinionated comparison of Isabelle/HOL, Lean, HOL4, and Agda",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://earendil.com/posts/system-theme/",
+      "title": "There are many themes, but this one is yours",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://thelibre.news/is-cosmic-de-mogging-kde-plasma/",
+      "title": "Is COSMIC DE mogging KDE Plasma?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://linuxiac.com/klassik-revives-the-kde-3-desktop-on-modern-plasma-6/",
+      "title": "Klassik Revives the KDE 3 Desktop on Modern Plasma 6",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://etbe.coker.com.au/2026/10/09/en-html-org-scam-site/",
+      "title": "en-html.org is a Scam Site",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://kennyqin.com/please-let-me-contact-you-privately/",
+      "title": "Please Let Me Contact You Privately",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://zweiundeins.gmbh/en/blog/spa-vs-hypermedia-a-collaborative-kanban-board-measured-against-planka",
+      "title": "SPA vs. Hypermedia: A Collaborative Kanban Board Measured Against PLANKA",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sheets.works/data-viz/holding-up-the-internet",
+      "title": "The people holding up the internet",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://andersmurphy.com/2026/09/29/faster-streaming-html-with-batches-and-aggregates.html",
+      "title": "Faster streaming HTML with batches and aggregates",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dbushell.com/2026/10/07/sustainable-web-career/",
+      "title": "A sustainable web career, for when all this blows over",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://tangled.org/poacher.dev/spoonful",
+      "title": "spoonful: static site generator written in Nix",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/",
+      "title": "Why don’t more developers \"use the platform\"?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://molily.de/web-dev-education/",
+      "title": "The death of web development education",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://lobste.rs/s/fujfew",
+      "title": "django-modern-rest@0.16.0 release",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.oliverdunk.com/2026/09/30/iana-reply",
+      "title": "IANA's email about why example.com changed",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/ai-assistant-context/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "The New Siri’s Biggest Strength Is Not Intelligence",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/context-libraries/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Context Libraries: How AI Power Users Manage Context Engineering",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/big-ball-of-mud-ai/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "The New Big Ball of Mud: Why Agentic AI Systems Turn Fragile",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Empathy Mapping: The First Step in Design Thinking",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://smashingmagazine.com/2026/10/how-name-things/",
+      "title": "A Practical Guide To Naming Things",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/teslers-law-complexity-survived-the-chat-field-it-just-moved-to-a-different-place-in-the-journey-8a63f099f490?source=rss----138adf9c44c---4",
+      "title": "Tesler’s Law: complexity moved to a different part of the journey",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/synthetic-users-are-making-me-rethink-imperfect-research-abbadb8ec082?source=rss----138adf9c44c---4",
+      "title": "Synthetic users are making me rethink “imperfect research”",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3?source=rss----138adf9c44c---4",
+      "title": "What the AI era owes you",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/ai-incidents-by-design-d4708a3dda9e?source=rss----138adf9c44c---4",
+      "title": "AI: incidents by design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/bounded-delegation-how-much-authority-should-ai-have-823a58fb4192?source=rss----138adf9c44c---4",
+      "title": "Bounded delegation: How much authority should AI have?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/beyond-streaks-and-nudges-ethical-gamification-ai-design-1c4f6e8ef2cc?source=rss----138adf9c44c---4",
+      "title": "Beyond streaks and nudges: ethical gamification & AI design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
+      "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://uxdesign.cc/why-designers-need-to-stop-reporting-and-start-recommending-at-work-6fa861f58097?source=rss----138adf9c44c---4",
+      "title": "Why designers need to stop reporting and start recommending at work",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://jovo.design/writing/ai-invasive-design",
+      "title": "AI invasive design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://contralabs.com/creative-intelligence-report-2026",
+      "title": "Creative Intelligence Report",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ldlr.design/field-notes",
+      "title": "Field Notes: Design Outcomes",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.itsnicethat.com/features/the-view-from-sao-paulo-retro-bar-and-restaurant-branding-graphic-design-140926",
+      "title": "Bringing warmth and fun to São Paulo’s bars and restaurants",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://liao.gg/blog/agents-dont-need-memory",
+      "title": "Agents don’t need memory. They need documentation.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://12axes.vercel.app/en",
+      "title": "12 axes",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://design.lightspark.com/money-as-a-file",
+      "title": "Money as a file",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://agentic.littleplains.com/",
+      "title": "Agentic systems are the future of brands",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era/",
+      "title": "Chat is AI’s command line",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
+      "title": "On being anything other than a designer",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://fglibs.com/",
+      "title": "F*cking good libraries",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.emergingpatterns.design/",
+      "title": "Emerging patterns: design leadership in 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://era-of-cmd-tab.vercel.app/",
+      "title": "The era of cmd+tab",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.doc.cc/humankind/self-portrait",
+      "title": "Prompting as self-portrait",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.leadershipfolios.com/",
+      "title": "Leadership folios",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?sk=2ea73b57436da9bbef1d1f149f1218e2",
+      "title": "Is Meta’s new AI agent easier to trust because it’s cute?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lukew.com/ff/2165/many-agents-many-views",
+      "title": "Many agents, many views",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/interactive/2026/09/27/opinion/ai-art-creativity.html?unlocked_article_code=1.FlE.ew95.hRKwQHd_aTem",
+      "title": "In defense of the detour",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.producttalk.org/recorded-conversations-all-things-product/",
+      "title": "Recorded Conversations - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
+      "title": "Generating Opportunity Solution Trees with AI: How Vistaly Rebuilt Its Product Around Interview Synthesis, Evals, and Repair Loops",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.40.1",
+      "title": "Primer (GitHub) — @primer/react@38.40.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.118.0",
+      "title": "Carbon (IBM) — v11.118.0",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.118.0-rc.0",
+      "title": "Carbon (IBM) — v11.118.0-rc.0",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.3",
+      "title": "Carbon (IBM) — v12.0.0-alpha.3",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.2",
+      "title": "Carbon (IBM) — v12.0.0-alpha.2",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-types%2Fshared%403.37.0",
+      "title": "Spectrum (Adobe) — @react-types/shared@3.37.0",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/react-stately%403.51.0",
+      "title": "Spectrum (Adobe) — react-stately@3.51.0",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.6",
+      "title": "Spectrum (Adobe) — @react-spectrum/filetrigger@3.1.6",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fcodemods%401.2.8",
+      "title": "Spectrum (Adobe) — @react-spectrum/codemods@1.2.8",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40internationalized%2Fnumber%403.6.9",
+      "title": "Spectrum (Adobe) — @internationalized/number@3.6.9",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.4",
+      "title": "shadcn/ui — shadcn@4.21.4",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.3",
+      "title": "shadcn/ui — @shadcn/registry@0.1.3",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.3",
+      "title": "shadcn/ui — shadcn@4.21.3",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.2",
+      "title": "shadcn/ui — @shadcn/registry@0.1.2",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.2",
+      "title": "shadcn/ui — shadcn@4.21.2",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.1",
+      "title": "shadcn/ui — @shadcn/registry@0.1.1",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.1",
+      "title": "shadcn/ui — shadcn@4.21.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.0",
+      "title": "shadcn/ui — @shadcn/registry@0.1.0",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://chrisburnell.com/html-can-do-that/?utm_source=the-index&utm_medium=newsletter",
+      "title": "HTML Can Do That",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://interop-rank.fxdx.dev/",
+      "title": "Interop Feature Ranking",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/the-index/201/",
+      "title": "The Index: Issue #201",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dbushell.com/2026/08/20/ruminations-on-notifications/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Ruminations on notifications",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://webdevconf.com",
+      "title": "WDC2026 - October 9 2026, Watershed, Bristol, UK | Web Developers Conference",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bulleted.app/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Bulleted — an outliner for lists, notes, and plans",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animation_triggers/Using_scroll-triggered_animations",
+      "title": "Using CSS scroll-triggered animations - CSS | MDN",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/",
+      "title": "Improving site performance by shipping more CSS",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one/?utm_source=the-index&utm_medium=newsletter",
+      "title": "A pragmatic guide to modern CSS colours - part one",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://piccalil.li/the-index/200/",
+      "title": "The Index: Issue #200",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://trust.ilovetypography.com/font-tech-ai/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/fieldset",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://adactio.com/notes/22792",
+      "title": "Wednesday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22791",
+      "title": "Tuesday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://thishueshallpass.clearleft.com",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://adactio.com/journal/22790",
+      "title": "Journal: Lake Of Souls by Ann Leckie A short story collection in three parts. 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/links",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://adactio.com/notes/22786",
+      "title": "Sunday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://saltercane.bandcamp.com/album/deep-black-water",
+      "title": "Deep Black Water, by Salter Cane",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22785",
+      "title": "Thursday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://brm.us/page-transitions",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://page-transitions.style/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.historysnob.com/historical-figures/the-watts-towers-one-mans-decadeslong-obsession-that-became-a-landmark/4",
+      "title": "The Watts Towers: One Man's Decades-Long Obsession That Became a Landmark - HistorySnob",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.tmz.com/2026/10/08/pete-hegseth-public-execution-fort-hood-shooter-live-stream/",
+      "title": "Fort Hood Shooter's Firing Squad Execution Will Stream Live For Public Viewing",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://iamarino.com/what-age-doesnt-teach/",
+      "title": "Shakespeare, Seneca, and How to Age Well",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://paidforby.info",
+      "title": "Who paid for this?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.propublica.org/article/mark-mcafee-raw-milk-recalls-maha?utm_campaign=propublica-sprout&utm_content=1791429300&utm_medium=social&utm_source=bluesky",
+      "title": "He Profits Off Raw Milk That’s Making People Sick. The Government Isn’t Stopping Him.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.amazon.co.uk/FORGOTTEN-VIKINGS-New-Approaches-Viking-ebook/dp/B0HH46KHLR/ref=sr_1_2?crid=1Y2EHUPXCD3J9&dib=eyJ2IjoiMSJ9.hZloPaKLBOaHRD1ubrbEIXt6nxHblHnTrx5BjAXP7j_GjHj071QN20LucGBJIEps._jSRdaWJRj6czXsbAAVtSQxnI_t8JHBprwS-BWOOJD8&dib_tag=se&keywords=forgotten+vikings&qid=1791446137&s=digital-text&sprefix=forgotten+viking%2Cdigital-text%2C168&sr=1-2",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.scientificamerican.com/article/scientists-unlock-the-longevity-secrets-of-194-year-old-jonathan-the-giant-tortoise/",
+      "title": "The oldest known land animal is 194. How did he get so ancient?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai/",
+      "title": "What’s the Future for Pure Math Research in the Age of AI?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://powertonerecords.bandcamp.com/album/sam-deans-good-times-end-times-apocalypse-bbq",
+      "title": "Sam & Dean's Good-Times End-Times Apocalypse BBQ, by Samuel Locke Ward & Dean Clean",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://getartcraft.com/apps",
+      "title": "Crafting Apps: open-source creative tools",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.danvk.org/2026/09/10/mapsnap.html",
+      "title": "Introducing mapsnap: Automated Georeferencing for Historic Sanborn Insurance Maps",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dogdogfish.com/blog/2026/09/30/ai-collective-disaster/",
+      "title": "AI is a Collective Disaster",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.avclub.com/david-zaslav-goodbye-video-to-employees",
+      "title": "David Zaslav bids farewell to industry he helped destroy",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nyti.ms/47z3NMW",
+      "title": "Paramount Closes Its Deal for Warner Bros. Discovery",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ft.trib.al/n5V32VU",
+      "title": "Debt in the spotlight as Paramount closes $111bn deal for Warner Bros",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://youtu.be/17AHdNvrk5o?si=NTgpM8cUUk_BWvLz",
+      "title": "ORIGINAL 1960's \"Chiller Theatre\" Opening HD - NY WPIX 11",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://derekhanson.blog/wordpress-agencies-spacefast/",
+      "title": "How WordPress agencies can use Spacefast: 11 practical uses",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/oct/06/trump-suggests-let-iran-take-out-los-angeles-san-diego",
+      "title": "Trump suggests he would let Iran ‘take out’ Los Angeles or San Diego",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://scim.ag/4rTKck8",
+      "title": "How did Rosalind Franklin miss the helix in her iconic DNA image? She didn’t",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.halstonmedia.com/katonah-lewisboro-times/stories/lewisboro-library-new-director-carrie-bickner,97824",
+      "title": "Lewisboro Library names new director - The Katonah-Lewisboro Times",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.pootlepress.com/2026/10/why-this-terrible-song-is-so-inspiring/",
+      "title": "Why this terrible song is so inspiring | Pootlepress",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/05/opinion/mental-health-diagnosis-labels.html?unlocked_article_code=1.GVE.ABxH.cYSHgKqCUCA0&smid=url-share",
+      "title": "https://www.nytimes.com/2026/10/05/opinion/mental-health-diagnosis-labels.html?unlocked_article_code=1.GVE.ABxH.cYSHgKqCUCA0&smid=url-share",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/shorts/PTV0-7L6soc",
+      "title": "I've had this idea in my head for SO MANY years. It's so cool to finally see it. Turtles all the way down. www.youtube.com/shorts/PTV0-...",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/03/world/australia/sperm-whales-sink-yacht-sailors-rescued.html?unlocked_article_code=1.GVE.t5xf.bnfaZ76WgpGP&smid=url-share",
+      "title": "Whale Batters a Yacht, Leaving Its Crew Stranded for 18 Hours (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://letterboxd.com/zeldman/film/flesh-for-frankenstein/",
+      "title": "A ★★★½ review of Flesh for Frankenstein (1973)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bit.ly/4y3AFIC",
+      "title": "Paulina Porizkova, 61, Announces Marriage to Partner of 3 Years in a Tiny Red String Bikini",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/w3c/tpac2026-breakouts/issues?q=sort%3Aupdated-desc+is%3Aissue+state%3Aopen+",
+      "title": "Issues · w3c/tpac2026-breakouts",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://forms.gle/ZGqtYGj7V6q8LcuV9",
+      "title": "Interested in a Web Components conference? Let us know below!",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/19c0b2a5-ce51-498a-83cf-2d1c7b45436fn%40chromium.org",
+      "title": "Blink:  Intent to Prototype: CSS Linked Parameters for External SVGs",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/web-platform-dx/developer-signals/issues/923",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://github.com/web-platform-tests/interop/issues/1346",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://developer-signals.dev/?browser=chrome&sort=votes_desc&view=list",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://developer-signals.dev/?browser=edge&sort=votes_desc&view=list",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://developer-signals.dev/?browser=firefox&sort=votes_desc&view=list",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://developer-signals.dev/?browser=safari&sort=votes_desc&view=list",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://lea.verou.me/specs/#revert-rule",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://github.com",
+      "title": "GitHub.com has fully moved off CSS-in-JS to CSS Modules, resulting in 55% less server-side render time and 25% faster component init.",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://preset-env.cssdb.org/blog/postcss-mixins-and-custom-functions/",
+      "title": "PostCSS Mixins And PostCSS Custom Functions | CSS Tools",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://webdesignerdepot.com/traditional-web-development-is-dead-and-honestly-good-riddance/",
+      "title": "Traditional Web Development is Dead...(and Honestly? Good Riddance.)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://codepen.io/alowpoly/pen/XJMVyXW",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://davatron5000.github.io/microlighter/",
+      "title": "MicroLighter - A zero-dep syntax highlighter",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/viliket/pure-web-bottom-sheet",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xYyMiDgWeY0",
+      "title": "OpenAI Nerfed Your Tokens",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nerdy.dev/transitioning-field-sizing-content-with-css",
+      "title": "CSS trick: transition `field-sizing: content` on a textarea nerdy.dev/transitionin...",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://nerdy.dev/front-end-fast-money-with-kevin-powell",
+      "title": "Front End Fast Money With Kevin Powell · October 1, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=P5llBhv8TQ4",
+      "title": "OpenAI Nerfed Your Tokens",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.twitch.tv/wiltostreams",
+      "title": "WiltoStreams - Live on Twitch",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wil.to/posts/googles-prompt-api/",
+      "title": "Google’s Prompt API",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://csslayout.news/a/3mxc6txvaw323-issue-346?bridge_completed=1",
+      "title": "Issue 346",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blogs.igalia.com/mrego/aamtest-testing-accessibility-in-wpt/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://sarahmhigley.com/writing/interactive-lists/",
+      "title": "The web needs interactive lists | Sarah Higley",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.jim-nielsen.com/2026/talk-notes-modernization-treadmill/",
+      "title": "“Getting off the Modernization Treadmill”",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.rascal.news/the-workers-at-wizards-of-the-coast-are-teaming-up/",
+      "title": "The workers at Wizards of the Coast are teaming up",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://hubs.li/Q04ydHVV0",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://samkapila.com/books/",
+      "title": "Inclusive Design Communities, the book » Sameera Kapila",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://webweekly.email",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://inclusivedesign24.org/2026/schedule/",
+      "title": "Inclusive Design 24 (#id24)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/inclusivedesign24",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://projects.propublica.org/american-citizens-detained-dhs-civil-rights/",
+      "title": "More Than 500 U.S. Citizens Have Been Detained, Including Handcuffed or Held at Gunpoint, in Trump’s Immigration Crackdown — ProPublica",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://leaflet.pub/new-canvas",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "http://clouds.sfruby.com",
+      "title": "Find your Ruby friends in the Clouds",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/dont-bet-on-select-order-shuffle-your-rows-see-what-folds",
+      "title": "Don't bet on SELECT's order: shuffle your rows and see what folds—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.proofofconcept.pub/p/how-i-work",
+      "title": "How I work",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.densediscovery.com/issues/409/",
+      "title": "DD409 / Leisure time, but make it useful",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-8-real-jev-use-cases-how",
+      "title": "🎙️ How I AI: 8 real Jev use cases + How OpenAI uses ChatGPT Sites (live at DevDay!) + Claire’s DevDay recap",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live",
+      "title": "How OpenAI uses ChatGPT Sites (live at DevDay!) | Kath Korevec (Product Lead)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
+      "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-value-from",
+      "title": "🧠 Community Wisdom: Getting value from personal AI agents without handing over your inbox, the ego threat of going from IC to manager, uncommon perks to negotiate for, and more",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude",
+      "title": "Claude Design is moving to Artifacts in the Claude app",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.jontsai.com/2026/10/10/organize-tabs-2-0",
+      "title": "Show HN: Organize Tabs – Chrome extension that dedupes PRs, tickets and profiles",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/tlack/babytalk",
+      "title": "Show HN: Babytalk: Offline speech to text and text to speech on ESP32",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/designing-for-an-idea-before-it-exists-ecd8cb19999a?source=rss----138adf9c44c---4",
+      "title": "Designing for an idea before it exists",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.1",
+      "title": "Spectrum (Adobe) — @react-spectrum/s2@1.8.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.7",
+      "title": "Spectrum (Adobe) — @react-spectrum/filetrigger@3.1.7",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fcodemods%401.2.9",
+      "title": "Spectrum (Adobe) — @react-spectrum/codemods@1.2.9",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/react-aria-components%401.22.1",
+      "title": "Spectrum (Adobe) — react-aria-components@1.22.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/react-aria%403.53.1",
+      "title": "Spectrum (Adobe) — react-aria@3.53.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40adobe%2Freact-spectrum%403.47.7",
+      "title": "Spectrum (Adobe) — @adobe/react-spectrum@3.47.7",
+      "reason": "patch"
+    }
+  ]
+}
