@@ -3778,7 +3778,7 @@ function storiesForTerm(term) {
 function tasteSpider(title, groups, color) {
   const live = groups.filter((g) => g.sum > 0);
   if (!live.length) {
-    return '<div class="tcol"><h3>' + title + "</h3>"
+    return '<div class="tcol"><h2>' + title + "</h2>"
       + '<p class="note">Nothing here yet.</p></div>';
   }
   const max = tasteRowMax(groups.map((g) => [g.id, g.sum]));
@@ -3865,7 +3865,7 @@ function tasteSpider(title, groups, color) {
     ? '<' + shapeTag + ' class="spider-shape" points="' + verts.join(" ") + '"/>'
     : "";
 
-  return '<div class="tcol tcol--spider"><h3>' + title + "</h3>"
+  return '<div class="tcol tcol--spider"><h2>' + title + "</h2>"
     + '<div class="spider" role="group" aria-label="Topics that pull stories toward you">'
     + '<div class="spider-plot">'
     + '<svg class="spider-svg" viewBox="0 0 ' + W + " " + H
@@ -4141,7 +4141,7 @@ function pushingAwayHTML() {
   const body = rows.length
     ? '<ul class="seeds seeds--chips">' + rows.map((a) => articleChip(a, "drop-rating")).join("") + "</ul>"
     : '<p class="note">Mark a story Less like this in the&nbsp;digest.</p>';
-  return '<div class="tcol"><h3>Pushing stories away</h3>' + body + "</div>";
+  return '<div class="tcol"><h2>Pushing stories away</h2>' + body + "</div>";
 }
 
 function renderTasteRank() {
@@ -4167,8 +4167,7 @@ function renderTasteRank() {
     + '<p class="field-err" id="article-err" role="status"></p>'
     + articleList + "</section>"
 
-    + '<section class="tsec" aria-labelledby="taste-profile">'
-    + '<h2 id="taste-profile">Your reading&nbsp;profile</h2>'
+    + '<section class="tsec">'
     + tasteSpider("Pulling stories toward you", tasteGroupRows(up), "var(--ink)")
     + pushingAwayHTML()
     + "</section>"
