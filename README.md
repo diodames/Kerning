@@ -227,8 +227,8 @@ from the dashboard; profiles are kept), and the built-in mailer sends only a
 few sign-in emails an hour. Add custom SMTP under Authentication if that
 gets in the way.
 
-**Account panel.** Signed in, the Account item opens a panel with what's
-synced, the last sync time, Sync now, and Delete synced data. Delete removes
+**Account page.** The Sign in tab becomes Account once you're signed in. It
+shows what's synced, the last sync time, Sync now, and Delete synced data. Delete removes
 the `profiles` and `email_prefs` rows and signs out; this browser keeps its
 copy. The Supabase login itself stays, because deleting a user needs the
 service_role key, which never goes in the browser. Remove it from
@@ -286,7 +286,7 @@ Setup:
 4. Run the workflow by hand with `dry_run` on to see the rendered emails in
    the run's artifact, then once with it off.
 
-The opt-in checkbox in the Account panel is hidden until
+The opt-in checkbox on the Account page is hidden until
 `WEEKLY_EMAIL_OPEN` in `index.html` is `true`. Until then, open the site
 once with `?beta=email` to show it in that browser. To open it to everyone:
 verify a domain in Resend, set the `KERNING_MAIL_FROM` repository variable

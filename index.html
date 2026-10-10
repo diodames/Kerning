@@ -601,42 +601,19 @@
     display: flex; flex-wrap: wrap; gap: 4px 22px;
     justify-content: flex-end; margin-top: 22px;
   }
-  .dlg .sync-add { margin-top: 22px; }
   .dlg .sync-msg { margin-top: 12px; }
   .dlg .sync-msg:empty { display: none; }
-  .dlg:has(#sync-account:not([hidden])) { width: min(28rem, calc(100% - 2 * var(--pad))); }
-  #sync-account-body strong { color: var(--ink); font-weight: 500; }
-  .dlg .acct-sec { margin-top: 28px; }
-  .dlg .acct-h {
-    margin: 0 0 6px;
-    font-size: 12px; font-weight: 500; line-height: 1.4;
-    letter-spacing: 0.06em; text-transform: uppercase;
-    color: var(--ink);
-  }
-  .dlg .acct-row {
-    display: flex; flex-wrap: wrap; align-items: center;
-    justify-content: space-between; gap: 0 16px;
-    font-size: var(--text-meta); color: var(--mute); line-height: 1.55;
-  }
-  .dlg .acct-row .link {
-    min-height: 36px; padding: 6px 0;
-    font-size: var(--text-meta); white-space: nowrap;
-  }
-  .dlg .acct-sec .sync-msg { margin-top: 4px; }
-  .dlg .acct-check {
+  #view-account .taste-primer strong { color: var(--ink); font-weight: 500; }
+  #view-account .note:empty { display: none; }
+  .acct-check {
     display: flex; gap: 10px; align-items: flex-start;
-    padding: 6px 0; cursor: pointer;
+    margin-top: 12px; padding: 6px 0; cursor: pointer;
     font-size: var(--text-meta); color: var(--mute); line-height: 1.55;
   }
-  .dlg .acct-check input {
+  .acct-check input {
     flex-shrink: 0; width: 15px; height: 15px;
     margin: calc((1.55em - 15px) / 2) 0 0; accent-color: var(--ink);
   }
-  .dlg .acct-acts {
-    margin-top: 28px; padding-top: 12px;
-    border-top: 1px solid var(--line);
-  }
-  .dlg .acct-acts .btn.down { margin-inline-end: auto; }
   .dlg .btn.down { color: var(--warm); }
   .dlg .btn.down:hover { color: var(--ink); }
   .tsec { margin: 8px 0 48px; }
@@ -968,7 +945,6 @@
     .site-nav, .tabs { gap: 12px; }
     .nav-logo-rest { display: none; }
     .dlg { padding-inline: 22px; }
-    .dlg .acct-acts { column-gap: 16px; }
   }
   @media (forced-colors: active) {
     .chip.on, .tab.on { outline: 2px solid CanvasText; }
@@ -1058,6 +1034,7 @@
     </div>
     <div id="taste-body"></div>
   </section>
+  <section id="view-account" class="hidden"></section>
   </main>
 
   <footer class="site-foot">
@@ -1078,54 +1055,6 @@
       <button type="submit" class="btn down" value="confirm">Start over</button>
     </div>
   </form>
-</dialog>
-
-<dialog id="sync-dialog" class="dlg" aria-labelledby="sync-dialog-title" aria-describedby="sync-dialog-body">
-  <form id="sync-form" novalidate>
-    <h2 id="sync-dialog-title">Sign in to Kerning</h2>
-    <p id="sync-dialog-body">Keep saved stories, ratings, people, and resources on every device. We&rsquo;ll email you a sign-in link, so there&rsquo;s no password.</p>
-    <div class="tadd sync-add">
-      <div class="tfield">
-        <label for="sync-email">Email</label>
-        <input id="sync-email" name="email" type="email" autocomplete="email" required
-          placeholder="you@example.com" aria-describedby="sync-msg">
-      </div>
-    </div>
-    <p class="note sync-msg" id="sync-msg" role="status"></p>
-    <div class="dlg-acts">
-      <button type="button" class="btn" id="sync-cancel">Cancel</button>
-      <button type="submit" class="btn" id="sync-submit">Email me a link</button>
-    </div>
-  </form>
-  <div id="sync-account" hidden>
-    <h2 id="sync-account-title">Account</h2>
-    <p id="sync-account-body">Signed in as <strong id="sync-account-email"></strong></p>
-    <section class="acct-sec" aria-labelledby="sync-sec-title">
-      <h3 class="acct-h" id="sync-sec-title">Sync</h3>
-      <div class="acct-row">
-        <span id="sync-account-counts"></span>
-        <button type="button" class="link" id="sync-edit-taste">Open Taste</button>
-      </div>
-      <div class="acct-row">
-        <span id="sync-account-when"></span>
-        <button type="button" class="link" id="sync-now">Sync now</button>
-      </div>
-      <p class="note sync-msg" id="sync-now-msg" role="status"></p>
-    </section>
-    <section class="acct-sec" id="sync-weekly-row" aria-labelledby="sync-weekly-title" hidden>
-      <h3 class="acct-h" id="sync-weekly-title">Weekly email</h3>
-      <label class="acct-check">
-        <input type="checkbox" id="sync-weekly">
-        <span>Email me Monday&rsquo;s issue, ranked by your taste.</span>
-      </label>
-      <p class="note sync-msg" id="sync-weekly-msg" role="status"></p>
-    </section>
-    <div class="dlg-acts acct-acts">
-      <button type="button" class="btn down" id="sync-delete">Delete synced data</button>
-      <button type="button" class="btn" id="sync-close">Close</button>
-      <button type="button" class="btn" id="sync-sign-out">Sign out</button>
-    </div>
-  </div>
 </dialog>
 
 <dialog id="sync-delete-dialog" class="dlg" aria-labelledby="sync-delete-title" aria-describedby="sync-delete-body">
@@ -2817,7 +2746,9 @@ function renderAuthSlot() {
   const slot = document.getElementById("auth-slot");
   if (!slot) return;
   if (syncMode && !hostedMode) {
-    renderSyncSlot(slot);
+    slot.classList.add("hidden");
+    slot.innerHTML = "";
+    renderAccountTab();
     return;
   }
   if (!hostedMode || !me) {
@@ -2888,9 +2819,10 @@ async function syncLoadClient() {
     const changed = (user && user.id) !== (syncUser && syncUser.id);
     syncUser = user;
     if (!changed) return;
-    renderAuthSlot();
+    resetAccountState();
+    rerenderAccount();
     // Supabase warns against awaiting its own calls inside this callback.
-    if (user) setTimeout(syncNow, 0);
+    if (user) setTimeout(() => syncNow().then(() => { if (tab === "account") rerenderAccount(); }), 0);
   });
   return syncClient;
 }
@@ -2899,7 +2831,7 @@ async function syncInit() {
   if (!syncConfigured() || hostedMode) return;
   syncMode = true;
   renderAuthSlot();
-  bindSyncDialog();
+  bindSyncDeleteDialog();
   handleSyncLinks();
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "visible" && syncUser) syncNow();
@@ -2910,9 +2842,15 @@ async function syncInit() {
     const client = await syncLoadClient();
     const { data } = await client.auth.getSession();
     syncUser = (data && data.session && data.session.user) || null;
-    if (callback) history.replaceState(null, "", location.pathname + location.search);
-    renderAuthSlot();
-    if (syncUser) await syncNow();
+    if (callback) {
+      history.replaceState(null, "", location.pathname + location.search);
+      tab = "account";
+    }
+    rerenderAccount();
+    if (syncUser) {
+      await syncNow();
+      if (tab === "account") rerenderAccount();
+    }
   } catch (e) { /* offline or blocked CDN: this browser keeps working alone */ }
 }
 
@@ -2971,13 +2909,175 @@ function syncNow() {
   return syncRunning;
 }
 
-function renderSyncSlot(slot) {
-  slot.classList.remove("hidden");
-  const label = syncUser
-    ? ' aria-label="' + esc("Account, signed in as " + (syncUser.email || "you")) + '">Account'
-    : ">Sign in";
-  slot.innerHTML = '<button type="button" class="tab" id="sync-open"' + label + "</button>";
-  document.getElementById("sync-open").onclick = openSyncDialog;
+function renderAccountTab() {
+  const tabs = document.getElementById("tabs");
+  if (!tabs) return;
+  let btn = tabs.querySelector('[data-tab="account"]');
+  if (!btn) {
+    btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "tab";
+    btn.dataset.tab = "account";
+    tabs.insertBefore(btn, tabs.querySelector(".sel-dot"));
+  }
+  btn.textContent = syncUser ? "Account" : "Sign in";
+  if (syncUser) btn.setAttribute("aria-label", "Account, signed in as " + (syncUser.email || "you"));
+  else btn.removeAttribute("aria-label");
+  const on = tab === "account";
+  btn.classList.toggle("on", on);
+  if (on) btn.setAttribute("aria-current", "page");
+  else btn.removeAttribute("aria-current");
+}
+
+// Messages and drafts outlive re-renders of the Account view.
+const accountMsg = { signin: "", signinErr: "", sync: "", weekly: "" };
+let accountDraft = "";
+let accountBusy = { signin: false, sync: false, weekly: false };
+let weeklyPref = null;
+let weeklyLoading = false;
+
+function resetAccountState() {
+  accountMsg.signin = accountMsg.signinErr = accountMsg.sync = accountMsg.weekly = "";
+  accountBusy = { signin: false, sync: false, weekly: false };
+  weeklyPref = null;
+  weeklyLoading = false;
+}
+
+function rerenderAccount(focusId) {
+  if (tab !== "account") {
+    renderAuthSlot();
+    return;
+  }
+  render();
+  const el = focusId && document.getElementById(focusId);
+  if (el) el.focus();
+}
+
+function accountSignedOutHTML() {
+  return '<p class="note taste-primer">Keep saved stories, ratings, people, and resources on every device. '
+    + "We&rsquo;ll email you a sign-in link, so there&rsquo;s no&nbsp;password.</p>"
+    + '<section class="tsec" aria-labelledby="account-signin">'
+    + '<h2 id="account-signin">Sign in</h2>'
+    + '<form class="tadd" id="account-form" novalidate>'
+    + '<div class="tfield"><label for="account-email">Email</label>'
+    + '<input id="account-email" name="email" type="email" autocomplete="email" required '
+    + 'placeholder="you@example.com" aria-describedby="account-err account-msg" value="' + esc(accountDraft) + '"'
+    + (accountMsg.signinErr ? ' aria-invalid="true"' : "") + "></div>"
+    + '<button type="submit" class="btn" id="account-submit"' + (accountBusy.signin ? " disabled" : "") + ">Email me a link</button></form>"
+    + '<p class="field-err" id="account-err" role="status">' + esc(accountMsg.signinErr) + "</p>"
+    + '<p class="note" id="account-msg" role="status">' + esc(accountMsg.signin) + "</p>"
+    + "</section>";
+}
+
+function accountSignedInHTML() {
+  let weekly = "";
+  if (weeklyEmailVisible()) {
+    const ready = weeklyPref && !weeklyPref.error;
+    weekly = '<section class="tsec" aria-labelledby="account-weekly-h">'
+      + '<h2 id="account-weekly-h">Weekly email</h2>'
+      + '<label class="acct-check"><input type="checkbox" id="account-weekly"'
+      + (ready && weeklyPref.on ? " checked" : "")
+      + (!ready || accountBusy.weekly ? " disabled" : "") + ">"
+      + "<span>Email me Monday&rsquo;s issue, ranked by your taste.</span></label>"
+      + '<p class="note" id="account-weekly-msg" role="status">' + esc(accountMsg.weekly) + "</p>"
+      + "</section>";
+  }
+  return '<p class="note taste-primer">Signed in as <strong>' + esc(syncUser.email || "your account") + "</strong>.</p>"
+    + '<section class="tsec" aria-labelledby="account-sync-h">'
+    + '<h2 id="account-sync-h">Sync</h2>'
+    + '<p class="note">' + esc(syncedSummary()) + "</p>"
+    + '<p class="note">' + esc(syncedLabel()) + "</p>"
+    + '<div class="acts"><button type="button" class="btn" id="account-sync-now"'
+    + (accountBusy.sync ? " disabled>Syncing\u2026" : ">Sync now") + "</button></div>"
+    + '<p class="field-err" id="account-sync-msg" role="status">' + esc(accountMsg.sync) + "</p>"
+    + "</section>"
+    + weekly
+    + '<div class="reset"><div class="acts">'
+    + '<button type="button" class="btn" id="account-sign-out">Sign out</button>'
+    + '<button type="button" class="btn down" id="account-delete">Delete synced data</button>'
+    + "</div></div>";
+}
+
+function renderAccount() {
+  const el = document.getElementById("view-account");
+  if (!el) return;
+  el.innerHTML = syncUser ? accountSignedInHTML() : accountSignedOutHTML();
+  bindAccount();
+  if (syncUser && weeklyEmailVisible() && !weeklyPref && !weeklyLoading) loadWeeklyPref();
+}
+
+function bindAccount() {
+  const form = document.getElementById("account-form");
+  if (form) {
+    const input = document.getElementById("account-email");
+    input.oninput = () => { accountDraft = input.value; };
+    form.onsubmit = submitSignIn;
+    return;
+  }
+  const now = document.getElementById("account-sync-now");
+  if (now) now.onclick = runSyncNow;
+  const weekly = document.getElementById("account-weekly");
+  if (weekly) weekly.onchange = function () { saveWeeklyOptIn(this.checked); };
+  document.getElementById("account-sign-out").onclick = syncSignOut;
+  document.getElementById("account-delete").onclick = () => {
+    document.getElementById("sync-delete-msg").textContent = "";
+    document.getElementById("sync-delete-dialog").showModal();
+  };
+}
+
+async function submitSignIn(e) {
+  e.preventDefault();
+  const input = document.getElementById("account-email");
+  const err = document.getElementById("account-err");
+  const msg = document.getElementById("account-msg");
+  const btn = document.getElementById("account-submit");
+  const email = (input.value || "").trim();
+  accountDraft = email;
+  accountMsg.signin = "";
+  msg.textContent = "";
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    accountMsg.signinErr = "Enter your email address, like you@example.com.";
+    err.textContent = accountMsg.signinErr;
+    input.setAttribute("aria-invalid", "true");
+    input.focus();
+    return;
+  }
+  accountMsg.signinErr = "";
+  err.textContent = "";
+  input.removeAttribute("aria-invalid");
+  accountBusy.signin = true;
+  btn.disabled = true;
+  try {
+    const client = await syncLoadClient();
+    const { error } = await client.auth.signInWithOtp({
+      email: email,
+      options: { emailRedirectTo: location.origin + location.pathname },
+    });
+    if (error) throw error;
+    accountMsg.signin = "Check your inbox for the sign-in link. Open it on this device or any other.";
+  } catch (error) {
+    accountMsg.signinErr = /rate|limit|seconds/i.test(String(error && error.message))
+      ? "Too many links in a short time. Wait a few minutes, then try again."
+      : "Couldn\u2019t send the link. Check your connection and try again.";
+  } finally {
+    accountBusy.signin = false;
+  }
+  const liveMsg = document.getElementById("account-msg");
+  const liveErr = document.getElementById("account-err");
+  const liveBtn = document.getElementById("account-submit");
+  if (liveMsg) liveMsg.textContent = accountMsg.signin;
+  if (liveErr) liveErr.textContent = accountMsg.signinErr;
+  if (liveBtn) liveBtn.disabled = false;
+}
+
+async function runSyncNow() {
+  accountBusy.sync = true;
+  accountMsg.sync = "";
+  rerenderAccount("account-sync-now");
+  const ok = await syncNow();
+  accountBusy.sync = false;
+  if (!ok) accountMsg.sync = "Couldn\u2019t sync. Check your connection and try again.";
+  rerenderAccount("account-sync-now");
 }
 
 function countLabel(n, one, many) {
@@ -3006,104 +3106,6 @@ function syncedLabel() {
   if (min < 1) return "Last synced just now.";
   if (min < 60) return "Last synced " + min + " min ago.";
   return "Last synced " + timeAgo(syncLastAt / 1000) + ".";
-}
-
-function openSyncDialog() {
-  const dlg = document.getElementById("sync-dialog");
-  const form = document.getElementById("sync-form");
-  const account = document.getElementById("sync-account");
-  const signedIn = Boolean(syncUser);
-  form.hidden = signedIn;
-  account.hidden = !signedIn;
-  if (signedIn) {
-    dlg.setAttribute("aria-labelledby", "sync-account-title");
-    dlg.setAttribute("aria-describedby", "sync-account-body");
-    document.getElementById("sync-account-email").textContent = syncUser.email || "your account";
-    document.getElementById("sync-account-when").textContent = syncedLabel();
-    document.getElementById("sync-account-counts").textContent = syncedSummary();
-    document.getElementById("sync-now-msg").textContent = "";
-    document.getElementById("sync-weekly-msg").textContent = "";
-    renderWeeklyOptIn();
-    dlg.showModal();
-    document.getElementById("sync-close").focus();
-    return;
-  }
-  dlg.setAttribute("aria-labelledby", "sync-dialog-title");
-  dlg.setAttribute("aria-describedby", "sync-dialog-body");
-  const msg = document.getElementById("sync-msg");
-  const input = document.getElementById("sync-email");
-  if (msg) msg.textContent = "";
-  if (input) input.removeAttribute("aria-invalid");
-  dlg.showModal();
-  if (input) input.focus();
-}
-
-function bindSyncDialog() {
-  const dlg = document.getElementById("sync-dialog");
-  const form = document.getElementById("sync-form");
-  if (!dlg || !form || form.dataset.bound) return;
-  form.dataset.bound = "1";
-  document.getElementById("sync-cancel").onclick = () => dlg.close();
-  document.getElementById("sync-close").onclick = () => dlg.close();
-  document.getElementById("sync-sign-out").onclick = syncSignOut;
-  document.getElementById("sync-edit-taste").onclick = () => {
-    dlg.close();
-    tab = "taste";
-    render();
-    window.scrollTo(0, 0);
-  };
-  document.getElementById("sync-now").onclick = async function () {
-    const btn = this;
-    const msg = document.getElementById("sync-now-msg");
-    btn.disabled = true;
-    btn.textContent = "Syncing\u2026";
-    msg.textContent = "";
-    const ok = await syncNow();
-    btn.disabled = false;
-    btn.textContent = "Sync now";
-    document.getElementById("sync-account-when").textContent = syncedLabel();
-    document.getElementById("sync-account-counts").textContent = syncedSummary();
-    if (!ok) msg.textContent = "Couldn\u2019t sync. Check your connection and try again.";
-  };
-  document.getElementById("sync-weekly").onchange = function () { saveWeeklyOptIn(this); };
-  document.getElementById("sync-delete").onclick = () => {
-    dlg.close();
-    document.getElementById("sync-delete-msg").textContent = "";
-    document.getElementById("sync-delete-dialog").showModal();
-  };
-  bindSyncDeleteDialog();
-  dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
-  form.onsubmit = async (e) => {
-    e.preventDefault();
-    const input = document.getElementById("sync-email");
-    const msg = document.getElementById("sync-msg");
-    const btn = document.getElementById("sync-submit");
-    const email = (input.value || "").trim();
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
-      input.setAttribute("aria-invalid", "true");
-      msg.textContent = "Enter your email address, like you@example.com.";
-      input.focus();
-      return;
-    }
-    input.removeAttribute("aria-invalid");
-    msg.textContent = "";
-    btn.disabled = true;
-    try {
-      const client = await syncLoadClient();
-      const { error } = await client.auth.signInWithOtp({
-        email: email,
-        options: { emailRedirectTo: location.origin + location.pathname },
-      });
-      if (error) throw error;
-      msg.textContent = "Check your inbox for the sign-in link. Open it on this device or any other.";
-    } catch (err) {
-      msg.textContent = /rate|limit|seconds/i.test(String(err && err.message))
-        ? "Too many links in a short time. Wait a few minutes, then try again."
-        : "Couldn\u2019t send the link. Check your connection and try again.";
-    } finally {
-      btn.disabled = false;
-    }
-  };
 }
 
 function bindSyncDeleteDialog() {
@@ -3144,43 +3146,45 @@ function weeklyEmailVisible() {
   try { return localStorage.getItem(BETA_EMAIL_KEY) === "1"; } catch (e) { return false; }
 }
 
-async function renderWeeklyOptIn() {
-  const row = document.getElementById("sync-weekly-row");
-  const box = document.getElementById("sync-weekly");
-  row.hidden = !weeklyEmailVisible();
-  if (row.hidden || !syncClient || !syncUser) return;
-  box.disabled = true;
-  const { data, error } = await syncClient
-    .from("email_prefs").select("weekly").eq("user_id", syncUser.id).maybeSingle();
-  box.checked = !error && !!(data && data.weekly);
-  box.disabled = !!error;
-  if (error) {
-    document.getElementById("sync-weekly-msg").textContent =
-      "The weekly email isn\u2019t set up on the server yet.";
+async function loadWeeklyPref() {
+  if (!syncClient || !syncUser) return;
+  const userId = syncUser.id;
+  weeklyLoading = true;
+  let res;
+  try {
+    res = await syncClient.from("email_prefs").select("weekly").eq("user_id", userId).maybeSingle();
+  } catch (e) {
+    res = { error: e };
   }
+  weeklyLoading = false;
+  if (!syncUser || syncUser.id !== userId) return;
+  weeklyPref = res.error ? { error: true } : { on: !!(res.data && res.data.weekly) };
+  if (res.error) accountMsg.weekly = "The weekly email isn\u2019t set up on the server yet.";
+  if (tab === "account") rerenderAccount(document.activeElement && document.activeElement.id);
 }
 
-async function saveWeeklyOptIn(box) {
-  const msg = document.getElementById("sync-weekly-msg");
+async function saveWeeklyOptIn(want) {
   if (!syncClient || !syncUser) return;
-  const want = box.checked;
-  box.disabled = true;
-  msg.textContent = "";
+  accountBusy.weekly = true;
+  accountMsg.weekly = "";
+  weeklyPref = { on: want };
+  rerenderAccount("account-weekly");
   const { error } = await syncClient.from("email_prefs").upsert({
     user_id: syncUser.id,
     email: syncUser.email,
     weekly: want,
     updated_at: new Date().toISOString(),
   });
-  box.disabled = false;
+  accountBusy.weekly = false;
   if (error) {
-    box.checked = !want;
-    msg.textContent = "Couldn\u2019t save that. Check your connection and try again.";
-    return;
+    weeklyPref = { on: !want };
+    accountMsg.weekly = "Couldn\u2019t save that. Check your connection and try again.";
+  } else {
+    accountMsg.weekly = want
+      ? "You\u2019ll get it on Monday mornings."
+      : "You won\u2019t get the weekly email anymore.";
   }
-  msg.textContent = want
-    ? "You\u2019ll get it on Monday mornings."
-    : "You won\u2019t get the weekly email anymore.";
+  rerenderAccount("account-weekly");
 }
 
 // Handles ?beta=email and ?unsubscribe=<token> from links, then cleans the URL.
@@ -3223,9 +3227,8 @@ async function syncSignOut() {
   catch (e) { /* the local session is cleared either way */ }
   syncUser = null;
   syncLastAt = 0;
-  const dlg = document.getElementById("sync-dialog");
-  if (dlg && dlg.open) dlg.close();
-  renderAuthSlot();
+  resetAccountState();
+  rerenderAccount();
 }
 
 async function probeHost() {
@@ -4401,6 +4404,7 @@ function render() {
   document.getElementById("view-digest").className = tab === "digest" ? "" : "hidden";
   document.getElementById("view-saved").className = tab === "saved" ? "" : "hidden";
   document.getElementById("view-taste").className = tab === "taste" ? "" : "hidden";
+  document.getElementById("view-account").className = tab === "account" ? "" : "hidden";
 
   const q = ranked.filter((it) => !profile.ratings[it.id]).length;
   document.querySelector('[data-tab="digest"]').textContent = "Digest" + (q ? " (" + q + ")" : "");
@@ -4409,7 +4413,8 @@ function render() {
 
   if (tab === "digest") renderDigest();
   else if (tab === "saved") renderSaved();
-  else renderTaste();
+  else if (tab === "taste") renderTaste();
+  else if (tab === "account") renderAccount();
   renderAuthSlot();
   syncSelDots(sliding);
   queueHeroMorph();
