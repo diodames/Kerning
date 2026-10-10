@@ -240,11 +240,13 @@
     justify-content: space-between;
     gap: 16px;
   }
-  #view-saved .controls .btn {
-    flex-shrink: 0;
-    white-space: nowrap;
+  .saved-acts {
+    display: flex; flex-wrap: wrap; gap: 4px 22px;
     margin-inline-start: auto;
   }
+  .saved-acts .btn { flex-shrink: 0; white-space: nowrap; }
+  .saved-add { margin: 12px 0 20px; }
+  .saved-add .tadd { margin-top: 0; }
   #saved-list .meta time { font-variant-numeric: tabular-nums; }
   .range { position: relative; display: flex; gap: 20px; align-items: center; }
   .chip, .btn, .link, .text-act {
@@ -1328,6 +1330,7 @@ let digestPack = null;
 let packItems = [];
 let cadence = "weekly";
 let savedSort = "newest";
+let savedAddOpen = false;
 let hostedMode = false;
 let me = null;
 let putTimer = 0;
@@ -3615,18 +3618,30 @@ function bindSavedForm() {
       input.focus();
       return;
     }
+    closeSavedAdd();
+  };
+  form.onkeydown = function (e) {
+    if (e.key !== "Escape" || !document.getElementById("saved-add-toggle")) return;
+    e.preventDefault();
+    closeSavedAdd();
   };
 }
 
+function closeSavedAdd() {
+  savedAddOpen = false;
+  render();
+  const toggle = document.getElementById("saved-add-toggle");
+  if (toggle) toggle.focus();
+}
+
 function savedFormHTML() {
-  return '<section class="tsec" aria-labelledby="saved-add-h">'
-    + '<h2 id="saved-add-h">Save an article</h2>'
+  return '<div class="saved-add" id="saved-add">'
     + '<form class="tadd" id="add-saved">'
     + '<div class="tfield"><label for="saved-input">Article URL</label>'
     + '<input id="saved-input" name="saved" type="text" inputmode="url" spellcheck="false" '
     + 'autocomplete="off" placeholder="https://" aria-describedby="saved-err"></div>'
     + '<button type="submit" class="btn">Save article</button></form>'
-    + '<p class="field-err" id="saved-err" role="status"></p></section>';
+    + '<p class="field-err" id="saved-err" role="status"></p></div>';
 }
 
 function bindSavedSort() {
@@ -3658,13 +3673,11 @@ function bindSavedSort() {
 
 function renderSaved() {
   const el = document.getElementById("view-saved");
-  const form = savedFormHTML();
   if (!profile.saved.length) {
-    el.innerHTML = form
-      + '<section class="tsec tsec--ruled" aria-labelledby="saved-list-h">'
+    el.innerHTML = '<section class="tsec" aria-labelledby="saved-list-h">'
       + '<h2 id="saved-list-h">Reading list</h2>'
-      + '<p class="note">Nothing saved yet. Paste a URL of something you want to&nbsp;read, '
-      + "or save a story from the&nbsp;digest.</p></section>";
+      + '<p class="note">Nothing saved yet. Save a story from the digest, or add a link&nbsp;below.</p>'
+      + savedFormHTML() + "</section>";
     bindSavedForm();
     return;
   }
@@ -3677,17 +3690,26 @@ function renderSaved() {
     + '" role="radio" aria-checked="' + (savedSort === "oldest" ? "true" : "false")
     + '" data-saved-sort="oldest">Oldest</button>'
     + '<span class="sel-dot" aria-hidden="true"></span></div>';
-  el.innerHTML = form
-    + '<section class="tsec tsec--ruled" aria-labelledby="saved-list-h">'
+  el.innerHTML = '<section class="tsec" aria-labelledby="saved-list-h">'
     + '<h2 id="saved-list-h">Reading list</h2>'
     + '<div class="controls">'
     + (profile.saved.length > 1 ? sort : "")
-    + '<button type="button" class="btn" id="copy-md">Copy as markdown</button></div>'
+    + '<div class="saved-acts">'
+    + '<button type="button" class="btn" id="saved-add-toggle" aria-controls="saved-add" aria-expanded="'
+    + (savedAddOpen ? "true" : "false") + '">Add link</button>'
+    + '<button type="button" class="btn" id="copy-md">Copy as markdown</button></div></div>'
+    + (savedAddOpen ? savedFormHTML() : "")
     + '<ul class="list" id="saved-list">'
     + rows.map((s) => savedItemHTML(s)).join("") + "</ul></section>";
 
   bindSavedForm();
   bindSavedSort();
+  document.getElementById("saved-add-toggle").onclick = function () {
+    savedAddOpen = !savedAddOpen;
+    render();
+    const target = document.getElementById(savedAddOpen ? "saved-input" : "saved-add-toggle");
+    if (target) target.focus();
+  };
   document.getElementById("copy-md").onclick = function () {
     const md = savedSorted().map((s) => "- [" + s.title + "](" + s.url + ")").join("\n");
     navigator.clipboard.writeText(md).then(() => {
