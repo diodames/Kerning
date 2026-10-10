@@ -473,8 +473,7 @@
   .tcol--spider .trow { display: none; }
   .spider-plot {
     position: relative;
-    width: min(100%, 28rem);
-    margin-inline: auto;
+    width: min(100%, 22rem);
     overflow: visible;
   }
   .spider-svg {
@@ -3782,7 +3781,7 @@ function tasteSpider(title, groups, color) {
       + '<p class="note">Nothing here yet.</p></div>';
   }
   const max = tasteRowMax(groups.map((g) => [g.id, g.sum]));
-  const W = 800, H = 600;
+  const W = 600, H = 600;
   const cx = W / 2, cy = H / 2;
   const rMin = 22, rMax = 168;
   const n = groups.length;
@@ -4228,7 +4227,23 @@ function spiderPeekHTML(terms, label) {
     + stories.map((s) => articleChip(s, s.dropAct, true)).join("") + "</ul>";
 }
 
+// Labels are sized in px while the plot scales, so line the leftmost label
+// text up with the heading edge by measuring rather than by viewBox maths.
+function alignSpider() {
+  const plot = document.querySelector(".spider-plot");
+  if (!plot || !plot.offsetParent) return;
+  plot.style.marginLeft = "";
+  const edge = (plot.closest(".tcol") || plot.parentNode).getBoundingClientRect().left;
+  let min = Infinity;
+  plot.querySelectorAll(".spider-term").forEach((t) => {
+    const pad = parseFloat(getComputedStyle(t).paddingLeft) || 0;
+    min = Math.min(min, t.getBoundingClientRect().left + pad - edge);
+  });
+  if (isFinite(min) && Math.abs(min) >= 1) plot.style.marginLeft = -Math.round(min) + "px";
+}
+
 function bindSpider() {
+  alignSpider();
   const root = document.querySelector(".spider");
   if (!root) return;
   const peek = document.getElementById("spider-peek");
@@ -4657,9 +4672,11 @@ function queueHeroMorph() {
 boot();
 window.addEventListener("resize", function () {
   syncSelDots(null);
+  alignSpider();
   heroMorphFrom = null;
   queueHeroMorph();
 });
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(alignSpider);
 window.addEventListener("scroll", queueHeroMorph, { passive: true });
 if (reduceHeroMotion.addEventListener) {
   reduceHeroMotion.addEventListener("change", applyHeroMorph);
