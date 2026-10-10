@@ -2122,7 +2122,18 @@ function addArticle(raw) {
 }
 
 function removeArticle(id) {
+  const article = (profile.seeds.articles || []).find((a) => a.id === id);
   profile.seeds.articles = profile.seeds.articles.filter((a) => a.id !== id);
+  if (article) {
+    const c = canonUrl(article.url);
+    Object.keys(profile.ratings).forEach((rid) => {
+      const rec = profile.ratings[rid];
+      if (rec && rec.r > 0 && c && canonUrl(rec.url) === c) {
+        delete profile.ratings[rid];
+        delete justRated[rid];
+      }
+    });
+  }
   persistTaste();
 }
 
@@ -2415,16 +2426,13 @@ function confirmDigestRate(btn, item, value) {
   if (!itemEl || itemEl.dataset.busy === "1") return;
   const fromSaved = !!itemEl.closest("#saved-list");
   const rec = profile.ratings[item.id];
-  if (fromSaved && rec && Math.sign(rec.r) === value) {
+  if (fromSaved && value < 0 && rec && rec.r < 0) {
     undo(item);
     return;
   }
-  if (fromSaved && value > 0) {
-    rate(item, value);
-    return;
-  }
   function commit() {
-    if (fromSaved && value < 0) {
+    if (fromSaved && value > 0) moveSavedToTaste(item);
+    else if (fromSaved && value < 0) {
       const i = savedIndex(item);
       if (i >= 0) profile.saved.splice(i, 1);
     }
@@ -2442,6 +2450,26 @@ function confirmDigestRate(btn, item, value) {
     itemEl.classList.add("item--exiting");
     window.setTimeout(function () { commit(); }, 160);
   }, 180);
+}
+
+// A liked saved story leaves the reading list and joins Articles you like.
+function moveSavedToTaste(item) {
+  const url = normalizeArticleUrl(item.url || "");
+  if (url) {
+    const id = articleId(url);
+    const canon = canonUrl(url);
+    const have = (profile.seeds.articles || []).some((a) => a.id === id || canonUrl(a.url) === canon);
+    if (!have) {
+      profile.seeds.articles.unshift({
+        id: id,
+        url: url,
+        title: item.title || titleFromUrl(url),
+        addedAt: Date.now(),
+      });
+    }
+  }
+  const i = savedIndex(item);
+  if (i >= 0) profile.saved.splice(i, 1);
 }
 
 function findActItem(id) {

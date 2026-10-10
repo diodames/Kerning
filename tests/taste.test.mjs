@@ -46,6 +46,20 @@ test("ratings move weights; downvotes skip the site token", () => {
   assert.equal(w["site:plug.example"], undefined);
 });
 
+test("a liked story listed under articles counts once", () => {
+  const url = "https://type.example/a";
+  const p = profile({
+    ratings: { a: { r: 1, title: "Typography basics", url: url } },
+    seeds: { people: [], resources: [], articles: [{ id: "art:" + url, url: url, title: "Typography basics" }] },
+  });
+  const both = buildWeights(p, []);
+  const ratedOnly = buildWeights(profile({
+    ratings: { a: { r: 1, title: "Typography basics", url: url } },
+  }), []);
+  assert.equal(both.typography, ratedOnly.typography);
+  assert.equal(both["site:type.example"], 1);
+});
+
 test("without learned taste the published picks come back unchanged", () => {
   const picks = [item("1", "One", "https://a.example/1"), item("2", "Two", "https://b.example/2")];
   const cands = picks.concat([item("3", "Typography", "https://c.example/3", { score: 50 })]);

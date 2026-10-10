@@ -122,8 +122,11 @@
         weights[t] = clamp((weights[t] || 0) + delta, -6, 6);
       });
     }
+    const articleCanons = {};
     (seeds.articles || []).forEach((a) => {
       if (!a || !a.url) return;
+      const c = canonUrl(a.url);
+      if (c) articleCanons[c] = true;
       bump(tokensOf({ title: a.title || "", url: a.url }), 1);
     });
     (seeds.people || []).forEach((p) => {
@@ -149,6 +152,8 @@
       };
       let toks = tokensOf(item);
       if (rec.r < 0) toks = toks.filter((t) => t.indexOf("site:") !== 0);
+      // A liked story that also sits in Articles you like is one signal.
+      else if (articleCanons[canonUrl(item.url)]) return;
       bump(toks, rec.r);
     });
     return weights;
