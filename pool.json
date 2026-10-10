@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T12:28:09.295608+00:00",
+  "updated_at": "2026-10-10T18:33:07.524410+00:00",
   "items": {
     "https://developer.apple.com/pass-designer": {
       "key": "https://developer.apple.com/pass-designer",
@@ -19,7 +19,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design": {
       "key": "https://news.synopsys.com/2026-09-30-OpenAI-and-Synopsys-Announce-GPT-Synopsys-Frontier-Intelligence-to-Revolutionize-Chip-Design",
@@ -39,7 +39,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://gadgetreview.com/apples-clean-design-is-stupidity-when-it-comes-to-hiding-fire-extinguishers": {
       "key": "https://gadgetreview.com/apples-clean-design-is-stupidity-when-it-comes-to-hiding-fire-extinguishers",
@@ -59,7 +59,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://gwern.net/doc/design/2026-10-03-gwern-samon.html": {
       "key": "https://gwern.net/doc/design/2026-10-03-gwern-samon.html",
@@ -79,7 +79,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://opentelemetry.io/blog/2026/otel-native-by-design": {
       "key": "https://opentelemetry.io/blog/2026/otel-native-by-design",
@@ -90,7 +90,7 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 61,
+      "points": 62,
       "comments": 10,
       "ts": 1791528885.0,
       "curated": false,
@@ -99,7 +99,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://sudo.music/": {
       "key": "https://sudo.music/",
@@ -119,7 +119,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://svg-spark.vercel.app/": {
       "key": "https://svg-spark.vercel.app/",
@@ -139,7 +139,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://reddit.com/r/firefox/comments/1wzzk6l/mozilla_met_with_microsoft_to_discuss_their": {
       "key": "https://reddit.com/r/firefox/comments/1wzzk6l/mozilla_met_with_microsoft_to_discuss_their",
@@ -159,7 +159,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://reuters.com/business/energy/canada-fast-track-oil-pipeline-designed-diversify-economy-away-us-2026-10-01": {
       "key": "https://reuters.com/business/energy/canada-fast-track-oil-pipeline-designed-diversify-economy-away-us-2026-10-01",
@@ -179,7 +179,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://tomshardware.com/tech-industry/artificial-intelligence/ai-agent-designs-a-complete-risc-v-cpu-from-a-219-word-spec-in-just-12-hours": {
       "key": "https://tomshardware.com/tech-industry/artificial-intelligence/ai-agent-designs-a-complete-risc-v-cpu-from-a-219-word-spec-in-just-12-hours",
@@ -199,7 +199,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=50004434": {
       "key": "https://news.ycombinator.com/item?id=50004434",
@@ -219,7 +219,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://quesma.com/blog/invisible-cities-one-shot": {
       "key": "https://quesma.com/blog/invisible-cities-one-shot",
@@ -239,7 +239,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://chat.extrudeai.com/": {
       "key": "https://chat.extrudeai.com/",
@@ -259,7 +259,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://ultimatedotcom.com/": {
       "key": "https://ultimatedotcom.com/",
@@ -279,7 +279,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins": {
       "key": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins",
@@ -299,7 +299,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://vedgupta.in/blog/system-design-in-depth": {
       "key": "https://vedgupta.in/blog/system-design-in-depth",
@@ -319,7 +319,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/dplanitzer/Serena": {
       "key": "https://github.com/dplanitzer/Serena",
@@ -339,7 +339,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://mastodon.social/@tonofcrates/117241380083291749": {
       "key": "https://mastodon.social/@tonofcrates/117241380083291749",
@@ -359,7 +359,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis": {
       "key": "https://arstechnica.com/cars/2026/10/can-good-design-stop-content-creators-from-having-sex-in-robotaxis",
@@ -379,7 +379,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lexifina.com/blog/agent-guis": {
       "key": "https://lexifina.com/blog/agent-guis",
@@ -399,7 +399,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://jgthms.com/web-design-in-4-minutes": {
       "key": "https://jgthms.com/web-design-in-4-minutes",
@@ -419,7 +419,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lacma.org/art/exhibition/home-future-1925-1985-designing-domestic-utopias": {
       "key": "https://lacma.org/art/exhibition/home-future-1925-1985-designing-domestic-utopias",
@@ -439,7 +439,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://portlandaiworks.com/articles/local-model-harness-for-mcp": {
       "key": "https://portlandaiworks.com/articles/local-model-harness-for-mcp",
@@ -459,7 +459,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://amazon.com/dp/0201479605": {
       "key": "https://amazon.com/dp/0201479605",
@@ -479,7 +479,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://type.lol/studies/where-type-comes-from": {
       "key": "https://type.lol/studies/where-type-comes-from",
@@ -499,7 +499,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world": {
       "key": "https://lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
@@ -519,7 +519,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://youtube.com/watch?v=xk3UcgbbmxQ": {
       "key": "https://youtube.com/watch?v=xk3UcgbbmxQ",
@@ -539,7 +539,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://editui.app/": {
       "key": "https://editui.app/",
@@ -559,7 +559,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://orbeez-kit.vercel.app/chat": {
       "key": "https://orbeez-kit.vercel.app/chat",
@@ -579,7 +579,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://calmtech.com/papers/designing-calm-technology": {
       "key": "https://calmtech.com/papers/designing-calm-technology",
@@ -599,7 +599,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/alexwkleung/reika": {
       "key": "https://github.com/alexwkleung/reika",
@@ -619,7 +619,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://llmtobinary.com/": {
       "key": "https://llmtobinary.com/",
@@ -639,7 +639,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://fieldwork.software/eval/icon-design": {
       "key": "https://fieldwork.software/eval/icon-design",
@@ -659,7 +659,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://design.google/library/noto-3d-emoji-design": {
       "key": "https://design.google/library/noto-3d-emoji-design",
@@ -679,7 +679,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://dl.acm.org/doi/10.1145/3829807.3829910": {
       "key": "https://dl.acm.org/doi/10.1145/3829807.3829910",
@@ -699,7 +699,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://draganbabic.com/blog/design-is-a-nice-to-have": {
       "key": "https://draganbabic.com/blog/design-is-a-nice-to-have",
@@ -720,7 +720,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://pingjobs.co/cv-builder": {
       "key": "https://pingjobs.co/cv-builder",
@@ -780,7 +780,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://typeincube.com/": {
       "key": "https://typeincube.com/",
@@ -791,8 +791,8 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 25,
-      "comments": 3,
+      "points": 48,
+      "comments": 10,
       "ts": 1791488479.0,
       "curated": false,
       "always_relevant": false,
@@ -800,7 +800,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://inspenet.com/en/articles/muon-tomography-inspection-and-monitoring": {
       "key": "https://inspenet.com/en/articles/muon-tomography-inspection-and-monitoring",
@@ -820,7 +820,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://paper.design/mono": {
       "key": "https://paper.design/mono",
@@ -840,7 +840,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://typesafe.ai/blog/series-ai": {
       "key": "https://typesafe.ai/blog/series-ai",
@@ -851,8 +851,8 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 383,
-      "comments": 294,
+      "points": 422,
+      "comments": 336,
       "ts": 1791565351.0,
       "curated": false,
       "always_relevant": false,
@@ -860,7 +860,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://youtube.com/watch?v=L3KoK0gqekY": {
       "key": "https://youtube.com/watch?v=L3KoK0gqekY",
@@ -880,7 +880,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://huggingface.co/spaces/multimodalart/jev-decision-index": {
       "key": "https://huggingface.co/spaces/multimodalart/jev-decision-index",
@@ -900,7 +900,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://wsj.com/tech/ai/startup-typesafe-ais-jev-model-sparks-copycats-talk-of-llm-alternatives-e39ff57d": {
       "key": "https://wsj.com/tech/ai/startup-typesafe-ais-jev-model-sparks-copycats-talk-of-llm-alternatives-e39ff57d",
@@ -960,7 +960,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://vercel.com/i/jev-vs-perplexity": {
       "key": "https://vercel.com/i/jev-vs-perplexity",
@@ -980,7 +980,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/huemorgan2/say-hi": {
       "key": "https://github.com/huemorgan2/say-hi",
@@ -1000,7 +1000,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/jeremyipark/vision-demos/tree/main/deadlift": {
       "key": "https://github.com/jeremyipark/vision-demos/tree/main/deadlift",
@@ -1020,7 +1020,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://jurl.dev/": {
       "key": "https://jurl.dev/",
@@ -1040,7 +1040,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/mkly/jev-bisect": {
       "key": "https://github.com/mkly/jev-bisect",
@@ -1060,7 +1060,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/sayrud/sayrud": {
       "key": "https://github.com/sayrud/sayrud",
@@ -1100,7 +1100,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/szabadkai/c64-keyboard-font": {
       "key": "https://github.com/szabadkai/c64-keyboard-font",
@@ -1120,7 +1120,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://imgur.com/a/fAXxUcJ": {
       "key": "https://imgur.com/a/fAXxUcJ",
@@ -1140,7 +1140,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://tegaki.ink/": {
       "key": "https://tegaki.ink/",
@@ -1160,7 +1160,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blog.velocifyer.com/Posts/3,How%20to%20self%20host%20a%20font%20from%20google%20fonts": {
       "key": "https://blog.velocifyer.com/Posts/3,How%20to%20self%20host%20a%20font%20from%20google%20fonts",
@@ -1180,7 +1180,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lockywolf.net/2025-04-15_fonts-guide-for-2025.d/index.html": {
       "key": "https://lockywolf.net/2025-04-15_fonts-guide-for-2025.d/index.html",
@@ -1200,7 +1200,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blog.velocifyer.com/Posts/8,How%20to%20self-host%20a%20font%20from%20Google%20Fonts,%20the%20easy%20way,%20via%20NPM": {
       "key": "https://blog.velocifyer.com/Posts/8,How%20to%20self-host%20a%20font%20from%20Google%20Fonts,%20the%20easy%20way,%20via%20NPM",
@@ -1220,7 +1220,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://matiasmobilia.substack.com/p/how-do-you-keep-500-years-of-heritage": {
       "key": "https://matiasmobilia.substack.com/p/how-do-you-keep-500-years-of-heritage",
@@ -1240,7 +1240,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/DoctorEww/EvilFontTool": {
       "key": "https://github.com/DoctorEww/EvilFontTool",
@@ -1260,7 +1260,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/nicoverbruggen/libron": {
       "key": "https://github.com/nicoverbruggen/libron",
@@ -1280,7 +1280,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=49928454": {
       "key": "https://news.ycombinator.com/item?id=49928454",
@@ -1300,7 +1300,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://chromewebstore.google.com/detail/hush-a-beautiful-reader-m/ccpcpcolgkpbcljphckfcfigfbdjknpb": {
       "key": "https://chromewebstore.google.com/detail/hush-a-beautiful-reader-m/ccpcpcolgkpbcljphckfcfigfbdjknpb",
@@ -1320,7 +1320,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=49934491": {
       "key": "https://news.ycombinator.com/item?id=49934491",
@@ -1340,7 +1340,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://konstruukt.com/projects/qlcodepreview": {
       "key": "https://konstruukt.com/projects/qlcodepreview",
@@ -1360,7 +1360,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://frontstageexit.com/p/robin-hanson-begs-you-to-please-use": {
       "key": "https://frontstageexit.com/p/robin-hanson-begs-you-to-please-use",
@@ -1380,7 +1380,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://datapuddle.app/": {
       "key": "https://datapuddle.app/",
@@ -1400,7 +1400,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nngroup.com/articles/two-ux-gulfs-evaluation-execution": {
       "key": "https://nngroup.com/articles/two-ux-gulfs-evaluation-execution",
@@ -1420,7 +1420,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://vuetech.sh/careers": {
       "key": "https://vuetech.sh/careers",
@@ -1440,7 +1440,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://chronophase.vercel.app/": {
       "key": "https://chronophase.vercel.app/",
@@ -1460,7 +1460,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://interactionmagic.com/UX-LEGO-Interfaces": {
       "key": "https://interactionmagic.com/UX-LEGO-Interfaces",
@@ -1480,7 +1480,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://scimigo.com/en/learn/build-with-python/01-draw-with-python": {
       "key": "https://scimigo.com/en/learn/build-with-python/01-draw-with-python",
@@ -1500,7 +1500,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://ostra.fm/learn": {
       "key": "https://ostra.fm/learn",
@@ -1520,7 +1520,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://apps.apple.com/us/app/halo-personal-ai/id6783715054": {
       "key": "https://apps.apple.com/us/app/halo-personal-ai/id6783715054",
@@ -1540,7 +1540,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=50004192": {
       "key": "https://news.ycombinator.com/item?id=50004192",
@@ -1560,7 +1560,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://tunefuse.app/": {
       "key": "https://tunefuse.app/",
@@ -1580,7 +1580,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://design.helpmarq.com/": {
       "key": "https://design.helpmarq.com/",
@@ -1600,7 +1600,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://temeculadsp.com/nibbi/play": {
       "key": "https://temeculadsp.com/nibbi/play",
@@ -1620,7 +1620,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://products.n0agi.com/ytd": {
       "key": "https://products.n0agi.com/ytd",
@@ -1640,7 +1640,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://composeunstyled.com/": {
       "key": "https://composeunstyled.com/",
@@ -1660,7 +1660,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=49987478": {
       "key": "https://news.ycombinator.com/item?id=49987478",
@@ -1680,7 +1680,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://mistis.tech/": {
       "key": "https://mistis.tech/",
@@ -1700,7 +1700,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/fjosue4/trace-ux": {
       "key": "https://github.com/fjosue4/trace-ux",
@@ -1720,7 +1720,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://pravda.com.ua/eng/news/2026/10/04/8056442": {
       "key": "https://pravda.com.ua/eng/news/2026/10/04/8056442",
@@ -1740,7 +1740,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nytimes.com/2026/10/05/opinion/ada-lovelace-ai.html": {
       "key": "https://nytimes.com/2026/10/05/opinion/ada-lovelace-ai.html",
@@ -1760,7 +1760,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blog.pkh.me/p/49-float-and-integer-arithmetic-follow-two-different-paradigms.html": {
       "key": "https://blog.pkh.me/p/49-float-and-integer-arithmetic-follow-two-different-paradigms.html",
@@ -1780,7 +1780,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://medium.com/@Abby.Gruen/steve-wirts-a-pioneer-in-building-user-interfaces-for-kdb-q-e1c85eb707d6": {
       "key": "https://medium.com/@Abby.Gruen/steve-wirts-a-pioneer-in-building-user-interfaces-for-kdb-q-e1c85eb707d6",
@@ -1800,7 +1800,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://yedric.ai/": {
       "key": "https://yedric.ai/",
@@ -1820,7 +1820,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://television.run/": {
       "key": "https://television.run/",
@@ -1840,7 +1840,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/ArcadeMakerSources/ArcadeMaker/tree/master/src/Exp": {
       "key": "https://github.com/ArcadeMakerSources/ArcadeMaker/tree/master/src/Exp",
@@ -1860,7 +1860,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/longsurf-ai/openchart": {
       "key": "https://github.com/longsurf-ai/openchart",
@@ -1880,7 +1880,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://buzzcrow.github.io/blog/run-iceberg-in-one-container": {
       "key": "https://buzzcrow.github.io/blog/run-iceberg-in-one-container",
@@ -1920,7 +1920,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv": {
       "key": "https://againstallodds.games/blog/2026/10/03/our-risc-v-emulator-pasriscv",
@@ -1940,7 +1940,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=50017223": {
       "key": "https://news.ycombinator.com/item?id=50017223",
@@ -1980,7 +1980,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://thoreaubasic.com/": {
       "key": "https://thoreaubasic.com/",
@@ -2000,7 +2000,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://seven.systems/xequence2/demo/demo-deploy/www/index.html": {
       "key": "https://seven.systems/xequence2/demo/demo-deploy/www/index.html",
@@ -2060,7 +2060,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no": {
       "key": "https://technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no",
@@ -2100,7 +2100,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://abyss.scurry.io/": {
       "key": "https://abyss.scurry.io/",
@@ -2144,7 +2144,7 @@
       "sharers": 2,
       "share_engagement": 184,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://fireborn.mataroa.blog/blog/google-still-cant-make-an-accessibility-menu-accessible": {
       "key": "https://fireborn.mataroa.blog/blog/google-still-cant-make-an-accessibility-menu-accessible",
@@ -2164,7 +2164,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live": {
       "key": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live",
@@ -2184,7 +2184,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/allchemylabs/aether-wcag-scanner": {
       "key": "https://github.com/allchemylabs/aether-wcag-scanner",
@@ -2204,7 +2204,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://cassidoo.co/post/accessibility-and-the-internet": {
       "key": "https://cassidoo.co/post/accessibility-and-the-internet",
@@ -2224,7 +2224,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/imshaikot/browsentic": {
       "key": "https://github.com/imshaikot/browsentic",
@@ -2244,7 +2244,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://accessibility.github.com/documentation/guide/issues": {
       "key": "https://accessibility.github.com/documentation/guide/issues",
@@ -2264,7 +2264,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://jzleetcode.github.io/posts/design-how-ssds-work-internally": {
       "key": "https://jzleetcode.github.io/posts/design-how-ssds-work-internally",
@@ -2284,7 +2284,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lukew.com/ff/2164/design-systems-for-ai-agents": {
       "key": "https://lukew.com/ff/2164/design-systems-for-ai-agents",
@@ -2304,7 +2304,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://vitadesignsystem.com/": {
       "key": "https://vitadesignsystem.com/",
@@ -2324,7 +2324,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era": {
       "key": "https://mate.security/labs/a-design-system-in-and-for-the-agentic-era",
@@ -2344,7 +2344,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://cell.com/joule/fulltext/S2542-4351(26)00362-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2542435126003624%3Fshowall%3Dtruee%2Fpii%2FS2542435126003624%3Fshowall%3Dtrue": {
       "key": "https://cell.com/joule/fulltext/S2542-4351(26)00362-4?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2542435126003624%3Fshowall%3Dtruee%2Fpii%2FS2542435126003624%3Fshowall%3Dtrue",
@@ -2364,7 +2364,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://statecraftapp.com/field-notes/first-class-on-a-ryanair-budget": {
       "key": "https://statecraftapp.com/field-notes/first-class-on-a-ryanair-budget",
@@ -2384,7 +2384,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://stayleet.com/": {
       "key": "https://stayleet.com/",
@@ -2404,7 +2404,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://railcode.dev/": {
       "key": "https://railcode.dev/",
@@ -2424,7 +2424,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://medium.com/quantumblack/what-changes-when-your-design-system-can-talk-to-an-ai-0a856b3c40d9": {
       "key": "https://medium.com/quantumblack/what-changes-when-your-design-system-can-talk-to-an-ai-0a856b3c40d9",
@@ -2444,7 +2444,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://harut8.github.io/system-design/python-mastery/24-the-gil": {
       "key": "https://harut8.github.io/system-design/python-mastery/24-the-gil",
@@ -2464,7 +2464,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/PhreshOS/system": {
       "key": "https://github.com/PhreshOS/system",
@@ -2484,7 +2484,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/dmitry-markin/silta": {
       "key": "https://github.com/dmitry-markin/silta",
@@ -2504,7 +2504,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://alcubi.ai/delegator": {
       "key": "https://alcubi.ai/delegator",
@@ -2524,7 +2524,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://twitter.com/GayaniFigma/status/2105295629941350454": {
       "key": "https://twitter.com/GayaniFigma/status/2105295629941350454",
@@ -2544,7 +2544,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/ctxrs/figma-server": {
       "key": "https://github.com/ctxrs/figma-server",
@@ -2564,7 +2564,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://usetode.dev/": {
       "key": "https://usetode.dev/",
@@ -2584,7 +2584,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://livenson.github.io/ficmap?world=game-of-thrones": {
       "key": "https://livenson.github.io/ficmap?world=game-of-thrones",
@@ -2604,7 +2604,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/alexellis/rigmark": {
       "key": "https://github.com/alexellis/rigmark",
@@ -2624,7 +2624,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/vigmarcarlo/OntoPrune": {
       "key": "https://github.com/vigmarcarlo/OntoPrune",
@@ -2644,7 +2644,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=49999930": {
       "key": "https://news.ycombinator.com/item?id=49999930",
@@ -2664,7 +2664,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://kenforthewin.github.io/blog/posts/llm-nethack-ascension": {
       "key": "https://kenforthewin.github.io/blog/posts/llm-nethack-ascension",
@@ -2684,7 +2684,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://cssbed.com/": {
       "key": "https://cssbed.com/",
@@ -2704,7 +2704,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=49950772": {
       "key": "https://news.ycombinator.com/item?id=49950772",
@@ -2724,7 +2724,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://upfling.host/": {
       "key": "https://upfling.host/",
@@ -2744,7 +2744,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://css.earth/": {
       "key": "https://css.earth/",
@@ -2765,9 +2765,9 @@
         "joshwcomeau.com"
       ],
       "sharers": 1,
-      "share_engagement": 226,
+      "share_engagement": 234,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://cssv.dev/": {
       "key": "https://cssv.dev/",
@@ -2787,7 +2787,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nucleus.excom.dev/": {
       "key": "https://nucleus.excom.dev/",
@@ -2807,7 +2807,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://andreasmoller.dk/blog/why-we-still-argue-over-css": {
       "key": "https://andreasmoller.dk/blog/why-we-still-argue-over-css",
@@ -2827,7 +2827,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://shub.club/writings/2026/october/adventures-in-filters": {
       "key": "https://shub.club/writings/2026/october/adventures-in-filters",
@@ -2847,7 +2847,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://frutjam.com/": {
       "key": "https://frutjam.com/",
@@ -2867,7 +2867,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://gss-lang.dev/": {
       "key": "https://gss-lang.dev/",
@@ -2887,7 +2887,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://allthingssmitty.com/2026/10/05/css-does-your-tooltip-positioning-now": {
       "key": "https://allthingssmitty.com/2026/10/05/css-does-your-tooltip-positioning-now",
@@ -2907,7 +2907,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/BuildABrowser/BuildABrowser": {
       "key": "https://github.com/BuildABrowser/BuildABrowser",
@@ -2927,7 +2927,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://balintmagyar.com/articles/google-web-designer-css-injection-client-rce": {
       "key": "https://balintmagyar.com/articles/google-web-designer-css-injection-client-rce",
@@ -2947,7 +2947,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=49988056": {
       "key": "https://news.ycombinator.com/item?id=49988056",
@@ -2967,7 +2967,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blog.master.dev/transferring-sibling-count-to-a-parent-element": {
       "key": "https://blog.master.dev/transferring-sibling-count-to-a-parent-element",
@@ -2987,7 +2987,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blog.master.dev/fallbacks-for-css-progress": {
       "key": "https://blog.master.dev/fallbacks-for-css-progress",
@@ -3007,7 +3007,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://wired.com/story/justice-for-css": {
       "key": "https://wired.com/story/justice-for-css",
@@ -3027,7 +3027,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/graphene-data/graphene": {
       "key": "https://github.com/graphene-data/graphene",
@@ -3039,7 +3039,7 @@
         "Hacker News"
       ],
       "points": 32,
-      "comments": 11,
+      "comments": 12,
       "ts": 1790890192.0,
       "curated": false,
       "always_relevant": false,
@@ -3047,7 +3047,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://designobo.com/": {
       "key": "https://designobo.com/",
@@ -3067,7 +3067,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blog.gitbutler.com/git-3-sha-256": {
       "key": "https://blog.gitbutler.com/git-3-sha-256",
@@ -3087,7 +3087,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://zohaib.cc/blog/smartest-claude-code-feature": {
       "key": "https://zohaib.cc/blog/smartest-claude-code-feature",
@@ -3107,7 +3107,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://theguardian.com/world/2026/oct/05/russia-lab-worker-possibly-dies-of-plague-siberia-quarantine-measures-irkutsk": {
       "key": "https://theguardian.com/world/2026/oct/05/russia-lab-worker-possibly-dies-of-plague-siberia-quarantine-measures-irkutsk",
@@ -3127,7 +3127,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://jeremyreimer.com/rockets-item.lsp?f=true&p=272": {
       "key": "https://jeremyreimer.com/rockets-item.lsp?f=true&p=272",
@@ -3139,7 +3139,7 @@
         "Hacker News"
       ],
       "points": 187,
-      "comments": 89,
+      "comments": 90,
       "ts": 1791091032.0,
       "curated": false,
       "always_relevant": false,
@@ -3147,7 +3147,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform": {
       "key": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
@@ -3158,7 +3158,7 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 163,
+      "points": 164,
       "comments": 231,
       "ts": 1791376116.0,
       "curated": false,
@@ -3167,7 +3167,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://jacobg.co/emails-at-jacobg-co": {
       "key": "https://jacobg.co/emails-at-jacobg-co",
@@ -3187,7 +3187,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl": {
       "key": "https://theguardian.com/media/2026/oct/02/physical-media-fans-streaming-algorithms-cds-dvds-vinyl",
@@ -3227,7 +3227,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://joekarlsson.com/blog/homelab-two-years-later": {
       "key": "https://joekarlsson.com/blog/homelab-two-years-later",
@@ -3267,7 +3267,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://worksinprogress.co/issue/a-cops-case-for-flock": {
       "key": "https://worksinprogress.co/issue/a-cops-case-for-flock",
@@ -3287,7 +3287,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://windowslatest.com/2026/10/04/rising-cost-of-memory-microsoft-explains-why-windows-11-will-use-less-ram": {
       "key": "https://windowslatest.com/2026/10/04/rising-cost-of-memory-microsoft-explains-why-windows-11-will-use-less-ram",
@@ -3327,7 +3327,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://theregister.com/security/2026/10/06/trump-mobile-customers-data-dumped-and-some-never-even-received-their-gold-device/5301433": {
       "key": "https://theregister.com/security/2026/10/06/trump-mobile-customers-data-dumped-and-some-never-even-received-their-gold-device/5301433",
@@ -3367,7 +3367,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://bhuvanrj.me/portfolio/the-case-for-personal-software.html": {
       "key": "https://bhuvanrj.me/portfolio/the-case-for-personal-software.html",
@@ -3387,7 +3387,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://rte.ie/news/munster/2026/1007/1594475-strancally-castle-waterford": {
       "key": "https://rte.ie/news/munster/2026/1007/1594475-strancally-castle-waterford",
@@ -3407,7 +3407,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware": {
       "key": "https://bleepingcomputer.com/news/security/low-cost-android-phones-ship-with-residential-proxy-malware",
@@ -3427,7 +3427,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://wiyomi.com/": {
       "key": "https://wiyomi.com/",
@@ -3487,7 +3487,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://timeful.io/": {
       "key": "https://timeful.io/",
@@ -3507,7 +3507,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://crazy.eyad.com/": {
       "key": "https://crazy.eyad.com/",
@@ -3527,7 +3527,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/maplibre/maplibre-compose": {
       "key": "https://github.com/maplibre/maplibre-compose",
@@ -3547,7 +3547,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://soundscaper.org/": {
       "key": "https://soundscaper.org/",
@@ -3567,7 +3567,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://sidekins.com/": {
       "key": "https://sidekins.com/",
@@ -3607,7 +3607,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=50022532": {
       "key": "https://news.ycombinator.com/item?id=50022532",
@@ -3619,7 +3619,7 @@
         "Hacker News"
       ],
       "points": 3,
-      "comments": 0,
+      "comments": 1,
       "ts": 1791561924.0,
       "curated": false,
       "always_relevant": false,
@@ -3627,7 +3627,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/dimonomid/montray": {
       "key": "https://github.com/dimonomid/montray",
@@ -3647,7 +3647,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://energyicons.com/": {
       "key": "https://energyicons.com/",
@@ -3667,7 +3667,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blog.jim-nielsen.com/2026/app-icon-hoa": {
       "key": "https://blog.jim-nielsen.com/2026/app-icon-hoa",
@@ -3687,7 +3687,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://runeicons.com/": {
       "key": "https://runeicons.com/",
@@ -3707,7 +3707,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://science.org/content/article/how-did-rosalind-franklin-miss-helix-her-iconic-dna-image-she-didn-t": {
       "key": "https://science.org/content/article/how-did-rosalind-franklin-miss-helix-her-iconic-dna-image-she-didn-t",
@@ -3727,7 +3727,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://reddit.com/r/origami/comments/xymrdr/why_are_paper_cranes_so_iconic": {
       "key": "https://reddit.com/r/origami/comments/xymrdr/why_are_paper_cranes_so_iconic",
@@ -3747,7 +3747,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=49993551": {
       "key": "https://news.ycombinator.com/item?id=49993551",
@@ -3767,7 +3767,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://usekeel.io/how-it-works": {
       "key": "https://usekeel.io/how-it-works",
@@ -3787,7 +3787,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/Niko1221/Strata": {
       "key": "https://github.com/Niko1221/Strata",
@@ -3798,7 +3798,7 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 934,
+      "points": 935,
       "comments": 421,
       "ts": 1791118313.0,
       "curated": false,
@@ -3807,7 +3807,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://bigthink.com/books/a-fabulous-debt": {
       "key": "https://bigthink.com/books/a-fabulous-debt",
@@ -3827,7 +3827,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://frn.sh/pagetables": {
       "key": "https://frn.sh/pagetables",
@@ -3847,7 +3847,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being": {
       "key": "https://telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being",
@@ -3867,7 +3867,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness": {
       "key": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness",
@@ -3887,7 +3887,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://medium.com/@eslam.elsewedy/synthetic-truth-how-marketing-power-and-ai-bend-reality-cd8a1173b968": {
       "key": "https://medium.com/@eslam.elsewedy/synthetic-truth-how-marketing-power-and-ai-bend-reality-cd8a1173b968",
@@ -3907,7 +3907,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html": {
       "key": "https://nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
@@ -3927,7 +3927,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nytimes.com/2026/10/05/science/consciousness-brain-babies.html": {
       "key": "https://nytimes.com/2026/10/05/science/consciousness-brain-babies.html",
@@ -3947,7 +3947,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://a16z.com/100-gen-ai-apps-7": {
       "key": "https://a16z.com/100-gen-ai-apps-7",
@@ -3967,7 +3967,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://theguardian.com/us-news/live/2026/oct/07/christa-pike-lawyers-live-updates-tennessee-execution": {
       "key": "https://theguardian.com/us-news/live/2026/oct/07/christa-pike-lawyers-live-updates-tennessee-execution",
@@ -3987,7 +3987,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blog.rust-lang.org/inside-rust/2026/10/02/generic-const-args-and-you": {
       "key": "https://blog.rust-lang.org/inside-rust/2026/10/02/generic-const-args-and-you",
@@ -4007,7 +4007,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nytimes.com/2026/09/28/business/china-ev-geely-nio.html": {
       "key": "https://nytimes.com/2026/09/28/business/china-ev-geely-nio.html",
@@ -4027,7 +4027,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7567438": {
       "key": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7567438",
@@ -4047,7 +4047,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://reuters.com/business/energy/google-enters-massive-36-gw-power-deal-with-constellation-energy-2026-10-06": {
       "key": "https://reuters.com/business/energy/google-enters-massive-36-gw-power-deal-with-constellation-energy-2026-10-06",
@@ -4067,7 +4067,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://homefreesociology.com/2026/08/19/zoning-constraints-and-land-price-gradients": {
       "key": "https://homefreesociology.com/2026/08/19/zoning-constraints-and-land-price-gradients",
@@ -4087,7 +4087,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://machines.tivra.com/human": {
       "key": "https://machines.tivra.com/human",
@@ -4107,7 +4107,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://getprivisy.com/blog/sb-690-cipa-what-changed": {
       "key": "https://getprivisy.com/blog/sb-690-cipa-what-changed",
@@ -4318,8 +4318,8 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 908,
-      "comments": 201,
+      "points": 919,
+      "comments": 202,
       "ts": 1791337263.0,
       "curated": false,
       "always_relevant": false,
@@ -4327,7 +4327,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/Lionel-Lim/tax-map": {
       "key": "https://github.com/Lionel-Lim/tax-map",
@@ -4347,7 +4347,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://shun126.github.io/Mana/playground": {
       "key": "https://shun126.github.io/Mana/playground",
@@ -4367,7 +4367,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://wordminos.com/play-en.html": {
       "key": "https://wordminos.com/play-en.html",
@@ -4387,7 +4387,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://chetu.com/retail/product-information-management.php": {
       "key": "https://chetu.com/retail/product-information-management.php",
@@ -4407,7 +4407,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://promptowl.ai/resources/product-update-september-2026": {
       "key": "https://promptowl.ai/resources/product-update-september-2026",
@@ -4427,7 +4427,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/use-junction/usejunction": {
       "key": "https://github.com/use-junction/usejunction",
@@ -4447,18 +4447,18 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/insanai/sibuna": {
       "key": "https://github.com/insanai/sibuna",
       "url": "https://github.com/insanai/sibuna",
       "title": "Show HN: Sibuna an open source web application firewall with proof of work",
-      "discussion": "https://news.ycombinator.com/item?id=50015520",
+      "discussion": "https://news.ycombinator.com/item?id=50033878",
       "source": "Hacker News",
       "sources": [
         "Hacker News"
       ],
-      "points": 1,
+      "points": 3,
       "comments": 0,
       "ts": 1791454640.0,
       "curated": false,
@@ -4467,7 +4467,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-09T22:36:09.604907+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=49960159": {
       "key": "https://news.ycombinator.com/item?id=49960159",
@@ -4487,7 +4487,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://agent.reviews/": {
       "key": "https://agent.reviews/",
@@ -4498,7 +4498,7 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 71,
+      "points": 72,
       "comments": 49,
       "ts": 1791392351.0,
       "curated": false,
@@ -4507,7 +4507,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://onesvibe.app/": {
       "key": "https://onesvibe.app/",
@@ -4527,7 +4527,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://cliphou.se/": {
       "key": "https://cliphou.se/",
@@ -4547,7 +4547,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://higherlevel.to/": {
       "key": "https://higherlevel.to/",
@@ -4567,7 +4567,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/darshi1337/apogee": {
       "key": "https://github.com/darshi1337/apogee",
@@ -4578,7 +4578,7 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 64,
+      "points": 65,
       "comments": 2,
       "ts": 1791531379.0,
       "curated": false,
@@ -4587,7 +4587,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.lol/": {
       "key": "https://news.ycombinator.lol/",
@@ -4607,7 +4607,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://wpsleaderboard.ai/": {
       "key": "https://wpsleaderboard.ai/",
@@ -4627,7 +4627,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://ryadh.net/writing/the-engineering-minded-product-manager": {
       "key": "https://ryadh.net/writing/the-engineering-minded-product-manager",
@@ -4647,7 +4647,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://age-of-product.com/food-agile-thought-565-ai-age-manager": {
       "key": "https://age-of-product.com/food-agile-thought-565-ai-age-manager",
@@ -4667,7 +4667,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://puppet-master.xyz/": {
       "key": "https://puppet-master.xyz/",
@@ -4687,7 +4687,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://openhand.health/": {
       "key": "https://openhand.health/",
@@ -4707,7 +4707,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=50016052": {
       "key": "https://news.ycombinator.com/item?id=50016052",
@@ -4727,7 +4727,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/Obedience-Corp/camp": {
       "key": "https://github.com/Obedience-Corp/camp",
@@ -4759,7 +4759,7 @@
         "Hacker News"
       ],
       "points": 271,
-      "comments": 367,
+      "comments": 368,
       "ts": 1790866927.0,
       "curated": false,
       "always_relevant": false,
@@ -4767,7 +4767,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/patrickclery/awesomer": {
       "key": "https://github.com/patrickclery/awesomer",
@@ -4807,7 +4807,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://research.autodesk.com/blog/constrain-agent-not-user": {
       "key": "https://research.autodesk.com/blog/constrain-agent-not-user",
@@ -4827,7 +4827,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://tryrevline.com/": {
       "key": "https://tryrevline.com/",
@@ -4847,7 +4847,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://swesweep.com/": {
       "key": "https://swesweep.com/",
@@ -4867,7 +4867,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://daytab.com/": {
       "key": "https://daytab.com/",
@@ -4887,7 +4887,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ncsu.edu/2026/10/making-metal-alloys-with-eggshells": {
       "key": "https://news.ncsu.edu/2026/10/making-metal-alloys-with-eggshells",
@@ -5007,7 +5007,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=49922568": {
       "key": "https://news.ycombinator.com/item?id=49922568",
@@ -5019,7 +5019,7 @@
         "Hacker News"
       ],
       "points": 136,
-      "comments": 637,
+      "comments": 644,
       "ts": 1790866927.0,
       "curated": false,
       "always_relevant": false,
@@ -5027,7 +5027,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://innerloop.works/breadcrumb": {
       "key": "https://innerloop.works/breadcrumb",
@@ -5078,8 +5078,8 @@
       "sources": [
         "Lobsters"
       ],
-      "points": 37,
-      "comments": 8,
+      "points": 42,
+      "comments": 16,
       "ts": 1791556228.326,
       "curated": false,
       "always_relevant": false,
@@ -5087,7 +5087,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://earendil.com/posts/system-theme": {
       "key": "https://earendil.com/posts/system-theme",
@@ -5098,7 +5098,7 @@
       "sources": [
         "Lobsters"
       ],
-      "points": 19,
+      "points": 18,
       "comments": 5,
       "ts": 1791547689.491,
       "curated": false,
@@ -5107,7 +5107,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://thelibre.news/is-cosmic-de-mogging-kde-plasma": {
       "key": "https://thelibre.news/is-cosmic-de-mogging-kde-plasma",
@@ -5127,7 +5127,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://linuxiac.com/klassik-revives-the-kde-3-desktop-on-modern-plasma-6": {
       "key": "https://linuxiac.com/klassik-revives-the-kde-3-desktop-on-modern-plasma-6",
@@ -5147,7 +5147,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://etbe.coker.com.au/2026/10/09/en-html-org-scam-site": {
       "key": "https://etbe.coker.com.au/2026/10/09/en-html-org-scam-site",
@@ -5167,7 +5167,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://kennyqin.com/please-let-me-contact-you-privately": {
       "key": "https://kennyqin.com/please-let-me-contact-you-privately",
@@ -5187,7 +5187,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://zweiundeins.gmbh/en/blog/spa-vs-hypermedia-a-collaborative-kanban-board-measured-against-planka": {
       "key": "https://zweiundeins.gmbh/en/blog/spa-vs-hypermedia-a-collaborative-kanban-board-measured-against-planka",
@@ -5207,7 +5207,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://sheets.works/data-viz/holding-up-the-internet": {
       "key": "https://sheets.works/data-viz/holding-up-the-internet",
@@ -5218,7 +5218,7 @@
       "sources": [
         "Lobsters"
       ],
-      "points": 95,
+      "points": 97,
       "comments": 28,
       "ts": 1791447519.422,
       "curated": false,
@@ -5227,7 +5227,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://andersmurphy.com/2026/09/29/faster-streaming-html-with-batches-and-aggregates.html": {
       "key": "https://andersmurphy.com/2026/09/29/faster-streaming-html-with-batches-and-aggregates.html",
@@ -5247,7 +5247,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://dbushell.com/2026/10/07/sustainable-web-career": {
       "key": "https://dbushell.com/2026/10/07/sustainable-web-career",
@@ -5267,7 +5267,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://tangled.org/poacher.dev/spoonful": {
       "key": "https://tangled.org/poacher.dev/spoonful",
@@ -5287,7 +5287,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform": {
       "key": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform",
@@ -5307,7 +5307,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://molily.de/web-dev-education": {
       "key": "https://molily.de/web-dev-education",
@@ -5327,7 +5327,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lobste.rs/s/fujfew": {
       "key": "https://lobste.rs/s/fujfew",
@@ -5347,7 +5347,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://oliverdunk.com/2026/09/30/iana-reply": {
       "key": "https://oliverdunk.com/2026/09/30/iana-reply",
@@ -5367,7 +5367,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nngroup.com/articles/ai-assistant-context": {
       "key": "https://nngroup.com/articles/ai-assistant-context",
@@ -5387,7 +5387,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nngroup.com/articles/context-libraries": {
       "key": "https://nngroup.com/articles/context-libraries",
@@ -5407,7 +5407,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nngroup.com/articles/big-ball-of-mud-ai": {
       "key": "https://nngroup.com/articles/big-ball-of-mud-ai",
@@ -5427,7 +5427,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nngroup.com/articles/empathy-mapping": {
       "key": "https://nngroup.com/articles/empathy-mapping",
@@ -5447,7 +5447,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://smashingmagazine.com/2026/10/how-name-things": {
       "key": "https://smashingmagazine.com/2026/10/how-name-things",
@@ -5467,7 +5467,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://uxdesign.cc/teslers-law-complexity-survived-the-chat-field-it-just-moved-to-a-different-place-in-the-journey-8a63f099f490": {
       "key": "https://uxdesign.cc/teslers-law-complexity-survived-the-chat-field-it-just-moved-to-a-different-place-in-the-journey-8a63f099f490",
@@ -5487,7 +5487,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec": {
       "key": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec",
@@ -5507,7 +5507,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://uxdesign.cc/synthetic-users-are-making-me-rethink-imperfect-research-abbadb8ec082": {
       "key": "https://uxdesign.cc/synthetic-users-are-making-me-rethink-imperfect-research-abbadb8ec082",
@@ -5527,7 +5527,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28": {
       "key": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28",
@@ -5547,7 +5547,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3": {
       "key": "https://uxdesign.cc/what-the-ai-era-owes-you-d472b3859bf3",
@@ -5567,7 +5567,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://uxdesign.cc/ai-incidents-by-design-d4708a3dda9e": {
       "key": "https://uxdesign.cc/ai-incidents-by-design-d4708a3dda9e",
@@ -5587,7 +5587,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://uxdesign.cc/bounded-delegation-how-much-authority-should-ai-have-823a58fb4192": {
       "key": "https://uxdesign.cc/bounded-delegation-how-much-authority-should-ai-have-823a58fb4192",
@@ -5607,7 +5607,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://uxdesign.cc/beyond-streaks-and-nudges-ethical-gamification-ai-design-1c4f6e8ef2cc": {
       "key": "https://uxdesign.cc/beyond-streaks-and-nudges-ethical-gamification-ai-design-1c4f6e8ef2cc",
@@ -5627,7 +5627,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7": {
       "key": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7",
@@ -5647,7 +5647,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://uxdesign.cc/why-designers-need-to-stop-reporting-and-start-recommending-at-work-6fa861f58097": {
       "key": "https://uxdesign.cc/why-designers-need-to-stop-reporting-and-start-recommending-at-work-6fa861f58097",
@@ -5687,7 +5687,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://contralabs.com/creative-intelligence-report-2026": {
       "key": "https://contralabs.com/creative-intelligence-report-2026",
@@ -5707,7 +5707,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://matthenry.fyi/posts/a-system-is-what-it-does": {
       "key": "https://matthenry.fyi/posts/a-system-is-what-it-does",
@@ -5727,7 +5727,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://ldlr.design/field-notes": {
       "key": "https://ldlr.design/field-notes",
@@ -5747,7 +5747,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://itsnicethat.com/features/the-view-from-sao-paulo-retro-bar-and-restaurant-branding-graphic-design-140926": {
       "key": "https://itsnicethat.com/features/the-view-from-sao-paulo-retro-bar-and-restaurant-branding-graphic-design-140926",
@@ -5767,7 +5767,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://liao.gg/blog/agents-dont-need-memory": {
       "key": "https://liao.gg/blog/agents-dont-need-memory",
@@ -5787,7 +5787,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://12axes.vercel.app/en": {
       "key": "https://12axes.vercel.app/en",
@@ -5807,7 +5807,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://design.lightspark.com/money-as-a-file": {
       "key": "https://design.lightspark.com/money-as-a-file",
@@ -5827,7 +5827,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://agentic.littleplains.com/": {
       "key": "https://agentic.littleplains.com/",
@@ -5847,7 +5847,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era": {
       "key": "https://wattenberger.com/thoughts/ai-is-still-in-its-terminal-era",
@@ -5867,7 +5867,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blog.ronbronson.com/on-being-anything-other-than-a-designer": {
       "key": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
@@ -5887,7 +5887,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://fglibs.com/": {
       "key": "https://fglibs.com/",
@@ -5907,7 +5907,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://emergingpatterns.design/": {
       "key": "https://emergingpatterns.design/",
@@ -5927,7 +5927,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://era-of-cmd-tab.vercel.app/": {
       "key": "https://era-of-cmd-tab.vercel.app/",
@@ -5947,7 +5947,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://doc.cc/humankind/self-portrait": {
       "key": "https://doc.cc/humankind/self-portrait",
@@ -5967,7 +5967,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://leadershipfolios.com/": {
       "key": "https://leadershipfolios.com/",
@@ -5987,7 +5987,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?sk=2ea73b57436da9bbef1d1f149f1218e2": {
       "key": "https://uxdesign.cc/is-metas-new-ai-agent-easier-to-trust-because-it-s-cute-c8de13aefc6f?sk=2ea73b57436da9bbef1d1f149f1218e2",
@@ -6007,7 +6007,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lukew.com/ff/2165/many-agents-many-views": {
       "key": "https://lukew.com/ff/2165/many-agents-many-views",
@@ -6027,7 +6027,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nytimes.com/interactive/2026/09/27/opinion/ai-art-creativity.html?unlocked_article_code=1.FlE.ew95.hRKwQHd_aTem": {
       "key": "https://nytimes.com/interactive/2026/09/27/opinion/ai-art-creativity.html?unlocked_article_code=1.FlE.ew95.hRKwQHd_aTem",
@@ -6047,7 +6047,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://producttalk.org/recorded-conversations-all-things-product": {
       "key": "https://producttalk.org/recorded-conversations-all-things-product",
@@ -6067,7 +6067,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops": {
       "key": "https://producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops",
@@ -6087,7 +6087,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.40.1": {
       "key": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.40.1",
@@ -6107,7 +6107,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/carbon-design-system/carbon/releases/tag/v11.118.0": {
       "key": "https://github.com/carbon-design-system/carbon/releases/tag/v11.118.0",
@@ -6127,7 +6127,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/carbon-design-system/carbon/releases/tag/v11.118.0-rc.0": {
       "key": "https://github.com/carbon-design-system/carbon/releases/tag/v11.118.0-rc.0",
@@ -6147,7 +6147,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.3": {
       "key": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.3",
@@ -6167,7 +6167,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.2": {
       "key": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.2",
@@ -6187,7 +6187,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/adobe/react-spectrum/releases/tag/%40react-types%2Fshared%403.37.0": {
       "key": "https://github.com/adobe/react-spectrum/releases/tag/%40react-types%2Fshared%403.37.0",
@@ -6207,7 +6207,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/adobe/react-spectrum/releases/tag/react-stately%403.51.0": {
       "key": "https://github.com/adobe/react-spectrum/releases/tag/react-stately%403.51.0",
@@ -6227,7 +6227,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.0": {
       "key": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.0",
@@ -6247,7 +6247,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.6": {
       "key": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.6",
@@ -6407,7 +6407,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.3": {
       "key": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.3",
@@ -6427,7 +6427,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.3": {
       "key": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.3",
@@ -6447,7 +6447,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.2": {
       "key": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.2",
@@ -6467,7 +6467,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.2": {
       "key": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.2",
@@ -6487,7 +6487,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.1": {
       "key": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.1",
@@ -6507,7 +6507,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.1": {
       "key": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.1",
@@ -6527,7 +6527,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.0": {
       "key": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.0",
@@ -6547,7 +6547,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://chrisburnell.com/html-can-do-that": {
       "key": "https://chrisburnell.com/html-can-do-that",
@@ -6567,9 +6567,9 @@
         "piccalil.li"
       ],
       "sharers": 1,
-      "share_engagement": 75,
+      "share_engagement": 85,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://interop-rank.fxdx.dev/": {
       "key": "https://interop-rank.fxdx.dev/",
@@ -6593,9 +6593,9 @@
         "heydonworks.com"
       ],
       "sharers": 5,
-      "share_engagement": 852,
+      "share_engagement": 867,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://piccalil.li/the-index/201": {
       "key": "https://piccalil.li/the-index/201",
@@ -6615,9 +6615,9 @@
         "piccalil.li"
       ],
       "sharers": 1,
-      "share_engagement": 28,
+      "share_engagement": 30,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://dbushell.com/2026/08/20/ruminations-on-notifications": {
       "key": "https://dbushell.com/2026/08/20/ruminations-on-notifications",
@@ -6639,7 +6639,7 @@
       "sharers": 1,
       "share_engagement": 8,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://webdevconf.com/": {
       "key": "https://webdevconf.com/",
@@ -6661,7 +6661,7 @@
       "sharers": 1,
       "share_engagement": 28,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://bram.us/2026/08/20/the-future-of-css-target-multiple-classes-with-the-class-prefix-selector": {
       "key": "https://bram.us/2026/08/20/the-future-of-css-target-multiple-classes-with-the-class-prefix-selector",
@@ -6683,7 +6683,7 @@
       "sharers": 1,
       "share_engagement": 34,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://bulleted.app/": {
       "key": "https://bulleted.app/",
@@ -6705,7 +6705,7 @@
       "sharers": 1,
       "share_engagement": 10,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animation_triggers/Using_scroll-triggered_animations": {
       "key": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animation_triggers/Using_scroll-triggered_animations",
@@ -6727,7 +6727,7 @@
       "sharers": 1,
       "share_engagement": 97,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css": {
       "key": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css",
@@ -6753,7 +6753,7 @@
       "sharers": 5,
       "share_engagement": 684,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one": {
       "key": "https://piccalil.li/blog/a-pragmatic-guide-to-modern-css-colours-part-one",
@@ -6775,7 +6775,7 @@
       "sharers": 1,
       "share_engagement": 8,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://piccalil.li/the-index/200": {
       "key": "https://piccalil.li/the-index/200",
@@ -6797,7 +6797,7 @@
       "sharers": 1,
       "share_engagement": 11,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://trust.ilovetypography.com/font-tech-ai": {
       "key": "https://trust.ilovetypography.com/font-tech-ai",
@@ -6819,7 +6819,7 @@
       "sharers": 1,
       "share_engagement": 5,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/fieldset": {
       "key": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/fieldset",
@@ -6839,9 +6839,9 @@
         "jensimmons.bsky.social"
       ],
       "sharers": 1,
-      "share_engagement": 43,
+      "share_engagement": 44,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://adactio.com/notes/22792": {
       "key": "https://adactio.com/notes/22792",
@@ -6861,9 +6861,9 @@
         "adactio.com"
       ],
       "sharers": 1,
-      "share_engagement": 1,
+      "share_engagement": 2,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://adactio.com/notes/22791": {
       "key": "https://adactio.com/notes/22791",
@@ -6885,7 +6885,7 @@
       "sharers": 1,
       "share_engagement": 2,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://thishueshallpass.clearleft.com/": {
       "key": "https://thishueshallpass.clearleft.com/",
@@ -6907,7 +6907,7 @@
       "sharers": 1,
       "share_engagement": 31,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://adactio.com/journal/22790": {
       "key": "https://adactio.com/journal/22790",
@@ -6929,7 +6929,7 @@
       "sharers": 1,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://adactio.com/links": {
       "key": "https://adactio.com/links",
@@ -6951,7 +6951,7 @@
       "sharers": 1,
       "share_engagement": 8,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://adactio.com/notes/22786": {
       "key": "https://adactio.com/notes/22786",
@@ -6973,7 +6973,7 @@
       "sharers": 1,
       "share_engagement": 3,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://saltercane.bandcamp.com/album/deep-black-water": {
       "key": "https://saltercane.bandcamp.com/album/deep-black-water",
@@ -6995,7 +6995,7 @@
       "sharers": 1,
       "share_engagement": 3,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://adactio.com/notes/22785": {
       "key": "https://adactio.com/notes/22785",
@@ -7017,7 +7017,7 @@
       "sharers": 1,
       "share_engagement": 4,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://brm.us/page-transitions": {
       "key": "https://brm.us/page-transitions",
@@ -7038,9 +7038,9 @@
         "joshwcomeau.com"
       ],
       "sharers": 2,
-      "share_engagement": 210,
+      "share_engagement": 212,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://page-transitions.style/": {
       "key": "https://page-transitions.style/",
@@ -7061,9 +7061,9 @@
         "joshwcomeau.com"
       ],
       "sharers": 2,
-      "share_engagement": 210,
+      "share_engagement": 212,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://historysnob.com/historical-figures/the-watts-towers-one-mans-decadeslong-obsession-that-became-a-landmark/4": {
       "key": "https://historysnob.com/historical-figures/the-watts-towers-one-mans-decadeslong-obsession-that-became-a-landmark/4",
@@ -7085,7 +7085,7 @@
       "sharers": 1,
       "share_engagement": 5,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://tmz.com/2026/10/08/pete-hegseth-public-execution-fort-hood-shooter-live-stream": {
       "key": "https://tmz.com/2026/10/08/pete-hegseth-public-execution-fort-hood-shooter-live-stream",
@@ -7107,7 +7107,7 @@
       "sharers": 1,
       "share_engagement": 439,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://iamarino.com/what-age-doesnt-teach": {
       "key": "https://iamarino.com/what-age-doesnt-teach",
@@ -7129,7 +7129,7 @@
       "sharers": 1,
       "share_engagement": 2,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://paidforby.info/": {
       "key": "https://paidforby.info/",
@@ -7151,7 +7151,7 @@
       "sharers": 1,
       "share_engagement": 201,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://propublica.org/article/mark-mcafee-raw-milk-recalls-maha": {
       "key": "https://propublica.org/article/mark-mcafee-raw-milk-recalls-maha",
@@ -7173,7 +7173,7 @@
       "sharers": 1,
       "share_engagement": 4,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://amazon.co.uk/FORGOTTEN-VIKINGS-New-Approaches-Viking-ebook/dp/B0HH46KHLR/ref=sr_1_2?crid=1Y2EHUPXCD3J9&dib=eyJ2IjoiMSJ9.hZloPaKLBOaHRD1ubrbEIXt6nxHblHnTrx5BjAXP7j_GjHj071QN20LucGBJIEps._jSRdaWJRj6czXsbAAVtSQxnI_t8JHBprwS-BWOOJD8&dib_tag=se&keywords=forgotten+vikings&qid=1791446137&s=digital-text&sprefix=forgotten+viking%2Cdigital-text%2C168&sr=1-2": {
       "key": "https://amazon.co.uk/FORGOTTEN-VIKINGS-New-Approaches-Viking-ebook/dp/B0HH46KHLR/ref=sr_1_2?crid=1Y2EHUPXCD3J9&dib=eyJ2IjoiMSJ9.hZloPaKLBOaHRD1ubrbEIXt6nxHblHnTrx5BjAXP7j_GjHj071QN20LucGBJIEps._jSRdaWJRj6czXsbAAVtSQxnI_t8JHBprwS-BWOOJD8&dib_tag=se&keywords=forgotten+vikings&qid=1791446137&s=digital-text&sprefix=forgotten+viking%2Cdigital-text%2C168&sr=1-2",
@@ -7193,9 +7193,9 @@
         "zeldman.bsky.social"
       ],
       "sharers": 1,
-      "share_engagement": 2319,
+      "share_engagement": 2321,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://bbc.co.uk/news/articles/cx5yn46j41zpo": {
       "key": "https://bbc.co.uk/news/articles/cx5yn46j41zpo",
@@ -7215,9 +7215,9 @@
         "zeldman.bsky.social"
       ],
       "sharers": 1,
-      "share_engagement": 1091,
+      "share_engagement": 1092,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://scientificamerican.com/article/scientists-unlock-the-longevity-secrets-of-194-year-old-jonathan-the-giant-tortoise": {
       "key": "https://scientificamerican.com/article/scientists-unlock-the-longevity-secrets-of-194-year-old-jonathan-the-giant-tortoise",
@@ -7239,7 +7239,7 @@
       "sharers": 1,
       "share_engagement": 250,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai": {
       "key": "https://writings.stephenwolfram.com/2026/09/whats-the-future-for-pure-math-research-in-the-age-of-ai",
@@ -7261,7 +7261,7 @@
       "sharers": 1,
       "share_engagement": 2,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://powertonerecords.bandcamp.com/album/sam-deans-good-times-end-times-apocalypse-bbq": {
       "key": "https://powertonerecords.bandcamp.com/album/sam-deans-good-times-end-times-apocalypse-bbq",
@@ -7283,7 +7283,7 @@
       "sharers": 1,
       "share_engagement": 10,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://getartcraft.com/apps": {
       "key": "https://getartcraft.com/apps",
@@ -7305,7 +7305,7 @@
       "sharers": 1,
       "share_engagement": 17,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://danvk.org/2026/09/10/mapsnap.html": {
       "key": "https://danvk.org/2026/09/10/mapsnap.html",
@@ -7327,7 +7327,7 @@
       "sharers": 1,
       "share_engagement": 34,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://dogdogfish.com/blog/2026/09/30/ai-collective-disaster": {
       "key": "https://dogdogfish.com/blog/2026/09/30/ai-collective-disaster",
@@ -7349,7 +7349,7 @@
       "sharers": 1,
       "share_engagement": 14,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://avclub.com/david-zaslav-goodbye-video-to-employees": {
       "key": "https://avclub.com/david-zaslav-goodbye-video-to-employees",
@@ -7371,7 +7371,7 @@
       "sharers": 1,
       "share_engagement": 1191,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nyti.ms/47z3NMW": {
       "key": "https://nyti.ms/47z3NMW",
@@ -7393,7 +7393,7 @@
       "sharers": 1,
       "share_engagement": 9,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://ft.trib.al/n5V32VU": {
       "key": "https://ft.trib.al/n5V32VU",
@@ -7415,7 +7415,7 @@
       "sharers": 1,
       "share_engagement": 159,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://youtube.com/watch": {
       "key": "https://youtube.com/watch",
@@ -7437,7 +7437,7 @@
       "sharers": 1,
       "share_engagement": 8,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://derekhanson.blog/wordpress-agencies-spacefast": {
       "key": "https://derekhanson.blog/wordpress-agencies-spacefast",
@@ -7459,7 +7459,7 @@
       "sharers": 1,
       "share_engagement": 5,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://theguardian.com/us-news/2026/oct/06/trump-suggests-let-iran-take-out-los-angeles-san-diego": {
       "key": "https://theguardian.com/us-news/2026/oct/06/trump-suggests-let-iran-take-out-los-angeles-san-diego",
@@ -7481,7 +7481,7 @@
       "sharers": 1,
       "share_engagement": 6,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://scim.ag/4rTKck8": {
       "key": "https://scim.ag/4rTKck8",
@@ -7501,9 +7501,9 @@
         "zeldman.bsky.social"
       ],
       "sharers": 1,
-      "share_engagement": 15638,
+      "share_engagement": 15639,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.halstonmedia.com/katonah-lewisboro-times/stories/lewisboro-library-new-director-carrie-bickner,97824": {
       "key": "https://news.halstonmedia.com/katonah-lewisboro-times/stories/lewisboro-library-new-director-carrie-bickner,97824",
@@ -7525,7 +7525,7 @@
       "sharers": 1,
       "share_engagement": 1,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://pootlepress.com/2026/10/why-this-terrible-song-is-so-inspiring": {
       "key": "https://pootlepress.com/2026/10/why-this-terrible-song-is-so-inspiring",
@@ -7547,7 +7547,7 @@
       "sharers": 1,
       "share_engagement": 3,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nytimes.com/2026/10/05/opinion/mental-health-diagnosis-labels.html?unlocked_article_code=1.GVE.ABxH.cYSHgKqCUCA0&smid=url-share": {
       "key": "https://nytimes.com/2026/10/05/opinion/mental-health-diagnosis-labels.html?unlocked_article_code=1.GVE.ABxH.cYSHgKqCUCA0&smid=url-share",
@@ -7569,7 +7569,7 @@
       "sharers": 1,
       "share_engagement": 5,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://youtube.com/shorts/PTV0-7L6soc": {
       "key": "https://youtube.com/shorts/PTV0-7L6soc",
@@ -7591,7 +7591,7 @@
       "sharers": 1,
       "share_engagement": 78,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nytimes.com/2026/10/03/world/australia/sperm-whales-sink-yacht-sailors-rescued.html?unlocked_article_code=1.GVE.t5xf.bnfaZ76WgpGP&smid=url-share": {
       "key": "https://nytimes.com/2026/10/03/world/australia/sperm-whales-sink-yacht-sailors-rescued.html?unlocked_article_code=1.GVE.t5xf.bnfaZ76WgpGP&smid=url-share",
@@ -7613,7 +7613,7 @@
       "sharers": 1,
       "share_engagement": 5,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://letterboxd.com/zeldman/film/flesh-for-frankenstein": {
       "key": "https://letterboxd.com/zeldman/film/flesh-for-frankenstein",
@@ -7635,7 +7635,7 @@
       "sharers": 1,
       "share_engagement": 3,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://bit.ly/4y3AFIC": {
       "key": "https://bit.ly/4y3AFIC",
@@ -7657,7 +7657,7 @@
       "sharers": 1,
       "share_engagement": 1183,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/w3c/tpac2026-breakouts/issues?q=sort%3Aupdated-desc+is%3Aissue+state%3Aopen+": {
       "key": "https://github.com/w3c/tpac2026-breakouts/issues?q=sort%3Aupdated-desc+is%3Aissue+state%3Aopen+",
@@ -7677,9 +7677,9 @@
         "lea.verou.me"
       ],
       "sharers": 1,
-      "share_engagement": 6,
+      "share_engagement": 8,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://forms.gle/ZGqtYGj7V6q8LcuV9": {
       "key": "https://forms.gle/ZGqtYGj7V6q8LcuV9",
@@ -7701,7 +7701,7 @@
       "sharers": 1,
       "share_engagement": 95,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/19c0b2a5-ce51-498a-83cf-2d1c7b45436fn%40chromium.org": {
       "key": "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/19c0b2a5-ce51-498a-83cf-2d1c7b45436fn%40chromium.org",
@@ -7723,7 +7723,7 @@
       "sharers": 1,
       "share_engagement": 32,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/web-platform-dx/developer-signals/issues/923": {
       "key": "https://github.com/web-platform-dx/developer-signals/issues/923",
@@ -7745,7 +7745,7 @@
       "sharers": 1,
       "share_engagement": 32,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/web-platform-tests/interop/issues/1346": {
       "key": "https://github.com/web-platform-tests/interop/issues/1346",
@@ -7767,7 +7767,7 @@
       "sharers": 1,
       "share_engagement": 32,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://developer-signals.dev/?browser=chrome&sort=votes_desc&view=list": {
       "key": "https://developer-signals.dev/?browser=chrome&sort=votes_desc&view=list",
@@ -7789,7 +7789,7 @@
       "sharers": 1,
       "share_engagement": 26,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://developer-signals.dev/?browser=edge&sort=votes_desc&view=list": {
       "key": "https://developer-signals.dev/?browser=edge&sort=votes_desc&view=list",
@@ -7811,7 +7811,7 @@
       "sharers": 1,
       "share_engagement": 26,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://developer-signals.dev/?browser=firefox&sort=votes_desc&view=list": {
       "key": "https://developer-signals.dev/?browser=firefox&sort=votes_desc&view=list",
@@ -7833,7 +7833,7 @@
       "sharers": 1,
       "share_engagement": 26,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://developer-signals.dev/?browser=safari&sort=votes_desc&view=list": {
       "key": "https://developer-signals.dev/?browser=safari&sort=votes_desc&view=list",
@@ -7855,7 +7855,7 @@
       "sharers": 1,
       "share_engagement": 26,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lea.verou.me/specs": {
       "key": "https://lea.verou.me/specs",
@@ -7875,9 +7875,9 @@
         "lea.verou.me"
       ],
       "sharers": 1,
-      "share_engagement": 27,
+      "share_engagement": 28,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/": {
       "key": "https://github.com/",
@@ -7899,7 +7899,7 @@
       "sharers": 1,
       "share_engagement": 165,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://preset-env.cssdb.org/blog/postcss-mixins-and-custom-functions": {
       "key": "https://preset-env.cssdb.org/blog/postcss-mixins-and-custom-functions",
@@ -7921,7 +7921,7 @@
       "sharers": 1,
       "share_engagement": 37,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://webdesignerdepot.com/traditional-web-development-is-dead-and-honestly-good-riddance": {
       "key": "https://webdesignerdepot.com/traditional-web-development-is-dead-and-honestly-good-riddance",
@@ -7943,7 +7943,7 @@
       "sharers": 1,
       "share_engagement": 30,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://codepen.io/alowpoly/pen/XJMVyXW": {
       "key": "https://codepen.io/alowpoly/pen/XJMVyXW",
@@ -7963,9 +7963,9 @@
         "joshwcomeau.com"
       ],
       "sharers": 1,
-      "share_engagement": 66,
+      "share_engagement": 72,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://davatron5000.github.io/microlighter": {
       "key": "https://davatron5000.github.io/microlighter",
@@ -7987,7 +7987,7 @@
       "sharers": 1,
       "share_engagement": 83,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/viliket/pure-web-bottom-sheet": {
       "key": "https://github.com/viliket/pure-web-bottom-sheet",
@@ -8007,9 +8007,9 @@
         "nerdy.dev"
       ],
       "sharers": 1,
-      "share_engagement": 43,
+      "share_engagement": 44,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://youtube.com/watch?v=xYyMiDgWeY0": {
       "key": "https://youtube.com/watch?v=xYyMiDgWeY0",
@@ -8031,7 +8031,7 @@
       "sharers": 1,
       "share_engagement": 1,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nerdy.dev/transitioning-field-sizing-content-with-css": {
       "key": "https://nerdy.dev/transitioning-field-sizing-content-with-css",
@@ -8053,7 +8053,7 @@
       "sharers": 1,
       "share_engagement": 66,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://nerdy.dev/front-end-fast-money-with-kevin-powell": {
       "key": "https://nerdy.dev/front-end-fast-money-with-kevin-powell",
@@ -8075,7 +8075,7 @@
       "sharers": 1,
       "share_engagement": 14,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://youtube.com/watch?v=P5llBhv8TQ4": {
       "key": "https://youtube.com/watch?v=P5llBhv8TQ4",
@@ -8097,7 +8097,7 @@
       "sharers": 1,
       "share_engagement": 5,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://twitch.tv/wiltostreams": {
       "key": "https://twitch.tv/wiltostreams",
@@ -8119,7 +8119,7 @@
       "sharers": 1,
       "share_engagement": 87,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://wil.to/posts/googles-prompt-api": {
       "key": "https://wil.to/posts/googles-prompt-api",
@@ -8141,7 +8141,7 @@
       "sharers": 1,
       "share_engagement": 87,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://csslayout.news/a/3mxc6txvaw323-issue-346?bridge_completed=1": {
       "key": "https://csslayout.news/a/3mxc6txvaw323-issue-346?bridge_completed=1",
@@ -8163,7 +8163,7 @@
       "sharers": 1,
       "share_engagement": 29,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://csslayout.news/a/3mxc6txvaw323-issue-346": {
       "key": "https://csslayout.news/a/3mxc6txvaw323-issue-346",
@@ -8185,7 +8185,7 @@
       "sharers": 1,
       "share_engagement": 29,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blogs.igalia.com/mrego/aamtest-testing-accessibility-in-wpt": {
       "key": "https://blogs.igalia.com/mrego/aamtest-testing-accessibility-in-wpt",
@@ -8207,7 +8207,7 @@
       "sharers": 1,
       "share_engagement": 33,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://sarahmhigley.com/writing/interactive-lists": {
       "key": "https://sarahmhigley.com/writing/interactive-lists",
@@ -8227,9 +8227,9 @@
         "ericwbailey.website"
       ],
       "sharers": 1,
-      "share_engagement": 62,
+      "share_engagement": 63,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://blog.jim-nielsen.com/2026/talk-notes-modernization-treadmill": {
       "key": "https://blog.jim-nielsen.com/2026/talk-notes-modernization-treadmill",
@@ -8251,7 +8251,7 @@
       "sharers": 1,
       "share_engagement": 15,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://scottjehl.com/posts/responsive-accessible-poster": {
       "key": "https://scottjehl.com/posts/responsive-accessible-poster",
@@ -8273,7 +8273,7 @@
       "sharers": 1,
       "share_engagement": 16,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://rascal.news/the-workers-at-wizards-of-the-coast-are-teaming-up": {
       "key": "https://rascal.news/the-workers-at-wizards-of-the-coast-are-teaming-up",
@@ -8295,7 +8295,7 @@
       "sharers": 1,
       "share_engagement": 10,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://hubs.li/Q04ydHVV0": {
       "key": "https://hubs.li/Q04ydHVV0",
@@ -8317,7 +8317,7 @@
       "sharers": 1,
       "share_engagement": 10,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://samkapila.com/books": {
       "key": "https://samkapila.com/books",
@@ -8339,7 +8339,7 @@
       "sharers": 1,
       "share_engagement": 21,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://webweekly.email/": {
       "key": "https://webweekly.email/",
@@ -8361,7 +8361,7 @@
       "sharers": 1,
       "share_engagement": 33,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://spotcheck.tools/": {
       "key": "https://spotcheck.tools/",
@@ -8383,7 +8383,7 @@
       "sharers": 1,
       "share_engagement": 8,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://inclusivedesign24.org/2026/schedule": {
       "key": "https://inclusivedesign24.org/2026/schedule",
@@ -8405,7 +8405,7 @@
       "sharers": 1,
       "share_engagement": 24,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://youtube.com/inclusivedesign24": {
       "key": "https://youtube.com/inclusivedesign24",
@@ -8427,7 +8427,7 @@
       "sharers": 1,
       "share_engagement": 24,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://projects.propublica.org/american-citizens-detained-dhs-civil-rights": {
       "key": "https://projects.propublica.org/american-citizens-detained-dhs-civil-rights",
@@ -8447,9 +8447,9 @@
         "macwright.com"
       ],
       "sharers": 1,
-      "share_engagement": 2554,
+      "share_engagement": 2556,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://leaflet.pub/new-canvas": {
       "key": "https://leaflet.pub/new-canvas",
@@ -8471,7 +8471,7 @@
       "sharers": 1,
       "share_engagement": 168,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://clouds.sfruby.com/": {
       "key": "https://clouds.sfruby.com/",
@@ -8493,7 +8493,7 @@
       "sharers": 1,
       "share_engagement": 6,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://evilmartians.com/chronicles/dont-bet-on-select-order-shuffle-your-rows-see-what-folds": {
       "key": "https://evilmartians.com/chronicles/dont-bet-on-select-order-shuffle-your-rows-see-what-folds",
@@ -8515,7 +8515,7 @@
       "sharers": 1,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://proofofconcept.pub/p/how-i-work": {
       "key": "https://proofofconcept.pub/p/how-i-work",
@@ -8535,7 +8535,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://densediscovery.com/issues/409": {
       "key": "https://densediscovery.com/issues/409",
@@ -8555,7 +8555,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lennysnewsletter.com/p/how-i-ai-8-real-jev-use-cases-how": {
       "key": "https://lennysnewsletter.com/p/how-i-ai-8-real-jev-use-cases-how",
@@ -8575,7 +8575,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live": {
       "key": "https://lennysnewsletter.com/p/how-openai-uses-chatgpt-sites-live",
@@ -8595,7 +8595,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering": {
       "key": "https://lennysnewsletter.com/p/openais-head-of-chatgpt-were-entering",
@@ -8615,7 +8615,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lennysnewsletter.com/p/community-wisdom-getting-value-from": {
       "key": "https://lennysnewsletter.com/p/community-wisdom-getting-value-from",
@@ -8635,7 +8635,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T20:07:52.892279+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude": {
       "key": "https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude",
@@ -8655,7 +8655,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://twitter.com/reversedoofz/status/2108668397148094910": {
       "key": "https://twitter.com/reversedoofz/status/2108668397148094910",
@@ -8675,7 +8675,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://jontsai.com/2026/10/10/organize-tabs-2-0": {
       "key": "https://jontsai.com/2026/10/10/organize-tabs-2-0",
@@ -8695,7 +8695,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/tlack/babytalk": {
       "key": "https://github.com/tlack/babytalk",
@@ -8706,7 +8706,7 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 11,
+      "points": 12,
       "comments": 6,
       "ts": 1791581636.0,
       "curated": false,
@@ -8715,7 +8715,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://residentnewsnetwork.com/opinion-piece-consumer-ai-fatigue-is-overwhelming-and-why-local-businesses-should-re-consider-use": {
       "key": "https://residentnewsnetwork.com/opinion-piece-consumer-ai-fatigue-is-overwhelming-and-why-local-businesses-should-re-consider-use",
@@ -8735,7 +8735,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://theverge.com/tech/1002766/amazon-delivery-driver-smart-glasses-privacy": {
       "key": "https://theverge.com/tech/1002766/amazon-delivery-driver-smart-glasses-privacy",
@@ -8755,7 +8755,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://openclassactions.com/lawsuits/google-gemini-gmail-privacy-class-action.php": {
       "key": "https://openclassactions.com/lawsuits/google-gemini-gmail-privacy-class-action.php",
@@ -8775,7 +8775,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://phys.org/news/2026-10-success-story-zealand-heaviest-insect.html": {
       "key": "https://phys.org/news/2026-10-success-story-zealand-heaviest-insect.html",
@@ -8795,7 +8795,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://independent.co.uk/news/world/americas/us-politics/trump-musk-grok-venezuela-maduro-b3060366.html": {
       "key": "https://independent.co.uk/news/world/americas/us-politics/trump-musk-grok-venezuela-maduro-b3060366.html",
@@ -8815,7 +8815,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://noemamag.com/the-mythology-of-conscious-ai": {
       "key": "https://noemamag.com/the-mythology-of-conscious-ai",
@@ -8835,7 +8835,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://fmch.bmj.com/content/14/Suppl_5/e003925": {
       "key": "https://fmch.bmj.com/content/14/Suppl_5/e003925",
@@ -8855,7 +8855,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://logical.ai/arma": {
       "key": "https://logical.ai/arma",
@@ -8875,7 +8875,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://arxiv.org/abs/2303.07103": {
       "key": "https://arxiv.org/abs/2303.07103",
@@ -8895,7 +8895,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://pigsfly.skinnyjames.net/2026%20-%20Financial%20Report/Heirloom.pdf": {
       "key": "https://pigsfly.skinnyjames.net/2026%20-%20Financial%20Report/Heirloom.pdf",
@@ -8955,7 +8955,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.1": {
       "key": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.1",
@@ -8975,7 +8975,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.7": {
       "key": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.7",
@@ -8995,7 +8995,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fcodemods%401.2.9": {
       "key": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fcodemods%401.2.9",
@@ -9015,7 +9015,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1": {
       "key": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1",
@@ -9035,7 +9035,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/adobe/react-spectrum/releases/tag/react-aria-components%401.22.1": {
       "key": "https://github.com/adobe/react-spectrum/releases/tag/react-aria-components%401.22.1",
@@ -9055,7 +9055,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/adobe/react-spectrum/releases/tag/react-aria%403.53.1": {
       "key": "https://github.com/adobe/react-spectrum/releases/tag/react-aria%403.53.1",
@@ -9075,7 +9075,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/adobe/react-spectrum/releases/tag/%40adobe%2Freact-spectrum%403.47.7": {
       "key": "https://github.com/adobe/react-spectrum/releases/tag/%40adobe%2Freact-spectrum%403.47.7",
@@ -9095,7 +9095,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-09T22:36:09.604907+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=50029811": {
       "key": "https://news.ycombinator.com/item?id=50029811",
@@ -9107,7 +9107,7 @@
         "Hacker News"
       ],
       "points": 1,
-      "comments": 1,
+      "comments": 2,
       "ts": 1791609630.0,
       "curated": false,
       "always_relevant": false,
@@ -9115,7 +9115,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T05:48:37.701488+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://wwt.com/blog/bringing-your-llms-home": {
       "key": "https://wwt.com/blog/bringing-your-llms-home",
@@ -9246,8 +9246,8 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 27,
-      "comments": 68,
+      "points": 32,
+      "comments": 91,
       "ts": 1791607886.0,
       "curated": false,
       "always_relevant": false,
@@ -9255,7 +9255,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T05:48:37.701488+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://raytriangle.com/making-the-worlds-smallest-game-console": {
       "key": "https://raytriangle.com/making-the-worlds-smallest-game-console",
@@ -9275,7 +9275,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T05:48:37.701488+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://anthropic.com/research/investigating-unintended-model-actions": {
       "key": "https://anthropic.com/research/investigating-unintended-model-actions",
@@ -9286,7 +9286,7 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 8,
+      "points": 9,
       "comments": 2,
       "ts": 1791592108.0,
       "curated": false,
@@ -9295,7 +9295,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T05:48:37.701488+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://gongs-unlimited.com/products/unlimited-subatomic-gongs?variant=41333792973": {
       "key": "https://gongs-unlimited.com/products/unlimited-subatomic-gongs?variant=41333792973",
@@ -9315,9 +9315,9 @@
         "bradfrost.com"
       ],
       "sharers": 1,
-      "share_engagement": 8,
+      "share_engagement": 9,
       "first_seen": "2026-10-10T05:48:37.701488+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://aleph-alpha.com/en/blog/designing-kolibri-architecture-trade-offs-from-first-principles": {
       "key": "https://aleph-alpha.com/en/blog/designing-kolibri-architecture-trade-offs-from-first-principles",
@@ -9337,7 +9337,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://jeyzma.com/": {
       "key": "https://jeyzma.com/",
@@ -9357,7 +9357,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://ideasman42.codeberg.page/font-xicago-mono": {
       "key": "https://ideasman42.codeberg.page/font-xicago-mono",
@@ -9377,7 +9377,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://antisoftworks.com/": {
       "key": "https://antisoftworks.com/",
@@ -9397,7 +9397,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://opencomponents.dev/": {
       "key": "https://opencomponents.dev/",
@@ -9408,7 +9408,7 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 5,
+      "points": 7,
       "comments": 1,
       "ts": 1791620645.0,
       "curated": false,
@@ -9417,7 +9417,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things": {
       "key": "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things",
@@ -9437,7 +9437,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=50031447": {
       "key": "https://news.ycombinator.com/item?id=50031447",
@@ -9457,7 +9457,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://github.com/herdrdev/herdr/blob/master/CONTRIBUTING.md": {
       "key": "https://github.com/herdrdev/herdr/blob/master/CONTRIBUTING.md",
@@ -9477,7 +9477,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://bbc.co.uk/news/articles/cqkg50j1yd5lo": {
       "key": "https://bbc.co.uk/news/articles/cqkg50j1yd5lo",
@@ -9488,8 +9488,8 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 11,
-      "comments": 4,
+      "points": 15,
+      "comments": 7,
       "ts": 1791627824.0,
       "curated": false,
       "always_relevant": false,
@@ -9497,7 +9497,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://time.com/article/2026/10/08/senate-investigation-ai-data-centers": {
       "key": "https://time.com/article/2026/10/08/senate-investigation-ai-data-centers",
@@ -9508,7 +9508,7 @@
       "sources": [
         "Hacker News"
       ],
-      "points": 5,
+      "points": 6,
       "comments": 0,
       "ts": 1791621313.0,
       "curated": false,
@@ -9517,7 +9517,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://svpremium.dev/": {
       "key": "https://svpremium.dev/",
@@ -9537,7 +9537,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://investopedia.com/the-2026-american-dream-cost-rises-4-percent-12154346": {
       "key": "https://investopedia.com/the-2026-american-dream-cost-rises-4-percent-12154346",
@@ -9577,7 +9577,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://news.ycombinator.com/item?id=50032151": {
       "key": "https://news.ycombinator.com/item?id=50032151",
@@ -9597,7 +9597,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://lightbulbcomputer.com/": {
       "key": "https://lightbulbcomputer.com/",
@@ -9608,7 +9608,7 @@
       "sources": [
         "Lobsters"
       ],
-      "points": 1,
+      "points": 11,
       "comments": 0,
       "ts": 1791633209.482,
       "curated": false,
@@ -9617,7 +9617,7 @@
       "sharers": 0,
       "share_engagement": 0,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://adactio.com/notes/22795": {
       "key": "https://adactio.com/notes/22795",
@@ -9639,7 +9639,7 @@
       "sharers": 1,
       "share_engagement": 1,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://commondreams.org/opinion/dance-education-multiculturalism?share_id=10047994": {
       "key": "https://commondreams.org/opinion/dance-education-multiculturalism?share_id=10047994",
@@ -9661,7 +9661,7 @@
       "sharers": 1,
       "share_engagement": 27,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     },
     "https://ivyfoundry.com/families/ivymazarin": {
       "key": "https://ivyfoundry.com/families/ivymazarin",
@@ -9681,9 +9681,271 @@
         "zeldman.bsky.social"
       ],
       "sharers": 1,
-      "share_engagement": 18,
+      "share_engagement": 21,
       "first_seen": "2026-10-10T12:28:09.295608+00:00",
-      "last_seen": "2026-10-10T12:28:09.295608+00:00"
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://commons.wikimedia.org/wiki/Category:Font_comparisons_(Vector)": {
+      "key": "https://commons.wikimedia.org/wiki/Category:Font_comparisons_(Vector)",
+      "url": "https://commons.wikimedia.org/wiki/Category:Font_comparisons_(Vector)",
+      "title": "Font Comparisons (Vector)",
+      "discussion": "https://news.ycombinator.com/item?id=50034954",
+      "source": "Hacker News",
+      "sources": [
+        "Hacker News"
+      ],
+      "points": 1,
+      "comments": 0,
+      "ts": 1791652381.0,
+      "curated": false,
+      "always_relevant": false,
+      "authors": [],
+      "sharers": 0,
+      "share_engagement": 0,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://jvt.me/posts/2026/10/09/logs-interface": {
+      "key": "https://jvt.me/posts/2026/10/09/logs-interface",
+      "url": "https://www.jvt.me/posts/2026/10/09/logs-interface/",
+      "title": "Logs as UX",
+      "discussion": "https://news.ycombinator.com/item?id=50033496",
+      "source": "Hacker News",
+      "sources": [
+        "Hacker News"
+      ],
+      "points": 3,
+      "comments": 0,
+      "ts": 1791643420.0,
+      "curated": false,
+      "always_relevant": false,
+      "authors": [],
+      "sharers": 0,
+      "share_engagement": 0,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://worldwatcher.live/": {
+      "key": "https://worldwatcher.live/",
+      "url": "https://worldwatcher.live/",
+      "title": "Show HN: World Watcher – a map to seamlessly watch public webcam streams",
+      "discussion": "https://news.ycombinator.com/item?id=50032872",
+      "source": "Hacker News",
+      "sources": [
+        "Hacker News"
+      ],
+      "points": 7,
+      "comments": 0,
+      "ts": 1791639600.0,
+      "curated": false,
+      "always_relevant": false,
+      "authors": [],
+      "sharers": 0,
+      "share_engagement": 0,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://maplehill.openwants.com/": {
+      "key": "https://maplehill.openwants.com/",
+      "url": "https://maplehill.openwants.com/",
+      "title": "Show HN: OpenWants – A Simulated City Where AI Agents Handle Residents Needs",
+      "discussion": "https://news.ycombinator.com/item?id=50032374",
+      "source": "Hacker News",
+      "sources": [
+        "Hacker News"
+      ],
+      "points": 5,
+      "comments": 2,
+      "ts": 1791636145.0,
+      "curated": false,
+      "always_relevant": false,
+      "authors": [],
+      "sharers": 0,
+      "share_engagement": 0,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://github.com/tessaryai/tessary": {
+      "key": "https://github.com/tessaryai/tessary",
+      "url": "https://github.com/tessaryai/tessary",
+      "title": "Show HN: Tessary – Find the AI agent failures your sampled evals miss",
+      "discussion": "https://news.ycombinator.com/item?id=50033189",
+      "source": "Hacker News",
+      "sources": [
+        "Hacker News"
+      ],
+      "points": 1,
+      "comments": 0,
+      "ts": 1791641376.0,
+      "curated": false,
+      "always_relevant": false,
+      "authors": [],
+      "sharers": 0,
+      "share_engagement": 0,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@scope": {
+      "key": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@scope",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@scope",
+      "title": "Scope CSS At-Rule",
+      "discussion": "https://news.ycombinator.com/item?id=50034835",
+      "source": "Hacker News",
+      "sources": [
+        "Hacker News"
+      ],
+      "points": 1,
+      "comments": 0,
+      "ts": 1791651738.0,
+      "curated": false,
+      "always_relevant": false,
+      "authors": [],
+      "sharers": 0,
+      "share_engagement": 0,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks": {
+      "key": "https://warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks",
+      "url": "https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/",
+      "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+      "discussion": "https://news.ycombinator.com/item?id=50031156",
+      "source": "Hacker News",
+      "sources": [
+        "Hacker News"
+      ],
+      "points": 36,
+      "comments": 0,
+      "ts": 1791624603.0,
+      "curated": false,
+      "always_relevant": false,
+      "authors": [],
+      "sharers": 0,
+      "share_engagement": 0,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://theverifiedpost.com/article/whooping-cranes-ultralight-costumed-pilots-operation-migration": {
+      "key": "https://theverifiedpost.com/article/whooping-cranes-ultralight-costumed-pilots-operation-migration",
+      "url": "https://theverifiedpost.com/article/whooping-cranes-ultralight-costumed-pilots-operation-migration",
+      "title": "Whooping Cranes Learned to Migrate by Following Costumed Pilots",
+      "discussion": "https://news.ycombinator.com/item?id=50016696",
+      "source": "Hacker News",
+      "sources": [
+        "Hacker News"
+      ],
+      "points": 22,
+      "comments": 0,
+      "ts": 1791526896.0,
+      "curated": false,
+      "always_relevant": false,
+      "authors": [],
+      "sharers": 0,
+      "share_engagement": 0,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://news.ycombinator.com/item?id=50032742": {
+      "key": "https://news.ycombinator.com/item?id=50032742",
+      "url": "https://news.ycombinator.com/item?id=50032742",
+      "title": "Ask HN: How will socio-economic mobility look like in an AI future?",
+      "discussion": "https://news.ycombinator.com/item?id=50032742",
+      "source": "Hacker News",
+      "sources": [
+        "Hacker News"
+      ],
+      "points": 2,
+      "comments": 2,
+      "ts": 1791638856.0,
+      "curated": false,
+      "always_relevant": false,
+      "authors": [],
+      "sharers": 0,
+      "share_engagement": 0,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://csis.org/analysis/chinas-weaponization-dual-use-research-vessels-undersea-data-dominance": {
+      "key": "https://csis.org/analysis/chinas-weaponization-dual-use-research-vessels-undersea-data-dominance",
+      "url": "https://www.csis.org/analysis/chinas-weaponization-dual-use-research-vessels-undersea-data-dominance",
+      "title": "China's Weaponization of Dual-Use Research Vessels for Undersea Data Dominance",
+      "discussion": "https://news.ycombinator.com/item?id=50035650",
+      "source": "Hacker News",
+      "sources": [
+        "Hacker News"
+      ],
+      "points": 1,
+      "comments": 0,
+      "ts": 1791656515.0,
+      "curated": false,
+      "always_relevant": false,
+      "authors": [],
+      "sharers": 0,
+      "share_engagement": 0,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html": {
+      "key": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
+      "url": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
+      "title": "Iframes that finally fit their content",
+      "discussion": "https://lobste.rs/s/ka6d0y/iframes_finally_fit_their_content",
+      "source": "Lobsters",
+      "sources": [
+        "Lobsters"
+      ],
+      "points": 9,
+      "comments": 0,
+      "ts": 1791636896.199,
+      "curated": false,
+      "always_relevant": false,
+      "authors": [],
+      "sharers": 0,
+      "share_engagement": 0,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://theguardian.com/world/2026/oct/10/peru-election-hitler-mussolini-simeon-flores-mayor": {
+      "key": "https://theguardian.com/world/2026/oct/10/peru-election-hitler-mussolini-simeon-flores-mayor",
+      "url": "https://www.theguardian.com/world/2026/oct/10/peru-election-hitler-mussolini-simeon-flores-mayor",
+      "title": "Candidate named Hitler Mussolini elected mayor in Peru",
+      "discussion": "https://bsky.app/profile/zeldman.bsky.social/post/3mxjjwpqsf22u",
+      "source": "Bluesky",
+      "sources": [
+        "Bluesky"
+      ],
+      "points": 0,
+      "comments": 0,
+      "ts": 1791636906.14,
+      "curated": false,
+      "always_relevant": false,
+      "authors": [
+        "zeldman.bsky.social"
+      ],
+      "sharers": 1,
+      "share_engagement": 2,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
+    },
+    "https://lennysnewsletter.com/p/community-wisdom-community-wisdom": {
+      "key": "https://lennysnewsletter.com/p/community-wisdom-community-wisdom",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-community-wisdom",
+      "title": "🧠 Community Wisdom: Community Wisdom Top Contributors Summer Class 2026 + ML recommendation systems, getting back into product after being fired, deciding when to quit a side project, and more",
+      "discussion": "",
+      "source": "Lenny's Newsletter",
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "points": 0,
+      "comments": 0,
+      "ts": 1791637298.0,
+      "curated": true,
+      "always_relevant": false,
+      "authors": [],
+      "sharers": 0,
+      "share_engagement": 0,
+      "first_seen": "2026-10-10T18:33:07.524410+00:00",
+      "last_seen": "2026-10-10T18:33:07.524410+00:00"
     }
   }
 }
