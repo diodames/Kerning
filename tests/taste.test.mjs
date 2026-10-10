@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { createRequire } from "node:module";
 
 const require = createRequire(import.meta.url);
-const { buildWeights, personalize, tokensOf, hasLearnedTaste } = require("../taste.js");
+const { buildWeights, personalize, tokensOf, hasLearnedTaste, looksLikeWebUrl } = require("../taste.js");
 
 function profile(extra) {
   return Object.assign({
@@ -21,6 +21,17 @@ test("tokens include lexicon terms, site, and authors", () => {
   assert.ok(toks.includes("variable font"));
   assert.ok(toks.includes("site:example.com"));
   assert.ok(toks.includes("person:ann"));
+});
+
+test("typed URLs need a real-looking host", () => {
+  for (const ok of ["example.com", "https://www.example.com/a?b=1", "http://sub.example.co.uk/x",
+    "blog.example.dev/post#top", "xn--bcher-kva.example"]) {
+    assert.equal(looksLikeWebUrl(ok), true, ok);
+  }
+  for (const bad of ["", "nope", "foo bar.com", "https://localhost", "example.", "ftp://example.com",
+    "mailto:a@example.com", "javascript:alert(1)", "example.c0m"]) {
+    assert.equal(looksLikeWebUrl(bad), false, bad);
+  }
 });
 
 test("ratings move weights; downvotes skip the site token", () => {

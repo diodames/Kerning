@@ -58,6 +58,18 @@
     }
   }
 
+  // For typed input only. normalizeArticleUrl stays lenient because it also
+  // builds canonical keys for stored items.
+  function looksLikeWebUrl(raw) {
+    const s = String(raw || "").trim();
+    if (!s || /\s/.test(s)) return false;
+    if (/^[a-z][a-z0-9+.-]*:/i.test(s) && !/^https?:\/\//i.test(s)) return false;
+    const url = normalizeArticleUrl(s);
+    if (!url) return false;
+    const host = new URL(url).hostname;
+    return /^([a-z0-9-]+\.)+([a-z]{2,}|xn--[a-z0-9-]+)$/i.test(host);
+  }
+
   function canonUrl(url) {
     return normalizeArticleUrl(url).replace(/\/+$/, "").toLowerCase();
   }
@@ -231,6 +243,7 @@
     clamp: clamp,
     domainOf: domainOf,
     normalizeArticleUrl: normalizeArticleUrl,
+    looksLikeWebUrl: looksLikeWebUrl,
     canonUrl: canonUrl,
     lexiconFormHits: lexiconFormHits,
     lexiconEntryHits: lexiconEntryHits,

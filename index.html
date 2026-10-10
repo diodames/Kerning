@@ -1090,7 +1090,7 @@
 "use strict";
 
 const {
-  LEXICON, domainOf, normalizeArticleUrl, canonUrl, lexiconEntryHits, tokensOf, isPackPerson,
+  LEXICON, domainOf, normalizeArticleUrl, looksLikeWebUrl, canonUrl, lexiconEntryHits, tokensOf, isPackPerson,
 } = KerningTaste;
 
 /* ---------------------------------------------------------------- */
@@ -2096,6 +2096,7 @@ function articleId(url) {
 }
 
 function addArticle(raw) {
+  if (!looksLikeWebUrl(raw)) return { ok: false };
   const url = normalizeArticleUrl(raw);
   if (!url) return { ok: false };
   const id = articleId(url);
@@ -2166,6 +2167,7 @@ function substackFeedFrom(raw) {
 }
 
 function rssFeedFrom(raw) {
+  if (!looksLikeWebUrl(raw)) return "";
   const url = normalizeArticleUrl(raw);
   if (!url) return "";
   try {
@@ -2485,6 +2487,7 @@ function toggleSave(item) {
 }
 
 function addSavedUrl(raw) {
+  if (!looksLikeWebUrl(raw)) return { ok: false };
   const url = normalizeArticleUrl(raw);
   if (!url) return { ok: false };
   if (savedIndex({ url: url }) >= 0) return { ok: true, dup: true };
