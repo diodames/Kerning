@@ -331,10 +331,6 @@
     letter-spacing: -0.04em; line-height: 1.15; margin: 0;
     text-wrap: balance;
   }
-  .saved-add { margin: 0 0 28px; }
-  .saved-add .tadd { margin-top: 0; }
-  .saved-add + .empty { padding-top: 28px; }
-
   ol.list, ul.list { list-style: none; margin: 0; padding: 0; }
   li.item {
     display: grid;
@@ -604,7 +600,7 @@
   .dlg .sync-msg:empty { display: none; }
   #view-account .taste-primer strong { color: var(--ink); font-weight: 500; }
   #view-account .note:empty { display: none; }
-  #view-account .tsec {
+  .tsec--ruled {
     margin: 0 0 48px; padding-top: 20px; border-top: 1px solid var(--line);
   }
   @media (min-width: 641px) {
@@ -2963,7 +2959,7 @@ function rerenderAccount(focusId) {
 function accountSignedOutHTML() {
   return '<p class="note taste-primer">Keep saved stories, ratings, people, and resources on every device. '
     + "We&rsquo;ll email you a sign-in link, so there&rsquo;s no&nbsp;password.</p>"
-    + '<section class="tsec" aria-labelledby="account-signin">'
+    + '<section class="tsec tsec--ruled" aria-labelledby="account-signin">'
     + '<h2 id="account-signin">Sign in</h2>'
     + '<form class="tadd" id="account-form" novalidate>'
     + '<div class="tfield"><label for="account-email">Email</label>'
@@ -2980,7 +2976,7 @@ function accountSignedInHTML() {
   let weekly = "";
   if (weeklyEmailVisible()) {
     const ready = weeklyPref && !weeklyPref.error;
-    weekly = '<section class="tsec" aria-labelledby="account-weekly-h">'
+    weekly = '<section class="tsec tsec--ruled" aria-labelledby="account-weekly-h">'
       + '<h2 id="account-weekly-h">Weekly email</h2>'
       + '<label class="acct-check"><input type="checkbox" id="account-weekly"'
       + (ready && weeklyPref.on ? " checked" : "")
@@ -2990,7 +2986,7 @@ function accountSignedInHTML() {
       + "</section>";
   }
   return '<p class="note taste-primer">Signed in as <strong>' + esc(syncUser.email || "your account") + "</strong>.</p>"
-    + '<section class="tsec" aria-labelledby="account-sync-h">'
+    + '<section class="tsec tsec--ruled" aria-labelledby="account-sync-h">'
     + '<h2 id="account-sync-h">Sync</h2>'
     + '<p class="note">' + esc(syncedSummary()) + "</p>"
     + '<div class="acct-sync"><p class="note">' + esc(syncedLabel()) + "</p>"
@@ -3623,13 +3619,14 @@ function bindSavedForm() {
 }
 
 function savedFormHTML() {
-  return '<div class="saved-add">'
+  return '<section class="tsec" aria-labelledby="saved-add-h">'
+    + '<h2 id="saved-add-h">Save an article</h2>'
     + '<form class="tadd" id="add-saved">'
     + '<div class="tfield"><label for="saved-input">Article URL</label>'
     + '<input id="saved-input" name="saved" type="text" inputmode="url" spellcheck="false" '
     + 'autocomplete="off" placeholder="https://" aria-describedby="saved-err"></div>'
     + '<button type="submit" class="btn">Save article</button></form>'
-    + '<p class="field-err" id="saved-err" role="status"></p></div>';
+    + '<p class="field-err" id="saved-err" role="status"></p></section>';
 }
 
 function bindSavedSort() {
@@ -3664,9 +3661,10 @@ function renderSaved() {
   const form = savedFormHTML();
   if (!profile.saved.length) {
     el.innerHTML = form
-      + '<div class="empty"><h2>Nothing saved yet.</h2>'
-      + '<p class="note">Paste a URL of something you want to&nbsp;read, '
-      + "or save a story from the&nbsp;digest.</p></div>";
+      + '<section class="tsec tsec--ruled" aria-labelledby="saved-list-h">'
+      + '<h2 id="saved-list-h">Reading list</h2>'
+      + '<p class="note">Nothing saved yet. Paste a URL of something you want to&nbsp;read, '
+      + "or save a story from the&nbsp;digest.</p></section>";
     bindSavedForm();
     return;
   }
@@ -3680,11 +3678,13 @@ function renderSaved() {
     + '" data-saved-sort="oldest">Oldest</button>'
     + '<span class="sel-dot" aria-hidden="true"></span></div>';
   el.innerHTML = form
+    + '<section class="tsec tsec--ruled" aria-labelledby="saved-list-h">'
+    + '<h2 id="saved-list-h">Reading list</h2>'
     + '<div class="controls">'
     + (profile.saved.length > 1 ? sort : "")
     + '<button type="button" class="btn" id="copy-md">Copy as markdown</button></div>'
     + '<ul class="list" id="saved-list">'
-    + rows.map((s) => savedItemHTML(s)).join("") + "</ul>";
+    + rows.map((s) => savedItemHTML(s)).join("") + "</ul></section>";
 
   bindSavedForm();
   bindSavedSort();
