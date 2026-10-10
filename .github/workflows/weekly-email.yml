@@ -1,0 +1,56 @@
+name: Weekly email
+
+on:
+  schedule:
+    - cron: "30 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Render the emails as an artifact instead of sending
+        required: false
+        default: "true"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: weekly-email
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check out the data branch
+        run: |
+          git fetch --depth=1 origin data
+          git worktree add state FETCH_HEAD
+
+      - name: Send
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          KERNING_MAIL_ONLY: ${{ secrets.KERNING_MAIL_ONLY }}
+          KERNING_MAIL_FROM: ${{ vars.KERNING_MAIL_FROM }}
+          DIGEST_TZ: Europe/Prague
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
+        run: |
+          set -euo pipefail
+          args=(--digest state/digest.json)
+          if [ "${DRY_RUN:-false}" = "true" ]; then args+=(--dry-run --out out); fi
+          node scripts/weekly_email.mjs "${args[@]}"
+
+      - name: Upload preview
+        if: github.event.inputs.dry_run == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-email-preview
+          path: out/
+          if-no-files-found: ignore
+          retention-days: 3

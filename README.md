@@ -196,7 +196,7 @@ carries `mt`, the time it last changed. Removing one writes a tombstone in
 Tombstones expire after 90 days. Catalog defaults start at `mt` 0, so a
 fresh device seeding them never revives one you deleted. Learned weights are
 not stored; each browser rebuilds them after a merge. The logic lives in
-`merge.js` and is tested with `node --test tests/merge.test.mjs`.
+`merge.js`, the ranking in `taste.js`; test both with `node --test tests/*.mjs`.
 
 Setup:
 
@@ -227,6 +227,83 @@ from the dashboard; profiles are kept), and the built-in mailer sends only a
 few sign-in emails an hour. Add custom SMTP under Authentication if that
 gets in the way.
 
+**Account panel.** Signed in, the Account item opens a panel with what's
+synced, the last sync time, Sync now, and Delete synced data. Delete removes
+the `profiles` and `email_prefs` rows and signs out; this browser keeps its
+copy. The Supabase login itself stays, because deleting a user needs the
+service_role key, which never goes in the browser. Remove it from
+Authentication → Users if asked.
+
+### Weekly email
+
+An opt-in email every Monday with last week's issue, ranked by the reader's
+synced taste (the same `taste.js` the site uses). A GitHub Action
+(`.github/workflows/weekly-email.yml`, Monday 06:30 UTC, after the 05:15 close) runs
+`scripts/weekly_email.mjs`, which reads `digest.json` from the `data` branch,
+loads opted-in readers and their profiles with the service role key, and
+sends through [Resend](https://resend.com) (free: 3,000 emails a month,
+100 a day). Each reader gets at most one email per ISO week.
+
+Setup:
+
+1. SQL editor in Supabase:
+
+   ```sql
+   create table public.email_prefs (
+     user_id uuid primary key references auth.users on delete cascade,
+     email text not null,
+     weekly boolean not null default false,
+     unsub_token uuid not null unique default gen_random_uuid(),
+     last_sent_week text,
+     updated_at timestamptz not null default now()
+   );
+   alter table public.email_prefs enable row level security;
+   create policy "own email prefs" on public.email_prefs
+     for all using (auth.uid() = user_id)
+     with check (auth.uid() = user_id and email = auth.email());
+
+   create function public.unsubscribe(token uuid) returns boolean
+   language sql security definer set search_path = public as $$
+     with hit as (
+       update public.email_prefs set weekly = false, updated_at = now()
+       where unsub_token = token
+       returning 1
+     )
+     select exists (select 1 from hit);
+   $$;
+   revoke all on function public.unsubscribe(uuid) from public;
+   grant execute on function public.unsubscribe(uuid) to anon, authenticated;
+   ```
+
+2. Create a Resend account and an API key (Sending access).
+3. GitHub → Settings → Secrets and variables → Actions, add:
+   - `SUPABASE_SERVICE_ROLE_KEY`: Supabase → Project Settings → API keys →
+     service_role. It bypasses row-level security, so it lives only here.
+   - `RESEND_API_KEY`: the key from step 2.
+   - `KERNING_MAIL_ONLY`: your own address while Resend has no verified
+     domain. Resend's test sender (`onboarding@resend.dev`) delivers only to
+     the account's own email, so every other reader is skipped.
+4. Run the workflow by hand with `dry_run` on to see the rendered emails in
+   the run's artifact, then once with it off.
+
+The opt-in checkbox in the Account panel is hidden until
+`WEEKLY_EMAIL_OPEN` in `index.html` is `true`. Until then, open the site
+once with `?beta=email` to show it in that browser. To open it to everyone:
+verify a domain in Resend, set the `KERNING_MAIL_FROM` repository variable
+(for example `Kerning <digest@yourdomain.com>`), delete `KERNING_MAIL_ONLY`,
+and flip the constant.
+
+Each email carries an unsubscribe link (`/?unsubscribe=<token>`) and a
+`List-Unsubscribe` header. The link calls `unsubscribe()`, which turns the
+email off without signing in.
+
+Preview locally without sending:
+
+```bash
+node scripts/weekly_email.mjs --dry-run --digest path/to/digest.json \
+  --profile kerning-profile.json --to you@example.com
+```
+
 Opening the file directly with `file://` means the browser blocks
 `fetch()` of `digest.json`, and the app silently falls back to querying
 Hacker News live. If you see the "Live Hacker News only" banner, that's why.
@@ -255,8 +332,10 @@ watches anyone and any feed you added, on top of the curated lists.
 
 | File | What it is |
 |---|---|
-| `index.html` | The reading app: HTML, CSS, and JS in one file, plus `merge.js`. |
+| `index.html` | The reading app: HTML, CSS, and JS in one file, plus `taste.js` and `merge.js`. |
+| `taste.js` | Tokens, learned weights, and the personal rerank; shared with the weekly email. |
 | `merge.js` | Per-entry profile merge for sync across devices. |
+| `scripts/weekly_email.mjs` | Monday email: personal ranking per opted-in reader, sent through Resend. |
 | `app/` | Hosted FastAPI, magic-link auth, Postgres models, crawl + cut jobs. |
 | `kerning_lib/` | Windows, pool, quality gate, collect/close, Blob/local store. |
 | `kerning_lib/quality.json` | Close-time thresholds, GitHub pre-release rules, domain lists. |
@@ -264,7 +343,7 @@ watches anyone and any feed you added, on top of the curated lists.
 | `kerning_serve.py` | Local single-user server. Serves the app; `POST /rebuild` is opt-in. |
 | `api/` | Vercel: `GET /api/digest` (from the `data` branch); unused Blob collect/close. |
 | `vercel.json` | Static Vercel project, Python functions, no builds for `data`. |
-| `.github/workflows/` | Collect every 2h and close after Prague midnight, into `data`. |
+| `.github/workflows/` | Collect every 2h and close after Prague midnight, into `data`; Monday weekly email. |
 | `scripts/install-schedule.sh` | One-time install of the 00:20 LaunchAgent for the local path. |
 | `accounts.txt` | X handles used as a Taste watchlist / ranking hints. Hosted fetch does not scrape X for these. |
 | `bsky-accounts.txt` | Bluesky handles to watch. Custom domains work. |

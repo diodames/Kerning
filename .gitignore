@@ -12,3 +12,4 @@ kerning.db
 venv/
 data/
 .vercel
+out/

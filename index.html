@@ -604,6 +604,18 @@
   .dlg .sync-add { margin-top: 22px; }
   .dlg .sync-msg { margin-top: 12px; }
   .dlg .sync-msg:empty { display: none; }
+  .dlg .acct-row {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 0 12px;
+    margin-top: 6px;
+  }
+  .dlg .acct-row .link { min-height: 36px; padding: 6px 0; font-size: var(--text-meta); }
+  .dlg .acct-check {
+    display: flex; gap: 10px; align-items: flex-start;
+    margin-top: 14px; cursor: pointer;
+    font-size: var(--text-meta); color: var(--mute); line-height: 1.55;
+  }
+  .dlg .acct-check input { margin: 3px 0 0; accent-color: var(--ink); }
+  .dlg .acct-acts .btn.down { margin-right: auto; }
   .dlg .btn.down { color: var(--warm); }
   .dlg .btn.down:hover { color: var(--ink); }
   .tsec { margin: 8px 0 48px; }
@@ -1064,17 +1076,54 @@
   </form>
   <div id="sync-account" hidden>
     <h2 id="sync-account-title">Account</h2>
-    <p id="sync-account-body">Signed in as <strong id="sync-account-email"></strong>. Saved stories and taste sync across your devices. <span id="sync-account-when"></span></p>
-    <div class="dlg-acts">
+    <p id="sync-account-body">Signed in as <strong id="sync-account-email"></strong>. Saved stories and taste sync across your devices.</p>
+    <p class="acct-row"><span id="sync-account-counts"></span>
+      <button type="button" class="link" id="sync-edit-taste">Edit on Taste</button></p>
+    <p class="acct-row"><span id="sync-account-when"></span>
+      <button type="button" class="link" id="sync-now">Sync now</button></p>
+    <label class="acct-check" id="sync-weekly-row" hidden>
+      <input type="checkbox" id="sync-weekly">
+      <span>Email me the weekly issue on Monday, ranked by your taste.</span>
+    </label>
+    <p class="note sync-msg" id="sync-account-msg" role="status"></p>
+    <div class="dlg-acts acct-acts">
+      <button type="button" class="btn down" id="sync-delete">Delete synced data</button>
       <button type="button" class="btn" id="sync-close">Close</button>
       <button type="button" class="btn" id="sync-sign-out">Sign out</button>
     </div>
   </div>
 </dialog>
 
+<dialog id="sync-delete-dialog" class="dlg" aria-labelledby="sync-delete-title" aria-describedby="sync-delete-body">
+  <form id="sync-delete-form">
+    <h2 id="sync-delete-title">Delete synced data?</h2>
+    <p id="sync-delete-body">This removes your profile from Kerning&rsquo;s server and signs you out. This browser keeps its copy.</p>
+    <p class="note sync-msg" id="sync-delete-msg" role="status"></p>
+    <div class="dlg-acts">
+      <button type="button" class="btn" id="sync-delete-cancel" autofocus>Cancel</button>
+      <button type="submit" class="btn down" id="sync-delete-confirm">Delete</button>
+    </div>
+  </form>
+</dialog>
+
+<dialog id="notice-dialog" class="dlg" aria-labelledby="notice-title" aria-describedby="notice-body">
+  <form method="dialog">
+    <h2 id="notice-title"></h2>
+    <p id="notice-body"></p>
+    <div class="dlg-acts">
+      <button type="submit" class="btn" autofocus>Close</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="taste.js"></script>
 <script src="merge.js"></script>
 <script>
 "use strict";
+
+const {
+  LEXICON, domainOf, normalizeArticleUrl, canonUrl, lexiconEntryHits, tokensOf, isPackPerson,
+} = KerningTaste;
 
 /* ---------------------------------------------------------------- */
 /* Config                                                            */
@@ -1136,32 +1185,6 @@ const QUERIES = [
   "animation", "product design", "interaction design",
   "product management", "product discovery", "product manager",
   "jobs to be done", "product strategy", "user research",
-];
-
-const LEXICON = [
-  ["typography",3,"typographic"],["typeface",3],["typesetting",3],["kerning",3],
-  ["baseline grid",3],["font",3,"fonts"],["variable font",3],["lettering",3],
-  ["figma",3],["design system",3,"design systems"],["design token",3,"design tokens"],
-  ["ux",3,"user experience"],["ui",3,"user interface"],["usability",3],
-  ["interaction design",3],["visual design",3],["graphic design",3],
-  ["product design",3],["industrial design",3],["information architecture",3],
-  ["wireframe",3],["human interface",3],["material design",3],["skeuomorph",3],
-  ["bauhaus",3],["swiss design",3],["illustration",3],["iconography",3],
-  ["accessibility",3,"a11y"],["wcag",3],["screen reader",3],["motion design",3],
-  ["brand identity",3],["color palette",3],["grid system",3],["web design",3],
-  ["logo",3],["legibility",3],["type design",3],
-  ["icons",2],["illustrator",2],["branding",2],["palette",2],["colour",2],
-  ["layout",2],["css",2],["tailwind",2],["svg",2],["animation",2],["prototype",2,"prototyping"],
-  ["poster",2],["dark mode",2],["aesthetic",2,"aesthetics"],
-  ["designer",2],["redesign",2],["readability",2],
-  ["product strategy",2],["product sense",2],["roadmap",2],
-  ["prioritization",2],["prd",2],["user research",2],
-  ["outcome-based",2],["product-led",2],
-  ["product management",3],["product manager",3],
-  ["product discovery",3],["jobs to be done",3,"jtbd"],
-  ["opportunity solution tree",3],["dual-track",3],
-  ["continuous discovery",3],["product ops",3],
-  ["design",1],["craft",1],["interface",1],
 ];
 
 const TASTE_GROUPS = [
@@ -1473,25 +1496,6 @@ const clamp = (n, lo, hi) => Math.max(lo, Math.min(hi, n));
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) =>
   ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
 
-function domainOf(url) {
-  if (!url) return "";
-  try { return new URL(url).hostname.replace(/^www\./, ""); } catch (e) { return ""; }
-}
-
-function lexiconFormHits(hay, form) {
-  return form.indexOf(" ") >= 0
-    ? hay.indexOf(form) >= 0
-    : new RegExp("\\b" + form.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(hay);
-}
-
-function lexiconEntryHits(hay, entry) {
-  if (lexiconFormHits(hay, entry[0])) return true;
-  for (let i = 2; i < entry.length; i++) {
-    if (lexiconFormHits(hay, entry[i])) return true;
-  }
-  return false;
-}
-
 function lexiconScore(item) {
   const hay = (item.title + " " + domainOf(item.url)).toLowerCase();
   let score = 0;
@@ -1500,22 +1504,6 @@ function lexiconScore(item) {
     if (lexiconEntryHits(hay, entry)) score += entry[1];
   }
   return score;
-}
-
-function tokensOf(item) {
-  const hay = ((item.title || "") + " " + domainOf(item.url)).toLowerCase();
-  const set = new Set();
-  for (let i = 0; i < LEXICON.length; i++) {
-    const entry = LEXICON[i];
-    if (entry[1] < 2) continue;
-    if (lexiconEntryHits(hay, entry)) set.add(entry[0]);
-  }
-  const d = domainOf(item.url);
-  if (d) set.add("site:" + d);
-  (item.authors || []).forEach((a) => {
-    if (a) set.add("person:" + String(a).toLowerCase());
-  });
-  return Array.from(set);
 }
 
 function downvotedRatings() {
@@ -1824,70 +1812,8 @@ async function fetchStories(d, onProgress) {
   return Array.from(byId.values());
 }
 
-const MAX_PER_DOMAIN = 2;
-const MAX_PER_SOURCE = 4;
-const TASTE_WEIGHT = 2.0;
-const MATCHES_PROFILE = "matches your profile";
-
-// Only the reader's own signals count; the default people pack seeds
-// weights for everyone and must not reorder the published picks.
-function hasLearnedTaste() {
-  const seeds = profile.seeds || {};
-  const own = Object.keys(profile.ratings).length > 0
-    || (seeds.articles || []).length > 0
-    || (seeds.people || []).some((p) => !isPackPerson(p));
-  return own && Object.keys(profile.weights).some((k) => profile.weights[k]);
-}
-
-function learnedScore(item) {
-  const toks = tokensOf(item);
-  let sum = 0;
-  toks.forEach((t) => { sum += profile.weights[t] || 0; });
-  return sum / Math.sqrt(Math.max(toks.length, 1));
-}
-
-// Same caps as diversify() in kerning_fetch.py. Pinned items keep their slots.
-function diversifyItems(items, limit, pinned) {
-  const perDomain = {};
-  const perSource = {};
-  const out = [];
-  const taken = new Set();
-  function take(it) {
-    const d = domainOf(it.url);
-    const s = (it.sources || [])[0] || "";
-    perDomain[d] = (perDomain[d] || 0) + 1;
-    perSource[s] = (perSource[s] || 0) + 1;
-    taken.add(it.id);
-    out.push(it);
-  }
-  (pinned || []).forEach(take);
-  for (const it of items) {
-    if (out.length >= limit) break;
-    if (taken.has(it.id)) continue;
-    const d = domainOf(it.url);
-    const s = (it.sources || [])[0] || "";
-    if ((perDomain[d] || 0) >= MAX_PER_DOMAIN || (perSource[s] || 0) >= MAX_PER_SOURCE) continue;
-    take(it);
-  }
-  return out;
-}
-
-// Rerank the edition's candidates by this browser's taste. Without learned
-// weights the published picks are shown as they are.
 function personalize(candidates, picks) {
-  if (!hasLearnedTaste()) return picks.slice();
-  const limit = picks.length;
-  const scored = candidates.map((it) => {
-    const learned = learnedScore(it);
-    const total = (it.score || 0) + TASTE_WEIGHT * learned - (isDownvotedItem(it) ? 8 : 0);
-    let reasons = it.reasons || [];
-    if (learned >= 0.6 && !reasons.some((r) => r[0] === MATCHES_PROFILE)) {
-      reasons = reasons.concat([[MATCHES_PROFILE, 1]]);
-    }
-    return Object.assign({}, it, { total: total, reasons: reasons });
-  }).sort((a, b) => b.total - a.total);
-  const pinned = scored.filter((it) => justRated[it.id]);
-  return diversifyItems(scored, limit, pinned).sort((a, b) => b.total - a.total);
+  return KerningTaste.personalize(profile, profile.weights, candidates, picks, justRated);
 }
 
 function recompute() {
@@ -1909,42 +1835,12 @@ function rebuildWeights() {
   const byId = {};
   raw.forEach((it) => { byId[it.id] = it; });
   ranked.forEach((it) => { if (!byId[it.id]) byId[it.id] = it; });
-  const weights = {};
-  function bump(tokens, delta) {
-    tokens.forEach((t) => {
-      weights[t] = clamp((weights[t] || 0) + delta, -6, 6);
-    });
-  }
-  (profile.seeds.articles || []).forEach((a) => {
-    if (!a || !a.url) return;
-    bump(tokensOf({ title: a.title || "", url: a.url }), 1);
-  });
-  (profile.seeds.people || []).forEach((p) => {
-    if (!p || !p.handle) return;
-    bump(["person:" + String(p.handle).toLowerCase()], 2);
-    const seen = new Set();
-    (p.links || []).forEach((lnk) => {
-      tokensOf({ title: (lnk && lnk.title) || "", url: (lnk && lnk.url) || "" })
-        .forEach((t) => { if (t.indexOf("person:") !== 0) seen.add(t); });
-    });
-    bump(Array.from(seen), 1);
-  });
   Object.keys(profile.ratings).forEach((id) => {
     const rec = profile.ratings[id];
-    if (!rec || !rec.r) return;
-    const src = byId[id] || {};
-    if (!rec.url && src.url) rec.url = src.url;
-    const item = {
-      id: id,
-      title: src.title || rec.title || "",
-      url: src.url || rec.url || "",
-      authors: src.authors || rec.authors || [],
-    };
-    let toks = tokensOf(item);
-    if (rec.r < 0) toks = toks.filter((t) => t.indexOf("site:") !== 0);
-    bump(toks, rec.r);
+    const src = byId[id];
+    if (rec && rec.r && !rec.url && src && src.url) rec.url = src.url;
   });
-  profile.weights = weights;
+  profile.weights = KerningTaste.buildWeights(profile, Object.values(byId));
 }
 
 function persistTaste() {
@@ -2039,22 +1935,6 @@ function titleFromUrl(url) {
   } catch (e) {
     return url;
   }
-}
-
-function normalizeArticleUrl(raw) {
-  const s = String(raw || "").trim();
-  if (!s) return "";
-  try {
-    const u = new URL(/^https?:\/\//i.test(s) ? s : "https://" + s);
-    u.hash = "";
-    return u.toString();
-  } catch (e) {
-    return "";
-  }
-}
-
-function canonUrl(url) {
-  return normalizeArticleUrl(url).replace(/\/+$/, "").toLowerCase();
 }
 
 async function titleForUrl(url) {
@@ -2454,12 +2334,6 @@ function defaultPersonFromHandle(handle) {
     links: [],
     seeded: true,
   };
-}
-
-function isPackPerson(p) {
-  if (!p) return false;
-  if (p.pack === "x-following") return true;
-  return p.addedAt === 0 && p.network === "x";
 }
 
 async function ensurePeopleCatalog() {
@@ -2992,6 +2866,7 @@ async function syncInit() {
   syncMode = true;
   renderAuthSlot();
   bindSyncDialog();
+  handleSyncLinks();
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "visible" && syncUser) syncNow();
   });
@@ -3022,7 +2897,7 @@ function remoteShape(p) {
 // Pull, merge, and push back only when the merged profile differs. Always
 // merging first means two devices writing at once never drop each other's edits.
 function syncNow() {
-  if (!syncClient || !syncUser) return Promise.resolve();
+  if (!syncClient || !syncUser) return Promise.resolve(false);
   if (syncRunning) {
     syncAgain = true;
     return syncRunning;
@@ -3031,7 +2906,7 @@ function syncNow() {
     const userId = syncUser.id;
     const { data, error } = await syncClient
       .from("profiles").select("data").eq("user_id", userId).maybeSingle();
-    if (error) return;
+    if (error) return false;
     const remote = data && data.data ? normalizeProfile(data.data) : null;
     const merged = normalizeProfile(KerningMerge.mergeProfiles(profile, remote || {}));
     if (!KerningMerge.sameProfile(merged, profile)) {
@@ -3048,10 +2923,11 @@ function syncNow() {
         data: remoteShape(profile),
         updated_at: new Date().toISOString(),
       });
-      if (pushError) return;
+      if (pushError) return false;
     }
     syncLastAt = Date.now();
-  })().catch(() => { /* next edit or tab focus retries */ }).finally(() => {
+    return true;
+  })().catch(() => false /* next edit or tab focus retries */).finally(() => {
     syncRunning = null;
     if (syncAgain) {
       syncAgain = false;
@@ -3068,6 +2944,26 @@ function renderSyncSlot(slot) {
     : ">Sign in";
   slot.innerHTML = '<button type="button" class="tab" id="sync-open"' + label + "</button>";
   document.getElementById("sync-open").onclick = openSyncDialog;
+}
+
+function countLabel(n, one, many) {
+  return n + " " + (n === 1 ? one : many);
+}
+
+function syncedSummary() {
+  const seeds = profile.seeds || {};
+  const ratings = Object.keys(profile.ratings || {}).filter((id) => {
+    const rec = profile.ratings[id];
+    return rec && rec.r;
+  }).length;
+  const parts = [
+    [(profile.saved || []).length, "saved", "saved"],
+    [ratings, "rating", "ratings"],
+    [(seeds.people || []).filter((p) => !isPackPerson(p)).length, "person", "people"],
+    [(seeds.resources || []).filter((r) => r && r.addedAt > 0).length, "resource", "resources"],
+    [(seeds.articles || []).length, "article", "articles"],
+  ].filter((p) => p[0] > 0).map((p) => countLabel(p[0], p[1], p[2]));
+  return parts.length ? parts.join(", ") + "." : "Nothing saved or rated yet.";
 }
 
 function syncedLabel() {
@@ -3090,6 +2986,9 @@ function openSyncDialog() {
     dlg.setAttribute("aria-describedby", "sync-account-body");
     document.getElementById("sync-account-email").textContent = syncUser.email || "your account";
     document.getElementById("sync-account-when").textContent = syncedLabel();
+    document.getElementById("sync-account-counts").textContent = syncedSummary();
+    document.getElementById("sync-account-msg").textContent = "";
+    renderWeeklyOptIn();
     dlg.showModal();
     document.getElementById("sync-close").focus();
     return;
@@ -3112,6 +3011,32 @@ function bindSyncDialog() {
   document.getElementById("sync-cancel").onclick = () => dlg.close();
   document.getElementById("sync-close").onclick = () => dlg.close();
   document.getElementById("sync-sign-out").onclick = syncSignOut;
+  document.getElementById("sync-edit-taste").onclick = () => {
+    dlg.close();
+    tab = "taste";
+    render();
+    window.scrollTo(0, 0);
+  };
+  document.getElementById("sync-now").onclick = async function () {
+    const btn = this;
+    const msg = document.getElementById("sync-account-msg");
+    btn.disabled = true;
+    btn.textContent = "Syncing\u2026";
+    msg.textContent = "";
+    const ok = await syncNow();
+    btn.disabled = false;
+    btn.textContent = "Sync now";
+    document.getElementById("sync-account-when").textContent = syncedLabel();
+    document.getElementById("sync-account-counts").textContent = syncedSummary();
+    if (!ok) msg.textContent = "Couldn\u2019t sync. Check your connection and try again.";
+  };
+  document.getElementById("sync-weekly").onchange = function () { saveWeeklyOptIn(this); };
+  document.getElementById("sync-delete").onclick = () => {
+    dlg.close();
+    document.getElementById("sync-delete-msg").textContent = "";
+    document.getElementById("sync-delete-dialog").showModal();
+  };
+  bindSyncDeleteDialog();
   dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
   form.onsubmit = async (e) => {
     e.preventDefault();
@@ -3144,6 +3069,117 @@ function bindSyncDialog() {
       btn.disabled = false;
     }
   };
+}
+
+function bindSyncDeleteDialog() {
+  const dlg = document.getElementById("sync-delete-dialog");
+  const form = document.getElementById("sync-delete-form");
+  const msg = document.getElementById("sync-delete-msg");
+  const confirm = document.getElementById("sync-delete-confirm");
+  document.getElementById("sync-delete-cancel").onclick = () => dlg.close();
+  dlg.addEventListener("click", (e) => { if (e.target === dlg && !confirm.disabled) dlg.close(); });
+  form.onsubmit = async (e) => {
+    e.preventDefault();
+    if (!syncClient || !syncUser) { dlg.close(); return; }
+    const userId = syncUser.id;
+    clearTimeout(syncTimer);
+    confirm.disabled = true;
+    msg.textContent = "";
+    try {
+      const prefs = await syncClient.from("email_prefs").delete().eq("user_id", userId);
+      // email_prefs is optional; a missing table must not block deleting the profile.
+      if (prefs.error && prefs.error.code !== "PGRST205" && prefs.error.code !== "42P01") throw prefs.error;
+      const res = await syncClient.from("profiles").delete().eq("user_id", userId);
+      if (res.error) throw res.error;
+      dlg.close();
+      await syncSignOut();
+    } catch (err) {
+      msg.textContent = "Couldn\u2019t delete your synced data. Check your connection and try again.";
+    } finally {
+      confirm.disabled = false;
+    }
+  };
+}
+
+const WEEKLY_EMAIL_OPEN = false;
+const BETA_EMAIL_KEY = "kerning:beta-email";
+
+function weeklyEmailVisible() {
+  if (WEEKLY_EMAIL_OPEN) return true;
+  try { return localStorage.getItem(BETA_EMAIL_KEY) === "1"; } catch (e) { return false; }
+}
+
+async function renderWeeklyOptIn() {
+  const row = document.getElementById("sync-weekly-row");
+  const box = document.getElementById("sync-weekly");
+  row.hidden = !weeklyEmailVisible();
+  if (row.hidden || !syncClient || !syncUser) return;
+  box.disabled = true;
+  const { data, error } = await syncClient
+    .from("email_prefs").select("weekly").eq("user_id", syncUser.id).maybeSingle();
+  box.checked = !error && !!(data && data.weekly);
+  box.disabled = !!error;
+  if (error) {
+    document.getElementById("sync-account-msg").textContent =
+      "The weekly email isn\u2019t set up on the server yet.";
+  }
+}
+
+async function saveWeeklyOptIn(box) {
+  const msg = document.getElementById("sync-account-msg");
+  if (!syncClient || !syncUser) return;
+  const want = box.checked;
+  box.disabled = true;
+  msg.textContent = "";
+  const { error } = await syncClient.from("email_prefs").upsert({
+    user_id: syncUser.id,
+    email: syncUser.email,
+    weekly: want,
+    updated_at: new Date().toISOString(),
+  });
+  box.disabled = false;
+  if (error) {
+    box.checked = !want;
+    msg.textContent = "Couldn\u2019t save that. Check your connection and try again.";
+    return;
+  }
+  msg.textContent = want
+    ? "You\u2019ll get the weekly issue on Monday mornings."
+    : "You won\u2019t get the weekly email anymore.";
+}
+
+// Handles ?beta=email and ?unsubscribe=<token> from links, then cleans the URL.
+async function handleSyncLinks() {
+  const params = new URLSearchParams(location.search);
+  const beta = params.get("beta");
+  const token = params.get("unsubscribe");
+  if (!beta && !token) return;
+  params.delete("beta");
+  params.delete("unsubscribe");
+  const rest = params.toString();
+  history.replaceState(null, "", location.pathname + (rest ? "?" + rest : "") + location.hash);
+  if (beta === "email") {
+    try { localStorage.setItem(BETA_EMAIL_KEY, "1"); } catch (e) { /* private mode */ }
+  }
+  if (!token) return;
+  let ok = false;
+  try {
+    const client = await syncLoadClient();
+    const { data, error } = await client.rpc("unsubscribe", { token: token });
+    ok = !error && data === true;
+  } catch (e) { /* reported below */ }
+  showNotice(
+    ok ? "Unsubscribed" : "Couldn\u2019t unsubscribe",
+    ok ? "You won\u2019t get the weekly email anymore. Turn it back on from Account."
+      : "The link didn\u2019t work. Sign in and turn the weekly email off from Account."
+  );
+}
+
+function showNotice(title, body) {
+  const dlg = document.getElementById("notice-dialog");
+  document.getElementById("notice-title").textContent = title;
+  document.getElementById("notice-body").textContent = body;
+  dlg.showModal();
 }
 
 async function syncSignOut() {
