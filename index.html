@@ -604,18 +604,39 @@
   .dlg .sync-add { margin-top: 22px; }
   .dlg .sync-msg { margin-top: 12px; }
   .dlg .sync-msg:empty { display: none; }
-  .dlg .acct-row {
-    display: flex; flex-wrap: wrap; align-items: center; gap: 0 12px;
-    margin-top: 6px;
+  .dlg:has(#sync-account:not([hidden])) { width: min(28rem, calc(100% - 2 * var(--pad))); }
+  #sync-account-body strong { color: var(--ink); font-weight: 500; }
+  .dlg .acct-sec { margin-top: 28px; }
+  .dlg .acct-h {
+    margin: 0 0 6px;
+    font-size: 12px; font-weight: 500; line-height: 1.4;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink);
   }
-  .dlg .acct-row .link { min-height: 36px; padding: 6px 0; font-size: var(--text-meta); }
-  .dlg .acct-check {
-    display: flex; gap: 10px; align-items: flex-start;
-    margin-top: 14px; cursor: pointer;
+  .dlg .acct-row {
+    display: flex; flex-wrap: wrap; align-items: center;
+    justify-content: space-between; gap: 0 16px;
     font-size: var(--text-meta); color: var(--mute); line-height: 1.55;
   }
-  .dlg .acct-check input { margin: 3px 0 0; accent-color: var(--ink); }
-  .dlg .acct-acts .btn.down { margin-right: auto; }
+  .dlg .acct-row .link {
+    min-height: 36px; padding: 6px 0;
+    font-size: var(--text-meta); white-space: nowrap;
+  }
+  .dlg .acct-sec .sync-msg { margin-top: 4px; }
+  .dlg .acct-check {
+    display: flex; gap: 10px; align-items: flex-start;
+    padding: 6px 0; cursor: pointer;
+    font-size: var(--text-meta); color: var(--mute); line-height: 1.55;
+  }
+  .dlg .acct-check input {
+    flex-shrink: 0; width: 15px; height: 15px;
+    margin: calc((1.55em - 15px) / 2) 0 0; accent-color: var(--ink);
+  }
+  .dlg .acct-acts {
+    margin-top: 28px; padding-top: 12px;
+    border-top: 1px solid var(--line);
+  }
+  .dlg .acct-acts .btn.down { margin-inline-end: auto; }
   .dlg .btn.down { color: var(--warm); }
   .dlg .btn.down:hover { color: var(--ink); }
   .tsec { margin: 8px 0 48px; }
@@ -946,6 +967,8 @@
   @media (max-width: 360px) {
     .site-nav, .tabs { gap: 12px; }
     .nav-logo-rest { display: none; }
+    .dlg { padding-inline: 22px; }
+    .dlg .acct-acts { column-gap: 16px; }
   }
   @media (forced-colors: active) {
     .chip.on, .tab.on { outline: 2px solid CanvasText; }
@@ -1076,16 +1099,27 @@
   </form>
   <div id="sync-account" hidden>
     <h2 id="sync-account-title">Account</h2>
-    <p id="sync-account-body">Signed in as <strong id="sync-account-email"></strong>. Saved stories and taste sync across your devices.</p>
-    <p class="acct-row"><span id="sync-account-counts"></span>
-      <button type="button" class="link" id="sync-edit-taste">Edit on Taste</button></p>
-    <p class="acct-row"><span id="sync-account-when"></span>
-      <button type="button" class="link" id="sync-now">Sync now</button></p>
-    <label class="acct-check" id="sync-weekly-row" hidden>
-      <input type="checkbox" id="sync-weekly">
-      <span>Email me the weekly issue on Monday, ranked by your taste.</span>
-    </label>
-    <p class="note sync-msg" id="sync-account-msg" role="status"></p>
+    <p id="sync-account-body">Signed in as <strong id="sync-account-email"></strong></p>
+    <section class="acct-sec" aria-labelledby="sync-sec-title">
+      <h3 class="acct-h" id="sync-sec-title">Sync</h3>
+      <div class="acct-row">
+        <span id="sync-account-counts"></span>
+        <button type="button" class="link" id="sync-edit-taste">Edit on Taste</button>
+      </div>
+      <div class="acct-row">
+        <span id="sync-account-when"></span>
+        <button type="button" class="link" id="sync-now">Sync now</button>
+      </div>
+      <p class="note sync-msg" id="sync-now-msg" role="status"></p>
+    </section>
+    <section class="acct-sec" id="sync-weekly-row" aria-labelledby="sync-weekly-title" hidden>
+      <h3 class="acct-h" id="sync-weekly-title">Weekly email</h3>
+      <label class="acct-check">
+        <input type="checkbox" id="sync-weekly">
+        <span>Email me Monday&rsquo;s issue, ranked by your taste.</span>
+      </label>
+      <p class="note sync-msg" id="sync-weekly-msg" role="status"></p>
+    </section>
     <div class="dlg-acts acct-acts">
       <button type="button" class="btn down" id="sync-delete">Delete synced data</button>
       <button type="button" class="btn" id="sync-close">Close</button>
@@ -2987,7 +3021,8 @@ function openSyncDialog() {
     document.getElementById("sync-account-email").textContent = syncUser.email || "your account";
     document.getElementById("sync-account-when").textContent = syncedLabel();
     document.getElementById("sync-account-counts").textContent = syncedSummary();
-    document.getElementById("sync-account-msg").textContent = "";
+    document.getElementById("sync-now-msg").textContent = "";
+    document.getElementById("sync-weekly-msg").textContent = "";
     renderWeeklyOptIn();
     dlg.showModal();
     document.getElementById("sync-close").focus();
@@ -3019,7 +3054,7 @@ function bindSyncDialog() {
   };
   document.getElementById("sync-now").onclick = async function () {
     const btn = this;
-    const msg = document.getElementById("sync-account-msg");
+    const msg = document.getElementById("sync-now-msg");
     btn.disabled = true;
     btn.textContent = "Syncing\u2026";
     msg.textContent = "";
@@ -3120,13 +3155,13 @@ async function renderWeeklyOptIn() {
   box.checked = !error && !!(data && data.weekly);
   box.disabled = !!error;
   if (error) {
-    document.getElementById("sync-account-msg").textContent =
+    document.getElementById("sync-weekly-msg").textContent =
       "The weekly email isn\u2019t set up on the server yet.";
   }
 }
 
 async function saveWeeklyOptIn(box) {
-  const msg = document.getElementById("sync-account-msg");
+  const msg = document.getElementById("sync-weekly-msg");
   if (!syncClient || !syncUser) return;
   const want = box.checked;
   box.disabled = true;
@@ -3144,7 +3179,7 @@ async function saveWeeklyOptIn(box) {
     return;
   }
   msg.textContent = want
-    ? "You\u2019ll get the weekly issue on Monday mornings."
+    ? "You\u2019ll get it on Monday mornings."
     : "You won\u2019t get the weekly email anymore.";
 }
 
