@@ -95,6 +95,18 @@ function itemMeta(it) {
   return bits.filter(Boolean).join(" \u00b7 ");
 }
 
+// Mail apps turn bare domains into blue links; an explicit grey link keeps the row one colour.
+function itemMetaHtml(it) {
+  const domain = domainOf(it.url);
+  const why = (it.reasons || []).map((r) => r[0]).filter(Boolean);
+  const bits = [];
+  if (domain) {
+    bits.push(`<a href="${esc(it.url)}" style="color:#6b6b6b;text-decoration:none;">${esc(domain)}</a>`);
+  }
+  if (why.length) bits.push(esc(why[0]));
+  return bits.join(" &middot; ");
+}
+
 function render(pack, ranked, unsubUrl, complete) {
   const label = pack.label || pack.week_label || "This week";
   const issue = complete ? "Last week\u2019s issue" : "This week\u2019s issue so far";
@@ -108,7 +120,7 @@ function render(pack, ranked, unsubUrl, complete) {
             <td style="width:32px;vertical-align:top;font-size:13px;color:#8a8a8a;padding:0 0 18px;font-variant-numeric:tabular-nums;">${String(i + 1).padStart(2, "0")}</td>
             <td style="vertical-align:top;padding:0 0 18px;">
               <a href="${esc(it.url)}" style="color:#1a1a1a;text-decoration:none;font-size:16px;line-height:1.4;font-weight:500;letter-spacing:-0.01em;">${esc(it.title)}</a>
-              <div style="font-size:13px;line-height:1.5;color:#6b6b6b;padding-top:3px;">${esc(itemMeta(it))}</div>
+              <div style="font-size:13px;line-height:1.5;color:#6b6b6b;padding-top:3px;">${itemMetaHtml(it)}</div>
             </td>
           </tr>`).join("");
 
@@ -122,6 +134,8 @@ function render(pack, ranked, unsubUrl, complete) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+  <meta name="x-apple-disable-message-reformatting">
   <title>${esc(subject)}</title>
 </head>
 <body style="margin:0;padding:0;background:#f4f3f0;">
