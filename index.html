@@ -432,10 +432,14 @@
   }
   #digest-list .acts.is-confirming .text-act.is-chosen,
   #saved-list .acts.is-confirming .text-act.is-chosen { opacity: 1; }
+  @media (hover: none) {
+    #saved-list .acts .text-act:hover { color: var(--ink); text-decoration: none; }
+  }
   #digest-list .acts .up.is-chosen,
   #saved-list .acts .up.is-chosen { color: var(--sage); }
   #digest-list .acts .down.is-chosen,
   #saved-list .acts .down.is-chosen { color: var(--warm); }
+  #saved-list .acts .is-chosen { font-weight: 500; }
   #digest-list .item.item--exiting,
   #saved-list .item.item--exiting {
     opacity: 0;
@@ -2410,6 +2414,11 @@ function confirmDigestRate(btn, item, value) {
   const itemEl = btn.closest("li.item");
   if (!itemEl || itemEl.dataset.busy === "1") return;
   const fromSaved = !!itemEl.closest("#saved-list");
+  const rec = profile.ratings[item.id];
+  if (fromSaved && rec && Math.sign(rec.r) === value) {
+    undo(item);
+    return;
+  }
   if (fromSaved && value > 0) {
     rate(item, value);
     return;
@@ -3465,9 +3474,9 @@ function savedItemHTML(item) {
     + '<div class="acts">'
     + '<div class="acts-vote">'
     + '<button type="button" class="text-act up' + (upOn ? " is-chosen" : "") + '" data-act="up" data-id="'
-    + esc(item.id) + '" aria-pressed="' + (upOn ? "true" : "false") + '">More like this</button>'
+    + esc(item.id) + '" aria-pressed="' + (upOn ? "true" : "false") + '">' + (upOn ? "Liked" : "More like this") + "</button>"
     + '<button type="button" class="text-act down' + (downOn ? " is-chosen" : "") + '" data-act="down" data-id="'
-    + esc(item.id) + '" aria-pressed="' + (downOn ? "true" : "false") + '">Less like this</button>'
+    + esc(item.id) + '" aria-pressed="' + (downOn ? "true" : "false") + '">' + (downOn ? "Disliked" : "Less like this") + "</button>"
     + "</div>"
     + '<button type="button" class="text-act" data-act="unsave" data-id="'
     + esc(item.id) + '">Remove</button>'
