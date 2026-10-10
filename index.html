@@ -605,6 +605,11 @@
   .dlg .sync-msg:empty { display: none; }
   #view-account .taste-primer strong { color: var(--ink); font-weight: 500; }
   #view-account .note:empty { display: none; }
+  @media (min-width: 641px) {
+    .acct-sync {
+      display: flex; align-items: baseline; justify-content: space-between; gap: 16px;
+    }
+  }
   .acct-check {
     display: flex; gap: 10px; align-items: flex-start;
     margin-top: 12px; padding: 6px 0; cursor: pointer;
@@ -2986,9 +2991,9 @@ function accountSignedInHTML() {
     + '<section class="tsec" aria-labelledby="account-sync-h">'
     + '<h2 id="account-sync-h">Sync</h2>'
     + '<p class="note">' + esc(syncedSummary()) + "</p>"
-    + '<p class="note">' + esc(syncedLabel()) + "</p>"
+    + '<div class="acct-sync"><p class="note">' + esc(syncedLabel()) + "</p>"
     + '<div class="acts"><button type="button" class="btn" id="account-sync-now"'
-    + (accountBusy.sync ? " disabled>Syncing\u2026" : ">Sync now") + "</button></div>"
+    + (accountBusy.sync ? " disabled>Syncing\u2026" : ">Sync now") + "</button></div></div>"
     + '<p class="field-err" id="account-sync-msg" role="status">' + esc(accountMsg.sync) + "</p>"
     + "</section>"
     + weekly
