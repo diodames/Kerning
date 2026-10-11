@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T02:18:34.208503+00:00",
+  "updated_at": "2026-10-11T01:50:35.731432+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -844,6 +844,57 @@
         "patch": 14,
         "prerelease": 3,
         "no_title": 22
+      }
+    },
+    "2026-10-10": {
+      "items": [
+        {
+          "id": "7a975c8b8f8b",
+          "title": "Chrome 154 lets iframes size to their content with one line of CSS",
+          "url": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
+          "hn": "https://news.ycombinator.com/item?id=50036173",
+          "points": 17,
+          "comments": 1,
+          "created_at_i": 1791636896,
+          "sources": [
+            "Lobsters",
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 6.176,
+          "why": [
+            "picked up by Lobsters and Hacker News"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "7a975c8b8f8b",
+          "title": "Chrome 154 lets iframes size to their content with one line of CSS",
+          "url": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
+          "hn": "https://news.ycombinator.com/item?id=50036173",
+          "points": 17,
+          "comments": 1,
+          "created_at_i": 1791636896,
+          "sources": [
+            "Lobsters",
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 6.176,
+          "why": [
+            "picked up by Lobsters and Hacker News"
+          ]
+        }
+      ],
+      "pool": 72,
+      "kept": 1,
+      "dropped": {
+        "below_threshold": 47,
+        "lexicon": 16,
+        "patch": 6,
+        "already_closed": 1,
+        "no_title": 1
       }
     }
   }

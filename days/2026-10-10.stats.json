@@ -1,0 +1,369 @@
+{
+  "date": "2026-10-10",
+  "pool": 72,
+  "kept": 1,
+  "dropped": {
+    "below_threshold": 47,
+    "lexicon": 16,
+    "patch": 6,
+    "already_closed": 1,
+    "no_title": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude",
+      "title": "Claude Design is moving to Artifacts in the Claude app",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twitter.com/reversedoofz/status/2108668397148094910",
+      "title": "Show HN: We Beat TypeSafe Jev and Released Open-Source Decision Model",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.jontsai.com/2026/10/10/organize-tabs-2-0",
+      "title": "Show HN: Organize Tabs – Chrome extension that dedupes PRs, tickets and profiles",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/tlack/babytalk",
+      "title": "Show HN: Babytalk: Offline speech to text and text to speech on ESP32",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://residentnewsnetwork.com/opinion-piece-consumer-ai-fatigue-is-overwhelming-and-why-local-businesses-should-re-consider-use/",
+      "title": "Consumer AI Fatigue Is Overwhelming, Local Businesses Should Reconsider Use",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theverge.com/tech/1002766/amazon-delivery-driver-smart-glasses-privacy",
+      "title": "Amazon's delivery driver smart glasses will take photos 'almost constantly'",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://openclassactions.com/lawsuits/google-gemini-gmail-privacy-class-action.php",
+      "title": "Class Action Alleges That Google Gemini Was Reading User Emails Without Consent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://phys.org/news/2026-10-success-story-zealand-heaviest-insect.html",
+      "title": "A conservation success story for New Zealand's heaviest insect",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.independent.co.uk/news/world/americas/us-politics/trump-musk-grok-venezuela-maduro-b3060366.html",
+      "title": "Trump consulted Musk's chatbot Grok before abducting Venezuela's president",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "title": "The Mythology of Conscious AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fmch.bmj.com/content/14/Suppl_5/e003925",
+      "title": "Ultra-processed food consumption and chronic diseases among 8,819,894 adults",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://logical.ai/arma/",
+      "title": "Parsing Latin poetry using constraint satisfaction",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arxiv.org/abs/2303.07103",
+      "title": "Could a Large Language Model Be Conscious? – David J. Chalmers (2024)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pigsfly.skinnyjames.net/2026%20-%20Financial%20Report/Heirloom.pdf",
+      "title": "Heirloom – A short essay about creativity, constraints, and farming [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=49972994",
+      "title": "I am building an Online Adobe Illustrator",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/designing-for-an-idea-before-it-exists-ecd8cb19999a?source=rss----138adf9c44c---4",
+      "title": "Designing for an idea before it exists",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.1",
+      "title": "Spectrum (Adobe) — @react-spectrum/s2@1.8.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Ffiletrigger%403.1.7",
+      "title": "Spectrum (Adobe) — @react-spectrum/filetrigger@3.1.7",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fcodemods%401.2.9",
+      "title": "Spectrum (Adobe) — @react-spectrum/codemods@1.2.9",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1",
+      "title": "Spectrum (Adobe) — @react-spectrum/ai@0.5.1",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/react-aria-components%401.22.1",
+      "title": "Spectrum (Adobe) — react-aria-components@1.22.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/react-aria%403.53.1",
+      "title": "Spectrum (Adobe) — react-aria@3.53.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40adobe%2Freact-spectrum%403.47.7",
+      "title": "Spectrum (Adobe) — @adobe/react-spectrum@3.47.7",
+      "reason": "patch"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50029811",
+      "title": "Need Unbiased and Real Assessment",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wwt.com/blog/bringing-your-llms-home",
+      "title": "The Case for Bringing Your LLMs Home",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://write.as/tmcb/thrust-vs-steer-or-yet-another-anecdotal-case-of-the-dunning-kruger-effect",
+      "title": "Thrust vs. Steer (Or: Yet Another Anecdotal Case of the Dunning-Kruger Effect)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/09/30/opinion/friendship-frequency-interaction.html",
+      "title": "The Scientific Case for Being Less in Touch with Your Friends",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://dataforgesql.com/",
+      "title": "DataForge SQL – Browser based streaming CSV to SQL with zero server uploads",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.lawfaremedia.org/article/a-case-study-in-pivoting--investigating-hacked-and-leaked-data-on-a-budget",
+      "title": "A Case Study in Pivoting: Investigating Hacked and Leaked Data on a Budget",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.olleewatch.com/blog/ollee-watch-el-launch",
+      "title": "Ollee Watch: Circuit Board for Casio A168 and F105 Released",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.groundlevel-ai.com/p/anthropic-ai-consciousness-new-york-times-rabbi",
+      "title": "If AI is conscient, then we are making slaves",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://raytriangle.com/making-the-worlds-smallest-game-console/",
+      "title": "Show HN: I made a TV game console inside an antenna plug",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+      "title": "Investigating unintended model actions in our evaluations and internal use",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://gongs-unlimited.com/products/unlimited-subatomic-gongs?variant=41333792973",
+      "title": "OMG, my wife sent me a website called GONGS-UNLIMITED.COM (!!!) and there’s one called a SUBATOMIC gong:",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://aleph-alpha.com/en/blog/designing-kolibri-architecture-trade-offs-from-first-principles/",
+      "title": "Designing Kolibri: Architecture Trade-Offs from First Principles",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jeyzma.com/",
+      "title": "Jeyzma is TypeSafeAI minus $850M plus Go/TinyGo/llama.cpp in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ideasman42.codeberg.page/font-xicago-mono/",
+      "title": "Xicago Mono: Classic macOS font for your terminal",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://antisoftworks.com/",
+      "title": "Show HN: AntiPDF – PDF as it should have been all along",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://opencomponents.dev/",
+      "title": "Show HN: Open Components – UI Components standard for people, devs and AI agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.berkeley.edu/2026/10/09/using-ai-for-just-10-minutes-erodes-your-ability-to-persist-at-hard-things/",
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50031447",
+      "title": "Prompt areas are built the wrong way",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/herdrdev/herdr/blob/master/CONTRIBUTING.md",
+      "title": "Herdr does not accept unsolicited pull requests",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo",
+      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://time.com/article/2026/10/08/senate-investigation-ai-data-centers/",
+      "title": "Senate Investigation Challenges Big Tech's Case for AI Data Centers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://svpremium.dev/",
+      "title": "Show HN: The safe-choice tax – what the vendor nobody gets fired for costs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.investopedia.com/the-2026-american-dream-cost-rises-4-percent-12154346",
+      "title": "The 'American Dream' Now Costs More Than $5.3M",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reddit.com/r/HelixEditor/comments/1x1zrmg/helix_users_watch_maintainer_hover_over_merge/",
+      "title": "Helix Users Watch Maintainer Hover over Merge Button for Third Consecutive Month",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50032151",
+      "title": "Turing: Opposition from the Intellectuals",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lightbulbcomputer.com/",
+      "title": "The Lightbulb Computer: Reimagining Spatial & Ambient Computing with Projectors",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22795",
+      "title": "Going to Florida. brb 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.commondreams.org/opinion/dance-education-multiculturalism?share_id=10047994",
+      "title": "A Dance Program in New York Schools Shows Why Multiculturalism Still Matters",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ivyfoundry.com/families/ivymazarin",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Font_comparisons_(Vector)",
+      "title": "Font Comparisons (Vector)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.jvt.me/posts/2026/10/09/logs-interface/",
+      "title": "Logs as UX",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://worldwatcher.live/",
+      "title": "Show HN: World Watcher – a map to seamlessly watch public webcam streams",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://maplehill.openwants.com/",
+      "title": "Show HN: OpenWants – A Simulated City Where AI Agents Handle Residents Needs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/tessaryai/tessary",
+      "title": "Show HN: Tessary – Find the AI agent failures your sampled evals miss",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@scope",
+      "title": "Scope CSS At-Rule",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.warren.senate.gov/newsroom/press-releases/ai-data-center-companies-reveal-to-warren-blumenthal-van-hollen-they-are-not-paying-their-full-costs-will-continue-using-ndas-and-seeking-tax-breaks/",
+      "title": "AI Data Centers Not Paying Their Costs, Will Keep Using NDAs and Seek Tax Breaks",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://theverifiedpost.com/article/whooping-cranes-ultralight-costumed-pilots-operation-migration",
+      "title": "Whooping Cranes Learned to Migrate by Following Costumed Pilots",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50032742",
+      "title": "Ask HN: How will socio-economic mobility look like in an AI future?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.csis.org/analysis/chinas-weaponization-dual-use-research-vessels-undersea-data-dominance",
+      "title": "China's Weaponization of Dual-Use Research Vessels for Undersea Data Dominance",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/world/2026/oct/10/peru-election-hitler-mussolini-simeon-flores-mayor",
+      "title": "Candidate named Hitler Mussolini elected mayor in Peru",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-community-wisdom",
+      "title": "🧠 Community Wisdom: Community Wisdom Top Contributors Summer Class 2026 + ML recommendation systems, getting back into product after being fired, deciding when to quit a side project, and more",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://abtdomain.com/blog/2026/10/using-jev-in-domain-abuse-review-a-workflow-design/",
+      "title": "Using Jev in Domain Abuse Review: A Workflow Design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://microsoft.design/articles/designing-michelangelus/",
+      "title": "Vatican and Microsoft creates a new font: Michelangelus",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://michaelhillaert1.substack.com/p/30-year-durability-valuation-dislocation",
+      "title": "I ranked 25 companies by 30-year durability and current valuation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Takeshi%27s_Castle",
+      "title": "Takeshi's Castle",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.polygon.com/game-console-sales-down-ai-component-crisis-ram/",
+      "title": "High console prices push PlayStation and Xbox sales to new lows",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.machinesociety.ai/p/why-anthropic-thinks-claude-might",
+      "title": "Is AI conscious? Anthropic says 'maybe'",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://flopper.io/",
+      "title": "Show HN: Flopper is a hardware explorer for AI infrastructure and beyond",
+      "reason": "below_threshold"
+    }
+  ]
+}
