@@ -1,0 +1,301 @@
+{
+  "date": "2026-10-11",
+  "pool": 59,
+  "kept": 1,
+  "dropped": {
+    "below_threshold": 39,
+    "lexicon": 19
+  },
+  "dropped_items": [
+    {
+      "url": "https://abtdomain.com/blog/2026/10/using-jev-in-domain-abuse-review-a-workflow-design/",
+      "title": "Using Jev in Domain Abuse Review: A Workflow Design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://microsoft.design/articles/designing-michelangelus/",
+      "title": "Vatican and Microsoft creates a new font: Michelangelus",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://michaelhillaert1.substack.com/p/30-year-durability-valuation-dislocation",
+      "title": "I ranked 25 companies by 30-year durability and current valuation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Takeshi%27s_Castle",
+      "title": "Takeshi's Castle",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.polygon.com/game-console-sales-down-ai-component-crisis-ram/",
+      "title": "High console prices push PlayStation and Xbox sales to new lows",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.machinesociety.ai/p/why-anthropic-thinks-claude-might",
+      "title": "Is AI conscious? Anthropic says 'maybe'",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://flopper.io/",
+      "title": "Show HN: Flopper is a hardware explorer for AI infrastructure and beyond",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/rahimnathwani/mailbox-viewer",
+      "title": "Show HN: Mailbox Viewer – publish FOIA email dumps as a static Gmail-like site",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.aporium.app/explore",
+      "title": "Show HN: Aporium – A UMAP galaxy of 5800 philosophy excerpts in conversation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50039291",
+      "title": "Ask HN: Do you want a router that has DD-WRT pre-installed?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/10/supreme-court-case-401k-private-funds-intel.html",
+      "title": "Supreme Court: 401(k) case over private funds and underperformance",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.bearssl.org/constanttime.html",
+      "title": "Why Constant-Time Crypto?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://n-the-loop.com/blog/consistency-is-not-a-localized-property/",
+      "title": "Consistency is not a localized property",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.kiwiwebdesign.co.nz/affordable-web-design-auckland/",
+      "title": "Web Design in Auckland: Costs, Options and How to Choose",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.npmjs.com/package/invisible-ink",
+      "title": "Show HN: Gradually Loading Web Fonts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "title": "Using AI for just 10 minutes erodes your ability to persist at hard things",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://copilot.travel/tolls/europe-2026",
+      "title": "What driving across Europe costs in tolls, vignettes, bridges and fuel",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/cqkg50j1yd5lo",
+      "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://robotgirlgang.com/2026/10/08/robot-is-a-social-construct-why-your-dishwasher-is-not-a-robot/",
+      "title": "\"Robot\" Is a Social Construct: Why Your Dishwasher Is Not a Robot",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50040376",
+      "title": "Opus Core 1.2 is now available",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://titan-ai.co/",
+      "title": "Show HN: I'm a 14-year-old building my first startup, Titan",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://search.xorsoft.dev/",
+      "title": "Show HN: Web search engine built from the CommonCrawl corpus",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.sarasoueidan.com/blog/interop-2027-rankings/",
+      "title": "My top picks for Interop 2027",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/why-every-company-now-needs-to-think",
+      "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (Google Labs, Gemini, AI Studio)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/environment/2026/oct/09/amazing-piece-of-technology-solar-traffic-controller-for-apartments-takes-top-australian-design-award",
+      "title": "Solar 'traffic controller' for apartments takes top Australian design award",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/source-download-image-fil/nockdgincmpfojabnhbofkddgcmnodpd",
+      "title": "Update: Source Download has better UI, UX and performance now",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://groglog.io",
+      "title": "Show HN: GrogLog, a Free Drink Tracker",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50045494",
+      "title": "Ask HN: What to do with lots of spare compute in colocation?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://infiniword.com",
+      "title": "Show HN: InfiniWord – infinite multiplayer word search",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/CigaleAI/guilds",
+      "title": "Show HN: Guilds – Open-source inspectable multi-agents collaboration framework",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ronaldsvilcins.com/2026/08/30/native-html-and-css-features-that-replaced-javascript/",
+      "title": "Native HTML and CSS Features That Replaced JavaScript",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/stjanovitz/tilefinch/tree/main",
+      "title": "Show HN: Tilefinch – a from-scratch* web browser for the PSP (333Mhz, 64MB RAM)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://insideclimatenews.org/news/07102026/exxonmobil-climate-deception-new-evidence/",
+      "title": "Documents add to evidence in climate deception case against ExxonMobil",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://0xff.nu/corp-burnout/",
+      "title": "The Corporate Happiness Treadmill and the Case for Doing Less",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://searchyourcollection.com/examples",
+      "title": "Show HN: Running EmbeddingGemma2 on the Browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/burggraf/baas-bench/tree/main/results/realworld-api-v3/project-management-capacity",
+      "title": "The fastest open BaaS – an 8-way benchmark comparison",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://firmendaten.researchly.at/partnerschaften",
+      "title": "Show HN: Sourced graph of who partners with whom in Austrian deep tech",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50043719",
+      "title": "Open source software is slowly turning into open slop software",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/ggirelli/quaesito",
+      "title": "Show HN: Quaesito: a self-hosted app for quiz nights with friends",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50045948",
+      "title": "\"Natural deploy\" build your own self hosted orchestration framework",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50043434",
+      "title": "More reasons not to be an electrician (UK)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/korosta/dhpnogbefakbfmbihmjkgicbelndidif",
+      "title": "Show HN: Korosta – Remember and highlight job postings you've seen",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://supplyvision.app/",
+      "title": "Show HN: SupplyVision – I made meta-search for independent fashion retailers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vocafy.kkweb.io/en",
+      "title": "Show HN: Vocafy – Listen to Vocaloid songs by producer, from the original videos",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jjenzz.com/making-react-context-cheap/",
+      "title": "Making React Context Cheap with React Compiler",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bit.ly/side-gra7",
+      "title": "Put your meetings to work",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adrianroselli.com/2026/10/decorative-images.html",
+      "title": "Decorative images aren’t a thing",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.fluidfunctionalism.com/",
+      "title": "Fluid functionalism",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://armstr.ng/writing/worth-building",
+      "title": "Worth building",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://klim.co.nz/blog/american-grotesk-design-information/",
+      "title": "Klim Type Foundry · American Grotesk design information",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.proofofconcept.pub/p/the-research-builder",
+      "title": "The Research Builder",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://css.csail.mit.edu/6.5660/2024/readings/trusting-trust.pdf",
+      "title": "Reflections on Trusting Trust (1996) [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apnews.com/article/artificial-intelligence-anthropic-claude-0acc6ac46d4d80db805e8d55468a6fe1",
+      "title": "Anthropic's Claude submits false tip on a Philadelphia unsolved homicide case",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tkareine.org/articles/estimating-probability-of-faults-causing-inconsistent-state.html",
+      "title": "Estimating the probability of faults causing inconsistent state",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50047484",
+      "title": "I don't think image containers supporting both lossless and lossy is good",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50047627",
+      "title": "Show HN: I Cut my Agent Tokens By 50%",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/10/us/politics/trump-nobel-peace-prize-norway-navi-pillay.html?unlocked_article_code=1.H1E.mtrV.6aRKP6p5Kzoh&smid=url-share",
+      "title": "Trump Says He Should Have Won ‘8 Nobel Peace Prizes’ After Being Snubbed (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/opinion/children-screens-parents-health.html?unlocked_article_code=1.H1E.47WU.C95CNZEMJQCF&smid=url-share",
+      "title": "Opinion | I’m a Child Psychiatrist. Screens Are Not the Problem. (Gift Article)",
+      "reason": "lexicon"
+    }
+  ]
+}

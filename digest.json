@@ -1,49 +1,47 @@
 {
-  "generated_at": "2026-10-11T01:50:35.733151+00:00",
+  "generated_at": "2026-10-12T02:21:46.185329+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "10 October 2026",
-      "period_start": "2026-10-10",
-      "period_end": "2026-10-10",
+      "label": "11 October 2026",
+      "period_start": "2026-10-11",
+      "period_end": "2026-10-11",
       "items": [
         {
-          "id": "7a975c8b8f8b",
-          "title": "Chrome 154 lets iframes size to their content with one line of CSS",
-          "url": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
-          "hn": "https://news.ycombinator.com/item?id=50036173",
-          "points": 17,
-          "comments": 1,
-          "created_at_i": 1791636896,
+          "id": "0f140ee15f0f",
+          "title": "The designer’s constitution",
+          "url": "https://constitution.design/",
+          "hn": "https://constitution.design/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791774240,
           "sources": [
-            "Lobsters",
-            "Hacker News"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 6.176,
+          "score": 3.8,
           "why": [
-            "picked up by Lobsters and Hacker News"
+            "editor's pick at Sidebar"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "7a975c8b8f8b",
-          "title": "Chrome 154 lets iframes size to their content with one line of CSS",
-          "url": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
-          "hn": "https://news.ycombinator.com/item?id=50036173",
-          "points": 17,
-          "comments": 1,
-          "created_at_i": 1791636896,
+          "id": "0f140ee15f0f",
+          "title": "The designer’s constitution",
+          "url": "https://constitution.design/",
+          "hn": "https://constitution.design/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791774240,
           "sources": [
-            "Lobsters",
-            "Hacker News"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 6.176,
+          "score": 3.8,
           "why": [
-            "picked up by Lobsters and Hacker News"
+            "editor's pick at Sidebar"
           ]
         }
       ]
@@ -124,6 +122,23 @@
           "score": 4.572,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "0f140ee15f0f",
+          "title": "The designer’s constitution",
+          "url": "https://constitution.design/",
+          "hn": "https://constitution.design/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791774240,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.8,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -503,6 +518,23 @@
           "score": 3.92,
           "why": [
             "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "0f140ee15f0f",
+          "title": "The designer’s constitution",
+          "url": "https://constitution.design/",
+          "hn": "https://constitution.design/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791774240,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.8,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -875,6 +907,23 @@
           ]
         },
         {
+          "id": "0f140ee15f0f",
+          "title": "The designer’s constitution",
+          "url": "https://constitution.design/",
+          "hn": "https://constitution.design/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791774240,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "98ada552f7b2",
           "title": "A design system is what it does",
           "url": "https://matthenry.fyi/posts/a-system-is-what-it-does/",
@@ -923,23 +972,6 @@
           "score": 3.244,
           "why": [
             "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "db1e5d8d0395",
-          "title": "On being anything other than a designer",
-          "url": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
-          "hn": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791346021,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.997,
-          "why": [
-            "editor's pick at Sidebar"
           ]
         }
       ],
@@ -1290,6 +1322,23 @@
           "score": 3.92,
           "why": [
             "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "0f140ee15f0f",
+          "title": "The designer’s constitution",
+          "url": "https://constitution.design/",
+          "hn": "https://constitution.design/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791774240,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.8,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -1693,6 +1742,23 @@
       "score": 4.572,
       "why": [
         "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "0f140ee15f0f",
+      "title": "The designer’s constitution",
+      "url": "https://constitution.design/",
+      "hn": "https://constitution.design/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791774240,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.8,
+      "why": [
+        "editor's pick at Sidebar"
       ]
     },
     {
