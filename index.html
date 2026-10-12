@@ -3829,7 +3829,7 @@ function storiesForTerms(terms) {
     (p.links || []).forEach(add);
   });
   ranked.forEach(add);
-  return out.slice(0, 3);
+  return out;
 }
 
 function storiesForTerm(term) {
@@ -3907,15 +3907,17 @@ function tasteSpider(title, groups, color) {
     );
     const keys = p.g.members.map((m) => m[0]);
     const empty = p.g.sum <= 0;
+    const nStories = storiesForTerms(keys).length;
     labels.push(
       '<button type="button" class="spider-term" data-i="' + p.i
       + '" data-group="' + esc(p.g.id) + '" data-terms="' + esc(JSON.stringify(keys))
       + '" data-empty="' + (empty ? "true" : "false")
+      + '" data-label="' + esc(p.g.label) + '"'
       + '" data-anchor="' + p.anchor
       + '" style="--i:' + p.i + ";--x:" + pt((lab[0] / W) * 100) + "%;--y:"
       + pt((lab[1] / H) * 100) + '%" aria-expanded="false" aria-controls="spider-peek"'
       + ' tabindex="' + (p.i === 0 ? "0" : "-1") + '">'
-      + esc(p.g.label) + "</button>"
+      + esc(p.g.label) + '&nbsp;<span class="spider-peek-n">(' + nStories + ")</span></button>"
     );
   });
 
@@ -4327,7 +4329,7 @@ function bindSpider() {
     let terms = [];
     try { terms = JSON.parse(btn.getAttribute("data-terms") || "[]"); }
     catch (e) { terms = []; }
-    peek.innerHTML = spiderPeekHTML(terms, btn.textContent.trim());
+    peek.innerHTML = spiderPeekHTML(terms, btn.getAttribute("data-label") || "");
     peek.hidden = false;
   }
 
