@@ -16,7 +16,7 @@ const require = createRequire(import.meta.url);
 const { buildWeights, personalize, hasLearnedTaste, domainOf } = require("../taste.js");
 
 const SUPABASE_URL = process.env.SUPABASE_URL || "https://qypugamdqsykhkqwtmxi.supabase.co";
-const SITE_URL = (process.env.KERNING_SITE_URL || "https://kerning-six.vercel.app/").replace(/\/?$/, "/");
+const SITE_URL = (process.env.KERNING_SITE_URL || "https://www.kerningdigest.com/").replace(/\/?$/, "/");
 const FROM = process.env.KERNING_MAIL_FROM || "Kerning <onboarding@resend.dev>";
 const ONLY = (process.env.KERNING_MAIL_ONLY || "").trim().toLowerCase();
 const DIGEST_TZ = process.env.DIGEST_TZ || "Europe/Prague";

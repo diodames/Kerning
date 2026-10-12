@@ -16,8 +16,8 @@ Crafted by Martin Andrle.
 
 ## Digest
 
-- [Read Kerning](https://kerning-six.vercel.app/): Web app for the daily, weekly, and monthly editions.
-- [Current digest](https://kerning-six.vercel.app/digest.md): Latest ranked editions in Markdown — use this to quote or summarize picks.
+- [Read Kerning](https://www.kerningdigest.com/): Web app for the daily, weekly, and monthly editions.
+- [Current digest](https://www.kerningdigest.com/digest.md): Latest ranked editions in Markdown — use this to quote or summarize picks.
 
 ## Optional
 

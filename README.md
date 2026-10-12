@@ -134,7 +134,7 @@ lock older than 280 seconds. You can also delete that file and reopen the app.
 
 ### Vercel (shared public digest)
 
-<https://kerning-six.vercel.app/> is the single-user reader with Taste in the
+<https://www.kerningdigest.com/> is the single-user reader with Taste in the
 browser. Opening the page only `GET`s `/api/digest`, which serves
 `digest.json` from the repo's `data` branch (edge-cached for ten minutes).
 
@@ -202,7 +202,7 @@ Setup:
 
 1. Create a free project at [supabase.com](https://supabase.com).
 2. Authentication → Sign In / Providers: keep Email on (magic link). Under
-   URL Configuration set Site URL to `https://kerning-six.vercel.app` and add
+   URL Configuration set Site URL to `https://www.kerningdigest.com` and add
    `http://localhost:8000/**` to Redirect URLs.
 3. SQL editor:
 
