@@ -1,0 +1,217 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-13T03:31:22.117878+00:00",
+  "items": [
+    {
+      "id": "eff79576007c",
+      "title": "ACD - Accessibility Compat Data",
+      "url": "https://acd.lolaslab.co",
+      "hn": "https://bsky.app/profile/lolaodelola.bsky.social/post/3mxoi3xqsgc22",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791806733,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 4.631,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "ericwbailey.website",
+        "rachelandrew.co.uk"
+      ]
+    },
+    {
+      "id": "dbbcfa91bf13",
+      "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+      "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791796073,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 4.439,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "9bf10d7cab68",
+      "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+      "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+      "hn": "https://news.ycombinator.com/item?id=50060311",
+      "points": 39,
+      "comments": 41,
+      "created_at_i": 1791828236,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.359,
+      "why": [
+        "heavily argued (41 comments)"
+      ]
+    },
+    {
+      "id": "a725deeb215a",
+      "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
+      "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791836371,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 3.745,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "eff79576007c",
+      "title": "ACD - Accessibility Compat Data",
+      "url": "https://acd.lolaslab.co",
+      "hn": "https://bsky.app/profile/lolaodelola.bsky.social/post/3mxoi3xqsgc22",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791806733,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 4.631,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "ericwbailey.website",
+        "rachelandrew.co.uk"
+      ]
+    },
+    {
+      "id": "dbbcfa91bf13",
+      "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+      "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791796073,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 4.439,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "9bf10d7cab68",
+      "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+      "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+      "hn": "https://news.ycombinator.com/item?id=50060311",
+      "points": 39,
+      "comments": 41,
+      "created_at_i": 1791828236,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.359,
+      "why": [
+        "heavily argued (41 comments)"
+      ]
+    },
+    {
+      "id": "a725deeb215a",
+      "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
+      "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791836371,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 3.745,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "ddce714be723",
+      "title": "Illustration Beyond Proof",
+      "url": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
+      "hn": "https://news.ycombinator.com/item?id=50049133",
+      "points": 97,
+      "comments": 16,
+      "created_at_i": 1791760956,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.564,
+      "why": []
+    },
+    {
+      "id": "d87e145187f3",
+      "title": "Agent-first design: Bringing UX to the user",
+      "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
+      "hn": "https://news.ycombinator.com/item?id=50060187",
+      "points": 15,
+      "comments": 1,
+      "created_at_i": 1791827742,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.542,
+      "why": []
+    },
+    {
+      "id": "e16b16abd476",
+      "title": "CSS for underlines",
+      "url": "https://www.rubenerd.au/css-for-underlines/",
+      "hn": "https://lobste.rs/s/ezucf0/css_for_underlines",
+      "points": 13,
+      "comments": 2,
+      "created_at_i": 1791769388,
+      "sources": [
+        "Lobsters"
+      ],
+      "sharers": 0,
+      "score": 2.504,
+      "why": []
+    },
+    {
+      "id": "a7878a6d8f3c",
+      "title": "The Practical Accessibility Course",
+      "url": "https://practical-accessibility.today/",
+      "hn": "https://bsky.app/profile/philliproth.de/post/3mxo3qybdek2l",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791793480,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.823,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "sarasoueidan.com"
+      ]
+    }
+  ]
+}

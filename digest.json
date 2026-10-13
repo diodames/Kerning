@@ -1,758 +1,444 @@
 {
-  "generated_at": "2026-10-12T02:21:46.185329+00:00",
+  "generated_at": "2026-10-13T03:31:22.120763+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "11 October 2026",
-      "period_start": "2026-10-11",
-      "period_end": "2026-10-11",
+      "label": "12 October 2026",
+      "period_start": "2026-10-12",
+      "period_end": "2026-10-12",
       "items": [
         {
-          "id": "0f140ee15f0f",
-          "title": "The designer’s constitution",
-          "url": "https://constitution.design/",
-          "hn": "https://constitution.design/",
+          "id": "eff79576007c",
+          "title": "ACD - Accessibility Compat Data",
+          "url": "https://acd.lolaslab.co",
+          "hn": "https://bsky.app/profile/lolaodelola.bsky.social/post/3mxoi3xqsgc22",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1791774240,
+          "created_at_i": 1791806733,
           "sources": [
-            "Sidebar"
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.631,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "rachelandrew.co.uk"
+          ]
+        },
+        {
+          "id": "dbbcfa91bf13",
+          "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+          "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791796073,
+          "sources": [
+            "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.8,
+          "score": 4.439,
           "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "9bf10d7cab68",
+          "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+          "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+          "hn": "https://news.ycombinator.com/item?id=50060311",
+          "points": 39,
+          "comments": 41,
+          "created_at_i": 1791828236,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.359,
+          "why": [
+            "heavily argued (41 comments)"
+          ]
+        },
+        {
+          "id": "a725deeb215a",
+          "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
+          "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791836371,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.745,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "0f140ee15f0f",
-          "title": "The designer’s constitution",
-          "url": "https://constitution.design/",
-          "hn": "https://constitution.design/",
+          "id": "eff79576007c",
+          "title": "ACD - Accessibility Compat Data",
+          "url": "https://acd.lolaslab.co",
+          "hn": "https://bsky.app/profile/lolaodelola.bsky.social/post/3mxoi3xqsgc22",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1791774240,
+          "created_at_i": 1791806733,
           "sources": [
-            "Sidebar"
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.631,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "rachelandrew.co.uk"
+          ]
+        },
+        {
+          "id": "dbbcfa91bf13",
+          "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+          "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791796073,
+          "sources": [
+            "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.8,
+          "score": 4.439,
           "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "9bf10d7cab68",
+          "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+          "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+          "hn": "https://news.ycombinator.com/item?id=50060311",
+          "points": 39,
+          "comments": 41,
+          "created_at_i": 1791828236,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.359,
+          "why": [
+            "heavily argued (41 comments)"
+          ]
+        },
+        {
+          "id": "a725deeb215a",
+          "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
+          "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791836371,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.745,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "ddce714be723",
+          "title": "Illustration Beyond Proof",
+          "url": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
+          "hn": "https://news.ycombinator.com/item?id=50049133",
+          "points": 97,
+          "comments": 16,
+          "created_at_i": 1791760956,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.564,
+          "why": []
+        },
+        {
+          "id": "d87e145187f3",
+          "title": "Agent-first design: Bringing UX to the user",
+          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
+          "hn": "https://news.ycombinator.com/item?id=50060187",
+          "points": 15,
+          "comments": 1,
+          "created_at_i": 1791827742,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.542,
+          "why": []
+        },
+        {
+          "id": "e16b16abd476",
+          "title": "CSS for underlines",
+          "url": "https://www.rubenerd.au/css-for-underlines/",
+          "hn": "https://lobste.rs/s/ezucf0/css_for_underlines",
+          "points": 13,
+          "comments": 2,
+          "created_at_i": 1791769388,
+          "sources": [
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 2.504,
+          "why": []
+        },
+        {
+          "id": "a7878a6d8f3c",
+          "title": "The Practical Accessibility Course",
+          "url": "https://practical-accessibility.today/",
+          "hn": "https://bsky.app/profile/philliproth.de/post/3mxo3qybdek2l",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791793480,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.823,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "sarasoueidan.com"
           ]
         }
       ]
     },
     "weekly": {
-      "label": "5–11 October 2026",
-      "period_start": "2026-10-05",
-      "period_end": "2026-10-11",
-      "week_start": "2026-10-05",
-      "week_end": "2026-10-11",
-      "week_label": "5–11 October 2026",
-      "iso_week": "2026-W41",
+      "label": "12–18 October 2026",
+      "period_start": "2026-10-12",
+      "period_end": "2026-10-18",
+      "week_start": "2026-10-12",
+      "week_end": "2026-10-18",
+      "week_label": "12–18 October 2026",
+      "iso_week": "2026-W42",
       "items": [
         {
-          "id": "7a975c8b8f8b",
-          "title": "Chrome 154 lets iframes size to their content with one line of CSS",
-          "url": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
-          "hn": "https://news.ycombinator.com/item?id=50036173",
-          "points": 17,
-          "comments": 1,
-          "created_at_i": 1791636896,
-          "sources": [
-            "Lobsters",
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 6.176,
-          "why": [
-            "picked up by Lobsters and Hacker News"
-          ]
-        },
-        {
-          "id": "dd3d9f61bef8",
-          "title": "Spectrum (Adobe) — @react-spectrum/ai@0.5.1",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1",
+          "id": "eff79576007c",
+          "title": "ACD - Accessibility Compat Data",
+          "url": "https://acd.lolaslab.co",
+          "hn": "https://bsky.app/profile/lolaodelola.bsky.social/post/3mxoi3xqsgc22",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1791577000,
+          "created_at_i": 1791806733,
           "sources": [
-            "Design systems"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 4.744,
+          "sharers": 2,
+          "score": 4.631,
           "why": [
-            "editor's pick at Design systems"
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "rachelandrew.co.uk"
           ]
         },
         {
-          "id": "9dba5aa935dd",
-          "title": "A font recreated from photographs of classic Commodore 64 keycaps",
-          "url": "https://github.com/szabadkai/c64-keyboard-font/",
-          "hn": "https://news.ycombinator.com/item?id=49990224",
-          "points": 406,
-          "comments": 66,
-          "created_at_i": 1791234351,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.649,
-          "why": [
-            "406 points"
-          ]
-        },
-        {
-          "id": "23e1a71d1a81",
-          "title": "AI-generated UI is fast design, not UX",
-          "url": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
+          "id": "dbbcfa91bf13",
+          "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+          "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1791501370,
+          "created_at_i": 1791796073,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 4.572,
+          "score": 4.439,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "0f140ee15f0f",
-          "title": "The designer’s constitution",
-          "url": "https://constitution.design/",
-          "hn": "https://constitution.design/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791774240,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "98ada552f7b2",
-          "title": "A design system is what it does",
-          "url": "https://matthenry.fyi/posts/a-system-is-what-it-does/",
-          "hn": "https://matthenry.fyi/posts/a-system-is-what-it-does/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791531077,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.736,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "00abf479cd9d",
-          "title": "Paper Mono Typeface",
-          "url": "https://paper.design/mono",
-          "hn": "https://news.ycombinator.com/item?id=50001532",
-          "points": 8,
-          "comments": 6,
-          "created_at_i": 1791429224,
+          "id": "9bf10d7cab68",
+          "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+          "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+          "hn": "https://news.ycombinator.com/item?id=50060311",
+          "points": 39,
+          "comments": 41,
+          "created_at_i": 1791828236,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 3.505,
-          "why": []
+          "score": 4.359,
+          "why": [
+            "heavily argued (41 comments)"
+          ]
         },
         {
-          "id": "a9e1b223ddb8",
-          "title": "Show HN: SVG Spark – 10 client-side SVG design and dev tools",
-          "url": "https://svg-spark.vercel.app/",
-          "hn": "https://news.ycombinator.com/item?id=50013931",
-          "points": 44,
-          "comments": 8,
-          "created_at_i": 1791453121,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.49,
-          "why": []
-        },
-        {
-          "id": "610aa2a31bc5",
-          "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
-          "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
+          "id": "a725deeb215a",
+          "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
+          "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1791329743,
+          "created_at_i": 1791836371,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.244,
+          "score": 3.745,
           "why": [
             "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "db1e5d8d0395",
-          "title": "On being anything other than a designer",
-          "url": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
-          "hn": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791346021,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.997,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "dd31cf7999d3",
-          "title": "Blink:  Intent to Prototype: CSS Linked Parameters for External SVGs",
-          "url": "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/19c0b2a5-ce51-498a-83cf-2d1c7b45436fn%40chromium.org",
-          "hn": "https://bsky.app/profile/patrickbrosset.com/post/3mx7fhcxtw22z",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791288497,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.246,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "lea.verou.me"
-          ]
-        },
-        {
-          "id": "572a3a4039e6",
-          "title": "Using CSS scroll-triggered animations - CSS | MDN",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animation_triggers/Using_scroll-triggered_animations",
-          "hn": "https://bsky.app/profile/bram.us/post/3mx74j7hjq22h",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791278896,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.514,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "7a975c8b8f8b",
-          "title": "Chrome 154 lets iframes size to their content with one line of CSS",
-          "url": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
-          "hn": "https://news.ycombinator.com/item?id=50036173",
-          "points": 17,
-          "comments": 1,
-          "created_at_i": 1791636896,
-          "sources": [
-            "Lobsters",
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 6.176,
-          "why": [
-            "picked up by Lobsters and Hacker News"
-          ]
-        },
-        {
-          "id": "dd3d9f61bef8",
-          "title": "Spectrum (Adobe) — @react-spectrum/ai@0.5.1",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1",
+          "id": "eff79576007c",
+          "title": "ACD - Accessibility Compat Data",
+          "url": "https://acd.lolaslab.co",
+          "hn": "https://bsky.app/profile/lolaodelola.bsky.social/post/3mxoi3xqsgc22",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1791577000,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.744,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "9dba5aa935dd",
-          "title": "A font recreated from photographs of classic Commodore 64 keycaps",
-          "url": "https://github.com/szabadkai/c64-keyboard-font/",
-          "hn": "https://news.ycombinator.com/item?id=49990224",
-          "points": 406,
-          "comments": 66,
-          "created_at_i": 1791234351,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.649,
-          "why": [
-            "406 points"
-          ]
-        },
-        {
-          "id": "eaee6e6e800d",
-          "title": "Carbon (IBM) — v11.118.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.118.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.118.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791387284,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.604,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "cd4614a74b17",
-          "title": "shadcn/ui — @shadcn/registry@0.1.1",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.1",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.1",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791211099,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.578,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "23e1a71d1a81",
-          "title": "AI-generated UI is fast design, not UX",
-          "url": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791501370,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 4.572,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "04f819a38428",
-          "title": "shadcn/ui — @shadcn/registry@0.1.3",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.3",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.3",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791371488,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.489,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "e568be3bfb54",
-          "title": "shadcn/ui — @shadcn/registry@0.1.2",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.2",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.2",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791267465,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.376,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "8cb5a7ed0686",
-          "title": "Spectrum (Adobe) — React Spectrum S2 1.8.0",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.0",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791515159,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.31,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "5208b67d8e92",
-          "title": "Spectrum (Adobe) — React Aria Components v1.22.0",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/react-aria-components%401.22.0",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/react-aria-components%401.22.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791515253,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.31,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "1c739cc70794",
-          "title": "Spectrum (Adobe) — @react-types/shared@3.37.0",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-types%2Fshared%403.37.0",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-types%2Fshared%403.37.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791411908,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.223,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "1bddf190c408",
-          "title": "Spectrum (Adobe) — react-stately@3.51.0",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/react-stately%403.51.0",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/react-stately%403.51.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791411908,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.223,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "28a463b32cd3",
-          "title": "Spectrum (Adobe) — @react-spectrum/ai@0.5.0",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.0",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791411908,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 3.92,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "61ef74abcd0c",
-          "title": "Spectrum (Adobe) — react-aria@3.53.0",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/react-aria%403.53.0",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/react-aria%403.53.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791411908,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 3.92,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "a715f1b93e1e",
-          "title": "Spectrum (Adobe) — @react-aria/optimize-locales-plugin@2.1.0",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-aria%2Foptimize-locales-plugin%402.1.0",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-aria%2Foptimize-locales-plugin%402.1.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791411908,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 3.92,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "0f140ee15f0f",
-          "title": "The designer’s constitution",
-          "url": "https://constitution.design/",
-          "hn": "https://constitution.design/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791774240,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "98ada552f7b2",
-          "title": "A design system is what it does",
-          "url": "https://matthenry.fyi/posts/a-system-is-what-it-does/",
-          "hn": "https://matthenry.fyi/posts/a-system-is-what-it-does/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791531077,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.736,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "00abf479cd9d",
-          "title": "Paper Mono Typeface",
-          "url": "https://paper.design/mono",
-          "hn": "https://news.ycombinator.com/item?id=50001532",
-          "points": 8,
-          "comments": 6,
-          "created_at_i": 1791429224,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.505,
-          "why": []
-        },
-        {
-          "id": "a9e1b223ddb8",
-          "title": "Show HN: SVG Spark – 10 client-side SVG design and dev tools",
-          "url": "https://svg-spark.vercel.app/",
-          "hn": "https://news.ycombinator.com/item?id=50013931",
-          "points": 44,
-          "comments": 8,
-          "created_at_i": 1791453121,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.49,
-          "why": []
-        },
-        {
-          "id": "610aa2a31bc5",
-          "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
-          "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791329743,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.244,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "a017a7e6b7d1",
-          "title": "Are synthetic users (really) the future of UX research?",
-          "url": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/are-synthetic-users-really-the-future-of-ux-research-fd76fcb479ec?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791501402,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.238,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "db1e5d8d0395",
-          "title": "On being anything other than a designer",
-          "url": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
-          "hn": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791346021,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.997,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "66d9bdbc4e0c",
-          "title": "Standards In Progress: Making Video Posters Accessible, Responsive, and an Element | Scott Jehl, Web Designer/Developer",
-          "url": "https://scottjehl.com/posts/responsive-accessible-poster/",
-          "hn": "https://bsky.app/profile/scottjehl.com/post/3mxemq2wd7223",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791468105,
+          "created_at_i": 1791806733,
           "sources": [
             "Bluesky"
           ],
-          "sharers": 1,
-          "score": 2.827,
+          "sharers": 2,
+          "score": 4.631,
           "why": [
-            "spotted on Bluesky"
+            "shared by 2 design accounts"
           ],
           "authors": [
-            "ericwbailey.website"
-          ]
-        },
-        {
-          "id": "dd31cf7999d3",
-          "title": "Blink:  Intent to Prototype: CSS Linked Parameters for External SVGs",
-          "url": "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/19c0b2a5-ce51-498a-83cf-2d1c7b45436fn%40chromium.org",
-          "hn": "https://bsky.app/profile/patrickbrosset.com/post/3mx7fhcxtw22z",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791288497,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.246,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "lea.verou.me"
-          ]
-        },
-        {
-          "id": "59ceed286c0d",
-          "title": "Here's Issue 346 of CSS Layout News!",
-          "url": "https://csslayout.news/a/3mxc6txvaw323-issue-346",
-          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mxdzhauqpj25",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791447405,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.754,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
+            "ericwbailey.website",
             "rachelandrew.co.uk"
           ]
         },
         {
-          "id": "572a3a4039e6",
-          "title": "Using CSS scroll-triggered animations - CSS | MDN",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animation_triggers/Using_scroll-triggered_animations",
-          "hn": "https://bsky.app/profile/bram.us/post/3mx74j7hjq22h",
+          "id": "dbbcfa91bf13",
+          "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+          "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1791278896,
+          "created_at_i": 1791796073,
           "sources": [
-            "Bluesky"
+            "UX Collective"
           ],
-          "sharers": 1,
-          "score": 1.514,
+          "sharers": 0,
+          "score": 4.439,
           "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
+            "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "109ee9eaab5f",
-          "title": "SpotCheck: an Accessibility Bookmarklet Toolkit",
-          "url": "https://www.spotcheck.tools/?mc_cid=d93b79b2b1&mc_eid=abc73093e4",
-          "hn": "https://bsky.app/profile/meryl.bsky.social/post/3mwt6qbng6i2k",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1790868963,
+          "id": "9bf10d7cab68",
+          "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+          "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+          "hn": "https://news.ycombinator.com/item?id=50060311",
+          "points": 39,
+          "comments": 41,
+          "created_at_i": 1791828236,
           "sources": [
-            "Bluesky"
+            "Hacker News"
           ],
-          "sharers": 1,
-          "score": 1.005,
+          "sharers": 0,
+          "score": 4.359,
           "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
+            "heavily argued (41 comments)"
           ]
         },
         {
-          "id": "a9b678af0fd6",
-          "title": "The Future of CSS: Target Multiple Classes with the Class Prefix Selector",
-          "url": "https://www.bram.us/2026/08/20/the-future-of-css-target-multiple-classes-with-the-class-prefix-selector/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3mxc7k25s6l2a",
+          "id": "a725deeb215a",
+          "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
+          "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1791385222,
+          "created_at_i": 1791836371,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.745,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "ddce714be723",
+          "title": "Illustration Beyond Proof",
+          "url": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
+          "hn": "https://news.ycombinator.com/item?id=50049133",
+          "points": 97,
+          "comments": 16,
+          "created_at_i": 1791760956,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.564,
+          "why": []
+        },
+        {
+          "id": "d87e145187f3",
+          "title": "Agent-first design: Bringing UX to the user",
+          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
+          "hn": "https://news.ycombinator.com/item?id=50060187",
+          "points": 15,
+          "comments": 1,
+          "created_at_i": 1791827742,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.542,
+          "why": []
+        },
+        {
+          "id": "e16b16abd476",
+          "title": "CSS for underlines",
+          "url": "https://www.rubenerd.au/css-for-underlines/",
+          "hn": "https://lobste.rs/s/ezucf0/css_for_underlines",
+          "points": 13,
+          "comments": 2,
+          "created_at_i": 1791769388,
+          "sources": [
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 2.504,
+          "why": []
+        },
+        {
+          "id": "a7878a6d8f3c",
+          "title": "The Practical Accessibility Course",
+          "url": "https://practical-accessibility.today/",
+          "hn": "https://bsky.app/profile/philliproth.de/post/3mxo3qybdek2l",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791793480,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 0.927,
+          "score": 1.823,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "piccalil.li"
+            "sarasoueidan.com"
           ]
         }
       ]
@@ -856,6 +542,27 @@
           ]
         },
         {
+          "id": "eff79576007c",
+          "title": "ACD - Accessibility Compat Data",
+          "url": "https://acd.lolaslab.co",
+          "hn": "https://bsky.app/profile/lolaodelola.bsky.social/post/3mxoi3xqsgc22",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791806733,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.631,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "rachelandrew.co.uk"
+          ]
+        },
+        {
           "id": "23e1a71d1a81",
           "title": "AI-generated UI is fast design, not UX",
           "url": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
@@ -890,20 +597,37 @@
           ]
         },
         {
-          "id": "386aed7ee363",
-          "title": "CSS Bed: Classless CSS themes to use as starting points in web development",
-          "url": "https://www.cssbed.com",
-          "hn": "https://news.ycombinator.com/item?id=49927212",
-          "points": 167,
-          "comments": 48,
-          "created_at_i": 1790889692,
+          "id": "dbbcfa91bf13",
+          "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+          "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791796073,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.439,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "9bf10d7cab68",
+          "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+          "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+          "hn": "https://news.ycombinator.com/item?id=50060311",
+          "points": 39,
+          "comments": 41,
+          "created_at_i": 1791828236,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 4.078,
+          "score": 4.359,
           "why": [
-            "167 points"
+            "heavily argued (41 comments)"
           ]
         },
         {
@@ -938,40 +662,6 @@
           "score": 3.736,
           "why": [
             "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "ace020896205",
-          "title": "Generating Opportunity Solution Trees with AI: How Vistaly Rebuilt Its Product Around Interview Synthesis, Evals, and Repair Loops",
-          "url": "https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
-          "hn": "https://www.producttalk.org/generating-opportunity-solution-trees-with-ai-how-vistaly-rebuilt-its-product-around-interview-synthesis-evals-and-repair-loops/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1790859645,
-          "sources": [
-            "Product Talk"
-          ],
-          "sharers": 0,
-          "score": 3.535,
-          "why": [
-            "editor's pick at Product Talk"
-          ]
-        },
-        {
-          "id": "610aa2a31bc5",
-          "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
-          "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791329743,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.244,
-          "why": [
-            "editor's pick at UX Collective"
           ]
         }
       ],
@@ -1067,6 +757,27 @@
           "score": 4.649,
           "why": [
             "406 points"
+          ]
+        },
+        {
+          "id": "eff79576007c",
+          "title": "ACD - Accessibility Compat Data",
+          "url": "https://acd.lolaslab.co",
+          "hn": "https://bsky.app/profile/lolaodelola.bsky.social/post/3mxoi3xqsgc22",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791806733,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.631,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "rachelandrew.co.uk"
           ]
         },
         {
@@ -1172,6 +883,23 @@
           ]
         },
         {
+          "id": "dbbcfa91bf13",
+          "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+          "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791796073,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.439,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "e568be3bfb54",
           "title": "shadcn/ui — @shadcn/registry@0.1.2",
           "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.2",
@@ -1186,6 +914,23 @@
           "score": 4.376,
           "why": [
             "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "9bf10d7cab68",
+          "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+          "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+          "hn": "https://news.ycombinator.com/item?id=50060311",
+          "points": 39,
+          "comments": 41,
+          "created_at_i": 1791828236,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.359,
+          "why": [
+            "heavily argued (41 comments)"
           ]
         },
         {
@@ -1342,6 +1087,23 @@
           ]
         },
         {
+          "id": "a725deeb215a",
+          "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
+          "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791836371,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.745,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "98ada552f7b2",
           "title": "A design system is what it does",
           "url": "https://matthenry.fyi/posts/a-system-is-what-it-does/",
@@ -1357,6 +1119,36 @@
           "why": [
             "editor's pick at Sidebar"
           ]
+        },
+        {
+          "id": "ddce714be723",
+          "title": "Illustration Beyond Proof",
+          "url": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
+          "hn": "https://news.ycombinator.com/item?id=50049133",
+          "points": 97,
+          "comments": 16,
+          "created_at_i": 1791760956,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.564,
+          "why": []
+        },
+        {
+          "id": "d87e145187f3",
+          "title": "Agent-first design: Bringing UX to the user",
+          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
+          "hn": "https://news.ycombinator.com/item?id=50060187",
+          "points": 15,
+          "comments": 1,
+          "created_at_i": 1791827742,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.542,
+          "why": []
         },
         {
           "id": "ace020896205",
@@ -1492,6 +1284,21 @@
           ]
         },
         {
+          "id": "e16b16abd476",
+          "title": "CSS for underlines",
+          "url": "https://www.rubenerd.au/css-for-underlines/",
+          "hn": "https://lobste.rs/s/ezucf0/css_for_underlines",
+          "points": 13,
+          "comments": 2,
+          "created_at_i": 1791769388,
+          "sources": [
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 2.504,
+          "why": []
+        },
+        {
           "id": "dd31cf7999d3",
           "title": "Blink:  Intent to Prototype: CSS Linked Parameters for External SVGs",
           "url": "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/19c0b2a5-ce51-498a-83cf-2d1c7b45436fn%40chromium.org",
@@ -1509,6 +1316,26 @@
           ],
           "authors": [
             "lea.verou.me"
+          ]
+        },
+        {
+          "id": "a7878a6d8f3c",
+          "title": "The Practical Accessibility Course",
+          "url": "https://practical-accessibility.today/",
+          "hn": "https://bsky.app/profile/philliproth.de/post/3mxo3qybdek2l",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1791793480,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.823,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "sarasoueidan.com"
           ]
         },
         {
@@ -1676,215 +1503,80 @@
   },
   "items": [
     {
-      "id": "7a975c8b8f8b",
-      "title": "Chrome 154 lets iframes size to their content with one line of CSS",
-      "url": "https://alfy.blog/2026/10/09/iframe-that-finally-fit-their-content.html",
-      "hn": "https://news.ycombinator.com/item?id=50036173",
-      "points": 17,
-      "comments": 1,
-      "created_at_i": 1791636896,
-      "sources": [
-        "Lobsters",
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 6.176,
-      "why": [
-        "picked up by Lobsters and Hacker News"
-      ]
-    },
-    {
-      "id": "dd3d9f61bef8",
-      "title": "Spectrum (Adobe) — @react-spectrum/ai@0.5.1",
-      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1",
-      "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.1",
+      "id": "eff79576007c",
+      "title": "ACD - Accessibility Compat Data",
+      "url": "https://acd.lolaslab.co",
+      "hn": "https://bsky.app/profile/lolaodelola.bsky.social/post/3mxoi3xqsgc22",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1791577000,
+      "created_at_i": 1791806733,
       "sources": [
-        "Design systems"
+        "Bluesky"
       ],
-      "sharers": 0,
-      "score": 4.744,
+      "sharers": 2,
+      "score": 4.631,
       "why": [
-        "editor's pick at Design systems"
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "ericwbailey.website",
+        "rachelandrew.co.uk"
       ]
     },
     {
-      "id": "9dba5aa935dd",
-      "title": "A font recreated from photographs of classic Commodore 64 keycaps",
-      "url": "https://github.com/szabadkai/c64-keyboard-font/",
-      "hn": "https://news.ycombinator.com/item?id=49990224",
-      "points": 406,
-      "comments": 66,
-      "created_at_i": 1791234351,
-      "sources": [
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 4.649,
-      "why": [
-        "406 points"
-      ]
-    },
-    {
-      "id": "23e1a71d1a81",
-      "title": "AI-generated UI is fast design, not UX",
-      "url": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/ai-generated-ui-is-fast-design-not-ux-855ca8abcd28?source=rss----138adf9c44c---4",
+      "id": "dbbcfa91bf13",
+      "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
+      "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1791501370,
+      "created_at_i": 1791796073,
       "sources": [
         "UX Collective"
       ],
       "sharers": 0,
-      "score": 4.572,
+      "score": 4.439,
       "why": [
         "editor's pick at UX Collective"
       ]
     },
     {
-      "id": "0f140ee15f0f",
-      "title": "The designer’s constitution",
-      "url": "https://constitution.design/",
-      "hn": "https://constitution.design/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1791774240,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.8,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "98ada552f7b2",
-      "title": "A design system is what it does",
-      "url": "https://matthenry.fyi/posts/a-system-is-what-it-does/",
-      "hn": "https://matthenry.fyi/posts/a-system-is-what-it-does/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1791531077,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.736,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "00abf479cd9d",
-      "title": "Paper Mono Typeface",
-      "url": "https://paper.design/mono",
-      "hn": "https://news.ycombinator.com/item?id=50001532",
-      "points": 8,
-      "comments": 6,
-      "created_at_i": 1791429224,
+      "id": "9bf10d7cab68",
+      "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+      "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+      "hn": "https://news.ycombinator.com/item?id=50060311",
+      "points": 39,
+      "comments": 41,
+      "created_at_i": 1791828236,
       "sources": [
         "Hacker News"
       ],
       "sharers": 0,
-      "score": 3.505,
-      "why": []
+      "score": 4.359,
+      "why": [
+        "heavily argued (41 comments)"
+      ]
     },
     {
-      "id": "a9e1b223ddb8",
-      "title": "Show HN: SVG Spark – 10 client-side SVG design and dev tools",
-      "url": "https://svg-spark.vercel.app/",
-      "hn": "https://news.ycombinator.com/item?id=50013931",
-      "points": 44,
-      "comments": 8,
-      "created_at_i": 1791453121,
-      "sources": [
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 3.49,
-      "why": []
-    },
-    {
-      "id": "610aa2a31bc5",
-      "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
-      "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
+      "id": "a725deeb215a",
+      "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
+      "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1791329743,
+      "created_at_i": 1791836371,
       "sources": [
         "UX Collective"
       ],
       "sharers": 0,
-      "score": 3.244,
+      "score": 3.745,
       "why": [
         "editor's pick at UX Collective"
-      ]
-    },
-    {
-      "id": "db1e5d8d0395",
-      "title": "On being anything other than a designer",
-      "url": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
-      "hn": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1791346021,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 2.997,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "dd31cf7999d3",
-      "title": "Blink:  Intent to Prototype: CSS Linked Parameters for External SVGs",
-      "url": "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/19c0b2a5-ce51-498a-83cf-2d1c7b45436fn%40chromium.org",
-      "hn": "https://bsky.app/profile/patrickbrosset.com/post/3mx7fhcxtw22z",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1791288497,
-      "sources": [
-        "Bluesky"
-      ],
-      "sharers": 1,
-      "score": 2.246,
-      "why": [
-        "spotted on Bluesky"
-      ],
-      "authors": [
-        "lea.verou.me"
-      ]
-    },
-    {
-      "id": "572a3a4039e6",
-      "title": "Using CSS scroll-triggered animations - CSS | MDN",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animation_triggers/Using_scroll-triggered_animations",
-      "hn": "https://bsky.app/profile/bram.us/post/3mx74j7hjq22h",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1791278896,
-      "sources": [
-        "Bluesky"
-      ],
-      "sharers": 1,
-      "score": 1.514,
-      "why": [
-        "spotted on Bluesky"
-      ],
-      "authors": [
-        "piccalil.li"
       ]
     }
   ],
-  "week_start": "2026-10-05",
-  "week_end": "2026-10-11",
-  "week_label": "5–11 October 2026",
-  "iso_week": "2026-W41"
+  "week_start": "2026-10-12",
+  "week_end": "2026-10-18",
+  "week_label": "12–18 October 2026",
+  "iso_week": "2026-W42"
 }

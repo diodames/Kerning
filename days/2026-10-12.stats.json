@@ -1,0 +1,352 @@
+{
+  "date": "2026-10-12",
+  "pool": 76,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 34,
+    "lexicon": 33,
+    "already_closed": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://ohaodha.ie/blog/tor-as-a-tool-for-testing-fonts/",
+      "title": "Testing Your Website's Fonts with Tor Browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://css.csail.mit.edu/6.5660/2024/readings/trusting-trust.pdf",
+      "title": "Reflections on Trusting Trust (1996) [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apnews.com/article/artificial-intelligence-anthropic-claude-0acc6ac46d4d80db805e8d55468a6fe1",
+      "title": "Anthropic's Claude submits false tip on a Philadelphia unsolved homicide case",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tkareine.org/articles/estimating-probability-of-faults-causing-inconsistent-state.html",
+      "title": "Estimating the probability of faults causing inconsistent state",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.pcgamer.com/games/sim/it-looks-like-wing-commander-3-is-getting-a-remaster-after-ea-producer-discovers-the-original-fmv-source-tapes-in-the-companys-archives/",
+      "title": "It looks like Wing Commander 3 is getting a remaster",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50047484",
+      "title": "I don't think image containers supporting both lossless and lossy is good",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50047627",
+      "title": "Show HN: I Cut my Agent Tokens By 50%",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/10/us/politics/trump-nobel-peace-prize-norway-navi-pillay.html?unlocked_article_code=1.H1E.mtrV.6aRKP6p5Kzoh&smid=url-share",
+      "title": "Trump Says He Should Have Won ‘8 Nobel Peace Prizes’ After Being Snubbed (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/opinion/children-screens-parents-health.html?unlocked_article_code=1.H1E.47WU.C95CNZEMJQCF&smid=url-share",
+      "title": "Opinion | I’m a Child Psychiatrist. Screens Are Not the Problem. (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nerdy.dev/www-ep255-meta-harnesses-medical-midjourney-and-specialists",
+      "title": "WWW Ep255 Meta Harnesses Medical Midjourney And Specialists · October 11, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-10-12/beijing-residents-dispose-drones-ahead-of-ban-on-ownership/107229144",
+      "title": "Beijing residents dispose of drones ahead of ban on ownership",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50049991",
+      "title": "Ask HN: Can we discourage Show HNs that \"ship the first draft\"",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.tomshardware.com/video-games/console-gaming/console-market-craters-as-xbox-sales-crash-33-percent-to-the-lowest-since-launch-25-years-ago-ps5-sales-drop-25-percent-steep-price-hikes-push-series-x-to-usd800-and-ps5-pro-to-usd900",
+      "title": "Console market craters: Xbox sales drop 33%, PS5 sales drop 25%",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/journal/1208",
+      "title": "Back at the Vehicle Assembly Building …twenty years after I got to go inside it: 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22796",
+      "title": "Back at the Vehicle Assembly Building …twenty years after I got to go inside it: 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://rulr.dev/blog/optimistic-ui-is-an-architectural-decision/",
+      "title": "Optimistic UI is an architectural decision, not a minor UX tweak",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wsj.com/articles/americans-win-nobel-prize-for-work-on-economic-stability-a446f0b9",
+      "title": "Americans Win Nobel Prize for Work on Economic Stability",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://airlock.sorrel.systems",
+      "title": "Show HN: I built Airlock, to sandbox your AI agent and know what it's doing",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50056249",
+      "title": "Help Me Think About Software Eating Hardware",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/figranium/figranium",
+      "title": "Show HN: Figranium – Build browser automations visually and run them as APIs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://iconic.photos/",
+      "title": "Show HN: Step inside history's most famous moments",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://organ.app/start",
+      "title": "Show HN: Organ – Autonomous AI executives that build and operate businesses",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/cluedata/cluecdc",
+      "title": "Show HN: ClueCDC – Open-Source UI for Managing Debezium and Kafka CDC Pipelines",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blamenick.com/killer-clues/",
+      "title": "Show HN: Killer Clues Cryptic Game",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3370492/leading-chinese-mathematicians-unite-behind-use-ai-research",
+      "title": "Leading Chinese mathematicians unite behind use of AI in research",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/cryptomining-malware-used-poetry-to-infect-more-than-3-400-servers-researchers-say-four-words-in-the-poellm-verse-changed-11-times-point-the-botnet-to-new-servers",
+      "title": "Cryptomining malware used poetry to infect more than 3,400 servers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/SaarthurR/atticus-mac",
+      "title": "Show HN: Atticus – Hold-to-talk voice assistant for macOS that runs on Claude -p",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50055306",
+      "title": "Ask HN: What Happened in DNSSEC Yesterday?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lalinsky.com/2026/10/11/type-safe-html-templating-in-zig.html",
+      "title": "Type-safe HTML templating in Zig",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/on-m-f-husain-and-multiple-meanings-of-the-colour-orange-bf4b1a6f5504?source=rss----138adf9c44c---4",
+      "title": "On M.F. Husain and multiple meanings of the colour orange",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/borrowed-slopes-cb5c5b464a61?source=rss----138adf9c44c---4",
+      "title": "Borrowed slopes",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://midnightvinylclub.com/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Midnight Vinyl Club",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://daverupert.com/2026/08/microlighter/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Introducing Microlighter",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/09/technology/inside-mark-zuckerbergs-decision-to-pull-the-trigger-on-metas-ai-agent.html?unlocked_article_code=1.IFE.Il3V.r_fws24tNIoy&smid=url-share",
+      "title": "Inside Mark Zuckerberg’s Decision to Pull the Trigger on Meta’s A.I. Agent",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
+      "title": "US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers | TechCrunch",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://lea.verou.me/blog/2026/icons/",
+      "title": "The best way to use icons in Web UIs • Lea Verou",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-meta-designed-muse-with",
+      "title": "🎙️ How I AI: How Meta designed Muse with Alex Cornell",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-meta-designed-muse-an-ai-agent",
+      "title": "How Meta designed Muse: an AI agent people actually want to talk to | Alex Cornell (Design Director)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bit.ly/side-gra7",
+      "title": "Put your meetings to work",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://constitution.design/",
+      "title": "The designer’s constitution",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://adrianroselli.com/2026/10/decorative-images.html",
+      "title": "Decorative images aren’t a thing",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.fluidfunctionalism.com/",
+      "title": "Fluid functionalism",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://armstr.ng/writing/worth-building",
+      "title": "Worth building",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.a7ul.com/agents-code-your-way.html",
+      "title": "Using Jev to make your agents write the code and design the app the way you do",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.itsnicethat.com/features/david-rudnick-johnnie-campbell-arsenal-rocastle-typeface-graphic-design-spotlight-121026",
+      "title": "David Rudnick on \"borderline impossible\" process of designing Arsenal typeface",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://michaelhillaert1.substack.com/p/a-30-year-durability-ranking-of-35",
+      "title": "A thirty year durability ranking of 35 companies",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wsj.com/world/uk/united-kingdom-welfare-disability-payouts-737d77a0",
+      "title": "The Welfare State Is Crushing Britain",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/triggeredcode/lucid",
+      "title": "Show HN: Turn spoken thoughts into system design diagrams",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.sitepoint.com/tailwind-css-v4-dynamic-themes/",
+      "title": "Tailwind CSS v4 Dynamic Themes with CSS Variables",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/meerita/FCSS2",
+      "title": "FCSS 2: Utility CSS that reads like CSS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://stan-stani.github.io/jeomsim-bangsong/",
+      "title": "Show HN: Vibecoded top-down game for learning vocab from a Korean webtoon",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bbc.com/future/article/20261009-the-houses-made-from-rice-husks",
+      "title": "Rice husk is being repurposed as a sturdy and resilient construction material",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://posteo.de/en/news/google-must-pause-data-center-construction-in-finland-due-to-environmental-concerns",
+      "title": "Google must pause Finnish data center construction due to environmental concerns",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/rusanoph/panama-kvm",
+      "title": "Show HN: PanamaKVM – direct-booting Linux from Java 25 via FFM/KVM",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sites.stat.columbia.edu/gelman/research/published/jama2026.pdf",
+      "title": "FDA Draft Guidance for the Use of Bayesian Methods in Clinical Trials [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Ayobamiu/usefulness-search",
+      "title": "Show HN: search for AI agents that flags pages later news replaced",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50057725",
+      "title": "Free and Open-Source Facebook Scraper – Lightweight, No Headless Browser",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "title": "A modern web app in c",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/ai-is-hollowing-out-the-middle-of-design-leaving-an-hourglass-behind-b7069db250fd?source=rss----138adf9c44c---4",
+      "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.svpg.com/predictability-vs-outcomes/",
+      "title": "Predictability vs Outcomes",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/interactive/2026/10/08/magazine/farm-raised-fish-aquaculture-overfishing.html?unlocked_article_code=1.IFE.NTss.6soyiwCtZtCF&smid=url-share",
+      "title": "The Dirty Secret Behind the Farmed Fish You Eat (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9Z-8lDl98P4",
+      "title": "The Trump “Department of Justice” claims to be conducting a criminal investigation. And I agree — the investigation *is* criminal.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://migrantinsider.com/p/ice-raids-ilhan-omars-home",
+      "title": "ICE Raids Ilhan Omar’s Home",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://abcnews.com/US/rep-ilhan-omars-residence-searched-part-ongoing-criminal/story?id=137192001&cid=social_twitter_abcn",
+      "title": "Rep. Ilhan Omar’s residence searched as part of ongoing criminal investigation, DOJ says",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://edition.cnn.com/2026/10/10/politics/elon-musk-pac-inaccurate-voting-information",
+      "title": "Elon Musk’s PAC is spreading inaccurate voting information, election officials say | CNN Politics",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/better-web-video-with-av1-codec#skill-web-video",
+      "title": "How to make web videos way smaller in 2025 using the AV1 codec—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.densediscovery.com/issues/410/",
+      "title": "DD410 / Design: frictionless, flawless, forgettable",
+      "reason": "lexicon"
+    }
+  ]
+}
