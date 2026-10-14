@@ -89,6 +89,9 @@ CURATED_FEEDS = {
     "Typographica":       "https://typographica.org/feed/",
     "SVPG":               "https://www.svpg.com/feed",
     "Product Talk":       "https://www.producttalk.org/feed",
+    "Bring the Donuts":   "https://www.bringthedonuts.com/feed.xml",
+    "First Round Review": "https://review.firstround.com/articles/rss/",
+    "Itamar Gilad":       "https://itamargilad.com/feed",
     "Intercom":           "https://www.intercom.com/blog/feed",
 }
 
