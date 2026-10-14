@@ -267,6 +267,12 @@
   .link { text-decoration: underline; color: var(--ink); }
   .btn:hover, .text-act:hover, .chip:hover, .link:hover { color: var(--ink); }
   .btn:disabled { opacity: .4; cursor: default; }
+  .btn:disabled.is-sending { opacity: 1; color: var(--ink); cursor: default; }
+  .btn.is-sending {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
   .btn:active, .chip:active, .tab:active, .text-act:active, .link:active, .seed-x:active {
     transform: scale(0.96);
   }
@@ -276,6 +282,13 @@
     font-size: var(--text-meta); color: var(--mute);
     line-height: 1.55; margin: 10px 0 0;
     max-width: 58ch; text-wrap: pretty;
+  }
+  .note-in {
+    animation: note-in 220ms var(--ease-out) both;
+  }
+  @keyframes note-in {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: none; }
   }
   .load-copy {
     display: flex;
@@ -623,6 +636,8 @@
     flex-shrink: 0; width: 15px; height: 15px;
     margin: calc((1.55em - 15px) / 2) 0 0; accent-color: var(--ink);
   }
+  #view-account .acct-danger { margin-top: 32px; }
+  #view-account .acct-danger .btn { min-height: 40px; }
   .dlg .btn.down { color: var(--warm); }
   .dlg .btn.down:hover { color: var(--ink); }
   .tsec { margin: 8px 0 48px; }
@@ -997,7 +1012,7 @@
       <input id="auth-email" name="email" type="email" autocomplete="email" required
         placeholder="you@example.com" aria-describedby="auth-msg">
     </div>
-    <button type="submit" class="btn" id="auth-submit">Email me a link</button>
+    <button type="submit" class="btn" id="auth-submit">Email me a&nbsp;link</button>
   </form>
   <p class="note" id="auth-msg" role="status"></p>
 </section>
@@ -3013,7 +3028,7 @@ function accountSignedOutHTML() {
     + '<input id="account-email" name="email" type="email" autocomplete="email" required '
     + 'placeholder="you@example.com" aria-describedby="account-err account-msg" value="' + esc(accountDraft) + '"'
     + (accountMsg.signinErr ? ' aria-invalid="true"' : "") + "></div>"
-    + '<button type="submit" class="btn" id="account-submit"' + (accountBusy.signin ? " disabled" : "") + ">Email me a link</button></form>"
+    + '<button type="submit" class="btn" id="account-submit"' + (accountBusy.signin ? " disabled" : "") + ">Email me a&nbsp;link</button></form>"
     + '<p class="field-err" id="account-err" role="status">' + esc(accountMsg.signinErr) + "</p>"
     + '<p class="note" id="account-msg" role="status">' + esc(accountMsg.signin) + "</p>"
     + "</section>";
@@ -3043,9 +3058,8 @@ function accountSignedInHTML() {
     + "</section>"
     + weekly
     + '<div class="reset"><div class="acts">'
-    + '<button type="button" class="btn" id="account-sign-out">Sign out</button>'
-    + '<button type="button" class="btn down" id="account-delete">Delete synced data</button>'
-    + "</div></div>";
+    + '<button type="button" class="btn" id="account-sign-out">Sign out</button></div></div>'
+    + '<p class="note acct-danger"><button type="button" class="btn down" id="account-delete">Delete synced data</button></p>';
 }
 
 function renderAccount() {
@@ -3085,18 +3099,21 @@ async function submitSignIn(e) {
   accountDraft = email;
   accountMsg.signin = "";
   msg.textContent = "";
+  msg.classList.remove("note-in");
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     accountMsg.signinErr = "Enter your email address, like you@example.com.";
     err.textContent = accountMsg.signinErr;
     input.setAttribute("aria-invalid", "true");
     input.focus();
+    playNoteIn(err);
     return;
   }
   accountMsg.signinErr = "";
   err.textContent = "";
+  err.classList.remove("note-in");
   input.removeAttribute("aria-invalid");
   accountBusy.signin = true;
-  btn.disabled = true;
+  setAuthSending(btn, true);
   try {
     const client = await syncLoadClient();
     const { error } = await client.auth.signInWithOtp({
@@ -3104,20 +3121,21 @@ async function submitSignIn(e) {
       options: { emailRedirectTo: location.origin + location.pathname },
     });
     if (error) throw error;
-    accountMsg.signin = "Check your inbox for the sign-in link. Open it on this device or any other.";
+    accountMsg.signin = "Check your inbox for the sign-in link. Open it on this device or any\u00a0other.";
   } catch (error) {
     accountMsg.signinErr = /rate|limit|seconds/i.test(String(error && error.message))
-      ? "Too many links in a short time. Wait a few minutes, then try again."
-      : "Couldn\u2019t send the link. Check your connection and try again.";
+      ? "Too many links in a short time. Wait a few minutes, then try\u00a0again."
+      : "Couldn\u2019t send the link. Check your connection and try\u00a0again.";
   } finally {
     accountBusy.signin = false;
+    setAuthSending(btn, false);
   }
   const liveMsg = document.getElementById("account-msg");
   const liveErr = document.getElementById("account-err");
-  const liveBtn = document.getElementById("account-submit");
-  if (liveMsg) liveMsg.textContent = accountMsg.signin;
-  if (liveErr) liveErr.textContent = accountMsg.signinErr;
-  if (liveBtn) liveBtn.disabled = false;
+  if (accountMsg.signin) setAuthNote(liveMsg, accountMsg.signin);
+  else if (liveMsg) liveMsg.textContent = "";
+  if (accountMsg.signinErr) setAuthNote(liveErr, accountMsg.signinErr);
+  else if (liveErr) liveErr.textContent = "";
 }
 
 async function runSyncNow() {
@@ -3347,6 +3365,39 @@ async function boot() {
   if (kind === "local") syncInit();
 }
 
+function loadDotsHTML() {
+  let dots = "";
+  for (let i = 0; i < 9; i++) {
+    dots += '<span class="load-dot" style="--i:' + i + '"></span>';
+  }
+  return '<span class="load-mark" aria-hidden="true"><span class="load-dots">'
+    + dots + "</span></span>";
+}
+
+function setAuthSending(btn, on) {
+  if (!btn) return;
+  btn.classList.toggle("is-sending", on);
+  btn.disabled = on;
+  btn.setAttribute("aria-busy", on ? "true" : "false");
+  btn.innerHTML = on
+    ? loadDotsHTML() + "<span>Sending</span>"
+    : "Email me a&nbsp;link";
+}
+
+function playNoteIn(el) {
+  if (!el) return;
+  el.classList.remove("note-in");
+  void el.offsetWidth;
+  el.classList.add("note-in");
+}
+
+function setAuthNote(el, value, asHtml) {
+  if (!el) return;
+  if (asHtml) el.innerHTML = value;
+  else el.textContent = value;
+  if (value) playNoteIn(el);
+}
+
 function bindAuthForm() {
   const form = document.getElementById("auth-form");
   if (!form || form.dataset.bound) return;
@@ -3357,8 +3408,11 @@ function bindAuthForm() {
     const msg = document.getElementById("auth-msg");
     const btn = document.getElementById("auth-submit");
     const email = (input && input.value || "").trim();
-    if (msg) msg.textContent = "";
-    if (btn) btn.disabled = true;
+    if (msg) {
+      msg.textContent = "";
+      msg.classList.remove("note-in");
+    }
+    setAuthSending(btn, true);
     try {
       const res = await fetch("/auth/request", {
         method: "POST",
@@ -3368,20 +3422,21 @@ function bindAuthForm() {
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok) {
-        if (msg) msg.textContent = (typeof data.detail === "string" && data.detail)
-          || "Couldn’t send a link. Try again in a few minutes.";
+        setAuthNote(msg, (typeof data.detail === "string" && data.detail)
+          ? esc(data.detail)
+          : "Couldn’t send a link. Try again in a few&nbsp;minutes.", true);
         return;
       }
       if (data.devLink) {
-        if (msg) msg.innerHTML = "No mail server in this environment. "
-          + '<a class="link" href="' + esc(data.devLink) + '">Open the sign-in link</a>.';
-      } else if (msg) {
-        msg.textContent = "Check your inbox. The link expires in 20 minutes.";
+        setAuthNote(msg, "No mail server in this environment. "
+          + '<a class="link" href="' + esc(data.devLink) + '">Open the sign-in&nbsp;link</a>.', true);
+      } else {
+        setAuthNote(msg, "Check your inbox. The link expires in 20&nbsp;minutes.", true);
       }
     } catch (err) {
-      if (msg) msg.textContent = "Couldn’t send a link. Check your connection and try again.";
+      setAuthNote(msg, "Couldn’t send a link. Check your connection and try&nbsp;again.", true);
     } finally {
-      if (btn) btn.disabled = false;
+      setAuthSending(btn, false);
     }
   };
 }
@@ -3525,12 +3580,8 @@ function loadingCopy() {
 }
 
 function loadingNoteHTML(copy) {
-  let dots = "";
-  for (let i = 0; i < 9; i++) {
-    dots += '<span class="load-dot" style="--i:' + i + '"></span>';
-  }
   return '<p class="note load-copy">'
-    + '<span class="load-mark" aria-hidden="true"><span class="load-dots">' + dots + "</span></span>"
+    + loadDotsHTML()
     + '<span class="load-copy-text">' + copy + "</span></p>";
 }
 
