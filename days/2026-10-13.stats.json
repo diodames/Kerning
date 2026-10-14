@@ -1,0 +1,438 @@
+{
+  "date": "2026-10-13",
+  "pool": 86,
+  "kept": 1,
+  "dropped": {
+    "below_threshold": 45,
+    "already_closed": 3,
+    "lexicon": 34,
+    "no_title": 3
+  },
+  "dropped_items": [
+    {
+      "url": "https://blog.a7ul.com/agents-code-your-way.html",
+      "title": "Using Jev to make your agents write the code and design the app the way you do",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.itsnicethat.com/features/david-rudnick-johnnie-campbell-arsenal-rocastle-typeface-graphic-design-spotlight-121026",
+      "title": "David Rudnick on \"borderline impossible\" process of designing Arsenal typeface",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
+      "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://michaelhillaert1.substack.com/p/a-30-year-durability-ranking-of-35",
+      "title": "A thirty year durability ranking of 35 companies",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wsj.com/world/uk/united-kingdom-welfare-disability-payouts-737d77a0",
+      "title": "The Welfare State Is Crushing Britain",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/triggeredcode/lucid",
+      "title": "Show HN: Turn spoken thoughts into system design diagrams",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.sitepoint.com/tailwind-css-v4-dynamic-themes/",
+      "title": "Tailwind CSS v4 Dynamic Themes with CSS Variables",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/meerita/FCSS2",
+      "title": "FCSS 2: Utility CSS that reads like CSS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://stan-stani.github.io/jeomsim-bangsong/",
+      "title": "Show HN: Vibecoded top-down game for learning vocab from a Korean webtoon",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bbc.com/future/article/20261009-the-houses-made-from-rice-husks",
+      "title": "Rice husk is being repurposed as a sturdy and resilient construction material",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://posteo.de/en/news/google-must-pause-data-center-construction-in-finland-due-to-environmental-concerns",
+      "title": "Google must pause Finnish data center construction due to environmental concerns",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/rusanoph/panama-kvm",
+      "title": "Show HN: PanamaKVM – direct-booting Linux from Java 25 via FFM/KVM",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sites.stat.columbia.edu/gelman/research/published/jama2026.pdf",
+      "title": "FDA Draft Guidance for the Use of Bayesian Methods in Clinical Trials [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Ayobamiu/usefulness-search",
+      "title": "Show HN: Search for AI agents with usefulness score built in",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50057725",
+      "title": "Free and Open-Source Facebook Scraper – Lightweight, No Headless Browser",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://prophitt.me/writing/a-modern-web-app-in-c",
+      "title": "A modern web app in c",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+      "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://uxdesign.cc/ai-is-hollowing-out-the-middle-of-design-leaving-an-hourglass-behind-b7069db250fd?source=rss----138adf9c44c---4",
+      "title": "AI is hollowing out the middle of design, leaving an hourglass behind",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.svpg.com/predictability-vs-outcomes/",
+      "title": "Predictability vs Outcomes",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/interactive/2026/10/08/magazine/farm-raised-fish-aquaculture-overfishing.html?unlocked_article_code=1.IFE.NTss.6soyiwCtZtCF&smid=url-share",
+      "title": "The Dirty Secret Behind the Farmed Fish You Eat (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9Z-8lDl98P4",
+      "title": "The Trump “Department of Justice” claims to be conducting a criminal investigation. And I agree — the investigation *is* criminal.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://migrantinsider.com/p/ice-raids-ilhan-omars-home",
+      "title": "ICE Raids Ilhan Omar’s Home",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://abcnews.com/US/rep-ilhan-omars-residence-searched-part-ongoing-criminal/story?id=137192001&cid=social_twitter_abcn",
+      "title": "Rep. Ilhan Omar’s residence searched as part of ongoing criminal investigation, DOJ says",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://edition.cnn.com/2026/10/10/politics/elon-musk-pac-inaccurate-voting-information",
+      "title": "Elon Musk’s PAC is spreading inaccurate voting information, election officials say | CNN Politics",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://acd.lolaslab.co",
+      "title": "ACD - Accessibility Compat Data",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://www.youtube.com/playlist?list=PLFbG3UWnuE3U",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/better-web-video-with-av1-codec#skill-web-video",
+      "title": "How to make web videos way smaller in 2025 using the AV1 codec—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.densediscovery.com/issues/410/",
+      "title": "DD410 / Design: frictionless, flawless, forgettable",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://imrishabh18.github.io/blog/ai-corne-keyboard/",
+      "title": "From chat window to my desk: An AI-designed split keyboard",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sunilpai.dev/posts/original-ideas/",
+      "title": "Original thoughts have terrible UX",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://messopedals.com/diy/onion-madder/paper/mosquito/",
+      "title": "Paper Mosquito: An NE556 Atari Punk Console as a Paper Circuit",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+      "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/visionably/outloud",
+      "title": "Show HN: Outloud – Open-source PDF accessibility checker for CLI, CI and browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/iterative-computer/powermove",
+      "title": "Show HN: Malleable video editor that adapts to your workflow",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.jim-nielsen.com/2026/macos-dock-icons-over-time/",
+      "title": "The Dock on Mac, from OS 10 to macOS 27",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://boxd.it/gLlvup",
+      "title": "A ★★★★★ review of Monsieur Hulot's Holiday (1953)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.unsiloed.ai/blog/document-review-unsiloed-typesafe-jev",
+      "title": "Document Review with Unsiloed and TypeSafe Jev",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://tapoueh.org/blog/2026/10/zero-downtime-postgres-upgrades-with-logical-replication/",
+      "title": "Dimitri Fontaine: Zero-downtime Postgres upgrades with logical replication",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.anku.app",
+      "title": "Show HN: Anku – Turn PostHog funnel drop-offs into UX specs and code patches",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/lmxrd/potoo",
+      "title": "Show HN: Lightweight, self-hosted, web analytics app",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://getret.app/",
+      "title": "Show HN: Ret – An inbox and canvas for your Codex and Claude Code agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/HarjjotSinghh/helicon",
+      "title": "Show HN: Helicon – Desktop App for Meta's Muse Code CLI (Linux, Windows, macOS)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50069663",
+      "title": "Show HN: Made a good work assistant but can't promote it. Like Viktor.com",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/LargeModGames/spotatui",
+      "title": "Show HN: Spotatui, a Spotify TUI/GUI without web API rate limits",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://proofsource.co/",
+      "title": "Show HN: Proofsource. Find where AI leaves you out. And Fix it",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://voicegremlin.com/",
+      "title": "Show HN: VoiceGremlin, a SaaS tool for automated tests against AI phone agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reuters.com/legal/litigation/is-chatgpt-product-or-service-wave-lawsuits-tests-theory-ai-liability-2026-10-07/",
+      "title": "Is ChatGPT a 'product' or a 'service'? Lawsuits test a theory of AI liability",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/storytold/figcraft",
+      "title": "Figcraft: An open-source, clean-room reimplementation of Figma",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.elenarossini.com/public-by-design-how-w-social-makes-their-verified-users-personal-details-visible-on-the-open-web/",
+      "title": "How W Social Makes Their Verified Users Personal Details Visible on the Open Web",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50073471",
+      "title": "Launch HN: Consus (YC F24) – LLM gateway for companies handling sensitive data",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50072334",
+      "title": "Launch: Assury Cross platform agent lifecycle mangement",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://docs.hypermass.io/docs/cli/",
+      "title": "Show HN: Stream live open data in two commands",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.macosicongallery.com/",
+      "title": "macOS Icon Gallery",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://wesyncopate.com",
+      "title": "Show HN: Syncopate – free sheet music with piano play-along",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://check-forkcast.tizzy.dev/",
+      "title": "Show HN: Forkcast, a meal planner and tracker with focus on weekly planning",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://agent-conversion-coral.vercel.app/en/research/d001",
+      "title": "Agent Conversion – Can AI agents use your website?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://memorysync.io/try",
+      "title": "Show HN: MemorySync – Memory for AI Agents",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.skoolstats.com/",
+      "title": "Show HN: I track all 121k Skool communities to find community creator leads",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/the-synth-everyone-owned-and-few-could-program-a-lesson-for-ai-design-6f618ec2aea0?source=rss----138adf9c44c---4",
+      "title": "The synth everyone owned and few could program: a lesson for AI design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/what-are-we-willing-to-sacrifice-for-ai-a57736f368a1?source=rss----138adf9c44c---4",
+      "title": "What are we willing to sacrifice for AI?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lukew.com/ff/2166/the-convergence-of-design",
+      "title": "The convergence of design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.quantamagazine.org/is-ai-the-end-of-math-as-we-know-it-20261005/",
+      "title": "Is AI the end of math as we know it?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ssgoi.dev/",
+      "title": "Native page transitions on the web",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.producttalk.org/training-expectations-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "title": "Training Expectations - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://elliotjaystocks.com/blog/spotify?utm_source=the-index&utm_medium=newsletter",
+      "title": "Elliot Jay Stocks | The search for a Spotify alternative",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dansinker.com/posts/2026-10-12-open-letter/",
+      "title": "An Open Letter To The People Writing Lengthy Posts About 'Why I'm Going Back to Twitter' dansinker.com/posts/2026-1...",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://automattic.com/for-agencies/blog/when-ai-gets-your-clients-brand-wrong-five-places-agencies-should-look/",
+      "title": "What AI Says About Your Clients, and How to Fix It",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://happinessengineer.blog/2026/10/09/what-do-customers-actually-praise-when-theyre-happy-we-read-every-positive-comment-from-the-last-two-months/",
+      "title": "What do customers actually praise when they’re happy? We read every positive comment from the last two months.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wp.me/phbdcX-1NL",
+      "title": "How WordPress Gets Made and How You Can Take Part",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.aaron-gustafson.com/notebook/sortable-tables-with-progressive-enhancement/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-to-tell-if-a-startup-has-a-moat",
+      "title": "How to tell if a startup has a moat",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50074607",
+      "title": "Show HN: Mac Markdown reader for your AI agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.alexbeals.com/posts/making-my-font-smarter",
+      "title": "Making My Font Smarter",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/your-moon/tern",
+      "title": "Show HN: Tern – Native macOS SSH Client in Rust/GPUI (76 MB vs. Tabby's 580 MB)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://stacktender.com/users/charlie/stacks/memory-and-focus/",
+      "title": "Show HN: Stack Tender, supplement tracking and product scanning",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://en.sedaily.com/international/2026/10/13/chinese-memory-makers-tech-claim-sinks-samsung-sk-hynix",
+      "title": "Chinese Memory Maker's Tech Claim Sinks Samsung, SK Hynix Shares",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pulseos.finance",
+      "title": "Show HN: Pulse Local, a Mac budgeting app whose AI models run on your machine",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/tejaspruthi/CommitAwareRouter",
+      "title": "Show HN: Commit-Aware Router, route LLM traffic around your AI/cloud commitments",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ua.news/en/world/kiberataka-zupinila-budivnitstvo-tuneliu-mizh-daniieiu-ta-nimechchinoiu-rmf24",
+      "title": "Cyberattack halts construction of tunnel between Denmark and Germany",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/nicchia-code/trama",
+      "title": "Weave away your bugs with Trama (Meta Vibe Coding project)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/scarletkc/Hatoba",
+      "title": "Show HN: Hatoba, an open-source SSH client with an AI assistant and E2EE sync",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://bart.degoe.de/rag-with-a-small-language-model-in-the-browser/",
+      "title": "Running RAG with a (small) language model in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mezha.net/eng/news/mezha-28304fbbe08e489bfe006d9c_china_is_building/",
+      "title": "China is building AI data centers at speed as the US wrestles with the costs",
+      "reason": "below_threshold"
+    }
+  ]
+}

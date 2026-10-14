@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T03:31:22.118769+00:00",
+  "updated_at": "2026-10-14T01:53:27.899494+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -1163,6 +1163,50 @@
         "below_threshold": 34,
         "lexicon": 33,
         "already_closed": 1
+      }
+    },
+    "2026-10-13": {
+      "items": [
+        {
+          "id": "d87e145187f3",
+          "title": "Agent-first design: Bringing UX to the user",
+          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
+          "hn": "https://news.ycombinator.com/item?id=50060187",
+          "points": 16,
+          "comments": 1,
+          "created_at_i": 1791827742,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.041,
+          "why": []
+        }
+      ],
+      "candidates": [
+        {
+          "id": "d87e145187f3",
+          "title": "Agent-first design: Bringing UX to the user",
+          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
+          "hn": "https://news.ycombinator.com/item?id=50060187",
+          "points": 16,
+          "comments": 1,
+          "created_at_i": 1791827742,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.041,
+          "why": []
+        }
+      ],
+      "pool": 86,
+      "kept": 1,
+      "dropped": {
+        "below_threshold": 45,
+        "already_closed": 3,
+        "lexicon": 34,
+        "no_title": 3
       }
     }
   }
