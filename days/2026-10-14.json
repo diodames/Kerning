@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-15T01:26:42.352831+00:00",
+  "items": [
+    {
+      "id": "2f417a4e03ad",
+      "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
+      "url": "https://typeof.net/Iosevka/",
+      "hn": "https://news.ycombinator.com/item?id=50084240",
+      "points": 689,
+      "comments": 285,
+      "created_at_i": 1791966479,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.71,
+      "why": [
+        "689 points"
+      ]
+    },
+    {
+      "id": "af91ea474eec",
+      "title": "Primer (GitHub) — @primer/react@38.41.0",
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
+      "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791993649,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.616,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "196ed021279b",
+      "title": "shadcn/ui — @shadcn/registry@0.1.4",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.4",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791983144,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.537,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "eda7225ebb58",
+      "title": "The Accessibility Pond",
+      "url": "https://buttondown.com/the-accessibility-pond",
+      "hn": "https://bsky.app/profile/ashleemboyer.com/post/3mxssncelg22g",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791955491,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.757,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "ericwbailey.website"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2f417a4e03ad",
+      "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
+      "url": "https://typeof.net/Iosevka/",
+      "hn": "https://news.ycombinator.com/item?id=50084240",
+      "points": 689,
+      "comments": 285,
+      "created_at_i": 1791966479,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.71,
+      "why": [
+        "689 points"
+      ]
+    },
+    {
+      "id": "af91ea474eec",
+      "title": "Primer (GitHub) — @primer/react@38.41.0",
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
+      "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791993649,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.616,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "196ed021279b",
+      "title": "shadcn/ui — @shadcn/registry@0.1.4",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.4",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791983144,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.537,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "eda7225ebb58",
+      "title": "The Accessibility Pond",
+      "url": "https://buttondown.com/the-accessibility-pond",
+      "hn": "https://bsky.app/profile/ashleemboyer.com/post/3mxssncelg22g",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1791955491,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.757,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "ericwbailey.website"
+      ]
+    }
+  ]
+}
