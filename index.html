@@ -139,8 +139,7 @@
     max-width: var(--measure);
   }
   .landing h1 { margin: 0; }
-  .landing form { margin: 36px 0 0; max-width: 22rem; }
-  .landing .tadd { margin-top: 0; }
+  .landing form.tadd { margin: 48px 0 0; max-width: 22rem; }
   .tabs {
     position: relative;
     display: flex; align-items: center; gap: 22px;
@@ -283,12 +282,20 @@
     line-height: 1.55; margin: 10px 0 0;
     max-width: 58ch; text-wrap: pretty;
   }
-  .note-in {
+  .note-in, .landing.is-enter {
     animation: note-in 220ms var(--ease-out) both;
   }
   @keyframes note-in {
     from { opacity: 0; transform: translateY(8px); }
     to { opacity: 1; transform: none; }
+  }
+  .is-leave {
+    animation: view-out 180ms var(--ease-out) both;
+    pointer-events: none;
+  }
+  @keyframes view-out {
+    from { opacity: 1; transform: none; }
+    to { opacity: 0; transform: translateY(-8px); }
   }
   .load-copy {
     display: flex;
@@ -2828,13 +2835,26 @@ function renderAuthSlot() {
   if (out) out.onclick = signOut;
 }
 
-async function signOut() {
+async function signOut(e) {
+  const btn = (e && e.currentTarget) || document.getElementById("sign-out");
+  if (btn && btn.getAttribute("aria-busy") === "true") return;
+  setAuthSending(btn, true, "Signing&nbsp;out");
   try {
     await fetch("/auth/logout", { method: "POST", credentials: "include" });
-  } catch (e) { /* still leave */ }
+  } catch (err) { /* still leave */ }
   me = null;
   hostedMode = true;
+  const wrap = document.getElementById("app-wrap");
+  const tabs = document.getElementById("tabs");
+  const slot = document.getElementById("auth-slot");
+  await playLeave([wrap, tabs, slot]);
   showLanding(true);
+  const landing = document.getElementById("landing");
+  if (landing) {
+    landing.classList.remove("is-enter");
+    void landing.offsetWidth;
+    landing.classList.add("is-enter");
+  }
 }
 
 /* ---------------------------------------------------------------- */
@@ -3289,14 +3309,20 @@ function showNotice(title, body) {
   dlg.showModal();
 }
 
-async function syncSignOut() {
+async function syncSignOut(e) {
+  const btn = (e && e.currentTarget) || document.getElementById("account-sign-out");
+  if (btn && btn.getAttribute("aria-busy") === "true") return;
+  setAuthSending(btn, true, "Signing&nbsp;out");
   clearTimeout(syncTimer);
   try { if (syncClient) await syncClient.auth.signOut(); }
-  catch (e) { /* the local session is cleared either way */ }
+  catch (err) { /* the local session is cleared either way */ }
   syncUser = null;
   syncLastAt = 0;
   resetAccountState();
+  const view = document.getElementById("view-account");
+  await playLeave([view]);
   rerenderAccount();
+  if (view) playNoteIn(view);
 }
 
 async function probeHost() {
@@ -3374,14 +3400,32 @@ function loadDotsHTML() {
     + dots + "</span></span>";
 }
 
-function setAuthSending(btn, on) {
+function setAuthSending(btn, on, busyLabel) {
   if (!btn) return;
   btn.classList.toggle("is-sending", on);
   btn.disabled = on;
   btn.setAttribute("aria-busy", on ? "true" : "false");
-  btn.innerHTML = on
-    ? loadDotsHTML() + "<span>Sending</span>"
-    : "Email me a&nbsp;link";
+  if (on) {
+    if (!btn.dataset.idleHtml) btn.dataset.idleHtml = btn.innerHTML;
+    btn.innerHTML = loadDotsHTML() + "<span>" + (busyLabel || "Sending") + "</span>";
+  } else {
+    btn.innerHTML = btn.dataset.idleHtml || "Email me a&nbsp;link";
+    delete btn.dataset.idleHtml;
+  }
+}
+
+function waitMotion(ms) {
+  if (prefersReducedMotion()) return Promise.resolve();
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function playLeave(els) {
+  const live = (els || []).filter((el) => el && !el.classList.contains("hidden") && !el.hidden);
+  if (!live.length) return Promise.resolve();
+  live.forEach((el) => el.classList.add("is-leave"));
+  return waitMotion(180).then(() => {
+    live.forEach((el) => el.classList.remove("is-leave"));
+  });
 }
 
 function playNoteIn(el) {
