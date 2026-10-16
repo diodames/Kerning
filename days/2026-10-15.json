@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-16T01:18:48.497265+00:00",
+  "items": [
+    {
+      "id": "0ae9ab126394",
+      "title": "Furifont, a Japanese font that shows furigana",
+      "url": "https://furifont.antfu.me/",
+      "hn": "https://news.ycombinator.com/item?id=50100994",
+      "points": 17,
+      "comments": 10,
+      "created_at_i": 1792040423,
+      "sources": [
+        "Hacker News",
+        "Lobsters"
+      ],
+      "sharers": 0,
+      "score": 6.749,
+      "why": [
+        "picked up by Hacker News and Lobsters"
+      ]
+    },
+    {
+      "id": "e21151c97423",
+      "title": "We read 102 EU shop accessibility statements",
+      "url": "https://scandiary.com/accessibility-statements",
+      "hn": "https://scandiary.com/accessibility-statements",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792033320,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.309,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "0ae9ab126394",
+      "title": "Furifont, a Japanese font that shows furigana",
+      "url": "https://furifont.antfu.me/",
+      "hn": "https://news.ycombinator.com/item?id=50100994",
+      "points": 17,
+      "comments": 10,
+      "created_at_i": 1792040423,
+      "sources": [
+        "Hacker News",
+        "Lobsters"
+      ],
+      "sharers": 0,
+      "score": 6.749,
+      "why": [
+        "picked up by Hacker News and Lobsters"
+      ]
+    },
+    {
+      "id": "e21151c97423",
+      "title": "We read 102 EU shop accessibility statements",
+      "url": "https://scandiary.com/accessibility-statements",
+      "hn": "https://scandiary.com/accessibility-statements",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792033320,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.309,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-15",
+  "pool": 57,
+  "kept": 2,
+  "dropped": {
+    "lexicon": 22,
+    "below_threshold": 30,
+    "no_title": 3
+  },
+  "dropped_items": [
+    {
+      "url": "https://typesafe.ai/blog/jev-1-14",
+      "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://beaniebrand.com",
+      "title": "Show HN: Beaniebrand – Easy way to create a cute logo for your product",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://digs.fm",
+      "title": "Show HN: Digs – For Passionate Music Explorers (Like Goodreads for Music)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://zipgeist.app",
+      "title": "Show HN: Zipgeist, extract and open archives in Finder as volumes on macOS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/aisixteen/fantastic",
+      "title": "Show HN: Fantastic Canvas",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://petal.live/",
+      "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/nobody-wants-your-ai-app-cff8629064a4?source=rss----138adf9c44c---4",
+      "title": "Nobody wants your AI app",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/what-i-told-the-cfo-when-he-asked-why-design-matters-ceadb07c929e?source=rss----138adf9c44c---4",
+      "title": "What I told the CFO when he asked why design matters",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://giannirosato.com/blog/post/case-against-jxl/",
+      "title": "The case against JPEG XL",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://mamuso.dev/note/imperfection",
+      "title": "Imperfection",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://review.firstround.com/inside-thiel-fellowship/",
+      "title": "Permission to Think For Yourself: Inside the Thiel Fellowship’s Early Years",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://review.firstround.com/references-are-the-most-underrated-tool-in-hiring/",
+      "title": "References are the most underrated tool in hiring",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/dont-get-burned-make-your-stripe-mrr-boring-and-correct",
+      "title": "Don’t get burned, make your Stripe MRR boring and correct—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+      "title": "Ricursive Intelligence bets on AI-designed chips to solve the compute crisis",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fonts.google.com/specimen/Gaegu",
+      "title": "Gaegu Font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://gitvolt.com/",
+      "title": "Show HN: GitVolt, open source fast Git GUI (Tauri/CEF)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://towerpanic.com/",
+      "title": "Show HN: TowerPanic – a family party game on a small FastAPI realtime engine",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://film.jashtechno.com",
+      "title": "Show HN: I'll Call You Later, an interactive 3D browser short film",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chiplis.com/ironsmith/",
+      "title": "Magic: The Gathering Card Compiler",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.realdesignbenchmark.com",
+      "title": "Show HN: Real Design Benchmark – can you tell AI designs from real products?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50100700",
+      "title": "Show HN: Working on Plug and play AI memory that works across AI agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tetralogical.com/blog/2026/10/15/wcag3/",
+      "title": "WCAG 3: a different future for accessibility",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uji.sh/ito/",
+      "title": "Show HN: Ito – Build Terminal UIs in Lua",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://mediaguesser.com/human-vs-ai",
+      "title": "Show HN: Daily image location guessing agains AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://codepen.io/editor/amit_sheen/pen/01a13c75-1128-726d-88ad-8d007fa1a7e4?panel=false&show=preview",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://github.com/fyzugx/DEsk",
+      "title": "Wayland desktop for Linux with skeuomorphic design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://snoutcover.com/one-year",
+      "title": "I designed a nose guard for my dog and gave it away. Now 500 dogs wear one",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+      "title": "Researchers use AI to design proteins that cut up other protein",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://typesafe.ai/",
+      "title": "JEV: Type Safe AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://soundscape.flaminghoops.dev/",
+      "title": "Show HN: Process Soundscape",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/10/opinion/ai-companies-liability-laws.html",
+      "title": "A.I. Companies Say They Aren't Responsible for Their Unpredictable Products",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.figma.com/blog/introducing-figma-specs/",
+      "title": "Figma Specs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://stylebot.dev/",
+      "title": "Show HN: Stylebot 4 – restyle any website, by hand or with your coding agent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/sidgitind/Sparring",
+      "title": "Show HN: Multi persona library to eradicate Spec Hallucination",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://face.kodel.com.br",
+      "title": "Show HN: Face, a browser window over agents that keeps the plan in files",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://stripe.dev/blog/how-stripe-uses-graph-search-and-state-machines-to-auto-remediate-a-global-database-fleet",
+      "title": "Stripe's Use of Graph Search and State Machines for Global Database",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jakearchibald.com/2026/jpeg-xl-vs-avif/",
+      "title": "JPEG XL vs AVIF for web use-cases",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.producttalk.org/building-an-ai-voice-agent-for-360-degree-feedback-how-your360-ai-uses-state-machines-evals-and-layered-synthesis/",
+      "title": "Building an AI Voice Agent for 360 Degree Feedback: How Your360 AI Uses State Machines, Evals, and Layered Synthesis",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.keithcirkel.co.uk/wire-loop/?utm_source=the-index&utm_medium=newsletter#edit=PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZyBmaWxsPSIjZjBhMjAyIj48cGF0aCBmaWxsPSJub25lIiBzdHJva2U9IiMzOGJkZjgiIHN0cm9rZS13aWR0aD0iMTMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgZD0iTSAxMiw1MCBDIDI4LDUwIDcyLDUwIDg4LDUwIi8-PGNpcmNsZSBjeD0iMjguMzgiIGN5PSI0MiIgcj0iMiIvPjxjaXJjbGUgY3g9IjUwIiBjeT0iNDIiIHI9IjIiLz48Y2lyY2xlIGN4PSI3MS42MyIgY3k9IjQyIiByPSIyIi8-PC9nPjwvc3ZnPg",
+      "title": "Wire Loop",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.Vote.org",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.thecityreporter.nyc/2026/10/14/ice-shooting-oscar-belgal-brooklyn-jail-warrant/",
+      "title": "ICE Had No Valid Warrant Ahead of Shooting, Attorneys Allege, as Belgal Is Held in Solitary",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/14/opinion/digger-tom-cruise-movie-climate-flop.html?unlocked_article_code=1.I1E.Iw_z.34WlWYfAa5mB&smid=url-share",
+      "title": "Opinion | ‘Digger,’ Tom Cruise’s Big Flop, Is a Secret Masterpiece (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://rss.com/podcasts/fireside-chat/3227233",
+      "title": "Sara Souiedan - fireside | Fireside Chat resurrected",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://snitch.alphaventure.com/gate.php",
+      "title": "Show HN: Just gave Claude Code the website and ad budget to see what it would do",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fontgen.cool/fancy-text-creator",
+      "title": "Show HN: Map each letter and number to a Unicode character and convert your text",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://gitlab.com/patchwork1-ai/turbolisp",
+      "title": "Show HN: Turbo Lisp – A Common Lisp IDE for macOS and the Terminal",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/NestYourCSS/NestYourCSS",
+      "title": "NestYourCSS: Minify, beautify, denest, and nest CSS code",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/readysettech/rdst",
+      "title": "Show HN: RDST – A local agent that watches Postgres/MySQL for query regressions",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theregister.com/security/2026/10/14/security-researchers-spent-6-days-doing-their-chromework-built-1b-user-exploit/5303134",
+      "title": "Security researchers spent 6 days doing their Chromework, built 1B user exploit",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/shinokamix/lopper",
+      "title": "Show HN: Lopper – A Git Worktree Cleaner",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://adactio.com/journal/22801",
+      "title": "Journal: The Mountain In The Sea by Ray Nayler A first-contact story that mashes up philosphy and cyperpunk in a satisfying briny bath. 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://zeldman.com/2026/10/15/pooh-bear/?utm_source=bluesky&utm_medium=jetpack_social",
+      "title": "Silly Old Bear",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ishadeed.com/article/fit-height-background-pattern-calc-size/",
+      "title": "Fit height to background pattern size with calc-size()",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wagonbywagon.com/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50110857",
+      "title": "Ask HN: How did Call of Duty fix \"update requires restart\"?",
+      "reason": "below_threshold"
+    }
+  ]
+}

@@ -1,155 +1,83 @@
 {
-  "generated_at": "2026-10-15T01:26:42.354887+00:00",
+  "generated_at": "2026-10-16T01:18:48.500604+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "14 October 2026",
-      "period_start": "2026-10-14",
-      "period_end": "2026-10-14",
+      "label": "15 October 2026",
+      "period_start": "2026-10-15",
+      "period_end": "2026-10-15",
       "items": [
         {
-          "id": "2f417a4e03ad",
-          "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-          "url": "https://typeof.net/Iosevka/",
-          "hn": "https://news.ycombinator.com/item?id=50084240",
-          "points": 689,
-          "comments": 285,
-          "created_at_i": 1791966479,
+          "id": "0ae9ab126394",
+          "title": "Furifont, a Japanese font that shows furigana",
+          "url": "https://furifont.antfu.me/",
+          "hn": "https://news.ycombinator.com/item?id=50100994",
+          "points": 17,
+          "comments": 10,
+          "created_at_i": 1792040423,
           "sources": [
-            "Hacker News"
+            "Hacker News",
+            "Lobsters"
           ],
           "sharers": 0,
-          "score": 4.71,
+          "score": 6.749,
           "why": [
-            "689 points"
+            "picked up by Hacker News and Lobsters"
           ]
         },
         {
-          "id": "af91ea474eec",
-          "title": "Primer (GitHub) — @primer/react@38.41.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
+          "id": "e21151c97423",
+          "title": "We read 102 EU shop accessibility statements",
+          "url": "https://scandiary.com/accessibility-statements",
+          "hn": "https://scandiary.com/accessibility-statements",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1791993649,
+          "created_at_i": 1792033320,
           "sources": [
-            "Design systems"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 4.616,
+          "score": 3.309,
           "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "196ed021279b",
-          "title": "shadcn/ui — @shadcn/registry@0.1.4",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.4",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791983144,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.537,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "eda7225ebb58",
-          "title": "The Accessibility Pond",
-          "url": "https://buttondown.com/the-accessibility-pond",
-          "hn": "https://bsky.app/profile/ashleemboyer.com/post/3mxssncelg22g",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791955491,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.757,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
+            "editor's pick at Sidebar"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "2f417a4e03ad",
-          "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-          "url": "https://typeof.net/Iosevka/",
-          "hn": "https://news.ycombinator.com/item?id=50084240",
-          "points": 689,
-          "comments": 285,
-          "created_at_i": 1791966479,
+          "id": "0ae9ab126394",
+          "title": "Furifont, a Japanese font that shows furigana",
+          "url": "https://furifont.antfu.me/",
+          "hn": "https://news.ycombinator.com/item?id=50100994",
+          "points": 17,
+          "comments": 10,
+          "created_at_i": 1792040423,
           "sources": [
-            "Hacker News"
+            "Hacker News",
+            "Lobsters"
           ],
           "sharers": 0,
-          "score": 4.71,
+          "score": 6.749,
           "why": [
-            "689 points"
+            "picked up by Hacker News and Lobsters"
           ]
         },
         {
-          "id": "af91ea474eec",
-          "title": "Primer (GitHub) — @primer/react@38.41.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
+          "id": "e21151c97423",
+          "title": "We read 102 EU shop accessibility statements",
+          "url": "https://scandiary.com/accessibility-statements",
+          "hn": "https://scandiary.com/accessibility-statements",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1791993649,
+          "created_at_i": 1792033320,
           "sources": [
-            "Design systems"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 4.616,
+          "score": 3.309,
           "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "196ed021279b",
-          "title": "shadcn/ui — @shadcn/registry@0.1.4",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.4",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791983144,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.537,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "eda7225ebb58",
-          "title": "The Accessibility Pond",
-          "url": "https://buttondown.com/the-accessibility-pond",
-          "hn": "https://bsky.app/profile/ashleemboyer.com/post/3mxssncelg22g",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791955491,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.757,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
+            "editor's pick at Sidebar"
           ]
         }
       ]
@@ -163,6 +91,24 @@
       "week_label": "12–18 October 2026",
       "iso_week": "2026-W42",
       "items": [
+        {
+          "id": "0ae9ab126394",
+          "title": "Furifont, a Japanese font that shows furigana",
+          "url": "https://furifont.antfu.me/",
+          "hn": "https://news.ycombinator.com/item?id=50100994",
+          "points": 17,
+          "comments": 10,
+          "created_at_i": 1792040423,
+          "sources": [
+            "Hacker News",
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 6.749,
+          "why": [
+            "picked up by Hacker News and Lobsters"
+          ]
+        },
         {
           "id": "2f417a4e03ad",
           "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
@@ -287,6 +233,23 @@
           ]
         },
         {
+          "id": "e21151c97423",
+          "title": "We read 102 EU shop accessibility statements",
+          "url": "https://scandiary.com/accessibility-statements",
+          "hn": "https://scandiary.com/accessibility-statements",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792033320,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.309,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "d87e145187f3",
           "title": "Agent-first design: Bringing UX to the user",
           "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
@@ -323,6 +286,24 @@
         }
       ],
       "candidates": [
+        {
+          "id": "0ae9ab126394",
+          "title": "Furifont, a Japanese font that shows furigana",
+          "url": "https://furifont.antfu.me/",
+          "hn": "https://news.ycombinator.com/item?id=50100994",
+          "points": 17,
+          "comments": 10,
+          "created_at_i": 1792040423,
+          "sources": [
+            "Hacker News",
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 6.749,
+          "why": [
+            "picked up by Hacker News and Lobsters"
+          ]
+        },
         {
           "id": "2f417a4e03ad",
           "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
@@ -477,6 +458,23 @@
           "why": []
         },
         {
+          "id": "e21151c97423",
+          "title": "We read 102 EU shop accessibility statements",
+          "url": "https://scandiary.com/accessibility-statements",
+          "hn": "https://scandiary.com/accessibility-statements",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792033320,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.309,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "e16b16abd476",
           "title": "CSS for underlines",
           "url": "https://www.rubenerd.au/css-for-underlines/",
@@ -560,6 +558,24 @@
             "lea.verou.me",
             "piccalil.li",
             "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "0ae9ab126394",
+          "title": "Furifont, a Japanese font that shows furigana",
+          "url": "https://furifont.antfu.me/",
+          "hn": "https://news.ycombinator.com/item?id=50100994",
+          "points": 17,
+          "comments": 10,
+          "created_at_i": 1792040423,
+          "sources": [
+            "Hacker News",
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 6.749,
+          "why": [
+            "picked up by Hacker News and Lobsters"
           ]
         },
         {
@@ -687,23 +703,6 @@
           ]
         },
         {
-          "id": "8ca2633994ab",
-          "title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
-          "url": "https://twitter.com/GayaniFigma/status/2105295629941350454",
-          "hn": "https://news.ycombinator.com/item?id=49922729",
-          "points": 189,
-          "comments": 106,
-          "created_at_i": 1790867446,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.492,
-          "why": [
-            "189 points"
-          ]
-        },
-        {
           "id": "dbbcfa91bf13",
           "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
           "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
@@ -778,6 +777,24 @@
             "lea.verou.me",
             "piccalil.li",
             "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "0ae9ab126394",
+          "title": "Furifont, a Japanese font that shows furigana",
+          "url": "https://furifont.antfu.me/",
+          "hn": "https://news.ycombinator.com/item?id=50100994",
+          "points": 17,
+          "comments": 10,
+          "created_at_i": 1792040423,
+          "sources": [
+            "Hacker News",
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 6.749,
+          "why": [
+            "picked up by Hacker News and Lobsters"
           ]
         },
         {
@@ -1339,6 +1356,23 @@
           "why": []
         },
         {
+          "id": "e21151c97423",
+          "title": "We read 102 EU shop accessibility statements",
+          "url": "https://scandiary.com/accessibility-statements",
+          "hn": "https://scandiary.com/accessibility-statements",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792033320,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.309,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "610aa2a31bc5",
           "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
           "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
@@ -1664,6 +1698,24 @@
   },
   "items": [
     {
+      "id": "0ae9ab126394",
+      "title": "Furifont, a Japanese font that shows furigana",
+      "url": "https://furifont.antfu.me/",
+      "hn": "https://news.ycombinator.com/item?id=50100994",
+      "points": 17,
+      "comments": 10,
+      "created_at_i": 1792040423,
+      "sources": [
+        "Hacker News",
+        "Lobsters"
+      ],
+      "sharers": 0,
+      "score": 6.749,
+      "why": [
+        "picked up by Hacker News and Lobsters"
+      ]
+    },
+    {
       "id": "2f417a4e03ad",
       "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
       "url": "https://typeof.net/Iosevka/",
@@ -1784,6 +1836,23 @@
       "score": 3.745,
       "why": [
         "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "e21151c97423",
+      "title": "We read 102 EU shop accessibility statements",
+      "url": "https://scandiary.com/accessibility-statements",
+      "hn": "https://scandiary.com/accessibility-statements",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792033320,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.309,
+      "why": [
+        "editor's pick at Sidebar"
       ]
     },
     {
