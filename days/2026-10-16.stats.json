@@ -1,0 +1,358 @@
+{
+  "date": "2026-10-16",
+  "pool": 78,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 29,
+    "lexicon": 35,
+    "patch": 3,
+    "no_title": 2
+  },
+  "dropped_items": [
+    {
+      "url": "https://news.ycombinator.com/item?id=50110857",
+      "title": "Ask HN: How did Call of Duty fix \"update requires restart\"?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "title": "Argon now avaliable for pro users on ANTIGRAVITY",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/designing-for-ai-human-in-the-loop-means-making-sure-the-human-is-not-out-of-the-loop-e38826309c91?source=rss----138adf9c44c---4",
+      "title": "Human in the loop means making sure the human is not out of the loop",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/i-ran-a-7-week-ai-workshop-for-designers-that-wasnt-really-about-ai-804035e7b328?source=rss----138adf9c44c---4",
+      "title": "I ran a 7-week AI workshop for designers (that wasn’t really about AI)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/nobody-feels-heard-by-a-report-c5a06d96bc39?source=rss----138adf9c44c---4",
+      "title": "Nobody feels heard by a report",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/the-ai-experience-doesnt-care-about-your-org-chart-5ed595c7b373?source=rss----138adf9c44c---4",
+      "title": "The AI experience doesn’t care about your org chart",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.petermerholz.com/newsletter/newsletter-design-owns-coherence/",
+      "title": "Design owns coherence",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://prompt-motion.com/",
+      "title": "Prompt Motion",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sightlessscribbles.com/posts/disability-dongle/",
+      "title": "The “disability dongle”: Why Silicon Valley hates me and you",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fs2%401.8.2",
+      "title": "Spectrum (Adobe) — @react-spectrum/s2@1.8.2",
+      "reason": "patch"
+    },
+    {
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fcodemods%401.2.10",
+      "title": "Spectrum (Adobe) — @react-spectrum/codemods@1.2.10",
+      "reason": "patch"
+    },
+    {
+      "url": "https://hackaday.com/2026/10/15/45-years-later-the-sinclair-ula-design-documents-surface/",
+      "title": "45 years later, the Sinclair ULA design documents surface",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wsj.com/tech/the-tiny-robot-designed-to-solve-a-massive-underground-crisis-953fdccb",
+      "title": "The Tiny Sewer-Crawling Robot Designed to Solve an Underground Crisis",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.spurint.org/journal/2026/10/c-type-systems-glib-api-design",
+      "title": "C, Type Systems, GLib, and API Design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://usebeeline.app",
+      "title": "Show HN: Beeline Multiplayer Agent Harness",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bbc.com/future/article/20261014-the-strange-new-battle-over-ais-feelings",
+      "title": "Anthropic thinks its AI might be conscious",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://surtr.substack.com/p/next-gen-military-satellite-constellations",
+      "title": "Next-Gen Military Satellite Constellations",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://indigene.app/",
+      "title": "Show HN: Indigene – Native plants for where you stand",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50052690",
+      "title": "Ask HN: How do you build a reputation without social media?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50092215",
+      "title": "Ask HN: Any secrets for reaching a human at large companies?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://huggingface.co/spaces/MithrilMan/teacher-in-the-loop",
+      "title": "Show HN: An improved kokoro distillation in 9MB",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://cutlefish.substack.com/p/tbm-445-the-feature-factory-a-10",
+      "title": "TBM 445: The Feature Factory: A 10-Year Retrospective",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sage-verdict.vercel.app/",
+      "title": "Show HN: Three philosophers vote on your questions",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nytimes.com/interactive/2026/10/14/magazine/yosemite-climbing-dad-east-buttress.html",
+      "title": "Processing My Father's Death by Climbing in His Footsteps",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://videre.sh/",
+      "title": "Show HN: Videre – a Rust CLI to manage your photos and videos with joy",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://leangame.autumnofautumn.com/",
+      "title": "Show HN: Visual Lean: Learn to write Lean code with an accessible user interface",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50116839",
+      "title": "Unity Mass-Suspends Accounts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://smashingmagazine.com/2026/10/is-your-organization-messing-up-ai-adoption/",
+      "title": "Is Your Organization Messing Up AI Adoption?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://mindfuldesign.xyz/products/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Mindful Design Products – Mindful Design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/the-index/202/",
+      "title": "The Index: Issue #202",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://automattic.design/2026/10/15/when-building-is-cheap-judgment-is-the-job/",
+      "title": "When building is cheap, judgment is the job",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.coindesk.com/tech/2026/10/16/an-openai-agent-ran-out-of-ethereum-funds-and-took-from-a-wallet-it-did-not-own",
+      "title": "An OpenAI agent ran out of Ethereum funds, and took from a wallet it did not own",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://economist.com/science-and-technology/2026/10/14/ai-will-make-it-possible-to-design-and-build-organisms-from-scratch",
+      "title": "AI will make it possible to design and build organisms from scratch",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50121562",
+      "title": "Anthropic Console overcharged my card 100x due to internationalization input bug",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50119622",
+      "title": "Ask HN: Would you use a tool that adds a real back end to any front end?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uXC7OuCas2Q",
+      "title": "How to avoid AI brainrot – Miles Cranmer",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://slopgrid.com/",
+      "title": "Show HN: SlopGrid – Create your own oneshot AI model benchmarks",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://racheleditullio.com/blog/2026/10/web-accessibility-smoke-testing/",
+      "title": "Web Accessibility Smoke Testing",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50119918",
+      "title": "VectorCraft vs. Figma vs. Penpot vs. Adobe Illustrator vs. Wunjo Design?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.master.dev/building-a-fancy-scrollspy-using-modern-css/",
+      "title": "Build a Scrollspy with Modern CSS: No JavaScript Needed",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.master.dev/svg-linked-parameters-will-change-how-we-do-icon-systems/",
+      "title": "Unlocking SVG Styling Control with CSS Linked Parameters",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/permeate-live-css-editor/lanehakcodmhlieafffmpamioeddiejd",
+      "title": "Permeate: Visual CSS Editor",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50118322",
+      "title": "More Powerful Than Ever, (can't find work)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.reuters.com/legal/litigation/israeli-firm-used-online-ads-run-vast-spy-operation-researchers-say-2026-10-15/",
+      "title": "Israeli firm used online ads to run spy operation, researchers say",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
+      "title": "OpenAI employees can search users prompt [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tennis.jlachance1.workers.dev/",
+      "title": "Show HN: Tennis, a local/offline context store",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fresnel.freepascal.org/",
+      "title": "Fresnel",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.intercom.com/blog/announcing-workforce-management",
+      "title": "Announcing Workforce Management: Forecast, schedule, and plan teammate cover in the Intercom helpdesk",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Fmcp%401.1.1",
+      "title": "Primer (GitHub) — @primer/mcp@1.1.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://adactio.com/journal/22805",
+      "title": "Journal: Ranking proposals for Interop 2027 My top five, in order of priority. 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/journal/22802",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://coldalbumdrumming.com/sam-s-town/",
+      "title": "Shaking off that existential dread. coldalbumdrumming.com/sam-s-town/",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://jan6memoryproject.org/",
+      "title": "The January 6 Memory Project",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://zeldman.com/2020/10/16/as-fresh-as-an-airline-food-joke/",
+      "title": "Jeffrey Zeldman Presents - As Fresh as an Airline Food Joke -",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.propublica.org/article/cigna-medical-director-doctor-patient-preapproval-denials-insurance?utm_campaign=propublica-sprout&utm_content=1792121640&utm_medium=social&utm_source=bluesky",
+      "title": "A Doctor at Cigna Said Her Bosses Pressured Her to Review Patients’ Cases Too Quickly. Cigna Threatened to Fire Her.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://cyberscoop.com/ai-chatbots-election-influence-hyperlocal-networks/",
+      "title": "The next election influence campaign will target your AI chatbot",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://youtu.be/WXL6K1lhvt0?is=WlfZvJ34TeIB-SUu",
+      "title": "Men in tech #YesAllMen - EMF 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/blank-slate-labs/coastmath",
+      "title": "Show HN: CoastMath: (Open Source) Personal Finance and Retirement Planner",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/salehdev-ux/holyrust",
+      "title": "What toke 10 years from terry Davis it toke me agents and days",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Isthimius/Gondwana",
+      "title": "Show HN: Gondwana, a code-first C#/.NET game engine with WebGL",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://gitlab.com/pablosanzo/musejailbreak",
+      "title": "Show HN: Muse Jailbreak – Let Muse use your own Chrome",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/cobanov/PS5LM",
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.codeberg.org/migrate-your-site-to-the-new-git-pages-backed-codeberg-pages-now-were-sunsetting-codeberg-pages-v2.html",
+      "title": "We're sunsetting Codeberg Pages v2",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/synthetic-users-vs-human-respondents/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Synthetic Users vs. Human Respondents: Same Conclusion, Less Variation",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/w3c/csswg-drafts/blob/main/css-images-5/explainers/2d-gradients.md",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://blog.val.town/trust-and-safety",
+      "title": "Scammers, exit nodes, and my part-time job fighting abuse",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wwo.keith.is/2026/15.html",
+      "title": "37 · Wooden · Weird Web October 2026",
+      "reason": "lexicon"
+    }
+  ]
+}

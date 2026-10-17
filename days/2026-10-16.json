@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-17T01:17:17.122079+00:00",
+  "items": [
+    {
+      "id": "c3fe5a95a780",
+      "title": "Primer (GitHub) — @primer/react@38.42.0",
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.42.0",
+      "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.42.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792170659,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.65,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "a9d84280a8fc",
+      "title": "shadcn/ui — shadcn@4.22.0",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.22.0",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.22.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792157065,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.545,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "719285fbb891",
+      "title": "UX Maps: Glossary",
+      "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792170000,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.644,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
+      "id": "5ff1148f737f",
+      "title": "Pure UI in the Agentic Era",
+      "url": "https://mattrothenberg.com/notes/pure-ui-agentic-era/",
+      "hn": "https://mattrothenberg.com/notes/pure-ui-agentic-era/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792123440,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.329,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "c3fe5a95a780",
+      "title": "Primer (GitHub) — @primer/react@38.42.0",
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.42.0",
+      "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.42.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792170659,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.65,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "a9d84280a8fc",
+      "title": "shadcn/ui — shadcn@4.22.0",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.22.0",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.22.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792157065,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.545,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "643ca16468d6",
+      "title": "shadcn/ui — @shadcn/registry@0.2.0",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.0",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792157062,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.545,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "6a1828c36532",
+      "title": "shadcn/ui — @shadcn/helpers@0.3.0",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fhelpers%400.3.0",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fhelpers%400.3.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792157068,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.545,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "6e1cd68c46d2",
+      "title": "Spectrum (Adobe) — @react-spectrum/ai@0.5.2",
+      "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.2",
+      "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.2",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792106465,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.24,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "719285fbb891",
+      "title": "UX Maps: Glossary",
+      "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792170000,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.644,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
+      "id": "5ff1148f737f",
+      "title": "Pure UI in the Agentic Era",
+      "url": "https://mattrothenberg.com/notes/pure-ui-agentic-era/",
+      "hn": "https://mattrothenberg.com/notes/pure-ui-agentic-era/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792123440,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.329,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "6118b7ce39dc",
+      "title": "117 CSS text effects & animations",
+      "url": "https://text-effects.colorion.co/",
+      "hn": "https://text-effects.colorion.co/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792123380,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.996,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "6f5ffb2c7060",
+      "title": "Matt Mullenweg Orders Accessibility Revert, Bans Core Wordpress Committer",
+      "url": "https://www.therepository.email/matt-mullenweg-orders-accessibility-revert-tells-core-committer-to-contribute-your-talents-to-another-project",
+      "hn": "https://news.ycombinator.com/item?id=50113348",
+      "points": 20,
+      "comments": 1,
+      "created_at_i": 1792118835,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 2.934,
+      "why": []
+    }
+  ]
+}
