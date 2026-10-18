@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T01:17:17.122952+00:00",
+  "updated_at": "2026-10-18T01:00:13.532656+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -1679,6 +1679,16 @@
         "lexicon": 35,
         "patch": 3,
         "no_title": 2
+      }
+    },
+    "2026-10-17": {
+      "items": [],
+      "candidates": [],
+      "pool": 28,
+      "kept": 0,
+      "dropped": {
+        "below_threshold": 20,
+        "lexicon": 8
       }
     }
   }

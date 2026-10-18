@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-17",
+  "pool": 28,
+  "kept": 0,
+  "dropped": {
+    "below_threshold": 20,
+    "lexicon": 8
+  },
+  "dropped_items": [
+    {
+      "url": "https://math.pku.edu.cn/teachers/jiangm/courses/CG/Lectures/spline-history.pdf",
+      "title": "A History of Curves and Surfaces in Computer Aided Geometric Design [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.eurekalert.org/news-releases/1147352",
+      "title": "Early tetrapods had surprisingly little ability to move their necks",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://dieworkwear.com/2020/08/01/on-emotional-durability/",
+      "title": "Emotional Durability (2020)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://maevyn.codes/decoherence",
+      "title": "The Decoherence Trap: When AI slop drowns out the signal in an endless sea of noise",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wwo.keith.is/2026/15.html",
+      "title": "37 · Wooden · Weird Web October 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/andunieee/twain",
+      "title": "Show HN: Twain, a diff viewer like Meld, but for the age of AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50127389",
+      "title": "Ask HN: Not sure but maybe that's why we all do coding",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.cbc.ca/news/world/israeli-firm-targeted-ads-espionage-9.7381922",
+      "title": "Israeli firm used ads to enable espionage, Canadian researchers say",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://shkspr.mobi/blog/2026/10/some-thoughts-on-unit-testing-activitypub/",
+      "title": "Some quick thoughts on Unit Testing ActivityPub",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://semiconfab.org/",
+      "title": "Show HN: I built a 3D semiconductor fab in the browser – design your own terafab",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://gmailclass.ticekralt.com/",
+      "title": "Show HN: GmailClass – Chrome extension that labels Gmail emails",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ruhamabek/Vitra",
+      "title": "Vitra – A headless visual runtime for user interfaces",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/janinishant/otel-log-span-status",
+      "title": "Show HN: Set Span Status for Error Logs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50129150",
+      "title": "Ask HN: Local AI product situation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://unsung.aresluna.org/in-every-study-that-considered-the-question/",
+      "title": "\"In every study that considered the question\"",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50129836",
+      "title": "Softmap – readable flow map for Golang projects",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://coywolf.com/news/web-development/lexica-ultralegible-is-a-new-font-for-low-vision-readers-based-on-atkinson-hyper/",
+      "title": "Lexica Ultralegible is a new font for low-vision readers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://agateide.com/ide/",
+      "title": "Agate IDE: HTML and CSS Workspace in the Browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chessapig.github.io/Mahler",
+      "title": "Illustrating the AI proof of the Mahler conjecture",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://crypticinkling.co.uk",
+      "title": "Show HN: Animated step-by-step hints for any cryptic crossword clue",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50132747",
+      "title": "Why the Creators of AI Do Not Understand Their Own Creations",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jeffreyzeldman.bandcamp.com/album/side-two",
+      "title": "Side Two, by Jeffrey Zeldman",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-prds-for-agents",
+      "title": "🧠 Community Wisdom: PRDs for agents, tracking competitor messaging, whether software moats still exist, exercising startup options when you leave, and more",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bytecode.news/posts/2026/10/emergent-design-outside-the-codebase",
+      "title": "Emergent Design, Outside the Codebase",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50134684",
+      "title": "Real knowledge dont matter any more",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://themesfor.app/",
+      "title": "Show HN: ThemesFor.app – a static website builder that doesn't hide the HTML",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Annora998/inboxwall",
+      "title": "Show HN: InBox Wall – A local-first, open-source email sanitizer for AI agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mymirrormd.com/",
+      "title": "Show HN: MirrorMD – An AI second opinion from a facial cosmetic surgeon",
+      "reason": "lexicon"
+    }
+  ]
+}
