@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T01:00:13.532656+00:00",
+  "updated_at": "2026-10-19T01:13:08.012742+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -1689,6 +1689,50 @@
       "dropped": {
         "below_threshold": 20,
         "lexicon": 8
+      }
+    },
+    "2026-10-18": {
+      "items": [
+        {
+          "id": "24fa58c5607d",
+          "title": "August in Servo: CSS Grid, text selection, and more",
+          "url": "https://servo.org/blog/2026/10/09/august-in-servo/",
+          "hn": "https://news.ycombinator.com/item?id=50137257",
+          "points": 28,
+          "comments": 0,
+          "created_at_i": 1792290141,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.678,
+          "why": []
+        }
+      ],
+      "candidates": [
+        {
+          "id": "24fa58c5607d",
+          "title": "August in Servo: CSS Grid, text selection, and more",
+          "url": "https://servo.org/blog/2026/10/09/august-in-servo/",
+          "hn": "https://news.ycombinator.com/item?id=50137257",
+          "points": 28,
+          "comments": 0,
+          "created_at_i": 1792290141,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.678,
+          "why": []
+        }
+      ],
+      "pool": 40,
+      "kept": 1,
+      "dropped": {
+        "below_threshold": 22,
+        "lexicon": 15,
+        "patch": 1,
+        "no_title": 1
       }
     }
   }

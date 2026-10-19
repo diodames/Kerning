@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-18",
+  "pool": 40,
+  "kept": 1,
+  "dropped": {
+    "below_threshold": 22,
+    "lexicon": 15,
+    "patch": 1,
+    "no_title": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://physicsworld.com/a/gluon-string-breaking-is-simulated-using-trapped-ions/",
+      "title": "Gluon string breaking is simulated using trapped ions",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50135854",
+      "title": "Ask HN: How do you deal with AI output of your boss?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50137303",
+      "title": "Google Fonts as a Protest Piece?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bbc.com/culture/article/20261015-the-trailblazing-erotic-art-of-lavinia-fontana",
+      "title": "The Renaissance woman who was the first female painter of erotic nudes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/fontnelle/dudu",
+      "title": "Dudu, back up and restore your dev setup on macOS and Linux with one command",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50137490",
+      "title": "Ask HN: How can we stop UX people from changing UIs to get promotions?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/SoftwareRenderer/MIKE",
+      "title": "Show HN: Cosplay as a tech lead, using gVisor to sandbox agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tkgally.github.io/500-clocks/",
+      "title": "Show HN: 500 clocks in one 6.3 MB HTML file by Opus 5.5",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bench.killswitch-lang.org/",
+      "title": "Show HN: Benchmarking LLM ability to code in an adversarial language",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/china-startup-demoes-prototype-euv-light-source-15w-of-output-power-and-90-percent-domestic-components-still-years-away-from-viability",
+      "title": "China startup demoes prototype EUV light source, still years away from viability",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/insanai/guidedog",
+      "title": "Show HN: Guidedog an OSS static site generator for rst and md",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://risphai.com",
+      "title": "Show HN: Risphai – picks the AI model, tools and prompt for each request",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://static.klipy.com/ii/cfb42878805dcb270f51b28683e7455a/7b/31/HwITusUfTsfYiq.gif?hh=360&ww=640&mp4=ViQqNorTItoAzmxHAJR&webm=SSFeQTApyh4XkXgq9dyJ",
+      "title": "Raissa and Jo Dancing",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50142037",
+      "title": "Ask HN: System One models for autonomous agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://opensourcemalware.com/blog/ghostaction-copycats-polinrider-by-hiding-a-stealer-in-a-fake-font-file",
+      "title": "GhostAction hid a credential stealer in a fake font file in 94 GitHub repos",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/tywr/Nordwand-Mono",
+      "title": "Nordwand Mono – A monospace font for coders and adventurers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://turtletask.app/",
+      "title": "Built a task tracker for teams that hate project management",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://joinhandshake.com/research/ai/deepswe-reward-hacking/",
+      "title": "Coding Agents Build For The Grader They Imagine, Not The User",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/design-in-the-material-you-ship-7adf198388ee?source=rss----138adf9c44c---4",
+      "title": "Design in the material you ship",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/a-thousand-days-of-stale-popcorn-54f62d06c42b?source=rss----138adf9c44c---4",
+      "title": "A thousand days of stale popcorn",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22806",
+      "title": "I’ve had a nice week at Saint Augustine Beach. 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/commentisfree/2026/oct/17/smartglasses-robogroping-toxic-trends",
+      "title": "Move over, pervert glasses – the latest toxic trend is robogroping",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/16/opinion/ilhan-omar-deportation-trump.html?unlocked_article_code=1.JlE.T_iG.kmegGXgSRzYW&smid=url-share",
+      "title": "Opinion | Trump’s Attempt to Deport Ilhan Omar Is Another Leap Toward the Abyss (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.reuters.com/world/americas/meta-employees-said-lulas-accounts-were-hindered-during-brazil-election-folha-2026-10-16/",
+      "title": "Meta employees said Lula's accounts were hindered during Brazil election, Folha reports",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bit.ly/4zHh5Dh",
+      "title": "TikTok “Permanently Suspends” the ‘Musk’ Film Account, Raising Suppression Fears (Exclusive)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
+      "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.alexghr.me/blog/custom-bitmap-font/",
+      "title": "Creating and Rendering a Bitmap Font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chest.boringbar.app/",
+      "title": "Show HN: Chest – a tiny, open-source menu bar manager for macOS 27",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://nathanho.me/posts/evograin/",
+      "title": "EvoGrain: Algorithmic Sound Design with L-Systems and Granular Synthesis",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/handlewithcarecollective/correct-hooks",
+      "title": "Show HN: Correct Hooks – Easy webhook auth with asymmetric signatures",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://age-of-product.com/ai-assisted-product-discovery/",
+      "title": "AI-Assisted Product Discovery: When Code Is Cheap, Judgment Is the Job",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50142714",
+      "title": "Tell HN: Massive amount of spam from \"Who Wants to be hired\"",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.22.1",
+      "title": "shadcn/ui — shadcn@4.22.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://demdock.com/4w6emld",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.proofofconcept.pub/p/learn-to-ship",
+      "title": "Learn to ship",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://twitter.com/opencode/status/2111519637049319818",
+      "title": "OpenCode has a security breach last that impacted 1.4% of console users",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50144561",
+      "title": "Ask HN: A plea to help me help my father",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/how-to-build-a-brand-foundation-with-ai-without-losing-your-craft-d616b05cb838?source=rss----138adf9c44c---4",
+      "title": "How to build a brand foundation with AI without losing your craft",
+      "reason": "lexicon"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-19T01:13:08.012213+00:00",
+  "items": [
+    {
+      "id": "24fa58c5607d",
+      "title": "August in Servo: CSS Grid, text selection, and more",
+      "url": "https://servo.org/blog/2026/10/09/august-in-servo/",
+      "hn": "https://news.ycombinator.com/item?id=50137257",
+      "points": 28,
+      "comments": 0,
+      "created_at_i": 1792290141,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 2.678,
+      "why": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "24fa58c5607d",
+      "title": "August in Servo: CSS Grid, text selection, and more",
+      "url": "https://servo.org/blog/2026/10/09/august-in-servo/",
+      "hn": "https://news.ycombinator.com/item?id=50137257",
+      "points": 28,
+      "comments": 0,
+      "created_at_i": 1792290141,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 2.678,
+      "why": []
+    }
+  ]
+}
