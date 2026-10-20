@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-19",
+  "pool": 56,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 26,
+    "lexicon": 23,
+    "no_title": 2,
+    "prerelease": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://github.com/atgreen/cadr-mono",
+      "title": "Show HN: CADR Mono – a programming font designed in Lisp",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twitter.com/opencode/status/2111519637049319818",
+      "title": "OpenCode has a security breach last that impacted 1.4% of console users",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50144561",
+      "title": "Ask HN: A plea to help me help my father",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/how-to-build-a-brand-foundation-with-ai-without-losing-your-craft-d616b05cb838?source=rss----138adf9c44c---4",
+      "title": "How to build a brand foundation with AI without losing your craft",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.wsj.com/us-news/the-deadly-1-5-mile-corridor-that-shows-the-fatal-flaw-in-americas-road-design-8f424579",
+      "title": "The Deadly 1.5-Mile Corridor That Shows the Fatal Flaw in America's Road Design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://meetcap.seacen.dev/",
+      "title": "Show HN: MeetCap – Free on-device meeting transcription your AI agent can run",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uidesigneditor.com/",
+      "title": "Show HN: Free design canvas for your AI (open source)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.22230",
+      "title": "Architecting for HW Diversity: Meta's E2E Co-Design for AI Training on AMD GPUs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.panelfont.com/",
+      "title": "Show HN: Panel Font-AI Manga Translator",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://antelang.org/blog/safe_cyclic_mutability/",
+      "title": "Borrow Checking Zero-Cost Cyclic Mutability",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://avuriolabs.vercel.app/product/launchwindow",
+      "title": "Show HN: LaunchWindow – Modern macOS App Grid; but Good",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://airwebframework.org/",
+      "title": "Air: A Python web framework designed for AI to write",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://nuno-icons.com/2026/10/19/what-is-this-worth/",
+      "title": "What Is This Worth?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.hbsslaw.com/cases/verisign-com-domain-name-registry-consumer-class-action",
+      "title": "Verisign .com Domain Name Registry Consumer Class Action",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://illos.dev",
+      "title": "Show HN: Illos.dev, animated illustrations and skills to make more like them",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50149426",
+      "title": "Ask HN: How do you cap what your coding agents can spend?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/why-design-still-matters-taste-is-not-a-methodology-borrowed-slopes-62701d4c33dc?source=rss----138adf9c44c---4",
+      "title": "Why design (still) matters, Taste is not a methodology, Borrowed slopes",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/what-if-ai-sets-us-free-084f4310709b?source=rss----138adf9c44c---4",
+      "title": "What if AI sets us free?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/beyond-the-canvas-03fce0bcbf7b?source=rss----138adf9c44c---4",
+      "title": "Beyond the Canvas",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
+      "title": "Someone behind the software",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://programasweights.com/claudish",
+      "title": "English ↔ Claudish",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://technooptimism.org/",
+      "title": "Techno-optimism archive",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://marcabraham.com/2026/10/15/personal-agents-are-getting-their-own-computers/",
+      "title": "Personal agents are getting their own computers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://perthirtysix.com/how-the-heck-do-record-players-work?utm_source=the-index&utm_medium=newsletter",
+      "title": "How The Heck Do Record Players Work? (An Interactive Exploration)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://css-tip.com/shaped-range-slider/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator",
+      "title": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://swirltogether.com/",
+      "title": "Show HN: A beautiful UI built upon Pavel Dobryakov's shader",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://wedecide.now",
+      "title": "Show HN: WeDecide – A tool for easier decision making for group trips",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/aviaviavi/celorga",
+      "title": "Show HN: Celorga – A portable re-implementation of Org for you and your agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chalkbrain.com/labs/the-slate/",
+      "title": "Show HN: Chalk, interactive labs for system design ideas",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blakewatson.com/journal/surveying-the-landscape-of-css-micro-frameworks/",
+      "title": "Surveying the landscape of CSS microframeworks (2023)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://demo.ulda.io/",
+      "title": "Show HN: ULDA – Client-side encryption with a simple JavaScript API",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50153128",
+      "title": "Show HN: Acyclic; Rapid agent swarms",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/kividbio/kividb",
+      "title": "Show HN: KiviDB, a faster Redis-compatible memory database and vector cache",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50153608",
+      "title": "Tell HN: Getting spam after commenting on monthly Who's Hiring posts. Who else?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://3anddoneapp.com/try",
+      "title": "Show HN: I built a task system to handle the drudgery so I could focus on tasks",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50152124",
+      "title": "Ask HN: Optimize a low-end Windows 10 laptop?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ataias.com.br/2026/10/01/removing-a-type-assertion-with-object.assign/",
+      "title": "Removing a Type Assertion with Object.assign",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0-rc.0",
+      "title": "Carbon (IBM) — v11.119.0-rc.0",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://go.bsky.app/QsJs5kh",
+      "title": "The \"Every #FFConf speaker (we could find on BlueSky)\" starter pack has been updated with our 2026 speakers go.bsky.app/QsJs5kh",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://zeldman.com/2026/10/19/now-playing-side-two/?utm_source=bluesky&utm_medium=jetpack_social",
+      "title": "Now Playing: “Side Two”",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://zeldman.com/2025/10/19/my-glamorous-life-entertaining-uncle-george/",
+      "title": "Jeffrey Zeldman Presents - My Glamorous Life: Entertaining Uncle George - glamorous",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-meta-muse-wonder-how-brooke",
+      "title": "🎙️ How I AI: Meta Muse Wonder + How Brooke Lacey is scaling video with AI",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://craig-cli.com/",
+      "title": "Show HN: Craig – A TUI for running parallel coding agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.typeui.sh/ui-foundations/configurator",
+      "title": "Show HN: Accessibility Context for UI with AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jsdev.space/css-in-2026/",
+      "title": "CSS in 2026: Modules, Tailwind, CSS-in-JS, and More",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50157847",
+      "title": "Addressing EU Cyber Resilience Act",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/anthropic-october-2026-study-human-attention-is-the-new-old-bottleneck-d7bc4642668a?source=rss----138adf9c44c---4",
+      "title": "Human attention is the new old bottleneck. We have to design for it even more.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/playing-the-sanshin-without-a-sound-3ac88df6f65c?source=rss----138adf9c44c---4",
+      "title": "Playing the sanshin without a sound",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://buttondown.com/TYFYFL/archive/labs-suck/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.densediscovery.com/issues/411/",
+      "title": "DD411 / Nothing personal, just grifting",
+      "reason": "lexicon"
+    }
+  ]
+}

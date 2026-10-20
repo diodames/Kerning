@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T01:13:08.012742+00:00",
+  "updated_at": "2026-10-20T01:47:56.939001+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -1733,6 +1733,168 @@
         "lexicon": 15,
         "patch": 1,
         "no_title": 1
+      }
+    },
+    "2026-10-19": {
+      "items": [
+        {
+          "id": "80ceede0d016",
+          "title": "UX designers are not designing interfaces, they design personalities",
+          "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792408332,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.822,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "ccff1dda2253",
+          "title": "Beautiful icons that make products feel premium",
+          "url": "https://bit.ly/side-hug1",
+          "hn": "https://bit.ly/side-hug1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792386660,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.019,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "6a453cfb00e7",
+          "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
+          "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792422229,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.323,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "496af745f9e3",
+          "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
+          "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
+          "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792369840,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.661,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "80ceede0d016",
+          "title": "UX designers are not designing interfaces, they design personalities",
+          "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792408332,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.822,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "ccff1dda2253",
+          "title": "Beautiful icons that make products feel premium",
+          "url": "https://bit.ly/side-hug1",
+          "hn": "https://bit.ly/side-hug1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792386660,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.019,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "6a453cfb00e7",
+          "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
+          "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792422229,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.323,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "496af745f9e3",
+          "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
+          "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
+          "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792369840,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.661,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        }
+      ],
+      "pool": 56,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 26,
+        "lexicon": 23,
+        "no_title": 2,
+        "prerelease": 1
       }
     }
   }

@@ -1,667 +1,317 @@
 {
-  "generated_at": "2026-10-19T01:13:08.015727+00:00",
+  "generated_at": "2026-10-20T01:47:56.942199+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "18 October 2026",
-      "period_start": "2026-10-18",
-      "period_end": "2026-10-18",
+      "label": "19 October 2026",
+      "period_start": "2026-10-19",
+      "period_end": "2026-10-19",
       "items": [
         {
-          "id": "24fa58c5607d",
-          "title": "August in Servo: CSS Grid, text selection, and more",
-          "url": "https://servo.org/blog/2026/10/09/august-in-servo/",
-          "hn": "https://news.ycombinator.com/item?id=50137257",
-          "points": 28,
-          "comments": 0,
-          "created_at_i": 1792290141,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.678,
-          "why": []
-        }
-      ],
-      "candidates": [
-        {
-          "id": "24fa58c5607d",
-          "title": "August in Servo: CSS Grid, text selection, and more",
-          "url": "https://servo.org/blog/2026/10/09/august-in-servo/",
-          "hn": "https://news.ycombinator.com/item?id=50137257",
-          "points": 28,
-          "comments": 0,
-          "created_at_i": 1792290141,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.678,
-          "why": []
-        }
-      ]
-    },
-    "weekly": {
-      "label": "12–18 October 2026",
-      "period_start": "2026-10-12",
-      "period_end": "2026-10-18",
-      "week_start": "2026-10-12",
-      "week_end": "2026-10-18",
-      "week_label": "12–18 October 2026",
-      "iso_week": "2026-W42",
-      "items": [
-        {
-          "id": "0ae9ab126394",
-          "title": "Furifont, a Japanese font that shows furigana",
-          "url": "https://furifont.antfu.me/",
-          "hn": "https://news.ycombinator.com/item?id=50100994",
-          "points": 17,
-          "comments": 10,
-          "created_at_i": 1792040423,
-          "sources": [
-            "Hacker News",
-            "Lobsters"
-          ],
-          "sharers": 0,
-          "score": 6.749,
-          "why": [
-            "picked up by Hacker News and Lobsters"
-          ]
-        },
-        {
-          "id": "2f417a4e03ad",
-          "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-          "url": "https://typeof.net/Iosevka/",
-          "hn": "https://news.ycombinator.com/item?id=50084240",
-          "points": 689,
-          "comments": 285,
-          "created_at_i": 1791966479,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.71,
-          "why": [
-            "689 points"
-          ]
-        },
-        {
-          "id": "c3fe5a95a780",
-          "title": "Primer (GitHub) — @primer/react@38.42.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.42.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.42.0",
+          "id": "80ceede0d016",
+          "title": "UX designers are not designing interfaces, they design personalities",
+          "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792170659,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.65,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "eff79576007c",
-          "title": "ACD - Accessibility Compat Data",
-          "url": "https://acd.lolaslab.co",
-          "hn": "https://bsky.app/profile/lolaodelola.bsky.social/post/3mxoi3xqsgc22",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791806733,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 4.631,
-          "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "ericwbailey.website",
-            "rachelandrew.co.uk"
-          ]
-        },
-        {
-          "id": "af91ea474eec",
-          "title": "Primer (GitHub) — @primer/react@38.41.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791993649,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.616,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "dbbcfa91bf13",
-          "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
-          "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791796073,
+          "created_at_i": 1792408332,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 4.439,
+          "score": 3.822,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "9bf10d7cab68",
-          "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
-          "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
-          "hn": "https://news.ycombinator.com/item?id=50060311",
-          "points": 39,
-          "comments": 41,
-          "created_at_i": 1791828236,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.359,
-          "why": [
-            "heavily argued (41 comments)"
-          ]
-        },
-        {
-          "id": "a725deeb215a",
-          "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
-          "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
+          "id": "ccff1dda2253",
+          "title": "Beautiful icons that make products feel premium",
+          "url": "https://bit.ly/side-hug1",
+          "hn": "https://bit.ly/side-hug1",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1791836371,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.745,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "719285fbb891",
-          "title": "UX Maps: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792170000,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "5ff1148f737f",
-          "title": "Pure UI in the Agentic Era",
-          "url": "https://mattrothenberg.com/notes/pure-ui-agentic-era/",
-          "hn": "https://mattrothenberg.com/notes/pure-ui-agentic-era/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792123440,
+          "created_at_i": 1792386660,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.329,
+          "score": 3.019,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "e21151c97423",
-          "title": "We read 102 EU shop accessibility statements",
-          "url": "https://scandiary.com/accessibility-statements",
-          "hn": "https://scandiary.com/accessibility-statements",
+          "id": "6a453cfb00e7",
+          "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
+          "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792033320,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.309,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "d87e145187f3",
-          "title": "Agent-first design: Bringing UX to the user",
-          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
-          "hn": "https://news.ycombinator.com/item?id=50060187",
-          "points": 16,
-          "comments": 1,
-          "created_at_i": 1791827742,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.041,
-          "why": []
-        }
-      ],
-      "candidates": [
-        {
-          "id": "0ae9ab126394",
-          "title": "Furifont, a Japanese font that shows furigana",
-          "url": "https://furifont.antfu.me/",
-          "hn": "https://news.ycombinator.com/item?id=50100994",
-          "points": 17,
-          "comments": 10,
-          "created_at_i": 1792040423,
-          "sources": [
-            "Hacker News",
-            "Lobsters"
-          ],
-          "sharers": 0,
-          "score": 6.749,
-          "why": [
-            "picked up by Hacker News and Lobsters"
-          ]
-        },
-        {
-          "id": "2f417a4e03ad",
-          "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-          "url": "https://typeof.net/Iosevka/",
-          "hn": "https://news.ycombinator.com/item?id=50084240",
-          "points": 689,
-          "comments": 285,
-          "created_at_i": 1791966479,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.71,
-          "why": [
-            "689 points"
-          ]
-        },
-        {
-          "id": "c3fe5a95a780",
-          "title": "Primer (GitHub) — @primer/react@38.42.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.42.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.42.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792170659,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.65,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "eff79576007c",
-          "title": "ACD - Accessibility Compat Data",
-          "url": "https://acd.lolaslab.co",
-          "hn": "https://bsky.app/profile/lolaodelola.bsky.social/post/3mxoi3xqsgc22",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791806733,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 4.631,
-          "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "ericwbailey.website",
-            "rachelandrew.co.uk"
-          ]
-        },
-        {
-          "id": "af91ea474eec",
-          "title": "Primer (GitHub) — @primer/react@38.41.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791993649,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.616,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "a9d84280a8fc",
-          "title": "shadcn/ui — shadcn@4.22.0",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.22.0",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.22.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792157065,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.545,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "643ca16468d6",
-          "title": "shadcn/ui — @shadcn/registry@0.2.0",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.0",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792157062,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.545,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "6a1828c36532",
-          "title": "shadcn/ui — @shadcn/helpers@0.3.0",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fhelpers%400.3.0",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fhelpers%400.3.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792157068,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.545,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "196ed021279b",
-          "title": "shadcn/ui — @shadcn/registry@0.1.4",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.4",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.1.4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791983144,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.537,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "dbbcfa91bf13",
-          "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
-          "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791796073,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 4.439,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "9bf10d7cab68",
-          "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
-          "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
-          "hn": "https://news.ycombinator.com/item?id=50060311",
-          "points": 39,
-          "comments": 41,
-          "created_at_i": 1791828236,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.359,
-          "why": [
-            "heavily argued (41 comments)"
-          ]
-        },
-        {
-          "id": "6e1cd68c46d2",
-          "title": "Spectrum (Adobe) — @react-spectrum/ai@0.5.2",
-          "url": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.2",
-          "hn": "https://github.com/adobe/react-spectrum/releases/tag/%40react-spectrum%2Fai%400.5.2",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792106465,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.24,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "a725deeb215a",
-          "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
-          "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791836371,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.745,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "719285fbb891",
-          "title": "UX Maps: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792170000,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "ddce714be723",
-          "title": "Illustration Beyond Proof",
-          "url": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
-          "hn": "https://news.ycombinator.com/item?id=50049133",
-          "points": 97,
-          "comments": 16,
-          "created_at_i": 1791760956,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.564,
-          "why": []
-        },
-        {
-          "id": "d87e145187f3",
-          "title": "Agent-first design: Bringing UX to the user",
-          "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
-          "hn": "https://news.ycombinator.com/item?id=50060187",
-          "points": 15,
-          "comments": 1,
-          "created_at_i": 1791827742,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.542,
-          "why": []
-        },
-        {
-          "id": "5ff1148f737f",
-          "title": "Pure UI in the Agentic Era",
-          "url": "https://mattrothenberg.com/notes/pure-ui-agentic-era/",
-          "hn": "https://mattrothenberg.com/notes/pure-ui-agentic-era/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792123440,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.329,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "e21151c97423",
-          "title": "We read 102 EU shop accessibility statements",
-          "url": "https://scandiary.com/accessibility-statements",
-          "hn": "https://scandiary.com/accessibility-statements",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792033320,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.309,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "6118b7ce39dc",
-          "title": "117 CSS text effects & animations",
-          "url": "https://text-effects.colorion.co/",
-          "hn": "https://text-effects.colorion.co/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792123380,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.996,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "6f5ffb2c7060",
-          "title": "Matt Mullenweg Orders Accessibility Revert, Bans Core Wordpress Committer",
-          "url": "https://www.therepository.email/matt-mullenweg-orders-accessibility-revert-tells-core-committer-to-contribute-your-talents-to-another-project",
-          "hn": "https://news.ycombinator.com/item?id=50113348",
-          "points": 20,
-          "comments": 1,
-          "created_at_i": 1792118835,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.934,
-          "why": []
-        },
-        {
-          "id": "24fa58c5607d",
-          "title": "August in Servo: CSS Grid, text selection, and more",
-          "url": "https://servo.org/blog/2026/10/09/august-in-servo/",
-          "hn": "https://news.ycombinator.com/item?id=50137257",
-          "points": 28,
-          "comments": 0,
-          "created_at_i": 1792290141,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.678,
-          "why": []
-        },
-        {
-          "id": "e16b16abd476",
-          "title": "CSS for underlines",
-          "url": "https://www.rubenerd.au/css-for-underlines/",
-          "hn": "https://lobste.rs/s/ezucf0/css_for_underlines",
-          "points": 13,
-          "comments": 2,
-          "created_at_i": 1791769388,
-          "sources": [
-            "Lobsters"
-          ],
-          "sharers": 0,
-          "score": 2.504,
-          "why": []
-        },
-        {
-          "id": "a7878a6d8f3c",
-          "title": "The Practical Accessibility Course",
-          "url": "https://practical-accessibility.today/",
-          "hn": "https://bsky.app/profile/philliproth.de/post/3mxo3qybdek2l",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791793480,
+          "created_at_i": 1792422229,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.823,
+          "score": 2.323,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "sarasoueidan.com"
+            "piccalil.li"
           ]
         },
         {
-          "id": "eda7225ebb58",
-          "title": "The Accessibility Pond",
-          "url": "https://buttondown.com/the-accessibility-pond",
-          "hn": "https://bsky.app/profile/ashleemboyer.com/post/3mxssncelg22g",
+          "id": "496af745f9e3",
+          "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
+          "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
+          "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1791955491,
+          "created_at_i": 1792369840,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.757,
+          "score": 1.661,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "80ceede0d016",
+          "title": "UX designers are not designing interfaces, they design personalities",
+          "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792408332,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.822,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "ccff1dda2253",
+          "title": "Beautiful icons that make products feel premium",
+          "url": "https://bit.ly/side-hug1",
+          "hn": "https://bit.ly/side-hug1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792386660,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.019,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "6a453cfb00e7",
+          "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
+          "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792422229,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.323,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "496af745f9e3",
+          "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
+          "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
+          "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792369840,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.661,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        }
+      ]
+    },
+    "weekly": {
+      "label": "19–25 October 2026",
+      "period_start": "2026-10-19",
+      "period_end": "2026-10-25",
+      "week_start": "2026-10-19",
+      "week_end": "2026-10-25",
+      "week_label": "19–25 October 2026",
+      "iso_week": "2026-W43",
+      "items": [
+        {
+          "id": "80ceede0d016",
+          "title": "UX designers are not designing interfaces, they design personalities",
+          "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792408332,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.822,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "ccff1dda2253",
+          "title": "Beautiful icons that make products feel premium",
+          "url": "https://bit.ly/side-hug1",
+          "hn": "https://bit.ly/side-hug1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792386660,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.019,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "6a453cfb00e7",
+          "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
+          "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792422229,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.323,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "496af745f9e3",
+          "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
+          "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
+          "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792369840,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.661,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "80ceede0d016",
+          "title": "UX designers are not designing interfaces, they design personalities",
+          "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792408332,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.822,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "ccff1dda2253",
+          "title": "Beautiful icons that make products feel premium",
+          "url": "https://bit.ly/side-hug1",
+          "hn": "https://bit.ly/side-hug1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792386660,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.019,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "6a453cfb00e7",
+          "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
+          "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792422229,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.323,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "496af745f9e3",
+          "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
+          "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
+          "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792369840,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.661,
           "why": [
             "spotted on Bluesky"
           ],
@@ -1453,6 +1103,23 @@
           ]
         },
         {
+          "id": "80ceede0d016",
+          "title": "UX designers are not designing interfaces, they design personalities",
+          "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792408332,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.822,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "0f140ee15f0f",
           "title": "The designer’s constitution",
           "url": "https://constitution.design/",
@@ -1666,6 +1333,23 @@
           ]
         },
         {
+          "id": "ccff1dda2253",
+          "title": "Beautiful icons that make products feel premium",
+          "url": "https://bit.ly/side-hug1",
+          "hn": "https://bit.ly/side-hug1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792386660,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.019,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "db1e5d8d0395",
           "title": "On being anything other than a designer",
           "url": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer",
@@ -1780,6 +1464,26 @@
           "why": []
         },
         {
+          "id": "6a453cfb00e7",
+          "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
+          "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792422229,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.323,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
           "id": "dd31cf7999d3",
           "title": "Blink:  Intent to Prototype: CSS Linked Parameters for External SVGs",
           "url": "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/19c0b2a5-ce51-498a-83cf-2d1c7b45436fn%40chromium.org",
@@ -1857,6 +1561,26 @@
           ],
           "authors": [
             "rachelandrew.co.uk"
+          ]
+        },
+        {
+          "id": "496af745f9e3",
+          "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
+          "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
+          "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792369840,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.661,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
           ]
         },
         {
@@ -2004,215 +1728,82 @@
   },
   "items": [
     {
-      "id": "0ae9ab126394",
-      "title": "Furifont, a Japanese font that shows furigana",
-      "url": "https://furifont.antfu.me/",
-      "hn": "https://news.ycombinator.com/item?id=50100994",
-      "points": 17,
-      "comments": 10,
-      "created_at_i": 1792040423,
-      "sources": [
-        "Hacker News",
-        "Lobsters"
-      ],
-      "sharers": 0,
-      "score": 6.749,
-      "why": [
-        "picked up by Hacker News and Lobsters"
-      ]
-    },
-    {
-      "id": "2f417a4e03ad",
-      "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
-      "url": "https://typeof.net/Iosevka/",
-      "hn": "https://news.ycombinator.com/item?id=50084240",
-      "points": 689,
-      "comments": 285,
-      "created_at_i": 1791966479,
-      "sources": [
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 4.71,
-      "why": [
-        "689 points"
-      ]
-    },
-    {
-      "id": "c3fe5a95a780",
-      "title": "Primer (GitHub) — @primer/react@38.42.0",
-      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.42.0",
-      "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.42.0",
+      "id": "80ceede0d016",
+      "title": "UX designers are not designing interfaces, they design personalities",
+      "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1792170659,
+      "created_at_i": 1792408332,
       "sources": [
-        "Design systems"
+        "UX Collective"
       ],
       "sharers": 0,
-      "score": 4.65,
+      "score": 3.822,
       "why": [
-        "editor's pick at Design systems"
+        "editor's pick at UX Collective"
       ]
     },
     {
-      "id": "eff79576007c",
-      "title": "ACD - Accessibility Compat Data",
-      "url": "https://acd.lolaslab.co",
-      "hn": "https://bsky.app/profile/lolaodelola.bsky.social/post/3mxoi3xqsgc22",
+      "id": "ccff1dda2253",
+      "title": "Beautiful icons that make products feel premium",
+      "url": "https://bit.ly/side-hug1",
+      "hn": "https://bit.ly/side-hug1",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1791806733,
+      "created_at_i": 1792386660,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.019,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "6a453cfb00e7",
+      "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
+      "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
+      "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792422229,
       "sources": [
         "Bluesky"
       ],
-      "sharers": 2,
-      "score": 4.631,
+      "sharers": 1,
+      "score": 2.323,
       "why": [
-        "shared by 2 design accounts"
+        "spotted on Bluesky"
       ],
       "authors": [
-        "ericwbailey.website",
-        "rachelandrew.co.uk"
+        "piccalil.li"
       ]
     },
     {
-      "id": "af91ea474eec",
-      "title": "Primer (GitHub) — @primer/react@38.41.0",
-      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
-      "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.41.0",
+      "id": "496af745f9e3",
+      "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
+      "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
+      "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1791993649,
+      "created_at_i": 1792369840,
       "sources": [
-        "Design systems"
+        "Bluesky"
       ],
-      "sharers": 0,
-      "score": 4.616,
+      "sharers": 1,
+      "score": 1.661,
       "why": [
-        "editor's pick at Design systems"
-      ]
-    },
-    {
-      "id": "dbbcfa91bf13",
-      "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
-      "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1791796073,
-      "sources": [
-        "UX Collective"
+        "spotted on Bluesky"
       ],
-      "sharers": 0,
-      "score": 4.439,
-      "why": [
-        "editor's pick at UX Collective"
+      "authors": [
+        "ericwbailey.website"
       ]
-    },
-    {
-      "id": "9bf10d7cab68",
-      "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
-      "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
-      "hn": "https://news.ycombinator.com/item?id=50060311",
-      "points": 39,
-      "comments": 41,
-      "created_at_i": 1791828236,
-      "sources": [
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 4.359,
-      "why": [
-        "heavily argued (41 comments)"
-      ]
-    },
-    {
-      "id": "a725deeb215a",
-      "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
-      "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1791836371,
-      "sources": [
-        "UX Collective"
-      ],
-      "sharers": 0,
-      "score": 3.745,
-      "why": [
-        "editor's pick at UX Collective"
-      ]
-    },
-    {
-      "id": "719285fbb891",
-      "title": "UX Maps: Glossary",
-      "url": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "hn": "https://www.nngroup.com/articles/ux-maps-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792170000,
-      "sources": [
-        "NN/g"
-      ],
-      "sharers": 0,
-      "score": 3.644,
-      "why": [
-        "editor's pick at NN/g"
-      ]
-    },
-    {
-      "id": "5ff1148f737f",
-      "title": "Pure UI in the Agentic Era",
-      "url": "https://mattrothenberg.com/notes/pure-ui-agentic-era/",
-      "hn": "https://mattrothenberg.com/notes/pure-ui-agentic-era/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792123440,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.329,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "e21151c97423",
-      "title": "We read 102 EU shop accessibility statements",
-      "url": "https://scandiary.com/accessibility-statements",
-      "hn": "https://scandiary.com/accessibility-statements",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792033320,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.309,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "d87e145187f3",
-      "title": "Agent-first design: Bringing UX to the user",
-      "url": "https://www.qawolf.com/blog/agent-first-design-bringing-ux-to-the-user",
-      "hn": "https://news.ycombinator.com/item?id=50060187",
-      "points": 16,
-      "comments": 1,
-      "created_at_i": 1791827742,
-      "sources": [
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 3.041,
-      "why": []
     }
   ],
-  "week_start": "2026-10-12",
-  "week_end": "2026-10-18",
-  "week_label": "12–18 October 2026",
-  "iso_week": "2026-W42"
+  "week_start": "2026-10-19",
+  "week_end": "2026-10-25",
+  "week_label": "19–25 October 2026",
+  "iso_week": "2026-W43"
 }
