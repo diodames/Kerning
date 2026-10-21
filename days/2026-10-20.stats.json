@@ -1,0 +1,327 @@
+{
+  "date": "2026-10-20",
+  "pool": 71,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 31,
+    "lexicon": 31,
+    "no_title": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://craig-cli.com/",
+      "title": "Show HN: Craig – A TUI for running parallel coding agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://barn.ope.cool",
+      "title": "Show HN: barn.app – a digital stream deck like agent monitoring tool for macOS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.typeui.sh/ui-foundations/configurator",
+      "title": "Show HN: Accessibility Context for UI with AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jsdev.space/css-in-2026/",
+      "title": "CSS in 2026: Modules, Tailwind, CSS-in-JS, and More",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50157847",
+      "title": "Addressing EU Cyber Resilience Act",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://webkit.org/blog/18438/blocking-identity-resolution-infrastructure/",
+      "title": "Blocking Identity Resolution Infrastructure",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/anthropic-october-2026-study-human-attention-is-the-new-old-bottleneck-d7bc4642668a?source=rss----138adf9c44c---4",
+      "title": "Human attention is the new old bottleneck. We have to design for it even more.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/playing-the-sanshin-without-a-sound-3ac88df6f65c?source=rss----138adf9c44c---4",
+      "title": "Playing the sanshin without a sound",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://buttondown.com/TYFYFL/archive/labs-suck/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.densediscovery.com/issues/411",
+      "title": "DD411 / Nothing personal, just grifting",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://rouler.io/",
+      "title": "Show HN: Rouler – Steer Windows traffic per app or IP across multiple interfaces",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://gitlab.com/emacs-vm/vm",
+      "title": "Show HN: VM 9.0.0, a mail reader for Emacs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chai-ui.com/",
+      "title": "Show HN: Chai-UI – A design system to generative AI apps",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.snapflow.design/en/",
+      "title": "Snapflow: An agentic design system for React, Vue and Angular",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.jim-nielsen.com/2026/icons-in-every-menu/",
+      "title": "No More Icons in Every Menu by Default",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50159886",
+      "title": "Ask HN: What have you built privately with AI that you'd like to share?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50159853",
+      "title": "Read old.reddit.com logged out, forever",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://nolanlawson.com/2026/10/19/do-web-components-have-a-future-if-nobody-is-writing-them/",
+      "title": "Do web components have a future if nobody is writing them?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://making.close.com/posts/rendering-untrusted-html-email-safely/",
+      "title": "Rendering untrusted HTML email, safely (2021)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/JonesSteven/photo-ferret",
+      "title": "Show HN: Photo Ferret – open-source photo album with creative filters",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50161914",
+      "title": "Ask HN: How do you decide to cut scope when AI makes it so easy to add?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/zdk/kubectl-skyline",
+      "title": "Show HN: Kubectl-skyline – View your Kubernetes cluster as a 3D city",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50162847",
+      "title": "CPU-native. Deterministic. O(1) processes. – the Old New Coolness",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vladocar.github.io/Sumi.css/docs.html",
+      "title": "Sumi.css – Classless CSS Framework",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50162270",
+      "title": "Vibecoding an LLVM TypeScript Compiler",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50163386",
+      "title": "Ask HN: What do you do as a 50yo+ programmer not ready to quit?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://world.hey.com/jorge/acceptance-8487bd37",
+      "title": "Acceptance",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://newsletter.posthog.com/p/38-things-weve-learned-about-building",
+      "title": "38 things we’ve learned about building AI products",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://stowaway.live/",
+      "title": "Stowaway — Live 3D flight tracking from the window seat",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://jevcards.com",
+      "title": "Show HN: Jev Cards, Can you beat a vision model at a picture quiz?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50167583",
+      "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://asktori.ai",
+      "title": "Show HN: Tori by TalkJS. AI support that's actually good",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://wagtail.org/blog/time-to-rethink-shift-left-accessibility-with-agentic-ai/",
+      "title": "Time to rethink Shift Left accessibility with agentic AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.standardtopic.com/",
+      "title": "Show HN: Standard Topic – An AI and RSS-powered news and resource platform",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://misfitdev.github.io/daisy/",
+      "title": "Show HN: Daisy – macOS software KVM with native trackpad gestures",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.joshwcomeau.com/css/interop-2027/",
+      "title": "The Future of CSS ✨ • Josh W. Comeau",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50166173",
+      "title": "Ask HN: How to organize teams to ship AI-written code?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://outerweb.org/",
+      "title": "Show HN: Another Blog Search Engine",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://koody.com/business",
+      "title": "Show HN: Koody for Business – AI bookkeeping for people who aren't accountants",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/KatrielMoses/voidaccess",
+      "title": "Show HN: VoidAccess – open-source dark web OSINT, from query to a graph",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://pagecritic.app/",
+      "title": "Show HN: My attempt to get Claude to run a business",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://worklicant.com/",
+      "title": "Show HN: Worklicant – Lightweight ATS. Pay per Vacancy. AI Enabled",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://patchwave.ai/",
+      "title": "Show HN: PatchWave - Add static analysis and automerge to Dependabot",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.producttalk.org/mind-bending-experiences-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "title": "Mind-Bending Experiences - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.intercom.com/blog/fin-4-customer-agent-operator-and-major-upgrades-to-the-intercom-helpdesk",
+      "title": "Introducing Fin 4: Customer Agent, Operator, and major upgrades to the Intercom helpdesk",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.craigabbott.co.uk/blog/2026/using-maths-to-balance-your-heading-styles/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Using maths to balance your heading styles - Craig Abbott",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/show/VLPLDfnxkzHhN1Y?sbp=QAE%253D",
+      "title": "YouTube",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://stream.place/niedermeyer.online",
+      "title": "Elon Take The Wheel Livestream: SpaceX Q3 Earnings",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://survey.devographics.com/en-US/survey/state-of-html/2026",
+      "title": "State of HTML 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "title": "Claude designed protein binders against scorpion neurotoxins",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/gauge-sh/gauge-cli",
+      "title": "Show HN: Gauge CLI – Open-Source Hillclimbing for Agent Experience",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://coding.snapsta.net/lets_code/",
+      "title": "Coding.Snapsta – 430 free, zero-dependency HTML/CSS templates without signup",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://what-the-harness.polytomic.com",
+      "title": "Show HN: What the Harness? LLM agent inconsistencies in MCP implementation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/benchmarking-new-models-on-slop-code-bench.md",
+      "title": "SlopCodeBench 10/2026 – Opus 5.5, Astra wins overall, xhigh considered harmful",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://projectdiscovery.io",
+      "title": "Project Discovery (Security Suite)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50172133",
+      "title": "Ask HN: Will AI = extreme concentration of power?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/benord-labs/frink",
+      "title": "Show HN: Frink – Desktop-first app for multi-step workflows and parallel agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.joinmastodon.org/2026/10/5.0-a-closer-look/",
+      "title": "Mastodon 5.0: A closer look",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://2026.ffconf.org/",
+      "title": "This year’s FFConf is shaping up to be genuinely unmissable. So …um, you know …don’t miss it: I’ll see you there! 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22807",
+      "title": "This year’s FFConf is shaping up to be genuinely unmissable. So …um, you know …don’t miss it: I’ll see you there! 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/19/arts/design/world-trade-center-architect-minoru-yamasaki.html?unlocked_article_code=1.KFE.9nwN.dHaodPIWXEpY&smid=url-share",
+      "title": "25 Years After the World Trade Center Fell, an Architect’s Legacy Is Still Being Written (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://youtube.com/shorts/XGBrSZTFLxY?feature=share",
+      "title": "I'm starting to wonder if i can actually cook(crunchy shorts version) #furry #fursuit #food",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4",
+      "title": "AI doesn’t care about your job title",
+      "reason": "lexicon"
+    }
+  ]
+}

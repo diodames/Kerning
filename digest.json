@@ -1,161 +1,232 @@
 {
-  "generated_at": "2026-10-20T01:47:56.942199+00:00",
+  "generated_at": "2026-10-21T01:32:41.570939+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "19 October 2026",
-      "period_start": "2026-10-19",
-      "period_end": "2026-10-19",
+      "label": "20 October 2026",
+      "period_start": "2026-10-20",
+      "period_end": "2026-10-20",
       "items": [
         {
-          "id": "80ceede0d016",
-          "title": "UX designers are not designing interfaces, they design personalities",
-          "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "id": "f1e66fdacb8a",
+          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3myd4l5q55s2y",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792408332,
+          "created_at_i": 1792490400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.527,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "06bbc6c9902e",
+          "title": "Let AI have the average user: Why User Research should focus on bad days",
+          "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792531852,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.822,
+          "score": 3.451,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "ccff1dda2253",
-          "title": "Beautiful icons that make products feel premium",
-          "url": "https://bit.ly/side-hug1",
-          "hn": "https://bit.ly/side-hug1",
+          "id": "aae3ff8bcf8b",
+          "title": "State of Ecommerce Accessibility 2026",
+          "url": "https://davedavies.dev/state-of-ecommerce-accessibility/",
+          "hn": "https://davedavies.dev/state-of-ecommerce-accessibility/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792386660,
+          "created_at_i": 1792487199,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.019,
+          "score": 3.439,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "6a453cfb00e7",
-          "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
-          "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
+          "id": "efbd4ed39044",
+          "title": "Logo.dev MCP server",
+          "url": "https://www.logo.dev/docs/mcp/introduction",
+          "hn": "https://www.logo.dev/docs/mcp/introduction",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792422229,
+          "created_at_i": 1792487142,
           "sources": [
-            "Bluesky"
+            "Sidebar"
           ],
-          "sharers": 1,
-          "score": 2.323,
+          "sharers": 0,
+          "score": 3.438,
           "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
-          ]
-        },
-        {
-          "id": "496af745f9e3",
-          "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
-          "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
-          "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792369840,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.661,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
+            "editor's pick at Sidebar"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "80ceede0d016",
-          "title": "UX designers are not designing interfaces, they design personalities",
-          "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
+          "id": "f1e66fdacb8a",
+          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3myd4l5q55s2y",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792408332,
+          "created_at_i": 1792490400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.527,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "06bbc6c9902e",
+          "title": "Let AI have the average user: Why User Research should focus on bad days",
+          "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792531852,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.822,
+          "score": 3.451,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "ccff1dda2253",
-          "title": "Beautiful icons that make products feel premium",
-          "url": "https://bit.ly/side-hug1",
-          "hn": "https://bit.ly/side-hug1",
+          "id": "aae3ff8bcf8b",
+          "title": "State of Ecommerce Accessibility 2026",
+          "url": "https://davedavies.dev/state-of-ecommerce-accessibility/",
+          "hn": "https://davedavies.dev/state-of-ecommerce-accessibility/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792386660,
+          "created_at_i": 1792487199,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.019,
+          "score": 3.439,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "6a453cfb00e7",
-          "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
-          "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
+          "id": "efbd4ed39044",
+          "title": "Logo.dev MCP server",
+          "url": "https://www.logo.dev/docs/mcp/introduction",
+          "hn": "https://www.logo.dev/docs/mcp/introduction",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792422229,
+          "created_at_i": 1792487142,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.438,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "61ab5aa73669",
+          "title": "Ask HN: Dark mode for HN please? (2026)",
+          "url": "https://news.ycombinator.com/item?id=50160116",
+          "hn": "https://news.ycombinator.com/item?id=50160116",
+          "points": 22,
+          "comments": 11,
+          "created_at_i": 1792458580,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.965,
+          "why": []
+        },
+        {
+          "id": "0686dca86324",
+          "title": "Figma Tips and Shortcuts I Wish I Knew Earlier",
+          "url": "https://automattic.design/2026/10/19/figma-tips-and-shortcuts-i-wish-i-knew-earlier/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mycjg4iblk2x",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792495342,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 2.323,
+          "score": 2.227,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "piccalil.li"
+            "zeldman.bsky.social"
           ]
         },
         {
-          "id": "496af745f9e3",
-          "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
-          "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
-          "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
+          "id": "702fc3376d34",
+          "title": "The Accessibility Compat Data project has a homepage now, and you should support the project",
+          "url": "https://ericwbailey.website/published/the-accessibility-compat-data-project-has-a-homepage-now-and-you-should-support-the-project/",
+          "hn": "https://bsky.app/profile/ericwbailey.website/post/3mydarjlxks2m",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792369840,
+          "created_at_i": 1792520421,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.661,
+          "score": 2.084,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
             "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "e6c9392ea967",
+          "title": "Newsletters | CSS-Tricks",
+          "url": "https://css-tricks.com/newsletters/",
+          "hn": "https://bsky.app/profile/geoffgraham.me/post/3myb5yuh26s2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792448726,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.29,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "geoffgraham.me"
           ]
         }
       ]
@@ -170,6 +241,27 @@
       "iso_week": "2026-W43",
       "items": [
         {
+          "id": "f1e66fdacb8a",
+          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3myd4l5q55s2y",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792490400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.527,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
           "id": "80ceede0d016",
           "title": "UX designers are not designing interfaces, they design personalities",
           "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
@@ -184,6 +276,57 @@
           "score": 3.822,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "06bbc6c9902e",
+          "title": "Let AI have the average user: Why User Research should focus on bad days",
+          "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792531852,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.451,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "aae3ff8bcf8b",
+          "title": "State of Ecommerce Accessibility 2026",
+          "url": "https://davedavies.dev/state-of-ecommerce-accessibility/",
+          "hn": "https://davedavies.dev/state-of-ecommerce-accessibility/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792487199,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.439,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "efbd4ed39044",
+          "title": "Logo.dev MCP server",
+          "url": "https://www.logo.dev/docs/mcp/introduction",
+          "hn": "https://www.logo.dev/docs/mcp/introduction",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792487142,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.438,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -246,6 +389,27 @@
       ],
       "candidates": [
         {
+          "id": "f1e66fdacb8a",
+          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3myd4l5q55s2y",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792490400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.527,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
           "id": "80ceede0d016",
           "title": "UX designers are not designing interfaces, they design personalities",
           "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
@@ -260,6 +424,57 @@
           "score": 3.822,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "06bbc6c9902e",
+          "title": "Let AI have the average user: Why User Research should focus on bad days",
+          "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792531852,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.451,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "aae3ff8bcf8b",
+          "title": "State of Ecommerce Accessibility 2026",
+          "url": "https://davedavies.dev/state-of-ecommerce-accessibility/",
+          "hn": "https://davedavies.dev/state-of-ecommerce-accessibility/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792487199,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.439,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "efbd4ed39044",
+          "title": "Logo.dev MCP server",
+          "url": "https://www.logo.dev/docs/mcp/introduction",
+          "hn": "https://www.logo.dev/docs/mcp/introduction",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792487142,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.438,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -278,6 +493,21 @@
           "why": [
             "editor's pick at Sidebar"
           ]
+        },
+        {
+          "id": "61ab5aa73669",
+          "title": "Ask HN: Dark mode for HN please? (2026)",
+          "url": "https://news.ycombinator.com/item?id=50160116",
+          "hn": "https://news.ycombinator.com/item?id=50160116",
+          "points": 22,
+          "comments": 11,
+          "created_at_i": 1792458580,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.965,
+          "why": []
         },
         {
           "id": "6a453cfb00e7",
@@ -300,6 +530,46 @@
           ]
         },
         {
+          "id": "0686dca86324",
+          "title": "Figma Tips and Shortcuts I Wish I Knew Earlier",
+          "url": "https://automattic.design/2026/10/19/figma-tips-and-shortcuts-i-wish-i-knew-earlier/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mycjg4iblk2x",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792495342,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.227,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "702fc3376d34",
+          "title": "The Accessibility Compat Data project has a homepage now, and you should support the project",
+          "url": "https://ericwbailey.website/published/the-accessibility-compat-data-project-has-a-homepage-now-and-you-should-support-the-project/",
+          "hn": "https://bsky.app/profile/ericwbailey.website/post/3mydarjlxks2m",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792520421,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.084,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
           "id": "496af745f9e3",
           "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
           "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
@@ -317,6 +587,26 @@
           ],
           "authors": [
             "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "e6c9392ea967",
+          "title": "Newsletters | CSS-Tricks",
+          "url": "https://css-tricks.com/newsletters/",
+          "hn": "https://bsky.app/profile/geoffgraham.me/post/3myb5yuh26s2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792448726,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.29,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "geoffgraham.me"
           ]
         }
       ]
@@ -366,6 +656,27 @@
           "score": 6.749,
           "why": [
             "picked up by Hacker News and Lobsters"
+          ]
+        },
+        {
+          "id": "f1e66fdacb8a",
+          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3myd4l5q55s2y",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792490400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.527,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
           ]
         },
         {
@@ -525,23 +836,6 @@
           "why": [
             "editor's pick at UX Collective"
           ]
-        },
-        {
-          "id": "0f140ee15f0f",
-          "title": "The designer’s constitution",
-          "url": "https://constitution.design/",
-          "hn": "https://constitution.design/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791774240,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
         }
       ],
       "candidates": [
@@ -585,6 +879,27 @@
           "score": 6.749,
           "why": [
             "picked up by Hacker News and Lobsters"
+          ]
+        },
+        {
+          "id": "f1e66fdacb8a",
+          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3myd4l5q55s2y",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792490400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.527,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
           ]
         },
         {
@@ -1265,6 +1580,57 @@
           "why": []
         },
         {
+          "id": "06bbc6c9902e",
+          "title": "Let AI have the average user: Why User Research should focus on bad days",
+          "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792531852,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.451,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "aae3ff8bcf8b",
+          "title": "State of Ecommerce Accessibility 2026",
+          "url": "https://davedavies.dev/state-of-ecommerce-accessibility/",
+          "hn": "https://davedavies.dev/state-of-ecommerce-accessibility/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792487199,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.439,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "efbd4ed39044",
+          "title": "Logo.dev MCP server",
+          "url": "https://www.logo.dev/docs/mcp/introduction",
+          "hn": "https://www.logo.dev/docs/mcp/introduction",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792487142,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.438,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "5ff1148f737f",
           "title": "Pure UI in the Agentic Era",
           "url": "https://mattrothenberg.com/notes/pure-ui-agentic-era/",
@@ -1399,6 +1765,21 @@
           "why": []
         },
         {
+          "id": "61ab5aa73669",
+          "title": "Ask HN: Dark mode for HN please? (2026)",
+          "url": "https://news.ycombinator.com/item?id=50160116",
+          "hn": "https://news.ycombinator.com/item?id=50160116",
+          "points": 22,
+          "comments": 11,
+          "created_at_i": 1792458580,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 2.965,
+          "why": []
+        },
+        {
           "id": "6f5ffb2c7060",
           "title": "Matt Mullenweg Orders Accessibility Revert, Bans Core Wordpress Committer",
           "url": "https://www.therepository.email/matt-mullenweg-orders-accessibility-revert-tells-core-committer-to-contribute-your-talents-to-another-project",
@@ -1501,6 +1882,46 @@
           ],
           "authors": [
             "lea.verou.me"
+          ]
+        },
+        {
+          "id": "0686dca86324",
+          "title": "Figma Tips and Shortcuts I Wish I Knew Earlier",
+          "url": "https://automattic.design/2026/10/19/figma-tips-and-shortcuts-i-wish-i-knew-earlier/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mycjg4iblk2x",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792495342,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.227,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "702fc3376d34",
+          "title": "The Accessibility Compat Data project has a homepage now, and you should support the project",
+          "url": "https://ericwbailey.website/published/the-accessibility-compat-data-project-has-a-homepage-now-and-you-should-support-the-project/",
+          "hn": "https://bsky.app/profile/ericwbailey.website/post/3mydarjlxks2m",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792520421,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.084,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
           ]
         },
         {
@@ -1664,6 +2085,26 @@
           ]
         },
         {
+          "id": "e6c9392ea967",
+          "title": "Newsletters | CSS-Tricks",
+          "url": "https://css-tricks.com/newsletters/",
+          "hn": "https://bsky.app/profile/geoffgraham.me/post/3myb5yuh26s2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792448726,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.29,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "geoffgraham.me"
+          ]
+        },
+        {
           "id": "531d617577e1",
           "title": "PostCSS Mixins And PostCSS Custom Functions | CSS Tools",
           "url": "https://preset-env.cssdb.org/blog/postcss-mixins-and-custom-functions/",
@@ -1728,6 +2169,27 @@
   },
   "items": [
     {
+      "id": "f1e66fdacb8a",
+      "title": "Embracing Playful Imperfection With The CSS `random()` Function",
+      "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
+      "hn": "https://bsky.app/profile/smashingmagazine.com/post/3myd4l5q55s2y",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792490400,
+      "sources": [
+        "Smashing Magazine",
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 6.527,
+      "why": [
+        "picked up by Smashing Magazine and Bluesky"
+      ],
+      "authors": [
+        "smashingmagazine.com"
+      ]
+    },
+    {
       "id": "80ceede0d016",
       "title": "UX designers are not designing interfaces, they design personalities",
       "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
@@ -1742,6 +2204,57 @@
       "score": 3.822,
       "why": [
         "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "06bbc6c9902e",
+      "title": "Let AI have the average user: Why User Research should focus on bad days",
+      "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792531852,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 3.451,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "aae3ff8bcf8b",
+      "title": "State of Ecommerce Accessibility 2026",
+      "url": "https://davedavies.dev/state-of-ecommerce-accessibility/",
+      "hn": "https://davedavies.dev/state-of-ecommerce-accessibility/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792487199,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.439,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "efbd4ed39044",
+      "title": "Logo.dev MCP server",
+      "url": "https://www.logo.dev/docs/mcp/introduction",
+      "hn": "https://www.logo.dev/docs/mcp/introduction",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792487142,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.438,
+      "why": [
+        "editor's pick at Sidebar"
       ]
     },
     {
