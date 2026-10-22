@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T01:32:41.568349+00:00",
+  "updated_at": "2026-10-22T01:28:54.564768+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -2126,6 +2126,119 @@
       "dropped": {
         "below_threshold": 31,
         "lexicon": 31,
+        "no_title": 1
+      }
+    },
+    "2026-10-21": {
+      "items": [
+        {
+          "id": "2173d7d018fa",
+          "title": "Carbon (IBM) — v11.119.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792565454,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.388,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "eb40d45d68e1",
+          "title": "Show HN: Sumi.css – CSS Framework",
+          "url": "https://github.com/vladocar/Sumi.css",
+          "hn": "https://news.ycombinator.com/item?id=50180039",
+          "points": 71,
+          "comments": 18,
+          "created_at_i": 1792587033,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.472,
+          "why": []
+        },
+        {
+          "id": "3f5b0ec5e9f0",
+          "title": "A simple guide to calm UI",
+          "url": "https://maxschmitt.me/posts/calm",
+          "hn": "https://maxschmitt.me/posts/calm",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792571167,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.423,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "2173d7d018fa",
+          "title": "Carbon (IBM) — v11.119.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792565454,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.388,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "eb40d45d68e1",
+          "title": "Show HN: Sumi.css – CSS Framework",
+          "url": "https://github.com/vladocar/Sumi.css",
+          "hn": "https://news.ycombinator.com/item?id=50180039",
+          "points": 71,
+          "comments": 18,
+          "created_at_i": 1792587033,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.472,
+          "why": []
+        },
+        {
+          "id": "3f5b0ec5e9f0",
+          "title": "A simple guide to calm UI",
+          "url": "https://maxschmitt.me/posts/calm",
+          "hn": "https://maxschmitt.me/posts/calm",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792571167,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.423,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        }
+      ],
+      "pool": 58,
+      "kept": 3,
+      "dropped": {
+        "below_threshold": 29,
+        "already_closed": 1,
+        "lexicon": 23,
+        "prerelease": 1,
         "no_title": 1
       }
     }

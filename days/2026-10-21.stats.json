@@ -1,0 +1,289 @@
+{
+  "date": "2026-10-21",
+  "pool": 58,
+  "kept": 3,
+  "dropped": {
+    "below_threshold": 29,
+    "already_closed": 1,
+    "lexicon": 23,
+    "prerelease": 1,
+    "no_title": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://mcp.bonbook.co/claude-setup",
+      "title": "Show HN: One click flight booking in Claude",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
+      "title": "Let AI have the average user: Why User Research should focus on bad days",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://uxdesign.cc/ai-doesnt-care-about-your-job-title-c08dd4fdf8d8?source=rss----138adf9c44c---4",
+      "title": "AI doesn’t care about your job title",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://schemawright.com",
+      "title": "Show HN: SchemaWright, learning database design in a gamified way",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50176363",
+      "title": "Ask HN: Does anyone else just want to disconnect from everything?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evans.bike/naicons",
+      "title": "Show HN: An icon for every city in North America",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://alterauth.com/",
+      "title": "Launch HN: Alter (YC S25) – Access control for multi-user agents",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/bencodev/dsgnrd",
+      "title": "Learning by building a multi-agent design lab. Yet, single agent works better",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://CloudJourneyBlog.rohi-lab.org/blog/agent-accessible-apps",
+      "title": "App Needs an Interface an Agent Can Use",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://legato.gg/blog/legato-0-2-0",
+      "title": "Show HN: Legato 0.2.0 – An open source realtime audio framwork for Rust",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://synteny.vercel.app/",
+      "title": "Show HN: Multiplayer AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://peras.vertias.eu/",
+      "title": "Show HN: Peras – Pause Claude Code and Codex before they burn your weekly limit",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fleeb.ee/blog/improving-accessibility-with-css-media-queries/",
+      "title": "Improving accessibility with CSS media queries (2025)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lectura.info/",
+      "title": "Show HN: Lectura, a privacy, simple, server side rendered RSS reader",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://flexboxfroggy.com/",
+      "title": "Flexbox Froggy – A game for learning CSS Flexbox",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://daily-pipes.com/",
+      "title": "Show HN: Daily Pipes: A daily tile-rotation puzzle that never requires guessing",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50179018",
+      "title": "Why search engines penalised us for having a cool domain name",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ivankovic/stop-bots",
+      "title": "Show HN: TUI to manage firewall and HTTP server, in Rust",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/design-vs-adhd-4411c3b81d1b?source=rss----138adf9c44c---4",
+      "title": "Design v ADHD",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://apeatling.com/2026/10/19/your-product-is-not-the-center-of-the-universe/",
+      "title": "Your product is not the center of the universe",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.seangoedecke.com/ai-is-driving-a-boom-in-modestly-successful-software/",
+      "title": "AI is driving a boom in modestly successful software projects",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://toolcraft.sh/",
+      "title": "Toolcraft",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.jim-nielsen.com/2026/ode-to-links/?utm_source=the-index&utm_medium=newsletter",
+      "title": "An Ode to Links",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.pipelang.com/",
+      "title": "Show HN: IDE for a general-purpose visual programming language \"Pipe\"",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://riffcalendar.com",
+      "title": "Show HN: Riff – An iPhone calendar you zoom instead of switching views",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://gluonhq.com/news/2026-10-20-oct-2026-critical-patch-update/",
+      "title": "October 2026 Critical Patch Update: Security and Stability Fixes for OpenJFX",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jev-browser.rovira.sh",
+      "title": "Show HN: Jev drives a browser – HN login and search in 8s for half a cent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mtarin.com/projects/nift/",
+      "title": "Show HN: NiFT – Frictionless, Fast, Note taking app",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pawmc-demo.kolaegipet.workers.dev/?demo=1",
+      "title": "Show HN: Pawmc a.k.a. talking diary, an LLM chat with compartmentalised memory",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://velmet44.github.io/rmbg/",
+      "title": "Show HN: RMBG – remove backgrounds from images in the browser (no uploads)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apnews.com/article/oregon-waterfall-for-sale-lawmakers-996de63462d49ec3ad9bee1629fb9488",
+      "title": "Oregon lawmakers approve money to buy an iconic waterfall listed on Redfin",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://buford.bg/",
+      "title": "Show HN: I told people I'm a convicted felon after 20 years of hiding it",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50180884",
+      "title": "Wiki-driven development: coding agents update a wiki for you, you set direction",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.greenhouse.com/newsroom/6-in-10-job-seekers-are-rethinking-how-they-write-to-avoid-sounding-like-ai-even-as-most-use-it-in-their-search",
+      "title": "6 in 10 Job Seekers Are Rethinking How They Write to Avoid Sounding Like AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mjtsai.com/blog/2026/10/15/passkeys-attestation-trap/",
+      "title": "Passkeys Attestation Trap",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.svpg.com/experimentation-ai-and-the-product-model/",
+      "title": "Experimentation, AI and the Product Model",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.4",
+      "title": "Carbon (IBM) — v12.0.0-alpha.4",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://bell.bz/youll-miss-publishers-when-theyre-gone/?utm_source=the-index&utm_medium=newsletter",
+      "title": "You’ll miss publishers when they’re gone",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22808",
+      "title": "Patched my PHP within minutes of the update being released; super-smooth with no problems. 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/20/us/politics/cia-interview-reports-sept-11-torture.html",
+      "title": "U.S. Begins Disclosing C.I.A. Interview Reports From Scrutiny of Post-9/11 Torture",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://WordPress.com",
+      "title": "WordPress, Your Way",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://automattic.com/2026/10/21/your-sites-are-protected-against-the-php2shell-vulnerabilities/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.google.com/books/edition/A_Concise_Bibliography_of_the_Literature/nBNFAQAAIAAJ?hl=en&gbpv=1&printsec=frontcover",
+      "title": "A Concise Bibliography of the Literature on Artificial Intelligence",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.quizingo.app/anagrams",
+      "title": "Show HN: I made anagrams slightly challenging",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/omnara-ai/omnara",
+      "title": "Show HN: Omnara – Open-Source Alternative to Claude Managed Agents",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://defaultsolitaire.app/",
+      "title": "Show HN: Overdesigned Simple Solitaire",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://aresluna.org/this-is-a-story-of-a-figma-bug/",
+      "title": "A story of a Figma bug that wasn't a bug at all (2021)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50186889",
+      "title": "Ask HN: Can we immortalize your startup in our Ultracapitalism game?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50186311",
+      "title": "Ask HN: How will programming language design change as more code comes from AI?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://elegant-chebakia-7aee64.netlify.app/",
+      "title": "Show HN: Is there a YC advantage for sales?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/a-founder-with-a-tool-is-not-a-founder-with-a-clue-65bccb0dc2f8?source=rss----138adf9c44c---4",
+      "title": "A founder with a tool is not a founder with a clue",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/can-you-take-ai-at-its-word-06126b976245?source=rss----138adf9c44c---4",
+      "title": "Can you take AI at its word?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22809",
+      "title": "Wednesday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/the-agents-on-rails-files-designing-black-box-evals-for-coding-agents",
+      "title": "The Agents on Rails Files: designing black-box evals for coding agents—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
+      "title": "Claude Duet is beautiful. I still forgot to use it",
+      "reason": "lexicon"
+    }
+  ]
+}
