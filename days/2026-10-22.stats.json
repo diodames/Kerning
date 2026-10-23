@@ -1,0 +1,266 @@
+{
+  "date": "2026-10-22",
+  "pool": 55,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 33,
+    "lexicon": 18
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.quizingo.app/anagrams",
+      "title": "Show HN: I made anagrams slightly challenging",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/omnara-ai/omnara",
+      "title": "Show HN: Omnara – Open-source alternative to Claude Managed Agents",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://defaultsolitaire.app/",
+      "title": "Show HN: Overdesigned Simple Solitaire",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://aresluna.org/this-is-a-story-of-a-figma-bug/",
+      "title": "A story of a Figma bug that wasn't a bug at all (2021)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50186889",
+      "title": "Ask HN: Can we immortalize your startup in our Ultracapitalism game?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50186311",
+      "title": "Ask HN: How will programming language design change as more code comes from AI?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://elegant-chebakia-7aee64.netlify.app/",
+      "title": "Show HN: Is there a YC advantage for sales?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://embodsi.com/",
+      "title": "Show HN: Embodsi – Embodied Super Intelligence",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/a-founder-with-a-tool-is-not-a-founder-with-a-clue-65bccb0dc2f8?source=rss----138adf9c44c---4",
+      "title": "A founder with a tool is not a founder with a clue",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/can-you-take-ai-at-its-word-06126b976245?source=rss----138adf9c44c---4",
+      "title": "Can you take AI at its word?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22809",
+      "title": "Wednesday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/the-agents-on-rails-files-designing-black-box-evals-for-coding-agents",
+      "title": "The Agents on Rails Files: designing black-box evals for coding agents—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
+      "title": "Claude Duet is beautiful. I still forgot to use it",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://royalicing.com/2026/apple-voice-iphone-duo",
+      "title": "Apple is finding its voice for what more sophisticated multitouch UX can be",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://zegrapher.com/en/",
+      "title": "Show HN: ZeGrapher v4: modern math plotter",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://harnesshive.com",
+      "title": "Show HN: HarnessHive – collaborative wiring harness design platform in browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://playgroundarcade.com/",
+      "title": "Show HN: AI-built browser games, collected in one place",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bloffy.co/en",
+      "title": "Show HN: I built a Markdown and raw HTML blog platform scoring 99 on PageSpeed",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.gabrielvaldivia.com/notes/everybody-is-starting-over",
+      "title": "Everyone is starting over",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "title": "How employment is changing at Anthropic",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://neoinbox.freakified.net/",
+      "title": "Show HN: NeoInbox, a recreation of Google Inbox as a Thunderbird extension",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://accrescent.app/",
+      "title": "Accrescent: A novel Android app store focused on security, privacy and usability",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=gJ-rYxlkVPg",
+      "title": "AI-Assisted Product Discovery: How to Succeed and How to Fail",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50192988",
+      "title": "Show HN: Shay.me – Personal AI assistant to get things done",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/SupercmoHQ/superCMO-skills",
+      "title": "Show HN: Open-source Claude skills to replace Higgsfield",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://canarytokens.org/nest/",
+      "title": "Create a Canarytoken. Deploy it somewhere",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.propublica.org/article/trump-midterm-elections-takeover-takeaways?utm_campaign=propublica-sprout&utm_content=1792638002&utm_medium=social&utm_source=bluesky",
+      "title": "8 Things You Should Know About Trump’s Effort to “Take Over” the Midterm Elections",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theautopian.com/a-typography-geek-pointed-out-something-about-the-space-shuttle-discovery-and-now-i-cant-unsee-it/",
+      "title": "The space shuttle Discovery, the S in Discovery is upside down",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://microsoft.github.io/flint-chart/#/interactions",
+      "title": "Show HN: Flint-interactive, a language for interactive data visualizations (MSR)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.isochrone.ch/",
+      "title": "Show HN: Swiss public transport isochrones computed in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/axernel-labs/stackdome",
+      "title": "Show HN: Stackdome – An open source self-hostable Railway alternative on K8s",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/arjunvlama/toli",
+      "title": "Show HN: Toli – Let Claude Code on one computer work with Codex on another",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://shapcn.com/",
+      "title": "Show HN: shapcn brings shape-aware icon morphing",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://subway.bio1up.com/line/signal",
+      "title": "Show HN: A scroll-through subway ride to show how GLP-1s work in your body",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/lalabase/lalabase",
+      "title": "Show HN: Lalabase, self-hosted project management with an AI that cites sources",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50197862",
+      "title": "Ask HN: Friends, what is your Plan B?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.ternlux.com/online-demo/",
+      "title": "Show HN: Ternlux – Free, local-first, bring-your-own-key AI pipeline builder",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/AutoIDM/pdt",
+      "title": "Show HN: PDT – Open-source deployment of scheduled jobs on your own cloud",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50195077",
+      "title": "Jellyfin Does Ship with plugins that use PHP",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://skillstore-jk.fly.dev/developers",
+      "title": "Show HN: Skillstore – Expert skills your coding agent fetches as it works",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50193017",
+      "title": "Show HN: MandarinClips 180k movie clips for teaching Chinese",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://calibreapp.com/blog/airline-websites-are-slow?utm_source=the-index&utm_medium=newsletter",
+      "title": "It’s official: Airline websites are slow, but they don’t have to be | Calibre",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://elliotjaystocks.com/newsletter/losing-sleep-over-letter-spacing",
+      "title": "Elliot Jay Stocks | Losing sleep over letter spacing",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://issues.chromium.org/issues/576327878",
+      "title": "Chromium",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kS0NEJZz0MU",
+      "title": "Free Accessibility MCP Server – Scan and fix accessibility issues automatically",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50201318",
+      "title": "Ask HN: What do 'Creative Technologist' or 'Design Engineer' mean to you?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://bidbouncer.com",
+      "title": "Show HN: Daily-updated bad ads blocklist for publishers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/anishchugh05/mnemolith",
+      "title": "Show HN: Mnemolith – AI coding memory that goes stale when your code changes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50200997",
+      "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/lolaslab/acd-site/discussions/3#discussion-11104815",
+      "title": "How Do You Interpret BCD \"Fully Supported\"? · lolaslab acd-site · Discussion #3",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://neal.fun/about/",
+      "title": "Finally made an about page, it includes my heart rate neal.fun/about/",
+      "reason": "lexicon"
+    }
+  ]
+}

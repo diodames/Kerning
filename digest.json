@@ -1,111 +1,155 @@
 {
-  "generated_at": "2026-10-22T01:28:54.567600+00:00",
+  "generated_at": "2026-10-23T01:28:16.314241+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "21 October 2026",
-      "period_start": "2026-10-21",
-      "period_end": "2026-10-21",
+      "label": "22 October 2026",
+      "period_start": "2026-10-22",
+      "period_end": "2026-10-22",
       "items": [
         {
-          "id": "2173d7d018fa",
-          "title": "Carbon (IBM) — v11.119.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
+          "id": "c49e7f776020",
+          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792565454,
+          "created_at_i": 1792706136,
           "sources": [
-            "Design systems"
+            "UX Collective"
           ],
           "sharers": 0,
-          "score": 4.388,
+          "score": 3.798,
           "why": [
-            "editor's pick at Design systems"
+            "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "eb40d45d68e1",
-          "title": "Show HN: Sumi.css – CSS Framework",
-          "url": "https://github.com/vladocar/Sumi.css",
-          "hn": "https://news.ycombinator.com/item?id=50180039",
-          "points": 71,
-          "comments": 18,
-          "created_at_i": 1792587033,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.472,
-          "why": []
-        },
-        {
-          "id": "3f5b0ec5e9f0",
-          "title": "A simple guide to calm UI",
-          "url": "https://maxschmitt.me/posts/calm",
-          "hn": "https://maxschmitt.me/posts/calm",
+          "id": "715488e848ea",
+          "title": "Interfere Design System",
+          "url": "https://design.interfere.com/",
+          "hn": "https://design.interfere.com/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792571167,
+          "created_at_i": 1792641840,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.423,
+          "score": 3.663,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "b046014d2a19",
+          "title": "The fastest gun in UX",
+          "url": "https://www.doc.cc/articles/fastest-gun",
+          "hn": "https://www.doc.cc/articles/fastest-gun",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792641900,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.33,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "9be29a91e12d",
+          "title": "Native masonry layouts with CSS grid lanes",
+          "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792682560,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.665,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "2173d7d018fa",
-          "title": "Carbon (IBM) — v11.119.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
+          "id": "c49e7f776020",
+          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792565454,
+          "created_at_i": 1792706136,
           "sources": [
-            "Design systems"
+            "UX Collective"
           ],
           "sharers": 0,
-          "score": 4.388,
+          "score": 3.798,
           "why": [
-            "editor's pick at Design systems"
+            "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "eb40d45d68e1",
-          "title": "Show HN: Sumi.css – CSS Framework",
-          "url": "https://github.com/vladocar/Sumi.css",
-          "hn": "https://news.ycombinator.com/item?id=50180039",
-          "points": 71,
-          "comments": 18,
-          "created_at_i": 1792587033,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.472,
-          "why": []
-        },
-        {
-          "id": "3f5b0ec5e9f0",
-          "title": "A simple guide to calm UI",
-          "url": "https://maxschmitt.me/posts/calm",
-          "hn": "https://maxschmitt.me/posts/calm",
+          "id": "715488e848ea",
+          "title": "Interfere Design System",
+          "url": "https://design.interfere.com/",
+          "hn": "https://design.interfere.com/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792571167,
+          "created_at_i": 1792641840,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.423,
+          "score": 3.663,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "b046014d2a19",
+          "title": "The fastest gun in UX",
+          "url": "https://www.doc.cc/articles/fastest-gun",
+          "hn": "https://www.doc.cc/articles/fastest-gun",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792641900,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.33,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "9be29a91e12d",
+          "title": "Native masonry layouts with CSS grid lanes",
+          "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792682560,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.665,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
           ]
         }
       ]
@@ -175,6 +219,40 @@
           ]
         },
         {
+          "id": "c49e7f776020",
+          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792706136,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.798,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "715488e848ea",
+          "title": "Interfere Design System",
+          "url": "https://design.interfere.com/",
+          "hn": "https://design.interfere.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792641840,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.663,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "eb40d45d68e1",
           "title": "Show HN: Sumi.css – CSS Framework",
           "url": "https://github.com/vladocar/Sumi.css",
@@ -188,23 +266,6 @@
           "sharers": 0,
           "score": 3.472,
           "why": []
-        },
-        {
-          "id": "06bbc6c9902e",
-          "title": "Let AI have the average user: Why User Research should focus on bad days",
-          "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792531852,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.451,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
         },
         {
           "id": "aae3ff8bcf8b",
@@ -258,23 +319,6 @@
           ]
         },
         {
-          "id": "ccff1dda2253",
-          "title": "Beautiful icons that make products feel premium",
-          "url": "https://bit.ly/side-hug1",
-          "hn": "https://bit.ly/side-hug1",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792386660,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.019,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
           "id": "6a453cfb00e7",
           "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
           "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
@@ -287,6 +331,26 @@
           ],
           "sharers": 1,
           "score": 2.323,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "9be29a91e12d",
+          "title": "Native masonry layouts with CSS grid lanes",
+          "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792682560,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.665,
           "why": [
             "spotted on Bluesky"
           ],
@@ -372,6 +436,40 @@
           ]
         },
         {
+          "id": "c49e7f776020",
+          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792706136,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.798,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "715488e848ea",
+          "title": "Interfere Design System",
+          "url": "https://design.interfere.com/",
+          "hn": "https://design.interfere.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792641840,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.663,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "eb40d45d68e1",
           "title": "Show HN: Sumi.css – CSS Framework",
           "url": "https://github.com/vladocar/Sumi.css",
@@ -450,6 +548,23 @@
           ],
           "sharers": 0,
           "score": 3.423,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "b046014d2a19",
+          "title": "The fastest gun in UX",
+          "url": "https://www.doc.cc/articles/fastest-gun",
+          "hn": "https://www.doc.cc/articles/fastest-gun",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792641900,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.33,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -544,6 +659,26 @@
           ],
           "authors": [
             "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "9be29a91e12d",
+          "title": "Native masonry layouts with CSS grid lanes",
+          "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792682560,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.665,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
           ]
         },
         {
@@ -1446,6 +1581,23 @@
           ]
         },
         {
+          "id": "c49e7f776020",
+          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792706136,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.798,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "a725deeb215a",
           "title": "Secret agent bot: accessibility matters for the agents even if you can’t see them",
           "url": "https://uxdesign.cc/secret-agent-bot-accessibility-matters-for-the-agents-even-if-you-cant-see-them-2f53a5670ec9?source=rss----138adf9c44c---4",
@@ -1475,6 +1627,23 @@
           ],
           "sharers": 0,
           "score": 3.736,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "715488e848ea",
+          "title": "Interfere Design System",
+          "url": "https://design.interfere.com/",
+          "hn": "https://design.interfere.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792641840,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.663,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -1652,6 +1821,23 @@
           ],
           "sharers": 0,
           "score": 3.423,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "b046014d2a19",
+          "title": "The fastest gun in UX",
+          "url": "https://www.doc.cc/articles/fastest-gun",
+          "hn": "https://www.doc.cc/articles/fastest-gun",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792641900,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.33,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -2011,6 +2197,26 @@
           ]
         },
         {
+          "id": "9be29a91e12d",
+          "title": "Native masonry layouts with CSS grid lanes",
+          "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792682560,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.665,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
           "id": "496af745f9e3",
           "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
           "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
@@ -2250,6 +2456,40 @@
       ]
     },
     {
+      "id": "c49e7f776020",
+      "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+      "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792706136,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 3.798,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "715488e848ea",
+      "title": "Interfere Design System",
+      "url": "https://design.interfere.com/",
+      "hn": "https://design.interfere.com/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792641840,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.663,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
       "id": "eb40d45d68e1",
       "title": "Show HN: Sumi.css – CSS Framework",
       "url": "https://github.com/vladocar/Sumi.css",
@@ -2263,23 +2503,6 @@
       "sharers": 0,
       "score": 3.472,
       "why": []
-    },
-    {
-      "id": "06bbc6c9902e",
-      "title": "Let AI have the average user: Why User Research should focus on bad days",
-      "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792531852,
-      "sources": [
-        "UX Collective"
-      ],
-      "sharers": 0,
-      "score": 3.451,
-      "why": [
-        "editor's pick at UX Collective"
-      ]
     },
     {
       "id": "aae3ff8bcf8b",
@@ -2333,23 +2556,6 @@
       ]
     },
     {
-      "id": "ccff1dda2253",
-      "title": "Beautiful icons that make products feel premium",
-      "url": "https://bit.ly/side-hug1",
-      "hn": "https://bit.ly/side-hug1",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792386660,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.019,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
       "id": "6a453cfb00e7",
       "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
       "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
@@ -2362,6 +2568,26 @@
       ],
       "sharers": 1,
       "score": 2.323,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "piccalil.li"
+      ]
+    },
+    {
+      "id": "9be29a91e12d",
+      "title": "Native masonry layouts with CSS grid lanes",
+      "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
+      "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792682560,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.665,
       "why": [
         "spotted on Bluesky"
       ],

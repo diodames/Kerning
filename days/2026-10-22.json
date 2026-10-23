@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-22",
+  "generated_at": "2026-10-23T01:28:16.309691+00:00",
+  "items": [
+    {
+      "id": "c49e7f776020",
+      "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+      "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792706136,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 3.798,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "715488e848ea",
+      "title": "Interfere Design System",
+      "url": "https://design.interfere.com/",
+      "hn": "https://design.interfere.com/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792641840,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.663,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "b046014d2a19",
+      "title": "The fastest gun in UX",
+      "url": "https://www.doc.cc/articles/fastest-gun",
+      "hn": "https://www.doc.cc/articles/fastest-gun",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792641900,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.33,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "9be29a91e12d",
+      "title": "Native masonry layouts with CSS grid lanes",
+      "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
+      "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792682560,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.665,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "piccalil.li"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "c49e7f776020",
+      "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+      "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792706136,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 3.798,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "715488e848ea",
+      "title": "Interfere Design System",
+      "url": "https://design.interfere.com/",
+      "hn": "https://design.interfere.com/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792641840,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.663,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "b046014d2a19",
+      "title": "The fastest gun in UX",
+      "url": "https://www.doc.cc/articles/fastest-gun",
+      "hn": "https://www.doc.cc/articles/fastest-gun",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792641900,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.33,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "9be29a91e12d",
+      "title": "Native masonry layouts with CSS grid lanes",
+      "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
+      "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792682560,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.665,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "piccalil.li"
+      ]
+    }
+  ]
+}
