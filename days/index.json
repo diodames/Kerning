@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-23T01:28:16.310386+00:00",
+  "updated_at": "2026-10-24T01:33:30.224062+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -2394,6 +2394,194 @@
       "dropped": {
         "below_threshold": 33,
         "lexicon": 18
+      }
+    },
+    "2026-10-23": {
+      "items": [
+        {
+          "id": "f43f6a91f829",
+          "title": "Primer (GitHub) — @primer/react@38.43.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792770562,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.611,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "9f40ceae20fc",
+          "title": "UX Disciplines: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "98ae0612de39",
+          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "f8c0550a3fa3",
+          "title": "Apple Music’s new logo was shaped by sound and mineral oil",
+          "url": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+          "hn": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792739182,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.393,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "f43f6a91f829",
+          "title": "Primer (GitHub) — @primer/react@38.43.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792770562,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.611,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "9f40ceae20fc",
+          "title": "UX Disciplines: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "98ae0612de39",
+          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "f8c0550a3fa3",
+          "title": "Apple Music’s new logo was shaped by sound and mineral oil",
+          "url": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+          "hn": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792739182,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.393,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d053d7081b69",
+          "title": "Accordion Icons: Which Work Best?",
+          "url": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
+          "hn": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792760400,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 3.201,
+          "why": [
+            "editor's pick at Smashing Magazine"
+          ]
+        },
+        {
+          "id": "d0b4347c06b9",
+          "title": "I’ve never been as nervous to publish on CSS-Tricks since my first article in 2015.",
+          "url": "https://geoffgraham.me/nervous-to-publish-on-css-tricks/",
+          "hn": "https://bsky.app/profile/geoffgraham.me/post/3mykj27u3ghje",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792769819,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.672,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "geoffgraham.me"
+          ]
+        }
+      ],
+      "pool": 58,
+      "kept": 4,
+      "dropped": {
+        "lexicon": 21,
+        "below_threshold": 27,
+        "already_closed": 1,
+        "no_title": 2,
+        "patch": 1
       }
     }
   }

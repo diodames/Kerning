@@ -1,0 +1,274 @@
+{
+  "date": "2026-10-23",
+  "pool": 58,
+  "kept": 4,
+  "dropped": {
+    "lexicon": 21,
+    "below_threshold": 27,
+    "already_closed": 1,
+    "no_title": 2,
+    "patch": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.asimov.press/p/flowers",
+      "title": "How to Design Flowers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/molarmanful/kirsch",
+      "title": "Kirsch – A versatile bitmap font with an organic flair",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Coverage-Cat/consumer-agent-testing-tool",
+      "title": "Show HN: CATT 0.2.1: Test agents/services against a Muse/Instinct-alike, in CI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/rrajath/bloom",
+      "title": "Show HN: Bloom – an org-mode compatible Android app for managing notes and tasks",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+      "title": "Buy vs. build is now also a UX decision, especially in enterprise",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://neal.fun/about/",
+      "title": "Finally made an about page, it includes my heart rate neal.fun/about/",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "title": "Canva's first in-house AI image model plans designs before generating them",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://onlineimageoptimizer.com/code-to-image.html?cols=80&size=24&scale=2&font=Courier+Prime&lang=python&tmode=auto&tpx=1600&selmode=none&pad=56&pastept=12&bold=1&shrink=1&theme=paper&c=AT1PTUvDQBC951c810sCNVG8lSZQJFCwWNCDh9LDlJ1o6HY37EyQ_feS9eP0mPfJ3GLX7_eHFXbbp-f-FS_9-9tNYXmAfDFPdHZcXjitIRor3HU4h-DWBQAYYw7eJcyTC2Sl2UTyNly7ZjOMjjuMgjBHgQZYdqxcFzm39Uk_R_-BwZFi9pbjf8cSIli-BpAIK8hbiFKS-m8z40RRBS0unGqZ3KilaUyVpcg6Rw_HvsyuCm2Lx1yU7-P9aWHM76TJyvLVj_34cKq-AQ",
+      "title": "Syntax-Highlighting for Word, PowerPoint, Google Docs, Google Sheet, Keynote",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/getployz/ployz",
+      "title": "Show HN: Ployz – a Rust imperative orchestrator and cloud-like UX",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://http-files.org/",
+      "title": "The .http File Format",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=SdfxTXCw15s",
+      "title": "How Civilization was made: complete history of Sid Meier's iconic strategy games",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://maurycyz.com/misc/real_links/",
+      "title": "Please don't mess with links",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://shannadige.com/blog/performance-is-design/",
+      "title": "Fast is a design decision",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://visualrambling.space/moving-objects-in-3d/",
+      "title": "Moving objects in 3D space",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.antonsten.com/articles/where-decisions-live/",
+      "title": "Where decisions live",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://backgrounds.supply/gradient-lab",
+      "title": "Gradient background generator",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages/",
+      "title": "Software is slow because of bad design, not slow languages",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cryptex-vault.com/",
+      "title": "Show HN: Cryptex Vault – A password manager designed to outlive its creator",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://flaksorama.com/demo",
+      "title": "Show HN: Flaksorama – A party game for work events where anyone can win",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50205922",
+      "title": "Show HN: Pulse reached 8 contributors und 30 stars",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/arastu/zflash",
+      "title": "Show HN: A super fast(est), staged zsh plugin manager (github.com/arastu/zflash)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/entering-atomic-design-from-the-screen-bae744ecc288?source=rss----138adf9c44c---4",
+      "title": "Entering Atomic Design from the screen",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/supersonic-dreams-how-post-war-france-invented-the-future-and-then-stopped-fe2cb26dc7cc?source=rss----138adf9c44c---4",
+      "title": "Supersonic dreams: how post-war France invented the future, and then stopped",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.smashingmagazine.com/2015/12/desktop-wallpaper-calendars-join-in/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://nothingsoundsgood.club/gig-guide?utm_source=the-index&utm_medium=newsletter",
+      "title": "Gig Guide — Nothing Sounds Good",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/the-index/203/",
+      "title": "The Index: Issue #203",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://loudwalk.com/?from=hn",
+      "title": "Show HN: Loudwalk – Review your Anki deck out loud on a walk",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50208955",
+      "title": "Show HN: Shortcat meets Mouseless, keyboard-first way to control your Mac",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://petapixel.com/2026/10/22/sigma-says-the-compact-modular-fp2-is-the-ultimate-hybrid-camera/",
+      "title": "Sigma Says the Compact, Modular FP2 Is the Ultimate Hybrid Camera",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.sigma-global.com/en/cameras/fp2/",
+      "title": "Sigma FP2",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/paragrafx-illustrate-books/id6795768929",
+      "title": "Show HN: ParaGraFX – An iOS app for reading and illustrating ePub books",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://drop7.dev",
+      "title": "Show HN: Searching for optimal strategies in a puzzle game with chance (Drop7)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://jointhefreeworld.org/blog/articles/lisps/orgwebalchemy-benchmarking-profiling-and-org-support/",
+      "title": "Profiling Org->HTML formal grammar and optimizing it: orgwebalchemy",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Fmcp%401.1.2",
+      "title": "Primer (GitHub) — @primer/mcp@1.1.2",
+      "reason": "patch"
+    },
+    {
+      "url": "https://adactio.com/journal/22813",
+      "title": "Journal: The Pirate Queen by Ariel Lawhon A book so shoddily researched and executed that it’s downright insulting. 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22812",
+      "title": "Chuala mé an nuacht brónach go raibh Dónal Lunny imithe ar slí na fírinne. Laoch. Ar dheis Dé go raibh a anam. 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.propublica.org/article/bird-flu-mink-farm-utah-human-risk?utm_source=bluesky&utm_medium=social&utm_campaign=propublica-bsky",
+      "title": "Bird Flu Is Raging on a Mink Farm. It Could Spark a Human Pandemic, Experts Say, but Officials Won’t Act.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://powertonerecords.bandcamp.com/album/sam-deans-good-time-end-times-apocalypse-bbq",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+      "title": "People are using AI to make their smart TVs dumb again | TechCrunch",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://structs.arv.tools",
+      "title": "Structs Docs",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/ten-anti-ai-slop-moves-for-frontend-projects-going-faster-than-humans-can-review",
+      "title": "10 anti-AI slop moves for frontend projects going faster than humans can review—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ritmo.typeonce.dev/",
+      "title": "Ritmo: Type-safe ECS runtime for TypeScript",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://useinstantsearch.com/",
+      "title": "Show HN: Instant – Local AI search with a 95% hit rate (uses Perplexity models)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7kYn2x2Dt_A",
+      "title": "LegalEagle Investigates LG's Wiretapping Liability with GamersNexus [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50214693",
+      "title": "Tell HN: Claude CLI doesn't exit anymore, not even with CTRL-C",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50214199",
+      "title": "Show HN: Robin – Non-algorithmic Twitter client",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://courses.cs.washington.edu/courses/cse452/23wi/papers/yegge-platform-rant.html",
+      "title": "CSE 452: Google's Introduction to Distributed System Design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50214803",
+      "title": "Tell HN: The Amount of Irrelevant Content on Here Is Insane",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://corgi.computer/",
+      "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/alisheryeginbay/amgi",
+      "title": "Show HN: Amgi – Plain-text spaced repetition with FSRS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/423e6b8b-31f5-4ac1-912d-9f53ad42e0b5n%40chromium.org",
+      "title": "Blink:  Intent to Implement and Ship: AccentColor/Text follows accent-color",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://lindsayjferris.substack.com/p/emotional-design-inspiring-mutualism",
+      "title": "Emotional Design: Inspiring mutual symbiosis between human affect and the internet",
+      "reason": "lexicon"
+    }
+  ]
+}

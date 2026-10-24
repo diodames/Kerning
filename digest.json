@@ -1,155 +1,186 @@
 {
-  "generated_at": "2026-10-23T01:28:16.314241+00:00",
+  "generated_at": "2026-10-24T01:33:30.227383+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "22 October 2026",
-      "period_start": "2026-10-22",
-      "period_end": "2026-10-22",
+      "label": "23 October 2026",
+      "period_start": "2026-10-23",
+      "period_end": "2026-10-23",
       "items": [
         {
-          "id": "c49e7f776020",
-          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
-          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+          "id": "f43f6a91f829",
+          "title": "Primer (GitHub) — @primer/react@38.43.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792706136,
+          "created_at_i": 1792770562,
           "sources": [
-            "UX Collective"
+            "Design systems"
           ],
           "sharers": 0,
-          "score": 3.798,
+          "score": 4.611,
           "why": [
-            "editor's pick at UX Collective"
+            "editor's pick at Design systems"
           ]
         },
         {
-          "id": "715488e848ea",
-          "title": "Interfere Design System",
-          "url": "https://design.interfere.com/",
-          "hn": "https://design.interfere.com/",
+          "id": "9f40ceae20fc",
+          "title": "UX Disciplines: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792641840,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "98ae0612de39",
+          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "f8c0550a3fa3",
+          "title": "Apple Music’s new logo was shaped by sound and mineral oil",
+          "url": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+          "hn": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792739182,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.663,
+          "score": 3.393,
           "why": [
             "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "b046014d2a19",
-          "title": "The fastest gun in UX",
-          "url": "https://www.doc.cc/articles/fastest-gun",
-          "hn": "https://www.doc.cc/articles/fastest-gun",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792641900,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.33,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "9be29a91e12d",
-          "title": "Native masonry layouts with CSS grid lanes",
-          "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792682560,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.665,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "c49e7f776020",
-          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
-          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+          "id": "f43f6a91f829",
+          "title": "Primer (GitHub) — @primer/react@38.43.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792706136,
+          "created_at_i": 1792770562,
           "sources": [
-            "UX Collective"
+            "Design systems"
           ],
           "sharers": 0,
-          "score": 3.798,
+          "score": 4.611,
           "why": [
-            "editor's pick at UX Collective"
+            "editor's pick at Design systems"
           ]
         },
         {
-          "id": "715488e848ea",
-          "title": "Interfere Design System",
-          "url": "https://design.interfere.com/",
-          "hn": "https://design.interfere.com/",
+          "id": "9f40ceae20fc",
+          "title": "UX Disciplines: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792641840,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "98ae0612de39",
+          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "f8c0550a3fa3",
+          "title": "Apple Music’s new logo was shaped by sound and mineral oil",
+          "url": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+          "hn": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792739182,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.663,
+          "score": 3.393,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "b046014d2a19",
-          "title": "The fastest gun in UX",
-          "url": "https://www.doc.cc/articles/fastest-gun",
-          "hn": "https://www.doc.cc/articles/fastest-gun",
+          "id": "d053d7081b69",
+          "title": "Accordion Icons: Which Work Best?",
+          "url": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
+          "hn": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792641900,
+          "created_at_i": 1792760400,
           "sources": [
-            "Sidebar"
+            "Smashing Magazine"
           ],
           "sharers": 0,
-          "score": 3.33,
+          "score": 3.201,
           "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at Smashing Magazine"
           ]
         },
         {
-          "id": "9be29a91e12d",
-          "title": "Native masonry layouts with CSS grid lanes",
-          "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
+          "id": "d0b4347c06b9",
+          "title": "I’ve never been as nervous to publish on CSS-Tricks since my first article in 2015.",
+          "url": "https://geoffgraham.me/nervous-to-publish-on-css-tricks/",
+          "hn": "https://bsky.app/profile/geoffgraham.me/post/3mykj27u3ghje",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792682560,
+          "created_at_i": 1792769819,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.665,
+          "score": 1.672,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "piccalil.li"
+            "geoffgraham.me"
           ]
         }
       ]
@@ -182,6 +213,23 @@
           ],
           "authors": [
             "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "f43f6a91f829",
+          "title": "Primer (GitHub) — @primer/react@38.43.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792770562,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.611,
+          "why": [
+            "editor's pick at Design systems"
           ]
         },
         {
@@ -253,19 +301,38 @@
           ]
         },
         {
-          "id": "eb40d45d68e1",
-          "title": "Show HN: Sumi.css – CSS Framework",
-          "url": "https://github.com/vladocar/Sumi.css",
-          "hn": "https://news.ycombinator.com/item?id=50180039",
-          "points": 71,
-          "comments": 18,
-          "created_at_i": 1792587033,
+          "id": "9f40ceae20fc",
+          "title": "UX Disciplines: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792774800,
           "sources": [
-            "Hacker News"
+            "NN/g"
           ],
           "sharers": 0,
-          "score": 3.472,
-          "why": []
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "98ae0612de39",
+          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
         },
         {
           "id": "aae3ff8bcf8b",
@@ -337,46 +404,6 @@
           "authors": [
             "piccalil.li"
           ]
-        },
-        {
-          "id": "9be29a91e12d",
-          "title": "Native masonry layouts with CSS grid lanes",
-          "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792682560,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.665,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
-          ]
-        },
-        {
-          "id": "496af745f9e3",
-          "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
-          "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
-          "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792369840,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.661,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
-          ]
         }
       ],
       "candidates": [
@@ -399,6 +426,23 @@
           ],
           "authors": [
             "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "f43f6a91f829",
+          "title": "Primer (GitHub) — @primer/react@38.43.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792770562,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.611,
+          "why": [
+            "editor's pick at Design systems"
           ]
         },
         {
@@ -467,6 +511,40 @@
           "score": 3.663,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "9f40ceae20fc",
+          "title": "UX Disciplines: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "98ae0612de39",
+          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
           ]
         },
         {
@@ -553,6 +631,23 @@
           ]
         },
         {
+          "id": "f8c0550a3fa3",
+          "title": "Apple Music’s new logo was shaped by sound and mineral oil",
+          "url": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+          "hn": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792739182,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.393,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "b046014d2a19",
           "title": "The fastest gun in UX",
           "url": "https://www.doc.cc/articles/fastest-gun",
@@ -567,6 +662,23 @@
           "score": 3.33,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d053d7081b69",
+          "title": "Accordion Icons: Which Work Best?",
+          "url": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
+          "hn": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792760400,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 3.201,
+          "why": [
+            "editor's pick at Smashing Magazine"
           ]
         },
         {
@@ -659,6 +771,26 @@
           ],
           "authors": [
             "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "d0b4347c06b9",
+          "title": "I’ve never been as nervous to publish on CSS-Tricks since my first article in 2015.",
+          "url": "https://geoffgraham.me/nervous-to-publish-on-css-tricks/",
+          "hn": "https://bsky.app/profile/geoffgraham.me/post/3mykj27u3ghje",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792769819,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.672,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "geoffgraham.me"
           ]
         },
         {
@@ -1151,6 +1283,23 @@
           ],
           "sharers": 0,
           "score": 4.616,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "f43f6a91f829",
+          "title": "Primer (GitHub) — @primer/react@38.43.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792770562,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.611,
           "why": [
             "editor's pick at Design systems"
           ]
@@ -1666,6 +1815,40 @@
           ]
         },
         {
+          "id": "9f40ceae20fc",
+          "title": "UX Disciplines: Glossary",
+          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "98ae0612de39",
+          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792774800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
           "id": "ddce714be723",
           "title": "Illustration Beyond Proof",
           "url": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
@@ -1826,6 +2009,23 @@
           ]
         },
         {
+          "id": "f8c0550a3fa3",
+          "title": "Apple Music’s new logo was shaped by sound and mineral oil",
+          "url": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+          "hn": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792739182,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.393,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "b046014d2a19",
           "title": "The fastest gun in UX",
           "url": "https://www.doc.cc/articles/fastest-gun",
@@ -1908,6 +2108,23 @@
           "score": 3.238,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "d053d7081b69",
+          "title": "Accordion Icons: Which Work Best?",
+          "url": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
+          "hn": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792760400,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 3.201,
+          "why": [
+            "editor's pick at Smashing Magazine"
           ]
         },
         {
@@ -2197,6 +2414,26 @@
           ]
         },
         {
+          "id": "d0b4347c06b9",
+          "title": "I’ve never been as nervous to publish on CSS-Tricks since my first article in 2015.",
+          "url": "https://geoffgraham.me/nervous-to-publish-on-css-tricks/",
+          "hn": "https://bsky.app/profile/geoffgraham.me/post/3mykj27u3ghje",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792769819,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.672,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "geoffgraham.me"
+          ]
+        },
+        {
           "id": "9be29a91e12d",
           "title": "Native masonry layouts with CSS grid lanes",
           "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
@@ -2422,6 +2659,23 @@
       ]
     },
     {
+      "id": "f43f6a91f829",
+      "title": "Primer (GitHub) — @primer/react@38.43.0",
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+      "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792770562,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.611,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
       "id": "2173d7d018fa",
       "title": "Carbon (IBM) — v11.119.0",
       "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
@@ -2490,19 +2744,38 @@
       ]
     },
     {
-      "id": "eb40d45d68e1",
-      "title": "Show HN: Sumi.css – CSS Framework",
-      "url": "https://github.com/vladocar/Sumi.css",
-      "hn": "https://news.ycombinator.com/item?id=50180039",
-      "points": 71,
-      "comments": 18,
-      "created_at_i": 1792587033,
+      "id": "9f40ceae20fc",
+      "title": "UX Disciplines: Glossary",
+      "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792774800,
       "sources": [
-        "Hacker News"
+        "NN/g"
       ],
       "sharers": 0,
-      "score": 3.472,
-      "why": []
+      "score": 3.644,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
+      "id": "98ae0612de39",
+      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1792774800,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.644,
+      "why": [
+        "editor's pick at NN/g"
+      ]
     },
     {
       "id": "aae3ff8bcf8b",
@@ -2573,46 +2846,6 @@
       ],
       "authors": [
         "piccalil.li"
-      ]
-    },
-    {
-      "id": "9be29a91e12d",
-      "title": "Native masonry layouts with CSS grid lanes",
-      "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
-      "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792682560,
-      "sources": [
-        "Bluesky"
-      ],
-      "sharers": 1,
-      "score": 1.665,
-      "why": [
-        "spotted on Bluesky"
-      ],
-      "authors": [
-        "piccalil.li"
-      ]
-    },
-    {
-      "id": "496af745f9e3",
-      "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
-      "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
-      "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792369840,
-      "sources": [
-        "Bluesky"
-      ],
-      "sharers": 1,
-      "score": 1.661,
-      "why": [
-        "spotted on Bluesky"
-      ],
-      "authors": [
-        "ericwbailey.website"
       ]
     }
   ],
