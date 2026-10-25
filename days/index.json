@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24T01:33:30.224062+00:00",
+  "updated_at": "2026-10-25T01:07:15.478809+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -2582,6 +2582,59 @@
         "already_closed": 1,
         "no_title": 2,
         "patch": 1
+      }
+    },
+    "2026-10-24": {
+      "items": [
+        {
+          "id": "d5aaf84f53bd",
+          "title": "Kaelig Deloumeau-Prigent on the State of AI in Design Systems",
+          "url": "https://share.transistor.fm/s/0a28b10b",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3myl6rgga4t2s",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792793148,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.951,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "bradfrost.com"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "d5aaf84f53bd",
+          "title": "Kaelig Deloumeau-Prigent on the State of AI in Design Systems",
+          "url": "https://share.transistor.fm/s/0a28b10b",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3myl6rgga4t2s",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792793148,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.951,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "bradfrost.com"
+          ]
+        }
+      ],
+      "pool": 46,
+      "kept": 1,
+      "dropped": {
+        "below_threshold": 28,
+        "lexicon": 15,
+        "already_closed": 2
       }
     }
   }

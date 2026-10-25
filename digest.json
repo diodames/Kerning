@@ -1,186 +1,53 @@
 {
-  "generated_at": "2026-10-24T01:33:30.227383+00:00",
+  "generated_at": "2026-10-25T01:07:15.483072+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "23 October 2026",
-      "period_start": "2026-10-23",
-      "period_end": "2026-10-23",
+      "label": "24 October 2026",
+      "period_start": "2026-10-24",
+      "period_end": "2026-10-24",
       "items": [
         {
-          "id": "f43f6a91f829",
-          "title": "Primer (GitHub) — @primer/react@38.43.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "id": "d5aaf84f53bd",
+          "title": "Kaelig Deloumeau-Prigent on the State of AI in Design Systems",
+          "url": "https://share.transistor.fm/s/0a28b10b",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3myl6rgga4t2s",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792770562,
+          "created_at_i": 1792793148,
           "sources": [
-            "Design systems"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 4.611,
+          "sharers": 1,
+          "score": 1.951,
           "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "9f40ceae20fc",
-          "title": "UX Disciplines: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792774800,
-          "sources": [
-            "NN/g"
+            "spotted on Bluesky"
           ],
-          "sharers": 0,
-          "score": 3.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "98ae0612de39",
-          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792774800,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "f8c0550a3fa3",
-          "title": "Apple Music’s new logo was shaped by sound and mineral oil",
-          "url": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
-          "hn": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792739182,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.393,
-          "why": [
-            "editor's pick at Sidebar"
+          "authors": [
+            "bradfrost.com"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "f43f6a91f829",
-          "title": "Primer (GitHub) — @primer/react@38.43.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "id": "d5aaf84f53bd",
+          "title": "Kaelig Deloumeau-Prigent on the State of AI in Design Systems",
+          "url": "https://share.transistor.fm/s/0a28b10b",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3myl6rgga4t2s",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792770562,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.611,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "9f40ceae20fc",
-          "title": "UX Disciplines: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792774800,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "98ae0612de39",
-          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792774800,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "f8c0550a3fa3",
-          "title": "Apple Music’s new logo was shaped by sound and mineral oil",
-          "url": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
-          "hn": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792739182,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.393,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "d053d7081b69",
-          "title": "Accordion Icons: Which Work Best?",
-          "url": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
-          "hn": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792760400,
-          "sources": [
-            "Smashing Magazine"
-          ],
-          "sharers": 0,
-          "score": 3.201,
-          "why": [
-            "editor's pick at Smashing Magazine"
-          ]
-        },
-        {
-          "id": "d0b4347c06b9",
-          "title": "I’ve never been as nervous to publish on CSS-Tricks since my first article in 2015.",
-          "url": "https://geoffgraham.me/nervous-to-publish-on-css-tricks/",
-          "hn": "https://bsky.app/profile/geoffgraham.me/post/3mykj27u3ghje",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792769819,
+          "created_at_i": 1792793148,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.672,
+          "score": 1.951,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "geoffgraham.me"
+            "bradfrost.com"
           ]
         }
       ]
@@ -771,6 +638,26 @@
           ],
           "authors": [
             "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "d5aaf84f53bd",
+          "title": "Kaelig Deloumeau-Prigent on the State of AI in Design Systems",
+          "url": "https://share.transistor.fm/s/0a28b10b",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3myl6rgga4t2s",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792793148,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.951,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "bradfrost.com"
           ]
         },
         {
@@ -2351,6 +2238,26 @@
           ],
           "authors": [
             "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "d5aaf84f53bd",
+          "title": "Kaelig Deloumeau-Prigent on the State of AI in Design Systems",
+          "url": "https://share.transistor.fm/s/0a28b10b",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3myl6rgga4t2s",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792793148,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.951,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "bradfrost.com"
           ]
         },
         {

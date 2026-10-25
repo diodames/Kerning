@@ -1,0 +1,237 @@
+{
+  "date": "2026-10-24",
+  "pool": 46,
+  "kept": 1,
+  "dropped": {
+    "below_threshold": 28,
+    "lexicon": 15,
+    "already_closed": 2
+  },
+  "dropped_items": [
+    {
+      "url": "https://ritmo.typeonce.dev/",
+      "title": "Ritmo: Type-safe ECS runtime for TypeScript",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://useinstantsearch.com/",
+      "title": "Show HN: Instant – Local AI search with a 95% hit rate (uses Perplexity models)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7kYn2x2Dt_A",
+      "title": "LegalEagle Investigates LG's Wiretapping Liability with GamersNexus [video]",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50214693",
+      "title": "Tell HN: Claude CLI doesn't exit anymore, not even with CTRL-C",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50214199",
+      "title": "Show HN: Robin – Non-algorithmic Twitter client",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://courses.cs.washington.edu/courses/cse452/23wi/papers/yegge-platform-rant.html",
+      "title": "CSE 452: Google's Introduction to Distributed System Design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50214803",
+      "title": "Tell HN: The Amount of Irrelevant Content on Here Is Insane",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://corgi.computer/",
+      "title": "Show HN: Corgi, a helpful {agent, terminal} multiplexer",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50216053",
+      "title": "Show HN: You Can Just Filter YouTube Playlists in the 'Save to Playlist' Dialog",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/alisheryeginbay/amgi",
+      "title": "Show HN: Amgi – Plain-text spaced repetition with FSRS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "UX Disciplines: Glossary",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/",
+      "title": "AI in UX: Work Is Faster, but Practitioners Have Mixed Feelings",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/423e6b8b-31f5-4ac1-912d-9f53ad42e0b5n%40chromium.org",
+      "title": "Blink:  Intent to Implement and Ship: AccentColor/Text follows accent-color",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://lindsayjferris.substack.com/p/emotional-design-inspiring-mutualism",
+      "title": "Emotional Design: Inspiring mutual symbiosis between human affect and the internet",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://gasfree.app/",
+      "title": "Show HN: Gasfree.app a Rack of Synthetizers in the Browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tabletopwhale.com",
+      "title": "Tabletop Whale is an original science illustration blog",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/wheresryan22/anatomy",
+      "title": "Agent skill for creating isometric illustrations",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50217244",
+      "title": "In the world AI, will individual apps become obsolete?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.neil-scott.com/localwiki",
+      "title": "Local Wiki",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://vrchat.com/home/world/wrld_62e83963-dff0-40b1-915c-73ee08b9765e/info",
+      "title": "Anthrocon 2026 as 360° photos by Matrices",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50219717",
+      "title": "Flow-state induction via raw mouse input (a working biohacking protocol)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50219838",
+      "title": "I'm creating my own OS system. Please rate this. There's a lot written in C",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5laDGy4INB0",
+      "title": "iPhone Duo Durability: Destroyed [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://nerdy.dev/www-ep256-denver-cramer-glassware",
+      "title": "Designing Whiskey Glasses with Denver Cramer · October 21, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.uxness.in/2026/10/ux-research-for-ai-products-ai-native-research-lifecycle.html",
+      "title": "UX Research for AI Products: The AI-Native Research Lifecycle",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://torrentfreak.com/two-u-s-site-blocking-bills-compete-over-vpn-rules-and-isp-liability/",
+      "title": "Two U.S. Site-Blocking Bills Compete over VPN Rules and ISP Liability",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/shinshin86/mesh-avatar-studio",
+      "title": "Turn a single illustration into an animated 2D avatar: Mesh Avatar Studio",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50220917",
+      "title": "Bring arc features to any browser. Here's how.",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+      "title": "This week's \"node2shell\" Brotli vulnerability (CVE-2026-111497) is exploitable in Python, other consumers of Brotli",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://prospect.org/2026/10/23/trump-administration-may-have-just-lied-to-judge-about-ice-flight-to-equatorial-guinea/",
+      "title": "The Trump Administration May Have Just Lied to Judge About an ICE flight to Equatorial Guinea - The American Prospect",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://static.klipy.com/ii/c3a19a0b747a76e98651f2b9a3cca5ff/dd/85/lsBbHkGM.gif?hh=280&ww=498&mp4=JBxITcGoQ1bKkb&webm=gBJ7g1uwDd2PpZhlVJ",
+      "title": "Busted Arrest with Police Lights",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-negotiating-a-lowball",
+      "title": "🧠 Community Wisdom: Negotiating a lowball offer, designers earning a seat in product decisions, resources for building an MCP server, and more",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50222517",
+      "title": "Game trips modem/router breaker",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.dexerto.com/entertainment/apples-iphone-duo-fails-jerryrigeverythings-durability-test-3421515/",
+      "title": "Apple's iPhone Duo fails JerryRigEverything's durability test",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://essaypod.com/",
+      "title": "Show HN: A Platform to Find Essays, personally recommended to you",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://workspaceupdates.googleblog.com/2026/10/video-tile-pairing-is-now-available-on-Google-Meet-mobile-to-improve-accessibility-for-users-and-language-interpreters.html",
+      "title": "Google Meet's mobile tile pairing for language interpreters",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/orisuji/id6817092898",
+      "title": "Show HN: Orisuji, a maze you solve by folding your phone",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50223730",
+      "title": "Ask HN: Windows Signing for FOSS Projects",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50222792",
+      "title": "Ask HN: Indie Game Recommendations?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.uxness.in/2026/08/top-ux-conferences-to-attend-in-2027.html",
+      "title": "Which AI in UX or HCI conference is in your radar for 2027?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/swrdfish/narro",
+      "title": "Show HN: Narro – Read web pages and Kindle books using local AI voices",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://kat-assessment.com/",
+      "title": "Show HN: A client-side adaptive cognitive test measuring micro-hesitations",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/gtanczyk/genaicode",
+      "title": "Show HN: Claude Code(and others) embedded in your app",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/21/the-experiment-channel-four-tv-review-uk-nazi-disability",
+      "title": "The Experiment review – easily the most disturbing thing on British TV",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.democracydocket.com/news-alerts/trump-appointed-judge-delivers-doj-its-27th-straight-loss-in-voter-roll-crusade/",
+      "title": "Trump-appointed judge delivers DOJ its 27th straight loss in voter roll crusade",
+      "reason": "lexicon"
+    }
+  ]
+}
