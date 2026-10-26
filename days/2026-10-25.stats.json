@@ -1,0 +1,192 @@
+{
+  "date": "2026-10-25",
+  "pool": 37,
+  "kept": 1,
+  "dropped": {
+    "below_threshold": 19,
+    "lexicon": 13,
+    "no_title": 4
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.uxness.in/2026/08/top-ux-conferences-to-attend-in-2027.html",
+      "title": "Which AI in UX or HCI conference is in your radar for 2027?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/swrdfish/narro",
+      "title": "Show HN: Narro – Read web pages and Kindle books using local AI voices",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://kat-assessment.com/",
+      "title": "Show HN: A client-side adaptive cognitive test measuring micro-hesitations",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/gtanczyk/genaicode",
+      "title": "Show HN: Claude Code(and others) embedded in your app",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/tv-and-radio/2026/oct/21/the-experiment-channel-four-tv-review-uk-nazi-disability",
+      "title": "The Experiment review – easily the most disturbing thing on British TV",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.democracydocket.com/news-alerts/trump-appointed-judge-delivers-doj-its-27th-straight-loss-in-voter-roll-crusade/",
+      "title": "Trump-appointed judge delivers DOJ its 27th straight loss in voter roll crusade",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://deepsearch.ing/",
+      "title": "Show HN: DeepSearch – Search engine built on DeepSeek API",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://huggingface.co/destined/hurston-1",
+      "title": "Show HN: Hurston-1 open source TTS that speak Southern American and Afro-English",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50227527",
+      "title": "Show HN: ReVault – new secure archive format",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://tinyurl.com/ideacourses",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://github.com/Tomotsugu-dev/Hindsight",
+      "title": "Show HN: Hindsight – Lightweight, elegant, open-source tracker for Windows/macOS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50229493",
+      "title": "Ask HN: Are people aware OpenAI Dots intercept SSL?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Cliff-Lee/melodex",
+      "title": "Show HN: Music player for visually exploring music collection",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ikrishg.github.io/reseter.css/",
+      "title": "Reseter.css 3.0 brings a major overhaul to the lightweight CSS reset library",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://diaridigital.urv.cat/en/researchers-identify-the-main-factors-in-pornography-use-among-adolescents/",
+      "title": "Researchers identify the main factors in pornography use among adolescents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Nutlope/hallmark",
+      "title": "The design skill that ends AI slop",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.vincentschmalbach.com/if-ai-can-copy-photoshop-why-build-the-next-figma/",
+      "title": "If AI Can Copy Photoshop, Why Would Anyone Build the Next Figma?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://usedolly.dev/",
+      "title": "Dolly – scroll animations in plain CSS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/document/complex-singularity-versus-openness",
+      "title": "Open source impeded by inconsistencies in the Office Open XML document format",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/nobody-asked-for-the-sparkle-button-ae54ab5065c6?source=rss----138adf9c44c---4",
+      "title": "Nobody asked for the sparkle button",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/where-to-draw-the-line-before-ai-reaches-professional-users-09d61f61b2b5?source=rss----138adf9c44c---4",
+      "title": "Where to draw the line before AI reaches professional users",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22814",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://macwright.com",
+      "title": "macwright.com",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://observablehq.com/@christophe-yamahata/pallweber-jumping-minute-mechanism",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+      "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/szabadkai/Ajazz-C64-Keycaps",
+      "title": "3D printable Commodore 64 keycaps, with a font recreated from my C64",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50233576",
+      "title": "I'm creating my own OS, check it out, LimonOs no Unix no Linux",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/gantoine/muxer/",
+      "title": "Show HN: Muxer – Control cmux terminals from Android",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50234850",
+      "title": "How to promote my non-profit edtech platform?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://getrad.dev",
+      "title": "Show HN: Radian, an agent puts development workflow on autopilot",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://optio.host/",
+      "title": "Show HN: Optio – A self-hosted orchestration platform for AI agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://boxd.it/gXOE6H",
+      "title": "A ★★★★ review of The Black Cat (1934)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://us.denverandliely.com/products/bourbon-glass?sca_ref=11380845.Q6g3OQSQfE33QcHH",
+      "title": "Deadpool falling into the bourbon glass from Denver's brand, so rad us.denverandliely.com/products/bou...",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.proofofconcept.pub/p/working-at-atlassian",
+      "title": "Working at Atlassian",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://lobste.rs",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://placemark.io",
+      "title": "placemark.io supports sharing maps again. this time, using atproto. try it out! let me know what you think!",
+      "reason": "lexicon"
+    }
+  ]
+}

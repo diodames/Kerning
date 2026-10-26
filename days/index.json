@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-25T01:07:15.478809+00:00",
+  "updated_at": "2026-10-26T01:07:34.612012+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -2635,6 +2635,53 @@
         "below_threshold": 28,
         "lexicon": 15,
         "already_closed": 2
+      }
+    },
+    "2026-10-25": {
+      "items": [
+        {
+          "id": "b2569539eace",
+          "title": "The context advantage of human UX",
+          "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792931643,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.498,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "b2569539eace",
+          "title": "The context advantage of human UX",
+          "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1792931643,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.498,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        }
+      ],
+      "pool": 37,
+      "kept": 1,
+      "dropped": {
+        "below_threshold": 19,
+        "lexicon": 13,
+        "no_title": 4
       }
     }
   }
