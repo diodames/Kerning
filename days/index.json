@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T01:07:34.612012+00:00",
+  "updated_at": "2026-10-27T02:02:36.148484+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -2682,6 +2682,266 @@
         "below_threshold": 19,
         "lexicon": 13,
         "no_title": 4
+      }
+    },
+    "2026-10-26": {
+      "items": [
+        {
+          "id": "fb4e0f430939",
+          "title": "CSS-Tricks has a new owner! | CSS-Tricks",
+          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+          "hn": "https://news.ycombinator.com/item?id=50245831",
+          "points": 375,
+          "comments": 89,
+          "created_at_i": 1793028656,
+          "sources": [
+            "Hacker News",
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 5,
+          "score": 15.853,
+          "why": [
+            "picked up by Hacker News and Lobsters and Bluesky",
+            "shared by 5 design accounts",
+            "375 points"
+          ],
+          "authors": [
+            "geoffgraham.me",
+            "joshwcomeau.com",
+            "rachelandrew.co.uk",
+            "sarasoueidan.com",
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "5e1b5156704d",
+          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793050396,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 5.086,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "7d41353edb72",
+          "title": "Taking Back CSS-Tricks",
+          "url": "https://wil.to/posts/taking-back-css-tricks/",
+          "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793029438,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.367,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "geoffgraham.me",
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "9a6c9d4d1215",
+          "title": "Craftwork: UI made by real designers",
+          "url": "https://craftwork.design/?ref=sidebar",
+          "hn": "https://craftwork.design/?ref=sidebar",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793002500,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.73,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "fb4e0f430939",
+          "title": "CSS-Tricks has a new owner! | CSS-Tricks",
+          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+          "hn": "https://news.ycombinator.com/item?id=50245831",
+          "points": 375,
+          "comments": 89,
+          "created_at_i": 1793028656,
+          "sources": [
+            "Hacker News",
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 5,
+          "score": 15.853,
+          "why": [
+            "picked up by Hacker News and Lobsters and Bluesky",
+            "shared by 5 design accounts",
+            "375 points"
+          ],
+          "authors": [
+            "geoffgraham.me",
+            "joshwcomeau.com",
+            "rachelandrew.co.uk",
+            "sarasoueidan.com",
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "5e1b5156704d",
+          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793050396,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 5.086,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "7d41353edb72",
+          "title": "Taking Back CSS-Tricks",
+          "url": "https://wil.to/posts/taking-back-css-tricks/",
+          "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793029438,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.367,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "geoffgraham.me",
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "9a6c9d4d1215",
+          "title": "Craftwork: UI made by real designers",
+          "url": "https://craftwork.design/?ref=sidebar",
+          "hn": "https://craftwork.design/?ref=sidebar",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793002500,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.73,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "a5e4e8a1948a",
+          "title": "Intent Design System",
+          "url": "https://intentapp.dev/design-system?dark-mode=",
+          "hn": "https://intentapp.dev/design-system?dark-mode=",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793002220,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.728,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "1291176c17f8",
+          "title": "KibernetykMono – A Geometric Monospace Typeface",
+          "url": "https://pavlokilko.github.io/KibernetykMono/",
+          "hn": "https://news.ycombinator.com/item?id=50244265",
+          "points": 30,
+          "comments": 3,
+          "created_at_i": 1793024696,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.368,
+          "why": []
+        },
+        {
+          "id": "351e666c511b",
+          "title": "Literallyeveryfont: Every font on the internet, free for personal use",
+          "url": "https://www.literallyeveryfont.com/",
+          "hn": "https://news.ycombinator.com/item?id=50250087",
+          "points": 20,
+          "comments": 0,
+          "created_at_i": 1793044985,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.296,
+          "why": []
+        },
+        {
+          "id": "19a7287ac228",
+          "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793026853,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.228,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "57f3af44f1ef",
+          "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+          "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+          "hn": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793016260,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.152,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        }
+      ],
+      "pool": 64,
+      "kept": 4,
+      "dropped": {
+        "no_title": 2,
+        "lexicon": 26,
+        "below_threshold": 27
       }
     }
   }

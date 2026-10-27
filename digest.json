@@ -1,754 +1,520 @@
 {
-  "generated_at": "2026-10-26T01:07:34.615228+00:00",
+  "generated_at": "2026-10-27T02:02:36.151118+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "25 October 2026",
-      "period_start": "2026-10-25",
-      "period_end": "2026-10-25",
+      "label": "26 October 2026",
+      "period_start": "2026-10-26",
+      "period_end": "2026-10-26",
       "items": [
         {
-          "id": "b2569539eace",
-          "title": "The context advantage of human UX",
-          "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
+          "id": "fb4e0f430939",
+          "title": "CSS-Tricks has a new owner! | CSS-Tricks",
+          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+          "hn": "https://news.ycombinator.com/item?id=50245831",
+          "points": 375,
+          "comments": 89,
+          "created_at_i": 1793028656,
+          "sources": [
+            "Hacker News",
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 5,
+          "score": 15.853,
+          "why": [
+            "picked up by Hacker News and Lobsters and Bluesky",
+            "shared by 5 design accounts",
+            "375 points"
+          ],
+          "authors": [
+            "geoffgraham.me",
+            "joshwcomeau.com",
+            "rachelandrew.co.uk",
+            "sarasoueidan.com",
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "5e1b5156704d",
+          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792931643,
+          "created_at_i": 1793050396,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.498,
+          "score": 5.086,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "7d41353edb72",
+          "title": "Taking Back CSS-Tricks",
+          "url": "https://wil.to/posts/taking-back-css-tricks/",
+          "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793029438,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.367,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "geoffgraham.me",
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "9a6c9d4d1215",
+          "title": "Craftwork: UI made by real designers",
+          "url": "https://craftwork.design/?ref=sidebar",
+          "hn": "https://craftwork.design/?ref=sidebar",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793002500,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.73,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "b2569539eace",
-          "title": "The context advantage of human UX",
-          "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
+          "id": "fb4e0f430939",
+          "title": "CSS-Tricks has a new owner! | CSS-Tricks",
+          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+          "hn": "https://news.ycombinator.com/item?id=50245831",
+          "points": 375,
+          "comments": 89,
+          "created_at_i": 1793028656,
+          "sources": [
+            "Hacker News",
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 5,
+          "score": 15.853,
+          "why": [
+            "picked up by Hacker News and Lobsters and Bluesky",
+            "shared by 5 design accounts",
+            "375 points"
+          ],
+          "authors": [
+            "geoffgraham.me",
+            "joshwcomeau.com",
+            "rachelandrew.co.uk",
+            "sarasoueidan.com",
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "5e1b5156704d",
+          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792931643,
+          "created_at_i": 1793050396,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.498,
+          "score": 5.086,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "7d41353edb72",
+          "title": "Taking Back CSS-Tricks",
+          "url": "https://wil.to/posts/taking-back-css-tricks/",
+          "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793029438,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.367,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "geoffgraham.me",
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "9a6c9d4d1215",
+          "title": "Craftwork: UI made by real designers",
+          "url": "https://craftwork.design/?ref=sidebar",
+          "hn": "https://craftwork.design/?ref=sidebar",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793002500,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.73,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "a5e4e8a1948a",
+          "title": "Intent Design System",
+          "url": "https://intentapp.dev/design-system?dark-mode=",
+          "hn": "https://intentapp.dev/design-system?dark-mode=",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793002220,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.728,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "1291176c17f8",
+          "title": "KibernetykMono – A Geometric Monospace Typeface",
+          "url": "https://pavlokilko.github.io/KibernetykMono/",
+          "hn": "https://news.ycombinator.com/item?id=50244265",
+          "points": 30,
+          "comments": 3,
+          "created_at_i": 1793024696,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.368,
+          "why": []
+        },
+        {
+          "id": "351e666c511b",
+          "title": "Literallyeveryfont: Every font on the internet, free for personal use",
+          "url": "https://www.literallyeveryfont.com/",
+          "hn": "https://news.ycombinator.com/item?id=50250087",
+          "points": 20,
+          "comments": 0,
+          "created_at_i": 1793044985,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.296,
+          "why": []
+        },
+        {
+          "id": "19a7287ac228",
+          "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793026853,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.228,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "57f3af44f1ef",
+          "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+          "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+          "hn": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793016260,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.152,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
           ]
         }
       ]
     },
     "weekly": {
-      "label": "19–25 October 2026",
-      "period_start": "2026-10-19",
-      "period_end": "2026-10-25",
-      "week_start": "2026-10-19",
-      "week_end": "2026-10-25",
-      "week_label": "19–25 October 2026",
-      "iso_week": "2026-W43",
+      "label": "26 October – 1 November 2026",
+      "period_start": "2026-10-26",
+      "period_end": "2026-11-01",
+      "week_start": "2026-10-26",
+      "week_end": "2026-11-01",
+      "week_label": "26 October – 1 November 2026",
+      "iso_week": "2026-W44",
       "items": [
         {
-          "id": "f1e66fdacb8a",
-          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
-          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
-          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3myd4l5q55s2y",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792490400,
+          "id": "fb4e0f430939",
+          "title": "CSS-Tricks has a new owner! | CSS-Tricks",
+          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+          "hn": "https://news.ycombinator.com/item?id=50245831",
+          "points": 375,
+          "comments": 89,
+          "created_at_i": 1793028656,
           "sources": [
-            "Smashing Magazine",
+            "Hacker News",
+            "Lobsters",
             "Bluesky"
           ],
-          "sharers": 1,
-          "score": 6.527,
+          "sharers": 5,
+          "score": 15.853,
           "why": [
-            "picked up by Smashing Magazine and Bluesky"
+            "picked up by Hacker News and Lobsters and Bluesky",
+            "shared by 5 design accounts",
+            "375 points"
           ],
           "authors": [
-            "smashingmagazine.com"
+            "geoffgraham.me",
+            "joshwcomeau.com",
+            "rachelandrew.co.uk",
+            "sarasoueidan.com",
+            "ericwbailey.website"
           ]
         },
         {
-          "id": "f43f6a91f829",
-          "title": "Primer (GitHub) — @primer/react@38.43.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+          "id": "5e1b5156704d",
+          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792770562,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.611,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "2173d7d018fa",
-          "title": "Carbon (IBM) — v11.119.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792565454,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.388,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "80ceede0d016",
-          "title": "UX designers are not designing interfaces, they design personalities",
-          "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792408332,
+          "created_at_i": 1793050396,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.822,
+          "score": 5.086,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "c49e7f776020",
-          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
-          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+          "id": "7d41353edb72",
+          "title": "Taking Back CSS-Tricks",
+          "url": "https://wil.to/posts/taking-back-css-tricks/",
+          "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792706136,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.798,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "715488e848ea",
-          "title": "Interfere Design System",
-          "url": "https://design.interfere.com/",
-          "hn": "https://design.interfere.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792641840,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.663,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "9f40ceae20fc",
-          "title": "UX Disciplines: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792774800,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "98ae0612de39",
-          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792774800,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "aae3ff8bcf8b",
-          "title": "State of Ecommerce Accessibility 2026",
-          "url": "https://davedavies.dev/state-of-ecommerce-accessibility/",
-          "hn": "https://davedavies.dev/state-of-ecommerce-accessibility/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792487199,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.439,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "efbd4ed39044",
-          "title": "Logo.dev MCP server",
-          "url": "https://www.logo.dev/docs/mcp/introduction",
-          "hn": "https://www.logo.dev/docs/mcp/introduction",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792487142,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.438,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "3f5b0ec5e9f0",
-          "title": "A simple guide to calm UI",
-          "url": "https://maxschmitt.me/posts/calm",
-          "hn": "https://maxschmitt.me/posts/calm",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792571167,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.423,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "6a453cfb00e7",
-          "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
-          "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792422229,
+          "created_at_i": 1793029438,
           "sources": [
             "Bluesky"
           ],
-          "sharers": 1,
-          "score": 2.323,
+          "sharers": 2,
+          "score": 4.367,
           "why": [
-            "spotted on Bluesky"
+            "shared by 2 design accounts"
           ],
           "authors": [
-            "piccalil.li"
+            "geoffgraham.me",
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "9a6c9d4d1215",
+          "title": "Craftwork: UI made by real designers",
+          "url": "https://craftwork.design/?ref=sidebar",
+          "hn": "https://craftwork.design/?ref=sidebar",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793002500,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.73,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "f1e66fdacb8a",
-          "title": "Embracing Playful Imperfection With The CSS `random()` Function",
-          "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
-          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3myd4l5q55s2y",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792490400,
+          "id": "fb4e0f430939",
+          "title": "CSS-Tricks has a new owner! | CSS-Tricks",
+          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+          "hn": "https://news.ycombinator.com/item?id=50245831",
+          "points": 375,
+          "comments": 89,
+          "created_at_i": 1793028656,
           "sources": [
-            "Smashing Magazine",
+            "Hacker News",
+            "Lobsters",
             "Bluesky"
           ],
-          "sharers": 1,
-          "score": 6.527,
+          "sharers": 5,
+          "score": 15.853,
           "why": [
-            "picked up by Smashing Magazine and Bluesky"
+            "picked up by Hacker News and Lobsters and Bluesky",
+            "shared by 5 design accounts",
+            "375 points"
           ],
           "authors": [
-            "smashingmagazine.com"
-          ]
-        },
-        {
-          "id": "f43f6a91f829",
-          "title": "Primer (GitHub) — @primer/react@38.43.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792770562,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.611,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "2173d7d018fa",
-          "title": "Carbon (IBM) — v11.119.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792565454,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.388,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "80ceede0d016",
-          "title": "UX designers are not designing interfaces, they design personalities",
-          "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792408332,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.822,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "c49e7f776020",
-          "title": "Buy vs. build is now also a UX decision, especially in enterprise",
-          "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792706136,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.798,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "715488e848ea",
-          "title": "Interfere Design System",
-          "url": "https://design.interfere.com/",
-          "hn": "https://design.interfere.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792641840,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.663,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "9f40ceae20fc",
-          "title": "UX Disciplines: Glossary",
-          "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792774800,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "98ae0612de39",
-          "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-          "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792774800,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "b2569539eace",
-          "title": "The context advantage of human UX",
-          "url": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/the-context-advantage-of-human-ux-design-thinking-39883603c337?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792931643,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.498,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "eb40d45d68e1",
-          "title": "Show HN: Sumi.css – CSS Framework",
-          "url": "https://github.com/vladocar/Sumi.css",
-          "hn": "https://news.ycombinator.com/item?id=50180039",
-          "points": 71,
-          "comments": 18,
-          "created_at_i": 1792587033,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.472,
-          "why": []
-        },
-        {
-          "id": "06bbc6c9902e",
-          "title": "Let AI have the average user: Why User Research should focus on bad days",
-          "url": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/let-ai-have-the-average-user-why-user-research-should-focus-on-bad-days-e7bba55f855f?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792531852,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.451,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "aae3ff8bcf8b",
-          "title": "State of Ecommerce Accessibility 2026",
-          "url": "https://davedavies.dev/state-of-ecommerce-accessibility/",
-          "hn": "https://davedavies.dev/state-of-ecommerce-accessibility/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792487199,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.439,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "efbd4ed39044",
-          "title": "Logo.dev MCP server",
-          "url": "https://www.logo.dev/docs/mcp/introduction",
-          "hn": "https://www.logo.dev/docs/mcp/introduction",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792487142,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.438,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "3f5b0ec5e9f0",
-          "title": "A simple guide to calm UI",
-          "url": "https://maxschmitt.me/posts/calm",
-          "hn": "https://maxschmitt.me/posts/calm",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792571167,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.423,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "f8c0550a3fa3",
-          "title": "Apple Music’s new logo was shaped by sound and mineral oil",
-          "url": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
-          "hn": "https://www.creativeboom.com/news/apple-musics-new-logo-was-shaped-by-fred-again-and-a-bath-of-mineral-oil/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792739182,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.393,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "b046014d2a19",
-          "title": "The fastest gun in UX",
-          "url": "https://www.doc.cc/articles/fastest-gun",
-          "hn": "https://www.doc.cc/articles/fastest-gun",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792641900,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.33,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "d053d7081b69",
-          "title": "Accordion Icons: Which Work Best?",
-          "url": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
-          "hn": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792760400,
-          "sources": [
-            "Smashing Magazine"
-          ],
-          "sharers": 0,
-          "score": 3.201,
-          "why": [
-            "editor's pick at Smashing Magazine"
-          ]
-        },
-        {
-          "id": "ccff1dda2253",
-          "title": "Beautiful icons that make products feel premium",
-          "url": "https://bit.ly/side-hug1",
-          "hn": "https://bit.ly/side-hug1",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792386660,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.019,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "61ab5aa73669",
-          "title": "Ask HN: Dark mode for HN please? (2026)",
-          "url": "https://news.ycombinator.com/item?id=50160116",
-          "hn": "https://news.ycombinator.com/item?id=50160116",
-          "points": 22,
-          "comments": 11,
-          "created_at_i": 1792458580,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.965,
-          "why": []
-        },
-        {
-          "id": "6a453cfb00e7",
-          "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
-          "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792422229,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.323,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
-          ]
-        },
-        {
-          "id": "0686dca86324",
-          "title": "Figma Tips and Shortcuts I Wish I Knew Earlier",
-          "url": "https://automattic.design/2026/10/19/figma-tips-and-shortcuts-i-wish-i-knew-earlier/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mycjg4iblk2x",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792495342,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.227,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "zeldman.bsky.social"
-          ]
-        },
-        {
-          "id": "702fc3376d34",
-          "title": "The Accessibility Compat Data project has a homepage now, and you should support the project",
-          "url": "https://ericwbailey.website/published/the-accessibility-compat-data-project-has-a-homepage-now-and-you-should-support-the-project/",
-          "hn": "https://bsky.app/profile/ericwbailey.website/post/3mydarjlxks2m",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792520421,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.084,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
+            "geoffgraham.me",
+            "joshwcomeau.com",
+            "rachelandrew.co.uk",
+            "sarasoueidan.com",
             "ericwbailey.website"
           ]
         },
         {
-          "id": "d5aaf84f53bd",
-          "title": "Kaelig Deloumeau-Prigent on the State of AI in Design Systems",
-          "url": "https://share.transistor.fm/s/0a28b10b",
-          "hn": "https://bsky.app/profile/bradfrost.com/post/3myl6rgga4t2s",
+          "id": "5e1b5156704d",
+          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792793148,
+          "created_at_i": 1793050396,
           "sources": [
-            "Bluesky"
+            "UX Collective"
           ],
-          "sharers": 1,
-          "score": 1.951,
+          "sharers": 0,
+          "score": 5.086,
           "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "bradfrost.com"
+            "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "d0b4347c06b9",
-          "title": "I’ve never been as nervous to publish on CSS-Tricks since my first article in 2015.",
-          "url": "https://geoffgraham.me/nervous-to-publish-on-css-tricks/",
-          "hn": "https://bsky.app/profile/geoffgraham.me/post/3mykj27u3ghje",
+          "id": "7d41353edb72",
+          "title": "Taking Back CSS-Tricks",
+          "url": "https://wil.to/posts/taking-back-css-tricks/",
+          "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792769819,
+          "created_at_i": 1793029438,
           "sources": [
             "Bluesky"
           ],
-          "sharers": 1,
-          "score": 1.672,
+          "sharers": 2,
+          "score": 4.367,
           "why": [
-            "spotted on Bluesky"
+            "shared by 2 design accounts"
           ],
           "authors": [
-            "geoffgraham.me"
+            "geoffgraham.me",
+            "joshwcomeau.com"
           ]
         },
         {
-          "id": "9be29a91e12d",
-          "title": "Native masonry layouts with CSS grid lanes",
-          "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
+          "id": "9a6c9d4d1215",
+          "title": "Craftwork: UI made by real designers",
+          "url": "https://craftwork.design/?ref=sidebar",
+          "hn": "https://craftwork.design/?ref=sidebar",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792682560,
+          "created_at_i": 1793002500,
           "sources": [
-            "Bluesky"
+            "Sidebar"
           ],
-          "sharers": 1,
-          "score": 1.665,
+          "sharers": 0,
+          "score": 3.73,
           "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
+            "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "496af745f9e3",
-          "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
-          "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
-          "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
+          "id": "a5e4e8a1948a",
+          "title": "Intent Design System",
+          "url": "https://intentapp.dev/design-system?dark-mode=",
+          "hn": "https://intentapp.dev/design-system?dark-mode=",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792369840,
+          "created_at_i": 1793002220,
           "sources": [
-            "Bluesky"
+            "Sidebar"
           ],
-          "sharers": 1,
-          "score": 1.661,
+          "sharers": 0,
+          "score": 3.728,
           "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
+            "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "e6c9392ea967",
-          "title": "Newsletters | CSS-Tricks",
-          "url": "https://css-tricks.com/newsletters/",
-          "hn": "https://bsky.app/profile/geoffgraham.me/post/3myb5yuh26s2o",
+          "id": "1291176c17f8",
+          "title": "KibernetykMono – A Geometric Monospace Typeface",
+          "url": "https://pavlokilko.github.io/KibernetykMono/",
+          "hn": "https://news.ycombinator.com/item?id=50244265",
+          "points": 30,
+          "comments": 3,
+          "created_at_i": 1793024696,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.368,
+          "why": []
+        },
+        {
+          "id": "351e666c511b",
+          "title": "Literallyeveryfont: Every font on the internet, free for personal use",
+          "url": "https://www.literallyeveryfont.com/",
+          "hn": "https://news.ycombinator.com/item?id=50250087",
+          "points": 20,
+          "comments": 0,
+          "created_at_i": 1793044985,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.296,
+          "why": []
+        },
+        {
+          "id": "19a7287ac228",
+          "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1792448726,
+          "created_at_i": 1793026853,
           "sources": [
-            "Bluesky"
+            "Lenny's Newsletter"
           ],
-          "sharers": 1,
-          "score": 1.29,
+          "sharers": 0,
+          "score": 3.228,
           "why": [
-            "spotted on Bluesky"
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "57f3af44f1ef",
+          "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+          "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+          "hn": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793016260,
+          "sources": [
+            "Lenny's Newsletter"
           ],
-          "authors": [
-            "geoffgraham.me"
+          "sharers": 0,
+          "score": 3.152,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
           ]
         }
       ]
@@ -758,6 +524,34 @@
       "period_start": "2026-10-01",
       "period_end": "2026-10-31",
       "items": [
+        {
+          "id": "fb4e0f430939",
+          "title": "CSS-Tricks has a new owner! | CSS-Tricks",
+          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+          "hn": "https://news.ycombinator.com/item?id=50245831",
+          "points": 375,
+          "comments": 89,
+          "created_at_i": 1793028656,
+          "sources": [
+            "Hacker News",
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 5,
+          "score": 15.853,
+          "why": [
+            "picked up by Hacker News and Lobsters and Bluesky",
+            "shared by 5 design accounts",
+            "375 points"
+          ],
+          "authors": [
+            "geoffgraham.me",
+            "joshwcomeau.com",
+            "rachelandrew.co.uk",
+            "sarasoueidan.com",
+            "ericwbailey.website"
+          ]
+        },
         {
           "id": "651aa80e0d5f",
           "title": "Improving site performance by shipping more CSS",
@@ -837,6 +631,23 @@
           "score": 6.176,
           "why": [
             "picked up by Lobsters and Hacker News"
+          ]
+        },
+        {
+          "id": "5e1b5156704d",
+          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793050396,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 5.086,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -944,43 +755,37 @@
           "why": [
             "editor's pick at UX Collective"
           ]
-        },
-        {
-          "id": "8ca2633994ab",
-          "title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
-          "url": "https://twitter.com/GayaniFigma/status/2105295629941350454",
-          "hn": "https://news.ycombinator.com/item?id=49922729",
-          "points": 189,
-          "comments": 106,
-          "created_at_i": 1790867446,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.492,
-          "why": [
-            "189 points"
-          ]
-        },
-        {
-          "id": "dbbcfa91bf13",
-          "title": "AI-generated UI, What the AI era owes you, Amazing Glass, Jev for UX",
-          "url": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ai-generated-ui-what-the-ai-era-owes-you-amazing-glass-jev-for-ux-22f8393c4cc6?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791796073,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 4.439,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
         }
       ],
       "candidates": [
+        {
+          "id": "fb4e0f430939",
+          "title": "CSS-Tricks has a new owner! | CSS-Tricks",
+          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+          "hn": "https://news.ycombinator.com/item?id=50245831",
+          "points": 375,
+          "comments": 89,
+          "created_at_i": 1793028656,
+          "sources": [
+            "Hacker News",
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 5,
+          "score": 15.853,
+          "why": [
+            "picked up by Hacker News and Lobsters and Bluesky",
+            "shared by 5 design accounts",
+            "375 points"
+          ],
+          "authors": [
+            "geoffgraham.me",
+            "joshwcomeau.com",
+            "rachelandrew.co.uk",
+            "sarasoueidan.com",
+            "ericwbailey.website"
+          ]
+        },
         {
           "id": "651aa80e0d5f",
           "title": "Improving site performance by shipping more CSS",
@@ -1060,6 +865,23 @@
           "score": 6.176,
           "why": [
             "picked up by Lobsters and Hacker News"
+          ]
+        },
+        {
+          "id": "5e1b5156704d",
+          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793050396,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 5.086,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -1424,6 +1246,27 @@
           ]
         },
         {
+          "id": "7d41353edb72",
+          "title": "Taking Back CSS-Tricks",
+          "url": "https://wil.to/posts/taking-back-css-tricks/",
+          "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793029438,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.367,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "geoffgraham.me",
+            "joshwcomeau.com"
+          ]
+        },
+        {
           "id": "9bf10d7cab68",
           "title": "Show HN: Opus 5.5 made a fully featured Figma clone in 3 hours / 8 prompts",
           "url": "https://www.mana.space/home/rZfbotNWAXegQypmpkzaAPFC6Mp1/Apps/Figma%20Next%20Launch",
@@ -1674,6 +1517,40 @@
           ],
           "sharers": 0,
           "score": 3.736,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "9a6c9d4d1215",
+          "title": "Craftwork: UI made by real designers",
+          "url": "https://craftwork.design/?ref=sidebar",
+          "hn": "https://craftwork.design/?ref=sidebar",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793002500,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.73,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "a5e4e8a1948a",
+          "title": "Intent Design System",
+          "url": "https://intentapp.dev/design-system?dark-mode=",
+          "hn": "https://intentapp.dev/design-system?dark-mode=",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793002220,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.728,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -1941,6 +1818,21 @@
           ]
         },
         {
+          "id": "1291176c17f8",
+          "title": "KibernetykMono – A Geometric Monospace Typeface",
+          "url": "https://pavlokilko.github.io/KibernetykMono/",
+          "hn": "https://news.ycombinator.com/item?id=50244265",
+          "points": 30,
+          "comments": 3,
+          "created_at_i": 1793024696,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.368,
+          "why": []
+        },
+        {
           "id": "b046014d2a19",
           "title": "The fastest gun in UX",
           "url": "https://www.doc.cc/articles/fastest-gun",
@@ -1992,6 +1884,21 @@
           ]
         },
         {
+          "id": "351e666c511b",
+          "title": "Literallyeveryfont: Every font on the internet, free for personal use",
+          "url": "https://www.literallyeveryfont.com/",
+          "hn": "https://news.ycombinator.com/item?id=50250087",
+          "points": 20,
+          "comments": 0,
+          "created_at_i": 1793044985,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.296,
+          "why": []
+        },
+        {
           "id": "610aa2a31bc5",
           "title": "Jev: How to use it for better, faster, and cheaper user decisions in UX",
           "url": "https://uxdesign.cc/jev-how-to-use-it-for-better-faster-and-cheaper-user-decisions-in-ux-0e9907d2b6f7?source=rss----138adf9c44c---4",
@@ -2026,6 +1933,23 @@
           ]
         },
         {
+          "id": "19a7287ac228",
+          "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793026853,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.228,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
           "id": "d053d7081b69",
           "title": "Accordion Icons: Which Work Best?",
           "url": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
@@ -2040,6 +1964,23 @@
           "score": 3.201,
           "why": [
             "editor's pick at Smashing Magazine"
+          ]
+        },
+        {
+          "id": "57f3af44f1ef",
+          "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+          "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+          "hn": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793016260,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.152,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
           ]
         },
         {
@@ -2573,219 +2514,91 @@
   },
   "items": [
     {
-      "id": "f1e66fdacb8a",
-      "title": "Embracing Playful Imperfection With The CSS `random()` Function",
-      "url": "https://smashingmagazine.com/2026/10/embracing-playful-imperfection-css-random-function/",
-      "hn": "https://bsky.app/profile/smashingmagazine.com/post/3myd4l5q55s2y",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792490400,
+      "id": "fb4e0f430939",
+      "title": "CSS-Tricks has a new owner! | CSS-Tricks",
+      "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
+      "hn": "https://news.ycombinator.com/item?id=50245831",
+      "points": 375,
+      "comments": 89,
+      "created_at_i": 1793028656,
       "sources": [
-        "Smashing Magazine",
+        "Hacker News",
+        "Lobsters",
         "Bluesky"
       ],
-      "sharers": 1,
-      "score": 6.527,
+      "sharers": 5,
+      "score": 15.853,
       "why": [
-        "picked up by Smashing Magazine and Bluesky"
+        "picked up by Hacker News and Lobsters and Bluesky",
+        "shared by 5 design accounts",
+        "375 points"
       ],
       "authors": [
-        "smashingmagazine.com"
+        "geoffgraham.me",
+        "joshwcomeau.com",
+        "rachelandrew.co.uk",
+        "sarasoueidan.com",
+        "ericwbailey.website"
       ]
     },
     {
-      "id": "f43f6a91f829",
-      "title": "Primer (GitHub) — @primer/react@38.43.0",
-      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
-      "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.43.0",
+      "id": "5e1b5156704d",
+      "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+      "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1792770562,
-      "sources": [
-        "Design systems"
-      ],
-      "sharers": 0,
-      "score": 4.611,
-      "why": [
-        "editor's pick at Design systems"
-      ]
-    },
-    {
-      "id": "2173d7d018fa",
-      "title": "Carbon (IBM) — v11.119.0",
-      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
-      "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.119.0",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792565454,
-      "sources": [
-        "Design systems"
-      ],
-      "sharers": 0,
-      "score": 4.388,
-      "why": [
-        "editor's pick at Design systems"
-      ]
-    },
-    {
-      "id": "80ceede0d016",
-      "title": "UX designers are not designing interfaces, they design personalities",
-      "url": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/ux-designers-are-not-designing-interfaces-they-design-personalities-d94d874bb43d?source=rss----138adf9c44c---4",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792408332,
+      "created_at_i": 1793050396,
       "sources": [
         "UX Collective"
       ],
       "sharers": 0,
-      "score": 3.822,
+      "score": 5.086,
       "why": [
         "editor's pick at UX Collective"
       ]
     },
     {
-      "id": "c49e7f776020",
-      "title": "Buy vs. build is now also a UX decision, especially in enterprise",
-      "url": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/buy-versus-build-is-now-also-a-ux-decision-especially-in-enterprise-6b4345715c63?source=rss----138adf9c44c---4",
+      "id": "7d41353edb72",
+      "title": "Taking Back CSS-Tricks",
+      "url": "https://wil.to/posts/taking-back-css-tricks/",
+      "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1792706136,
-      "sources": [
-        "UX Collective"
-      ],
-      "sharers": 0,
-      "score": 3.798,
-      "why": [
-        "editor's pick at UX Collective"
-      ]
-    },
-    {
-      "id": "715488e848ea",
-      "title": "Interfere Design System",
-      "url": "https://design.interfere.com/",
-      "hn": "https://design.interfere.com/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792641840,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.663,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "9f40ceae20fc",
-      "title": "UX Disciplines: Glossary",
-      "url": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "hn": "https://www.nngroup.com/articles/ux-disciplines-glossary/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792774800,
-      "sources": [
-        "NN/g"
-      ],
-      "sharers": 0,
-      "score": 3.644,
-      "why": [
-        "editor's pick at NN/g"
-      ]
-    },
-    {
-      "id": "98ae0612de39",
-      "title": "AI in UX: Work Is Faster, But Practitioners Have Mixed Feelings",
-      "url": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "hn": "https://www.nngroup.com/articles/ai-in-ux-survey-26/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792774800,
-      "sources": [
-        "NN/g"
-      ],
-      "sharers": 0,
-      "score": 3.644,
-      "why": [
-        "editor's pick at NN/g"
-      ]
-    },
-    {
-      "id": "aae3ff8bcf8b",
-      "title": "State of Ecommerce Accessibility 2026",
-      "url": "https://davedavies.dev/state-of-ecommerce-accessibility/",
-      "hn": "https://davedavies.dev/state-of-ecommerce-accessibility/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792487199,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.439,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "efbd4ed39044",
-      "title": "Logo.dev MCP server",
-      "url": "https://www.logo.dev/docs/mcp/introduction",
-      "hn": "https://www.logo.dev/docs/mcp/introduction",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792487142,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.438,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "3f5b0ec5e9f0",
-      "title": "A simple guide to calm UI",
-      "url": "https://maxschmitt.me/posts/calm",
-      "hn": "https://maxschmitt.me/posts/calm",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792571167,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.423,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "6a453cfb00e7",
-      "title": "CSS Layout News in the ATmosphere | Rachel Andrew",
-      "url": "https://rachelandrew.co.uk/archives/2026/09/04/css-layout-news-in-the-atmosphere/?utm_source=the-index&utm_medium=newsletter",
-      "hn": "https://bsky.app/profile/piccalil.li/post/3myafdae6qx25",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1792422229,
+      "created_at_i": 1793029438,
       "sources": [
         "Bluesky"
       ],
-      "sharers": 1,
-      "score": 2.323,
+      "sharers": 2,
+      "score": 4.367,
       "why": [
-        "spotted on Bluesky"
+        "shared by 2 design accounts"
       ],
       "authors": [
-        "piccalil.li"
+        "geoffgraham.me",
+        "joshwcomeau.com"
+      ]
+    },
+    {
+      "id": "9a6c9d4d1215",
+      "title": "Craftwork: UI made by real designers",
+      "url": "https://craftwork.design/?ref=sidebar",
+      "hn": "https://craftwork.design/?ref=sidebar",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793002500,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.73,
+      "why": [
+        "editor's pick at Sidebar"
       ]
     }
   ],
-  "week_start": "2026-10-19",
-  "week_end": "2026-10-25",
-  "week_label": "19–25 October 2026",
-  "iso_week": "2026-W43"
+  "week_start": "2026-10-26",
+  "week_end": "2026-11-01",
+  "week_label": "26 October – 1 November 2026",
+  "iso_week": "2026-W44"
 }

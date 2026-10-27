@@ -1,0 +1,287 @@
+{
+  "date": "2026-10-26",
+  "pool": 64,
+  "kept": 4,
+  "dropped": {
+    "no_title": 2,
+    "lexicon": 26,
+    "below_threshold": 27
+  },
+  "dropped_items": [
+    {
+      "url": "https://lobste.rs",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://placemark.io",
+      "title": "placemark.io supports sharing maps again. this time, using atproto. try it out! let me know what you think!",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://chipbuilder.org/",
+      "title": "Chip Builder is a puzzle and strategy game that teaches you chip design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uipalooza.ai/",
+      "title": "Show HN: UIPalooza – Do AI models have a recognizable design taste?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/nodecode-ai/nodecode",
+      "title": "Show HN: Nodecode, open-source living agent in Lisp that rewrites itself for you",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/arcanemachine/pw-repl",
+      "title": "Show HN: pw-repl - A Playwright-powered REPL for you and your agents to share",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://adrs.systems",
+      "title": "Show HN: ADRs for AI – Deliberation records for human–AI work, versioned in Git",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://semiengineering.com/how-close-are-we-to-fully-autonomous-chip-design/",
+      "title": "How Close Are We to Autonomous Chip Design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50240121",
+      "title": "Show HN: Tabverse – a free, open-source, with self-hostable server Workona clone",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.a16z.news/p/superhuman-hardware-design-is-the",
+      "title": "Superhuman Hardware Design Is the Easy Part",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://yusufaytas.com/the-sdlc-was-designed-for-humans",
+      "title": "The SDLC Was Designed for Humans",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50242523",
+      "title": "Ask HN: Everyone was Jev-maxxing. Why not CDMs now?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50245017",
+      "title": "Why it is foolish to think AI can't write like humans",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://game.ultimidi.com/",
+      "title": "Show HN: Ultimidi – piano learning web game",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50243234",
+      "title": "AI is coming for accounting after coding",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://michelenasti.com/2026/interviewing-ctv-product-manager/",
+      "title": "Interviewing for a CTV Product Manager role: what I asked as an engineer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/labscommunity/npu-render",
+      "title": "Show HN: Render your Windows desktop GUI on the NPU",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50242424",
+      "title": "Ask HN: How do you grow OSS projects?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dna.hashgrid.ai/",
+      "title": "Show HN: I built Search/Recsys that learns from feedback",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/andunieee/calltags",
+      "title": "Show HN: Calltags, an Android dialer for people without contact lists",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://brennenputh.me/blog/printable-websites/",
+      "title": "Websites Should Be Printable",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/who-gets-to-name-the-future-436d069f16af?source=rss----138adf9c44c---4",
+      "title": "Who gets to name the future?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/the-tap-that-pours-hot-water-not-cold-8983ac0b614c?source=rss----138adf9c44c---4",
+      "title": "The tap that pours hot water, not cold",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/telling-the-wrong-story-design-v-adhd-ai-doesnt-care-about-your-job-title-63869c750f07?source=rss----138adf9c44c---4",
+      "title": "Telling the wrong story, Design v ADHD, AI doesn’t care about your job title",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://hrih.si/articles/who-holds-the-off-switch/",
+      "title": "Who holds the off switch?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://archive.org/details/vintageai",
+      "title": "Vintage AI",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=AK8zLQeRI2M",
+      "title": "Design and engineering are the same thing",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bbc-feeds.danq.dev/?utm_source=the-index&utm_medium=newsletter",
+      "title": "BBC News RSS Feeds (that don't suck!)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wapo.st/4smNlsC",
+      "title": "It took just 12 hours for an AI start-up founded by ex-DOGE staffers to break into Anthropic",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.stevevladeck.com/p/259-dojs-preemptive-election-interference?utm_campaign=post&utm_medium=web",
+      "title": "259. DOJ’s Preemptive Election Interference",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "title": "No Signs of AI Payoff Outside the Tech Sector | The Daily Spark",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.jmduke.com/posts/beset.html",
+      "title": "amen www.jmduke.com/posts/beset....",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://apnews.com/article/energy-critical-materials-minerals-helium-43da160adc1bad389fba0b9ffbd14c3c",
+      "title": "US designates helium as a critical material",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://fontfam.net/",
+      "title": "Show HN: Font Fam – A directory of 2,181 open-source fonts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://font-revival.com/",
+      "title": "Font Revival",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://shapemachine.xyz/nerd-fonter/",
+      "title": "Show HN: Nerd Fonter – macOS App to Install Nerd Fonts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://git.edwardh.dev/pio",
+      "title": "Show HN: RPI Pico (RP2040) PIO Emulator Package for Go",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.phoronix.com/news/KDE-KWin-Type",
+      "title": "KWin-Type Introduced to Address KDE Wayland Usability Gap for Auto-Typing Text",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50249397",
+      "title": "Tell HN: Claude Code now detects bugs in its own code",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/mainplane-ai/mainplane",
+      "title": "Show HN: Mainplane – Agent in Go that lives on your old PC, drives your laptop",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://kaitlynhova.medium.com/dear-figma-i-hope-to-come-back-3cf88f0b20fc",
+      "title": "Dear Figma, I hope to come back",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/haplollc/Vesalius",
+      "title": "Show HN: Vesalius, an on-device code graph for Claude Code",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://app.lpmresearch.com",
+      "title": "Show HN: LPMR Delta, a lightweight financial research terminal",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/FrigadeHQ/hob",
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bruceediger.com/posts/contabo-crawler/",
+      "title": "Web Page Crawler Revealed - tracking down requests from Contabo GmbH",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://addy.zone/snail-racing?utm_source=the-index&utm_medium=newsletter",
+      "title": "Play snail racing simulator online 🏁🐌",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://buttondown.com/SaraSoueidan/",
+      "title": "The Inside Track",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://opensource.googleblog.com/2008/02/welcome-to-google-open-source-blog.html",
+      "title": "Welcome to the Google Open Source Blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://Wireframe.ds.house",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.densediscovery.com/issues/412/",
+      "title": "DD412 / Breaking up with Gmail",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://humansignal.com/taste-index",
+      "title": "Show HN: Websites designed by 10 AI models, ranked by 4,500 human votes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/sam-mfb/kashkeshet",
+      "title": "Show HN: Kashkeshet – non-opinionated agent-to-agent chat MCP server in Rust",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50252272",
+      "title": "Ask HN: Why Is Anthropic's Customer Support Bad?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/does-apples-homeview-reduce-effort-or-ask-for-our-attention-ad7e892d17e2?source=rss----138adf9c44c---4",
+      "title": "Does Apple’s HomeView reduce effort, or ask for our attention?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22815",
+      "title": "Monday session 🔗",
+      "reason": "lexicon"
+    }
+  ]
+}
