@@ -2905,9 +2905,16 @@ async function syncLoadClient() {
     syncUser = user;
     if (!changed) return;
     resetAccountState();
-    rerenderAccount();
+    if (!user) {
+      rerenderAccount();
+      return;
+    }
     // Supabase warns against awaiting its own calls inside this callback.
-    if (user) setTimeout(() => syncNow().then(() => { if (tab === "account") rerenderAccount(); }), 0);
+    setTimeout(() => {
+      ensureWeeklyPref()
+        .then(() => syncNow())
+        .then(() => { if (tab === "account") rerenderAccount(); });
+    }, 0);
   });
   return syncClient;
 }
@@ -2917,7 +2924,7 @@ async function syncInit() {
   syncMode = true;
   renderAuthSlot();
   bindSyncDeleteDialog();
-  handleSyncLinks();
+  await handleSyncLinks();
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "visible" && syncUser) syncNow();
   });
@@ -2931,11 +2938,11 @@ async function syncInit() {
       history.replaceState(null, "", location.pathname + location.search);
       tab = "account";
     }
-    rerenderAccount();
     if (syncUser) {
+      await ensureWeeklyPref();
       await syncNow();
-      if (tab === "account") rerenderAccount();
     }
+    rerenderAccount();
   } catch (e) { /* offline or blocked CDN: this browser keeps working alone */ }
 }
 
@@ -3041,6 +3048,7 @@ function rerenderAccount(focusId) {
 function accountSignedOutHTML() {
   return '<p class="note taste-primer">Keep saved stories, ratings, people, and resources on every device. '
     + "We&rsquo;ll email you a sign-in link, so there&rsquo;s no&nbsp;password.</p>"
+    + "<p class=\"note\">You&rsquo;ll get Monday&rsquo;s issue by email, ranked by your&nbsp;taste. Turn it off anytime.</p>"
     + '<section class="tsec tsec--ruled" aria-labelledby="account-signin">'
     + '<h2 id="account-signin">Sign in</h2>'
     + '<form class="tadd" id="account-form" novalidate>'
@@ -3087,7 +3095,7 @@ function renderAccount() {
   if (!el) return;
   el.innerHTML = syncUser ? accountSignedInHTML() : accountSignedOutHTML();
   bindAccount();
-  if (syncUser && weeklyEmailVisible() && !weeklyPref && !weeklyLoading) loadWeeklyPref();
+  if (syncUser && !weeklyPref && !weeklyLoading) ensureWeeklyPref();
 }
 
 function bindAccount() {
@@ -3226,7 +3234,7 @@ function bindSyncDeleteDialog() {
   };
 }
 
-const WEEKLY_EMAIL_OPEN = false;
+const WEEKLY_EMAIL_OPEN = true;
 const BETA_EMAIL_KEY = "kerning:beta-email";
 
 function weeklyEmailVisible() {
@@ -3234,7 +3242,7 @@ function weeklyEmailVisible() {
   try { return localStorage.getItem(BETA_EMAIL_KEY) === "1"; } catch (e) { return false; }
 }
 
-async function loadWeeklyPref() {
+async function ensureWeeklyPref() {
   if (!syncClient || !syncUser) return;
   const userId = syncUser.id;
   weeklyLoading = true;
@@ -3244,10 +3252,47 @@ async function loadWeeklyPref() {
   } catch (e) {
     res = { error: e };
   }
+  if (!syncUser || syncUser.id !== userId) {
+    weeklyLoading = false;
+    return;
+  }
+  if (res.error) {
+    weeklyLoading = false;
+    weeklyPref = { error: true };
+    accountMsg.weekly = "The weekly email isn\u2019t set up on the server yet.";
+    if (tab === "account") rerenderAccount(document.activeElement && document.activeElement.id);
+    return;
+  }
+  if (res.data) {
+    weeklyLoading = false;
+    weeklyPref = { on: !!res.data.weekly };
+    if (tab === "account") rerenderAccount(document.activeElement && document.activeElement.id);
+    return;
+  }
+  const { error: ins } = await syncClient.from("email_prefs").insert({
+    user_id: userId,
+    email: syncUser.email,
+    weekly: true,
+    updated_at: new Date().toISOString(),
+  });
+  if (!syncUser || syncUser.id !== userId) {
+    weeklyLoading = false;
+    return;
+  }
   weeklyLoading = false;
-  if (!syncUser || syncUser.id !== userId) return;
-  weeklyPref = res.error ? { error: true } : { on: !!(res.data && res.data.weekly) };
-  if (res.error) accountMsg.weekly = "The weekly email isn\u2019t set up on the server yet.";
+  if (ins) {
+    if (ins.code === "23505") {
+      const again = await syncClient.from("email_prefs").select("weekly").eq("user_id", userId).maybeSingle();
+      if (!syncUser || syncUser.id !== userId) return;
+      weeklyPref = again.error ? { error: true } : { on: !!(again.data && again.data.weekly) };
+      if (again.error) accountMsg.weekly = "The weekly email isn\u2019t set up on the server yet.";
+    } else {
+      weeklyPref = { error: true };
+      accountMsg.weekly = "The weekly email isn\u2019t set up on the server yet.";
+    }
+  } else {
+    weeklyPref = { on: true };
+  }
   if (tab === "account") rerenderAccount(document.activeElement && document.activeElement.id);
 }
 
