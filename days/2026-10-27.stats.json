@@ -1,0 +1,310 @@
+{
+  "date": "2026-10-27",
+  "pool": 65,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 28,
+    "lexicon": 24,
+    "already_closed": 2,
+    "patch": 1,
+    "no_title": 3,
+    "prerelease": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://humansignal.com/taste-index",
+      "title": "Show HN: Websites designed by 10 AI models, ranked by 4,500 human votes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/sam-mfb/kashkeshet",
+      "title": "Show HN: Kashkeshet – non-opinionated agent-to-agent chat MCP server in Rust",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50252272",
+      "title": "Ask HN: Why Is Anthropic's Customer Support Bad?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "http://shittyscreenshare.com",
+      "title": "Shitty Screenshare",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.kcoleman.me/2026/10/22/hacked.html",
+      "title": "The passkey is worse",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+      "title": "Building an AI-ready design system library: Code → Figma with MCP.",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://uxdesign.cc/does-apples-homeview-reduce-effort-or-ask-for-our-attention-ad7e892d17e2?source=rss----138adf9c44c---4",
+      "title": "Does Apple’s HomeView reduce effort, or ask for our attention?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22815",
+      "title": "Monday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.newsfromthestates.com/article/colorado-priest-uganda-released-after-13-months-ice-detention-aurora",
+      "title": "Colorado priest from Uganda released after 13 months in ICE detention in Aurora",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wil.to/posts/taking-back-css-tricks/",
+      "title": "Taking Back CSS-Tricks",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/VenoM9078/gradientdeck-skill",
+      "title": "Show HN: GradientDeck – a design skill for coding agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50254873",
+      "title": "Looking for a tech job is a helpless data-entry nightmare",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.leadinginproduct.com/p/sabotage-manual-product-management",
+      "title": "The CIA Sabotage Manual for Product Organizations",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50255510",
+      "title": "New Python security updates explicitly block the eMudhra certificates by SPKI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://limma.ai",
+      "title": "Show HN: Limma – MCP for total recall and precision in data retrieval for agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "http://youtube.com/shorts/hCkjHx2Yi7Q",
+      "title": "Cottage Pie #cooking #furry",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://diagonals.vercel.app/",
+      "title": "Show HN: Diagonals (Diago) – a chess variation where the pieces stay diagonally",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://kiro.dev/blog/software-factory-stability/",
+      "title": "Keeping a software factory stable at 1k PRs a week",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.designsystemscollective.com/i-tested-12-small-ai-models-on-2-500-design-system-questions-the-model-wasnt-what-mattered-4ef16e69ad64",
+      "title": "I tested 12 small AI models on 2,500 design-system questions",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.designboom.com/technology/tree-mounted-machines-web-app-users-knock-on-wood-remotely/",
+      "title": "Tree-mounted machines connect to web app to let users knock on wood remotely",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50256433",
+      "title": "Tell HN: Last night, I had a dream",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.withnative.ai/research-and-posts/markdown-context-benchmark",
+      "title": "Show HN: Markdown is 40× more token-efficient with SQLite",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://alfy.blog/2026/10/27/a-select-should-tell-you-something.html",
+      "title": "A select should tell you something",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ensojs.dev/",
+      "title": "EnsoJS - native-first microframework for building declarative Web Components",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/the-time-ai-saves-designers-usually-disappears-heres-how-to-keep-it-61eb38e1ed69?source=rss----138adf9c44c---4",
+      "title": "The time AI saves designers usually disappears. Here’s how to keep it.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/going-nowhere-fast-7436dd29c54f?source=rss----138adf9c44c---4",
+      "title": "Going nowhere fast",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://algoroxyolo.github.io/blog/2026/knowing-how-is-not-knowing-what/",
+      "title": "Knowing how is not knowing what",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://howsadisthischapter.com/",
+      "title": "How sad is this chapter?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://mattstromawn.com/writing/code-review-was-never-about-the-code/",
+      "title": "Code review was never about the code",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.creativeboom.com/work/andre-britz-draws-landscapes-from-memory-in-a-book-held-together-with-an-elastic-band/",
+      "title": "André Britz’s landscapes, bound with a pink elastic band",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.producttalk.org/defining-what-good-looks-likes-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "title": "Defining What Good Looks Likes - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://itamargilad.com/eric-ries-incorruptible/",
+      "title": "Interview with Eric Ries: AI, Founder Mode, and Why Good Companies Go Bad",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.22.2",
+      "title": "shadcn/ui — shadcn@4.22.2",
+      "reason": "patch"
+    },
+    {
+      "url": "https://www.surveymonkey.com/r/RTTG77C",
+      "title": "Design Effectiveness Survey 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://state-of-ai-in-design-systems.netlify.app/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://pablopostigo.com/thoughts/time-zones-are-harder-twice-a-year/",
+      "title": "Time zones are harder, twice a year",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://hackerdo.me/",
+      "title": "Show HN: HackerDome, real time PvP programming duels ft. spectating and sabotage",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://storerouter.ai/playground",
+      "title": "Show HN: Shop via CLI; for agents and software engineers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.lesswrong.com/posts/ndS9Xn8Qx5PppHJ3Q/the-ability-of-frontier-models-to-control-robots-is-rapidly",
+      "title": "The Ability of Frontier Models to Control Robots Is Rapidly Improving",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sectr.dev",
+      "title": "Show HN: Sectr – Serverless backend platform for easy deployment of AI agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tailscale.com/ssh-investigation-update",
+      "title": "Tailscale SSH: Investigation and remediation update",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dinemic.com/",
+      "title": "Show HN: Dinemic – self-hosted ingress across multiple providers (DNS, LB, TLS)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://slopit.io/",
+      "title": "Show HN: SlopIt – A blog your coding agent runs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://similarity.com",
+      "title": "Show HN: Similarity, a spiritual successor to 2000s-era OkCupid",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/andrsrxn/icons",
+      "title": "Show HN: Duotone icon library with 2.5k+ icons and 250 flags, RTL aware",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://formstep.io/",
+      "title": "Show HN: Formstep, Request information from customers without the back-and-forth",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50265028",
+      "title": "Ask HN: Any founders want to trade pitch practice and customer interviews?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50260146",
+      "title": "DietPi v10.8 has been released",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://crulon.ai/#talk",
+      "title": "Show HN: Crulon – Business phone where AI does the work, humans make the calls",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://huggingface.co/datasets/taktekhq/lebanese-legislation",
+      "title": "Show HN: Open Dataset of the Lebanese Law",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://planetpeanut.studio/post/2026/10/27/pidgin-emoji-twitch",
+      "title": "1,447 emoji? We'll do it live",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://patrickbrosset.com/articles/2026-09-22-blurry-before-beautiful-image-previews-for-the-web/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Patrick  - Blurry before beautiful: image previews for the web",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://archive.is/1s9AM",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/159",
+      "title": "Firefox 159 release notes for developers (Stable) - Mozilla | MDN",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://meyerweb.com/eric/thoughts/2026/10/14/my-interop-2027-rankings/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://html5doctor.com/html-new-line/",
+      "title": "HTML New Line: How to Add Line Breaks Correctly - HTML5 Doctor",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50266262",
+      "title": "Ask HN: When did HN become inconsistent algorithmic feed?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://gizmodo.com/researchers-uncover-signs-of-massive-surveillance-operation-on-starlink-users-2000831366",
+      "title": "Researchers Uncover Signs of Surveillance Operation on Starlink Users",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.5",
+      "title": "Carbon (IBM) — v12.0.0-alpha.5",
+      "reason": "prerelease"
+    }
+  ]
+}

@@ -1,260 +1,190 @@
 {
-  "generated_at": "2026-10-27T02:02:36.151118+00:00",
+  "generated_at": "2026-10-28T02:12:23.830845+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "26 October 2026",
-      "period_start": "2026-10-26",
-      "period_end": "2026-10-26",
+      "label": "27 October 2026",
+      "period_start": "2026-10-27",
+      "period_end": "2026-10-27",
       "items": [
         {
-          "id": "fb4e0f430939",
-          "title": "CSS-Tricks has a new owner! | CSS-Tricks",
-          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-          "hn": "https://news.ycombinator.com/item?id=50245831",
-          "points": 375,
-          "comments": 89,
-          "created_at_i": 1793028656,
-          "sources": [
-            "Hacker News",
-            "Lobsters",
-            "Bluesky"
-          ],
-          "sharers": 5,
-          "score": 15.853,
-          "why": [
-            "picked up by Hacker News and Lobsters and Bluesky",
-            "shared by 5 design accounts",
-            "375 points"
-          ],
-          "authors": [
-            "geoffgraham.me",
-            "joshwcomeau.com",
-            "rachelandrew.co.uk",
-            "sarasoueidan.com",
-            "ericwbailey.website"
-          ]
-        },
-        {
-          "id": "5e1b5156704d",
-          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
-          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "id": "4eb69046d508",
+          "title": "shadcn/ui — shadcn@4.23.0",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793050396,
+          "created_at_i": 1793104307,
           "sources": [
-            "UX Collective"
+            "Design systems"
           ],
           "sharers": 0,
-          "score": 5.086,
+          "score": 4.497,
           "why": [
-            "editor's pick at UX Collective"
+            "editor's pick at Design systems"
           ]
         },
         {
-          "id": "7d41353edb72",
-          "title": "Taking Back CSS-Tricks",
-          "url": "https://wil.to/posts/taking-back-css-tricks/",
-          "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
+          "id": "cd12fced669f",
+          "title": "shadcn/ui — @shadcn/registry@0.2.1",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793029438,
+          "created_at_i": 1793094062,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.429,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "c23f4f4cbe2a",
+          "title": "Memberships | CSS-Tricks",
+          "url": "https://css-tricks.com/memberships/",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3myuqiuqqyk2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793121426,
           "sources": [
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 4.367,
+          "score": 4.411,
           "why": [
             "shared by 2 design accounts"
           ],
           "authors": [
-            "geoffgraham.me",
-            "joshwcomeau.com"
+            "bradfrost.com",
+            "geoffgraham.me"
           ]
         },
         {
-          "id": "9a6c9d4d1215",
-          "title": "Craftwork: UI made by real designers",
-          "url": "https://craftwork.design/?ref=sidebar",
-          "hn": "https://craftwork.design/?ref=sidebar",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793002500,
+          "id": "a44a6d900231",
+          "title": "Antique Fonts Collection – Restored 19th Century Typefaces",
+          "url": "https://centurylibrary.com/collection/antique-fonts/",
+          "hn": "https://news.ycombinator.com/item?id=50261579",
+          "points": 23,
+          "comments": 11,
+          "created_at_i": 1793118299,
           "sources": [
-            "Sidebar"
+            "Hacker News"
           ],
           "sharers": 0,
-          "score": 3.73,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
+          "score": 3.624,
+          "why": []
         }
       ],
       "candidates": [
         {
-          "id": "fb4e0f430939",
-          "title": "CSS-Tricks has a new owner! | CSS-Tricks",
-          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-          "hn": "https://news.ycombinator.com/item?id=50245831",
-          "points": 375,
-          "comments": 89,
-          "created_at_i": 1793028656,
-          "sources": [
-            "Hacker News",
-            "Lobsters",
-            "Bluesky"
-          ],
-          "sharers": 5,
-          "score": 15.853,
-          "why": [
-            "picked up by Hacker News and Lobsters and Bluesky",
-            "shared by 5 design accounts",
-            "375 points"
-          ],
-          "authors": [
-            "geoffgraham.me",
-            "joshwcomeau.com",
-            "rachelandrew.co.uk",
-            "sarasoueidan.com",
-            "ericwbailey.website"
-          ]
-        },
-        {
-          "id": "5e1b5156704d",
-          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
-          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+          "id": "4eb69046d508",
+          "title": "shadcn/ui — shadcn@4.23.0",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793050396,
+          "created_at_i": 1793104307,
           "sources": [
-            "UX Collective"
+            "Design systems"
           ],
           "sharers": 0,
-          "score": 5.086,
+          "score": 4.497,
           "why": [
-            "editor's pick at UX Collective"
+            "editor's pick at Design systems"
           ]
         },
         {
-          "id": "7d41353edb72",
-          "title": "Taking Back CSS-Tricks",
-          "url": "https://wil.to/posts/taking-back-css-tricks/",
-          "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
+          "id": "cd12fced669f",
+          "title": "shadcn/ui — @shadcn/registry@0.2.1",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793029438,
+          "created_at_i": 1793094062,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.429,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "c23f4f4cbe2a",
+          "title": "Memberships | CSS-Tricks",
+          "url": "https://css-tricks.com/memberships/",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3myuqiuqqyk2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793121426,
           "sources": [
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 4.367,
+          "score": 4.411,
           "why": [
             "shared by 2 design accounts"
           ],
           "authors": [
-            "geoffgraham.me",
-            "joshwcomeau.com"
+            "bradfrost.com",
+            "geoffgraham.me"
           ]
         },
         {
-          "id": "9a6c9d4d1215",
-          "title": "Craftwork: UI made by real designers",
-          "url": "https://craftwork.design/?ref=sidebar",
-          "hn": "https://craftwork.design/?ref=sidebar",
+          "id": "a44a6d900231",
+          "title": "Antique Fonts Collection – Restored 19th Century Typefaces",
+          "url": "https://centurylibrary.com/collection/antique-fonts/",
+          "hn": "https://news.ycombinator.com/item?id=50261579",
+          "points": 23,
+          "comments": 11,
+          "created_at_i": 1793118299,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.624,
+          "why": []
+        },
+        {
+          "id": "67638fe1b012",
+          "title": "Decoy Font: a TTF font that hides what you type",
+          "url": "https://www.mixfont.com/experiments/decoy-font",
+          "hn": "https://www.mixfont.com/experiments/decoy-font",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793002500,
+          "created_at_i": 1793090331,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.73,
+          "score": 3.405,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "a5e4e8a1948a",
-          "title": "Intent Design System",
-          "url": "https://intentapp.dev/design-system?dark-mode=",
-          "hn": "https://intentapp.dev/design-system?dark-mode=",
+          "id": "179067fa1f69",
+          "title": "Web Components Demystified online course | Scott Jehl, Web Designer/Developer",
+          "url": "https://scottjehl.com/learn/webcomponentsdemystified/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3myugv6mnh22k",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793002220,
+          "created_at_i": 1793111102,
           "sources": [
-            "Sidebar"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 3.728,
+          "sharers": 1,
+          "score": 2.612,
           "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "1291176c17f8",
-          "title": "KibernetykMono – A Geometric Monospace Typeface",
-          "url": "https://pavlokilko.github.io/KibernetykMono/",
-          "hn": "https://news.ycombinator.com/item?id=50244265",
-          "points": 30,
-          "comments": 3,
-          "created_at_i": 1793024696,
-          "sources": [
-            "Hacker News"
+            "spotted on Bluesky"
           ],
-          "sharers": 0,
-          "score": 3.368,
-          "why": []
-        },
-        {
-          "id": "351e666c511b",
-          "title": "Literallyeveryfont: Every font on the internet, free for personal use",
-          "url": "https://www.literallyeveryfont.com/",
-          "hn": "https://news.ycombinator.com/item?id=50250087",
-          "points": 20,
-          "comments": 0,
-          "created_at_i": 1793044985,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.296,
-          "why": []
-        },
-        {
-          "id": "19a7287ac228",
-          "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
-          "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
-          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793026853,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 3.228,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "57f3af44f1ef",
-          "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
-          "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
-          "hn": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793016260,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 3.152,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
+          "authors": [
+            "zeldman.bsky.social"
           ]
         }
       ]
@@ -314,6 +244,61 @@
           ]
         },
         {
+          "id": "4eb69046d508",
+          "title": "shadcn/ui — shadcn@4.23.0",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793104307,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.497,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "cd12fced669f",
+          "title": "shadcn/ui — @shadcn/registry@0.2.1",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793094062,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.429,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "c23f4f4cbe2a",
+          "title": "Memberships | CSS-Tricks",
+          "url": "https://css-tricks.com/memberships/",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3myuqiuqqyk2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793121426,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.411,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "bradfrost.com",
+            "geoffgraham.me"
+          ]
+        },
+        {
           "id": "7d41353edb72",
           "title": "Taking Back CSS-Tricks",
           "url": "https://wil.to/posts/taking-back-css-tricks/",
@@ -350,6 +335,21 @@
           "why": [
             "editor's pick at Sidebar"
           ]
+        },
+        {
+          "id": "a44a6d900231",
+          "title": "Antique Fonts Collection – Restored 19th Century Typefaces",
+          "url": "https://centurylibrary.com/collection/antique-fonts/",
+          "hn": "https://news.ycombinator.com/item?id=50261579",
+          "points": 23,
+          "comments": 11,
+          "created_at_i": 1793118299,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.624,
+          "why": []
         }
       ],
       "candidates": [
@@ -396,6 +396,61 @@
           "score": 5.086,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "4eb69046d508",
+          "title": "shadcn/ui — shadcn@4.23.0",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793104307,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.497,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "cd12fced669f",
+          "title": "shadcn/ui — @shadcn/registry@0.2.1",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793094062,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.429,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "c23f4f4cbe2a",
+          "title": "Memberships | CSS-Tricks",
+          "url": "https://css-tricks.com/memberships/",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3myuqiuqqyk2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793121426,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.411,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "bradfrost.com",
+            "geoffgraham.me"
           ]
         },
         {
@@ -449,6 +504,38 @@
           ],
           "sharers": 0,
           "score": 3.728,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "a44a6d900231",
+          "title": "Antique Fonts Collection – Restored 19th Century Typefaces",
+          "url": "https://centurylibrary.com/collection/antique-fonts/",
+          "hn": "https://news.ycombinator.com/item?id=50261579",
+          "points": 23,
+          "comments": 11,
+          "created_at_i": 1793118299,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.624,
+          "why": []
+        },
+        {
+          "id": "67638fe1b012",
+          "title": "Decoy Font: a TTF font that hides what you type",
+          "url": "https://www.mixfont.com/experiments/decoy-font",
+          "hn": "https://www.mixfont.com/experiments/decoy-font",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793090331,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.405,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -515,6 +602,26 @@
           "score": 3.152,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "179067fa1f69",
+          "title": "Web Components Demystified online course | Scott Jehl, Web Designer/Developer",
+          "url": "https://scottjehl.com/learn/webcomponentsdemystified/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3myugv6mnh22k",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793111102,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.612,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "zeldman.bsky.social"
           ]
         }
       ]
@@ -1144,6 +1251,23 @@
           ]
         },
         {
+          "id": "4eb69046d508",
+          "title": "shadcn/ui — shadcn@4.23.0",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793104307,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.497,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
           "id": "8ca2633994ab",
           "title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
           "url": "https://twitter.com/GayaniFigma/status/2105295629941350454",
@@ -1209,6 +1333,44 @@
           "score": 4.439,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "cd12fced669f",
+          "title": "shadcn/ui — @shadcn/registry@0.2.1",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793094062,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.429,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "c23f4f4cbe2a",
+          "title": "Memberships | CSS-Tricks",
+          "url": "https://css-tricks.com/memberships/",
+          "hn": "https://bsky.app/profile/bradfrost.com/post/3myuqiuqqyk2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793121426,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.411,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "bradfrost.com",
+            "geoffgraham.me"
           ]
         },
         {
@@ -1624,6 +1786,21 @@
           ]
         },
         {
+          "id": "a44a6d900231",
+          "title": "Antique Fonts Collection – Restored 19th Century Typefaces",
+          "url": "https://centurylibrary.com/collection/antique-fonts/",
+          "hn": "https://news.ycombinator.com/item?id=50261579",
+          "points": 23,
+          "comments": 11,
+          "created_at_i": 1793118299,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.624,
+          "why": []
+        },
+        {
           "id": "ddce714be723",
           "title": "Illustration Beyond Proof",
           "url": "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
@@ -1796,6 +1973,23 @@
           ],
           "sharers": 0,
           "score": 3.423,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "67638fe1b012",
+          "title": "Decoy Font: a TTF font that hides what you type",
+          "url": "https://www.mixfont.com/experiments/decoy-font",
+          "hn": "https://www.mixfont.com/experiments/decoy-font",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793090331,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.405,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -2115,6 +2309,26 @@
           "why": []
         },
         {
+          "id": "179067fa1f69",
+          "title": "Web Components Demystified online course | Scott Jehl, Web Designer/Developer",
+          "url": "https://scottjehl.com/learn/webcomponentsdemystified/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3myugv6mnh22k",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793111102,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.612,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "zeldman.bsky.social"
+          ]
+        },
+        {
           "id": "e16b16abd476",
           "title": "CSS for underlines",
           "url": "https://www.rubenerd.au/css-for-underlines/",
@@ -2408,106 +2622,6 @@
           "authors": [
             "nerdy.dev"
           ]
-        },
-        {
-          "id": "d7b3438d97f3",
-          "title": "GitHub.com has fully moved off CSS-in-JS to CSS Modules, resulting in 55% less server-side render time and 25% faster component init.",
-          "url": "https://github.com",
-          "hn": "https://bsky.app/profile/github.com/post/3mwz2yganio2t",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791071101,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.313,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "lea.verou.me"
-          ]
-        },
-        {
-          "id": "e6c9392ea967",
-          "title": "Newsletters | CSS-Tricks",
-          "url": "https://css-tricks.com/newsletters/",
-          "hn": "https://bsky.app/profile/geoffgraham.me/post/3myb5yuh26s2o",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792448726,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.29,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "geoffgraham.me"
-          ]
-        },
-        {
-          "id": "531d617577e1",
-          "title": "PostCSS Mixins And PostCSS Custom Functions | CSS Tools",
-          "url": "https://preset-env.cssdb.org/blog/postcss-mixins-and-custom-functions/",
-          "hn": "https://bsky.app/profile/lea.verou.me/post/3mwywghoag22t",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791066203,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.289,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "lea.verou.me"
-          ]
-        },
-        {
-          "id": "109ee9eaab5f",
-          "title": "SpotCheck: an Accessibility Bookmarklet Toolkit",
-          "url": "https://www.spotcheck.tools/?mc_cid=d93b79b2b1&mc_eid=abc73093e4",
-          "hn": "https://bsky.app/profile/meryl.bsky.social/post/3mwt6qbng6i2k",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1790868963,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.005,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
-          ]
-        },
-        {
-          "id": "a9b678af0fd6",
-          "title": "The Future of CSS: Target Multiple Classes with the Class Prefix Selector",
-          "url": "https://www.bram.us/2026/08/20/the-future-of-css-target-multiple-classes-with-the-class-prefix-selector/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3mxc7k25s6l2a",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1791385222,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 0.927,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
-          ]
         }
       ]
     }
@@ -2559,6 +2673,61 @@
       ]
     },
     {
+      "id": "4eb69046d508",
+      "title": "shadcn/ui — shadcn@4.23.0",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793104307,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.497,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "cd12fced669f",
+      "title": "shadcn/ui — @shadcn/registry@0.2.1",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793094062,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.429,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "c23f4f4cbe2a",
+      "title": "Memberships | CSS-Tricks",
+      "url": "https://css-tricks.com/memberships/",
+      "hn": "https://bsky.app/profile/bradfrost.com/post/3myuqiuqqyk2o",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793121426,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 4.411,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "bradfrost.com",
+        "geoffgraham.me"
+      ]
+    },
+    {
       "id": "7d41353edb72",
       "title": "Taking Back CSS-Tricks",
       "url": "https://wil.to/posts/taking-back-css-tricks/",
@@ -2595,6 +2764,21 @@
       "why": [
         "editor's pick at Sidebar"
       ]
+    },
+    {
+      "id": "a44a6d900231",
+      "title": "Antique Fonts Collection – Restored 19th Century Typefaces",
+      "url": "https://centurylibrary.com/collection/antique-fonts/",
+      "hn": "https://news.ycombinator.com/item?id=50261579",
+      "points": 23,
+      "comments": 11,
+      "created_at_i": 1793118299,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.624,
+      "why": []
     }
   ],
   "week_start": "2026-10-26",

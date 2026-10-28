@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-28T02:12:23.826244+00:00",
+  "items": [
+    {
+      "id": "4eb69046d508",
+      "title": "shadcn/ui — shadcn@4.23.0",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793104307,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.497,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "cd12fced669f",
+      "title": "shadcn/ui — @shadcn/registry@0.2.1",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793094062,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.429,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "c23f4f4cbe2a",
+      "title": "Memberships | CSS-Tricks",
+      "url": "https://css-tricks.com/memberships/",
+      "hn": "https://bsky.app/profile/bradfrost.com/post/3myuqiuqqyk2o",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793121426,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 4.411,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "bradfrost.com",
+        "geoffgraham.me"
+      ]
+    },
+    {
+      "id": "a44a6d900231",
+      "title": "Antique Fonts Collection – Restored 19th Century Typefaces",
+      "url": "https://centurylibrary.com/collection/antique-fonts/",
+      "hn": "https://news.ycombinator.com/item?id=50261579",
+      "points": 23,
+      "comments": 11,
+      "created_at_i": 1793118299,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.624,
+      "why": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "4eb69046d508",
+      "title": "shadcn/ui — shadcn@4.23.0",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793104307,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.497,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "cd12fced669f",
+      "title": "shadcn/ui — @shadcn/registry@0.2.1",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793094062,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.429,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "c23f4f4cbe2a",
+      "title": "Memberships | CSS-Tricks",
+      "url": "https://css-tricks.com/memberships/",
+      "hn": "https://bsky.app/profile/bradfrost.com/post/3myuqiuqqyk2o",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793121426,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 4.411,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "bradfrost.com",
+        "geoffgraham.me"
+      ]
+    },
+    {
+      "id": "a44a6d900231",
+      "title": "Antique Fonts Collection – Restored 19th Century Typefaces",
+      "url": "https://centurylibrary.com/collection/antique-fonts/",
+      "hn": "https://news.ycombinator.com/item?id=50261579",
+      "points": 23,
+      "comments": 11,
+      "created_at_i": 1793118299,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.624,
+      "why": []
+    },
+    {
+      "id": "67638fe1b012",
+      "title": "Decoy Font: a TTF font that hides what you type",
+      "url": "https://www.mixfont.com/experiments/decoy-font",
+      "hn": "https://www.mixfont.com/experiments/decoy-font",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793090331,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.405,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "179067fa1f69",
+      "title": "Web Components Demystified online course | Scott Jehl, Web Designer/Developer",
+      "url": "https://scottjehl.com/learn/webcomponentsdemystified/",
+      "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3myugv6mnh22k",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793111102,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 2.612,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "zeldman.bsky.social"
+      ]
+    }
+  ]
+}
