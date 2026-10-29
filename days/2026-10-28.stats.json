@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-28",
+  "pool": 53,
+  "kept": 3,
+  "dropped": {
+    "below_threshold": 28,
+    "lexicon": 19,
+    "prerelease": 1,
+    "no_title": 2
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.youtube.com/watch?v=E2AoYIKwJqM",
+      "title": "Firefox brings back your favorite meme icons from the early 2000s [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50266262",
+      "title": "Ask HN: When did HN become inconsistent algorithmic feed?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://gizmodo.com/researchers-uncover-signs-of-massive-surveillance-operation-on-starlink-users-2000831366",
+      "title": "Researchers Uncover Signs of Surveillance Operation on Starlink Users",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://trvlrr.app/",
+      "title": "Show HN: I built Trvlrr, home for all your travels",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://niklasroy.com/gtc/",
+      "title": "Glashütte Trash Clock",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://justinjay.wang/design-as-a-garden/",
+      "title": "Design as a garden",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://digital-collections.princeton.edu/collections/soviet_posters",
+      "title": "Russian and East European posters",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.5",
+      "title": "Carbon (IBM) — v12.0.0-alpha.5",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://www.youtube.com/live/AWb73qyqBJk?si=6OO679EubwzejC_u",
+      "title": "AI Is Making Developers 10x Faster at Becoming Obsolete",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://joaofaraco.com.br/en/articles/when-ui-design-actually-cared/",
+      "title": "When UI Design Cared",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sambernheim.com/blog/ux-design-patterns",
+      "title": "UX Design Patterns",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50270407",
+      "title": "Ask HN: Responsible Use of Agents for Cybersecurity",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.aivideosugc.com/ai-video-generation",
+      "title": "Show HN: The New Way to Make AI UGC Ads in 2026",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://brennan.day/a-love-letter-to-the-super-dimension-fortress/",
+      "title": "A Love Letter to the Super Dimension Fortress",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://portswigger.net/research/scalable-vector-grief",
+      "title": "Scalable Vector Grief",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://honeywired.com/apps/hypnotype/",
+      "title": "Show HN: A free interactive typeface made of spirals",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vulang.org/",
+      "title": "Show HN: Vu – a new programming language designed for AI. Rust speeds, Py syntax",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/algeon-dev/algeon",
+      "title": "Show HN: Algeon – Compose GPU graph, vector, and ML algorithms in SQL",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sysbreak.dev",
+      "title": "Show HN: SysBreak – Learn system design by watching architectures break",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50272275",
+      "title": "Mriya Ukraine's uncensored Facebook alternative (open beta)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.jim-nielsen.com/2026/use-llm-to-add-color-metadata/",
+      "title": "Getting an LLM to Make Me a Tool for Enriching My Icons' Color Metadata",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://app.userrank.ai/",
+      "title": "Show HN: Coding agent spots your AI practices and the ones you're missing",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/jgrichardson/shufler",
+      "title": "Show HN: Shufler: 3D gaming harness around your coding harness and dev pipeline",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50273438",
+      "title": "Breaking changes in third-party APIs are turning into a full-time job",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50271924",
+      "title": "Why We Should Work on AI Instead of Fearing It: A Philosophical Perspective",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50275751",
+      "title": "Show HN: Muscle Memory – Can you still write code without AI?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/smaller-teams-want-design-leaders-who-make-again-heres-how-b8939221bd7b?source=rss----138adf9c44c---4",
+      "title": "Smaller teams want design leaders who make, again. Here’s how.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/the-agent-woke-up-before-you-did-a61cfc3948c7?source=rss----138adf9c44c---4",
+      "title": "The agent woke up before you did",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://review.firstround.com/competing-with-openai-and-meta-for-your-inbox-jean-denis-greze-town-co-founder-ceo/",
+      "title": "Competing with OpenAI and Meta for your inbox | Jean-Denis Greze (Town Co-founder & CEO)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://smashingconf.com/ai-2027-conference",
+      "title": "AI 2027 Conference — Friendly, practical online conference for designers and developers on AI. — AI 2027 Conference — December 1, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://polypane.app/blog/the-root-scroller-and-how-not-to-lose-it/?utm_source=the-index&utm_medium=newsletter",
+      "title": "The root scroller and how not to lose it | Polypane",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.typetogether.com/fonts/futura100-gurmukhi-font",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
+      "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0Ck-NPqf2c8",
+      "title": "Modern Day Typographer – Elle Cordova [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://evergreendesign.io/essays/just-in-time-help/",
+      "title": "What a 50-year-old tractor taught me about UX",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50279039",
+      "title": "Watch Apple slowly become just another computer company",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://opsphie.com",
+      "title": "Show HN: Opsphie – Incident Management in Slack",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/gendeg/Lissic",
+      "title": "Show HN: Fast, Zero Allocation, AOT Safe, Compile-Time Safe .NET Template Engine",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50280452",
+      "title": "Ask HN: Alternative to Tldraw Draw Fast?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://enlightpixel.com/products/tucklane",
+      "title": "Show HN: Tucklane – Fast, local-first app and browser session manager",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50278335",
+      "title": "Ask HN: What happened to our collective ethos?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.commonsensemedia.org/sites/default/files/research/report/commonsensemedia_techmediausetweensteens_report_2026.pdf",
+      "title": "Tech and Media Use by Tweens and Teens [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.chromatic.com/company/careers/senior-oss-engineer-storybook",
+      "title": "Chromatic • Senior Software Engineer (Storybook)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22818",
+      "title": "Wednesday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.washingtonpost.com/national-security/2026/10/27/grand-jury-declines-indict-cassidy-hutchinson-over-jan-6-testimony/",
+      "title": "Grand jury declines to indict Cassidy Hutchinson over Jan. 6 testimony",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://stuffandnonsense.co.uk/blog/i-wrote-another-book-its-called=standout-designs-for-the-web/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/10/28/us/dolores-huerta-dead.html?unlocked_article_code=1.MFE.gES8.ZoWKyMR524LK&smid=url-share",
+      "title": "Dolores Huerta, Who Founded United Farm Workers With Cesar Chavez, Dies (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://macwright.com/2026/10/28/simple-statistics-8",
+      "title": "Simple Statistics 8",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/how-to-make-postmessage-type-safe-in-under-350-bytes",
+      "title": "How to make postMessage type-safe in under 350 bytes—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://shorturl.at/1aeWm",
+      "title": "Why engineers should come to the SF Ruby Conference in 2026 (+ hidden discount)—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    }
+  ]
+}

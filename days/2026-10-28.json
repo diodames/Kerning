@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-29T02:24:40.590506+00:00",
+  "items": [
+    {
+      "id": "5eae432a4722",
+      "title": "Design systems should be fast by default",
+      "url": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
+      "hn": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793160060,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.642,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "5978d7219337",
+      "title": "Design Systems House",
+      "url": "https://www.youtube.com/@designsyshouse/streams",
+      "hn": "https://bsky.app/profile/geoffgraham.me/post/3myxbtgm4522b",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793208753,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 2.365,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "geoffgraham.me"
+      ]
+    },
+    {
+      "id": "4a50004d1584",
+      "title": "Buy Fonts — Regret Nothing — fonts.xyz",
+      "url": "https://www.fonts.xyz/?utm_source=the-index&utm_medium=newsletter",
+      "hn": "https://bsky.app/profile/piccalil.li/post/3myx4xzxfft2x",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793203538,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.991,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "piccalil.li"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "5eae432a4722",
+      "title": "Design systems should be fast by default",
+      "url": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
+      "hn": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793160060,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.642,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "5978d7219337",
+      "title": "Design Systems House",
+      "url": "https://www.youtube.com/@designsyshouse/streams",
+      "hn": "https://bsky.app/profile/geoffgraham.me/post/3myxbtgm4522b",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793208753,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 2.365,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "geoffgraham.me"
+      ]
+    },
+    {
+      "id": "4a50004d1584",
+      "title": "Buy Fonts — Regret Nothing — fonts.xyz",
+      "url": "https://www.fonts.xyz/?utm_source=the-index&utm_medium=newsletter",
+      "hn": "https://bsky.app/profile/piccalil.li/post/3myx4xzxfft2x",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793203538,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.991,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "piccalil.li"
+      ]
+    }
+  ]
+}
