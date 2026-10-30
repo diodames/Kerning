@@ -1,127 +1,121 @@
 {
-  "generated_at": "2026-10-29T02:24:40.596426+00:00",
+  "generated_at": "2026-10-30T02:34:40.852366+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "28 October 2026",
-      "period_start": "2026-10-28",
-      "period_end": "2026-10-28",
+      "label": "29 October 2026",
+      "period_start": "2026-10-29",
+      "period_end": "2026-10-29",
       "items": [
         {
-          "id": "5eae432a4722",
-          "title": "Design systems should be fast by default",
-          "url": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
-          "hn": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
+          "id": "3390eb306006",
+          "title": "The AI reckoning in UX was 20 years in the making",
+          "url": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793160060,
+          "created_at_i": 1793229746,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.223,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "d36c8695b0ff",
+          "title": "Shipping the roadmap is the minimum",
+          "url": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
+          "hn": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793258465,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.642,
+          "score": 3.044,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "5978d7219337",
-          "title": "Design Systems House",
-          "url": "https://www.youtube.com/@designsyshouse/streams",
-          "hn": "https://bsky.app/profile/geoffgraham.me/post/3myxbtgm4522b",
+          "id": "c22b038555e0",
+          "title": "Frankenstein's pattern: When design system components get stitched together - zeroheight",
+          "url": "https://zeroheight.com/blog/frankensteins-pattern-when-design-system-components-get-stitched-together/",
+          "hn": "https://bsky.app/profile/annaecook.com/post/3myzmtafkss22",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793208753,
+          "created_at_i": 1793289278,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 2.365,
+          "score": 2.319,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "geoffgraham.me"
-          ]
-        },
-        {
-          "id": "4a50004d1584",
-          "title": "Buy Fonts — Regret Nothing — fonts.xyz",
-          "url": "https://www.fonts.xyz/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myx4xzxfft2x",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793203538,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.991,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
+            "ericwbailey.website"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "5eae432a4722",
-          "title": "Design systems should be fast by default",
-          "url": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
-          "hn": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
+          "id": "3390eb306006",
+          "title": "The AI reckoning in UX was 20 years in the making",
+          "url": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793160060,
+          "created_at_i": 1793229746,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.223,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "d36c8695b0ff",
+          "title": "Shipping the roadmap is the minimum",
+          "url": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
+          "hn": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793258465,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.642,
+          "score": 3.044,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "5978d7219337",
-          "title": "Design Systems House",
-          "url": "https://www.youtube.com/@designsyshouse/streams",
-          "hn": "https://bsky.app/profile/geoffgraham.me/post/3myxbtgm4522b",
+          "id": "c22b038555e0",
+          "title": "Frankenstein's pattern: When design system components get stitched together - zeroheight",
+          "url": "https://zeroheight.com/blog/frankensteins-pattern-when-design-system-components-get-stitched-together/",
+          "hn": "https://bsky.app/profile/annaecook.com/post/3myzmtafkss22",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793208753,
+          "created_at_i": 1793289278,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 2.365,
+          "score": 2.319,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "geoffgraham.me"
-          ]
-        },
-        {
-          "id": "4a50004d1584",
-          "title": "Buy Fonts — Regret Nothing — fonts.xyz",
-          "url": "https://www.fonts.xyz/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myx4xzxfft2x",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793203538,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.991,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
+            "ericwbailey.website"
           ]
         }
       ]
@@ -306,6 +300,40 @@
           "why": []
         },
         {
+          "id": "3390eb306006",
+          "title": "The AI reckoning in UX was 20 years in the making",
+          "url": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793229746,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.223,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "d36c8695b0ff",
+          "title": "Shipping the roadmap is the minimum",
+          "url": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
+          "hn": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793258465,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.044,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "5978d7219337",
           "title": "Design Systems House",
           "url": "https://www.youtube.com/@designsyshouse/streams",
@@ -323,26 +351,6 @@
           ],
           "authors": [
             "geoffgraham.me"
-          ]
-        },
-        {
-          "id": "4a50004d1584",
-          "title": "Buy Fonts — Regret Nothing — fonts.xyz",
-          "url": "https://www.fonts.xyz/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myx4xzxfft2x",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793203538,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.991,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
           ]
         }
       ],
@@ -599,6 +607,23 @@
           ]
         },
         {
+          "id": "3390eb306006",
+          "title": "The AI reckoning in UX was 20 years in the making",
+          "url": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793229746,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.223,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "57f3af44f1ef",
           "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
           "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
@@ -613,6 +638,23 @@
           "score": 3.152,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "d36c8695b0ff",
+          "title": "Shipping the roadmap is the minimum",
+          "url": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
+          "hn": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793258465,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.044,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -653,6 +695,26 @@
           ],
           "authors": [
             "geoffgraham.me"
+          ]
+        },
+        {
+          "id": "c22b038555e0",
+          "title": "Frankenstein's pattern: When design system components get stitched together - zeroheight",
+          "url": "https://zeroheight.com/blog/frankensteins-pattern-when-design-system-components-get-stitched-together/",
+          "hn": "https://bsky.app/profile/annaecook.com/post/3myzmtafkss22",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793289278,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.319,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
           ]
         },
         {
@@ -2212,6 +2274,23 @@
           ]
         },
         {
+          "id": "3390eb306006",
+          "title": "The AI reckoning in UX was 20 years in the making",
+          "url": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793229746,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.223,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "d053d7081b69",
           "title": "Accordion Icons: Which Work Best?",
           "url": "https://smashingmagazine.com/2026/10/accordion-icons-which-work-best/",
@@ -2243,6 +2322,23 @@
           "score": 3.152,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "d36c8695b0ff",
+          "title": "Shipping the roadmap is the minimum",
+          "url": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
+          "hn": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793258465,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.044,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -2452,6 +2548,26 @@
           ]
         },
         {
+          "id": "c22b038555e0",
+          "title": "Frankenstein's pattern: When design system components get stitched together - zeroheight",
+          "url": "https://zeroheight.com/blog/frankensteins-pattern-when-design-system-components-get-stitched-together/",
+          "hn": "https://bsky.app/profile/annaecook.com/post/3myzmtafkss22",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793289278,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.319,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
           "id": "dd31cf7999d3",
           "title": "Blink:  Intent to Prototype: CSS Linked Parameters for External SVGs",
           "url": "https://groups.google.com/a/chromium.org/d/msgid/blink-dev/19c0b2a5-ce51-498a-83cf-2d1c7b45436fn%40chromium.org",
@@ -2609,66 +2725,6 @@
           ],
           "authors": [
             "rachelandrew.co.uk"
-          ]
-        },
-        {
-          "id": "d0b4347c06b9",
-          "title": "I’ve never been as nervous to publish on CSS-Tricks since my first article in 2015.",
-          "url": "https://geoffgraham.me/nervous-to-publish-on-css-tricks/",
-          "hn": "https://bsky.app/profile/geoffgraham.me/post/3mykj27u3ghje",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792769819,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.672,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "geoffgraham.me"
-          ]
-        },
-        {
-          "id": "9be29a91e12d",
-          "title": "Native masonry layouts with CSS grid lanes",
-          "url": "https://piccalil.li/blog/native-masonry-layouts-with-css-grid-lanes/",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myhxrpfti62a",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792682560,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.665,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
-          ]
-        },
-        {
-          "id": "496af745f9e3",
-          "title": "An Open Letter to Matt Mullenweg on Accessibility in WordPress",
-          "url": "https://blindaccessjournal.com/2026/10/an-open-letter-to-matt-mullenweg-on-accessibility-in-wordpress/",
-          "hn": "https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy/post/3my6ujy3szik2",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1792369840,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.661,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
           ]
         }
       ]
@@ -2846,6 +2902,40 @@
       "why": []
     },
     {
+      "id": "3390eb306006",
+      "title": "The AI reckoning in UX was 20 years in the making",
+      "url": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793229746,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 3.223,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "d36c8695b0ff",
+      "title": "Shipping the roadmap is the minimum",
+      "url": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
+      "hn": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793258465,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.044,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
       "id": "5978d7219337",
       "title": "Design Systems House",
       "url": "https://www.youtube.com/@designsyshouse/streams",
@@ -2863,26 +2953,6 @@
       ],
       "authors": [
         "geoffgraham.me"
-      ]
-    },
-    {
-      "id": "4a50004d1584",
-      "title": "Buy Fonts — Regret Nothing — fonts.xyz",
-      "url": "https://www.fonts.xyz/?utm_source=the-index&utm_medium=newsletter",
-      "hn": "https://bsky.app/profile/piccalil.li/post/3myx4xzxfft2x",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1793203538,
-      "sources": [
-        "Bluesky"
-      ],
-      "sharers": 1,
-      "score": 1.991,
-      "why": [
-        "spotted on Bluesky"
-      ],
-      "authors": [
-        "piccalil.li"
       ]
     }
   ],

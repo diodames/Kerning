@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-29",
+  "pool": 40,
+  "kept": 3,
+  "dropped": {
+    "below_threshold": 18,
+    "lexicon": 18,
+    "no_title": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://github.com/chriscasper/startica",
+      "title": "Show HN: Startica Open-source app for SEO, marketing, accessibility and security",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.npmjs.com/package/deepseek-search-cli",
+      "title": "Show HN: Simple DeepSeek web search CLI written in TypeScript (fast/cheap)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/how-i-stopped-dreading-ai-and-started-studying-it-full-time-fee7afc2b967?source=rss----138adf9c44c---4",
+      "title": "How I stopped dreading AI and started studying it full-time",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/designing-for-ai-deep-research-lessons-from-google-perplexity-and-microsoft-b32fa2f21e7e?source=rss----138adf9c44c---4",
+      "title": "Designing for AI deep research: lessons from Google, Perplexity and Microsoft",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/autonomy-by-design-how-gamification-and-ai-can-respect-or-rewrite-our-choices-122ad795ec57?source=rss----138adf9c44c---4",
+      "title": "Autonomy by design: how gamification and AI can respect (or rewrite) our choices",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50286034",
+      "title": "Ask HN: Are Apple app reviewers sharing app ideas?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://cordis.europa.eu/article/id/467825-material-producing-bacteria",
+      "title": "Researchers discover electronic material that is naturally produced by bacteria",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50287623",
+      "title": "Ask HN: Help My Sanity",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mealwords.com/",
+      "title": "Show HN: MealWords – Show waiters what you can't eat, in their language",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://trooperloops.com/upload",
+      "title": "Show HN: Universal Blindspot Detector (AI meta-analysis)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://atifaz.am/writing/the-software-factory-forgot-about-design",
+      "title": "The software factory forgot about design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://the-brandidentity.com/project/microsofts-identity-for-copilot-positions-it-as-a-tool-for-work",
+      "title": "Microsoft’s identity for Copilot positions it as a tool for work",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://theremin.bizibah.com/",
+      "title": "Air Theremin",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://karlkoch.me/writing/on-giving-people-an-undo-button-in-ai-products",
+      "title": "On giving people an undo button in AI products",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nyc.streetsblog.org/2026/10/28/mayor-mamdani-im-tired-of-learning-the-names-of-new-yorkers-only-after-they-were-killed-in-preventable-crashes",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.nationalreview.com/corner/a-list-of-things-democrats-might-do-if-they-retake-power/",
+      "title": "A List of Things Democrats Might Do If They Retake Power | National Review",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://migrantinsider.com/p/ice-built-a-shadow-army-of-local",
+      "title": "This isn’t law enforcement, it’s racist bounty hunters. Echoes of a very dark era. migrantinsider.com/p/ice-built-...",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://iamarino.com/how-democracy-won-in-brazil/",
+      "title": "How Democracy Won in Brazil",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Z-NTmezsVds",
+      "title": "DRAWQUARIUM - Official Release Date Trailer",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://payhip.baldurbjarnason.com/b/BMsyT",
+      "title": "Out of the 'AI' Crisis – Premium Newsletter",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.fabivo.app/en",
+      "title": "Show HN: Fabivo – Furniture design from a photo to a numbered cut list",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/standing-desks/nouli",
+      "title": "Show HN: Nouli – A multi-turn decision graph harness for System One models",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Acfboy/Wanim",
+      "title": "Show HN: Wanim – Manim in the browser, but 1/20 smaller",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bostonglobe.com/2026/10/23/opinion/ai-impact-cognitive-ability-eric-so/",
+      "title": "MIT professor says AI is taking over your brain",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://abhishekr3.github.io/rss-system-design/index.html",
+      "title": "Show HN: System Design Articles from Companies",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://freebikeworkout.com/",
+      "title": "Show HN: A browser app that controls my bike trainer over Bluetooth",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://noderesearch.app/",
+      "title": "Show HN: Node research browser for knowledge networking",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/rsbh/personal-context-manager",
+      "title": "Show HN: Personal Context Manager",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://withpanta.com/",
+      "title": "Show HN: Panta – Open Swiss job market data",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://socket.dev/blog/searchjacked",
+      "title": "Searchjacked: Browser Extensions Hijack Searches for 13M Users",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://piccalil.li/blog/if-we-stop-we-lose/",
+      "title": "If we stop, we lose",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://defector.com/i-spent-three-sweltering-days-shredding-the-high-seas-at-jogging-pace-and-it-ruled?utm_source=the-index&utm_medium=newsletter",
+      "title": "I Spent Three Sweltering Days Shredding The High Seas At Jogging Pace, And It Ruled | Defector",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://zeldman.com/2026/10/29/the-day-the-focus-died/?utm_source=bluesky&utm_medium=jetpack_social",
+      "title": "The Day the Focus Died",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://divergencelabs.com/publications/ige-preprint.pdf",
+      "title": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/hyperkubeorg/openarcanum/",
+      "title": "Show HN: OpenArcanum – An End-to-End Encrypted Alternative to Discord",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.engadget.com/2301687/reddit-will-move-to-logged-in-only-as-ai-eats-search-traffic/",
+      "title": "Reddit will force users to log in as AI is killing search traffic",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://adactio.com/notes/22819",
+      "title": "Thursday session 🔗",
+      "reason": "lexicon"
+    }
+  ]
+}
