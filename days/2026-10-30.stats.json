@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-30",
+  "pool": 49,
+  "kept": 4,
+  "dropped": {
+    "lexicon": 18,
+    "below_threshold": 23,
+    "no_title": 3
+  },
+  "dropped_items": [
+    {
+      "url": "https://divergencelabs.com/publications/ige-preprint.pdf",
+      "title": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/hyperkubeorg/openarcanum/",
+      "title": "Show HN: OpenArcanum – An End-to-End Encrypted Alternative to Discord",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.engadget.com/2301687/reddit-will-move-to-logged-in-only-as-ai-eats-search-traffic/",
+      "title": "Reddit will force users to log in as AI is killing search traffic",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://adactio.com/notes/22819",
+      "title": "Thursday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50299858",
+      "title": "Any HN folks with undiagnosed diseases?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "http://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "title": "If you love a website, back it up",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://0x67673068.me/xss-in-yarr/",
+      "title": "XSS in yarr RSS reader",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://unsung.aresluna.org/for-love-of-typography/",
+      "title": "For love (of typography)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twitter.com/figma/status/2115894206409723946",
+      "title": "We're training a Figma-fluent editing model",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://medium.com/design-bootcamp/are-we-teaching-computer-science-backwards-7eaf677f0498",
+      "title": "Are We Teaching Computer Science Backwards?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/the-people-using-ai-should-set-its-strategy-473c7f2ebb94?source=rss----138adf9c44c---4",
+      "title": "The people using AI should set its strategy",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ryo.lu/journal/struggle-together",
+      "title": "Struggle together",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://the-brandidentity.com/project/the-new-york-times-turns-175-with-an-identity-events-and-a-campaign",
+      "title": "The New York Times turns 175",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dri.es/website-migration-costs-are-going-to-zero",
+      "title": "Website migration costs are going to zero",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://hairline.lucasmarkes.com/",
+      "title": "Hairline",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.texttocad.dev/",
+      "title": "Text-to-cad",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/the-index/204/",
+      "title": "The Index: Issue #204",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://furbo.org/2026/10/28/a-health-update/",
+      "title": "A Health Update • furbo.org",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://hyperblam.how/examples/#synthexamples",
+      "title": "Examples",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://hyperblam.how/guides/synthesis/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.thedealersden.com/listing/may-i-have-this-dance/349662",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://pivot-to-ai.com/2026/10/28/the-chinese-ai-crash-is-not-the-end-but-it-is-cheering/",
+      "title": "The Chinese AI crash is not the end, but it is cheering",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://vinchenkov.substack.com/p/a-not-so-alien-world",
+      "title": "The inextricable link between comprehension and the ability to steer ship",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sketch.wakeshift.ai/",
+      "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://prepd.tech/learning",
+      "title": "Show HN: Free system design learning path with animated architecture diagrams",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fishoid.net/",
+      "title": "Show HN: Fishoid: an ambient fish tank for your screen",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.master.dev/two-circles-one-connection-and-border-shape/",
+      "title": "Mastering CSS Shapes with Border-Shape for Dynamic Designs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.designboom.com/design/game-philippe-starck-iconic-lemon-squeezer-juicy-salif-alessi/",
+      "title": "Starck's iconic lemon squeezer broke the mold",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ansi.studio/",
+      "title": "ANSI 16-bit Art Design Studio with AI integration",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ocelhq/ocel",
+      "title": "Show HN: Ocel – Deploy apps to your AWS,GCP or VPS with infra from code",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pawelbrodzinski.substack.com/p/optimize-product-discovery-for-time",
+      "title": "Optimize Product Discovery for Time to First Dollar",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://catcopter.com",
+      "title": "Show HN: I built a multiplayer game where you're an aerial fighter cat",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50303708",
+      "title": "Ask HN: Hack",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://opencommerce.sh",
+      "title": "Show HN: Opencommerce – OpenRouter for commerce, one API for AI agents to buy",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://edjefferson.com/localwiki/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://ca.news.yahoo.com/release-ai-chatbots-harmed-teens-151349745.html",
+      "title": "The release of AI chatbots has harmed teens’ learning and Canada needs to act",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://geoffgraham.me/gone-dark-released/",
+      "title": "New Album: Gone Dark",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.fastbrowse.ai/",
+      "title": "Show HN: Fastbrowse, Browser agent that picks clicks with a System One model",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lawsyoucanfeel.com/",
+      "title": "Laws You Can Feel – Laws and heuristics deciding how an interface feels to use",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5O-vCJW1b8g",
+      "title": "Trump Phone Durability Test – Its worse than we thought (JerryRigEverything) [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twitter.com/darrowoah/status/2116270216460296448",
+      "title": "Pretraining in Stanford CS312: Sharpness and the Edge of Stability",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sketch.wakeshift.ai/games/q5ucru",
+      "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50310650",
+      "title": "Show HN: I'm killing AI slop spam with a simple Google script",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pocketpoems.io",
+      "title": "Show HN: A Daily Poem Writing Puzzle",
+      "reason": "below_threshold"
+    }
+  ]
+}

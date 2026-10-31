@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-31T02:20:00.769148+00:00",
+  "items": [
+    {
+      "id": "1da35e307aba",
+      "title": "Product Managers aren't safe either",
+      "url": "https://lucaskostka.com/posts/ai-challenges-more-than-devs",
+      "hn": "https://news.ycombinator.com/item?id=50309534",
+      "points": 52,
+      "comments": 73,
+      "created_at_i": 1793391279,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.786,
+      "why": [
+        "heavily argued (73 comments)"
+      ]
+    },
+    {
+      "id": "3d7f4cc90e2c",
+      "title": "Experience Design: Dropping the “User” from “User Experience”",
+      "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793379600,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.949,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
+      "id": "341da2ec9e9a",
+      "title": "Pico CSS is no longer maintained",
+      "url": "https://github.com/picocss/pico/discussions/754",
+      "hn": "https://news.ycombinator.com/item?id=50298964",
+      "points": 187,
+      "comments": 97,
+      "created_at_i": 1793325524,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.798,
+      "why": [
+        "187 points"
+      ]
+    },
+    {
+      "id": "48c9e720164c",
+      "title": "The Role of UX in Agentic Software Factories",
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793379600,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.616,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1da35e307aba",
+      "title": "Product Managers aren't safe either",
+      "url": "https://lucaskostka.com/posts/ai-challenges-more-than-devs",
+      "hn": "https://news.ycombinator.com/item?id=50309534",
+      "points": 52,
+      "comments": 73,
+      "created_at_i": 1793391279,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.786,
+      "why": [
+        "heavily argued (73 comments)"
+      ]
+    },
+    {
+      "id": "3d7f4cc90e2c",
+      "title": "Experience Design: Dropping the “User” from “User Experience”",
+      "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793379600,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.949,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
+      "id": "341da2ec9e9a",
+      "title": "Pico CSS is no longer maintained",
+      "url": "https://github.com/picocss/pico/discussions/754",
+      "hn": "https://news.ycombinator.com/item?id=50298964",
+      "points": 187,
+      "comments": 97,
+      "created_at_i": 1793325524,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.798,
+      "why": [
+        "187 points"
+      ]
+    },
+    {
+      "id": "48c9e720164c",
+      "title": "The Role of UX in Agentic Software Factories",
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793379600,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.616,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
+      "id": "0e0aa5c97aa0",
+      "title": "Multiple-column layout, rows, rules, and floats | Rachel Andrew",
+      "url": "https://rachelandrew.co.uk/archives/2026/08/24/multiple-column-layout-rows-rules-and-floats/?utm_source=the-index&utm_medium=newsletter",
+      "hn": "https://bsky.app/profile/piccalil.li/post/3mz3x6fpulg26",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793369107,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.603,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "piccalil.li"
+      ]
+    }
+  ]
+}
