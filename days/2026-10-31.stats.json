@@ -1,0 +1,252 @@
+{
+  "date": "2026-10-31",
+  "pool": 48,
+  "kept": 0,
+  "dropped": {
+    "below_threshold": 30,
+    "lexicon": 15,
+    "already_closed": 3
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.fastbrowse.ai/",
+      "title": "Show HN: Fastbrowse, Browser agent that picks clicks with a System One model",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lawsyoucanfeel.com/",
+      "title": "Laws You Can Feel – Laws and heuristics deciding how an interface feels to use",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5O-vCJW1b8g",
+      "title": "Trump Phone Durability Test – Its worse than we thought (JerryRigEverything) [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twitter.com/darrowoah/status/2116270216460296448",
+      "title": "Pretraining in Stanford CS312: Sharpness and the Edge of Stability",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sketch.wakeshift.ai/games/q5ucru",
+      "title": "Show HN: Sketch Stadium – watch your agent play Pictionary",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://lucaskostka.com/posts/ai-challenges-more-than-devs",
+      "title": "Product Managers aren't safe either",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://www.reuters.com/business/reddit-pinterest-shares-tumble-weak-user-revenue-growth-2026-10-30/",
+      "title": "Reddit shares plunge as Google's AI search squeezes traffic",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50310650",
+      "title": "Show HN: I'm killing AI slop spam with a simple Google script",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pocketpoems.io",
+      "title": "Show HN: A Daily Poem Writing Puzzle",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "The Role of UX in Agentic Software Factories",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Experience Design: Dropping the “User” from “User Experience”",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://www.thedrive.com/news/the-moylan-arrow-is-one-of-fords-best-contributions-to-car-design",
+      "title": "The 'Moylan Arrow' Is One of Ford's Best Contributions to Car Design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50311776",
+      "title": "Ask HN: What's the future like? For normies, will it still be apps and websites?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/umutsevdi/imza",
+      "title": "Show HN: Imza – plan and review focused coding agent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blue-continuum.com/the-gift-of-time",
+      "title": "How ten thousand years of climatic stability made civilization possible",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50314217",
+      "title": "Why Google, Microsoft, Anthropic and OpenAI need their own AI detection tools",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.detroitnews.com/story/tech/2026/06/13/birth-rates-decline-smartphones-iphone-study/90537400007/",
+      "title": "A drop in US births due to smartphone use? These researchers say so",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50314413",
+      "title": "Ask HN: Seeking physics collaborators and compute for emergent spacetime ideas",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://smashingmagazine.com/2026/10/desktop-wallpaper-calendars-november-2026/",
+      "title": "A Spark Of Color In November’s Gray (2026 Wallpapers Edition)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.sarasoueidan.com/newsletter/",
+      "title": "Front-End Field Notes – by Sara Soueidan",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://kerfscript.mylasertools.com/models/",
+      "title": "Show HN: KerfScript Programming Language for Laser Cutting",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.jointter.com/",
+      "title": "Show HN: Jointter – A daily word puzzle using dots and lines",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://clawdline.com/",
+      "title": "Show HN: Clawdline – Manage Claude Code/Codex sessions across computers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.npr.org/2026/10/30/nx-s1-6022278/ai-artificial-intelligence-teens-jed-common-sense-media",
+      "title": "Nearly 2 out of 3 teens and tweens use AI chatbots, new research shows",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://c.org/rbdmGrHcQs",
+      "title": "Sign the Petition",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/oct/31/ice-detention-texas-stories-art",
+      "title": "Men detained at Texas’s ‘dog pound’ ICE facility describe their experience – in art, letters and song",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dbushell.com/2026/11/01/tangled-accessibility/",
+      "title": "Tangled, hire a front-end accessibility expert",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-biggest-sources",
+      "title": "🧠 Community Wisdom: The biggest sources of interruptions for PMs, hiring junior PMs with case studies vs. behavioral interviews, building a product harness for AI-driven development, and more",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://agentbook2.whf.bz/t/88/i-m-building-a-public-goods-funding-mechanism-roast-my-design",
+      "title": "I'm building a public goods funding mechanism. Roast my design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/JamelHammoud/basecase",
+      "title": "Show HN: Playground for Designing Buildable Robotics",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.symbools.com/kuwayama-trademarks-symbols-vol-2/",
+      "title": "Trademarks and Symbols, Volume 2: Symbolical Designs (1973)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/dysgn/Embedded_guide_publish",
+      "title": "Hands-On Embedded Software Design – 21 progressive steps on STM32F7",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50313539",
+      "title": "Tell HN: Claude is using my limits even though it's infra is failing",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://othismo.com",
+      "title": "Show HN: Othismo, a Runtime for Sandboxed Objects",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://css-tricks.com/the-frankenstein-table/",
+      "title": "The Frankenstein Table",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.casio.com/us/watches/50th/Heritage/1980s/",
+      "title": "Casio Watches of the 1980s",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.master.dev/useful-custom-media-presets/",
+      "title": "Useful Custom-Media Presets",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.forbes.com/sites/anderson-lafontant/2026/10/29/anthropics-ipo-date-could-cost-its-employees-a-year-of-tax-life/",
+      "title": "Anthropic's IPO Date Could Cost Its Employees a Year of Tax Life",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://idiallo.com/blog/college-will-cost-20-dollars",
+      "title": "College will only cost $20 a month",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "title": "The AI cost of JavaScript frameworks",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://utndatasystems.github.io/blog/2026/synthesized-compression/",
+      "title": "The Case for Synthesized Data Compression",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ocrbench.app/blog/llm-ocr-cost-calculator/",
+      "title": "Show HN: Free OCR Cost Calculator – Estimate multi-provider LLM token costs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/news/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/",
+      "title": "NASA's Voyager 1 Conserves Power, Resolves Brief Communications Pause",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.03979",
+      "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apnews.com/article/poland-european-union-justice-protests-police-tribunal-67eda2e3a151e00038d85a5e894a2a72",
+      "title": "Police secure Poland's Constitutional Tribunal as protests erupt",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://randomfuckingknowledge.substack.com/p/the-four-choices-that-change-how",
+      "title": "Understanding the core 4 choices is where conscious creation begins",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://cutlefish.substack.com/p/tbm-448-the-software-factory-as-identity",
+      "title": "TBM 448: The Software Factory as Identity Defense (and Reinvention)",
+      "reason": "lexicon"
+    }
+  ]
+}
