@@ -1,0 +1,977 @@
+{
+  "date": "2026-11-01",
+  "pool": 194,
+  "kept": 1,
+  "dropped": {
+    "below_threshold": 149,
+    "lexicon": 43,
+    "no_title": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://claude.ai/artifact/Xxm7H6eLCKgoxJVrSqTigH",
+      "title": "Show HN: Measuring how much of an AI-assisted design is yours",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mcyoung.xyz/2023/11/27/simd-base64/",
+      "title": "Designing a SIMD Algorithm from Scratch (2023)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://agentbook2.whf.bz/t/88/i-m-building-a-public-goods-funding-mechanism-roast-my-design",
+      "title": "I'm building a public goods funding mechanism. Roast my design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/JamelHammoud/basecase",
+      "title": "Show HN: Playground for Designing Buildable Robotics",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.symbools.com/kuwayama-trademarks-symbols-vol-2/",
+      "title": "Trademarks and Symbols, Volume 2: Symbolical Designs (1973)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chrisavellone.medium.com/fallout-2-new-reno-area-design-492c7eac34cd",
+      "title": "Fallout 2: New Reno Area Design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://elitehoopsapp.com/play-designer",
+      "title": "Show HN: A Modern Basketball Play Designer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lapcatsoftware.com/articles/2026/10/10.html",
+      "title": "Design the interface for functionality not familiarity",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://media.aanda.psu.edu/sites/media/aa/files/documents/norman_design-of-everyday-things.pdf",
+      "title": "The Design of Everyday Things (2013) [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://dispatch.altivlabs.com/esp32-s3-rf-filter-design-part-4/",
+      "title": "RF Filter Design for ESP32-S3 – Track Keepout and Crosstalk Isolation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mattinglot.substack.com/p/i-used-gpt-to-design-a-feature-packed",
+      "title": "I Used GPT to Design a Feature Packed PCB and It Worked",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.worldchocolatemasters.com/design-creations",
+      "title": "World Chocolate Masters 2026 Design Challenge",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/dysgn/Embedded_guide_publish",
+      "title": "Hands-On Embedded Software Design – 21 progressive steps on STM32F7",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://thestacks.org/publications/result-esmfold2-secondary-structure-steering",
+      "title": "ESMFold2 Binder Design Steering",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/tidydesigns/tidy",
+      "title": "Tidy – An open-source agentic development platform with a built in design canvas",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/google/elephant-goldfish-model",
+      "title": "Elephant-goldfish-model: skills for designing and reviewing software with agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://make.wordpress.org/core/2026/10/29/exploring-a-design-for-feature-notifications/",
+      "title": "Exploring a Design for Feature Notifications",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://grafista.io/blog/posts/grafista-vs-claude-vs-canva-vs-moda",
+      "title": "Why AI design tools keep making the same flyer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://getclonecode.com",
+      "title": "Clonecode – Copy any website, run it locally, hand the design to your AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.zeniteq.com/bureau-7-10-adds-ten-gates-to-ai-design-review-dr3pxz",
+      "title": "Bureau – Design-Review Workflow",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/clivedsouza1010/rudra-js",
+      "title": "Rudra-JS, LLM-designed product recommendations for React stores",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://acf1210.github.io/bureau/",
+      "title": "Bureau – BUREAU – an agent skill that designs like a studio",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pureart-xyz.vercel.app/",
+      "title": "Show HN: Pure Particles, an open source art particle toy built with Three.js",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.cirkit.us/demo/",
+      "title": "Show HN: Cirkit – Annotate, Trace, and Ask AI About Schematic PDFs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50313539",
+      "title": "Tell HN: Claude is using my limits even though it's infra is failing",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://fontlibrary.org/font/chicagoflf",
+      "title": "ChicagoFLF",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://syncroma.com/en-el-hackeo-de-binance-fontaneria-zero-trust/",
+      "title": "Binance lost $6.3B without leaking a single private key",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://42loop.com/about",
+      "title": "Show HN: 42Loop - Agent runs the product, I assist it",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reuters.com/business/aerospace-defense/ukrainian-arms-maker-fire-point-says-its-systems-can-complete-missions-without-2026-10-30/",
+      "title": "Ukrainian arms manufacturer Fire Point has overcome Starlink restrictions",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://united24media.com/war-in-ukraine/ukraines-new-ai-powered-turret-sky-sentinel-is-already-shooting-down-russias-fastest-drones-23750",
+      "title": "Ukraine's New AI-Powered Turret–Is Shooting Down Russia's Fastest Drones",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://meduza.io/en/feature/2026/10/19/russia-arrests-two-men-who-ran-a-website-for-train-enthusiasts-now-they-face-up-to-10-years-in-prison-for-allegedly-compromising-critical-infrastructure",
+      "title": "Russia arrests two men who ran a website for train enthusiasts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://othismo.com",
+      "title": "Show HN: Othismo, a Runtime for Sandboxed Objects",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50293680",
+      "title": "Xprtix – Browser-first media processing, vector editor, and 3D compressor (WASM)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/frontendsupply/lightbox",
+      "title": "Show HN: The Best Lightbox Component Out There",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://css-tricks.com/the-frankenstein-table/",
+      "title": "The Frankenstein Table",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "title": "US tech stocks see sharp falls over AI cost fears",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.casio.com/us/watches/50th/Heritage/1980s/",
+      "title": "Casio Watches of the 1980s",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://support.apple.com/en-us/149555",
+      "title": "About the compromised eMudhra intermediate CAs",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key",
+      "title": "The case of the 9 bit AES key",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.reuters.com/business/nasdaq-futures-tumble-amazon-intel-results-deepen-ai-spending-woes-2026-10-30/",
+      "title": "Wall Street closes sharply lower as AI cash burn fears spark tech selloff",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/world/2026/oct/30/cost-of-living-protests-to-spread-to-germany-and-reignite-in-france-on-halloween",
+      "title": "Cost of living protests to spread to Germany and reignite in France on Halloween",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.apify.com/google-custom-search-api-alternative/",
+      "title": "Google Custom Search API is shutting down: migration guide and alternatives",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://etherscan.io/tx/0x53bd38b816c23e74134786c29a8c18d792777998a3b9326047b583100e88e2f3",
+      "title": "One of Binance Hot Wallets drained to a new account, funded by Tornado Cash",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50301901",
+      "title": "Ask HN: Are you using a custom harness?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.macrumors.com/2026/10/28/new-macbook-pro-maxed-out-cost/",
+      "title": "Apple's New Touchscreen MacBook Pro Costs Up to $14,549",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://devblogs.microsoft.com/oldnewthing/20261029-00/?p=112808/",
+      "title": "The case of a customer who said that all they could see was a black screen",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twitter.com/ArtificialAnlys/status/2115477376981508419",
+      "title": "GitHub Copilot Fusion orchestrates between models at half the cost",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.techdirt.com/2026/10/29/the-streisand-effect-case-might-have-played-out-differently-in-germany/",
+      "title": "The Streisand Effect Case Might Have Played Out Differently in Germany",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/r28ai/charter",
+      "title": "Show HN: Charter, field-level control over agents' calls into customer accounts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.master.dev/useful-custom-media-presets/",
+      "title": "Useful Custom-Media Presets",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.forbes.com/sites/anderson-lafontant/2026/10/29/anthropics-ipo-date-could-cost-its-employees-a-year-of-tax-life/",
+      "title": "Anthropic's IPO Date Could Cost Its Employees a Year of Tax Life",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data/",
+      "title": "GM to pay $220M after selling customer Smart Driver data",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://beincrypto.com/is-binance-being-hacked-customer-funds/",
+      "title": "Is Binance Being Hacked? $2B Outflow Puts Customer Funds in Question",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://deepsense.ai/blog/when-code-gets-cheaper-judgment-gets-more-precious-quality-bottlenecks-in-enterprise-ai-systems/",
+      "title": "Open Source or Custom in Enterprise AI Systems?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nbcnews.com/world/africa/congos-ebola-outbreak-tops-10000-cases-authorities-race-slow-spread-af-rcna605882",
+      "title": "Congo's Ebola outbreak tops 10k cases as authorities race to slow the spread",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+      "title": "Alphabet's free cash flow sinks further, Q3 capex expectations miss",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Dx0b2Xbnnrc",
+      "title": "Jason Schreier of Bloomberg: \"Gears of War: E-Day cost $500M to Xbox\" [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://videocardz.com/newz/complete-dell-workstation-with-96gb-nvidia-gpu-may-cost-less-than-graphics-card-alone",
+      "title": "Dell workstation with 96GB Nvidia GPU may cost less than graphics card alone",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.mediaite.com/online/bugatti-ceos-own-3-3-million-bugatti-casually-stolen-at-factory-and-its-all-on-video/",
+      "title": "Bugatti CEO's Own $3.3M Bugatti Casually Stolen at Factory",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://johalloran.dev/blog/squigdle-moderation",
+      "title": "What it costs to moderate 500 daily doodles with Jev",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://idiallo.com/blog/college-will-cost-20-dollars",
+      "title": "College will only cost $20 a month",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "title": "The AI cost of JavaScript frameworks",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://utndatasystems.github.io/blog/2026/synthesized-compression/",
+      "title": "The Case for Synthesized Data Compression",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ocrbench.app/blog/llm-ocr-cost-calculator/",
+      "title": "Show HN: Free OCR Cost Calculator – Estimate multi-provider LLM token costs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://invoicingpro.org/",
+      "title": "Show HN: I don't understand why invoicing apps cost $10/month",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://usdebt.watch/",
+      "title": "Annual US debt interest cost",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reddit.com/r/WebScrapingInsider/comments/1xf9hdj/where_do_residential_proxies_really_come_from_ama/",
+      "title": "Residential proxy sourcing and consent: Q&A with Massive's CEO",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.jpl.nasa.gov/news/nasas-voyager-1-conserves-power-resolves-brief-communications-pause/",
+      "title": "NASA's Voyager 1 Conserves Power, Resolves Brief Communications Pause",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://arxiv.org/abs/2606.03979",
+      "title": "Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lukesmith.xyz/articles/consciousness/",
+      "title": "Consciousness Is Not Physical",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://apnews.com/article/ai-jobs-layoffs-hiring-rebounding-skills-04662acffb7beba822129118dde3f0a7",
+      "title": "What to consider if a company that made AI-related job cuts wants you back",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apnews.com/article/poland-european-union-justice-protests-police-tribunal-67eda2e3a151e00038d85a5e894a2a72",
+      "title": "Police secure Poland's Constitutional Tribunal as protests erupt",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.electrive.com/2026/10/29/portugal-considers-80-per-cent-ev-purchase-subsidies/",
+      "title": "Portugal considers 80 per cent EV purchase subsidies",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://thestateofinahaze.net/blog/c-goto-considered-totally-sick/",
+      "title": "Goto Considered Sick (for error handling in C)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://carlorimbotti.substack.com/p/we-are-all-conservatives-now",
+      "title": "We Are All Conservatives Now",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://soatok.blog/2026/10/29/your-cryptography-conspiracy-theory-is-wrong/",
+      "title": "Your Cryptography Conspiracy Theory Is Wrong",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://insideclimatenews.org/news/28102026/antarctic-sea-ice-decline-triggers-ocean-changes/",
+      "title": "A hidden ocean change near Antarctica could have global consequences",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://bmjgroup.com/3-out-of-4-responses-to-uk-smoke-free-generation-consultation-were-ai-bot-generated/",
+      "title": "3 out of 4 responses to UK smoke-free generation consultation were AI-generated",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/society/2026/oct/27/ai-bots-flooded-2023-uk-government-consultation-disposable-vapes-ban",
+      "title": "AI bots flooded 2023 UK government consultation on disposable vapes ban",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://thaura.ai/constitution",
+      "title": "The Thaura Constitution",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://cdm.link/sndstation-linux-distro-for-game-handhelds/",
+      "title": "Sndstation will transform cheap gaming consoles into music handhelds",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.30114",
+      "title": "The End of Consensus Research?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/visiongaiatechnology/gedefense_androidtv",
+      "title": "GeDefense TV – local-first security console for Android TV / Google TV",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.midwesterndoctor.com/p/the-vast-pharmaceutical-conspiracy",
+      "title": "The Pharmaceutical Conspiracy to Silence Online Dissent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://theofficialacm.substack.com/p/what-would-it-take-to-convince-us",
+      "title": "Out of My Other Mind – What are the defining characteristics of a conscious AI?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.benjoffe.com/fast-floordiv",
+      "title": "A faster way to compute signed 64-bit floor division by constants",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://randomfuckingknowledge.substack.com/p/the-four-choices-that-change-how",
+      "title": "Understanding the core 4 choices is where conscious creation begins",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.sportskeeda.com/esports/who-creator-megabonk-danidev-conspiracy-explored",
+      "title": "Who is the creator of Megabonk? DaniDev conspiracy explored",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.ietf.org/runningcode/",
+      "title": "\"We believe in rough consensus and running code\"",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://gethiveos.com/",
+      "title": "Show HN: HiveOS – Multi-agent enterprise OS with PII pills and 3-model consensus",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://medium.com/@smoking2man/constraint-as-language-the-aesthetics-of-new-media-and-the-fate-of-the-generative-image-1e947668348e",
+      "title": "Constraint as Language: The Aesthetics of New Media and the Fate of the Image",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://rogueon.ai/blog/rogue-constellation",
+      "title": "Rogue Constellation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://figshare.com/articles/journal_contribution/BCL_v3_0_Blockchain_Library_Substrate_for_Scale-Invariant_Constant-Bound_Local_Context_Retention/34792242",
+      "title": "BCL v3.0 – Scale-Invariant Constant-Bound Local Context Retention Engine",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://gscmagic.com/",
+      "title": "GSC Magic – Ask Claude or ChatGPT about Your Search Console Data",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://medium.com/@bhaskark2/why-consensus-fails-in-asynchronous-systems-with-faults-a-simple-example-705e91f268cd",
+      "title": "Why Consensus Fails in Asynchronous Systems with Faults: A Simple Example",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://boqmanager.com",
+      "title": "New end to end construction management software with AI first approach",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://reform.trythursday.org/",
+      "title": "Have you considered building less?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/johncassil/dontallow",
+      "title": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50301479",
+      "title": "Ask HN: Are you tired too in this AI era?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50291116",
+      "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://onadit.com/",
+      "title": "Show HN: A local memory that Claude Code, Codex (and your fav agent) share",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://cutlefish.substack.com/p/tbm-448-the-software-factory-as-identity",
+      "title": "TBM 448: The Software Factory as Identity Defense (and Reinvention)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://design.how",
+      "title": "Design systems for agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50285795",
+      "title": "Ask HN: Techniques for productive AI use in the workspace",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://bbrouter.com/bbrouter/ben-eater-sap-1",
+      "title": "Show HN: BBRouter – Ben Eater's 8-bit computer, simulated on 3D breadboards",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+      "title": "We're Training a Figma-Fluent Editing Model",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://figandverse.com/",
+      "title": "Show HN: Show HN: Fig and Verse – daily Bible puzzles and trivia",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.chainalysis.com/blog/security-incident-october-30/",
+      "title": "Chainalysis security incident with customers PII compromised",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/SphericalCowww/CubicDoggo_07B",
+      "title": "Show HN: Cubic Doggo 07B Wouf: A low-cost open-source quadruped with ST3215",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://theainewsreport.com/2026-10-28-macos-git-curl-emudhra-trust-store-tested.html",
+      "title": "Why macOS Git still trusts eMudhra's broken CAs, tested back end by back end",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fm1-editor.com/firmware/",
+      "title": "A collection of custom M-VAVE FM1 Firmware",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://castov.com",
+      "title": "Show HN: Castov – Open-source dev tools and AI secret shield with zero telemetry",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.digital-watch.com/DWL/1work/1874/liked",
+      "title": "Casio – DBC-60",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twitter.com/philwinkle/status/2116180121447014434",
+      "title": "Muse wins a small claims case",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reuters.com/business/alphabets-google-cloud-unit-beats-quarterly-revenue-estimates-steady-ai-demand-2026-10-28/",
+      "title": "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite company's legacy code",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://codon.org.uk/~mjg59/blog/p/getting-google-cast-on-my-soundbar/",
+      "title": "Getting Google Cast on My Soundbar",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/taxmeifyoucan/trrrst-watch",
+      "title": "Show HN: Alternative FOSS companion app for new Casio F-B100W",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://casdoor.ai/blog/casdoor-v4/",
+      "title": "Casdoor v4 – open-source IAM with OAuth for MCP servers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://deljojoseph.com/pace/tools/when-can-i-stop-working",
+      "title": "Show HN: I built a cash-flow simulator to explore when work becomes optional",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/telecomadm1145/CasioEmuMsvc/tree/stable",
+      "title": "CasioEmuMsvc: Emulator and devkit for Casio nX-U8/100 and nX-U16/100 MCU series",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iMsUcCYNKqY",
+      "title": "Sam Altman's case for making compute cheap [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.jennifer-walsh.com/assets/nonprofit_windfalls.pdf",
+      "title": "How Do Nonprofits Use Cash Windfalls? Evidence from Unrestricted Donations∗ [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chrisinnes.uk/notes/the-case-for-ai-lts/",
+      "title": "The Case for AI LTS: Why the Real World Needs a Stable Release Cycle",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/lonthq/overtone-captions",
+      "title": "Show HN: Overtone – Transcribe, correct and cut captions for any screen shape",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://emarzion.github.io/KSRT/",
+      "title": "Constructing a Quine from Kleene's Second Recursion Theorem",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://zenodo.org/records/23836212",
+      "title": "A Second Life Under Constraints",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://close.city/",
+      "title": "Interactive map designed to help you find neighborhoods in the United States",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ivankovic/omnidiff",
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSfUrRL6qYGP_PlgqNdXRX_9dR92umWQAuetaGru1j02YG28rA/viewform",
+      "title": "What factors shapes the future of UX learning?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/cqj34gnd3n30o",
+      "title": "Shops looted as German cost of living protests turn violent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/YasserManss/modeljury",
+      "title": "Show HN: Modeljury – a jury of cheap LLMs that escalates the hard cases",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.ft.com/content/1d4dd7b2-9dee-433b-ac2a-e8022af1dd07",
+      "title": "Binance restarts customer withdrawals after $6.3B heist",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.indiehackers.com/post/i-m-building-25-free-ai-tools-for-small-businesses-in-7-days-each-here-s-why-and-what-i-need-from-you-e253531348",
+      "title": "What operational task would you hand to a 7-day custom AI tool?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://bit-cheer.com/",
+      "title": "Show HN: Learn to beatmatch on Winamp-skinned decks (vibe-coded, desktop only)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50324043",
+      "title": "Magic vs. Wonder: memories of a distant future",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://amiga.kexperiments.com",
+      "title": "Amiga Constellation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wherewhen.cc",
+      "title": "Show HN: I got tired of travel spreadsheets so I made a travel planner app",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://storytella.io/",
+      "title": "Show HN: Turn websites into audio locally in the browser with WebGPU",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://donhopkins.com/home/TheSimsDesignDocuments/",
+      "title": "The Sims Game Design Documents (1997)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://designsystem.digital.gov/",
+      "title": "USWDS: The United States Web Design System",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twitter.com/DeepSeekHarness/status/2116857257245987236",
+      "title": "Exploring Super-Agent Design: Towards a More Autonomous Agent System",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0zVQ_SibpyM",
+      "title": "Why Design in the 1980s Looked So Weird and Why It's Relevant Today [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tibleiz.net/blog/2024-01-04-compilers-and-decompilers.html",
+      "title": "Compilers, Decompilers and Programming Language Design (2024)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://app.geop-cad.dev/?example=duck",
+      "title": "Show HN: Geop – Open-source Nurbs CAD with MCP (MicroDuck example)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://filepeek.io/",
+      "title": "Show HN: Filepeek – View any file in your browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/fkr-0/elmtui",
+      "title": "Show HN: ElmTUI. Declarative terminal user interface framework in Common Lisp",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://gradual.johndimm.org",
+      "title": "Show HN: Gradual Daylight Saving – Spread the 1-hour shifts over the whole year",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.sigmaaldrich.com/US/en/technical-documents/technical-article/materials-science-and-engineering/3d-printing/3d-printing-graphene-ink",
+      "title": "3D Printing Graphene Ink: Creating Electronic and Biomedical Structures (2016)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.npmjs.com/package/renderpdf-js",
+      "title": "Show HN: RenderPDF.js – HTML to PDF preserving browser CSS layout",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://thibaud.space/2026/10/the-case-against-makefiles.html",
+      "title": "The Case Against Makefiles",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://self.cv/en/blog/do-ai-career-websites-sound-the-same",
+      "title": "Do AI-Written Resumes (CVs) All Sound the Same?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wired.com/story/a-newly-discovered-trail-of-cosmic-debris-illustrates-what-the-end-of-the-solar-system-could-look-like/",
+      "title": "Newly Discovered Trail of Cosmic Debris – How End of the Solar System Could Look",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.dpreview.com/news/canon-says-camera-prices-could-rise-in-2027/",
+      "title": "Canon says camera prices could rise in 2027 if memory costs stay high",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50326907",
+      "title": "Altman's comment becomes understandable once you consider the Jevons Paradox",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.china-in-space.com/p/china-details-precursors-to-crewed",
+      "title": "China Details Precursors to Crewed Moon Landing, Considers Future Exploration",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://revisionprompting.info/",
+      "title": "Revision Prompting: Diff your inputs for consistency and efficiency",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50294644",
+      "title": "Ask HN: Antrophic tightened usage limits?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/when-colors-pass-but-palettes-fail-55b7210f8e4d?source=rss----138adf9c44c---4",
+      "title": "When colors pass but palettes fail",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/how-to-design-transparent-ai-cost-controls-a44fd52b9104?source=rss----138adf9c44c---4",
+      "title": "How to design transparent AI cost controls",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/context-is-the-new-interface-c16b7f6e77be?source=rss----138adf9c44c---4",
+      "title": "Context is the new interface",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/samia-halaby-and-the-amiga-1000-8aae181666b9?source=rss----138adf9c44c---4",
+      "title": "Samia Halaby and the Amiga 1000",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22822",
+      "title": "Sunday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22821",
+      "title": "The lack of punctuation on this bit of pub signage is sending exactly the wrong message. 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://pitchfork.com/story/juan-atkins-co-founder-of-techno-music-dies-at-64/",
+      "title": "Juan Atkins, Co-Founder of Techno Music, Dies at 64",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wpt.fyi/interop-2026",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.proofofconcept.pub/p/youre-all-developer-relations-now",
+      "title": "You're all Developer Relations now",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+      "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50328797",
+      "title": "Ask HN: What mistakes did AI make in your codebase?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50329744",
+      "title": "Can light be used to cyberattack?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50328748",
+      "title": "Show HN: DSP Explorables",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://techcrunch.com/2026/10/30/applebees-exposed-customers-personal-data-after-leaving-database-password-in-app/",
+      "title": "Applebee's exposed customers' personal data with database password in app",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://allyburns.com/musings/ai-for-all/",
+      "title": "\"AI for everyone would cost a tenth of a kettle a day",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://carboncost.me",
+      "title": "Show HN: Measure the carbon cost of everyday items: prompts, beef, flights",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/10/31/automakers-3d-printing-ford-rivian-gm.html",
+      "title": "Rivian, Ford and GM are using 3D printing to reduce costs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://asymco.com/2026/11/01/the-last-consumer-company/",
+      "title": "Apple captures 50% of consumer revenue of the top half of the S&P 500",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/c789a123/epochnbd",
+      "title": "Show HN: Epochnbd – Crash-Consistent Linux NBD Block Device on GCS/Google Drive",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50327963",
+      "title": "Hetzner Down?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/mrsladoje/sweet-search",
+      "title": "Show HN: Sweet-search – local code search for agents (5–33% cheaper runs)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://id-le.com/?lab&halloween",
+      "title": "Show HN: 2D world SIM where each creature runs a text classifier in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://questdata.web.app/",
+      "title": "Show HN: DataQuest-Your website data in Telegram and Discord",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50326183",
+      "title": "EraseAI Firewall – stop secrets and PII before they reach Public LLMs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://shroom.am",
+      "title": "Show HN: Shroom – screen recording and sharing, your own Cloudflare, 10M setup",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50326994",
+      "title": "Ask HN: Lost all my Claude credits",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.reuters.com/business/autos-transportation/gm-pay-220-million-settle-allegations-it-violated-consumers-privacy-2026-10-29/",
+      "title": "GM to pay $220M to settle allegations it violated drivers' privacy",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.thehindu.com/sci-tech/science/isro-nvs-03-launch-navic-constellation-5-things-to-know-about-india-next-generation-satellite/article71648294.ece",
+      "title": "NavIC RNSS Is Back",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://wareshq.com/crosswalk",
+      "title": "Show HN: Crosswalk – terminal manager to reduce sprawl",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50330567",
+      "title": "Ask HN: Pivoting from Platform Engineering",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.anonce.io/",
+      "title": "Show HN: Nonce – Open-source, least-privilege Gmail access for AI agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://macwright.com/2026/11/01/cycling-vermont",
+      "title": "Cycling Vermont",
+      "reason": "lexicon"
+    }
+  ]
+}

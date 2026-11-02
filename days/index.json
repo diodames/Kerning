@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T02:11:01.297107+00:00",
+  "updated_at": "2026-11-02T02:28:21.245814+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -3564,6 +3564,53 @@
         "below_threshold": 30,
         "lexicon": 15,
         "already_closed": 3
+      }
+    },
+    "2026-11-01": {
+      "items": [
+        {
+          "id": "58c1e27eaf81",
+          "title": "Your design system was never about components",
+          "url": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793543556,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.882,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "58c1e27eaf81",
+          "title": "Your design system was never about components",
+          "url": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793543556,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.882,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        }
+      ],
+      "pool": 194,
+      "kept": 1,
+      "dropped": {
+        "below_threshold": 149,
+        "lexicon": 43,
+        "no_title": 1
       }
     }
   }
