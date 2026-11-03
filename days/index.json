@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-02T02:28:21.245814+00:00",
+  "updated_at": "2026-11-03T03:55:23.505070+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -3611,6 +3611,221 @@
         "below_threshold": 149,
         "lexicon": 43,
         "no_title": 1
+      }
+    },
+    "2026-11-02": {
+      "items": [
+        {
+          "id": "06a612f5cbe4",
+          "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+          "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793614942,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.778,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "62cb89d6491c",
+          "title": "Making features generic in CSS",
+          "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
+          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mzdrcxdjktxr",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793637598,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.393,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "rachelandrew.co.uk",
+            "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "8494259ac3bc",
+          "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793635328,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.589,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "8e0ca3b2816d",
+          "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+          "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "hn": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793624651,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "06a612f5cbe4",
+          "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+          "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793614942,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.778,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "62cb89d6491c",
+          "title": "Making features generic in CSS",
+          "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
+          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mzdrcxdjktxr",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793637598,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.393,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "rachelandrew.co.uk",
+            "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "8494259ac3bc",
+          "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793635328,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.589,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "8e0ca3b2816d",
+          "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+          "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "hn": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793624651,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "2e54ec26db50",
+          "title": "Virtue ethics in everyday interface design",
+          "url": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793642134,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.309,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "5a3e3455042e",
+          "title": "Controlling when CSS custom property values are computed",
+          "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzdphn55n32o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793635706,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.658,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "bcc3853ae118",
+          "title": "Our CSS isn't opinionated enough - Craig Abbott",
+          "url": "https://www.craigabbott.co.uk/blog/2026/our-css-isnt-opinionated-enough/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzdiokogsp2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793628421,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.604,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        }
+      ],
+      "pool": 130,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 86,
+        "lexicon": 34,
+        "no_title": 2,
+        "patch": 1
       }
     }
   }

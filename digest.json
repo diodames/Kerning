@@ -1,743 +1,189 @@
 {
-  "generated_at": "2026-11-02T02:28:21.249295+00:00",
+  "generated_at": "2026-11-03T03:55:23.509235+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "1 November 2026",
-      "period_start": "2026-11-01",
-      "period_end": "2026-11-01",
+      "label": "2 November 2026",
+      "period_start": "2026-11-02",
+      "period_end": "2026-11-02",
       "items": [
         {
-          "id": "58c1e27eaf81",
-          "title": "Your design system was never about components",
-          "url": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
+          "id": "06a612f5cbe4",
+          "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+          "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793543556,
+          "created_at_i": 1793614942,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.882,
+          "score": 4.778,
           "why": [
             "editor's pick at UX Collective"
           ]
-        }
-      ],
-      "candidates": [
+        },
         {
-          "id": "58c1e27eaf81",
-          "title": "Your design system was never about components",
-          "url": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
+          "id": "62cb89d6491c",
+          "title": "Making features generic in CSS",
+          "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
+          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mzdrcxdjktxr",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793543556,
+          "created_at_i": 1793637598,
           "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.882,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        }
-      ]
-    },
-    "weekly": {
-      "label": "26 October – 1 November 2026",
-      "period_start": "2026-10-26",
-      "period_end": "2026-11-01",
-      "week_start": "2026-10-26",
-      "week_end": "2026-11-01",
-      "week_label": "26 October – 1 November 2026",
-      "iso_week": "2026-W44",
-      "items": [
-        {
-          "id": "fb4e0f430939",
-          "title": "CSS-Tricks has a new owner! | CSS-Tricks",
-          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-          "hn": "https://news.ycombinator.com/item?id=50245831",
-          "points": 375,
-          "comments": 89,
-          "created_at_i": 1793028656,
-          "sources": [
-            "Hacker News",
-            "Lobsters",
             "Bluesky"
           ],
-          "sharers": 5,
-          "score": 15.853,
+          "sharers": 2,
+          "score": 4.393,
           "why": [
-            "picked up by Hacker News and Lobsters and Bluesky",
-            "shared by 5 design accounts",
-            "375 points"
+            "shared by 2 design accounts"
           ],
           "authors": [
-            "geoffgraham.me",
-            "joshwcomeau.com",
             "rachelandrew.co.uk",
-            "sarasoueidan.com",
-            "ericwbailey.website"
-          ]
-        },
-        {
-          "id": "5e1b5156704d",
-          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
-          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793050396,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 5.086,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "1da35e307aba",
-          "title": "Product Managers aren't safe either",
-          "url": "https://lucaskostka.com/posts/ai-challenges-more-than-devs",
-          "hn": "https://news.ycombinator.com/item?id=50309534",
-          "points": 52,
-          "comments": 73,
-          "created_at_i": 1793391279,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.786,
-          "why": [
-            "heavily argued (73 comments)"
-          ]
-        },
-        {
-          "id": "4eb69046d508",
-          "title": "shadcn/ui — shadcn@4.23.0",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793104307,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.497,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "cd12fced669f",
-          "title": "shadcn/ui — @shadcn/registry@0.2.1",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793094062,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.429,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "c23f4f4cbe2a",
-          "title": "Memberships | CSS-Tricks",
-          "url": "https://css-tricks.com/memberships/",
-          "hn": "https://bsky.app/profile/bradfrost.com/post/3myuqiuqqyk2o",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793121426,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 4.411,
-          "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "bradfrost.com",
-            "geoffgraham.me"
-          ]
-        },
-        {
-          "id": "7d41353edb72",
-          "title": "Taking Back CSS-Tricks",
-          "url": "https://wil.to/posts/taking-back-css-tricks/",
-          "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793029438,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 4.367,
-          "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "geoffgraham.me",
-            "joshwcomeau.com"
-          ]
-        },
-        {
-          "id": "3d7f4cc90e2c",
-          "title": "Experience Design: Dropping the “User” from “User Experience”",
-          "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793379600,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.949,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "58c1e27eaf81",
-          "title": "Your design system was never about components",
-          "url": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793543556,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.882,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "9a6c9d4d1215",
-          "title": "Craftwork: UI made by real designers",
-          "url": "https://craftwork.design/?ref=sidebar",
-          "hn": "https://craftwork.design/?ref=sidebar",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793002500,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.73,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "5eae432a4722",
-          "title": "Design systems should be fast by default",
-          "url": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
-          "hn": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793160060,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.642,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "a44a6d900231",
-          "title": "Antique Fonts Collection – Restored 19th Century Typefaces",
-          "url": "https://centurylibrary.com/collection/antique-fonts/",
-          "hn": "https://news.ycombinator.com/item?id=50261579",
-          "points": 23,
-          "comments": 11,
-          "created_at_i": 1793118299,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.624,
-          "why": []
-        }
-      ],
-      "candidates": [
-        {
-          "id": "fb4e0f430939",
-          "title": "CSS-Tricks has a new owner! | CSS-Tricks",
-          "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-          "hn": "https://news.ycombinator.com/item?id=50245831",
-          "points": 375,
-          "comments": 89,
-          "created_at_i": 1793028656,
-          "sources": [
-            "Hacker News",
-            "Lobsters",
-            "Bluesky"
-          ],
-          "sharers": 5,
-          "score": 15.853,
-          "why": [
-            "picked up by Hacker News and Lobsters and Bluesky",
-            "shared by 5 design accounts",
-            "375 points"
-          ],
-          "authors": [
-            "geoffgraham.me",
-            "joshwcomeau.com",
-            "rachelandrew.co.uk",
-            "sarasoueidan.com",
-            "ericwbailey.website"
-          ]
-        },
-        {
-          "id": "5e1b5156704d",
-          "title": "Building an AI-ready design system library: Code → Figma with MCP.",
-          "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793050396,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 5.086,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "1da35e307aba",
-          "title": "Product Managers aren't safe either",
-          "url": "https://lucaskostka.com/posts/ai-challenges-more-than-devs",
-          "hn": "https://news.ycombinator.com/item?id=50309534",
-          "points": 52,
-          "comments": 73,
-          "created_at_i": 1793391279,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.786,
-          "why": [
-            "heavily argued (73 comments)"
-          ]
-        },
-        {
-          "id": "4eb69046d508",
-          "title": "shadcn/ui — shadcn@4.23.0",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793104307,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.497,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "cd12fced669f",
-          "title": "shadcn/ui — @shadcn/registry@0.2.1",
-          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
-          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793094062,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.429,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "c23f4f4cbe2a",
-          "title": "Memberships | CSS-Tricks",
-          "url": "https://css-tricks.com/memberships/",
-          "hn": "https://bsky.app/profile/bradfrost.com/post/3myuqiuqqyk2o",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793121426,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 4.411,
-          "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "bradfrost.com",
-            "geoffgraham.me"
-          ]
-        },
-        {
-          "id": "7d41353edb72",
-          "title": "Taking Back CSS-Tricks",
-          "url": "https://wil.to/posts/taking-back-css-tricks/",
-          "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793029438,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 4.367,
-          "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "geoffgraham.me",
-            "joshwcomeau.com"
-          ]
-        },
-        {
-          "id": "3d7f4cc90e2c",
-          "title": "Experience Design: Dropping the “User” from “User Experience”",
-          "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793379600,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.949,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "58c1e27eaf81",
-          "title": "Your design system was never about components",
-          "url": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793543556,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.882,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "341da2ec9e9a",
-          "title": "Pico CSS is no longer maintained",
-          "url": "https://github.com/picocss/pico/discussions/754",
-          "hn": "https://news.ycombinator.com/item?id=50298964",
-          "points": 187,
-          "comments": 97,
-          "created_at_i": 1793325524,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.798,
-          "why": [
-            "187 points"
-          ]
-        },
-        {
-          "id": "9a6c9d4d1215",
-          "title": "Craftwork: UI made by real designers",
-          "url": "https://craftwork.design/?ref=sidebar",
-          "hn": "https://craftwork.design/?ref=sidebar",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793002500,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.73,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "a5e4e8a1948a",
-          "title": "Intent Design System",
-          "url": "https://intentapp.dev/design-system?dark-mode=",
-          "hn": "https://intentapp.dev/design-system?dark-mode=",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793002220,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.728,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "5eae432a4722",
-          "title": "Design systems should be fast by default",
-          "url": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
-          "hn": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793160060,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.642,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "a44a6d900231",
-          "title": "Antique Fonts Collection – Restored 19th Century Typefaces",
-          "url": "https://centurylibrary.com/collection/antique-fonts/",
-          "hn": "https://news.ycombinator.com/item?id=50261579",
-          "points": 23,
-          "comments": 11,
-          "created_at_i": 1793118299,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.624,
-          "why": []
-        },
-        {
-          "id": "48c9e720164c",
-          "title": "The Role of UX in Agentic Software Factories",
-          "url": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/ux-agentic-software-factories/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793379600,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.616,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "67638fe1b012",
-          "title": "Decoy Font: a TTF font that hides what you type",
-          "url": "https://www.mixfont.com/experiments/decoy-font",
-          "hn": "https://www.mixfont.com/experiments/decoy-font",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793090331,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.405,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "1291176c17f8",
-          "title": "KibernetykMono – A Geometric Monospace Typeface",
-          "url": "https://pavlokilko.github.io/KibernetykMono/",
-          "hn": "https://news.ycombinator.com/item?id=50244265",
-          "points": 30,
-          "comments": 3,
-          "created_at_i": 1793024696,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.368,
-          "why": []
-        },
-        {
-          "id": "351e666c511b",
-          "title": "Literallyeveryfont: Every font on the internet, free for personal use",
-          "url": "https://www.literallyeveryfont.com/",
-          "hn": "https://news.ycombinator.com/item?id=50250087",
-          "points": 20,
-          "comments": 0,
-          "created_at_i": 1793044985,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.296,
-          "why": []
-        },
-        {
-          "id": "19a7287ac228",
-          "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
-          "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
-          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793026853,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 3.228,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "3390eb306006",
-          "title": "The AI reckoning in UX was 20 years in the making",
-          "url": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/the-ai-reckoning-in-ux-was-20-years-in-the-making-ecd7e36185de?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793229746,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.223,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "57f3af44f1ef",
-          "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
-          "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
-          "hn": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793016260,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 3.152,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "d36c8695b0ff",
-          "title": "Shipping the roadmap is the minimum",
-          "url": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
-          "hn": "https://avivbenyosef.com/shipping-the-roadmap-is-the-minimum/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793258465,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.044,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "179067fa1f69",
-          "title": "Web Components Demystified online course | Scott Jehl, Web Designer/Developer",
-          "url": "https://scottjehl.com/learn/webcomponentsdemystified/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3myugv6mnh22k",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793111102,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.612,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
             "zeldman.bsky.social"
           ]
         },
         {
-          "id": "5978d7219337",
-          "title": "Design Systems House",
-          "url": "https://www.youtube.com/@designsyshouse/streams",
-          "hn": "https://bsky.app/profile/geoffgraham.me/post/3myxbtgm4522b",
+          "id": "8494259ac3bc",
+          "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793208753,
+          "created_at_i": 1793635328,
           "sources": [
-            "Bluesky"
+            "Lenny's Newsletter"
           ],
-          "sharers": 1,
-          "score": 2.365,
+          "sharers": 0,
+          "score": 3.589,
           "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "geoffgraham.me"
+            "editor's pick at Lenny's Newsletter"
           ]
         },
         {
-          "id": "c22b038555e0",
-          "title": "Frankenstein's pattern: When design system components get stitched together - zeroheight",
-          "url": "https://zeroheight.com/blog/frankensteins-pattern-when-design-system-components-get-stitched-together/",
-          "hn": "https://bsky.app/profile/annaecook.com/post/3myzmtafkss22",
+          "id": "8e0ca3b2816d",
+          "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+          "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "hn": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793289278,
+          "created_at_i": 1793624651,
           "sources": [
-            "Bluesky"
+            "Lenny's Newsletter"
           ],
-          "sharers": 1,
-          "score": 2.319,
+          "sharers": 0,
+          "score": 3.511,
           "why": [
-            "spotted on Bluesky"
+            "editor's pick at Lenny's Newsletter"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "06a612f5cbe4",
+          "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+          "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793614942,
+          "sources": [
+            "UX Collective"
           ],
-          "authors": [
-            "ericwbailey.website"
+          "sharers": 0,
+          "score": 4.778,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "4a50004d1584",
-          "title": "Buy Fonts — Regret Nothing — fonts.xyz",
-          "url": "https://www.fonts.xyz/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3myx4xzxfft2x",
+          "id": "62cb89d6491c",
+          "title": "Making features generic in CSS",
+          "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
+          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mzdrcxdjktxr",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793203538,
+          "created_at_i": 1793637598,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.393,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "rachelandrew.co.uk",
+            "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "8494259ac3bc",
+          "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793635328,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.589,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "8e0ca3b2816d",
+          "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+          "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "hn": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793624651,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "2e54ec26db50",
+          "title": "Virtue ethics in everyday interface design",
+          "url": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793642134,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.309,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "5a3e3455042e",
+          "title": "Controlling when CSS custom property values are computed",
+          "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzdphn55n32o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793635706,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.991,
+          "score": 1.658,
           "why": [
             "spotted on Bluesky"
           ],
@@ -746,18 +192,232 @@
           ]
         },
         {
-          "id": "0e0aa5c97aa0",
-          "title": "Multiple-column layout, rows, rules, and floats | Rachel Andrew",
-          "url": "https://rachelandrew.co.uk/archives/2026/08/24/multiple-column-layout-rows-rules-and-floats/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3mz3x6fpulg26",
+          "id": "bcc3853ae118",
+          "title": "Our CSS isn't opinionated enough - Craig Abbott",
+          "url": "https://www.craigabbott.co.uk/blog/2026/our-css-isnt-opinionated-enough/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzdiokogsp2o",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793369107,
+          "created_at_i": 1793628421,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.603,
+          "score": 1.604,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        }
+      ]
+    },
+    "weekly": {
+      "label": "2–8 November 2026",
+      "period_start": "2026-11-02",
+      "period_end": "2026-11-08",
+      "week_start": "2026-11-02",
+      "week_end": "2026-11-08",
+      "week_label": "2–8 November 2026",
+      "iso_week": "2026-W45",
+      "items": [
+        {
+          "id": "06a612f5cbe4",
+          "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+          "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793614942,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.778,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "62cb89d6491c",
+          "title": "Making features generic in CSS",
+          "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
+          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mzdrcxdjktxr",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793637598,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.393,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "rachelandrew.co.uk",
+            "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "8494259ac3bc",
+          "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793635328,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.589,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "8e0ca3b2816d",
+          "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+          "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "hn": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793624651,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "06a612f5cbe4",
+          "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+          "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793614942,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.778,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "62cb89d6491c",
+          "title": "Making features generic in CSS",
+          "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
+          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mzdrcxdjktxr",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793637598,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.393,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "rachelandrew.co.uk",
+            "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "8494259ac3bc",
+          "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793635328,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.589,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "8e0ca3b2816d",
+          "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+          "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "hn": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793624651,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "2e54ec26db50",
+          "title": "Virtue ethics in everyday interface design",
+          "url": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793642134,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.309,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "5a3e3455042e",
+          "title": "Controlling when CSS custom property values are computed",
+          "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzdphn55n32o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793635706,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.658,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "bcc3853ae118",
+          "title": "Our CSS isn't opinionated enough - Craig Abbott",
+          "url": "https://www.craigabbott.co.uk/blog/2026/our-css-isnt-opinionated-enough/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzdiokogsp2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793628421,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.604,
           "why": [
             "spotted on Bluesky"
           ],
@@ -773,24 +433,43 @@
       "period_end": "2026-11-30",
       "items": [
         {
-          "id": "58c1e27eaf81",
-          "title": "Your design system was never about components",
-          "url": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
+          "id": "06a612f5cbe4",
+          "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+          "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793543556,
+          "created_at_i": 1793614942,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.882,
+          "score": 4.778,
           "why": [
             "editor's pick at UX Collective"
           ]
-        }
-      ],
-      "candidates": [
+        },
+        {
+          "id": "62cb89d6491c",
+          "title": "Making features generic in CSS",
+          "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
+          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mzdrcxdjktxr",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793637598,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.393,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "rachelandrew.co.uk",
+            "zeldman.bsky.social"
+          ]
+        },
         {
           "id": "58c1e27eaf81",
           "title": "Your design system was never about components",
@@ -807,235 +486,268 @@
           "why": [
             "editor's pick at UX Collective"
           ]
+        },
+        {
+          "id": "8494259ac3bc",
+          "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793635328,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.589,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "8e0ca3b2816d",
+          "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+          "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "hn": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793624651,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "06a612f5cbe4",
+          "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+          "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793614942,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.778,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "62cb89d6491c",
+          "title": "Making features generic in CSS",
+          "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
+          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mzdrcxdjktxr",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793637598,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.393,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "rachelandrew.co.uk",
+            "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "58c1e27eaf81",
+          "title": "Your design system was never about components",
+          "url": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793543556,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.882,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "8494259ac3bc",
+          "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793635328,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.589,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "8e0ca3b2816d",
+          "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+          "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "hn": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793624651,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "2e54ec26db50",
+          "title": "Virtue ethics in everyday interface design",
+          "url": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793642134,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.309,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "5a3e3455042e",
+          "title": "Controlling when CSS custom property values are computed",
+          "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzdphn55n32o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793635706,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.658,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "bcc3853ae118",
+          "title": "Our CSS isn't opinionated enough - Craig Abbott",
+          "url": "https://www.craigabbott.co.uk/blog/2026/our-css-isnt-opinionated-enough/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzdiokogsp2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793628421,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.604,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
         }
       ]
     }
   },
   "items": [
     {
-      "id": "fb4e0f430939",
-      "title": "CSS-Tricks has a new owner! | CSS-Tricks",
-      "url": "https://css-tricks.com/css-tricks-has-a-new-owner/",
-      "hn": "https://news.ycombinator.com/item?id=50245831",
-      "points": 375,
-      "comments": 89,
-      "created_at_i": 1793028656,
+      "id": "06a612f5cbe4",
+      "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
+      "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793614942,
       "sources": [
-        "Hacker News",
-        "Lobsters",
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 4.778,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "62cb89d6491c",
+      "title": "Making features generic in CSS",
+      "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
+      "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mzdrcxdjktxr",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793637598,
+      "sources": [
         "Bluesky"
       ],
-      "sharers": 5,
-      "score": 15.853,
+      "sharers": 2,
+      "score": 4.393,
       "why": [
-        "picked up by Hacker News and Lobsters and Bluesky",
-        "shared by 5 design accounts",
-        "375 points"
+        "shared by 2 design accounts"
       ],
       "authors": [
-        "geoffgraham.me",
-        "joshwcomeau.com",
         "rachelandrew.co.uk",
-        "sarasoueidan.com",
-        "ericwbailey.website"
+        "zeldman.bsky.social"
       ]
     },
     {
-      "id": "5e1b5156704d",
-      "title": "Building an AI-ready design system library: Code → Figma with MCP.",
-      "url": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/building-an-ai-ready-design-system-library-code-figma-with-mcp-ec5d9e8c90d2?source=rss----138adf9c44c---4",
+      "id": "8494259ac3bc",
+      "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+      "hn": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1793050396,
+      "created_at_i": 1793635328,
       "sources": [
-        "UX Collective"
+        "Lenny's Newsletter"
       ],
       "sharers": 0,
-      "score": 5.086,
+      "score": 3.589,
       "why": [
-        "editor's pick at UX Collective"
+        "editor's pick at Lenny's Newsletter"
       ]
     },
     {
-      "id": "1da35e307aba",
-      "title": "Product Managers aren't safe either",
-      "url": "https://lucaskostka.com/posts/ai-challenges-more-than-devs",
-      "hn": "https://news.ycombinator.com/item?id=50309534",
-      "points": 52,
-      "comments": 73,
-      "created_at_i": 1793391279,
-      "sources": [
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 4.786,
-      "why": [
-        "heavily argued (73 comments)"
-      ]
-    },
-    {
-      "id": "4eb69046d508",
-      "title": "shadcn/ui — shadcn@4.23.0",
-      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
-      "hn": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.0",
+      "id": "8e0ca3b2816d",
+      "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+      "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+      "hn": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1793104307,
+      "created_at_i": 1793624651,
       "sources": [
-        "Design systems"
+        "Lenny's Newsletter"
       ],
       "sharers": 0,
-      "score": 4.497,
+      "score": 3.511,
       "why": [
-        "editor's pick at Design systems"
+        "editor's pick at Lenny's Newsletter"
       ]
-    },
-    {
-      "id": "cd12fced669f",
-      "title": "shadcn/ui — @shadcn/registry@0.2.1",
-      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
-      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.1",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1793094062,
-      "sources": [
-        "Design systems"
-      ],
-      "sharers": 0,
-      "score": 4.429,
-      "why": [
-        "editor's pick at Design systems"
-      ]
-    },
-    {
-      "id": "c23f4f4cbe2a",
-      "title": "Memberships | CSS-Tricks",
-      "url": "https://css-tricks.com/memberships/",
-      "hn": "https://bsky.app/profile/bradfrost.com/post/3myuqiuqqyk2o",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1793121426,
-      "sources": [
-        "Bluesky"
-      ],
-      "sharers": 2,
-      "score": 4.411,
-      "why": [
-        "shared by 2 design accounts"
-      ],
-      "authors": [
-        "bradfrost.com",
-        "geoffgraham.me"
-      ]
-    },
-    {
-      "id": "7d41353edb72",
-      "title": "Taking Back CSS-Tricks",
-      "url": "https://wil.to/posts/taking-back-css-tricks/",
-      "hn": "https://bsky.app/profile/wil.to/post/3mys2tfn3ks2g",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1793029438,
-      "sources": [
-        "Bluesky"
-      ],
-      "sharers": 2,
-      "score": 4.367,
-      "why": [
-        "shared by 2 design accounts"
-      ],
-      "authors": [
-        "geoffgraham.me",
-        "joshwcomeau.com"
-      ]
-    },
-    {
-      "id": "3d7f4cc90e2c",
-      "title": "Experience Design: Dropping the “User” from “User Experience”",
-      "url": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "hn": "https://www.nngroup.com/articles/ux-vs-experience-design/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1793379600,
-      "sources": [
-        "NN/g"
-      ],
-      "sharers": 0,
-      "score": 3.949,
-      "why": [
-        "editor's pick at NN/g"
-      ]
-    },
-    {
-      "id": "58c1e27eaf81",
-      "title": "Your design system was never about components",
-      "url": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1793543556,
-      "sources": [
-        "UX Collective"
-      ],
-      "sharers": 0,
-      "score": 3.882,
-      "why": [
-        "editor's pick at UX Collective"
-      ]
-    },
-    {
-      "id": "9a6c9d4d1215",
-      "title": "Craftwork: UI made by real designers",
-      "url": "https://craftwork.design/?ref=sidebar",
-      "hn": "https://craftwork.design/?ref=sidebar",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1793002500,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.73,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "5eae432a4722",
-      "title": "Design systems should be fast by default",
-      "url": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
-      "hn": "https://denodell.com/blog/design-systems-should-be-fast-by-default",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1793160060,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.642,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "a44a6d900231",
-      "title": "Antique Fonts Collection – Restored 19th Century Typefaces",
-      "url": "https://centurylibrary.com/collection/antique-fonts/",
-      "hn": "https://news.ycombinator.com/item?id=50261579",
-      "points": 23,
-      "comments": 11,
-      "created_at_i": 1793118299,
-      "sources": [
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 3.624,
-      "why": []
     }
   ],
-  "week_start": "2026-10-26",
-  "week_end": "2026-11-01",
-  "week_label": "26 October – 1 November 2026",
-  "iso_week": "2026-W44"
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "week_label": "2–8 November 2026",
+  "iso_week": "2026-W45"
 }
