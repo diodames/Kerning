@@ -70,6 +70,22 @@ class AppTests(unittest.TestCase):
         r = self.client.post("/me/rebuild", json={"force": True})
         self.assertEqual(r.status_code, 200)
         self.assertTrue(r.json().get("jobId"))
+        me = self.client.get("/me").json()
+        self.assertTrue(me["weekly"])
+        self.assertEqual(me["send_dow"], 1)
+        self.assertEqual(me["send_slot"], "morning")
+        r = self.client.put("/me", json={
+            "weekly": True,
+            "send_dow": 3,
+            "send_slot": "evening",
+            "timezone": "Europe/Prague",
+        })
+        self.assertEqual(r.status_code, 200)
+        self.assertEqual(r.json()["send_dow"], 3)
+        self.assertEqual(r.json()["send_slot"], "evening")
+        r = self.client.delete("/me")
+        self.assertEqual(r.status_code, 200)
+        self.assertEqual(self.client.get("/me").status_code, 401)
 
     def test_upsert_pool(self):
         db = SessionLocal()

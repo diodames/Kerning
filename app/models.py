@@ -24,6 +24,9 @@ class User(Base):
     id: Mapped[str] = mapped_column(String(36), primary_key=True, default=_uuid)
     email: Mapped[str] = mapped_column(String(255), unique=True, index=True)
     timezone: Mapped[str] = mapped_column(String(64), default="Europe/Prague")
+    weekly: Mapped[int] = mapped_column(Integer, default=1)
+    send_dow: Mapped[int] = mapped_column(Integer, default=1)
+    send_slot: Mapped[str] = mapped_column(String(16), default="morning")
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_utcnow)
 
 

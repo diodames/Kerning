@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// Monday email: last week's issue, ranked by each opted-in reader's synced taste.
+// Weekly email: the current weekly issue, ranked by each opted-in reader's taste,
+// sent on their chosen weekday and Morning / Afternoon / Evening.
 //
 //   node scripts/weekly_email.mjs [--dry-run] [--digest state/digest.json] [--out out]
 //   node scripts/weekly_email.mjs --dry-run --profile kerning-profile.json --to you@example.com
@@ -9,7 +10,8 @@
 // never addresses.
 
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
-import { join } from "node:path";
+import { join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 import { createRequire } from "node:module";
 
 const require = createRequire(import.meta.url);
@@ -20,6 +22,54 @@ const SITE_URL = (process.env.KERNING_SITE_URL || "https://www.kerningdigest.com
 const FROM = process.env.KERNING_MAIL_FROM || "Kerning <onboarding@resend.dev>";
 const ONLY = (process.env.KERNING_MAIL_ONLY || "").trim().toLowerCase();
 const DIGEST_TZ = process.env.DIGEST_TZ || "Europe/Prague";
+const DEFAULT_TZ = "Europe/Prague";
+const SLOT_HOURS = { morning: 8, afternoon: 13, evening: 18 };
+const WEEKDAY_SHORT = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+
+function zonedParts(date, tz) {
+  const fmt = new Intl.DateTimeFormat("en-US", {
+    timeZone: tz,
+    weekday: "short",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  });
+  const parts = {};
+  fmt.formatToParts(date).forEach((p) => { parts[p.type] = p.value; });
+  return {
+    year: +parts.year,
+    month: +parts.month,
+    day: +parts.day,
+    hour: +parts.hour,
+    minute: +parts.minute,
+    dow: WEEKDAY_SHORT[parts.weekday],
+  };
+}
+
+function isoWeekMinutes(parts) {
+  const offset = parts.dow === 0 ? 6 : parts.dow - 1;
+  return offset * 24 * 60 + parts.hour * 60 + parts.minute;
+}
+
+function readerDue(pref, now, isoWeek) {
+  if (!pref || pref.weekly === false) return false;
+  if (isoWeek && pref.last_sent_week === isoWeek) return false;
+  let tz = pref.timezone || DEFAULT_TZ;
+  let parts;
+  try { parts = zonedParts(now, tz); }
+  catch (e) { parts = zonedParts(now, DEFAULT_TZ); }
+  const wantDow = pref.send_dow == null || pref.send_dow === "" ? 1 : Number(pref.send_dow);
+  const slot = SLOT_HOURS[pref.send_slot] != null ? pref.send_slot : "morning";
+  const wantHour = SLOT_HOURS[slot];
+  const nowMin = isoWeekMinutes(parts);
+  const wantMin = (wantDow === 0 ? 6 : wantDow - 1) * 24 * 60 + wantHour * 60;
+  return nowMin >= wantMin;
+}
+
+export { SLOT_HOURS, readerDue };
 
 function parseArgs(argv) {
   const args = { dryRun: false, digest: "state/digest.json", out: "out", profile: "", to: "" };
@@ -194,9 +244,20 @@ async function supabase(path, init) {
   return res.status === 204 ? null : res.json();
 }
 
+async function loadPrefs() {
+  try {
+    return await supabase("email_prefs?weekly=eq.true&select=user_id,email,unsub_token,last_sent_week,send_dow,send_slot,timezone");
+  } catch (err) {
+    const msg = String(err.message || err);
+    if (!/send_dow|send_slot|timezone|42703|PGRST204/i.test(msg)) throw err;
+    return await supabase("email_prefs?weekly=eq.true&select=user_id,email,unsub_token,last_sent_week");
+  }
+}
+
 async function loadReaders(pack) {
-  const prefs = await supabase("email_prefs?weekly=eq.true&select=user_id,email,unsub_token,last_sent_week");
-  const due = prefs.filter((r) => !pack.iso_week || r.last_sent_week !== pack.iso_week);
+  const prefs = await loadPrefs();
+  const now = new Date();
+  const due = prefs.filter((r) => readerDue(r, now, pack.iso_week));
   if (!due.length) return [];
   const ids = due.map((r) => r.user_id).join(",");
   const rows = await supabase("profiles?select=user_id,data&user_id=in.(" + ids + ")");
@@ -238,7 +299,7 @@ async function main() {
   }
   const complete = weekComplete(pack);
   console.log("Issue " + (pack.iso_week || "?") + " (" + (pack.label || "") + "), "
-    + (complete ? "complete" : "still running; recipients won't be marked as sent"));
+    + (complete ? "complete" : "still running"));
 
   let readers;
   if (args.profile || args.to) {
@@ -269,7 +330,7 @@ async function main() {
     }
     try {
       await send(reader, mail);
-      if (complete && pack.iso_week && reader.userId !== "local") {
+      if (pack.iso_week && reader.userId !== "local") {
         await supabase("email_prefs?user_id=eq." + reader.userId, {
           method: "PATCH",
           headers: { Prefer: "return=minimal" },
@@ -287,7 +348,17 @@ async function main() {
   if (failed) process.exitCode = 1;
 }
 
-main().catch((err) => {
-  console.error(redact(err.message || err));
-  process.exitCode = 1;
-});
+function invokedDirectly() {
+  try {
+    return fileURLToPath(import.meta.url) === resolve(process.argv[1] || "");
+  } catch (e) {
+    return false;
+  }
+}
+
+if (invokedDirectly()) {
+  main().catch((err) => {
+    console.error(redact(err.message || err));
+    process.exitCode = 1;
+  });
+}

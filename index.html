@@ -46,6 +46,7 @@
 <style>
   :root {
     --paper: #f7f5f2;
+    --sel: color-mix(in srgb, white 72%, var(--paper));
     --ink: #1a1a1a;
     --ink-deep: #0c0c0c;
     --mute: #5c5c58;
@@ -575,6 +576,7 @@
     margin: auto;
     padding: 28px 28px 24px;
     border: 1px solid var(--line);
+    border-radius: 8px;
     background: var(--paper);
     color: var(--ink);
     font: inherit;
@@ -619,8 +621,58 @@
     text-wrap: pretty;
   }
   .dlg-acts {
-    display: flex; flex-wrap: wrap; gap: 4px 22px;
-    justify-content: flex-end; margin-top: 22px;
+    display: flex; flex-wrap: wrap; gap: 8px;
+    justify-content: flex-end; margin-top: 20px;
+  }
+  .ui-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 36px;
+    min-height: 36px;
+    padding: 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: var(--ink);
+    color: var(--paper);
+    box-shadow: none;
+    transition:
+      background-color 180ms var(--ease-out),
+      color 180ms var(--ease-out),
+      border-color 180ms var(--ease-out),
+      opacity 180ms var(--ease-out),
+      transform 160ms var(--ease-out);
+  }
+  .btn.ui-btn:hover {
+    background: var(--ink-deep);
+    color: var(--paper);
+  }
+  .ui-btn--outline {
+    background: var(--paper);
+    color: var(--ink);
+    border-color: var(--line);
+    box-shadow: 0 1px 2px color-mix(in srgb, var(--ink-deep) 5%, transparent);
+  }
+  .btn.ui-btn.ui-btn--outline:hover {
+    background: color-mix(in srgb, var(--ink) 6%, var(--paper));
+    color: var(--ink);
+    border-color: color-mix(in srgb, var(--ink) 28%, var(--line));
+  }
+  .ui-btn--destructive {
+    background: var(--warm);
+    color: var(--paper);
+  }
+  .btn.ui-btn.ui-btn--destructive:hover {
+    background: color-mix(in srgb, var(--warm) 88%, var(--ink-deep));
+    color: var(--paper);
+  }
+  .ui-btn:disabled {
+    pointer-events: none;
   }
   .dlg .sync-msg { margin-top: 12px; }
   .dlg .sync-msg:empty { display: none; }
@@ -635,18 +687,75 @@
     }
   }
   .acct-check {
+    position: relative;
     display: flex; gap: 10px; align-items: flex-start;
     margin-top: 12px; padding: 6px 0; cursor: pointer;
     font-size: var(--text-meta); color: var(--mute); line-height: 1.55;
   }
-  .acct-check input {
-    flex-shrink: 0; width: 15px; height: 15px;
-    margin: calc((1.55em - 15px) / 2) 0 0; accent-color: var(--ink);
+  .acct-check:has(.chk-native:disabled) { cursor: default; }
+  .chk-wrap {
+    position: relative;
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    margin: calc((1.55em - 16px) / 2) 0 0;
   }
-  #view-account .acct-danger { margin-top: 32px; }
-  #view-account .acct-danger .btn { min-height: 40px; }
-  .dlg .btn.down { color: var(--warm); }
-  .dlg .btn.down:hover { color: var(--ink); }
+  .chk-native {
+    position: absolute;
+    inset: 0;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+    cursor: inherit;
+    z-index: 1;
+    appearance: none;
+    border: 0;
+  }
+  .chk-native:focus-visible { outline: none; }
+  .chk {
+    position: absolute;
+    inset: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--paper);
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    pointer-events: none;
+    transition: border-color 180ms var(--ease-out), background-color 180ms var(--ease-out);
+  }
+  .chk-mark {
+    display: flex;
+    width: 14px;
+    height: 14px;
+    opacity: 0;
+    transform: scale(0.25);
+    filter: blur(4px);
+    transition:
+      opacity 180ms cubic-bezier(0.2, 0, 0, 1),
+      transform 180ms cubic-bezier(0.2, 0, 0, 1),
+      filter 180ms cubic-bezier(0.2, 0, 0, 1);
+  }
+  .chk-native:hover:not(:disabled) + .chk {
+    border-color: color-mix(in srgb, var(--ink) 28%, var(--line));
+  }
+  .chk-native:checked + .chk {
+    background: var(--ink);
+    border-color: var(--ink);
+  }
+  .chk-native:checked + .chk .chk-mark {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+  }
+  .chk-native:focus-visible + .chk {
+    outline: 2px solid var(--ink);
+    outline-offset: 3px;
+  }
+  .chk-native:disabled + .chk { opacity: 0.4; }
   .tsec { margin: 8px 0 48px; }
   .tsec > h2 {
     font-size: var(--text-title); font-weight: 500;
@@ -676,6 +785,95 @@
     background-repeat: no-repeat;
     background-position: right 0 center;
     padding-right: 18px;
+  }
+  .tadd--when {
+    gap: 12px 20px;
+    width: max-content;
+    max-width: 100%;
+  }
+  .tfield--sel {
+    position: relative;
+    flex: 0 0 auto;
+    min-width: 0;
+  }
+  .sel-native {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+  .sel-trigger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    min-height: 40px;
+    min-width: 8.25rem;
+    padding: 6px 10px;
+    font: inherit;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    background: var(--sel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border-color 180ms var(--ease-out), color 180ms var(--ease-out);
+  }
+  .sel-trigger:hover:not(:disabled) { border-color: color-mix(in srgb, var(--ink) 28%, var(--line)); }
+  .sel-trigger:disabled { opacity: 0.4; cursor: default; }
+  .sel-trigger[aria-expanded="true"] { border-color: var(--ink); }
+  .sel-trigger[aria-expanded="true"] .sel-chevron {
+    transform: rotate(180deg);
+  }
+  .sel-value { min-width: 0; }
+  .sel-chevron {
+    display: flex;
+    flex-shrink: 0;
+    color: var(--mute);
+    transition: transform 180ms var(--ease-out);
+  }
+  .sel-list {
+    position: absolute;
+    z-index: 24;
+    inset-inline-start: 0;
+    top: calc(100% + 4px);
+    margin: 0;
+    padding: 4px;
+    min-width: 100%;
+    width: max-content;
+    max-width: min(16rem, calc(100vw - 2 * var(--pad)));
+    list-style: none;
+    background: var(--sel);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: 0 10px 28px color-mix(in srgb, var(--ink-deep) 12%, transparent);
+  }
+  .sel-opt {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 10px 7px 8px;
+    min-height: 36px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+  }
+  .sel-opt.is-active { background: color-mix(in srgb, var(--ink) 6%, var(--sel)); }
+  .sel-opt[aria-selected="true"] { font-weight: 500; }
+  .sel-check {
+    display: flex;
+    flex-shrink: 0;
+    width: 12px;
+    height: 12px;
+    color: var(--ink);
   }
   .tfield input::placeholder { color: var(--faint); }
   .tfield input:focus, .tfield select:focus { border-bottom-color: var(--ink); }
@@ -911,6 +1109,7 @@
   .hidden, [hidden] { display: none !important; }
 
   @media (hover: hover) and (pointer: fine) {
+    .sel-opt:hover { background: color-mix(in srgb, var(--ink) 6%, var(--sel)); }
     .list:hover .item { opacity: 0.32; }
     .list:hover .item:hover { opacity: 1; }
     a.title:hover { text-decoration: underline; }
@@ -979,6 +1178,12 @@
     .seed { grid-template-columns: minmax(0, 1fr); }
     .seed .acts { margin-top: 0; }
     .seed-resource { grid-template-columns: minmax(0, 1fr) auto; }
+    .dlg-acts {
+      flex-direction: column-reverse;
+      align-items: stretch;
+      flex-wrap: nowrap;
+    }
+    .dlg-acts .ui-btn { width: 100%; }
   }
   @media (max-width: 360px) {
     .site-nav, .tabs { gap: 12px; }
@@ -997,6 +1202,10 @@
     .spider-dot { fill: CanvasText; }
     .dlg { border-color: CanvasText; background: Canvas; color: CanvasText; }
     .dlg::backdrop { background: CanvasText; opacity: 0.35; }
+    .sel-trigger, .sel-list, .chk, .ui-btn--outline { background: Canvas; border-color: CanvasText; color: CanvasText; }
+    .ui-btn, .ui-btn--destructive { background: CanvasText; color: Canvas; border-color: CanvasText; }
+    .chk-native:checked + .chk { background: CanvasText; border-color: CanvasText; color: Canvas; }
+    .sel-opt.is-active, .sel-opt:hover { background: Highlight; color: HighlightText; }
   }
 </style>
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
@@ -1090,8 +1299,8 @@
     <h2 id="reset-dialog-title">Start over?</h2>
     <p id="reset-dialog-body">This clears people, resources, articles, ratings, saved stories, and the learned profile. People and resources return to the defaults.</p>
     <div class="dlg-acts">
-      <button type="submit" class="btn" value="cancel" autofocus>Cancel</button>
-      <button type="submit" class="btn down" value="confirm">Start over</button>
+      <button type="submit" class="btn ui-btn ui-btn--outline" value="cancel" autofocus>Cancel</button>
+      <button type="submit" class="btn ui-btn ui-btn--destructive" value="confirm">Start over</button>
     </div>
   </form>
 </dialog>
@@ -1102,8 +1311,8 @@
     <p id="sync-delete-body">This removes your profile from Kerning&rsquo;s server and signs you out. This browser keeps its copy.</p>
     <p class="note sync-msg" id="sync-delete-msg" role="status"></p>
     <div class="dlg-acts">
-      <button type="button" class="btn" id="sync-delete-cancel" autofocus>Cancel</button>
-      <button type="submit" class="btn down" id="sync-delete-confirm">Delete</button>
+      <button type="button" class="btn ui-btn ui-btn--outline" id="sync-delete-cancel" autofocus>Cancel</button>
+      <button type="submit" class="btn ui-btn ui-btn--destructive" id="sync-delete-confirm">Delete</button>
     </div>
   </form>
 </dialog>
@@ -1113,7 +1322,7 @@
     <h2 id="notice-title"></h2>
     <p id="notice-body"></p>
     <div class="dlg-acts">
-      <button type="submit" class="btn" autofocus>Close</button>
+      <button type="submit" class="btn ui-btn" autofocus>Close</button>
     </div>
   </form>
 </dialog>
@@ -2822,25 +3031,22 @@ function showLanding(on) {
   queueHeroMorph();
 }
 
+function accountUser() {
+  if (hostedMode && me) return me;
+  return syncUser;
+}
+
 function renderAuthSlot() {
   const slot = document.getElementById("auth-slot");
   if (!slot) return;
-  if (syncMode && !hostedMode) {
+  if ((hostedMode && me) || (syncMode && !hostedMode)) {
     slot.classList.add("hidden");
     slot.innerHTML = "";
     renderAccountTab();
     return;
   }
-  if (!hostedMode || !me) {
-    slot.classList.add("hidden");
-    slot.innerHTML = "";
-    return;
-  }
-  slot.classList.remove("hidden");
-  slot.innerHTML = '<span class="nav-email">' + esc(me.email) + "</span>"
-    + '<button type="button" class="btn" id="sign-out">Sign out</button>';
-  const out = document.getElementById("sign-out");
-  if (out) out.onclick = signOut;
+  slot.classList.add("hidden");
+  slot.innerHTML = "";
 }
 
 async function signOut(e) {
@@ -3020,8 +3226,9 @@ function renderAccountTab() {
     btn.dataset.tab = "account";
     tabs.insertBefore(btn, tabs.querySelector(".sel-dot"));
   }
-  btn.textContent = syncUser ? "Account" : "Sign in";
-  if (syncUser) btn.setAttribute("aria-label", "Account, signed in as " + (syncUser.email || "you"));
+  const user = accountUser();
+  btn.textContent = user ? "Account" : "Sign in";
+  if (user) btn.setAttribute("aria-label", "Account, signed in as " + (user.email || "you"));
   else btn.removeAttribute("aria-label");
   const on = tab === "account";
   btn.classList.toggle("on", on);
@@ -3049,7 +3256,10 @@ function rerenderAccount(focusId) {
     return;
   }
   render();
-  const el = focusId && document.getElementById(focusId);
+  let el = focusId && document.getElementById(focusId);
+  if (el && el.classList.contains("sel-native")) {
+    el = document.getElementById(focusId + "-trigger") || el;
+  }
   if (el) el.focus();
 }
 
@@ -3071,6 +3281,7 @@ function accountSignedOutHTML() {
 }
 
 function accountSignedInHTML() {
+  const user = accountUser();
   let weekly = "";
   if (weeklyEmailVisible()) {
     const ready = weeklyPref && !weeklyPref.error;
@@ -3078,45 +3289,53 @@ function accountSignedInHTML() {
     const lock = !ready || accountBusy.weekly;
     let when = "";
     if (on) {
-      when = '<div class="tadd" id="account-weekly-when">'
-        + '<div class="tfield"><label for="account-weekly-day">Day</label>'
-        + '<select id="account-weekly-day"' + (lock ? " disabled" : "") + ">"
-        + weeklyDayOptions(weeklyPref.send_dow) + "</select></div>"
-        + '<div class="tfield"><label for="account-weekly-slot">Time</label>'
-        + '<select id="account-weekly-slot"' + (lock ? " disabled" : "") + ">"
-        + weeklySlotOptions(weeklyPref.send_slot) + "</select></div></div>";
+      when = '<div class="tadd tadd--when" id="account-weekly-when">'
+        + selFieldHTML("account-weekly-day", "Day", WEEKLY_DAYS, weeklyPref.send_dow, lock)
+        + selFieldHTML("account-weekly-slot", "Time", WEEKLY_SLOTS, weeklyPref.send_slot, lock)
+        + "</div>";
     }
     weekly = '<section class="tsec tsec--ruled" aria-labelledby="account-weekly-h">'
       + '<h2 id="account-weekly-h">Weekly email</h2>'
-      + '<label class="acct-check"><input type="checkbox" id="account-weekly"'
+      + '<label class="acct-check"><span class="chk-wrap">'
+      + '<input type="checkbox" class="chk-native" id="account-weekly"'
       + (on ? " checked" : "")
       + (lock ? " disabled" : "") + ">"
+      + '<span class="chk" aria-hidden="true"><span class="chk-mark">' + CHK_MARK
+      + "</span></span></span>"
       + "<span>Get the weekly issue by email, ranked by your taste.</span></label>"
       + when
       + '<p class="note" id="account-weekly-msg" role="status">' + esc(accountMsg.weekly) + "</p>"
       + "</section>";
   }
-  return '<p class="note taste-primer">Signed in as <strong>' + esc(syncUser.email || "your account") + "</strong>.</p>"
-    + '<section class="tsec tsec--ruled" aria-labelledby="account-sync-h">'
-    + '<h2 id="account-sync-h">Sync</h2>'
-    + '<p class="note">' + esc(syncedSummary()) + "</p>"
-    + '<div class="acct-sync"><p class="note">' + esc(syncedLabel()) + "</p>"
-    + '<div class="acts"><button type="button" class="btn" id="account-sync-now"'
-    + (accountBusy.sync ? " disabled>Syncing\u2026" : ">Sync now") + "</button></div></div>"
-    + '<p class="field-err" id="account-sync-msg" role="status">' + esc(accountMsg.sync) + "</p>"
-    + "</section>"
+  const sync = hostedMode
+    ? '<section class="tsec tsec--ruled" aria-labelledby="account-sync-h">'
+      + '<h2 id="account-sync-h">This account</h2>'
+      + '<p class="note">' + esc(syncedSummary()) + "</p>"
+      + "<p class=\"note\">Ratings and Taste stay with this account as you&nbsp;edit.</p>"
+      + "</section>"
+    : '<section class="tsec tsec--ruled" aria-labelledby="account-sync-h">'
+      + '<h2 id="account-sync-h">Sync</h2>'
+      + '<p class="note">' + esc(syncedSummary()) + "</p>"
+      + '<div class="acct-sync"><p class="note">' + esc(syncedLabel()) + "</p>"
+      + '<div class="acts"><button type="button" class="btn" id="account-sync-now"'
+      + (accountBusy.sync ? " disabled>Syncing\u2026" : ">Sync now") + "</button></div></div>"
+      + '<p class="field-err" id="account-sync-msg" role="status">' + esc(accountMsg.sync) + "</p>"
+      + "</section>";
+  return '<p class="note taste-primer">Signed in as <strong>' + esc((user && user.email) || "your account") + "</strong>.</p>"
+    + sync
     + weekly
-    + '<div class="reset"><div class="acts">'
-    + '<button type="button" class="btn" id="account-sign-out">Sign out</button></div></div>'
-    + '<p class="note acct-danger"><button type="button" class="btn down" id="account-delete">Delete synced data</button></p>';
+    + '<div class="acts">'
+    + '<button type="button" class="btn" id="account-sign-out">Sign out</button>'
+    + '<button type="button" class="btn down" id="account-delete">Delete synced data</button></div>';
 }
 
 function renderAccount() {
   const el = document.getElementById("view-account");
   if (!el) return;
-  el.innerHTML = syncUser ? accountSignedInHTML() : accountSignedOutHTML();
+  const user = accountUser();
+  el.innerHTML = user ? accountSignedInHTML() : accountSignedOutHTML();
   bindAccount();
-  if (syncUser && !weeklyPref && !weeklyLoading) ensureWeeklyPref();
+  if (user && (!weeklyPref || weeklyPref.error) && !weeklyLoading) ensureWeeklyPref();
 }
 
 function bindAccount() {
@@ -3130,12 +3349,15 @@ function bindAccount() {
   const now = document.getElementById("account-sync-now");
   if (now) now.onclick = runSyncNow;
   const weekly = document.getElementById("account-weekly");
-  if (weekly) weekly.onchange = function () { saveWeeklyOptIn(this.checked); };
+  if (weekly) weekly.onchange = function () { return saveWeeklyOptIn(this.checked); };
   const day = document.getElementById("account-weekly-day");
   const slot = document.getElementById("account-weekly-slot");
-  if (day) day.onchange = function () { saveWeeklySchedule("account-weekly-day"); };
-  if (slot) slot.onchange = function () { saveWeeklySchedule("account-weekly-slot"); };
-  document.getElementById("account-sign-out").onclick = syncSignOut;
+  if (day) day.onchange = function () { return saveWeeklySchedule("account-weekly-day"); };
+  if (slot) slot.onchange = function () { return saveWeeklySchedule("account-weekly-slot"); };
+  bindSel("account-weekly-day");
+  bindSel("account-weekly-slot");
+  bindSelChrome();
+  document.getElementById("account-sign-out").onclick = hostedMode ? signOut : syncSignOut;
   document.getElementById("account-delete").onclick = () => {
     document.getElementById("sync-delete-msg").textContent = "";
     document.getElementById("sync-delete-dialog").showModal();
@@ -3238,6 +3460,22 @@ function bindSyncDeleteDialog() {
   dlg.addEventListener("click", (e) => { if (e.target === dlg && !confirm.disabled) dlg.close(); });
   form.onsubmit = async (e) => {
     e.preventDefault();
+    if (hostedMode && me) {
+      confirm.disabled = true;
+      msg.textContent = "";
+      try {
+        const res = await api("/me", { method: "DELETE" });
+        if (!res.ok) throw new Error(res.status);
+        dlg.close();
+        me = null;
+        await signOut();
+      } catch (err) {
+        msg.textContent = "Couldn\u2019t delete your synced data. Check your connection and try again.";
+      } finally {
+        confirm.disabled = false;
+      }
+      return;
+    }
     if (!syncClient || !syncUser) { dlg.close(); return; }
     const userId = syncUser.id;
     clearTimeout(syncTimer);
@@ -3299,18 +3537,155 @@ function weeklyWhenLabel(pref) {
   return day + " " + when;
 }
 
-function weeklyDayOptions(selected) {
-  const cur = selected != null ? Number(selected) : 1;
-  return WEEKLY_DAYS.map(function (d) {
-    return '<option value="' + d.v + '"' + (d.v === cur ? " selected" : "") + ">" + d.label + "</option>";
+const SEL_CHEV = '<svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 4.5 6 7.5 9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const SEL_CHECK = '<svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2.5 6.2 5 8.7 9.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+const CHK_MARK = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+function selFieldHTML(id, label, items, selected, lock) {
+  const cur = items.filter(function (it) {
+    return String(it.v) === String(selected);
+  })[0] || items[0];
+  const native = items.map(function (it) {
+    return '<option value="' + it.v + '"' + (String(it.v) === String(cur.v) ? " selected" : "") + ">"
+      + esc(it.label) + "</option>";
   }).join("");
+  const opts = items.map(function (it) {
+    const on = String(it.v) === String(cur.v);
+    return '<li role="option" class="sel-opt" id="' + id + "-opt-" + it.v + '" data-value="'
+      + esc(String(it.v)) + '" data-label="' + esc(it.label) + '" aria-selected="'
+      + (on ? "true" : "false") + '"><span class="sel-check" aria-hidden="true">'
+      + (on ? SEL_CHECK : "") + '</span><span class="sel-opt-label">' + esc(it.label)
+      + "</span></li>";
+  }).join("");
+  return '<div class="tfield tfield--sel">'
+    + '<label id="' + id + '-label" for="' + id + '-trigger">' + esc(label) + "</label>"
+    + '<select class="sel-native" id="' + id + '" tabindex="-1" aria-hidden="true"' + (lock ? " disabled" : "") + ">"
+    + native + "</select>"
+    + '<button type="button" class="sel-trigger" id="' + id + '-trigger"'
+    + (lock ? " disabled" : "")
+    + ' aria-haspopup="listbox" aria-expanded="false" aria-controls="' + id + '-list"'
+    + ' aria-labelledby="' + id + "-label " + id + '-value">'
+    + '<span class="sel-value" id="' + id + '-value">' + esc(cur.label) + "</span>"
+    + '<span class="sel-chevron" aria-hidden="true">' + SEL_CHEV + "</span></button>"
+    + '<ul class="sel-list" id="' + id + '-list" role="listbox" hidden aria-labelledby="'
+    + id + '-label">' + opts + "</ul></div>";
 }
 
-function weeklySlotOptions(selected) {
-  const cur = selected || "morning";
-  return WEEKLY_SLOTS.map(function (s) {
-    return '<option value="' + s.v + '"' + (s.v === cur ? " selected" : "") + ">" + s.label + "</option>";
-  }).join("");
+function closeAllSels(exceptId) {
+  document.querySelectorAll(".sel-list").forEach(function (list) {
+    if (exceptId && list.id === exceptId) return;
+    list.hidden = true;
+    const trigger = document.getElementById(list.id.replace(/-list$/, "-trigger"));
+    if (trigger) {
+      trigger.setAttribute("aria-expanded", "false");
+      trigger.removeAttribute("aria-activedescendant");
+    }
+  });
+}
+
+function bindSelChrome() {
+  if (document.body.dataset.selBound) return;
+  document.body.dataset.selBound = "1";
+  document.addEventListener("pointerdown", function (e) {
+    if (!e.target.closest(".tfield--sel")) closeAllSels();
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key !== "Escape") return;
+    const open = document.querySelector('.sel-trigger[aria-expanded="true"]');
+    closeAllSels();
+    if (open) open.focus();
+  });
+}
+
+function bindSel(selectId) {
+  const select = document.getElementById(selectId);
+  const trigger = document.getElementById(selectId + "-trigger");
+  const list = document.getElementById(selectId + "-list");
+  if (!select || !trigger || !list) return;
+
+  function opts() {
+    return Array.prototype.slice.call(list.querySelectorAll(".sel-opt"));
+  }
+  function selectedIndex() {
+    const all = opts();
+    const on = list.querySelector('.sel-opt[aria-selected="true"]');
+    const i = all.indexOf(on);
+    return i < 0 ? 0 : i;
+  }
+  function activeIndex() {
+    const all = opts();
+    const on = list.querySelector(".sel-opt.is-active");
+    const i = all.indexOf(on);
+    return i < 0 ? selectedIndex() : i;
+  }
+  function setActive(i) {
+    const all = opts();
+    if (!all.length) return;
+    i = (i + all.length) % all.length;
+    all.forEach(function (o, n) { o.classList.toggle("is-active", n === i); });
+    trigger.setAttribute("aria-activedescendant", all[i].id);
+    all[i].scrollIntoView({ block: "nearest" });
+  }
+  function open() {
+    if (trigger.disabled) return;
+    closeAllSels(list.id);
+    list.hidden = false;
+    trigger.setAttribute("aria-expanded", "true");
+    setActive(selectedIndex());
+  }
+  function close() {
+    list.hidden = true;
+    trigger.setAttribute("aria-expanded", "false");
+    trigger.removeAttribute("aria-activedescendant");
+    opts().forEach(function (o) { o.classList.remove("is-active"); });
+  }
+  function choose(opt) {
+    const value = opt.getAttribute("data-value");
+    const label = opt.getAttribute("data-label") || "";
+    select.value = value;
+    opts().forEach(function (o) {
+      const on = o === opt;
+      o.setAttribute("aria-selected", on ? "true" : "false");
+      o.querySelector(".sel-check").innerHTML = on ? SEL_CHECK : "";
+    });
+    const valueEl = trigger.querySelector(".sel-value");
+    if (valueEl) valueEl.textContent = label;
+    select.dispatchEvent(new Event("change", { bubbles: true }));
+    close();
+    trigger.focus();
+  }
+
+  trigger.onclick = function (e) {
+    e.stopPropagation();
+    if (list.hidden) open();
+    else close();
+  };
+  trigger.onkeydown = function (e) {
+    const openNow = trigger.getAttribute("aria-expanded") === "true";
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      if (!openNow) open();
+      else setActive(activeIndex() + (e.key === "ArrowDown" ? 1 : -1));
+    } else if (e.key === "Home" && openNow) {
+      e.preventDefault();
+      setActive(0);
+    } else if (e.key === "End" && openNow) {
+      e.preventDefault();
+      setActive(opts().length - 1);
+    } else if ((e.key === "Enter" || e.key === " ") && openNow) {
+      e.preventDefault();
+      const active = list.querySelector(".sel-opt.is-active") || list.querySelector('.sel-opt[aria-selected="true"]');
+      if (active) choose(active);
+    } else if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      open();
+    }
+  };
+  list.onmousedown = function (e) { e.preventDefault(); };
+  list.onclick = function (e) {
+    const opt = e.target.closest(".sel-opt");
+    if (opt) choose(opt);
+  };
 }
 
 function weeklySchedulePayload(extra) {
@@ -3319,19 +3694,34 @@ function weeklySchedulePayload(extra) {
   const send_dow = dowEl ? Number(dowEl.value) : (weeklyPref && weeklyPref.send_dow != null ? weeklyPref.send_dow : 1);
   const send_slot = slotEl ? slotEl.value : ((weeklyPref && weeklyPref.send_slot) || "morning");
   const timezone = viewerTimezone() || (weeklyPref && weeklyPref.timezone) || "Europe/Prague";
-  return Object.assign({
-    user_id: syncUser.id,
-    email: syncUser.email,
+  const body = {
+    weekly: true,
     send_dow: send_dow,
     send_slot: send_slot,
     timezone: timezone,
-    updated_at: new Date().toISOString(),
-  }, extra || {});
+  };
+  if (syncUser) {
+    body.user_id = syncUser.id;
+    body.email = syncUser.email;
+    body.updated_at = new Date().toISOString();
+  }
+  return Object.assign(body, extra || {});
 }
 
 const WEEKLY_PREF_COLS = "weekly,send_dow,send_slot,timezone";
 
 async function ensureWeeklyPref() {
+  if (hostedMode && me) {
+    weeklyLoading = false;
+    weeklyPref = weeklyPrefFromRow({
+      weekly: me.weekly !== false,
+      send_dow: me.send_dow,
+      send_slot: me.send_slot,
+      timezone: me.timezone,
+    });
+    if (tab === "account") rerenderAccount(document.activeElement && document.activeElement.id);
+    return;
+  }
   if (!syncClient || !syncUser) return;
   const userId = syncUser.id;
   weeklyLoading = true;
@@ -3389,7 +3779,33 @@ async function ensureWeeklyPref() {
   if (tab === "account") rerenderAccount(document.activeElement && document.activeElement.id);
 }
 
+async function saveHostedWeekly(fields, focusId, prev) {
+  accountBusy.weekly = true;
+  accountMsg.weekly = "";
+  try {
+    const res = await api("/me", { method: "PUT", body: JSON.stringify(fields) });
+    if (!res.ok) throw new Error(res.status);
+    me = await res.json();
+    weeklyPref = weeklyPrefFromRow(me);
+    weeklyPref.on = !!me.weekly;
+    accountMsg.weekly = weeklyPref.on
+      ? "You\u2019ll get it " + weeklyWhenLabel(weeklyPref) + "."
+      : "You won\u2019t get the weekly email anymore.";
+  } catch (e) {
+    weeklyPref = prev;
+    accountMsg.weekly = "Couldn\u2019t save that. Check your connection and try again.";
+  }
+  accountBusy.weekly = false;
+  rerenderAccount(focusId);
+}
+
 async function saveWeeklyOptIn(want) {
+  if (hostedMode && me) {
+    const prev = weeklyPref || weeklyPrefFromRow(me);
+    weeklyPref = Object.assign({}, prev, { on: want });
+    await saveHostedWeekly(weeklySchedulePayload({ weekly: want }), "account-weekly", prev);
+    return;
+  }
   if (!syncClient || !syncUser) return;
   const prev = weeklyPref || weeklyPrefFromRow(null);
   accountBusy.weekly = true;
@@ -3411,6 +3827,13 @@ async function saveWeeklyOptIn(want) {
 }
 
 async function saveWeeklySchedule(focusId) {
+  if (hostedMode && me) {
+    const prev = weeklyPref || weeklyPrefFromRow(me);
+    weeklyPref = weeklyPrefFromRow(weeklySchedulePayload({ weekly: true }));
+    weeklyPref.on = true;
+    await saveHostedWeekly(weeklySchedulePayload({ weekly: true }), focusId, prev);
+    return;
+  }
   if (!syncClient || !syncUser || !weeklyPref || !weeklyPref.on) return;
   const prev = weeklyPref;
   accountBusy.weekly = true;

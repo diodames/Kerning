@@ -7,6 +7,7 @@ import time
 from collections import defaultdict, deque
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from typing import Optional
 
 from fastapi import Depends, FastAPI, HTTPException, Request, Response
 from fastapi.middleware.cors import CORSMiddleware
@@ -19,7 +20,7 @@ from app import config
 from app.db import get_db, init_db
 from app.jobs import enqueue
 from app.mail import send_magic_link
-from app.models import Job, MagicLink, Profile, Session as DbSession, User, UserDigest
+from app.models import Job, MagicLink, Profile, Session as DbSession, Story, User, UserDigest
 
 ROOT = Path(__file__).resolve().parent.parent
 COOKIE = "kerning_session"
@@ -28,6 +29,7 @@ STATIC_OK = {
     "/index.html", "/digest.json", "/digest.md", "/accounts.txt",
     "/bsky-accounts.txt", "/substack.txt", "/favicon.svg", "/favicon.png",
     "/favicon.ico", "/apple-touch-icon.png", "/og-image.png", "/llms.txt",
+    "/taste.js", "/merge.js",
 }
 _HITS = defaultdict(deque)
 
@@ -75,7 +77,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[config.APP_ORIGIN],
     allow_credentials=True,
-    allow_methods=["GET", "POST", "PUT"],
+    allow_methods=["GET", "POST", "PUT", "DELETE"],
     allow_headers=["Content-Type"],
 )
 
@@ -92,6 +94,23 @@ class EmailIn(BaseModel):
 
 class MeIn(BaseModel):
     timezone: str = ""
+    weekly: Optional[bool] = None
+    send_dow: Optional[int] = None
+    send_slot: Optional[str] = None
+
+
+_SEND_SLOTS = {"morning", "afternoon", "evening"}
+
+
+def _me_payload(user):
+    return {
+        "id": user.id,
+        "email": user.email,
+        "timezone": user.timezone or "",
+        "weekly": bool(getattr(user, "weekly", 1)),
+        "send_dow": int(getattr(user, "send_dow", 1) or 1),
+        "send_slot": getattr(user, "send_slot", None) or "morning",
+    }
 
 
 class RebuildIn(BaseModel):
@@ -196,15 +215,39 @@ def auth_logout(request: Request, response: Response, db: Session = Depends(get_
 
 @app.get("/me")
 def me(user: User = Depends(current_user)):
-    return {"id": user.id, "email": user.email, "timezone": user.timezone}
+    return _me_payload(user)
 
 
 @app.put("/me")
 def me_update(body: MeIn, user: User = Depends(current_user), db: Session = Depends(get_db)):
     if body.timezone:
         user.timezone = body.timezone
-        db.commit()
-    return {"id": user.id, "email": user.email, "timezone": user.timezone}
+    if body.weekly is not None:
+        user.weekly = 1 if body.weekly else 0
+    if body.send_dow is not None:
+        if body.send_dow not in (0, 1, 2, 3, 4, 5, 6):
+            raise HTTPException(400, "invalid day")
+        user.send_dow = body.send_dow
+    if body.send_slot is not None:
+        if body.send_slot not in _SEND_SLOTS:
+            raise HTTPException(400, "invalid send slot")
+        user.send_slot = body.send_slot
+    db.commit()
+    return _me_payload(user)
+
+
+@app.delete("/me")
+def me_delete(response: Response, user: User = Depends(current_user), db: Session = Depends(get_db)):
+    uid = user.id
+    db.query(DbSession).filter(DbSession.user_id == uid).delete()
+    db.query(Profile).filter(Profile.user_id == uid).delete()
+    db.query(UserDigest).filter(UserDigest.user_id == uid).delete()
+    db.query(Job).filter(Job.user_id == uid).delete()
+    db.query(Story).filter(Story.user_id == uid).delete()
+    db.delete(user)
+    db.commit()
+    response.delete_cookie(COOKIE, path="/")
+    return {"ok": True}
 
 
 @app.get("/me/profile")

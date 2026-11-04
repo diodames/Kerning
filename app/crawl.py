@@ -21,12 +21,17 @@ def upsert_rows(db, rows, user_id=None):
     n = 0
     now = _utcnow()
     uid = user_id or ""
+    pending = {}
     for r in rows:
         url = r.get("url") or ""
         key = kf.canonical(url)
         if not key:
             continue
-        existing = db.query(Story).filter(Story.key == key, Story.user_id == uid).one_or_none()
+        existing = pending.get(key)
+        if existing is None:
+            existing = db.query(Story).filter(Story.key == key, Story.user_id == uid).one_or_none()
+            if existing:
+                pending[key] = existing
         payload = {
             "title": r.get("title") or "",
             "url": url,
@@ -49,7 +54,7 @@ def upsert_rows(db, rows, user_id=None):
             existing.created_at_i = ts or existing.created_at_i
             existing.last_seen = now
         else:
-            db.add(Story(
+            story = Story(
                 key=key,
                 user_id=uid,
                 url=url,
@@ -58,7 +63,9 @@ def upsert_rows(db, rows, user_id=None):
                 created_at_i=ts,
                 first_seen=now,
                 last_seen=now,
-            ))
+            )
+            db.add(story)
+            pending[key] = story
         n += 1
     db.commit()
     return n

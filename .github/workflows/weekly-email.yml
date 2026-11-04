@@ -2,7 +2,7 @@ name: Weekly email
 
 on:
   schedule:
-    - cron: "30 6 * * 1"
+    - cron: "25 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
@@ -36,7 +36,6 @@ jobs:
         env:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          KERNING_MAIL_ONLY: ${{ secrets.KERNING_MAIL_ONLY }}
           KERNING_MAIL_FROM: ${{ vars.KERNING_MAIL_FROM }}
           DIGEST_TZ: Europe/Prague
           DRY_RUN: ${{ github.event.inputs.dry_run }}

@@ -237,13 +237,14 @@ Authentication → Users if asked.
 
 ### Weekly email
 
-An opt-in email every Monday with last week's issue, ranked by the reader's
-synced taste (the same `taste.js` the site uses). A GitHub Action
-(`.github/workflows/weekly-email.yml`, Monday 06:30 UTC, after the 05:15 close) runs
+An opt-in email of the weekly issue, ranked by the reader's synced taste
+(the same `taste.js` the site uses). Readers pick a weekday and Morning,
+Afternoon, or Evening in their timezone (default Monday morning). A GitHub
+Action (`.github/workflows/weekly-email.yml`, hourly at :25) runs
 `scripts/weekly_email.mjs`, which reads `digest.json` from the `data` branch,
-loads opted-in readers and their profiles with the service role key, and
-sends through [Resend](https://resend.com) (free: 3,000 emails a month,
-100 a day). Each reader gets at most one email per ISO week.
+loads opted-in readers due at that local time, and sends through
+[Resend](https://resend.com) (free: 3,000 emails a month, 100 a day). Each
+reader gets at most one email per issue (`iso_week`).
 
 Setup:
 
@@ -254,6 +255,9 @@ Setup:
      user_id uuid primary key references auth.users on delete cascade,
      email text not null,
      weekly boolean not null default false,
+     send_dow smallint not null default 1,
+     send_slot text not null default 'morning',
+     timezone text not null default 'Europe/Prague',
      unsub_token uuid not null unique default gen_random_uuid(),
      last_sent_week text,
      updated_at timestamptz not null default now()
@@ -274,6 +278,12 @@ Setup:
    $$;
    revoke all on function public.unsubscribe(uuid) from public;
    grant execute on function public.unsubscribe(uuid) to anon, authenticated;
+
+   -- Existing projects: add schedule columns (Monday morning in Prague).
+   alter table public.email_prefs
+     add column if not exists send_dow smallint not null default 1,
+     add column if not exists send_slot text not null default 'morning',
+     add column if not exists timezone text not null default 'Europe/Prague';
    ```
 
 2. Create a Resend account and an API key (Sending access).
@@ -281,22 +291,24 @@ Setup:
    - `SUPABASE_SERVICE_ROLE_KEY`: Supabase → Project Settings → API keys →
      service_role. It bypasses row-level security, so it lives only here.
    - `RESEND_API_KEY`: the key from step 2.
-   - `KERNING_MAIL_ONLY`: your own address while Resend has no verified
-     domain. Resend's test sender (`onboarding@resend.dev`) delivers only to
-     the account's own email, so every other reader is skipped.
+   - `KERNING_MAIL_FROM` (repository variable): `Kerning <digest@kerningdigest.com>`
+     once the domain is verified in Resend. Without it the script falls back
+     to `onboarding@resend.dev`, which only delivers to the Resend account.
 4. Run the workflow by hand with `dry_run` on to see the rendered emails in
    the run's artifact, then once with it off.
 
-The Account page shows the weekly email checkbox. A signed-in reader with
-no `email_prefs` row is opted in (`weekly` true). An existing row is never
-overwritten, so turning the checkbox off or using the unsubscribe link
-survives a later sign-in. Sign-in copy discloses the Monday email.
+The Account page shows the weekly email checkbox plus day and time. A
+signed-in reader with no `email_prefs` row is opted in (`weekly` true) on
+Monday morning. An existing row is never overwritten, so turning the
+checkbox off or using the unsubscribe link survives a later sign-in.
+`send_dow` is JS `getDay()` in the stored timezone (0 Sunday … 6 Saturday,
+default 1 Monday). `send_slot` is `morning` (08:00), `afternoon` (13:00),
+or `evening` (18:00). Sign-in copy discloses the weekly email.
 `WEEKLY_EMAIL_OPEN` in `index.html` keeps the checkbox visible; `?beta=email`
 is a leftover that still sets the same flag in that browser.
 
-To send to everyone: verify a domain in Resend, set the `KERNING_MAIL_FROM`
-repository variable (for example `Kerning <digest@yourdomain.com>`), and
-delete `KERNING_MAIL_ONLY`.
+Mail goes to every opted-in `email_prefs` row. `KERNING_MAIL_ONLY` was a
+temporary allowlist and is no longer used.
 
 Each email carries an unsubscribe link (`/?unsubscribe=<token>`) and a
 `List-Unsubscribe` header. The link calls `unsubscribe()`, which turns the
@@ -340,7 +352,7 @@ watches anyone and any feed you added, on top of the curated lists.
 | `index.html` | The reading app: HTML, CSS, and JS in one file, plus `taste.js` and `merge.js`. |
 | `taste.js` | Tokens, learned weights, and the personal rerank; shared with the weekly email. |
 | `merge.js` | Per-entry profile merge for sync across devices. |
-| `scripts/weekly_email.mjs` | Monday email: personal ranking per opted-in reader, sent through Resend. |
+| `scripts/weekly_email.mjs` | Weekly email: personal ranking per opted-in reader, sent through Resend. |
 | `app/` | Hosted FastAPI, magic-link auth, Postgres models, crawl + cut jobs. |
 | `kerning_lib/` | Windows, pool, quality gate, collect/close, Blob/local store. |
 | `kerning_lib/quality.json` | Close-time thresholds, GitHub pre-release rules, domain lists. |
@@ -348,7 +360,7 @@ watches anyone and any feed you added, on top of the curated lists.
 | `kerning_serve.py` | Local single-user server. Serves the app; `POST /rebuild` is opt-in. |
 | `api/` | Vercel: `GET /api/digest` (from the `data` branch); unused Blob collect/close. |
 | `vercel.json` | Static Vercel project, Python functions, no builds for `data`. |
-| `.github/workflows/` | Collect every 2h and close after Prague midnight, into `data`; Monday weekly email. |
+| `.github/workflows/` | Collect every 2h and close after Prague midnight, into `data`; hourly weekly email. |
 | `scripts/install-schedule.sh` | One-time install of the 00:20 LaunchAgent for the local path. |
 | `accounts.txt` | X handles used as a Taste watchlist / ranking hints. Hosted fetch does not scrape X for these. |
 | `bsky-accounts.txt` | Bluesky handles to watch. Custom domains work. |
