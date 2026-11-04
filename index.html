@@ -662,15 +662,23 @@
     font-size: var(--text-micro); color: var(--mute);
     margin: 0 0 6px;
   }
-  .tfield input {
+  .tfield input, .tfield select {
     width: 100%;
     font: inherit; font-size: 15px; letter-spacing: -0.02em;
     color: var(--ink); background: transparent;
     border: 0; border-bottom: 1px solid var(--line); border-radius: 0;
     padding: 8px 0 10px; min-height: 44px;
   }
+  .tfield select {
+    appearance: none;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path fill='%236b6b6b' d='M1.1 1.2 6 6.1l4.9-4.9'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 0 center;
+    padding-right: 18px;
+  }
   .tfield input::placeholder { color: var(--faint); }
-  .tfield input:focus { border-bottom-color: var(--ink); }
+  .tfield input:focus, .tfield select:focus { border-bottom-color: var(--ink); }
   .tfield input[aria-invalid="true"] { border-bottom-color: var(--warm); }
   .field-err {
     font-size: var(--text-meta); color: var(--warm);
@@ -3048,7 +3056,7 @@ function rerenderAccount(focusId) {
 function accountSignedOutHTML() {
   return '<p class="note taste-primer">Keep saved stories, ratings, people, and resources on every device. '
     + "We&rsquo;ll email you a sign-in link, so there&rsquo;s no&nbsp;password.</p>"
-    + "<p class=\"note\">You&rsquo;ll get Monday&rsquo;s issue by email, ranked by your&nbsp;taste. Turn it off anytime.</p>"
+    + "<p class=\"note\">You&rsquo;ll get the weekly issue by email, ranked by your&nbsp;taste. Turn it off anytime.</p>"
     + '<section class="tsec tsec--ruled" aria-labelledby="account-signin">'
     + '<h2 id="account-signin">Sign in</h2>'
     + '<form class="tadd" id="account-form" novalidate>'
@@ -3066,12 +3074,25 @@ function accountSignedInHTML() {
   let weekly = "";
   if (weeklyEmailVisible()) {
     const ready = weeklyPref && !weeklyPref.error;
+    const on = ready && weeklyPref.on;
+    const lock = !ready || accountBusy.weekly;
+    let when = "";
+    if (on) {
+      when = '<div class="tadd" id="account-weekly-when">'
+        + '<div class="tfield"><label for="account-weekly-day">Day</label>'
+        + '<select id="account-weekly-day"' + (lock ? " disabled" : "") + ">"
+        + weeklyDayOptions(weeklyPref.send_dow) + "</select></div>"
+        + '<div class="tfield"><label for="account-weekly-slot">Time</label>'
+        + '<select id="account-weekly-slot"' + (lock ? " disabled" : "") + ">"
+        + weeklySlotOptions(weeklyPref.send_slot) + "</select></div></div>";
+    }
     weekly = '<section class="tsec tsec--ruled" aria-labelledby="account-weekly-h">'
       + '<h2 id="account-weekly-h">Weekly email</h2>'
       + '<label class="acct-check"><input type="checkbox" id="account-weekly"'
-      + (ready && weeklyPref.on ? " checked" : "")
-      + (!ready || accountBusy.weekly ? " disabled" : "") + ">"
-      + "<span>Get Monday&rsquo;s issue by email, ranked by your taste.</span></label>"
+      + (on ? " checked" : "")
+      + (lock ? " disabled" : "") + ">"
+      + "<span>Get the weekly issue by email, ranked by your taste.</span></label>"
+      + when
       + '<p class="note" id="account-weekly-msg" role="status">' + esc(accountMsg.weekly) + "</p>"
       + "</section>";
   }
@@ -3110,6 +3131,10 @@ function bindAccount() {
   if (now) now.onclick = runSyncNow;
   const weekly = document.getElementById("account-weekly");
   if (weekly) weekly.onchange = function () { saveWeeklyOptIn(this.checked); };
+  const day = document.getElementById("account-weekly-day");
+  const slot = document.getElementById("account-weekly-slot");
+  if (day) day.onchange = function () { saveWeeklySchedule("account-weekly-day"); };
+  if (slot) slot.onchange = function () { saveWeeklySchedule("account-weekly-slot"); };
   document.getElementById("account-sign-out").onclick = syncSignOut;
   document.getElementById("account-delete").onclick = () => {
     document.getElementById("sync-delete-msg").textContent = "";
@@ -3236,11 +3261,75 @@ function bindSyncDeleteDialog() {
 
 const WEEKLY_EMAIL_OPEN = true;
 const BETA_EMAIL_KEY = "kerning:beta-email";
+const WEEKLY_DAYS = [
+  { v: 1, label: "Monday" },
+  { v: 2, label: "Tuesday" },
+  { v: 3, label: "Wednesday" },
+  { v: 4, label: "Thursday" },
+  { v: 5, label: "Friday" },
+  { v: 6, label: "Saturday" },
+  { v: 0, label: "Sunday" },
+];
+const WEEKLY_SLOTS = [
+  { v: "morning", label: "Morning" },
+  { v: "afternoon", label: "Afternoon" },
+  { v: "evening", label: "Evening" },
+];
 
 function weeklyEmailVisible() {
   if (WEEKLY_EMAIL_OPEN) return true;
   try { return localStorage.getItem(BETA_EMAIL_KEY) === "1"; } catch (e) { return false; }
 }
+
+function weeklyPrefFromRow(data) {
+  const tz = (data && data.timezone) || viewerTimezone() || "Europe/Prague";
+  return {
+    on: !!(data && data.weekly),
+    send_dow: data && data.send_dow != null ? Number(data.send_dow) : 1,
+    send_slot: (data && data.send_slot) || "morning",
+    timezone: tz,
+  };
+}
+
+function weeklyWhenLabel(pref) {
+  const dow = pref && pref.send_dow != null ? Number(pref.send_dow) : 1;
+  const slot = (pref && pref.send_slot) || "morning";
+  const day = (WEEKLY_DAYS.filter(function (d) { return d.v === dow; })[0] || WEEKLY_DAYS[0]).label;
+  const when = (WEEKLY_SLOTS.filter(function (s) { return s.v === slot; })[0] || WEEKLY_SLOTS[0]).label.toLowerCase();
+  return day + " " + when;
+}
+
+function weeklyDayOptions(selected) {
+  const cur = selected != null ? Number(selected) : 1;
+  return WEEKLY_DAYS.map(function (d) {
+    return '<option value="' + d.v + '"' + (d.v === cur ? " selected" : "") + ">" + d.label + "</option>";
+  }).join("");
+}
+
+function weeklySlotOptions(selected) {
+  const cur = selected || "morning";
+  return WEEKLY_SLOTS.map(function (s) {
+    return '<option value="' + s.v + '"' + (s.v === cur ? " selected" : "") + ">" + s.label + "</option>";
+  }).join("");
+}
+
+function weeklySchedulePayload(extra) {
+  const dowEl = document.getElementById("account-weekly-day");
+  const slotEl = document.getElementById("account-weekly-slot");
+  const send_dow = dowEl ? Number(dowEl.value) : (weeklyPref && weeklyPref.send_dow != null ? weeklyPref.send_dow : 1);
+  const send_slot = slotEl ? slotEl.value : ((weeklyPref && weeklyPref.send_slot) || "morning");
+  const timezone = viewerTimezone() || (weeklyPref && weeklyPref.timezone) || "Europe/Prague";
+  return Object.assign({
+    user_id: syncUser.id,
+    email: syncUser.email,
+    send_dow: send_dow,
+    send_slot: send_slot,
+    timezone: timezone,
+    updated_at: new Date().toISOString(),
+  }, extra || {});
+}
+
+const WEEKLY_PREF_COLS = "weekly,send_dow,send_slot,timezone";
 
 async function ensureWeeklyPref() {
   if (!syncClient || !syncUser) return;
@@ -3248,7 +3337,7 @@ async function ensureWeeklyPref() {
   weeklyLoading = true;
   let res;
   try {
-    res = await syncClient.from("email_prefs").select("weekly").eq("user_id", userId).maybeSingle();
+    res = await syncClient.from("email_prefs").select(WEEKLY_PREF_COLS).eq("user_id", userId).maybeSingle();
   } catch (e) {
     res = { error: e };
   }
@@ -3265,14 +3354,18 @@ async function ensureWeeklyPref() {
   }
   if (res.data) {
     weeklyLoading = false;
-    weeklyPref = { on: !!res.data.weekly };
+    weeklyPref = weeklyPrefFromRow(res.data);
     if (tab === "account") rerenderAccount(document.activeElement && document.activeElement.id);
     return;
   }
+  const tz = viewerTimezone() || "Europe/Prague";
   const { error: ins } = await syncClient.from("email_prefs").insert({
     user_id: userId,
     email: syncUser.email,
     weekly: true,
+    send_dow: 1,
+    send_slot: "morning",
+    timezone: tz,
     updated_at: new Date().toISOString(),
   });
   if (!syncUser || syncUser.id !== userId) {
@@ -3282,42 +3375,58 @@ async function ensureWeeklyPref() {
   weeklyLoading = false;
   if (ins) {
     if (ins.code === "23505") {
-      const again = await syncClient.from("email_prefs").select("weekly").eq("user_id", userId).maybeSingle();
+      const again = await syncClient.from("email_prefs").select(WEEKLY_PREF_COLS).eq("user_id", userId).maybeSingle();
       if (!syncUser || syncUser.id !== userId) return;
-      weeklyPref = again.error ? { error: true } : { on: !!(again.data && again.data.weekly) };
+      weeklyPref = again.error ? { error: true } : weeklyPrefFromRow(again.data);
       if (again.error) accountMsg.weekly = "The weekly email isn\u2019t set up on the server yet.";
     } else {
       weeklyPref = { error: true };
       accountMsg.weekly = "The weekly email isn\u2019t set up on the server yet.";
     }
   } else {
-    weeklyPref = { on: true };
+    weeklyPref = weeklyPrefFromRow({ weekly: true, send_dow: 1, send_slot: "morning", timezone: tz });
   }
   if (tab === "account") rerenderAccount(document.activeElement && document.activeElement.id);
 }
 
 async function saveWeeklyOptIn(want) {
   if (!syncClient || !syncUser) return;
+  const prev = weeklyPref || weeklyPrefFromRow(null);
   accountBusy.weekly = true;
   accountMsg.weekly = "";
-  weeklyPref = { on: want };
+  weeklyPref = Object.assign({}, prev, { on: want });
   rerenderAccount("account-weekly");
-  const { error } = await syncClient.from("email_prefs").upsert({
-    user_id: syncUser.id,
-    email: syncUser.email,
-    weekly: want,
-    updated_at: new Date().toISOString(),
-  });
+  const { error } = await syncClient.from("email_prefs").upsert(weeklySchedulePayload({ weekly: want }));
   accountBusy.weekly = false;
   if (error) {
-    weeklyPref = { on: !want };
+    weeklyPref = Object.assign({}, prev, { on: !want });
     accountMsg.weekly = "Couldn\u2019t save that. Check your connection and try again.";
   } else {
+    weeklyPref = Object.assign({}, weeklyPrefFromRow(weeklySchedulePayload({ weekly: want })), { on: want });
     accountMsg.weekly = want
-      ? "You\u2019ll get it on Monday mornings."
+      ? "You\u2019ll get it " + weeklyWhenLabel(weeklyPref) + "."
       : "You won\u2019t get the weekly email anymore.";
   }
   rerenderAccount("account-weekly");
+}
+
+async function saveWeeklySchedule(focusId) {
+  if (!syncClient || !syncUser || !weeklyPref || !weeklyPref.on) return;
+  const prev = weeklyPref;
+  accountBusy.weekly = true;
+  accountMsg.weekly = "";
+  weeklyPref = weeklyPrefFromRow(weeklySchedulePayload({ weekly: true }));
+  weeklyPref.on = true;
+  rerenderAccount(focusId);
+  const { error } = await syncClient.from("email_prefs").upsert(weeklySchedulePayload({ weekly: true }));
+  accountBusy.weekly = false;
+  if (error) {
+    weeklyPref = prev;
+    accountMsg.weekly = "Couldn\u2019t save that. Check your connection and try again.";
+  } else {
+    accountMsg.weekly = "You\u2019ll get it " + weeklyWhenLabel(weeklyPref) + ".";
+  }
+  rerenderAccount(focusId);
 }
 
 // Handles ?beta=email and ?unsubscribe=<token> from links, then cleans the URL.
