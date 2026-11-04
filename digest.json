@@ -1,157 +1,174 @@
 {
-  "generated_at": "2026-11-03T03:55:23.509235+00:00",
+  "generated_at": "2026-11-04T02:59:29.621395+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "2 November 2026",
-      "period_start": "2026-11-02",
-      "period_end": "2026-11-02",
+      "label": "3 November 2026",
+      "period_start": "2026-11-03",
+      "period_end": "2026-11-03",
       "items": [
         {
-          "id": "06a612f5cbe4",
-          "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
-          "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "id": "89375f5d5154",
+          "title": "Modern CSS Might Make Your Front-End More Complex",
+          "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3mzg4pw3zls2n",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793614942,
+          "created_at_i": 1793700000,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.503,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "8c94e77bdc05",
+          "title": "Primer (GitHub) — @primer/react@38.44.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793723925,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.606,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "d85548166c7e",
+          "title": "Agents struggle with the same bad UX we do",
+          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793745393,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 4.778,
+          "score": 3.787,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "62cb89d6491c",
-          "title": "Making features generic in CSS",
-          "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
-          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mzdrcxdjktxr",
+          "id": "bb631db1d502",
+          "title": "Jelly UI",
+          "url": "https://jelly-ui.com/",
+          "hn": "https://jelly-ui.com/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793637598,
+          "created_at_i": 1793682240,
           "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 4.393,
-          "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "rachelandrew.co.uk",
-            "zeldman.bsky.social"
-          ]
-        },
-        {
-          "id": "8494259ac3bc",
-          "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
-          "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
-          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793635328,
-          "sources": [
-            "Lenny's Newsletter"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.589,
+          "score": 3.329,
           "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "8e0ca3b2816d",
-          "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
-          "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
-          "hn": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793624651,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 3.511,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
+            "editor's pick at Sidebar"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "06a612f5cbe4",
-          "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
-          "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
+          "id": "89375f5d5154",
+          "title": "Modern CSS Might Make Your Front-End More Complex",
+          "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3mzg4pw3zls2n",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793614942,
+          "created_at_i": 1793700000,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.503,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "8c94e77bdc05",
+          "title": "Primer (GitHub) — @primer/react@38.44.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793723925,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.606,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "d85548166c7e",
+          "title": "Agents struggle with the same bad UX we do",
+          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793745393,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 4.778,
+          "score": 3.787,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "62cb89d6491c",
-          "title": "Making features generic in CSS",
-          "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
-          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mzdrcxdjktxr",
+          "id": "bb631db1d502",
+          "title": "Jelly UI",
+          "url": "https://jelly-ui.com/",
+          "hn": "https://jelly-ui.com/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793637598,
+          "created_at_i": 1793682240,
           "sources": [
-            "Bluesky"
+            "Sidebar"
           ],
-          "sharers": 2,
-          "score": 4.393,
+          "sharers": 0,
+          "score": 3.329,
           "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "rachelandrew.co.uk",
-            "zeldman.bsky.social"
+            "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "8494259ac3bc",
-          "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
-          "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
-          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+          "id": "97621ba86b5e",
+          "title": "What I learned teaching AI prototyping at university",
+          "url": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793635328,
+          "created_at_i": 1793700549,
           "sources": [
-            "Lenny's Newsletter"
+            "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.589,
+          "score": 3.106,
           "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "8e0ca3b2816d",
-          "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
-          "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
-          "hn": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793624651,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 3.511,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -166,9 +183,69 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.309,
+          "score": 2.802,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "7da3b08fd70d",
+          "title": "Introducing Adaptive Dark Mode",
+          "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+          "hn": "https://bsky.app/profile/jensimmons.bsky.social/post/3mzgqnfk4ws2m",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793740053,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.806,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "jensimmons.bsky.social"
+          ]
+        },
+        {
+          "id": "24a92f66d156",
+          "title": "CSS scroll-triggered animations are here, and I completely missed them | Blog Cyd Stumpel",
+          "url": "https://cydstumpel.nl/css-scroll-triggered-animations-are-here-and-i-completely-missed-them/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzg7sue2p32b",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793721981,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.658,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "5aeb582c9d16",
+          "title": "CSS Zen Garden: All Designs",
+          "url": "https://csszengarden.com/pages/alldesigns/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mzg3u2g4n22e",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793717728,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.626,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "zeldman.bsky.social"
           ]
         },
         {
@@ -183,27 +260,7 @@
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.658,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
-          ]
-        },
-        {
-          "id": "bcc3853ae118",
-          "title": "Our CSS isn't opinionated enough - Craig Abbott",
-          "url": "https://www.craigabbott.co.uk/blog/2026/our-css-isnt-opinionated-enough/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3mzdiokogsp2o",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793628421,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.604,
+          "score": 1.176,
           "why": [
             "spotted on Bluesky"
           ],
@@ -223,6 +280,27 @@
       "iso_week": "2026-W45",
       "items": [
         {
+          "id": "89375f5d5154",
+          "title": "Modern CSS Might Make Your Front-End More Complex",
+          "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3mzg4pw3zls2n",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793700000,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.503,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
           "id": "06a612f5cbe4",
           "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
           "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
@@ -237,6 +315,23 @@
           "score": 4.778,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "8c94e77bdc05",
+          "title": "Primer (GitHub) — @primer/react@38.44.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793723925,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.606,
+          "why": [
+            "editor's pick at Design systems"
           ]
         },
         {
@@ -258,6 +353,23 @@
           "authors": [
             "rachelandrew.co.uk",
             "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "d85548166c7e",
+          "title": "Agents struggle with the same bad UX we do",
+          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793745393,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.787,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -292,11 +404,49 @@
           "score": 3.511,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "bb631db1d502",
+          "title": "Jelly UI",
+          "url": "https://jelly-ui.com/",
+          "hn": "https://jelly-ui.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793682240,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.329,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         }
       ],
       "candidates": [
         {
+          "id": "89375f5d5154",
+          "title": "Modern CSS Might Make Your Front-End More Complex",
+          "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3mzg4pw3zls2n",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793700000,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.503,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
           "id": "06a612f5cbe4",
           "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
           "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
@@ -311,6 +461,23 @@
           "score": 4.778,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "8c94e77bdc05",
+          "title": "Primer (GitHub) — @primer/react@38.44.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793723925,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.606,
+          "why": [
+            "editor's pick at Design systems"
           ]
         },
         {
@@ -332,6 +499,23 @@
           "authors": [
             "rachelandrew.co.uk",
             "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "d85548166c7e",
+          "title": "Agents struggle with the same bad UX we do",
+          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793745393,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.787,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -366,6 +550,23 @@
           "score": 3.511,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "bb631db1d502",
+          "title": "Jelly UI",
+          "url": "https://jelly-ui.com/",
+          "hn": "https://jelly-ui.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793682240,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.329,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -386,6 +587,43 @@
           ]
         },
         {
+          "id": "97621ba86b5e",
+          "title": "What I learned teaching AI prototyping at university",
+          "url": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793700549,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.106,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "7da3b08fd70d",
+          "title": "Introducing Adaptive Dark Mode",
+          "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+          "hn": "https://bsky.app/profile/jensimmons.bsky.social/post/3mzgqnfk4ws2m",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793740053,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.806,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "jensimmons.bsky.social"
+          ]
+        },
+        {
           "id": "5a3e3455042e",
           "title": "Controlling when CSS custom property values are computed",
           "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/?utm_source=the-index&utm_medium=newsletter",
@@ -403,6 +641,46 @@
           ],
           "authors": [
             "piccalil.li"
+          ]
+        },
+        {
+          "id": "24a92f66d156",
+          "title": "CSS scroll-triggered animations are here, and I completely missed them | Blog Cyd Stumpel",
+          "url": "https://cydstumpel.nl/css-scroll-triggered-animations-are-here-and-i-completely-missed-them/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzg7sue2p32b",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793721981,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.658,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "5aeb582c9d16",
+          "title": "CSS Zen Garden: All Designs",
+          "url": "https://csszengarden.com/pages/alldesigns/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mzg3u2g4n22e",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793717728,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.626,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "zeldman.bsky.social"
           ]
         },
         {
@@ -433,6 +711,27 @@
       "period_end": "2026-11-30",
       "items": [
         {
+          "id": "89375f5d5154",
+          "title": "Modern CSS Might Make Your Front-End More Complex",
+          "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3mzg4pw3zls2n",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793700000,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.503,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
           "id": "06a612f5cbe4",
           "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
           "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
@@ -447,6 +746,23 @@
           "score": 4.778,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "8c94e77bdc05",
+          "title": "Primer (GitHub) — @primer/react@38.44.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793723925,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.606,
+          "why": [
+            "editor's pick at Design systems"
           ]
         },
         {
@@ -519,11 +835,49 @@
           "score": 3.511,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "bb631db1d502",
+          "title": "Jelly UI",
+          "url": "https://jelly-ui.com/",
+          "hn": "https://jelly-ui.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793682240,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.329,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         }
       ],
       "candidates": [
         {
+          "id": "89375f5d5154",
+          "title": "Modern CSS Might Make Your Front-End More Complex",
+          "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3mzg4pw3zls2n",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793700000,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.503,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
           "id": "06a612f5cbe4",
           "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
           "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
@@ -538,6 +892,23 @@
           "score": 4.778,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "8c94e77bdc05",
+          "title": "Primer (GitHub) — @primer/react@38.44.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793723925,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.606,
+          "why": [
+            "editor's pick at Design systems"
           ]
         },
         {
@@ -579,6 +950,23 @@
           ]
         },
         {
+          "id": "d85548166c7e",
+          "title": "Agents struggle with the same bad UX we do",
+          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793745393,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.787,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "8494259ac3bc",
           "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
           "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
@@ -610,6 +998,23 @@
           "score": 3.511,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "bb631db1d502",
+          "title": "Jelly UI",
+          "url": "https://jelly-ui.com/",
+          "hn": "https://jelly-ui.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793682240,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.329,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -630,6 +1035,43 @@
           ]
         },
         {
+          "id": "97621ba86b5e",
+          "title": "What I learned teaching AI prototyping at university",
+          "url": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793700549,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.106,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "7da3b08fd70d",
+          "title": "Introducing Adaptive Dark Mode",
+          "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+          "hn": "https://bsky.app/profile/jensimmons.bsky.social/post/3mzgqnfk4ws2m",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793740053,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.806,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "jensimmons.bsky.social"
+          ]
+        },
+        {
           "id": "5a3e3455042e",
           "title": "Controlling when CSS custom property values are computed",
           "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/?utm_source=the-index&utm_medium=newsletter",
@@ -647,6 +1089,46 @@
           ],
           "authors": [
             "piccalil.li"
+          ]
+        },
+        {
+          "id": "24a92f66d156",
+          "title": "CSS scroll-triggered animations are here, and I completely missed them | Blog Cyd Stumpel",
+          "url": "https://cydstumpel.nl/css-scroll-triggered-animations-are-here-and-i-completely-missed-them/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzg7sue2p32b",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793721981,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.658,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "5aeb582c9d16",
+          "title": "CSS Zen Garden: All Designs",
+          "url": "https://csszengarden.com/pages/alldesigns/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mzg3u2g4n22e",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793717728,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.626,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "zeldman.bsky.social"
           ]
         },
         {
@@ -674,6 +1156,27 @@
   },
   "items": [
     {
+      "id": "89375f5d5154",
+      "title": "Modern CSS Might Make Your Front-End More Complex",
+      "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+      "hn": "https://bsky.app/profile/smashingmagazine.com/post/3mzg4pw3zls2n",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793700000,
+      "sources": [
+        "Smashing Magazine",
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 6.503,
+      "why": [
+        "picked up by Smashing Magazine and Bluesky"
+      ],
+      "authors": [
+        "smashingmagazine.com"
+      ]
+    },
+    {
       "id": "06a612f5cbe4",
       "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
       "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
@@ -688,6 +1191,23 @@
       "score": 4.778,
       "why": [
         "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "8c94e77bdc05",
+      "title": "Primer (GitHub) — @primer/react@38.44.0",
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+      "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793723925,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.606,
+      "why": [
+        "editor's pick at Design systems"
       ]
     },
     {
@@ -709,6 +1229,23 @@
       "authors": [
         "rachelandrew.co.uk",
         "zeldman.bsky.social"
+      ]
+    },
+    {
+      "id": "d85548166c7e",
+      "title": "Agents struggle with the same bad UX we do",
+      "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793745393,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 3.787,
+      "why": [
+        "editor's pick at UX Collective"
       ]
     },
     {
@@ -743,6 +1280,23 @@
       "score": 3.511,
       "why": [
         "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "bb631db1d502",
+      "title": "Jelly UI",
+      "url": "https://jelly-ui.com/",
+      "hn": "https://jelly-ui.com/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793682240,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.329,
+      "why": [
+        "editor's pick at Sidebar"
       ]
     }
   ],

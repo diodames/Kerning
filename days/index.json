@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T03:55:23.505070+00:00",
+  "updated_at": "2026-11-04T02:59:29.616922+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -3826,6 +3826,280 @@
         "lexicon": 34,
         "no_title": 2,
         "patch": 1
+      }
+    },
+    "2026-11-03": {
+      "items": [
+        {
+          "id": "89375f5d5154",
+          "title": "Modern CSS Might Make Your Front-End More Complex",
+          "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3mzg4pw3zls2n",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793700000,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.503,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "8c94e77bdc05",
+          "title": "Primer (GitHub) — @primer/react@38.44.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793723925,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.606,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "d85548166c7e",
+          "title": "Agents struggle with the same bad UX we do",
+          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793745393,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.787,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "bb631db1d502",
+          "title": "Jelly UI",
+          "url": "https://jelly-ui.com/",
+          "hn": "https://jelly-ui.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793682240,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.329,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "89375f5d5154",
+          "title": "Modern CSS Might Make Your Front-End More Complex",
+          "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3mzg4pw3zls2n",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793700000,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.503,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "8c94e77bdc05",
+          "title": "Primer (GitHub) — @primer/react@38.44.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793723925,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.606,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "d85548166c7e",
+          "title": "Agents struggle with the same bad UX we do",
+          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793745393,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.787,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "bb631db1d502",
+          "title": "Jelly UI",
+          "url": "https://jelly-ui.com/",
+          "hn": "https://jelly-ui.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793682240,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.329,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "97621ba86b5e",
+          "title": "What I learned teaching AI prototyping at university",
+          "url": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793700549,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.106,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "2e54ec26db50",
+          "title": "Virtue ethics in everyday interface design",
+          "url": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793642134,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.802,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "7da3b08fd70d",
+          "title": "Introducing Adaptive Dark Mode",
+          "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+          "hn": "https://bsky.app/profile/jensimmons.bsky.social/post/3mzgqnfk4ws2m",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793740053,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.806,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "jensimmons.bsky.social"
+          ]
+        },
+        {
+          "id": "24a92f66d156",
+          "title": "CSS scroll-triggered animations are here, and I completely missed them | Blog Cyd Stumpel",
+          "url": "https://cydstumpel.nl/css-scroll-triggered-animations-are-here-and-i-completely-missed-them/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzg7sue2p32b",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793721981,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.658,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "5aeb582c9d16",
+          "title": "CSS Zen Garden: All Designs",
+          "url": "https://csszengarden.com/pages/alldesigns/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mzg3u2g4n22e",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793717728,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.626,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "5a3e3455042e",
+          "title": "Controlling when CSS custom property values are computed",
+          "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzdphn55n32o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793635706,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.176,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        }
+      ],
+      "pool": 147,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 89,
+        "lexicon": 43,
+        "patch": 1,
+        "already_closed": 2,
+        "prerelease": 1,
+        "no_title": 1
       }
     }
   }
