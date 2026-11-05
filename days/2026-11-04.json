@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-05T03:27:58.641935+00:00",
+  "items": [
+    {
+      "id": "7da3b08fd70d",
+      "title": "Introducing Adaptive Dark Mode",
+      "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+      "hn": "https://lobste.rs/s/yba0yg/introducing_adaptive_dark_mode",
+      "points": 30,
+      "comments": 8,
+      "created_at_i": 1793740053,
+      "sources": [
+        "Bluesky",
+        "Lobsters"
+      ],
+      "sharers": 1,
+      "score": 6.207,
+      "why": [
+        "picked up by Bluesky and Lobsters"
+      ],
+      "authors": [
+        "jensimmons.bsky.social"
+      ]
+    },
+    {
+      "id": "46c1230e04f9",
+      "title": "Carbon (IBM) — v11.120.0",
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+      "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793803011,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.551,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "4a2fa40761c4",
+      "title": "What AI has changed in Design Systems, and what is still up to us",
+      "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793830329,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 4.107,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "61dbb950df7d",
+      "title": "Theme Font Auditor",
+      "url": "https://theme-font-auditor.space.fast/",
+      "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793799917,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.928,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "zeldman.bsky.social"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "7da3b08fd70d",
+      "title": "Introducing Adaptive Dark Mode",
+      "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+      "hn": "https://lobste.rs/s/yba0yg/introducing_adaptive_dark_mode",
+      "points": 30,
+      "comments": 8,
+      "created_at_i": 1793740053,
+      "sources": [
+        "Bluesky",
+        "Lobsters"
+      ],
+      "sharers": 1,
+      "score": 6.207,
+      "why": [
+        "picked up by Bluesky and Lobsters"
+      ],
+      "authors": [
+        "jensimmons.bsky.social"
+      ]
+    },
+    {
+      "id": "46c1230e04f9",
+      "title": "Carbon (IBM) — v11.120.0",
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+      "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793803011,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.551,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "4a2fa40761c4",
+      "title": "What AI has changed in Design Systems, and what is still up to us",
+      "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793830329,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 4.107,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "61dbb950df7d",
+      "title": "Theme Font Auditor",
+      "url": "https://theme-font-auditor.space.fast/",
+      "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793799917,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.928,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "zeldman.bsky.social"
+      ]
+    },
+    {
+      "id": "c4ffeb8aa161",
+      "title": "Detect when elements overlap with CSS",
+      "url": "https://ishadeed.com/article/css-detect-overlap/?utm_source=the-index&utm_medium=newsletter",
+      "hn": "https://bsky.app/profile/piccalil.li/post/3mzijikzpya2p",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793801093,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.603,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "piccalil.li"
+      ]
+    }
+  ]
+}

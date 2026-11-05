@@ -1,0 +1,618 @@
+{
+  "date": "2026-11-04",
+  "pool": 126,
+  "kept": 4,
+  "dropped": {
+    "lexicon": 46,
+    "below_threshold": 71,
+    "already_closed": 2,
+    "no_title": 2
+  },
+  "dropped_items": [
+    {
+      "url": "https://recto.design",
+      "title": "Show HN: Recto: A desktop app where you can design with AI, edit with your mouse",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://confetti.build",
+      "title": "Show HN: Confetti – Start designing hardware with plain English prompts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.canva.com/newsroom/news/canva-brush/",
+      "title": "Canva Brush, a vision-language model for design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://cekrem.github.io/posts/designsystemet-elm/",
+      "title": "Designsystemet, Now in Elm",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://a16z.com/superhuman-hardware-design-is-the-easy-part/",
+      "title": "Superhuman Hardware Design Is the Easy Part",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.mit.edu/2026/flexible-new-route-designer-materials-from-nanoparticles-1102",
+      "title": "A flexible new route to designer materials built from nanoparticles",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://workspaces.xyz/setups",
+      "title": "Show HN: Workspaces – Real desk setups from designers, developers, and founders",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://topographically.vercel.app/",
+      "title": "Topographically",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/impallari/Libre-Franklin",
+      "title": "Libre Franklin Font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://xl0.github.io/superbase/",
+      "title": "Show HN: Superbase – a SvelteKit rewrite of Supabase table editor",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://browse.sophtron.com/",
+      "title": "Show HN: Unblock Dot/Grok Bot/Instinct with Amazon, etc.",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/oathshaper/oathshaper",
+      "title": "Show HN: Oathshaper – A BioWare Inspired Open RPG Game Engine",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+      "title": "Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/2026/oct/06/measles-cases-new-york",
+      "title": "New York governor declares state of emergency after spike in measles cases",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits",
+      "title": "Nvidia tells data center operators to limit business to Chinese customers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/03/open-models-can-do-90-of-agentic-work-at-a-twentieth-of-the-cost-of-a-frontier-llm-gartner/5307132",
+      "title": "Open models can do 90% of work at a twentieth of the cost of a frontier LLM",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mallard-ai.com/home",
+      "title": "Show HN: Mallard: Git for the age of AI agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.40700",
+      "title": "Automatic Construction of Strong Simple Baselines",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.polygon.com/ps5-trade-in-sony-offer-how-much-pro-digital-model-refurbished-used/",
+      "title": "Sony pushes PS5 owners to trade in consoles amid unprecedented price hikes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/finic-ai/kairos",
+      "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/rudderlabs/devbox",
+      "title": "Show HN: DevBox – Open-source engineering harness from RudderStack",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://superlinked.com/",
+      "title": "Show HN: SIE Serverless – managed inference powered by self-hostable stack",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/rsaturns/backuparr",
+      "title": "Show HN: Backuparr – Backups for the *ARR Stack and Plex/Jellyfin/Emby",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50358879",
+      "title": "Ask HN: How is Google's Gemini chat search so inexcusably bad?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50358924",
+      "title": "Ask HN: What is Google Flights' business model and has it changed recently?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/your-ai-is-non-deterministic-but-your-product-cant-be-3ec2a0cf870c?source=rss----138adf9c44c---4",
+      "title": "Everyone is building AI agents. Who’s designing the stop button?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/i-let-ai-build-i-dont-let-ai-decide-b3892a87feb3?source=rss----138adf9c44c---4",
+      "title": "I let AI build. I don’t let AI decide.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/what-do-you-do-when-a-design-solution-is-already-pre-built-85d20edba31f?source=rss----138adf9c44c---4",
+      "title": "What do you do when a design solution is already pre-built?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+      "title": "Agents struggle with the same bad UX we do",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
+      "title": "Primer (GitHub) — @primer/react@38.44.0",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://fontsinuse.com/uses/81279/i-voted-sticker-for-san-francisco-county-2026",
+      "title": "“I Voted” Sticker for San Francisco County 2026 Election",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22826",
+      "title": "Tuesday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bradfrost.com/newsletter/",
+      "title": "I'm gearing up to send out my first newsletter in a while! You can sign up here if you're not already subscribed:",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/03/trump-midterm-message-republicans",
+      "title": "Trump’s midterm campaign has distilled his vile message | Sidney Blumenthal",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.houstonchronicle.com/news/houston-texas/article/salgado-ice-memorial-voting-stickers-22495313.php?utm_source=marketing&utm_medium=copy-url-link&utm_campaign=article-share&hash=aHR0cHM6Ly93d3cuaG91c3RvbmNocm9uaWNsZS5jb20vbmV3cy9ob3VzdG9uLXRleGFzL2FydGljbGUvc2FsZ2Fkby1pY2UtbWVtb3JpYWwtdm90aW5nLXN0aWNrZXJzLTIyNDk1MzEzLnBocA%3D%3D&time=MTc5MzM5ODUzOTQ2OA%3D%3D&rid=NzZhZjZlMzMtOWZkYy00MTUyLWJmMzQtZWIwZjNkYTA1NmI2&sharecount=Mg%3D%3D",
+      "title": "He left his voting sticker where ICE killed his dad. Hundreds more followed.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html?unlocked_article_code=1.NlE.VMKr.Cr-g-C6phyfH",
+      "title": "Google Will Turn Off Search for Schools That Reject A.I. (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/the-agents-on-rails-files-enter-lemans-a-ruby-harness-for-fair-agent-races",
+      "title": "The Agents on Rails Files: enter lemans, a Ruby harness for fair agent races—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ikea-turned-8500-call-agents-into-design-consultants/",
+      "title": "IKEA Turned 8,500 Call Agents into Design Consultants",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nist.gov/blogs/cybersecurity-insights/design-tenets-agent-identity-management-systems",
+      "title": "Design Tenets for Agent Identity Management Systems",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://carnewschina.com/2026/04/14/aito-vehicles-manufacturer-seres-patents-hidden-in-car-toilet-design-sparking-debates/",
+      "title": "Aito vehicles' manufacturer Seres patents hidden in-car toilet design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.eetimes.com/gpt-synopsys-combines-ic-design-eda-with-agentic-ai/",
+      "title": "GPT-Synopsys Combines IC Design EDA with Agentic AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sigmajp.works/",
+      "title": "Show HN: Sigmajp – Integrated Japanese Reader",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://predictygraph.github.io/",
+      "title": "Show HN: Predictygraph – animated diagrams styled with CSS, no reshuffle on edit",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blades.dev/css/modal/",
+      "title": "Show HN: No-JS <dialog> in Blades CSS v3.1.1 (a Pico CSS fork)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reuters.com/business/autos-transportation/tesla-misled-south-korean-customers-about-automated-driving-tech-consumer-group-2026-11-04/",
+      "title": "Tesla allegedly misled South Korean customers about automated-driving tech",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://textjs.org/",
+      "title": "Text.js: Build full-stack React apps that render inside console.log",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50360947",
+      "title": "Tell HN: Don't use Postman, they proxy your info without your permission",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://medium.com/@saitoken330/my-personal-views-on-ai-as-an-illustrator-661642e4ddc5",
+      "title": "AI Replaces Tools,Not Worldviews:Why True Artistic Expression Won't Be Displaced",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://waypointo.com",
+      "title": "WayPointo – A directory for discovering and comparing AI and creative products",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://spooler.sh/",
+      "title": "Show HN: Spooler – a simple, managed message queue",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50361973",
+      "title": "Ask HN: Advice on local efficient analogical retrieval?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/live/pUKdVKk7Zrg?si=nfCIKXdK-DW9CX1w",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://static.klipy.com/ii/4493325008d34b7bf8cd6813cd5c1619/33/21/z4riJL5yzg3yBF6QNGtn.gif?hh=280&ww=496&mp4=xIJSMzz4GNALI&webm=fp36uywxwXuNum5Hqi",
+      "title": "Blue Myself - Arrested Development",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://static.klipy.com/ii/4493325008d34b7bf8cd6813cd5c1619/82/90/zczr0jRsA9qkv.gif?hh=339&ww=498&mp4=zWwP4TPuYXJk8dD&webm=vWQIXBExvbs3UD",
+      "title": "Mac And Me Wheelchair",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/posterlet/amazing-posters",
+      "title": "Show HN: Posters – open prompt dataset for generated poster design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "title": "Palette: Teaching a small model to build decks in your design language",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://somo.keivalya.com/",
+      "title": "Somo is building iro, a home robot designed to respond to how you feel",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://play.milda.dev",
+      "title": "Show HN: A platform-neutral language for design systems",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/nhunsaker/screenshot-to-tokens",
+      "title": "Show HN: Screenshot to Tokens – give a web app a design system from a screenshot",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://rivermark.ai/",
+      "title": "Show HN: Rivermark, a superfast AI graphic design canvas",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.tomsguide.com/computing/ipads/apple-ipad-mini-8-review",
+      "title": "iPad mini 8: OLED panel, thinner design, one of my favorite tablets",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ai.greensighter.com/",
+      "title": "AI UI/UX designer: assign a ticket, get senior-reviewed Figma designs in 24-48h",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.oddee.com/6-typographical-mistakes-that-had-major-historical-consequences-80560/",
+      "title": "Typographical Mistakes That Had Major Historical Consequences",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/SecondCityOsD/greasemonkey-for-UXP-browsers/commit/5a36b28392d847a919c9897c56d408acac632d1c",
+      "title": "An example of LLM overengineering in the wild",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pcdealcheck.com/",
+      "title": "Show HN: I built a tool that prices a prebuilt PC part by part",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50366117",
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/FenrirSec/xterm.rs",
+      "title": "Show HN: Terminal to web page in a single command",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50364643",
+      "title": "Tell HN: First day in quite some time I feel optimistic about the future",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://stepshots.com/css-feature-clips",
+      "title": "Replacing homepage demo media with looping HTML and CSS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://aroundprague.cz/en/news/us/rtx-5090-street-prices-top-9-000-as-nvidia-gpu-costs-climb",
+      "title": "RTX 5090 Street Prices Top $9k as Nvidia GPU Costs Climb",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-uncovers-case-of-missing-oxygen-in-nearby-dwarf-galaxies/",
+      "title": "NASA's Hubble Uncovers Case of Missing Oxygen in Nearby Dwarf Galaxies",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://iconmcp.com/",
+      "title": "IconMCP – autonomous icon library built by agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://scrollhope.com/",
+      "title": "Show HN: I built a Bible verse feed to replace doomscrolling",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.sandordargo.com/blog/2026/11/04/cpp26-constant-wrapper",
+      "title": "C++26: Std:Constant_wrapper",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YxmSCElKdm0",
+      "title": "New Bodies, Unconventional Minds: a continuum of cognition (& consciousness) [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bbs.bt/248372/",
+      "title": "Bhutan sets Guinness World Record with 108 stupas built&consecrated in 9 hours",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50361108",
+      "title": "Ask HN: What do you call Holy Grail mania risk?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.HormuzSignal.com/",
+      "title": "Show HN: Hormuz Signal – Iran war escalation risk from real data",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/michaelmagan/OpenHuman",
+      "title": "Show HN: An Open Source Superhuman Email Client Clone",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://shkspr.mobi/blog/2026/11/lorem-ipsum-dot-gov-dot-uk/",
+      "title": "Lorem Ipsum Dot Gov Dot UK",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://buzzusborne.com/writing/pick-three/",
+      "title": "Pick three",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://avantgarde.110west40th.com/",
+      "title": "Avant Garde",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.baselinedesign.com/posts/the-window-with-no-buttons",
+      "title": "The window with no buttons",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://thishueshallpass.clearleft.com/?colors=23202c%2Cdae1e2%2Cffffff%2Ce1673e&utm_medium=newsletter",
+      "title": "This hue shall pass",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://csslayout.news/a/3mzhziouk3323-issue-347",
+      "title": "Issue 347",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22827",
+      "title": "честитке, Serbia Parabéns, Brazil Congratulations, USA 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.mercurynews.com/2026/11/03/google-bully-coerce-schools-ai-artificial-intelligence/",
+      "title": "Google, accused of trying to bully schools into using AI, backs off from announced change",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nerdy.dev/www-ep257-local-engineer-runs-out-of-tokens",
+      "title": "WWW Ep257 Local Engineer Runs Out Of Tokens · November 3, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://beyondtellerrand.com/newsletter",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.twigandtale.com/",
+      "title": "Twig + Tale | Sewing & Craft Patterns",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://schochastics.github.io/edgebundle/",
+      "title": "Algorithms for Bundling Edges in Networks and Visualizing Flow and Metro Maps",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.itsnicethat.com/news/typeland-shakespeares-globe-amifer-folio-graphic-design-090323",
+      "title": "New typeface using intricate designs from Shakespeare's First Folio (2023)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.uber.com/gb/en/blog/designing-mcp-gateway/",
+      "title": "Designing Uber's MCP Gateway",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://typesafe.ai/blog/dont-call-it-a-decision-model",
+      "title": "Don't Call It a Decision Model",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://george.mand.is/2026/11/the-tokenizer-font/",
+      "title": "Tokenizer Mono",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://louisabraham.github.io/anagranames/",
+      "title": "Show HN: Who and where are your anagranames?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50368804",
+      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50372412",
+      "title": "Chess X GO custom AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.figma.com/blog/how-figma-manages-sandboxes-at-scale/",
+      "title": "How Figma manages sandboxes at scale",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.ft.com/content/9a8d4922-74dd-4149-bb28-a15f719ca836",
+      "title": "The midterms have cost Musk close to $30B",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ciphero.ai/cassandra/hn",
+      "title": "Show HN: Cassandra – free tool to check if you got affected by the Cursor hack",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/microsoft/TokenEconomizer",
+      "title": "TokenEconomizer: Cut coding-agent token costs 18-31%",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uR5EvBWxN14",
+      "title": "Custom Engine written in Godot processing 720T polygons per second [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/blixt/phonon",
+      "title": "Show HN: Phonon TTS on WebGPU, 44MB, 115x real time, with live word timings",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://journals.sagepub.com/doi/10.1177/10738584261470362",
+      "title": "Brainstem Theory of Consciousness",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/",
+      "title": "Sequoia is consolidating into a smaller, Bay Area–centered firm",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JuZ2ut0q1mw",
+      "title": "Gaining Consciousness 2009",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://alperenkeles.com/posts/bug-finding-considered-harmful/",
+      "title": "Bug Finding Considered Harmful?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://dev.ua/en/news/postman-1793785667",
+      "title": "Postman Caught Installing AI Plugins Without Developer Consent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jjmaxwell4.com/writing/crew-plans/",
+      "title": "Make more money on consumer subscriptions with Crew Plans",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hackerdatasets.remyli.com/en/",
+      "title": "Show HN: HackerDatasets-Discover remarkable datasets on HN",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50367831",
+      "title": "Ask HN: Is it possible the field's course gets readjusted to normalcy again?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/RenderBear/haci",
+      "title": "Show HN: My compact, bio inspired distributed edge detection algorithm",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/in-a-world-of-panic-calm-and-certainty-win-525c17dd927f?source=rss----138adf9c44c---4",
+      "title": "In a world of panic, calm and certainty win",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/ai-can-generate-the-interface-what-makes-it-worth-caring-about-a5f3a3e81986?source=rss----138adf9c44c---4",
+      "title": "AI can generate the interface. What makes it worth caring about?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22828",
+      "title": "Wednesday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=4vkqSigZeDI",
+      "title": "Why Hasn't Abdul El-Sayed Accomplished Any Of His Campaign Goals Since Winning 2 Minutes Ago?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.mobilize.us/mobilize/event/1078538/",
+      "title": "Take Back The House Ballot Cure Phonebank · Mobilize",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.cbsnews.com/news/trump-hegseth-midterm-election-losses/",
+      "title": "Trump asking advisers if Hegseth should go, sources say",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://newfascismsyllabus.com/contributions/i-shall-bear-witness-victor-klemperer-in-his-time-and-ours/",
+      "title": "I Shall Bear Witness – Victor Klemperer in His Time, and Ours - The New Fascism Syllabus",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/how-to-make-your-website-visible-to-llms",
+      "title": "Making your site visible to LLMs and AI agents: 6 techniques that work, 8 that don't—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    }
+  ]
+}

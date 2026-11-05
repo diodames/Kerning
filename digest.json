@@ -1,246 +1,158 @@
 {
-  "generated_at": "2026-11-04T02:59:29.621395+00:00",
+  "generated_at": "2026-11-05T03:27:58.648431+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "3 November 2026",
-      "period_start": "2026-11-03",
-      "period_end": "2026-11-03",
+      "label": "4 November 2026",
+      "period_start": "2026-11-04",
+      "period_end": "2026-11-04",
       "items": [
-        {
-          "id": "89375f5d5154",
-          "title": "Modern CSS Might Make Your Front-End More Complex",
-          "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
-          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3mzg4pw3zls2n",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793700000,
-          "sources": [
-            "Smashing Magazine",
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 6.503,
-          "why": [
-            "picked up by Smashing Magazine and Bluesky"
-          ],
-          "authors": [
-            "smashingmagazine.com"
-          ]
-        },
-        {
-          "id": "8c94e77bdc05",
-          "title": "Primer (GitHub) — @primer/react@38.44.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793723925,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.606,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "d85548166c7e",
-          "title": "Agents struggle with the same bad UX we do",
-          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793745393,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.787,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "bb631db1d502",
-          "title": "Jelly UI",
-          "url": "https://jelly-ui.com/",
-          "hn": "https://jelly-ui.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793682240,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.329,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        }
-      ],
-      "candidates": [
-        {
-          "id": "89375f5d5154",
-          "title": "Modern CSS Might Make Your Front-End More Complex",
-          "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
-          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3mzg4pw3zls2n",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793700000,
-          "sources": [
-            "Smashing Magazine",
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 6.503,
-          "why": [
-            "picked up by Smashing Magazine and Bluesky"
-          ],
-          "authors": [
-            "smashingmagazine.com"
-          ]
-        },
-        {
-          "id": "8c94e77bdc05",
-          "title": "Primer (GitHub) — @primer/react@38.44.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.44.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793723925,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.606,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "d85548166c7e",
-          "title": "Agents struggle with the same bad UX we do",
-          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793745393,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.787,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "bb631db1d502",
-          "title": "Jelly UI",
-          "url": "https://jelly-ui.com/",
-          "hn": "https://jelly-ui.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793682240,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.329,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "97621ba86b5e",
-          "title": "What I learned teaching AI prototyping at university",
-          "url": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793700549,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.106,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "2e54ec26db50",
-          "title": "Virtue ethics in everyday interface design",
-          "url": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793642134,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 2.802,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
         {
           "id": "7da3b08fd70d",
           "title": "Introducing Adaptive Dark Mode",
           "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
-          "hn": "https://bsky.app/profile/jensimmons.bsky.social/post/3mzgqnfk4ws2m",
-          "points": 0,
-          "comments": 0,
+          "hn": "https://lobste.rs/s/yba0yg/introducing_adaptive_dark_mode",
+          "points": 30,
+          "comments": 8,
           "created_at_i": 1793740053,
           "sources": [
-            "Bluesky"
+            "Bluesky",
+            "Lobsters"
           ],
           "sharers": 1,
-          "score": 1.806,
+          "score": 6.207,
           "why": [
-            "spotted on Bluesky"
+            "picked up by Bluesky and Lobsters"
           ],
           "authors": [
             "jensimmons.bsky.social"
           ]
         },
         {
-          "id": "24a92f66d156",
-          "title": "CSS scroll-triggered animations are here, and I completely missed them | Blog Cyd Stumpel",
-          "url": "https://cydstumpel.nl/css-scroll-triggered-animations-are-here-and-i-completely-missed-them/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3mzg7sue2p32b",
+          "id": "46c1230e04f9",
+          "title": "Carbon (IBM) — v11.120.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793721981,
+          "created_at_i": 1793803011,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.551,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "4a2fa40761c4",
+          "title": "What AI has changed in Design Systems, and what is still up to us",
+          "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793830329,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.107,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "61dbb950df7d",
+          "title": "Theme Font Auditor",
+          "url": "https://theme-font-auditor.space.fast/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793799917,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.658,
+          "score": 1.928,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "piccalil.li"
+            "zeldman.bsky.social"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "7da3b08fd70d",
+          "title": "Introducing Adaptive Dark Mode",
+          "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+          "hn": "https://lobste.rs/s/yba0yg/introducing_adaptive_dark_mode",
+          "points": 30,
+          "comments": 8,
+          "created_at_i": 1793740053,
+          "sources": [
+            "Bluesky",
+            "Lobsters"
+          ],
+          "sharers": 1,
+          "score": 6.207,
+          "why": [
+            "picked up by Bluesky and Lobsters"
+          ],
+          "authors": [
+            "jensimmons.bsky.social"
           ]
         },
         {
-          "id": "5aeb582c9d16",
-          "title": "CSS Zen Garden: All Designs",
-          "url": "https://csszengarden.com/pages/alldesigns/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mzg3u2g4n22e",
+          "id": "46c1230e04f9",
+          "title": "Carbon (IBM) — v11.120.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793717728,
+          "created_at_i": 1793803011,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.551,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "4a2fa40761c4",
+          "title": "What AI has changed in Design Systems, and what is still up to us",
+          "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793830329,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.107,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "61dbb950df7d",
+          "title": "Theme Font Auditor",
+          "url": "https://theme-font-auditor.space.fast/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793799917,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.626,
+          "score": 1.928,
           "why": [
             "spotted on Bluesky"
           ],
@@ -249,18 +161,18 @@
           ]
         },
         {
-          "id": "5a3e3455042e",
-          "title": "Controlling when CSS custom property values are computed",
-          "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3mzdphn55n32o",
+          "id": "c4ffeb8aa161",
+          "title": "Detect when elements overlap with CSS",
+          "url": "https://ishadeed.com/article/css-detect-overlap/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzijikzpya2p",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793635706,
+          "created_at_i": 1793801093,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.176,
+          "score": 1.603,
           "why": [
             "spotted on Bluesky"
           ],
@@ -301,6 +213,27 @@
           ]
         },
         {
+          "id": "7da3b08fd70d",
+          "title": "Introducing Adaptive Dark Mode",
+          "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+          "hn": "https://lobste.rs/s/yba0yg/introducing_adaptive_dark_mode",
+          "points": 30,
+          "comments": 8,
+          "created_at_i": 1793740053,
+          "sources": [
+            "Bluesky",
+            "Lobsters"
+          ],
+          "sharers": 1,
+          "score": 6.207,
+          "why": [
+            "picked up by Bluesky and Lobsters"
+          ],
+          "authors": [
+            "jensimmons.bsky.social"
+          ]
+        },
+        {
           "id": "06a612f5cbe4",
           "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
           "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
@@ -335,6 +268,23 @@
           ]
         },
         {
+          "id": "46c1230e04f9",
+          "title": "Carbon (IBM) — v11.120.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793803011,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.551,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
           "id": "62cb89d6491c",
           "title": "Making features generic in CSS",
           "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
@@ -356,18 +306,18 @@
           ]
         },
         {
-          "id": "d85548166c7e",
-          "title": "Agents struggle with the same bad UX we do",
-          "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+          "id": "4a2fa40761c4",
+          "title": "What AI has changed in Design Systems, and what is still up to us",
+          "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793745393,
+          "created_at_i": 1793830329,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.787,
+          "score": 4.107,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -421,6 +371,26 @@
           "score": 3.329,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "61dbb950df7d",
+          "title": "Theme Font Auditor",
+          "url": "https://theme-font-auditor.space.fast/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793799917,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.928,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "zeldman.bsky.social"
           ]
         }
       ],
@@ -481,6 +451,23 @@
           ]
         },
         {
+          "id": "46c1230e04f9",
+          "title": "Carbon (IBM) — v11.120.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793803011,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.551,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
           "id": "62cb89d6491c",
           "title": "Making features generic in CSS",
           "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
@@ -499,6 +486,23 @@
           "authors": [
             "rachelandrew.co.uk",
             "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "4a2fa40761c4",
+          "title": "What AI has changed in Design Systems, and what is still up to us",
+          "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793830329,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.107,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -604,6 +608,26 @@
           ]
         },
         {
+          "id": "61dbb950df7d",
+          "title": "Theme Font Auditor",
+          "url": "https://theme-font-auditor.space.fast/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793799917,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.928,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "zeldman.bsky.social"
+          ]
+        },
+        {
           "id": "7da3b08fd70d",
           "title": "Introducing Adaptive Dark Mode",
           "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
@@ -696,6 +720,26 @@
           ],
           "sharers": 1,
           "score": 1.604,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "c4ffeb8aa161",
+          "title": "Detect when elements overlap with CSS",
+          "url": "https://ishadeed.com/article/css-detect-overlap/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzijikzpya2p",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793801093,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.603,
           "why": [
             "spotted on Bluesky"
           ],
@@ -732,6 +776,27 @@
           ]
         },
         {
+          "id": "7da3b08fd70d",
+          "title": "Introducing Adaptive Dark Mode",
+          "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+          "hn": "https://lobste.rs/s/yba0yg/introducing_adaptive_dark_mode",
+          "points": 30,
+          "comments": 8,
+          "created_at_i": 1793740053,
+          "sources": [
+            "Bluesky",
+            "Lobsters"
+          ],
+          "sharers": 1,
+          "score": 6.207,
+          "why": [
+            "picked up by Bluesky and Lobsters"
+          ],
+          "authors": [
+            "jensimmons.bsky.social"
+          ]
+        },
+        {
           "id": "06a612f5cbe4",
           "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
           "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
@@ -766,6 +831,23 @@
           ]
         },
         {
+          "id": "46c1230e04f9",
+          "title": "Carbon (IBM) — v11.120.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793803011,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.551,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
           "id": "62cb89d6491c",
           "title": "Making features generic in CSS",
           "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
@@ -787,18 +869,18 @@
           ]
         },
         {
-          "id": "58c1e27eaf81",
-          "title": "Your design system was never about components",
-          "url": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/your-design-system-was-never-the-components-9605130c3038?source=rss----138adf9c44c---4",
+          "id": "4a2fa40761c4",
+          "title": "What AI has changed in Design Systems, and what is still up to us",
+          "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793543556,
+          "created_at_i": 1793830329,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.882,
+          "score": 4.107,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -852,6 +934,26 @@
           "score": 3.329,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "61dbb950df7d",
+          "title": "Theme Font Auditor",
+          "url": "https://theme-font-auditor.space.fast/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793799917,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.928,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "zeldman.bsky.social"
           ]
         }
       ],
@@ -912,6 +1014,23 @@
           ]
         },
         {
+          "id": "46c1230e04f9",
+          "title": "Carbon (IBM) — v11.120.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793803011,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 4.551,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
           "id": "62cb89d6491c",
           "title": "Making features generic in CSS",
           "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
@@ -930,6 +1049,23 @@
           "authors": [
             "rachelandrew.co.uk",
             "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "4a2fa40761c4",
+          "title": "What AI has changed in Design Systems, and what is still up to us",
+          "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793830329,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.107,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -1052,6 +1188,26 @@
           ]
         },
         {
+          "id": "61dbb950df7d",
+          "title": "Theme Font Auditor",
+          "url": "https://theme-font-auditor.space.fast/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793799917,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.928,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "zeldman.bsky.social"
+          ]
+        },
+        {
           "id": "7da3b08fd70d",
           "title": "Introducing Adaptive Dark Mode",
           "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
@@ -1150,6 +1306,26 @@
           "authors": [
             "piccalil.li"
           ]
+        },
+        {
+          "id": "c4ffeb8aa161",
+          "title": "Detect when elements overlap with CSS",
+          "url": "https://ishadeed.com/article/css-detect-overlap/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3mzijikzpya2p",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793801093,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.603,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
         }
       ]
     }
@@ -1174,6 +1350,27 @@
       ],
       "authors": [
         "smashingmagazine.com"
+      ]
+    },
+    {
+      "id": "7da3b08fd70d",
+      "title": "Introducing Adaptive Dark Mode",
+      "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+      "hn": "https://lobste.rs/s/yba0yg/introducing_adaptive_dark_mode",
+      "points": 30,
+      "comments": 8,
+      "created_at_i": 1793740053,
+      "sources": [
+        "Bluesky",
+        "Lobsters"
+      ],
+      "sharers": 1,
+      "score": 6.207,
+      "why": [
+        "picked up by Bluesky and Lobsters"
+      ],
+      "authors": [
+        "jensimmons.bsky.social"
       ]
     },
     {
@@ -1211,6 +1408,23 @@
       ]
     },
     {
+      "id": "46c1230e04f9",
+      "title": "Carbon (IBM) — v11.120.0",
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+      "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793803011,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 4.551,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
       "id": "62cb89d6491c",
       "title": "Making features generic in CSS",
       "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
@@ -1232,18 +1446,18 @@
       ]
     },
     {
-      "id": "d85548166c7e",
-      "title": "Agents struggle with the same bad UX we do",
-      "url": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/agents-struggle-with-the-same-bad-ux-we-do-98415f2b8981?source=rss----138adf9c44c---4",
+      "id": "4a2fa40761c4",
+      "title": "What AI has changed in Design Systems, and what is still up to us",
+      "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1793745393,
+      "created_at_i": 1793830329,
       "sources": [
         "UX Collective"
       ],
       "sharers": 0,
-      "score": 3.787,
+      "score": 4.107,
       "why": [
         "editor's pick at UX Collective"
       ]
@@ -1297,6 +1511,26 @@
       "score": 3.329,
       "why": [
         "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "61dbb950df7d",
+      "title": "Theme Font Auditor",
+      "url": "https://theme-font-auditor.space.fast/",
+      "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793799917,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.928,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "zeldman.bsky.social"
       ]
     }
   ],
