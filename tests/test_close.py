@@ -77,6 +77,34 @@ class CloseDayTests(unittest.TestCase):
         self.assertEqual(stats["dropped"].get("blocklist"), 1)
         self.assertEqual(payload["items"][0]["url"], "https://example.com/keep")
 
+    def test_curated_product_essay_is_not_lexicon_dropped(self):
+        pool = {"items": {
+            "https://svpg.com/ai-and-the-future-of-the-product-role": {
+                "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+                "title": "AI and the Future of the Product Role",
+                "sources": ["SVPG"],
+                "points": 0,
+                "comments": 0,
+                "first_seen": "2026-11-06T01:02:22+00:00",
+                "ts": 1762390942,
+                "curated": True,
+            },
+        }}
+        cfg = {
+            "hn": {"min_points": 10, "min_comments": 5},
+            "lobsters": {"min_score": 3},
+            "blocklist": [],
+            "allowlist": [],
+            "saas_domains": {},
+        }
+        payload, stats = close_day("2026-11-06", pool, cfg)
+        self.assertEqual(stats["kept"], 1)
+        self.assertNotIn("lexicon", stats["dropped"])
+        self.assertEqual(
+            payload["items"][0]["url"],
+            "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+        )
+
 
 CFG = {
     "hn": {"min_points": 10, "min_comments": 5},

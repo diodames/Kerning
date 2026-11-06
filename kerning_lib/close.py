@@ -84,7 +84,7 @@ def _filter_and_score(raw_items, cfg, now_ts, tau, limit, skip_keys=None):
             dropped.append({"url": item.get("url") or "", "title": item.get("title") or "",
                             "reason": reason})
             continue
-        if not item.get("always_relevant") and kf.lexicon_score(item["title"], item["url"]) < 2:
+        if not kf.relevant_enough(item):
             dropped.append({"url": item.get("url") or "", "title": item.get("title") or "",
                             "reason": "lexicon"})
             continue

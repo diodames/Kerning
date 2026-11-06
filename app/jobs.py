@@ -219,10 +219,7 @@ def run_cut(user_id, force=False):
         rows = pool_items(db, user_id, since_ts=month_start.timestamp())
         items = kf.merge(rows)
         items = [i for i in items if i.get("title")]
-        items = [
-            i for i in items
-            if i.get("always_relevant") or kf.lexicon_score(i["title"], i["url"]) >= 2
-        ]
+        items = [i for i in items if kf.relevant_enough(i)]
         skip = kf.downvoted_urls(profile)
         if skip:
             items = [i for i in items if i.get("key") not in skip]

@@ -95,8 +95,8 @@ CURATED_FEEDS = {
     "Intercom":           "https://www.intercom.com/blog/feed",
 }
 
-# Design systems and primitives. Release notes are the earliest, highest-
-# fidelity signal about how software design is actually changing.
+# Design systems and primitives. Release titles rarely match the lexicon, so
+# they skip the relevance gate — they do not get a fake lexicon score.
 GITHUB_REPOS = {
     "Primer (GitHub)":   "primer/react",
     "Polaris (Shopify)": "Shopify/polaris",
@@ -163,6 +163,8 @@ LEXICON = [
     ("outcome-based", 2), ("product-led", 2),
     ("product management", 3), ("product manager", 3),
     ("product discovery", 3),
+    ("product role", 3), ("product model", 3),
+    ("product owner", 2, ("product owners",)),
     ("jobs to be done", 3, ("jtbd",)),
     ("opportunity solution tree", 3), ("dual-track", 3),
     ("continuous discovery", 3), ("product ops", 3),
@@ -187,6 +189,16 @@ W = {
     "curation":      1.6,   # an editor already chose it
     "taste":         2.0,   # your learned profile
     "recency":       1.2,
+}
+
+# Multiplier on the curated 1.0. RSS-only; corroborated links keep 1.0.
+CURATION_BY_SOURCE = {
+    "SVPG": 1.45,
+    "UX Collective": 0.5,
+}
+CURATION_BY_DOMAIN = {
+    "svpg.com": 1.45,
+    "uxdesign.cc": 0.5,
 }
 
 MAX_PER_DOMAIN = 2
@@ -352,6 +364,29 @@ def lexicon_score(title: str, url: str) -> int:
         if _lexicon_entry_hits(hay, entry):
             total += entry[1]
     return total
+
+
+def curation_strength(item) -> float:
+    """0 if not curated. RSS-only sources can be hotter or cooler than 1.0."""
+    if not item.get("curated"):
+        return 0.0
+    sources = [s for s in (item.get("sources") or []) if s]
+    if len(sources) > 1:
+        return 1.0
+    if sources and sources[0] in CURATION_BY_SOURCE:
+        return CURATION_BY_SOURCE[sources[0]]
+    return CURATION_BY_DOMAIN.get(domain_of(item.get("url") or ""), 1.0)
+
+
+def relevant_enough(item) -> bool:
+    """True when an item may enter ranking.
+
+    Curated publication feeds and design-system releases skip the lexicon
+    cut so a Marty Cagan essay is not dropped for lacking the word 'design'.
+    """
+    if item.get("always_relevant") or item.get("curated"):
+        return True
+    return lexicon_score(item.get("title") or "", item.get("url") or "") >= 2
 
 
 def tokens_of(title: str, url: str, authors=None):
@@ -1367,9 +1402,7 @@ def merge(rows):
 
 
 def score(item, weights, now, recency_tau=7, skip_urls=None):
-    rel = 0 if item["always_relevant"] else lexicon_score(item["title"], item["url"])
-    if item["always_relevant"]:
-        rel = 6
+    rel = lexicon_score(item["title"], item["url"])
 
     n_src = len(item["sources"])
     sharers = item.get("sharers", 0)
@@ -1380,7 +1413,7 @@ def score(item, weights, now, recency_tau=7, skip_urls=None):
     debate = min(item["comments"] / max(item["points"], 8), 1.5)
     posts, engagement = item.get("_buzz", (0, 0))
     buzz = math.log10(1 + posts) + math.log10(1 + engagement) * 0.4
-    curation = 1.0 if item["curated"] else 0.0
+    curation = curation_strength(item)
     authors = item.get("authors") or []
     taste = taste_score(item["title"], item["url"], weights, authors)
     age_days = max((now - item["ts"]) / 86400, 0)
@@ -1785,8 +1818,7 @@ def build_digest(args):
     items = [i for i in items if i["title"]]
 
     now = time.time()
-    items = [i for i in items
-             if i["always_relevant"] or lexicon_score(i["title"], i["url"]) >= 2]
+    items = [i for i in items if relevant_enough(i)]
     if skip_urls:
         items = [i for i in items if i.get("key") not in skip_urls]
 
