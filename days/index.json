@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T03:27:58.643042+00:00",
+  "updated_at": "2026-11-06T03:24:45.637784+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -4284,6 +4284,168 @@
         "below_threshold": 71,
         "already_closed": 2,
         "no_title": 2
+      }
+    },
+    "2026-11-05": {
+      "items": [
+        {
+          "id": "a0c225aed9f5",
+          "title": "Lemmings CSS Animation",
+          "url": "https://markblah.github.io/lemmings/",
+          "hn": "https://news.ycombinator.com/item?id=50375354",
+          "points": 380,
+          "comments": 77,
+          "created_at_i": 1793854450,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.544,
+          "why": [
+            "380 points"
+          ]
+        },
+        {
+          "id": "259b3aa5799a",
+          "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
+          "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793875750,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.789,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "bbf9751fd85b",
+          "title": "Taming Typography: Building a Modern CSS Reset",
+          "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+          "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793891077,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.63,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "1c0cebc34178",
+          "title": "I am not a developer or an accessibility specialist. Hire me?",
+          "url": "https://heydonworks.com/article/i-am-not-an-accessibility-specialist-hire-me/",
+          "hn": "https://bsky.app/profile/heydonworks.com/post/3mzkupazv3k2a",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793881849,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.897,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "heydonworks.com"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "a0c225aed9f5",
+          "title": "Lemmings CSS Animation",
+          "url": "https://markblah.github.io/lemmings/",
+          "hn": "https://news.ycombinator.com/item?id=50375354",
+          "points": 380,
+          "comments": 77,
+          "created_at_i": 1793854450,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.544,
+          "why": [
+            "380 points"
+          ]
+        },
+        {
+          "id": "259b3aa5799a",
+          "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
+          "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793875750,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.789,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "bbf9751fd85b",
+          "title": "Taming Typography: Building a Modern CSS Reset",
+          "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+          "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793891077,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.63,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "1c0cebc34178",
+          "title": "I am not a developer or an accessibility specialist. Hire me?",
+          "url": "https://heydonworks.com/article/i-am-not-an-accessibility-specialist-hire-me/",
+          "hn": "https://bsky.app/profile/heydonworks.com/post/3mzkupazv3k2a",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793881849,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.897,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "heydonworks.com"
+          ]
+        }
+      ],
+      "pool": 130,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 87,
+        "lexicon": 37,
+        "already_closed": 1,
+        "no_title": 1
       }
     }
   }

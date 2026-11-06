@@ -1,183 +1,161 @@
 {
-  "generated_at": "2026-11-05T03:27:58.648431+00:00",
+  "generated_at": "2026-11-06T03:24:45.642088+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "4 November 2026",
-      "period_start": "2026-11-04",
-      "period_end": "2026-11-04",
+      "label": "5 November 2026",
+      "period_start": "2026-11-05",
+      "period_end": "2026-11-05",
       "items": [
         {
-          "id": "7da3b08fd70d",
-          "title": "Introducing Adaptive Dark Mode",
-          "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
-          "hn": "https://lobste.rs/s/yba0yg/introducing_adaptive_dark_mode",
-          "points": 30,
-          "comments": 8,
-          "created_at_i": 1793740053,
+          "id": "a0c225aed9f5",
+          "title": "Lemmings CSS Animation",
+          "url": "https://markblah.github.io/lemmings/",
+          "hn": "https://news.ycombinator.com/item?id=50375354",
+          "points": 380,
+          "comments": 77,
+          "created_at_i": 1793854450,
           "sources": [
-            "Bluesky",
-            "Lobsters"
-          ],
-          "sharers": 1,
-          "score": 6.207,
-          "why": [
-            "picked up by Bluesky and Lobsters"
-          ],
-          "authors": [
-            "jensimmons.bsky.social"
-          ]
-        },
-        {
-          "id": "46c1230e04f9",
-          "title": "Carbon (IBM) — v11.120.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793803011,
-          "sources": [
-            "Design systems"
+            "Hacker News"
           ],
           "sharers": 0,
-          "score": 4.551,
+          "score": 4.544,
           "why": [
-            "editor's pick at Design systems"
+            "380 points"
           ]
         },
         {
-          "id": "4a2fa40761c4",
-          "title": "What AI has changed in Design Systems, and what is still up to us",
-          "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "id": "259b3aa5799a",
+          "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
+          "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793830329,
+          "created_at_i": 1793875750,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 4.107,
+          "score": 3.789,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "61dbb950df7d",
-          "title": "Theme Font Auditor",
-          "url": "https://theme-font-auditor.space.fast/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+          "id": "bbf9751fd85b",
+          "title": "Taming Typography: Building a Modern CSS Reset",
+          "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+          "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793799917,
+          "created_at_i": 1793891077,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.928,
+          "score": 2.63,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "zeldman.bsky.social"
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "1c0cebc34178",
+          "title": "I am not a developer or an accessibility specialist. Hire me?",
+          "url": "https://heydonworks.com/article/i-am-not-an-accessibility-specialist-hire-me/",
+          "hn": "https://bsky.app/profile/heydonworks.com/post/3mzkupazv3k2a",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793881849,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.897,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "heydonworks.com"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "7da3b08fd70d",
-          "title": "Introducing Adaptive Dark Mode",
-          "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
-          "hn": "https://lobste.rs/s/yba0yg/introducing_adaptive_dark_mode",
-          "points": 30,
-          "comments": 8,
-          "created_at_i": 1793740053,
+          "id": "a0c225aed9f5",
+          "title": "Lemmings CSS Animation",
+          "url": "https://markblah.github.io/lemmings/",
+          "hn": "https://news.ycombinator.com/item?id=50375354",
+          "points": 380,
+          "comments": 77,
+          "created_at_i": 1793854450,
           "sources": [
-            "Bluesky",
-            "Lobsters"
-          ],
-          "sharers": 1,
-          "score": 6.207,
-          "why": [
-            "picked up by Bluesky and Lobsters"
-          ],
-          "authors": [
-            "jensimmons.bsky.social"
-          ]
-        },
-        {
-          "id": "46c1230e04f9",
-          "title": "Carbon (IBM) — v11.120.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793803011,
-          "sources": [
-            "Design systems"
+            "Hacker News"
           ],
           "sharers": 0,
-          "score": 4.551,
+          "score": 4.544,
           "why": [
-            "editor's pick at Design systems"
+            "380 points"
           ]
         },
         {
-          "id": "4a2fa40761c4",
-          "title": "What AI has changed in Design Systems, and what is still up to us",
-          "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
+          "id": "259b3aa5799a",
+          "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
+          "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793830329,
+          "created_at_i": 1793875750,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 4.107,
+          "score": 3.789,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "61dbb950df7d",
-          "title": "Theme Font Auditor",
-          "url": "https://theme-font-auditor.space.fast/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+          "id": "bbf9751fd85b",
+          "title": "Taming Typography: Building a Modern CSS Reset",
+          "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+          "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793799917,
+          "created_at_i": 1793891077,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.928,
+          "score": 2.63,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "zeldman.bsky.social"
+            "ericwbailey.website"
           ]
         },
         {
-          "id": "c4ffeb8aa161",
-          "title": "Detect when elements overlap with CSS",
-          "url": "https://ishadeed.com/article/css-detect-overlap/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3mzijikzpya2p",
+          "id": "1c0cebc34178",
+          "title": "I am not a developer or an accessibility specialist. Hire me?",
+          "url": "https://heydonworks.com/article/i-am-not-an-accessibility-specialist-hire-me/",
+          "hn": "https://bsky.app/profile/heydonworks.com/post/3mzkupazv3k2a",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793801093,
+          "created_at_i": 1793881849,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.603,
+          "score": 1.897,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "piccalil.li"
+            "heydonworks.com"
           ]
         }
       ]
@@ -285,6 +263,23 @@
           ]
         },
         {
+          "id": "a0c225aed9f5",
+          "title": "Lemmings CSS Animation",
+          "url": "https://markblah.github.io/lemmings/",
+          "hn": "https://news.ycombinator.com/item?id=50375354",
+          "points": 380,
+          "comments": 77,
+          "created_at_i": 1793854450,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.544,
+          "why": [
+            "380 points"
+          ]
+        },
+        {
           "id": "62cb89d6491c",
           "title": "Making features generic in CSS",
           "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
@@ -374,23 +369,23 @@
           ]
         },
         {
-          "id": "61dbb950df7d",
-          "title": "Theme Font Auditor",
-          "url": "https://theme-font-auditor.space.fast/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+          "id": "bbf9751fd85b",
+          "title": "Taming Typography: Building a Modern CSS Reset",
+          "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+          "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793799917,
+          "created_at_i": 1793891077,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.928,
+          "score": 2.63,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "zeldman.bsky.social"
+            "ericwbailey.website"
           ]
         }
       ],
@@ -468,6 +463,23 @@
           ]
         },
         {
+          "id": "a0c225aed9f5",
+          "title": "Lemmings CSS Animation",
+          "url": "https://markblah.github.io/lemmings/",
+          "hn": "https://news.ycombinator.com/item?id=50375354",
+          "points": 380,
+          "comments": 77,
+          "created_at_i": 1793854450,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.544,
+          "why": [
+            "380 points"
+          ]
+        },
+        {
           "id": "62cb89d6491c",
           "title": "Making features generic in CSS",
           "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
@@ -501,6 +513,23 @@
           ],
           "sharers": 0,
           "score": 4.107,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "259b3aa5799a",
+          "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
+          "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793875750,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.789,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -608,6 +637,26 @@
           ]
         },
         {
+          "id": "bbf9751fd85b",
+          "title": "Taming Typography: Building a Modern CSS Reset",
+          "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+          "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793891077,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.63,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
           "id": "61dbb950df7d",
           "title": "Theme Font Auditor",
           "url": "https://theme-font-auditor.space.fast/",
@@ -625,6 +674,26 @@
           ],
           "authors": [
             "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "1c0cebc34178",
+          "title": "I am not a developer or an accessibility specialist. Hire me?",
+          "url": "https://heydonworks.com/article/i-am-not-an-accessibility-specialist-hire-me/",
+          "hn": "https://bsky.app/profile/heydonworks.com/post/3mzkupazv3k2a",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793881849,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.897,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "heydonworks.com"
           ]
         },
         {
@@ -848,6 +917,23 @@
           ]
         },
         {
+          "id": "a0c225aed9f5",
+          "title": "Lemmings CSS Animation",
+          "url": "https://markblah.github.io/lemmings/",
+          "hn": "https://news.ycombinator.com/item?id=50375354",
+          "points": 380,
+          "comments": 77,
+          "created_at_i": 1793854450,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.544,
+          "why": [
+            "380 points"
+          ]
+        },
+        {
           "id": "62cb89d6491c",
           "title": "Making features generic in CSS",
           "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
@@ -937,23 +1023,23 @@
           ]
         },
         {
-          "id": "61dbb950df7d",
-          "title": "Theme Font Auditor",
-          "url": "https://theme-font-auditor.space.fast/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+          "id": "bbf9751fd85b",
+          "title": "Taming Typography: Building a Modern CSS Reset",
+          "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+          "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793799917,
+          "created_at_i": 1793891077,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.928,
+          "score": 2.63,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "zeldman.bsky.social"
+            "ericwbailey.website"
           ]
         }
       ],
@@ -1031,6 +1117,23 @@
           ]
         },
         {
+          "id": "a0c225aed9f5",
+          "title": "Lemmings CSS Animation",
+          "url": "https://markblah.github.io/lemmings/",
+          "hn": "https://news.ycombinator.com/item?id=50375354",
+          "points": 380,
+          "comments": 77,
+          "created_at_i": 1793854450,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.544,
+          "why": [
+            "380 points"
+          ]
+        },
+        {
           "id": "62cb89d6491c",
           "title": "Making features generic in CSS",
           "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
@@ -1081,6 +1184,23 @@
           ],
           "sharers": 0,
           "score": 3.882,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "259b3aa5799a",
+          "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
+          "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793875750,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.789,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -1188,6 +1308,26 @@
           ]
         },
         {
+          "id": "bbf9751fd85b",
+          "title": "Taming Typography: Building a Modern CSS Reset",
+          "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+          "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793891077,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.63,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
           "id": "61dbb950df7d",
           "title": "Theme Font Auditor",
           "url": "https://theme-font-auditor.space.fast/",
@@ -1205,6 +1345,26 @@
           ],
           "authors": [
             "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "1c0cebc34178",
+          "title": "I am not a developer or an accessibility specialist. Hire me?",
+          "url": "https://heydonworks.com/article/i-am-not-an-accessibility-specialist-hire-me/",
+          "hn": "https://bsky.app/profile/heydonworks.com/post/3mzkupazv3k2a",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793881849,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.897,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "heydonworks.com"
           ]
         },
         {
@@ -1425,6 +1585,23 @@
       ]
     },
     {
+      "id": "a0c225aed9f5",
+      "title": "Lemmings CSS Animation",
+      "url": "https://markblah.github.io/lemmings/",
+      "hn": "https://news.ycombinator.com/item?id=50375354",
+      "points": 380,
+      "comments": 77,
+      "created_at_i": 1793854450,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.544,
+      "why": [
+        "380 points"
+      ]
+    },
+    {
       "id": "62cb89d6491c",
       "title": "Making features generic in CSS",
       "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
@@ -1514,23 +1691,23 @@
       ]
     },
     {
-      "id": "61dbb950df7d",
-      "title": "Theme Font Auditor",
-      "url": "https://theme-font-auditor.space.fast/",
-      "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
+      "id": "bbf9751fd85b",
+      "title": "Taming Typography: Building a Modern CSS Reset",
+      "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+      "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1793799917,
+      "created_at_i": 1793891077,
       "sources": [
         "Bluesky"
       ],
       "sharers": 1,
-      "score": 1.928,
+      "score": 2.63,
       "why": [
         "spotted on Bluesky"
       ],
       "authors": [
-        "zeldman.bsky.social"
+        "ericwbailey.website"
       ]
     }
   ],
