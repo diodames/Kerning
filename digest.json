@@ -1,136 +1,283 @@
 {
-  "generated_at": "2026-11-06T03:24:45.642088+00:00",
+  "generated_at": "2026-11-07T02:45:59.364622+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "5 November 2026",
-      "period_start": "2026-11-05",
-      "period_end": "2026-11-05",
+      "label": "6 November 2026",
+      "period_start": "2026-11-06",
+      "period_end": "2026-11-06",
       "items": [
         {
-          "id": "a0c225aed9f5",
-          "title": "Lemmings CSS Animation",
-          "url": "https://markblah.github.io/lemmings/",
-          "hn": "https://news.ycombinator.com/item?id=50375354",
-          "points": 380,
-          "comments": 77,
-          "created_at_i": 1793854450,
+          "id": "a4281c90cf69",
+          "title": "Flawless UI-UX Skill 1.0.0",
+          "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0",
+          "hn": "https://news.ycombinator.com/item?id=50395747",
+          "points": 23,
+          "comments": 30,
+          "created_at_i": 1793987554,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 4.544,
+          "score": 5.326,
           "why": [
-            "380 points"
+            "heavily argued (30 comments)"
           ]
         },
         {
-          "id": "259b3aa5799a",
-          "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
-          "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "id": "0ce29e469fa3",
+          "title": "AI and the Future of the Product Role",
+          "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+          "hn": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793875750,
+          "created_at_i": 1793926942,
           "sources": [
-            "UX Collective"
+            "SVPG"
           ],
           "sharers": 0,
-          "score": 3.789,
+          "score": 3.972,
           "why": [
-            "editor's pick at UX Collective"
+            "editor's pick at SVPG"
           ]
         },
         {
-          "id": "bbf9751fd85b",
-          "title": "Taming Typography: Building a Modern CSS Reset",
-          "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
-          "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
+          "id": "84bf03764f8c",
+          "title": "Usability 101: Introduction to Usability",
+          "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793891077,
+          "created_at_i": 1793988000,
           "sources": [
-            "Bluesky"
+            "NN/g"
           ],
-          "sharers": 1,
-          "score": 2.63,
+          "sharers": 0,
+          "score": 3.644,
           "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
+            "editor's pick at NN/g"
           ]
         },
         {
-          "id": "1c0cebc34178",
-          "title": "I am not a developer or an accessibility specialist. Hire me?",
-          "url": "https://heydonworks.com/article/i-am-not-an-accessibility-specialist-hire-me/",
-          "hn": "https://bsky.app/profile/heydonworks.com/post/3mzkupazv3k2a",
+          "id": "fd494cf14bb0",
+          "title": "A New Community For In-House UX People",
+          "url": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+          "hn": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793881849,
+          "created_at_i": 1793952000,
           "sources": [
-            "Bluesky"
+            "Smashing Magazine"
           ],
-          "sharers": 1,
-          "score": 1.897,
+          "sharers": 0,
+          "score": 3.391,
           "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "heydonworks.com"
+            "editor's pick at Smashing Magazine"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "a0c225aed9f5",
-          "title": "Lemmings CSS Animation",
-          "url": "https://markblah.github.io/lemmings/",
-          "hn": "https://news.ycombinator.com/item?id=50375354",
-          "points": 380,
-          "comments": 77,
-          "created_at_i": 1793854450,
+          "id": "a4281c90cf69",
+          "title": "Flawless UI-UX Skill 1.0.0",
+          "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0",
+          "hn": "https://news.ycombinator.com/item?id=50395747",
+          "points": 23,
+          "comments": 30,
+          "created_at_i": 1793987554,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 4.544,
+          "score": 5.326,
           "why": [
-            "380 points"
+            "heavily argued (30 comments)"
           ]
         },
         {
-          "id": "259b3aa5799a",
-          "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
-          "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
+          "id": "0ce29e469fa3",
+          "title": "AI and the Future of the Product Role",
+          "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+          "hn": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793875750,
+          "created_at_i": 1793926942,
+          "sources": [
+            "SVPG"
+          ],
+          "sharers": 0,
+          "score": 3.972,
+          "why": [
+            "editor's pick at SVPG"
+          ]
+        },
+        {
+          "id": "84bf03764f8c",
+          "title": "Usability 101: Introduction to Usability",
+          "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793988000,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "fd494cf14bb0",
+          "title": "A New Community For In-House UX People",
+          "url": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+          "hn": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793952000,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 3.391,
+          "why": [
+            "editor's pick at Smashing Magazine"
+          ]
+        },
+        {
+          "id": "469cecf3d19e",
+          "title": "UX Conference January Announced (Jan 19 - Feb 1)",
+          "url": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793939661,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.319,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "0edab277d1b7",
+          "title": "Agent Harness: Definition",
+          "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793988000,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 2.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "8351568f8867",
+          "title": "Primer (GitHub) — @primer/react@38.45.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.45.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.45.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793976660,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.557,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "9371392b7937",
+          "title": "A sans serif built on oversized round shapes",
+          "url": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
+          "hn": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938855,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.315,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "5e0daffd7881",
+          "title": "Attention is all you need",
+          "url": "https://longnow.org/ideas/attention-ai-pace-layers/",
+          "hn": "https://longnow.org/ideas/attention-ai-pace-layers/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938764,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.314,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "c4b4e3b963f0",
+          "title": "A-Frame",
+          "url": "https://aframe.io/",
+          "hn": "https://aframe.io/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938735,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.314,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d9e15090a2b1",
+          "title": "After the AI bubble: a manifesto",
+          "url": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794004978,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 3.789,
+          "score": 1.991,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "bbf9751fd85b",
-          "title": "Taming Typography: Building a Modern CSS Reset",
-          "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
-          "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
+          "id": "12fa902d826a",
+          "title": "Accessibility statements now have a home on GitHub",
+          "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+          "hn": "https://bsky.app/profile/janmaarten.com/post/3mzm6tnxox225",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793891077,
+          "created_at_i": 1793927094,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 2.63,
+          "score": 1.653,
           "why": [
             "spotted on Bluesky"
           ],
@@ -139,23 +286,37 @@
           ]
         },
         {
-          "id": "1c0cebc34178",
-          "title": "I am not a developer or an accessibility specialist. Hire me?",
-          "url": "https://heydonworks.com/article/i-am-not-an-accessibility-specialist-hire-me/",
-          "hn": "https://bsky.app/profile/heydonworks.com/post/3mzkupazv3k2a",
+          "id": "3d35935d746f",
+          "title": "Berrypicking still beats the single answer for search, even in the world of AI",
+          "url": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793881849,
+          "created_at_i": 1793938404,
           "sources": [
-            "Bluesky"
+            "UX Collective"
           ],
-          "sharers": 1,
-          "score": 1.897,
+          "sharers": 0,
+          "score": 1.512,
           "why": [
-            "spotted on Bluesky"
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "b3ec2587d362",
+          "title": "Native is a floor, not a ceiling",
+          "url": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938349,
+          "sources": [
+            "UX Collective"
           ],
-          "authors": [
-            "heydonworks.com"
+          "sharers": 0,
+          "score": 1.512,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         }
       ]
@@ -212,6 +373,23 @@
           ]
         },
         {
+          "id": "a4281c90cf69",
+          "title": "Flawless UI-UX Skill 1.0.0",
+          "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0",
+          "hn": "https://news.ycombinator.com/item?id=50395747",
+          "points": 23,
+          "comments": 30,
+          "created_at_i": 1793987554,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 5.326,
+          "why": [
+            "heavily argued (30 comments)"
+          ]
+        },
+        {
           "id": "06a612f5cbe4",
           "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
           "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
@@ -241,23 +419,6 @@
           ],
           "sharers": 0,
           "score": 4.606,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "46c1230e04f9",
-          "title": "Carbon (IBM) — v11.120.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793803011,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.551,
           "why": [
             "editor's pick at Design systems"
           ]
@@ -315,6 +476,40 @@
           "score": 4.107,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "0ce29e469fa3",
+          "title": "AI and the Future of the Product Role",
+          "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+          "hn": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793926942,
+          "sources": [
+            "SVPG"
+          ],
+          "sharers": 0,
+          "score": 3.972,
+          "why": [
+            "editor's pick at SVPG"
+          ]
+        },
+        {
+          "id": "84bf03764f8c",
+          "title": "Usability 101: Introduction to Usability",
+          "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793988000,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
           ]
         },
         {
@@ -350,43 +545,6 @@
           "why": [
             "editor's pick at Lenny's Newsletter"
           ]
-        },
-        {
-          "id": "bb631db1d502",
-          "title": "Jelly UI",
-          "url": "https://jelly-ui.com/",
-          "hn": "https://jelly-ui.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793682240,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.329,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "bbf9751fd85b",
-          "title": "Taming Typography: Building a Modern CSS Reset",
-          "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
-          "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793891077,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.63,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
-          ]
         }
       ],
       "candidates": [
@@ -409,6 +567,23 @@
           ],
           "authors": [
             "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "a4281c90cf69",
+          "title": "Flawless UI-UX Skill 1.0.0",
+          "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0",
+          "hn": "https://news.ycombinator.com/item?id=50395747",
+          "points": 23,
+          "comments": 30,
+          "created_at_i": 1793987554,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 5.326,
+          "why": [
+            "heavily argued (30 comments)"
           ]
         },
         {
@@ -515,6 +690,23 @@
           "score": 4.107,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "0ce29e469fa3",
+          "title": "AI and the Future of the Product Role",
+          "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+          "hn": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793926942,
+          "sources": [
+            "SVPG"
+          ],
+          "sharers": 0,
+          "score": 3.972,
+          "why": [
+            "editor's pick at SVPG"
           ]
         },
         {
@@ -552,6 +744,23 @@
           ]
         },
         {
+          "id": "84bf03764f8c",
+          "title": "Usability 101: Introduction to Usability",
+          "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793988000,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
           "id": "8494259ac3bc",
           "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
           "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
@@ -586,6 +795,23 @@
           ]
         },
         {
+          "id": "fd494cf14bb0",
+          "title": "A New Community For In-House UX People",
+          "url": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+          "hn": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793952000,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 3.391,
+          "why": [
+            "editor's pick at Smashing Magazine"
+          ]
+        },
+        {
           "id": "bb631db1d502",
           "title": "Jelly UI",
           "url": "https://jelly-ui.com/",
@@ -600,6 +826,23 @@
           "score": 3.329,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "469cecf3d19e",
+          "title": "UX Conference January Announced (Jan 19 - Feb 1)",
+          "url": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793939661,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.319,
+          "why": [
+            "editor's pick at NN/g"
           ]
         },
         {
@@ -637,6 +880,23 @@
           ]
         },
         {
+          "id": "0edab277d1b7",
+          "title": "Agent Harness: Definition",
+          "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793988000,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 2.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
           "id": "bbf9751fd85b",
           "title": "Taming Typography: Building a Modern CSS Reset",
           "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
@@ -654,6 +914,91 @@
           ],
           "authors": [
             "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "8351568f8867",
+          "title": "Primer (GitHub) — @primer/react@38.45.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.45.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.45.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793976660,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.557,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "9371392b7937",
+          "title": "A sans serif built on oversized round shapes",
+          "url": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
+          "hn": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938855,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.315,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "5e0daffd7881",
+          "title": "Attention is all you need",
+          "url": "https://longnow.org/ideas/attention-ai-pace-layers/",
+          "hn": "https://longnow.org/ideas/attention-ai-pace-layers/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938764,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.314,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "c4b4e3b963f0",
+          "title": "A-Frame",
+          "url": "https://aframe.io/",
+          "hn": "https://aframe.io/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938735,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.314,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d9e15090a2b1",
+          "title": "After the AI bubble: a manifesto",
+          "url": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794004978,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.991,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -757,6 +1102,26 @@
           ]
         },
         {
+          "id": "12fa902d826a",
+          "title": "Accessibility statements now have a home on GitHub",
+          "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+          "hn": "https://bsky.app/profile/janmaarten.com/post/3mzm6tnxox225",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793927094,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.653,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
           "id": "5aeb582c9d16",
           "title": "CSS Zen Garden: All Designs",
           "url": "https://csszengarden.com/pages/alldesigns/",
@@ -815,6 +1180,40 @@
           "authors": [
             "piccalil.li"
           ]
+        },
+        {
+          "id": "3d35935d746f",
+          "title": "Berrypicking still beats the single answer for search, even in the world of AI",
+          "url": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938404,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.512,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "b3ec2587d362",
+          "title": "Native is a floor, not a ceiling",
+          "url": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938349,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.512,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
         }
       ]
     },
@@ -866,6 +1265,23 @@
           ]
         },
         {
+          "id": "a4281c90cf69",
+          "title": "Flawless UI-UX Skill 1.0.0",
+          "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0",
+          "hn": "https://news.ycombinator.com/item?id=50395747",
+          "points": 23,
+          "comments": 30,
+          "created_at_i": 1793987554,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 5.326,
+          "why": [
+            "heavily argued (30 comments)"
+          ]
+        },
+        {
           "id": "06a612f5cbe4",
           "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
           "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
@@ -895,23 +1311,6 @@
           ],
           "sharers": 0,
           "score": 4.606,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "46c1230e04f9",
-          "title": "Carbon (IBM) — v11.120.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793803011,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 4.551,
           "why": [
             "editor's pick at Design systems"
           ]
@@ -969,6 +1368,40 @@
           "score": 4.107,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "0ce29e469fa3",
+          "title": "AI and the Future of the Product Role",
+          "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+          "hn": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793926942,
+          "sources": [
+            "SVPG"
+          ],
+          "sharers": 0,
+          "score": 3.972,
+          "why": [
+            "editor's pick at SVPG"
+          ]
+        },
+        {
+          "id": "84bf03764f8c",
+          "title": "Usability 101: Introduction to Usability",
+          "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793988000,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
           ]
         },
         {
@@ -1004,43 +1437,6 @@
           "why": [
             "editor's pick at Lenny's Newsletter"
           ]
-        },
-        {
-          "id": "bb631db1d502",
-          "title": "Jelly UI",
-          "url": "https://jelly-ui.com/",
-          "hn": "https://jelly-ui.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793682240,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.329,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "bbf9751fd85b",
-          "title": "Taming Typography: Building a Modern CSS Reset",
-          "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
-          "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793891077,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.63,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
-          ]
         }
       ],
       "candidates": [
@@ -1063,6 +1459,23 @@
           ],
           "authors": [
             "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "a4281c90cf69",
+          "title": "Flawless UI-UX Skill 1.0.0",
+          "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0",
+          "hn": "https://news.ycombinator.com/item?id=50395747",
+          "points": 23,
+          "comments": 30,
+          "created_at_i": 1793987554,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 5.326,
+          "why": [
+            "heavily argued (30 comments)"
           ]
         },
         {
@@ -1169,6 +1582,23 @@
           "score": 4.107,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "0ce29e469fa3",
+          "title": "AI and the Future of the Product Role",
+          "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+          "hn": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793926942,
+          "sources": [
+            "SVPG"
+          ],
+          "sharers": 0,
+          "score": 3.972,
+          "why": [
+            "editor's pick at SVPG"
           ]
         },
         {
@@ -1223,6 +1653,23 @@
           ]
         },
         {
+          "id": "84bf03764f8c",
+          "title": "Usability 101: Introduction to Usability",
+          "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793988000,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
           "id": "8494259ac3bc",
           "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
           "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
@@ -1257,6 +1704,23 @@
           ]
         },
         {
+          "id": "fd494cf14bb0",
+          "title": "A New Community For In-House UX People",
+          "url": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+          "hn": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793952000,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 3.391,
+          "why": [
+            "editor's pick at Smashing Magazine"
+          ]
+        },
+        {
           "id": "bb631db1d502",
           "title": "Jelly UI",
           "url": "https://jelly-ui.com/",
@@ -1271,6 +1735,23 @@
           "score": 3.329,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "469cecf3d19e",
+          "title": "UX Conference January Announced (Jan 19 - Feb 1)",
+          "url": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793939661,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.319,
+          "why": [
+            "editor's pick at NN/g"
           ]
         },
         {
@@ -1308,6 +1789,23 @@
           ]
         },
         {
+          "id": "0edab277d1b7",
+          "title": "Agent Harness: Definition",
+          "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793988000,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 2.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
           "id": "bbf9751fd85b",
           "title": "Taming Typography: Building a Modern CSS Reset",
           "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
@@ -1325,6 +1823,91 @@
           ],
           "authors": [
             "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "8351568f8867",
+          "title": "Primer (GitHub) — @primer/react@38.45.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.45.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.45.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793976660,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.557,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "9371392b7937",
+          "title": "A sans serif built on oversized round shapes",
+          "url": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
+          "hn": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938855,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.315,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "5e0daffd7881",
+          "title": "Attention is all you need",
+          "url": "https://longnow.org/ideas/attention-ai-pace-layers/",
+          "hn": "https://longnow.org/ideas/attention-ai-pace-layers/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938764,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.314,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "c4b4e3b963f0",
+          "title": "A-Frame",
+          "url": "https://aframe.io/",
+          "hn": "https://aframe.io/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938735,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.314,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d9e15090a2b1",
+          "title": "After the AI bubble: a manifesto",
+          "url": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794004978,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.991,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -1428,6 +2011,26 @@
           ]
         },
         {
+          "id": "12fa902d826a",
+          "title": "Accessibility statements now have a home on GitHub",
+          "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+          "hn": "https://bsky.app/profile/janmaarten.com/post/3mzm6tnxox225",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793927094,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.653,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
           "id": "5aeb582c9d16",
           "title": "CSS Zen Garden: All Designs",
           "url": "https://csszengarden.com/pages/alldesigns/",
@@ -1486,6 +2089,40 @@
           "authors": [
             "piccalil.li"
           ]
+        },
+        {
+          "id": "3d35935d746f",
+          "title": "Berrypicking still beats the single answer for search, even in the world of AI",
+          "url": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938404,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.512,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "b3ec2587d362",
+          "title": "Native is a floor, not a ceiling",
+          "url": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793938349,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.512,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
         }
       ]
     }
@@ -1534,6 +2171,23 @@
       ]
     },
     {
+      "id": "a4281c90cf69",
+      "title": "Flawless UI-UX Skill 1.0.0",
+      "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0",
+      "hn": "https://news.ycombinator.com/item?id=50395747",
+      "points": 23,
+      "comments": 30,
+      "created_at_i": 1793987554,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 5.326,
+      "why": [
+        "heavily argued (30 comments)"
+      ]
+    },
+    {
       "id": "06a612f5cbe4",
       "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
       "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
@@ -1563,23 +2217,6 @@
       ],
       "sharers": 0,
       "score": 4.606,
-      "why": [
-        "editor's pick at Design systems"
-      ]
-    },
-    {
-      "id": "46c1230e04f9",
-      "title": "Carbon (IBM) — v11.120.0",
-      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
-      "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1793803011,
-      "sources": [
-        "Design systems"
-      ],
-      "sharers": 0,
-      "score": 4.551,
       "why": [
         "editor's pick at Design systems"
       ]
@@ -1640,6 +2277,40 @@
       ]
     },
     {
+      "id": "0ce29e469fa3",
+      "title": "AI and the Future of the Product Role",
+      "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+      "hn": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793926942,
+      "sources": [
+        "SVPG"
+      ],
+      "sharers": 0,
+      "score": 3.972,
+      "why": [
+        "editor's pick at SVPG"
+      ]
+    },
+    {
+      "id": "84bf03764f8c",
+      "title": "Usability 101: Introduction to Usability",
+      "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793988000,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.644,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
       "id": "8494259ac3bc",
       "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
@@ -1671,43 +2342,6 @@
       "score": 3.511,
       "why": [
         "editor's pick at Lenny's Newsletter"
-      ]
-    },
-    {
-      "id": "bb631db1d502",
-      "title": "Jelly UI",
-      "url": "https://jelly-ui.com/",
-      "hn": "https://jelly-ui.com/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1793682240,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.329,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "bbf9751fd85b",
-      "title": "Taming Typography: Building a Modern CSS Reset",
-      "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
-      "hn": "https://bsky.app/profile/sturobson.com/post/3mzl5carpks26",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1793891077,
-      "sources": [
-        "Bluesky"
-      ],
-      "sharers": 1,
-      "score": 2.63,
-      "why": [
-        "spotted on Bluesky"
-      ],
-      "authors": [
-        "ericwbailey.website"
       ]
     }
   ],

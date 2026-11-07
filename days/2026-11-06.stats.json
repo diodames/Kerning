@@ -1,0 +1,459 @@
+{
+  "date": "2026-11-06",
+  "pool": 103,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 59,
+    "lexicon": 24,
+    "no_title": 4,
+    "already_closed": 1,
+    "patch": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://interviewing.io/blog/how-to-discuss-latency-in-system-design-interviews",
+      "title": "How to discuss latency in system design interviews",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/smokeeaasd/flawless-ui-ux",
+      "title": "Show HN: Flawless UI/UX – A design skill and inspection CLI for coding agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/five-ways-nvidia-co-design-maximizes-the-value-of-every-byte-in-the-ai-factory/",
+      "title": "Five Ways Nvidia Co-Design Maximizes the Value of Every Byte in the AI Factory",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/paoloviviani/Cerea",
+      "title": "Show HN: Cerea – yet another self-hosted LLM chat front end",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://aless.tabnas.dev/",
+      "title": "Show HN: A terminal viewer for plain text data files (JSON,YAML,CSV,XML,)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://justski.it/",
+      "title": "Show HN: Ski Voice-First Multilingual Neutral Coding Harness",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://rickcarlino.com/notes/korean-language/topik-bench-measuring-korean-ability-of-decision-models.html",
+      "title": "Benchmarking Decision Models on the Test of Proficiency in Korean (Topik)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/noahc66260/advanced-distributed-system-design/blob/main/alb_standalone.pdf",
+      "title": "Deriving a hyperscale cloud architecture: ALB [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://onlinegoddess.net/2026/11/the-cost-of-blogging/",
+      "title": "The Cost of Blogging",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://apnews.com/article/paraguay-ueno-digital-bank-seizure-santiago-pena-9d7521ddee45a185d2618c7e09a243a3",
+      "title": "Paraguay seizes major digital bank tied to president, leaving customers in limbo",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.biospace.com/drug-development/novartis-confirms-9-reported-cases-of-tumors-in-patients-treated-with-zolgensma",
+      "title": "Novartis confirms 9 reported cases of tumors in patients treated with Zolgensma",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://cacm.acm.org/blogcacm/the-real-cost-of-ai-code-shows-up-30-days-later/",
+      "title": "The Cost of AI Code Shows Up 30 Days Later",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50381984",
+      "title": "Show HN: I made a tool that turns your Google Search Console data IN public page",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mathewingramblog.wordpress.com/2026/11/05/we-should-train-ai-as-though-it-is-conscious-just-in-case/",
+      "title": "We should train AI as though it is conscious just in case",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41562-026-02575-5",
+      "title": "How Contemporary academic structures constrain scientific creativity",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jepsen.io/consistency/models",
+      "title": "Consistency Models",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arkivism.com/",
+      "title": "Search engine for Centuries of art, photography, illustration from great museums",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50384018",
+      "title": "Feedback requested on possible scam employer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://HackerRepos.fyi/",
+      "title": "Show HN: HackerRepos – HackerTube for repos mentioned on HN",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/hedgerow-dev/coldframe",
+      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://finalapproach.fm/",
+      "title": "Show HN: Lo-fi layered over air traffic control (recorded myself)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://adactio.com/notes/22829",
+      "title": "Thursday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.inyourface.app/",
+      "title": "In Your Face is one of my favorite apps for making sure my ADHD brain shows up to meetings and events on time.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://designwellbeingindex.com/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://webdesignerdepot.com/ai-was-coming-for-your-design-job-turns-out-it-might-just-be-the-intern/",
+      "title": "AI Was Coming for Your Design Job. Turns Out, It Might Just Be the Intern",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://static.klipy.com/ii/4493325008d34b7bf8cd6813cd5c1619/29/69/wyaidRTmdoCN75ox2.gif?hh=180&ww=320&mp4=Vj4LYdzrmHVC4&webm=ASoKHeZSGElkWA6",
+      "title": "Fozzie Bear Wow",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://zeldman.com/2016/11/05/solve-right-problem-derek-featherstone-designing-extremes/",
+      "title": "Jeffrey Zeldman Presents - Solve the Right Problem: Derek Featherstone on designing for extremes - An Event Apart",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
+      "title": "Taming Typography: Building a Modern CSS Reset",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/sf-ruby-conference-regular-ticket-deadline",
+      "title": "SF Ruby Conference: late bird tickets end Nov 8—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.independent.co.uk/news/uk/home-news/multi-cancer-blood-test-new-nhs-trial-b3079091.html",
+      "title": "NHS patients to get blood tests designed to detect several cancers at once",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://engineering.flexcompute.com/articles/inverse-design-grating-couplers/",
+      "title": "Automated \"Inverse\" Design of Grating Couplers for Co-Packaged Optics",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.science.org/content/article/castration-extends-life-span-surprising-way-mouse-study-suggests",
+      "title": "Castration extends life span in mice",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.shareable.net/shareable-does-not-consent-to-metas-theft-of-content/",
+      "title": "Shareable does not consent to Meta's theft of content",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://app.stitch.ai/auth/signup",
+      "title": "Show HN: Stitch.ai – New all-in-one workspace with Stitchy the AI assistant",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://codepen.io/editor/alowpoly/pen/01a1ac58-02c2-7bdf-a57f-614ef9dea226",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://nerdy.dev/bye-deno-hello-cloudflare",
+      "title": "Bye Deno, Hello Cloudflare · November 5, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.etsy.com/listing/4591414936/blood-moon-creature-blanket-gargoyle",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.eenewseurope.com/en/eu-launches-e525-million-chip-design-platform-to-boost-startups/",
+      "title": "EU launches €525M chip design platform to boost startups",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://token-gallery.netlify.app/",
+      "title": "The best-designed websites in AI. Hand-picked",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666386426000032",
+      "title": "Computational approaches for RNA structure prediction and design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/lecodev-26/nexus-q",
+      "title": "Designing Rust APIs around KEM, AEAD and key derivation workflows",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://grafista.io/blog/posts/why-we-are-building-an-ai-design-tool-that-skips-the-prompt",
+      "title": "We are building an AI design tool that skips the prompt",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/zalando-incubator/agentic-identity-broker",
+      "title": "Show HN: Agentic Identity Broker, OAuth Delegation for AI Agents",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/hito-dev/wand-browser",
+      "title": "Show HN: An open source webbluetooth and NFC browser for iOS",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50391446",
+      "title": "Ask HN: How's your home-cooked software revolution going?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://penguinbase.com/game-install?game=192471728&ref=hn",
+      "title": "Show HN: Grid – A Hold'em arena where your AI agent plays your strategy (Beta)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.techdirt.com/2026/11/06/musks-starlink-embraces-dynamic-pricing-further-jacking-up-costs/",
+      "title": "Musk's Starlink Embraces 'Dynamic Pricing,' Further Jacking Up Costs",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/",
+      "title": "Build World Models for Interactive Simulation with Nvidia Cosmos",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "title": "New Nvidia Cosmos 3 Open Models for Interactive World Simulation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://zenodo.org/records/23958737",
+      "title": "For host Same model, 169x smaller prompt: cost per correct step fell 4.5x",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50391647",
+      "title": "Ask HN: Is anyone running multi/always-on agents that don't cost a fortune?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
+      "title": "Blue Origin says it is building a higher-performing engine at 1/4 the cost",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uk.finance.yahoo.com/news/santander-ordered-repay-man-gambled-120751937.html",
+      "title": "Santander ordered to repay man who gambled away £25k house sale cash",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bbc.com/culture/article/20261104-how-sylvester-stallone-created-underdog-icon-rocky",
+      "title": "Rejection led Sylvester Stallone to create film's ultimate underdog Rocky",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://read.misalignedmag.com/could-avoiding-ai-become-a-constitutional-right-9b037a874465",
+      "title": "Could Avoiding AI Become a Constitutional Right?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://southpole.blog/meta-glasses-and-the-art-of-avoidance-tech-s-awkward-reality/",
+      "title": "Perfect Recall, No Consent Required",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://app.splitsetter.com/",
+      "title": "Show HN: Splitsetter – my attempt at a bill splitting app",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://botel.dev",
+      "title": "Show HN: Botel – always reachable agents you pay for only while they're working",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "title": "AI for scientific discovery: How researchers use Claude",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/tailwindlabs/tailwindcss/releases/tag/v4.3.5",
+      "title": "Tailwind CSS — v4.3.5",
+      "reason": "patch"
+    },
+    {
+      "url": "https://destroy.spritefusion.com/?url=claude.com&utm_source=the-index&utm_medium=newsletter",
+      "title": "Destroy Any Website",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/the-index/205/",
+      "title": "The Index: Issue #205",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://zeldman.com/2017/11/06/advice-for-designers/",
+      "title": "Jeffrey Zeldman Presents - Advice for designers -",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://networksofny2026.bigcartel.com/product/networks-of-new-york-2026-edition-second-print",
+      "title": "Networks of New York, 2026 Edition (2nd Printing)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://observablehq.com/@tmcw/convex-hull",
+      "title": "Convex hull",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://engineering.flexcompute.com/articles/decision-models-drc-repair/",
+      "title": "Using decision models to speed up design rule violation repair in chip design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://opensource.googleblog.com/2026/10/introducing-elephant-goldfish-model-plugin.html",
+      "title": "The Elephant-Goldfish Model: scaling design-driven AI development",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hacker.living",
+      "title": "Show HN: Hacker Living – HN's most recommended places",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
+      "title": "Apple's grey list: iPhone won't autocorrect 'male chauvinist pig'",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50390442",
+      "title": "Ask HN: Has anyone used LLMs to audit TrueCrypt for backdoors?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://opuslabs.substack.com/p/building-the-judgment-layer-for-hardware",
+      "title": "Figma for hardware: AI can generate CAD, but what should we build?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+      "title": "Chainalysis says hackers stole credentials and tokens for all of its customers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://airbnb.tech/ai-ml/frontier-quality-at-1-of-the-cost-a-production-benchmark-of-llm-classifiers/",
+      "title": "Frontier quality at 1% of the cost: a production benchmark of LLM classifiers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.techpowerup.com/354547/tsmc-is-reportedly-considering-3d-dram-production",
+      "title": "TSMC Is Reportedly Considering 3D DRAM Production",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reuters.com/world/europe/activists-breach-microsoft-data-centre-construction-site-protests-spread-europe-2026-11-06/",
+      "title": "Activists breach MS data centre construction site as protests spread in Europe",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://research.oguzbilgic.com/theses/maximum-viable-product",
+      "title": "The MVP Was a Hack Around a Constraint That No Longer Exists",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50394231",
+      "title": "I tried to connect every GPU on the planet together (kinda)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://nodejs.org/en/blog/announcements/notable-v8-changes-from-node-js-26-to-27-alpha",
+      "title": "Node.js — Notable V8 changes from Node.js 26 to 27 (Alpha)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://macwright.com/2020/02/14/math-keeps-changing",
+      "title": "nodejs changed math again! as i wrote in 2020: macwright.com/2020/02/14/m...",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.wisdom.ai/blog/context-harness-co-design",
+      "title": "Importance of Harness, Context and Model co-design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://solderable.dev/blog/storm-tracker-lightning-detector",
+      "title": "Open-source lightning detector PCB that runs for months (2-day design)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50399637",
+      "title": "Show HN: I asked HN about AI agentic setups, here are 750 of the comments mapped",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ajx.dev/",
+      "title": "Show HN: AJX – Find out where AI agents get stuck using your product",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
+      "title": "DigiCert admits 16-month security lapse exposed customer information",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reuters.com/world/asia-pacific/tsmc-considers-making-advanced-memory-chips-information-reports-2026-11-06/",
+      "title": "TSMC considers making advanced memory chips",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theverge.com/news/1029248/tsmc-is-apparently-considering-getting-into-the-ram-business-at-the-request-of-nvidia",
+      "title": "TSMC is considering getting into the RAM business at the request of Nvidia",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://observablehq.com/@tmcw/multi-circle-tangents",
+      "title": "",
+      "reason": "no_title"
+    }
+  ]
+}

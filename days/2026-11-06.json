@@ -1,0 +1,317 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-07T02:45:59.356802+00:00",
+  "items": [
+    {
+      "id": "a4281c90cf69",
+      "title": "Flawless UI-UX Skill 1.0.0",
+      "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0",
+      "hn": "https://news.ycombinator.com/item?id=50395747",
+      "points": 23,
+      "comments": 30,
+      "created_at_i": 1793987554,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 5.326,
+      "why": [
+        "heavily argued (30 comments)"
+      ]
+    },
+    {
+      "id": "0ce29e469fa3",
+      "title": "AI and the Future of the Product Role",
+      "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+      "hn": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793926942,
+      "sources": [
+        "SVPG"
+      ],
+      "sharers": 0,
+      "score": 3.972,
+      "why": [
+        "editor's pick at SVPG"
+      ]
+    },
+    {
+      "id": "84bf03764f8c",
+      "title": "Usability 101: Introduction to Usability",
+      "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793988000,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.644,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
+      "id": "fd494cf14bb0",
+      "title": "A New Community For In-House UX People",
+      "url": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+      "hn": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793952000,
+      "sources": [
+        "Smashing Magazine"
+      ],
+      "sharers": 0,
+      "score": 3.391,
+      "why": [
+        "editor's pick at Smashing Magazine"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "a4281c90cf69",
+      "title": "Flawless UI-UX Skill 1.0.0",
+      "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0",
+      "hn": "https://news.ycombinator.com/item?id=50395747",
+      "points": 23,
+      "comments": 30,
+      "created_at_i": 1793987554,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 5.326,
+      "why": [
+        "heavily argued (30 comments)"
+      ]
+    },
+    {
+      "id": "0ce29e469fa3",
+      "title": "AI and the Future of the Product Role",
+      "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+      "hn": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793926942,
+      "sources": [
+        "SVPG"
+      ],
+      "sharers": 0,
+      "score": 3.972,
+      "why": [
+        "editor's pick at SVPG"
+      ]
+    },
+    {
+      "id": "84bf03764f8c",
+      "title": "Usability 101: Introduction to Usability",
+      "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793988000,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.644,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
+      "id": "fd494cf14bb0",
+      "title": "A New Community For In-House UX People",
+      "url": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+      "hn": "https://smashingmagazine.com/2026/11/ux-insiders-community-in-house-ux-people/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793952000,
+      "sources": [
+        "Smashing Magazine"
+      ],
+      "sharers": 0,
+      "score": 3.391,
+      "why": [
+        "editor's pick at Smashing Magazine"
+      ]
+    },
+    {
+      "id": "469cecf3d19e",
+      "title": "UX Conference January Announced (Jan 19 - Feb 1)",
+      "url": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/training/january/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793939661,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.319,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
+      "id": "0edab277d1b7",
+      "title": "Agent Harness: Definition",
+      "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793988000,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 2.644,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
+      "id": "8351568f8867",
+      "title": "Primer (GitHub) — @primer/react@38.45.0",
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.45.0",
+      "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.45.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793976660,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 2.557,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "9371392b7937",
+      "title": "A sans serif built on oversized round shapes",
+      "url": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
+      "hn": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793938855,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.315,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "5e0daffd7881",
+      "title": "Attention is all you need",
+      "url": "https://longnow.org/ideas/attention-ai-pace-layers/",
+      "hn": "https://longnow.org/ideas/attention-ai-pace-layers/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793938764,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.314,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "c4b4e3b963f0",
+      "title": "A-Frame",
+      "url": "https://aframe.io/",
+      "hn": "https://aframe.io/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793938735,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.314,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "d9e15090a2b1",
+      "title": "After the AI bubble: a manifesto",
+      "url": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794004978,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.991,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "12fa902d826a",
+      "title": "Accessibility statements now have a home on GitHub",
+      "url": "https://github.blog/open-source/maintainers/accessibility-statements-now-have-a-home-on-github/",
+      "hn": "https://bsky.app/profile/janmaarten.com/post/3mzm6tnxox225",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793927094,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.653,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "ericwbailey.website"
+      ]
+    },
+    {
+      "id": "3d35935d746f",
+      "title": "Berrypicking still beats the single answer for search, even in the world of AI",
+      "url": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/berrypicking-still-beats-the-single-answer-for-search-even-in-the-world-of-ai-6d7174099500?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793938404,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.512,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "b3ec2587d362",
+      "title": "Native is a floor, not a ceiling",
+      "url": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/native-is-a-floor-not-a-ceiling-09bc4f27ddce?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1793938349,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.512,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    }
+  ]
+}
