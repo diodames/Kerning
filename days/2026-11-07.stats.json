@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-07",
+  "pool": 50,
+  "kept": 4,
+  "dropped": {
+    "lexicon": 15,
+    "below_threshold": 27,
+    "already_closed": 1,
+    "no_title": 2
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-05/sony-debuts-retro-60-wired-headphones-in-tribute-to-1979-walkman",
+      "title": "Sony Debuts Wired Headphones with '80s-Inspired Design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.wisdom.ai/blog/context-harness-co-design",
+      "title": "Importance of Harness, Context and Model co-design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://solderable.dev/blog/storm-tracker-lightning-detector",
+      "title": "Open-source lightning detector PCB that runs for months (2-day design)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50399637",
+      "title": "Show HN: I asked HN about AI agentic setups, here are 750 of the comments mapped",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ajx.dev/",
+      "title": "Show HN: AJX – Find out where AI agents get stuck using your product",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.pv-magazine.com/2026/11/06/sodium-ion-batteries-approach-cost-parity-with-lfp-with-70-gwh-covered-by-supply-agreements/",
+      "title": "Sodium-ion batteries approach cost parity with LFP",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
+      "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
+      "title": "DigiCert admits 16-month security lapse exposed customer information",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://akselmo.dev/posts/desktop-icon-survey-results/",
+      "title": "Desktop icon behavior survey results",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reuters.com/world/asia-pacific/tsmc-considers-making-advanced-memory-chips-information-reports-2026-11-06/",
+      "title": "TSMC considers making advanced memory chips",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theverge.com/news/1029248/tsmc-is-apparently-considering-getting-into-the-ram-business-at-the-request-of-nvidia",
+      "title": "TSMC is considering getting into the RAM business at the request of Nvidia",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/ecb-considers-review-of-banks-data-center-lending-as-fears-rise",
+      "title": "ECB considers review of bank data center lending on AI risk",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "title": "Usability 101: Introduction to Usability",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://observablehq.com/@tmcw/multi-circle-tangents",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.24328",
+      "title": "SigmaTrace: Library-Agnostic Observability for CPU/GPU-Initiated RDMA Comms",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arxiv.org/abs/2610.37407",
+      "title": "Constraining the Commit Boundary: DIO/ODI Authorization Guardrail for Agentic ER",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vincent.bernat.ch/en/blog/2026-bunny-geodns",
+      "title": "Scriptable GeoDNS: leaving AWS for Bunny",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nick.gs/blog/2026-11/exploring-janet-and-the-httpf-web-framework/",
+      "title": "Exploring Janet and the httpf web framework",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.seangoedecke.com/working-with-designers/",
+      "title": "Working with Designers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=aoJ-7ozu8h0",
+      "title": "The Developer's Design Advantage: Why UX and UI Matter with Kathryn Grayson Nanz [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50405250",
+      "title": "Ask HN: How did you convince family and friends to join your XMPP/Matrix server?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://mutto.fyi/posts/2026/10/ai-slop-ux/",
+      "title": "Don't Delegate Taste",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sigmajp.works/blog/snow-country-first-time/",
+      "title": "What it's like reading Snow Country in Japanese for the first time",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chappisacoff.substack.com/p/the-irish-warning-what-data-centres",
+      "title": "The Irish Warning: What Data Centres Cost the Country That Hosts Them",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wsj.com/business/retail/seth-dallaire-walmart-ef8827b5",
+      "title": "His Job Is to Turn Walmart's Customer Data into Profit",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twombly.app/",
+      "title": "Show HN: Twombly – A collaborative canvas for your agent's design explorations",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/DivyanshGolyan/rui",
+      "title": "Show HN: Rui, orchestrating 100 agents in 2.5 MB of RAM",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vondet.com/en?ref=hn",
+      "title": "Show HN: Vondet – A planning board Claude keeps, so you don't have to",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://rungrid.space",
+      "title": "Show HN: Service for the parallel execution of AI agent tasks on remote devices",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/technology/2026/nov/03/google-search-artificial-intelligence",
+      "title": "Google says there's no way to use Search without using artificial intelligence",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50403687",
+      "title": "Is Programming That Easy?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://solous.net/",
+      "title": "Show HN: Solous, a journaling app like a social media for emotions inside of you",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lobste.rs/s/ipplhe",
+      "title": "How are you dealing with all the negative side effects of AI on the web?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://kottke.org/26/11/the-match-archive",
+      "title": "The Match Archive",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://simplebits.shop/products/slowpoke-decal",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=WXQ3xQi20uM",
+      "title": "Nuclear Design Bureau – A Game Where You Design Nuclear Weapons",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/07/nyregion/nyc-parking-violations.html",
+      "title": "Custom NY plate \"Blank\" results in $40k of fines",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bbc.com/news/articles/ckjrwx1r2d5ro",
+      "title": "Major construction ongoing near Iran missile bases, satellite images suggest",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://aeon.co/essays/the-more-we-rely-on-tech-the-more-we-deskill-our-bodies",
+      "title": "The more we rely on tech, the more we deskill our bodies | Aeon Essays",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://groups.google.com/a/mozilla.org/d/msgid/dev-platform/96a26e02-b519-4b9d-b32d-71c2588bbab4%40app.fastmail.com",
+      "title": "Gecko:  Intent to ship: \"Context Aware Headings\" (:heading selector and headingoffset/reset attributes)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/world/2026/nov/07/israel-intelligence-cisco-gaza-palestine",
+      "title": "Leaked documents show Cisco doubled down on Israeli military deals",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.gamesradar.com/platforms/playstation/ps6-doesnt-need-more-power-ex-playstation-boss-says-because-true-innovation-would-be-making-a-usd300-console-again/",
+      "title": "Ex-PlayStation boss says \"true innovation\" would be making a $300 console again",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://eyesrhythm.com/",
+      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50408438",
+      "title": "Ask HN: How do you keep track of the articles, papers and videos you save?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://domdb.com/tools/browser-extension",
+      "title": "Show HN: Browser extension shows where to buy current domain name",
+      "reason": "below_threshold"
+    }
+  ]
+}
