@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-09T02:38:18.880476+00:00",
+  "items": [
+    {
+      "id": "687062cf80d5",
+      "title": "Raising the ceiling must be earned",
+      "url": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
+      "hn": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794159067,
+      "sources": [
+        "Proof of Concept"
+      ],
+      "sharers": 0,
+      "score": 2.631,
+      "why": [
+        "editor's pick at Proof of Concept"
+      ]
+    },
+    {
+      "id": "ea2c57144025",
+      "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+      "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "hn": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794144692,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.522,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "687062cf80d5",
+      "title": "Raising the ceiling must be earned",
+      "url": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
+      "hn": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794159067,
+      "sources": [
+        "Proof of Concept"
+      ],
+      "sharers": 0,
+      "score": 2.631,
+      "why": [
+        "editor's pick at Proof of Concept"
+      ]
+    },
+    {
+      "id": "ea2c57144025",
+      "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+      "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "hn": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794144692,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.522,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    }
+  ]
+}

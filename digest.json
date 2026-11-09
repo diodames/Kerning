@@ -1,158 +1,81 @@
 {
-  "generated_at": "2026-11-08T02:25:53.821865+00:00",
+  "generated_at": "2026-11-09T02:38:18.884089+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "7 November 2026",
-      "period_start": "2026-11-07",
-      "period_end": "2026-11-07",
+      "label": "8 November 2026",
+      "period_start": "2026-11-08",
+      "period_end": "2026-11-08",
       "items": [
         {
-          "id": "08fddc36e5fe",
-          "title": "IRA Velinsky – Commodore's Industrial Designer",
-          "url": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
-          "hn": "https://news.ycombinator.com/item?id=50408750",
-          "points": 10,
-          "comments": 0,
-          "created_at_i": 1794091539,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.796,
-          "why": []
-        },
-        {
-          "id": "2769f47996b6",
-          "title": "Implementing GPT-2 in CSS",
-          "url": "https://shubhampatil.dev/blog/gpt2-css",
-          "hn": "https://news.ycombinator.com/item?id=50400576",
-          "points": 20,
-          "comments": 3,
-          "created_at_i": 1794013270,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.628,
-          "why": []
-        },
-        {
-          "id": "0edab277d1b7",
-          "title": "Agent Harness: Definition",
-          "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "id": "687062cf80d5",
+          "title": "Raising the ceiling must be earned",
+          "url": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
+          "hn": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793988000,
+          "created_at_i": 1794159067,
           "sources": [
-            "NN/g"
+            "Proof of Concept"
           ],
           "sharers": 0,
-          "score": 2.136,
+          "score": 2.631,
           "why": [
-            "editor's pick at NN/g"
+            "editor's pick at Proof of Concept"
           ]
         },
         {
-          "id": "bbab8edd25b9",
-          "title": "Otherwise you’re just a machine",
-          "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
+          "id": "ea2c57144025",
+          "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+          "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+          "hn": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794082542,
+          "created_at_i": 1794144692,
           "sources": [
-            "UX Collective"
+            "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 1.912,
+          "score": 2.522,
           "why": [
-            "editor's pick at UX Collective"
+            "editor's pick at Lenny's Newsletter"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "08fddc36e5fe",
-          "title": "IRA Velinsky – Commodore's Industrial Designer",
-          "url": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
-          "hn": "https://news.ycombinator.com/item?id=50408750",
-          "points": 10,
-          "comments": 0,
-          "created_at_i": 1794091539,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.796,
-          "why": []
-        },
-        {
-          "id": "2769f47996b6",
-          "title": "Implementing GPT-2 in CSS",
-          "url": "https://shubhampatil.dev/blog/gpt2-css",
-          "hn": "https://news.ycombinator.com/item?id=50400576",
-          "points": 20,
-          "comments": 3,
-          "created_at_i": 1794013270,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.628,
-          "why": []
-        },
-        {
-          "id": "0edab277d1b7",
-          "title": "Agent Harness: Definition",
-          "url": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/agent-harness/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "id": "687062cf80d5",
+          "title": "Raising the ceiling must be earned",
+          "url": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
+          "hn": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793988000,
+          "created_at_i": 1794159067,
           "sources": [
-            "NN/g"
+            "Proof of Concept"
           ],
           "sharers": 0,
-          "score": 2.136,
+          "score": 2.631,
           "why": [
-            "editor's pick at NN/g"
+            "editor's pick at Proof of Concept"
           ]
         },
         {
-          "id": "bbab8edd25b9",
-          "title": "Otherwise you’re just a machine",
-          "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
+          "id": "ea2c57144025",
+          "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+          "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+          "hn": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794082542,
+          "created_at_i": 1794144692,
           "sources": [
-            "UX Collective"
+            "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 1.912,
+          "score": 2.522,
           "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "d9e15090a2b1",
-          "title": "After the AI bubble: a manifesto",
-          "url": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794004978,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.411,
-          "why": [
-            "editor's pick at UX Collective"
+            "editor's pick at Lenny's Newsletter"
           ]
         }
       ]
@@ -748,6 +671,23 @@
           ]
         },
         {
+          "id": "687062cf80d5",
+          "title": "Raising the ceiling must be earned",
+          "url": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
+          "hn": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794159067,
+          "sources": [
+            "Proof of Concept"
+          ],
+          "sharers": 0,
+          "score": 2.631,
+          "why": [
+            "editor's pick at Proof of Concept"
+          ]
+        },
+        {
           "id": "bbf9751fd85b",
           "title": "Taming Typography: Building a Modern CSS Reset",
           "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
@@ -797,6 +737,23 @@
           "score": 2.557,
           "why": [
             "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "ea2c57144025",
+          "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+          "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+          "hn": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794144692,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.522,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
           ]
         },
         {
@@ -1704,6 +1661,23 @@
           ]
         },
         {
+          "id": "687062cf80d5",
+          "title": "Raising the ceiling must be earned",
+          "url": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
+          "hn": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794159067,
+          "sources": [
+            "Proof of Concept"
+          ],
+          "sharers": 0,
+          "score": 2.631,
+          "why": [
+            "editor's pick at Proof of Concept"
+          ]
+        },
+        {
           "id": "bbf9751fd85b",
           "title": "Taming Typography: Building a Modern CSS Reset",
           "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
@@ -1753,6 +1727,23 @@
           "score": 2.557,
           "why": [
             "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "ea2c57144025",
+          "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+          "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+          "hn": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794144692,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.522,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
           ]
         },
         {

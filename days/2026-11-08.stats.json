@@ -1,0 +1,322 @@
+{
+  "date": "2026-11-08",
+  "pool": 64,
+  "kept": 2,
+  "dropped": {
+    "already_closed": 1,
+    "below_threshold": 43,
+    "lexicon": 18
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
+      "title": "IRA Velinsky – Commodore's Industrial Designer",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://palettevault.github.io/blog/understanding-css-colors/",
+      "title": "How to Read Hex Colors and Build Better CSS Palettes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://dawnofthe.dad/calibron",
+      "title": "Show HN: Calibron 12 Puzzle/Solver",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/world/2026/nov/07/israel-intelligence-cisco-gaza-palestine",
+      "title": "Leaked documents show Cisco doubled down on Israeli military deals",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.gamesradar.com/platforms/playstation/ps6-doesnt-need-more-power-ex-playstation-boss-says-because-true-innovation-would-be-making-a-usd300-console-again/",
+      "title": "Ex-PlayStation boss says \"true innovation\" would be making a $300 console again",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://eyesrhythm.com/",
+      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50408438",
+      "title": "Ask HN: How do you keep track of the articles, papers and videos you save?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://domdb.com/tools/browser-extension",
+      "title": "Show HN: Browser extension shows where to buy current domain name",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50411036",
+      "title": "Ask HN: LLM-Resistant Publishing Strategies",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.rxcode.dev/",
+      "title": "Show HN: I built an AI code editor that for teams",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.science.org/content/article/wearable-device-makers-are-harvesting-brain-data-train-ai-without-telling-users?referrer=https%3A%2F%2Fwww.google.com%2F",
+      "title": "Consumer brain wave headsets threaten privacy",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=v4uwaw_5Q3I",
+      "title": "Peter Watts: Conscious Ants and Human Hives (2018) [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://zenodo.org/records/24036143",
+      "title": "Autonomous 2D Sparse Spatial and Raft Consensus Architecture",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.shuffle-on.com/blog/ai-layoff-wave-2023-2026",
+      "title": "Layoffs that smells like conspiracy, hard to digest",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://firenook.dev/",
+      "title": "Show HN: Firenook – Firebase emulators in Rust: 40× faster writes, 10× less RAM",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/rivet-dev/rivet",
+      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://fermi.org",
+      "title": "Show HN: Fermi Poker, a combination of poker betting mechanics with estimation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.reuters.com/business/retail-consumer/apples-predictive-text-restrictions-include-dictator-trump-sleepy-joe-researcher-2026-11-06/",
+      "title": "Apple's predictive text restrictions include 'Dictator Trump' and 'Sleepy Joe'",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/06/microsoft-moves-to-consolidate-its-relationships-with-neoclouds-in-ai.html",
+      "title": "Microsoft plans to use fewer neoclouds as AI buildout shows signs of strain",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.gamesradar.com/games/valve-played-capitalism-so-well-they-broke-it-and-now-steam-can-never-be-replaced-former-epic-dev-says-i-dont-think-this-is-fixable/",
+      "title": "Valve \"played capitalism so well they broke it\" and now Steam can't be replaced",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.x.com/en/engineering/rebuilding-the-global-town-square-from-scratch",
+      "title": "Rebuilding the global town square from scratch",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.lemonde.fr/en/international/article/2026/11/07/stephen-miller-reactionary-ideologue-and-white-supremacist-promoted-head-of-trump-administration_6774220_4.html",
+      "title": "Stephen Miller, reactionary ideologue and white supremacist, promoted head of Trump administration",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.seangoedecke.com/llms-are-terrible-at-designing-ai-systems/",
+      "title": "LLMs are terrible at designing AI systems",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://standardphysics.com/archimedes",
+      "title": "Archimedes: AI agents that design physical things",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/j-asefa/loop",
+      "title": "Show HN: Loop – your coding agents, from your phone",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://fuzzyfoundry.com/emcee",
+      "title": "Show HN: emcee – macOS Stage Manager alternative",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.gitbet.dev/",
+      "title": "Show HN: Gitbet – A free sourcetree style Git client for Linux",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.ft.com/content/423ca208-8e22-4fb3-a76d-b9c722fd8cc0",
+      "title": "Russia races to build rival to Elon Musk's Starlink",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/science/ng-interactive/2026/nov/08/ukraine-space-critical-war-starlink",
+      "title": "Space become critical to balance of the war",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/swiftbuild-ai/swiftbuild",
+      "title": "Show HN: An open-source IDE for software architecture",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://elnahla.com/why-hasnt-figma-shut-down-already/",
+      "title": "Why Hasn't Figma Shut Down Already?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50412307",
+      "title": "Ask HN: What are your advice for a CS/IT student for the future?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://gizmodo.com/grimes-shows-off-her-acting-chops-in-new-ai-movie-or-does-she-2000835869",
+      "title": "Grimes Joins Cast of Fully AI-Generated Movie 'Gods Don't Give Gifts'",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://observer.co.uk/news/national/article/fight-to-block-child-sexual-abuse-images-unites-peers-and-mps-in-cross-party-campaign",
+      "title": "UK House of Lords to propose mandatory CSAM detection software on smartphones",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.msn.com/en-us/money/general/google-energy-head-claims-data-centers-in-space-would-cost-up-to-100x-more-than-on-earth/ar-AA2gYiXa",
+      "title": "Google energy head: space data centers would cost up to 100x more than on Earth",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TnicUxFL64E",
+      "title": "$6M/Year Cosmetics Empire Crumbles After Adobe Website Disaster [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://aeon.co/essays/if-plastic-replaces-cash-much-that-is-good-will-be-lost",
+      "title": "In Praise of Cash (2017)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://phys.org/news/2026-11-archaeologists-uncover-19th-century-castaway.html",
+      "title": "Possible 19th-century castaway camp found on Isla de los Estados",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://velork.com",
+      "title": "Show HN: Velork – Design and Code, Together",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50414450",
+      "title": "Why Agile Often Fails",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "http://togelius.blogspot.com/2026/11/ai-alignment-considered-harmful.html",
+      "title": "AI Alignment Considered Harmful",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://inhouse.jurex.ai/login",
+      "title": "Show HN: Jurex in House – Handles Legal Side of Your Business with AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lobste.rs/s/jbdtim",
+      "title": "Who wants to crowdsource LLM scans of articles submitted to Lobste.rs?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22831",
+      "title": "Lunch on the beach in the November sunshine. 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "http://www.chrbutler.com/design-fiction-mood-board",
+      "title": "Design Fiction Mood Board",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://westerndesigncenter.com/wdc/",
+      "title": "Western Design Center",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://rubriclabs.com/blog/always-on-agents",
+      "title": "Designing an Always-On Agent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arturdryomov.dev/posts/typography-marks/",
+      "title": "Quotes and Dashes for Typography Novices",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.aulico.com/tradespaces/new",
+      "title": "Show HN: Figma for Investing",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bloomberg.com/news/articles/2026-11-08/nvidia-board-to-probe-spying-case-after-ceo-jensen-huang-admits-infidelity",
+      "title": "Nvidia Board to Probe Spying Case After CEO Admits Affair",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://aworkinglibrary.com/writing/toolmen",
+      "title": "(Artificial) Intelligence as a political construct",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.scientificamerican.com/article/advanced-meditation-alters-consciousness-and-our-basic-sense-of-self/",
+      "title": "Advanced Meditation Alters Consciousness and Our Basic Sense of Self",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.mercurynews.com/2026/11/08/opinion-flock-cameras-privacy-america/",
+      "title": "ALPRs show that we need a constitutional amendment for information privacy",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://playground.planfinder.xyz",
+      "title": "Show HN: Apartment floor plan generator using discrete diffusion",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://shutdownwatch.com/",
+      "title": "Show HN: Shutdown Watch – App shutdowns, export deadlines, and alternatives",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50412490",
+      "title": "Hyperliquid whales are adding to their $BTC shorts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://consumerrights.wiki/w/Etsy_AI_training_terms_change_(2026)",
+      "title": "Etsy AI training terms change",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cnn.com/2026/11/03/europe/ukraine-russia-zaporiszhzha-school-strike-intl",
+      "title": "At least 33 dead after Russia drops nine bombs on a Ukrainian school building",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://stardelt.io/",
+      "title": "Show HN: stardelt.io – a self-hosted lakehouse on k8s (pre-alpha)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Rucadi/FELF",
+      "title": "Show HN: FELF – AppImage-like single binaries without FUSE, root, or a runtime",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/lamarcol/NotBot",
+      "title": "Show HN: My first project, an AI-powered financial news analyzer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://youtube.com/shorts/-84YpBWr0MY?is=j4KkjDHWvQ2FvJW9",
+      "title": "The incredible legacy of Aaron Swartz",
+      "reason": "lexicon"
+    }
+  ]
+}
