@@ -1,0 +1,363 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-10T04:36:47.545105+00:00",
+  "items": [
+    {
+      "id": "71cdf6a87afc",
+      "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
+      "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794226807,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 3.692,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "7269aedfdccb",
+      "title": "What does design system AI readiness mean, anyway?",
+      "url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
+      "hn": "https://seanvoisen.com/writing/design-system-ai-readiness/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794200580,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.662,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "80987bf094de",
+      "title": "I was wrong about dark mode",
+      "url": "https://dbushell.com/2026/11/09/dark-mode/",
+      "hn": "https://lobste.rs/s/iqhxz6/i_was_wrong_about_dark_mode",
+      "points": 9,
+      "comments": 5,
+      "created_at_i": 1794243243,
+      "sources": [
+        "Lobsters"
+      ],
+      "sharers": 0,
+      "score": 3.024,
+      "why": []
+    },
+    {
+      "id": "dc54a120bc62",
+      "title": "Show HN: JavaScript web apps with WASM layout and GPU rendering in 280 KB",
+      "url": "https://github.com/rkaehn/uniform",
+      "hn": "https://news.ycombinator.com/item?id=50401844",
+      "points": 46,
+      "comments": 21,
+      "created_at_i": 1794028591,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 2.73,
+      "why": []
+    }
+  ],
+  "candidates": [
+    {
+      "id": "71cdf6a87afc",
+      "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
+      "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794226807,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 3.692,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "7269aedfdccb",
+      "title": "What does design system AI readiness mean, anyway?",
+      "url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
+      "hn": "https://seanvoisen.com/writing/design-system-ai-readiness/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794200580,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.662,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "80987bf094de",
+      "title": "I was wrong about dark mode",
+      "url": "https://dbushell.com/2026/11/09/dark-mode/",
+      "hn": "https://lobste.rs/s/iqhxz6/i_was_wrong_about_dark_mode",
+      "points": 9,
+      "comments": 5,
+      "created_at_i": 1794243243,
+      "sources": [
+        "Lobsters"
+      ],
+      "sharers": 0,
+      "score": 3.024,
+      "why": []
+    },
+    {
+      "id": "dc54a120bc62",
+      "title": "Show HN: JavaScript web apps with WASM layout and GPU rendering in 280 KB",
+      "url": "https://github.com/rkaehn/uniform",
+      "hn": "https://news.ycombinator.com/item?id=50401844",
+      "points": 46,
+      "comments": 21,
+      "created_at_i": 1794028591,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 2.73,
+      "why": []
+    },
+    {
+      "id": "f9419f0d8f8d",
+      "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
+      "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
+      "hn": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794256669,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.724,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "df7b2496f434",
+      "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
+      "hn": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794240080,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.589,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "4e8190527691",
+      "title": "How this founder built a better Duolingo with Codex | William Imoh",
+      "url": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
+      "hn": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794229457,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.511,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "143476f10336",
+      "title": "Vote in Readymag Websites of the Year 2026",
+      "url": "https://bit.ly/side-mag5",
+      "hn": "https://bit.ly/side-mag5",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794200700,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.33,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "610cfa261100",
+      "title": "edge-aura",
+      "url": "https://edge-aura.js.org/",
+      "hn": "https://edge-aura.js.org/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794200520,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.329,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "1c5451e58762",
+      "title": "Site Seeing",
+      "url": "https://ishadeed.com/article/beyond-the-viewport/",
+      "hn": "https://ishadeed.com/article/beyond-the-viewport/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794200460,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.328,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "455df882718c",
+      "title": "DD414 / Organising the discontent",
+      "url": "https://www.densediscovery.com/issues/414/",
+      "hn": "https://www.densediscovery.com/issues/414/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794197623,
+      "sources": [
+        "Dense Discovery"
+      ],
+      "sharers": 0,
+      "score": 2.312,
+      "why": [
+        "editor's pick at Dense Discovery"
+      ]
+    },
+    {
+      "id": "4ee82c8ca893",
+      "title": "Jeffrey Zeldman Presents - The salad bar theory of UX professionalism - Design",
+      "url": "https://zeldman.com/2026/02/16/the-salad-bar-theory-of-ux-professionalism/",
+      "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mzv5kzij3s2i",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794234968,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 2.284,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "zeldman.bsky.social"
+      ]
+    },
+    {
+      "id": "5596fa9b888e",
+      "title": "What a ruler leaves out",
+      "url": "https://uxdesign.cc/what-a-ruler-leaves-out-9250724a7f85?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/what-a-ruler-leaves-out-9250724a7f85?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794226437,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.69,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "60a44b7a49e3",
+      "title": "Five pairs of hands: what the typesetters can teach designers about AI",
+      "url": "https://uxdesign.cc/five-pairs-of-hands-what-the-typesetters-can-teach-designers-about-ai-9d6b8e8c2285?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/five-pairs-of-hands-what-the-typesetters-can-teach-designers-about-ai-9d6b8e8c2285?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794226416,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.69,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "2b7491a18b27",
+      "title": "Infinite tokens: the new country club flex",
+      "url": "https://uxdesign.cc/infinite-tokens-the-new-country-club-flex-0e5e523756c3?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/infinite-tokens-the-new-country-club-flex-0e5e523756c3?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794226287,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.689,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "ce1c11fb7e63",
+      "title": "Before you ship your Wrapped this year",
+      "url": "https://uxdesign.cc/before-you-ship-your-wrapped-this-year-a0a47ee191f8?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/before-you-ship-your-wrapped-this-year-a0a47ee191f8?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794226276,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.689,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "e65a7ee16614",
+      "title": "CSS-Tricks, Version 20",
+      "url": "https://css-tricks.com/css-tricks-version-20/",
+      "hn": "https://bsky.app/profile/css-tricks.com/post/3mzvbp7c2mha2",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794239388,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.65,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "ericwbailey.website"
+      ]
+    }
+  ]
+}

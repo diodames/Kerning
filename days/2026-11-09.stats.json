@@ -1,0 +1,267 @@
+{
+  "date": "2026-11-09",
+  "pool": 68,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 29,
+    "lexicon": 21,
+    "no_title": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://github.com/meta/astryx",
+      "title": "Astryx: An open source design system that's customizable and agent ready",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/lamarcol/NotBot",
+      "title": "Show HN: My first project, an AI-powered financial news analyzer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://airlock.lunareng.com/docs",
+      "title": "Show HN: Airlock – Policy-as-code for fleets of AI coding agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50419260",
+      "title": "Ask HN: What do you use to get the latest technical AI news?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://youtube.com/shorts/-84YpBWr0MY?is=j4KkjDHWvQ2FvJW9",
+      "title": "The incredible legacy of Aaron Swartz",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://goycash.com/",
+      "title": "Save the world with a new money design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://metrix187.github.io/diffusion.css/",
+      "title": "Show HN: A diffusion model that runs in pure CSS, no JavaScript",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://deskland.app/",
+      "title": "Show HN: Wallpaper that adapts to your icon layout",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50419019",
+      "title": "Tell HN: A flood of reports of Opus 5.5 being nerfed",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50422668",
+      "title": "Ask HN: Would you retry this timed-out job?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.euronews.com/2026/11/09/eu-to-blacklist-ten-manipulative-online-design-traps-leaked-draft-shows",
+      "title": "EU to blacklist ten manipulative online design 'traps', leaked draft shows",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.anthropic.com/research/claude-electronics-design",
+      "title": "Testing Claude on real-world electronics design",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://protobenchai.com/",
+      "title": "Protobench – Figma for hardware, from design intent to engineering",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.frontstageexit.com/p/the-fountain-of-youth-will-be-a-software",
+      "title": "The fountain of youth will be a software modification",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50425195",
+      "title": "Show HN: Forced to build my own Harvest alternative tracking and invoicing",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://kiosk.tech/",
+      "title": "Show HN: Kiosk, a first-class AI assistants' intefrace to online services",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://meowdisplay.app/",
+      "title": "Show HN: MeowDisplay Is iPhone Mirroring, but in Reverse",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/radioso-ai/radioso",
+      "title": "Show HN: Open-source customer-facing agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://dcblueprint.com/plan/grid-stability",
+      "title": "In 2023 a Danish customer lost power for 30 minutes on average. An Estonian, 419",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/XInTheDark/TimeScrollApp",
+      "title": "Show HN: TimeScroll – an open-source, local replacement for Rewind on Mac",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://withicons.com/",
+      "title": "Show HN: I made every icon in 34 styles, including Christmas, Kawaii and Soft 3D",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50425749",
+      "title": "Ask HN: Am I the only one that thinks $100/month earns us freedom of work?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/datareceipts/data-receipts/tree/main/109-gpu-pricing",
+      "title": "The same H100 costs $2.69 or $12.29 an hour depending where you rent it",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://infrequently.org/2026/11/app-stores-pwas-and-corruption/",
+      "title": "Corruption Is a Cost-of-Living Issue: App Store Edition",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/p10node/office-engine",
+      "title": "500M CSV rows in a browser tab at ~1 GB RAM. no row limit, zero deps, no server",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sixthsense.fastmathfacts.io/",
+      "title": "Show HN: Website to test if you can detect someone staring at your back",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.tomshardware.com/peripherals/wearable-tech/wearable-sleep-trackers-are-using-your-brainwaves-to-train-ai-models-without-explicit-user-consent-tens-of-millions-of-hours-of-eeg-data-harvested",
+      "title": "Sleep wearables are training AI on your brainwaves without explicit consent",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://english.elpais.com/spain/2026-11-07/a-small-town-in-spain-battles-again-construction-of-a-macro-data-center-its-a-way-of-kicking-us-out.html",
+      "title": "A small town in Spain battles again construction of a macro data center",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.ru.nl/en/research/research-news/methane-consuming-organisms-create-nanowires-that-grow-on-electrode-and-can-generate-a-small-amount-of-electricity",
+      "title": "Methane-consuming organisms create nanowires and can generate electricity",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://codeberg.org/wvhulle/bootvine",
+      "title": "A live tree of systemd jobs on the boot console",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://botond.dev/quick-updates/we-are-all-product-engineers-now-and-some-communication-strategy-advice-for-the-transition/",
+      "title": "\"We are all product engineers now\" and some communication strategy advice",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/feeRnt/whofundsit/tree/post_demo_cloudflare_cdn",
+      "title": "Show HN: A visualization map of the funding of public companies",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://piccalil.li/links/javascript-for-everyone-new-game-plus/",
+      "title": "JavaScript for Everyone: New Game+",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://tinylittleoffice.com/#/v1/write/yXZZLbtNQFIbnXoVRJhAZp21gkgkqQkiRKlXQTkAM6sROuNSxg~008iyLYIIEm8tK~P5zbTdBaiPZvo_z~B9H_~dnX168vpzeX13Mpm~_2ucRzINSN654DOe1f_jQC_cQuzL5WVk~wXxlBM3L8lEcFFFz7RZzTQd63Y9EVBEI~Eg0ZuHD96bZ1rPJBMtoc9dwNvgGQzHon4wewo8wqNxDd9icl~yD83nWoO51TGxId_9oqpIYa_Cimi1PvFWD2XIWRvyNXt3idgS6zxaRvhbrTq7Y39vH8fBndDz8tYMLnBVDUQ0QHu2U8WWVggDrZYGE5g4JhPWmcwt8gCWxoYK6VTghZbvzm_dyC8UkXyBUV88CwegLdVzmDn1KpWi2RLXUNQQ3Hudlkkr8OGNwUziVjMfcTGSndx8Pv6Su1Dx1aXE8_O6MxuSbtSiiSbdr4uDK7h62IqQKwXfQqlQ7iMu~exp1Y4269Y0iKMXG8aogbg_aYjA9tdLwVS_CKiksxLMAIxN44tOigmoCS3uVuhrXbLOUPZYqGXZN0ePQGJZuE_JWBWUBfQFqMJ4VcfAmRiz2hs46M8Mfqvbi_8bYdxJcOznyp8~WyDtfd_OyUwSFc3uZ5BhL4tHeweJ5yTXR6WY5mytI11phXTpbiGR4lvGn9lgGy3ILqgTc0yMNHolvJZpQrH1OJZ7iUfKefvd3ZqmuwxOJo0ZA_FoNGLY2QHjIQiuxMYrfRvbLZOeeEAh6GHbMtmmlj4I4sVpBYgCLTLhYlmsUp2RwSTNRCsMfbt14oBlLLL2VBtYUNhf9dcpHnsxNd9hlkndn4Nn9DAoYr~fhgqHBxg6i1viqwqNoVms63~xWK8tNpcD5Fb_NWCJwK7c9Ww__0joi1R~afp7LpBJFulEPHRjCl5yBnCh9rAOSVq88hAlSJ1vVqwRNcmhdP5o6zw0NOzVDkhDe2oRpnUcQugUZJRLAy4Z5qA2zLXXjtNzD3FfJQnKbza6x1O3LboFg~DgEYDuLCcZzIQ7~AQ",
+      "title": "Tiny Little Office: the link is the document",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://css.earth/?utm_source=the-index&utm_medium=newsletter&v=UcO9olmEZRMenr2wYk3S8an8wOjqIxJul5NBQsczQAAAAD_30p0PKgEZv9XjqHSKGu0AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://zeldman.com/2026/10/29/the-day-the-focus-died/comment-page-1/#comment-11001",
+      "title": "Jeffrey Zeldman Presents - The Day the Focus Died - glamorous",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.logohistories.com/p/airline-logos",
+      "title": "Airline Logos: The Stories Behind 12 Airline Logos & Corporate Identities, from Pan Am to Swissair",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://kevuhnn.com/2026/11/03/no-algorithms/",
+      "title": "Avoiding algorithms. kevuhnn.com/2026/11/03/n...",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.anildash.com/2026/10/06/kill-unalive/",
+      "title": "We are going to kill “unalive” - Anil Dash",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://design.scotentblog.co.uk/who-are-we-willing-to-exclude/",
+      "title": "Who are we willing to exclude? | Scottish Enterprise Design blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/BenchUp3D/editor",
+      "title": "BenchUp – 3D design for your next",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/unicode-org/last-resort-font",
+      "title": "Unicode Last Resort Font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sentra.io/blog/breaches/inside-the-qubole-supply-chain-attack",
+      "title": "Supply chain attack on Qubole customers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://3dazon.vercel.app/",
+      "title": "\"Construct\" room from Matrix with Amazon products",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apiclay.com",
+      "title": "Show HN: ApiClay – Turn a Website, Google Sheet or Database into a Paid API",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50432411",
+      "title": "Tell HN: Some of My Recent Ideas",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/kaushalvivek/hn-cli",
+      "title": "Show HN: A Terminal UI for Hacker News, and CLI for Agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://andersmurphy.com/2026/11/09/two-apps-one-process.html",
+      "title": "Two apps one process",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22832",
+      "title": "Monday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/the-secure-way-to-release-an-npm-package",
+      "title": "The secure way to release an npm package in 2026—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://cal.com/inazarova+sitnik",
+      "title": "Group Meeting |  | Cal.com",
+      "reason": "lexicon"
+    }
+  ]
+}
