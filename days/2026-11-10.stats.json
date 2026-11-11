@@ -1,0 +1,337 @@
+{
+  "date": "2026-11-10",
+  "pool": 77,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 42,
+    "lexicon": 22,
+    "no_title": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://github.com/BenchUp3D/editor",
+      "title": "BenchUp – 3D design for your next",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/unicode-org/last-resort-font",
+      "title": "Unicode Last Resort Font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50435490",
+      "title": "OpenAI models have no agency anymore",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50434036",
+      "title": "Playwright Stud – Record and run Playwright tests directly",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/let-def/texpresso",
+      "title": "Texpresso: A True Wysiwyg System for Open-Source LaTeX Design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sentra.io/blog/breaches/inside-the-qubole-supply-chain-attack",
+      "title": "Supply chain attack on Qubole customers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theatlantic.com/magazine/2026/12/location-tracking-apps-parental-surveillance/689031/",
+      "title": "What constant surveillance is doing to children and parents",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://3dazon.vercel.app/",
+      "title": "\"Construct\" room from Matrix with Amazon products",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apiclay.com",
+      "title": "Show HN: ApiClay – Turn a Website, Google Sheet or Database into a Paid API",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.physicsbase.ai/",
+      "title": "Show HN: I built a tool that babysits your agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50432411",
+      "title": "Tell HN: Some of My Recent Ideas",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/kaushalvivek/hn-cli",
+      "title": "Show HN: A Terminal UI for Hacker News, and CLI for Agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://shkspr.mobi/blog/2026/11/blunt-banhammer-blocks-basic-bots-ballistically/",
+      "title": "Blunt Banhammer Blocks Basic Bots Ballistically",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://andersmurphy.com/2026/11/09/two-apps-one-process.html",
+      "title": "Two apps one process",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22832",
+      "title": "Monday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nerdy.dev/www-ep258-the-future-called-its-using-css2",
+      "title": "WWW Ep258 The Future Called Its Using CSS2 · November 7, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/the-secure-way-to-release-an-npm-package",
+      "title": "The secure way to release an npm package in 2026—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://cal.com/inazarova+sitnik",
+      "title": "Group Meeting |  | Cal.com",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://jola.dev/posts/tern-atproto-typeahead",
+      "title": "Building a Bluesky account typeahead service",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.notion.com/help/security-incident-involving-a-third-party-ai-vendor",
+      "title": "Fireworks AI security breach impacts Notion and their customers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.cbc.ca/news/canada/canadian-ultramarathon-antarctica-woman-stephanie-case-9.7415361",
+      "title": "Canadian Stephanie Case is the first woman to run 100mi in Antarctica",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://clickhouse.com/blog/announcing-clickhouse-observability",
+      "title": "ClickHouse Observability: Cost-effective managed, OpenTelemetry-native",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.columbia.edu/news/research-finds-outright-grants-cash-are-surprisingly-effective-form-aid-poor",
+      "title": "Research Finds Outright Grants of Cash Are Effective Form of Aid to the Poor",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.npr.org/2017/05/05/526900818/the-bad-grade-that-changed-the-u-s-constitution",
+      "title": "The Bad Grade That Changed the U.S. Constitution",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.leadinginproduct.com/p/product-management-instant-gratification",
+      "title": "Why product management will never give you instant gratification",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50436636",
+      "title": "Tell HN: Notion AI chat sessions have been exposed via Fireworks AI hack",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50438889",
+      "title": "Show HN: You can now train your own LLMs with less memory, on your consumer GPUs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://eaj.no/posts/open-graph-images-with-typst/",
+      "title": "Open Graph images with Astro and Typst",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.preprints.org/manuscript/202505.1533/v1/download",
+      "title": "An Overview of the BWRX-300 Reactor Building Design: Challenges and Solutions",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/szdytom/markview",
+      "title": "Show HN: Markview – a fast Markdown reader in Rust, Obsidian Vault compatible",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://render.com/security",
+      "title": "Render is adding Anthropic, TypeSafe AI and others to its Subprocessors",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ozanvos/monoprint",
+      "title": "Show HN: Monoprint – Beautiful code images, GPUI desktop app, CLI, Rust library",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.valin.ai/",
+      "title": "Show HN: Valin – your private memory for everything you save",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://aircad.com",
+      "title": "Show HN: Aircad – Professional drafting and 3D modeling in the browser",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.bitsavers.org/pdf/ibm/IBM_Systems_Journal/204/ibmsj2004E.pdf",
+      "title": "Interactive user productivity (1981) [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/realsirjoe/relinos",
+      "title": "Show HN: A Hacker's Web Browser – Any Site to API (Open-Source)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/FuzzyIdeas/LimbaKit",
+      "title": "Show HN: A Swift package that makes any macOS app translatable",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/10/apple-tv-makes-sign-language-interpretation-a-built-in-accessibility-feature/",
+      "title": "Apple TV makes sign language interpretation a built-in accessibility feature",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/queen-mq/queen",
+      "title": "Show HN: QueenMQ – slow LLM calls blocked our Kafka partitions, so we built it",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ilomusi8.sadale.net/en/welcome",
+      "title": "Show HN: Ilo Musi 8 – Handheld Game Console Emulating CHIP-8 Platform",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.jvt.me/posts/2026/11/09/new-css-who-dis/",
+      "title": "New CSS, Who Dis? (2026 edition)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://imjasonh.github.io/playground/sundial/",
+      "title": "CSS Sundial Clock",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://futureperfect.bearblog.dev/web-designersdevelopers/",
+      "title": "Web designers/developers must be so bored",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://amagi.dev/vfx-js-transitions/",
+      "title": "Show HN: Glitch/Distorion page transitions with HTML-in-Canvas",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://aivisionindex.com/",
+      "title": "Show HN: AI Vision Index, private tests of how well 36 AI models see",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/maury91/miauflix",
+      "title": "Show HN: A media server designed to be hosted on a VPS [more in the text]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mddog.pages.dev",
+      "title": "Show HN: View Markdown like you would on GitHub/Obsidian, right in your terminal",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/clikr/oalndbmcbpchbbognlpkdafainaimhdk",
+      "title": "Show HN: Clikr – Virtual laser pointer that follows where you point your phone",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lwn.net/SubscriberLink/1104195/1193ea577aaef643/",
+      "title": "Git considers voting to determine its LLM policy",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/wolveflake/wolvekafka",
+      "title": "Show HN: WolveKafka – Consume Kafka with a plain HTTP endpoint",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://locatic.dev/",
+      "title": "Show HN: Locatic – Discover developers and projects in your city",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theycallmesam.com/p/product-managers-were-expensive-search",
+      "title": "Product managers are (expensive) search functions with taste",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Muralnick/sugo",
+      "title": "Show HN: Sugo – Turn PDFs and Screenshots into Compact Markdown for LLMs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/BrianWeiHaoMa/git-dupe",
+      "title": "Show HN: Git-dupe – plain Git per-project private versioning for agent files",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://search2o.com/",
+      "title": "Show HN: Users search and combine focused agents in a conversation, no prewiring",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://zeldman.com/2023/11/10/algorithm-blues/",
+      "title": "Jeffrey Zeldman Presents - Algorithm & Blues -",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.pootlepress.com/2026/11/were-replaying-the-browser-wars-of-20-years-ago-and-software-companies-are-caught-in-the-crosshairs/",
+      "title": "We’re replaying the browser wars of the 1990s. But this time it’s software companies in the crosshairs. – Pootlepress",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://developer.chrome.com/blog/modern-web-guidance-v1",
+      "title": "https://developer.chrome.com/blog/modern-web-guidance-v1",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://goo.gle/4k8GmBE",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://nerdy.dev/prop-flip",
+      "title": "PropFLIP · November 10, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://cssence.com/2026/breakdown/",
+      "title": "Breakdown",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.val.town/winding-down",
+      "title": "Val Town is winding down",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50446617",
+      "title": "Ask HR: Systems Engineering's Senior Pipeline Crisis",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://yogthos.net/posts/2026-11-10-glimmer-datastar.html",
+      "title": "Rendering in batches with glimmer and Datastar",
+      "reason": "below_threshold"
+    }
+  ]
+}

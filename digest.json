@@ -1,368 +1,292 @@
 {
-  "generated_at": "2026-11-10T04:36:47.549730+00:00",
+  "generated_at": "2026-11-11T02:45:18.408826+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "9 November 2026",
-      "period_start": "2026-11-09",
-      "period_end": "2026-11-09",
+      "label": "10 November 2026",
+      "period_start": "2026-11-10",
+      "period_end": "2026-11-10",
       "items": [
         {
-          "id": "71cdf6a87afc",
-          "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
-          "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
+          "id": "19e0ad177799",
+          "title": "What’s !important Newsletter #21 - CSS-Tricks",
+          "url": "https://css-tricks.com/newsletter/whats-important-21/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794226807,
+          "created_at_i": 1794325538,
           "sources": [
-            "UX Collective"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 3.692,
+          "sharers": 2,
+          "score": 4.368,
           "why": [
-            "editor's pick at UX Collective"
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "joshwcomeau.com"
           ]
         },
         {
-          "id": "7269aedfdccb",
-          "title": "What does design system AI readiness mean, anyway?",
-          "url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
-          "hn": "https://seanvoisen.com/writing/design-system-ai-readiness/",
+          "id": "13783859176d",
+          "title": "Ultorg: The User Interface for Relational Databases",
+          "url": "https://www.ultorg.com/",
+          "hn": "https://news.ycombinator.com/item?id=50435898",
+          "points": 142,
+          "comments": 51,
+          "created_at_i": 1794283179,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.268,
+          "why": []
+        },
+        {
+          "id": "3f1d8afeb11e",
+          "title": "What product strategy does",
+          "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+          "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794200580,
+          "created_at_i": 1794295920,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.662,
+          "score": 3.048,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "80987bf094de",
-          "title": "I was wrong about dark mode",
-          "url": "https://dbushell.com/2026/11/09/dark-mode/",
-          "hn": "https://lobste.rs/s/iqhxz6/i_was_wrong_about_dark_mode",
-          "points": 9,
-          "comments": 5,
-          "created_at_i": 1794243243,
+          "id": "fdc5cf3a67a5",
+          "title": "State of the tech job market: late 2026",
+          "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "hn": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794323043,
           "sources": [
-            "Lobsters"
+            "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 3.024,
-          "why": []
-        },
-        {
-          "id": "dc54a120bc62",
-          "title": "Show HN: JavaScript web apps with WASM layout and GPU rendering in 280 KB",
-          "url": "https://github.com/rkaehn/uniform",
-          "hn": "https://news.ycombinator.com/item?id=50401844",
-          "points": 46,
-          "comments": 21,
-          "created_at_i": 1794028591,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.73,
-          "why": []
+          "score": 2.563,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
         }
       ],
       "candidates": [
         {
-          "id": "71cdf6a87afc",
-          "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
-          "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
+          "id": "19e0ad177799",
+          "title": "What’s !important Newsletter #21 - CSS-Tricks",
+          "url": "https://css-tricks.com/newsletter/whats-important-21/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794226807,
+          "created_at_i": 1794325538,
           "sources": [
-            "UX Collective"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 3.692,
+          "sharers": 2,
+          "score": 4.368,
           "why": [
-            "editor's pick at UX Collective"
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "joshwcomeau.com"
           ]
         },
         {
-          "id": "7269aedfdccb",
-          "title": "What does design system AI readiness mean, anyway?",
-          "url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
-          "hn": "https://seanvoisen.com/writing/design-system-ai-readiness/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794200580,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.662,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "80987bf094de",
-          "title": "I was wrong about dark mode",
-          "url": "https://dbushell.com/2026/11/09/dark-mode/",
-          "hn": "https://lobste.rs/s/iqhxz6/i_was_wrong_about_dark_mode",
-          "points": 9,
-          "comments": 5,
-          "created_at_i": 1794243243,
-          "sources": [
-            "Lobsters"
-          ],
-          "sharers": 0,
-          "score": 3.024,
-          "why": []
-        },
-        {
-          "id": "dc54a120bc62",
-          "title": "Show HN: JavaScript web apps with WASM layout and GPU rendering in 280 KB",
-          "url": "https://github.com/rkaehn/uniform",
-          "hn": "https://news.ycombinator.com/item?id=50401844",
-          "points": 46,
-          "comments": 21,
-          "created_at_i": 1794028591,
+          "id": "13783859176d",
+          "title": "Ultorg: The User Interface for Relational Databases",
+          "url": "https://www.ultorg.com/",
+          "hn": "https://news.ycombinator.com/item?id=50435898",
+          "points": 142,
+          "comments": 51,
+          "created_at_i": 1794283179,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.73,
+          "score": 4.268,
           "why": []
         },
         {
-          "id": "f9419f0d8f8d",
-          "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
-          "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
-          "hn": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
+          "id": "3f1d8afeb11e",
+          "title": "What product strategy does",
+          "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+          "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794256669,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.724,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "df7b2496f434",
-          "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
-          "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
-          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794240080,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.589,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "4e8190527691",
-          "title": "How this founder built a better Duolingo with Codex | William Imoh",
-          "url": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
-          "hn": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794229457,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.511,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "143476f10336",
-          "title": "Vote in Readymag Websites of the Year 2026",
-          "url": "https://bit.ly/side-mag5",
-          "hn": "https://bit.ly/side-mag5",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794200700,
+          "created_at_i": 1794295920,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.33,
+          "score": 3.048,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "610cfa261100",
-          "title": "edge-aura",
-          "url": "https://edge-aura.js.org/",
-          "hn": "https://edge-aura.js.org/",
+          "id": "fdc5cf3a67a5",
+          "title": "State of the tech job market: late 2026",
+          "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "hn": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794200520,
+          "created_at_i": 1794323043,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.563,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "3ad0c6ad6c2c",
+          "title": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "hn": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794319200,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
+          "id": "a3ff371a3921",
+          "title": "Please use AI",
+          "url": "https://shawnsmucker.substack.com/p/please-use-ai",
+          "hn": "https://shawnsmucker.substack.com/p/please-use-ai",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794296084,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.329,
+          "score": 2.382,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "1c5451e58762",
-          "title": "Site Seeing",
-          "url": "https://ishadeed.com/article/beyond-the-viewport/",
-          "hn": "https://ishadeed.com/article/beyond-the-viewport/",
+          "id": "d368aea092f9",
+          "title": "TK",
+          "url": "https://tk.xyz/",
+          "hn": "https://tk.xyz/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794200460,
+          "created_at_i": 1794295980,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.328,
+          "score": 2.381,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "455df882718c",
-          "title": "DD414 / Organising the discontent",
-          "url": "https://www.densediscovery.com/issues/414/",
-          "hn": "https://www.densediscovery.com/issues/414/",
+          "id": "8d718a4b5814",
+          "title": "Blossom carousel",
+          "url": "https://blossom-carousel.com/",
+          "hn": "https://blossom-carousel.com/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794197623,
+          "created_at_i": 1794295953,
           "sources": [
-            "Dense Discovery"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.312,
+          "score": 2.381,
           "why": [
-            "editor's pick at Dense Discovery"
+            "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "4ee82c8ca893",
-          "title": "Jeffrey Zeldman Presents - The salad bar theory of UX professionalism - Design",
-          "url": "https://zeldman.com/2026/02/16/the-salad-bar-theory-of-ux-professionalism/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mzv5kzij3s2i",
+          "id": "7e23093f15fc",
+          "title": "Customer or product?",
+          "url": "https://customerorproduct.org/",
+          "hn": "https://customerorproduct.org/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794234968,
+          "created_at_i": 1794295869,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.381,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "5f472ec10a17",
+          "title": "What being the new kid taught me about persuasion as a designer",
+          "url": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794312558,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.355,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "dc5d40e183a4",
+          "title": "Every new medium gets called cheating",
+          "url": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794312546,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.688,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "9353e3bfef8f",
+          "title": "Next-gen feeling comic UX, love it. nerdy.dev/ponpon-mania...",
+          "url": "https://nerdy.dev/ponpon-mania-comic-ux",
+          "hn": "https://bsky.app/profile/nerdy.dev/post/3mzwr46f7f22p",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794272577,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 2.284,
+          "score": 1.652,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "zeldman.bsky.social"
-          ]
-        },
-        {
-          "id": "5596fa9b888e",
-          "title": "What a ruler leaves out",
-          "url": "https://uxdesign.cc/what-a-ruler-leaves-out-9250724a7f85?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/what-a-ruler-leaves-out-9250724a7f85?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794226437,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.69,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "60a44b7a49e3",
-          "title": "Five pairs of hands: what the typesetters can teach designers about AI",
-          "url": "https://uxdesign.cc/five-pairs-of-hands-what-the-typesetters-can-teach-designers-about-ai-9d6b8e8c2285?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/five-pairs-of-hands-what-the-typesetters-can-teach-designers-about-ai-9d6b8e8c2285?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794226416,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.69,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "2b7491a18b27",
-          "title": "Infinite tokens: the new country club flex",
-          "url": "https://uxdesign.cc/infinite-tokens-the-new-country-club-flex-0e5e523756c3?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/infinite-tokens-the-new-country-club-flex-0e5e523756c3?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794226287,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.689,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "ce1c11fb7e63",
-          "title": "Before you ship your Wrapped this year",
-          "url": "https://uxdesign.cc/before-you-ship-your-wrapped-this-year-a0a47ee191f8?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/before-you-ship-your-wrapped-this-year-a0a47ee191f8?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794226276,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.689,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "e65a7ee16614",
-          "title": "CSS-Tricks, Version 20",
-          "url": "https://css-tricks.com/css-tricks-version-20/",
-          "hn": "https://bsky.app/profile/css-tricks.com/post/3mzvbp7c2mha2",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794239388,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.65,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
+            "nerdy.dev"
           ]
         }
       ]
@@ -377,6 +301,42 @@
       "iso_week": "2026-W46",
       "items": [
         {
+          "id": "19e0ad177799",
+          "title": "What’s !important Newsletter #21 - CSS-Tricks",
+          "url": "https://css-tricks.com/newsletter/whats-important-21/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794325538,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.368,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "13783859176d",
+          "title": "Ultorg: The User Interface for Relational Databases",
+          "url": "https://www.ultorg.com/",
+          "hn": "https://news.ycombinator.com/item?id=50435898",
+          "points": 142,
+          "comments": 51,
+          "created_at_i": 1794283179,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.268,
+          "why": []
+        },
+        {
           "id": "71cdf6a87afc",
           "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
           "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
@@ -411,6 +371,23 @@
           ]
         },
         {
+          "id": "3f1d8afeb11e",
+          "title": "What product strategy does",
+          "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+          "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794295920,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.048,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "80987bf094de",
           "title": "I was wrong about dark mode",
           "url": "https://dbushell.com/2026/11/09/dark-mode/",
@@ -439,9 +416,62 @@
           "sharers": 0,
           "score": 2.73,
           "why": []
+        },
+        {
+          "id": "fdc5cf3a67a5",
+          "title": "State of the tech job market: late 2026",
+          "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "hn": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794323043,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.563,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
         }
       ],
       "candidates": [
+        {
+          "id": "19e0ad177799",
+          "title": "What’s !important Newsletter #21 - CSS-Tricks",
+          "url": "https://css-tricks.com/newsletter/whats-important-21/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794325538,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.368,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "13783859176d",
+          "title": "Ultorg: The User Interface for Relational Databases",
+          "url": "https://www.ultorg.com/",
+          "hn": "https://news.ycombinator.com/item?id=50435898",
+          "points": 142,
+          "comments": 51,
+          "created_at_i": 1794283179,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.268,
+          "why": []
+        },
         {
           "id": "71cdf6a87afc",
           "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
@@ -472,6 +502,23 @@
           ],
           "sharers": 0,
           "score": 3.662,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "3f1d8afeb11e",
+          "title": "What product strategy does",
+          "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+          "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794295920,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.048,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -541,6 +588,40 @@
           ]
         },
         {
+          "id": "fdc5cf3a67a5",
+          "title": "State of the tech job market: late 2026",
+          "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "hn": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794323043,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.563,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "3ad0c6ad6c2c",
+          "title": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "hn": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794319200,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
           "id": "4e8190527691",
           "title": "How this founder built a better Duolingo with Codex | William Imoh",
           "url": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
@@ -555,6 +636,91 @@
           "score": 2.511,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "a3ff371a3921",
+          "title": "Please use AI",
+          "url": "https://shawnsmucker.substack.com/p/please-use-ai",
+          "hn": "https://shawnsmucker.substack.com/p/please-use-ai",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794296084,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.382,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d368aea092f9",
+          "title": "TK",
+          "url": "https://tk.xyz/",
+          "hn": "https://tk.xyz/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794295980,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.381,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "8d718a4b5814",
+          "title": "Blossom carousel",
+          "url": "https://blossom-carousel.com/",
+          "hn": "https://blossom-carousel.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794295953,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.381,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "7e23093f15fc",
+          "title": "Customer or product?",
+          "url": "https://customerorproduct.org/",
+          "hn": "https://customerorproduct.org/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794295869,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.381,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "5f472ec10a17",
+          "title": "What being the new kid taught me about persuasion as a designer",
+          "url": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794312558,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.355,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -711,6 +877,43 @@
           "score": 1.689,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "dc5d40e183a4",
+          "title": "Every new medium gets called cheating",
+          "url": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794312546,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.688,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "9353e3bfef8f",
+          "title": "Next-gen feeling comic UX, love it. nerdy.dev/ponpon-mania...",
+          "url": "https://nerdy.dev/ponpon-mania-comic-ux",
+          "hn": "https://bsky.app/profile/nerdy.dev/post/3mzwr46f7f22p",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794272577,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.652,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "nerdy.dev"
           ]
         },
         {
@@ -872,6 +1075,42 @@
           ]
         },
         {
+          "id": "19e0ad177799",
+          "title": "What’s !important Newsletter #21 - CSS-Tricks",
+          "url": "https://css-tricks.com/newsletter/whats-important-21/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794325538,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.368,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "13783859176d",
+          "title": "Ultorg: The User Interface for Relational Databases",
+          "url": "https://www.ultorg.com/",
+          "hn": "https://news.ycombinator.com/item?id=50435898",
+          "points": 142,
+          "comments": 51,
+          "created_at_i": 1794283179,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.268,
+          "why": []
+        },
+        {
           "id": "4a2fa40761c4",
           "title": "What AI has changed in Design Systems, and what is still up to us",
           "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
@@ -920,40 +1159,6 @@
           "score": 3.662,
           "why": [
             "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "84bf03764f8c",
-          "title": "Usability 101: Introduction to Usability",
-          "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793988000,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 3.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "8494259ac3bc",
-          "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
-          "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
-          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793635328,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 3.589,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
           ]
         }
       ],
@@ -1084,6 +1289,42 @@
             "rachelandrew.co.uk",
             "zeldman.bsky.social"
           ]
+        },
+        {
+          "id": "19e0ad177799",
+          "title": "What’s !important Newsletter #21 - CSS-Tricks",
+          "url": "https://css-tricks.com/newsletter/whats-important-21/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794325538,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.368,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "13783859176d",
+          "title": "Ultorg: The User Interface for Relational Databases",
+          "url": "https://www.ultorg.com/",
+          "hn": "https://news.ycombinator.com/item?id=50435898",
+          "points": 142,
+          "comments": 51,
+          "created_at_i": 1794283179,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.268,
+          "why": []
         },
         {
           "id": "4a2fa40761c4",
@@ -1341,6 +1582,23 @@
           ]
         },
         {
+          "id": "3f1d8afeb11e",
+          "title": "What product strategy does",
+          "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+          "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794295920,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.048,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "80987bf094de",
           "title": "I was wrong about dark mode",
           "url": "https://dbushell.com/2026/11/09/dark-mode/",
@@ -1489,6 +1747,23 @@
           ]
         },
         {
+          "id": "fdc5cf3a67a5",
+          "title": "State of the tech job market: late 2026",
+          "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "hn": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794323043,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.563,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
           "id": "8351568f8867",
           "title": "Primer (GitHub) — @primer/react@38.45.0",
           "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.45.0",
@@ -1503,6 +1778,23 @@
           "score": 2.557,
           "why": [
             "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "3ad0c6ad6c2c",
+          "title": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "hn": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794319200,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
           ]
         },
         {
@@ -1537,6 +1829,91 @@
           "score": 2.511,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "a3ff371a3921",
+          "title": "Please use AI",
+          "url": "https://shawnsmucker.substack.com/p/please-use-ai",
+          "hn": "https://shawnsmucker.substack.com/p/please-use-ai",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794296084,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.382,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d368aea092f9",
+          "title": "TK",
+          "url": "https://tk.xyz/",
+          "hn": "https://tk.xyz/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794295980,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.381,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "8d718a4b5814",
+          "title": "Blossom carousel",
+          "url": "https://blossom-carousel.com/",
+          "hn": "https://blossom-carousel.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794295953,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.381,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "7e23093f15fc",
+          "title": "Customer or product?",
+          "url": "https://customerorproduct.org/",
+          "hn": "https://customerorproduct.org/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794295869,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.381,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "5f472ec10a17",
+          "title": "What being the new kid taught me about persuasion as a designer",
+          "url": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794312558,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.355,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -1841,6 +2218,23 @@
           ]
         },
         {
+          "id": "dc5d40e183a4",
+          "title": "Every new medium gets called cheating",
+          "url": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794312546,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.688,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "5a3e3455042e",
           "title": "Controlling when CSS custom property values are computed",
           "url": "https://jakearchibald.com/2026/css-custom-property-compute-time/?utm_source=the-index&utm_medium=newsletter",
@@ -1898,6 +2292,26 @@
           ],
           "authors": [
             "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "9353e3bfef8f",
+          "title": "Next-gen feeling comic UX, love it. nerdy.dev/ponpon-mania...",
+          "url": "https://nerdy.dev/ponpon-mania-comic-ux",
+          "hn": "https://bsky.app/profile/nerdy.dev/post/3mzwr46f7f22p",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794272577,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.652,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "nerdy.dev"
           ]
         },
         {
@@ -2019,6 +2433,42 @@
   },
   "items": [
     {
+      "id": "19e0ad177799",
+      "title": "What’s !important Newsletter #21 - CSS-Tricks",
+      "url": "https://css-tricks.com/newsletter/whats-important-21/",
+      "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794325538,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 4.368,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "ericwbailey.website",
+        "joshwcomeau.com"
+      ]
+    },
+    {
+      "id": "13783859176d",
+      "title": "Ultorg: The User Interface for Relational Databases",
+      "url": "https://www.ultorg.com/",
+      "hn": "https://news.ycombinator.com/item?id=50435898",
+      "points": 142,
+      "comments": 51,
+      "created_at_i": 1794283179,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.268,
+      "why": []
+    },
+    {
       "id": "71cdf6a87afc",
       "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
       "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
@@ -2053,6 +2503,23 @@
       ]
     },
     {
+      "id": "3f1d8afeb11e",
+      "title": "What product strategy does",
+      "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+      "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794295920,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.048,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
       "id": "80987bf094de",
       "title": "I was wrong about dark mode",
       "url": "https://dbushell.com/2026/11/09/dark-mode/",
@@ -2081,6 +2548,23 @@
       "sharers": 0,
       "score": 2.73,
       "why": []
+    },
+    {
+      "id": "fdc5cf3a67a5",
+      "title": "State of the tech job market: late 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+      "hn": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794323043,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.563,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
     }
   ],
   "week_start": "2026-11-09",

@@ -1,0 +1,287 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-11T02:45:18.404095+00:00",
+  "items": [
+    {
+      "id": "19e0ad177799",
+      "title": "What’s !important Newsletter #21 - CSS-Tricks",
+      "url": "https://css-tricks.com/newsletter/whats-important-21/",
+      "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794325538,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 4.368,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "ericwbailey.website",
+        "joshwcomeau.com"
+      ]
+    },
+    {
+      "id": "13783859176d",
+      "title": "Ultorg: The User Interface for Relational Databases",
+      "url": "https://www.ultorg.com/",
+      "hn": "https://news.ycombinator.com/item?id=50435898",
+      "points": 142,
+      "comments": 51,
+      "created_at_i": 1794283179,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.268,
+      "why": []
+    },
+    {
+      "id": "3f1d8afeb11e",
+      "title": "What product strategy does",
+      "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+      "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794295920,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.048,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "fdc5cf3a67a5",
+      "title": "State of the tech job market: late 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+      "hn": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794323043,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.563,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "19e0ad177799",
+      "title": "What’s !important Newsletter #21 - CSS-Tricks",
+      "url": "https://css-tricks.com/newsletter/whats-important-21/",
+      "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794325538,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 4.368,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "ericwbailey.website",
+        "joshwcomeau.com"
+      ]
+    },
+    {
+      "id": "13783859176d",
+      "title": "Ultorg: The User Interface for Relational Databases",
+      "url": "https://www.ultorg.com/",
+      "hn": "https://news.ycombinator.com/item?id=50435898",
+      "points": 142,
+      "comments": 51,
+      "created_at_i": 1794283179,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 4.268,
+      "why": []
+    },
+    {
+      "id": "3f1d8afeb11e",
+      "title": "What product strategy does",
+      "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+      "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794295920,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.048,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "fdc5cf3a67a5",
+      "title": "State of the tech job market: late 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+      "hn": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794323043,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.563,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "3ad0c6ad6c2c",
+      "title": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
+      "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "hn": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794319200,
+      "sources": [
+        "Product Talk"
+      ],
+      "sharers": 0,
+      "score": 2.535,
+      "why": [
+        "editor's pick at Product Talk"
+      ]
+    },
+    {
+      "id": "a3ff371a3921",
+      "title": "Please use AI",
+      "url": "https://shawnsmucker.substack.com/p/please-use-ai",
+      "hn": "https://shawnsmucker.substack.com/p/please-use-ai",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794296084,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.382,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "d368aea092f9",
+      "title": "TK",
+      "url": "https://tk.xyz/",
+      "hn": "https://tk.xyz/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794295980,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.381,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "8d718a4b5814",
+      "title": "Blossom carousel",
+      "url": "https://blossom-carousel.com/",
+      "hn": "https://blossom-carousel.com/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794295953,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.381,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "7e23093f15fc",
+      "title": "Customer or product?",
+      "url": "https://customerorproduct.org/",
+      "hn": "https://customerorproduct.org/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794295869,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.381,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "5f472ec10a17",
+      "title": "What being the new kid taught me about persuasion as a designer",
+      "url": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794312558,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 2.355,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "dc5d40e183a4",
+      "title": "Every new medium gets called cheating",
+      "url": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794312546,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.688,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "9353e3bfef8f",
+      "title": "Next-gen feeling comic UX, love it. nerdy.dev/ponpon-mania...",
+      "url": "https://nerdy.dev/ponpon-mania-comic-ux",
+      "hn": "https://bsky.app/profile/nerdy.dev/post/3mzwr46f7f22p",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794272577,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.652,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "nerdy.dev"
+      ]
+    }
+  ]
+}
