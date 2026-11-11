@@ -1,21 +1,23 @@
 #!/usr/bin/env node
-// Weekly email: the current weekly issue, ranked by each opted-in reader's taste,
-// sent on their chosen weekday and Morning / Afternoon / Evening.
+// Weekly email: the last seven closed days, ranked by each opted-in reader's
+// taste, sent on their chosen weekday and Morning / Afternoon / Evening.
 //
-//   node scripts/weekly_email.mjs [--dry-run] [--digest state/digest.json] [--out out]
-//   node scripts/weekly_email.mjs --dry-run --profile kerning-profile.json --to you@example.com
+//   node scripts/weekly_email.mjs [--dry-run] [--days state/days] [--out out]
+//   node scripts/weekly_email.mjs --dry-run --digest state/digest.json --profile kerning-profile.json --to you@example.com
 //
 // Env: SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, RESEND_API_KEY, KERNING_MAIL_FROM,
 // KERNING_MAIL_ONLY, KERNING_SITE_URL. The repo is public, so logs carry counts,
 // never addresses.
 
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createRequire } from "node:module";
 
 const require = createRequire(import.meta.url);
-const { buildWeights, personalize, hasLearnedTaste, domainOf } = require("../taste.js");
+const {
+  buildWeights, personalize, hasLearnedTaste, domainOf, diversifyItems,
+} = require("../taste.js");
 
 const SUPABASE_URL = process.env.SUPABASE_URL || "https://qypugamdqsykhkqwtmxi.supabase.co";
 const SITE_URL = (process.env.KERNING_SITE_URL || "https://www.kerningdigest.com/").replace(/\/?$/, "/");
@@ -25,6 +27,12 @@ const DIGEST_TZ = process.env.DIGEST_TZ || "Europe/Prague";
 const DEFAULT_TZ = "Europe/Prague";
 const SLOT_HOURS = { morning: 8, afternoon: 13, evening: 18 };
 const WEEKDAY_SHORT = { Sun: 0, Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5, Sat: 6 };
+const MONTHS = [
+  "January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December",
+];
+const WEEKLY_LIMIT = 12;
+const CANDIDATE_LIMIT = 60;
 
 function zonedParts(date, tz) {
   const fmt = new Intl.DateTimeFormat("en-US", {
@@ -54,10 +62,56 @@ function isoWeekMinutes(parts) {
   return offset * 24 * 60 + parts.hour * 60 + parts.minute;
 }
 
+function addCalendarDays(ymd, delta) {
+  const [y, m, d] = ymd.split("-").map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d + delta));
+  return dt.toISOString().slice(0, 10);
+}
+
+function lastClosedDates(now, tz, n) {
+  tz = tz || DIGEST_TZ;
+  n = n == null ? 7 : n;
+  const today = new Intl.DateTimeFormat("en-CA", { timeZone: tz }).format(now);
+  const dates = [];
+  for (let i = n; i >= 1; i--) dates.push(addCalendarDays(today, -i));
+  return dates;
+}
+
+function isoWeekIdFromParts(parts) {
+  const isoDow = parts.dow === 0 ? 7 : parts.dow;
+  const utc = Date.UTC(parts.year, parts.month - 1, parts.day);
+  const thu = new Date(utc + (4 - isoDow) * 86400000);
+  const y = thu.getUTCFullYear();
+  const jan4 = new Date(Date.UTC(y, 0, 4));
+  const jan4Iso = jan4.getUTCDay() === 0 ? 7 : jan4.getUTCDay();
+  const week1Mon = Date.UTC(y, 0, 4) - (jan4Iso - 1) * 86400000;
+  const week = 1 + Math.round(
+    (Date.UTC(y, thu.getUTCMonth(), thu.getUTCDate()) - week1Mon) / 604800000);
+  return y + "-W" + String(week).padStart(2, "0");
+}
+
+function isoWeekId(now, tz) {
+  tz = tz || DIGEST_TZ;
+  return isoWeekIdFromParts(zonedParts(now, tz));
+}
+
+function readerTz(pref) {
+  return (pref && pref.timezone) || DEFAULT_TZ;
+}
+
+function readerWeekId(pref, now) {
+  let tz = readerTz(pref);
+  let parts;
+  try { parts = zonedParts(now, tz); }
+  catch (e) { parts = zonedParts(now, DEFAULT_TZ); }
+  return isoWeekIdFromParts(parts);
+}
+
 function readerDue(pref, now, isoWeek) {
   if (!pref || pref.weekly === false) return false;
-  if (isoWeek && pref.last_sent_week === isoWeek) return false;
-  let tz = pref.timezone || DEFAULT_TZ;
+  const weekId = isoWeek || readerWeekId(pref, now);
+  if (weekId && pref.last_sent_week === weekId) return false;
+  let tz = readerTz(pref);
   let parts;
   try { parts = zonedParts(now, tz); }
   catch (e) { parts = zonedParts(now, DEFAULT_TZ); }
@@ -69,14 +123,116 @@ function readerDue(pref, now, isoWeek) {
   return nowMin >= wantMin;
 }
 
-export { SLOT_HOURS, readerDue };
+function weekLabel(startYmd, endYmd) {
+  const [sy, sm, sd] = startYmd.split("-").map(Number);
+  const [ey, em, ed] = endYmd.split("-").map(Number);
+  const sMonth = MONTHS[sm - 1];
+  const eMonth = MONTHS[em - 1];
+  if (sm === em && sy === ey) return sd + "\u2013" + ed + " " + sMonth + " " + sy;
+  if (sy === ey) return sd + " " + sMonth + " \u2013 " + ed + " " + eMonth + " " + ey;
+  return sd + " " + sMonth + " " + sy + " \u2013 " + ed + " " + eMonth + " " + ey;
+}
+
+function dayEntry(daysMap, dateStr, daysDir) {
+  if (daysMap && daysMap[dateStr]) return daysMap[dateStr];
+  if (!daysDir) return null;
+  const path = join(daysDir, dateStr + ".json");
+  if (!existsSync(path)) return null;
+  try {
+    const data = JSON.parse(readFileSync(path, "utf8"));
+    return data && typeof data === "object" ? data : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+function packFromDays(daysMap, dates, daysDir) {
+  const seen = new Set();
+  const merged = [];
+  for (let i = 0; i < dates.length; i++) {
+    const entry = dayEntry(daysMap, dates[i], daysDir);
+    const items = (entry && entry.items) || [];
+    for (let j = 0; j < items.length; j++) {
+      const it = items[j];
+      const url = it.url || "";
+      if (!url || seen.has(url)) continue;
+      seen.add(url);
+      merged.push(it);
+    }
+  }
+  merged.sort((a, b) => (Number(b.score) || 0) - (Number(a.score) || 0));
+  const ranked = merged.map((it) => Object.assign({}, it, {
+    id: it.id || it.url,
+    sources: it.sources && it.sources.length ? it.sources : ["unknown"],
+  }));
+  const picked = diversifyItems(ranked, WEEKLY_LIMIT);
+  const urls = new Set(picked.map((p) => p.url));
+  const items = merged.filter((it) => urls.has(it.url))
+    .sort((a, b) => (Number(b.score) || 0) - (Number(a.score) || 0))
+    .slice(0, WEEKLY_LIMIT);
+
+  const candSeen = new Set();
+  const candidates = [];
+  for (let i = 0; i < dates.length; i++) {
+    const entry = dayEntry(daysMap, dates[i], daysDir);
+    const pool = (entry && (entry.candidates || entry.items)) || [];
+    for (let j = 0; j < pool.length; j++) {
+      const it = pool[j];
+      const url = it.url || "";
+      if (!url || candSeen.has(url)) continue;
+      candSeen.add(url);
+      candidates.push(it);
+    }
+  }
+  candidates.sort((a, b) => (Number(b.score) || 0) - (Number(a.score) || 0));
+  const cands = candidates.slice(0, CANDIDATE_LIMIT);
+  const candUrls = new Set(cands.map((it) => it.url));
+  for (let i = 0; i < items.length; i++) {
+    if (!candUrls.has(items[i].url)) cands.push(items[i]);
+  }
+
+  const start = dates[0] || "";
+  const end = dates[dates.length - 1] || "";
+  const label = start && end ? weekLabel(start, end) : "The last seven days";
+  return {
+    label: label,
+    week_label: label,
+    period_start: start,
+    period_end: end,
+    week_start: start,
+    week_end: end,
+    items: items,
+    candidates: cands,
+  };
+}
+
+function loadDaysMap(daysDir) {
+  const indexPath = join(daysDir, "index.json");
+  if (!existsSync(indexPath)) return {};
+  try {
+    const data = JSON.parse(readFileSync(indexPath, "utf8"));
+    if (data && data.days && typeof data.days === "object") return data.days;
+  } catch (e) {}
+  return {};
+}
+
+function loadRollingPack(daysDir, now) {
+  const dates = lastClosedDates(now, DIGEST_TZ, 7);
+  return packFromDays(loadDaysMap(daysDir), dates, daysDir);
+}
+
+export {
+  SLOT_HOURS, readerDue, lastClosedDates, packFromDays, weekLabel, isoWeekId,
+  readerWeekId, render, WEEKLY_LIMIT, CANDIDATE_LIMIT,
+};
 
 function parseArgs(argv) {
-  const args = { dryRun: false, digest: "state/digest.json", out: "out", profile: "", to: "" };
+  const args = { dryRun: false, digest: "", days: "", out: "out", profile: "", to: "" };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--dry-run") args.dryRun = true;
     else if (a === "--digest") args.digest = argv[++i];
+    else if (a === "--days") args.days = argv[++i];
     else if (a === "--out") args.out = argv[++i];
     else if (a === "--profile") args.profile = argv[++i];
     else if (a === "--to") args.to = argv[++i];
@@ -120,16 +276,6 @@ function normalizeProfile(p) {
   return out;
 }
 
-function todayIn(tz) {
-  return new Intl.DateTimeFormat("en-CA", { timeZone: tz }).format(new Date());
-}
-
-// Only a finished week counts as sent, so a midweek test run never blocks Monday's email.
-function weekComplete(pack) {
-  const end = pack.period_end || pack.week_end;
-  return !!end && end < todayIn(DIGEST_TZ);
-}
-
 function rankFor(profile, pack) {
   const picks = mapItems(pack.items);
   const candidates = pack.candidates && pack.candidates.length ? mapItems(pack.candidates) : picks.slice();
@@ -157,12 +303,11 @@ function itemMetaHtml(it) {
   return bits.join(" &middot; ");
 }
 
-function render(pack, ranked, unsubUrl, complete) {
-  const label = pack.label || pack.week_label || "This week";
-  const issue = complete ? "Last week\u2019s issue" : "This week\u2019s issue so far";
+function render(pack, ranked, unsubUrl) {
+  const label = pack.label || pack.week_label || "The last seven days";
   const intro = ranked.personal
-    ? issue + ", ranked by your taste."
-    : issue + " as published. Rate a few stories on Kerning and next week\u2019s email follows your taste.";
+    ? "The last seven days, ranked by your taste."
+    : "The last seven days as published. Rate a few stories on Kerning and next week\u2019s email follows your taste.";
   const subject = "Kerning \u00b7 " + label;
 
   const rows = ranked.items.map((it, i) => `
@@ -254,10 +399,9 @@ async function loadPrefs() {
   }
 }
 
-async function loadReaders(pack) {
+async function loadReaders(now) {
   const prefs = await loadPrefs();
-  const now = new Date();
-  const due = prefs.filter((r) => readerDue(r, now, pack.iso_week));
+  const due = prefs.filter((r) => readerDue(r, now));
   if (!due.length) return [];
   const ids = due.map((r) => r.user_id).join(",");
   const rows = await supabase("profiles?select=user_id,data&user_id=in.(" + ids + ")");
@@ -266,6 +410,7 @@ async function loadReaders(pack) {
   return due.map((r) => ({
     userId: r.user_id,
     email: r.email,
+    timezone: r.timezone,
     unsubUrl: SITE_URL + "?unsubscribe=" + encodeURIComponent(r.unsub_token),
     profile: byId[r.user_id] || {},
   }));
@@ -289,24 +434,35 @@ async function send(reader, mail) {
   if (!res.ok) throw new Error("Resend " + res.status + " " + (await res.text()));
 }
 
+function loadPack(args, now) {
+  if (args.days) {
+    return loadRollingPack(args.days, now);
+  }
+  if (args.digest) {
+    const digest = JSON.parse(readFileSync(args.digest, "utf8"));
+    return (digest.cadences || {}).weekly;
+  }
+  throw new Error("Pass --days state/days (or --digest for a local preview).");
+}
+
 async function main() {
   const args = parseArgs(process.argv.slice(2));
-  const digest = JSON.parse(readFileSync(args.digest, "utf8"));
-  const pack = (digest.cadences || {}).weekly;
+  const now = new Date();
+  const pack = loadPack(args, now);
   if (!pack || !(pack.items || []).length) {
-    console.log("No weekly issue in " + args.digest + "; nothing to send.");
+    const src = args.days || args.digest;
+    console.log("No closed days in " + src + "; nothing to send.");
     return;
   }
-  const complete = weekComplete(pack);
-  console.log("Issue " + (pack.iso_week || "?") + " (" + (pack.label || "") + "), "
-    + (complete ? "complete" : "still running"));
+  console.log("Issue " + (pack.period_start || "?") + " \u2013 " + (pack.period_end || "")
+    + " (" + (pack.label || "") + "), " + pack.items.length + " picks");
 
   let readers;
   if (args.profile || args.to) {
     const profile = args.profile ? JSON.parse(readFileSync(args.profile, "utf8")) : {};
     readers = [{ userId: "local", email: args.to || "you@example.com", unsubUrl: "", profile: profile }];
   } else {
-    readers = await loadReaders(pack);
+    readers = await loadReaders(now);
   }
   const total = readers.length;
   if (ONLY) readers = readers.filter((r) => String(r.email).toLowerCase() === ONLY);
@@ -319,7 +475,7 @@ async function main() {
     const ranked = rankFor(reader.profile, pack);
     // Previews can land in a public artifact, so they never carry a real token.
     const unsubUrl = args.dryRun && reader.unsubUrl ? SITE_URL + "?unsubscribe=preview" : reader.unsubUrl;
-    const mail = render(pack, ranked, unsubUrl, complete);
+    const mail = render(pack, ranked, unsubUrl);
     const tag = "reader " + (i + 1) + (ranked.personal ? " (personal)" : " (published picks)");
     if (args.dryRun) {
       const base = join(args.out, "weekly-" + (i + 1));
@@ -330,11 +486,12 @@ async function main() {
     }
     try {
       await send(reader, mail);
-      if (pack.iso_week && reader.userId !== "local") {
+      const weekId = readerWeekId(reader, now);
+      if (weekId && reader.userId !== "local") {
         await supabase("email_prefs?user_id=eq." + reader.userId, {
           method: "PATCH",
           headers: { Prefer: "return=minimal" },
-          body: JSON.stringify({ last_sent_week: pack.iso_week }),
+          body: JSON.stringify({ last_sent_week: weekId }),
         });
       }
       sent++;

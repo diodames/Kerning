@@ -41,7 +41,7 @@ jobs:
           DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: |
           set -euo pipefail
-          args=(--digest state/digest.json)
+          args=(--days state/days)
           if [ "${DRY_RUN:-false}" = "true" ]; then args+=(--dry-run --out out); fi
           node scripts/weekly_email.mjs "${args[@]}"
 

@@ -3266,7 +3266,7 @@ function rerenderAccount(focusId) {
 function accountSignedOutHTML() {
   return '<p class="note taste-primer">Keep saved stories, ratings, people, and resources on every device. '
     + "We&rsquo;ll email you a sign-in link, so there&rsquo;s no&nbsp;password.</p>"
-    + "<p class=\"note\">You&rsquo;ll get the weekly issue by email, ranked by your&nbsp;taste. Turn it off anytime.</p>"
+    + "<p class=\"note\">You&rsquo;ll get the last seven days by email, ranked by your&nbsp;taste. Turn it off anytime.</p>"
     + '<section class="tsec tsec--ruled" aria-labelledby="account-signin">'
     + '<h2 id="account-signin">Sign in</h2>'
     + '<form class="tadd" id="account-form" novalidate>'
@@ -3302,7 +3302,7 @@ function accountSignedInHTML() {
       + (lock ? " disabled" : "") + ">"
       + '<span class="chk" aria-hidden="true"><span class="chk-mark">' + CHK_MARK
       + "</span></span></span>"
-      + "<span>Get the weekly issue by email, ranked by your taste.</span></label>"
+      + "<span>Get the last seven days by email, ranked by your taste.</span></label>"
       + when
       + '<p class="note" id="account-weekly-msg" role="status">' + esc(accountMsg.weekly) + "</p>"
       + "</section>";

@@ -237,14 +237,16 @@ Authentication → Users if asked.
 
 ### Weekly email
 
-An opt-in email of the weekly issue, ranked by the reader's synced taste
-(the same `taste.js` the site uses). Readers pick a weekday and Morning,
-Afternoon, or Evening in their timezone (default Monday morning). A GitHub
-Action (`.github/workflows/weekly-email.yml`, hourly at :25) runs
-`scripts/weekly_email.mjs`, which reads `digest.json` from the `data` branch,
-loads opted-in readers due at that local time, and sends through
-[Resend](https://resend.com) (free: 3,000 emails a month, 100 a day). Each
-reader gets at most one email per issue (`iso_week`).
+An opt-in email of the last seven closed days, ranked by the reader's
+synced taste (the same `taste.js` the site uses). Readers pick a weekday
+and Morning, Afternoon, or Evening in their timezone (default Monday
+morning). A GitHub Action (`.github/workflows/weekly-email.yml`, hourly at
+:25) runs `scripts/weekly_email.mjs`, which cuts those seven days from
+`days/` on the `data` branch, loads opted-in readers due at that local
+time, and sends through [Resend](https://resend.com) (free: 3,000 emails a
+month, 100 a day). Each reader gets at most one email per ISO week
+(`last_sent_week` is the reader's week at send time). The in-app Weekly
+tab stays a Monday–Sunday magazine week.
 
 Setup:
 
@@ -317,7 +319,7 @@ email off without signing in.
 Preview locally without sending:
 
 ```bash
-node scripts/weekly_email.mjs --dry-run --digest path/to/digest.json \
+node scripts/weekly_email.mjs --dry-run --days path/to/days \
   --profile kerning-profile.json --to you@example.com
 ```
 
@@ -352,7 +354,7 @@ watches anyone and any feed you added, on top of the curated lists.
 | `index.html` | The reading app: HTML, CSS, and JS in one file, plus `taste.js` and `merge.js`. |
 | `taste.js` | Tokens, learned weights, and the personal rerank; shared with the weekly email. |
 | `merge.js` | Per-entry profile merge for sync across devices. |
-| `scripts/weekly_email.mjs` | Weekly email: personal ranking per opted-in reader, sent through Resend. |
+| `scripts/weekly_email.mjs` | Weekly email: last seven closed days, ranked per opted-in reader, sent through Resend. |
 | `app/` | Hosted FastAPI, magic-link auth, Postgres models, crawl + cut jobs. |
 | `kerning_lib/` | Windows, pool, quality gate, collect/close, Blob/local store. |
 | `kerning_lib/quality.json` | Close-time thresholds, GitHub pre-release rules, domain lists. |
