@@ -1,0 +1,319 @@
+{
+  "date": "2026-11-11",
+  "pool": 74,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 35,
+    "lexicon": 22,
+    "already_closed": 1,
+    "no_title": 2,
+    "prerelease": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.fastcompany.com/91637528/yahoo-scout-new-search-ux",
+      "title": "Yahoo is betting the house on its new AI, from search to all its services",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://namar0x0309.com/blog/2026/05/the-kind-of-ai-adoption-i-actually-believe-in/",
+      "title": "Show HN: Socialize/Presence multiplayer interaction on blog posts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50446617",
+      "title": "Ask HR: Systems Engineering's Senior Pipeline Crisis",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50447699",
+      "title": "Ask HN: Do you believe RSI is possible?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.abc.net.au/news/2026-11-11/australia-considers-criminal-charges-for-ai-companies/107368676",
+      "title": "Australia considers criminal charges for AI companies that fail to prevent harm",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://mimzie.com/",
+      "title": "Show HN: Mimzie, an agent-neutral alternative to the Claude Suite/Claude Cowork",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://yogthos.net/posts/2026-11-10-glimmer-datastar.html",
+      "title": "Rendering in batches with glimmer and Datastar",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://css-tricks.com/newsletter/whats-important-21/",
+      "title": "What’s !important Newsletter #21 - CSS-Tricks",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://graph-flow-virid.vercel.app/",
+      "title": "Show HN: GraphFlow – system design diagrams that run in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://currentsapi.services/en/blog/cut-llm-token-costs-typesafe-jev-prefiltering",
+      "title": "Cutting LLM Token Costs with Currents News API and TypeSafe Jev Pre-Filtering",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://typesafe.ai/blog/jack-jill-jev-case-study",
+      "title": "Jack and Jill Cut Candidate Screening Costs by 88% with Jev",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://codecut.ai/typesafe-jev-vs-rapidfuzz-sentence-transformers/",
+      "title": "Matching product records with a decision model",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://worrydream.com/ABriefRantOnTheFutureOfInteractionDesign/",
+      "title": "A brief rant on the future of interaction design (2011)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://commission.europa.eu/document/download/0575d59f-554f-4a9e-b54b-e6b717175809_en?filename=Proposal+for+a+Digital+Fairness+Act_0.pdf",
+      "title": "EU proposes Digital Fairness Act on dark patterns and addictive design [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.tryanvil.dev/",
+      "title": "An AI flyer designer that generates designs with code, not images",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Graham-04/filetree.app",
+      "title": "Show HN: An open-source macOS file browser built with GPUI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50455811",
+      "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/rochus-keller/Micron",
+      "title": "Show HN: Micron – Oberon with the Power of C",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://interrupt21h.github.io/perl-codemap/",
+      "title": "Show HN: Perl:CodeMap – Interactive visualization of Perl codebases",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://osullivj.github.io/nodom_ukprop/",
+      "title": "Show HN: NoDOM high performance WASM UI kit for DuckDB-WASM",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theregister.com/networks/2026/11/10/smart-meters-to-cost-the-uk-billions-2g-switch-off-means-replacing-12-13-million/5308728",
+      "title": "Smart meters to cost UK billions: 2G switch-off means replacing 12-13M",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/",
+      "title": "Hotel giant Wyndham exposed customer data after app security lapse",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/DiegoZaluski/co-sh",
+      "title": "Show HN: Cosh – An open-source AI agent orchestrator",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://earthdata.io/en",
+      "title": "Show HN: EarthData – find places to visit or live that match what you care about",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/nodo-labs-uk/attention-queue",
+      "title": "Show HN: Aq – an attention queue TUI for Claude Code",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50451569",
+      "title": "Why does Reddit want me to use the iOS app on my desktop?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.upi.com/Top_News/World-News/2026/11/11/North-Korea-revised-constitution-reunification-Naenara/2891794386175/",
+      "title": "North Korea posts revised constitution dropping reunification goal",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.reuters.com/technology/ibm-end-visa-green-card-sponsorship-most-roles-its-consulting-arm-2026-11-10/",
+      "title": "IBM ending visa and green cards in consulting division",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://zumungo.com/get-started.html",
+      "title": "Show HN: Zumungo – AI-driven home automation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://galantrixgames.itch.io/thousand-suns",
+      "title": "Show HN: Thousand Suns, a nuclear war sandbox",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.mozilla.org/security/2026/11/10/open-research-stronger-privacy-making-firefox-users-harder-to-fingerprint/",
+      "title": "Open research, stronger privacy: Making Firefox users harder to fingerprint",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/Crokily/pi-durable-bot",
+      "title": "Show HN: Pots – Open-source Grok Bot alternative, used by 6 startups for a month",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fn2.ai/claude",
+      "title": "Show HN: Connect Claude Code to 10.6M Earnings Call Embeddings with FN2 AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.papertrails.app/",
+      "title": "Show HN: Papertrails – Your personalized feed of new research papers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://game.commoncrawl.org/",
+      "title": "Show HN: Web Crawl Platformer Game",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://archive.fosdem.org/2026/schedule/event/KLAKHV-matfyz-wiki/",
+      "title": "Building a student wiki at MFF Charles University",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://deadhead.cevdet.ch/blog/what-10000-home-pages-put-in-their-head?utm_source=the-index&utm_medium=newsletter",
+      "title": "What 10,000 home pages put in their head · deadhead",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wewere.online/?utm_source=the-index&utm_medium=newsletter",
+      "title": "we were online",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theverge.com/tech/1030601/ring-drone-cam-hands-on-price-release-date-ai-pilot",
+      "title": "Ring says its flying indoor security camera is finally shipping",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://manoharys.github.io/paperwall/",
+      "title": "Paperwall: design anything, free and offline",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://buff.ly/nmfhx3t",
+      "title": "Anthropic Needs to Disclose Its Tokenomics Before Its IPO",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://zeldman.com/2026/11/11/better-day-sunshine/?utm_source=bluesky&utm_medium=jetpack_social",
+      "title": "Better Day, Sunshine",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://developer.chrome.com/blog/top-10-things-ai-gets-wrong-in-web-dev",
+      "title": "Top 10 things AI gets wrong in web development  |  Blog  |  Chrome for Developers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://goo.gle/3X1vV9o",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://shop.ingramspark.com/b/084?params=QMj9JDBXXqLvi3jMCE5MNtgQVKgWk1BTWPowEByVFiI",
+      "title": "Inclusive Design Communities",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://9to5mac.com/2026/11/03/new-ipad-mini-a20-pro-review/",
+      "title": "New iPad mini hands-on: Refreshed design, OLED display",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/nitrosend/nitromta",
+      "title": "Show HN: Rebuilding Amazon SES in Rust",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.sporadic.app/",
+      "title": "Show HN: Move more with short random exercise challenges",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50458889",
+      "title": "Platform-Capitalism on Steroids",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+      "title": "Choosing QuePaxa, an unusual consensus algorithm",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cmp3g37l566po",
+      "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50459476",
+      "title": "HackerTube, HackerBooks, and HackerBlogs are not 3 but 1 > HacksMedia",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bnl.gov/newsroom/news.php?a=123133&utm_source=join1440&utm_medium=email&utm_placement=newsletter&user_id=66c4bf745d78644b3aa57b08",
+      "title": "LZ Sees Surprising Result in Search for Dark Matter",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50456394",
+      "title": "Ask HN: What models do you use for tasks Anthropic/OpenAI don't approve of?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/lettercamp/lettercamp",
+      "title": "Show HN: Lettercamp – open-source static blog framework",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.6",
+      "title": "Carbon (IBM) — v12.0.0-alpha.6",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://www.motherjones.com/politics/2026/11/blue-texas-james-talarico-gina-hinojosa-trump-abbott-paxton-bo-french/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://nerdy.dev/www-ep259-your-ai-agents-dont-need-you-anymore",
+      "title": "WWW Ep259 Your AI Agents Dont Need You Anymore · November 10, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/building-uscreens-remote-multi-tenant-mcp-server-inside-a-rails-app",
+      "title": "Building Uscreen’s remote, multi-tenant MCP server inside a Rails app—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    }
+  ]
+}

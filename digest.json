@@ -1,163 +1,159 @@
 {
-  "generated_at": "2026-11-11T02:45:18.408826+00:00",
+  "generated_at": "2026-11-12T03:47:42.793458+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "10 November 2026",
-      "period_start": "2026-11-10",
-      "period_end": "2026-11-10",
+      "label": "11 November 2026",
+      "period_start": "2026-11-11",
+      "period_end": "2026-11-11",
       "items": [
         {
-          "id": "19e0ad177799",
-          "title": "What’s !important Newsletter #21 - CSS-Tricks",
-          "url": "https://css-tricks.com/newsletter/whats-important-21/",
-          "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
+          "id": "cb131a8252d3",
+          "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
+          "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794325538,
+          "created_at_i": 1794434912,
           "sources": [
-            "Bluesky"
+            "UX Collective"
           ],
-          "sharers": 2,
-          "score": 4.368,
+          "sharers": 0,
+          "score": 4.638,
           "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "ericwbailey.website",
-            "joshwcomeau.com"
+            "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "13783859176d",
-          "title": "Ultorg: The User Interface for Relational Databases",
-          "url": "https://www.ultorg.com/",
-          "hn": "https://news.ycombinator.com/item?id=50435898",
-          "points": 142,
-          "comments": 51,
-          "created_at_i": 1794283179,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.268,
-          "why": []
-        },
-        {
-          "id": "3f1d8afeb11e",
-          "title": "What product strategy does",
-          "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
-          "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+          "id": "ec4d0784e093",
+          "title": "There’s no better name for design systems",
+          "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+          "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794295920,
+          "created_at_i": 1794378699,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.048,
+          "score": 3.693,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "fdc5cf3a67a5",
-          "title": "State of the tech job market: late 2026",
-          "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
-          "hn": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "id": "de608394675f",
+          "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
+          "url": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794323043,
+          "created_at_i": 1794353698,
           "sources": [
-            "Lenny's Newsletter"
+            "UX Collective"
           ],
           "sharers": 0,
-          "score": 2.563,
+          "score": 3.426,
           "why": [
-            "editor's pick at Lenny's Newsletter"
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "c101175c67db",
+          "title": "2027 Product Conferences",
+          "url": "https://www.producttalk.org/2027-product-conferences/",
+          "hn": "https://www.producttalk.org/2027-product-conferences/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794405600,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "19e0ad177799",
-          "title": "What’s !important Newsletter #21 - CSS-Tricks",
-          "url": "https://css-tricks.com/newsletter/whats-important-21/",
-          "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
+          "id": "cb131a8252d3",
+          "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
+          "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794325538,
+          "created_at_i": 1794434912,
           "sources": [
-            "Bluesky"
+            "UX Collective"
           ],
-          "sharers": 2,
-          "score": 4.368,
+          "sharers": 0,
+          "score": 4.638,
           "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "ericwbailey.website",
-            "joshwcomeau.com"
+            "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "13783859176d",
-          "title": "Ultorg: The User Interface for Relational Databases",
-          "url": "https://www.ultorg.com/",
-          "hn": "https://news.ycombinator.com/item?id=50435898",
-          "points": 142,
-          "comments": 51,
-          "created_at_i": 1794283179,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.268,
-          "why": []
-        },
-        {
-          "id": "3f1d8afeb11e",
-          "title": "What product strategy does",
-          "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
-          "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
+          "id": "ec4d0784e093",
+          "title": "There’s no better name for design systems",
+          "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+          "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794295920,
+          "created_at_i": 1794378699,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.048,
+          "score": 3.693,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "fdc5cf3a67a5",
-          "title": "State of the tech job market: late 2026",
-          "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
-          "hn": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "id": "de608394675f",
+          "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
+          "url": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794323043,
+          "created_at_i": 1794353698,
           "sources": [
-            "Lenny's Newsletter"
+            "UX Collective"
           ],
           "sharers": 0,
-          "score": 2.563,
+          "score": 3.426,
           "why": [
-            "editor's pick at Lenny's Newsletter"
+            "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "3ad0c6ad6c2c",
-          "title": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
-          "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
-          "hn": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "id": "605683b389d5",
+          "title": "The bathroom flaws that infuriate every designer",
+          "url": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794319200,
+          "created_at_i": 1794435034,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.64,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "c101175c67db",
+          "title": "2027 Product Conferences",
+          "url": "https://www.producttalk.org/2027-product-conferences/",
+          "hn": "https://www.producttalk.org/2027-product-conferences/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794405600,
           "sources": [
             "Product Talk"
           ],
@@ -168,125 +164,142 @@
           ]
         },
         {
-          "id": "a3ff371a3921",
-          "title": "Please use AI",
-          "url": "https://shawnsmucker.substack.com/p/please-use-ai",
-          "hn": "https://shawnsmucker.substack.com/p/please-use-ai",
+          "id": "2cac4253f10e",
+          "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+          "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+          "hn": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794296084,
+          "created_at_i": 1794402249,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "5d7a311bf932",
+          "title": "Don’t make a human do what AI is amazing at",
+          "url": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
+          "hn": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794378914,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.382,
+          "score": 2.361,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "d368aea092f9",
-          "title": "TK",
-          "url": "https://tk.xyz/",
-          "hn": "https://tk.xyz/",
+          "id": "bc23fb41c573",
+          "title": "1 in 8 billion",
+          "url": "https://1in8b.life/en/",
+          "hn": "https://1in8b.life/en/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794295980,
+          "created_at_i": 1794378836,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.381,
+          "score": 2.36,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "8d718a4b5814",
-          "title": "Blossom carousel",
-          "url": "https://blossom-carousel.com/",
-          "hn": "https://blossom-carousel.com/",
+          "id": "0981be9212e1",
+          "title": "A family tree of software job titles",
+          "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+          "hn": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794295953,
+          "created_at_i": 1794378809,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.381,
+          "score": 2.36,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "7e23093f15fc",
-          "title": "Customer or product?",
-          "url": "https://customerorproduct.org/",
-          "hn": "https://customerorproduct.org/",
+          "id": "d8887a09bc5e",
+          "title": "The components of agent memory",
+          "url": "https://www.anthropic.com/research/components-of-agent-memory",
+          "hn": "https://www.anthropic.com/research/components-of-agent-memory",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794295869,
+          "created_at_i": 1794378731,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.381,
+          "score": 2.36,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "5f472ec10a17",
-          "title": "What being the new kid taught me about persuasion as a designer",
-          "url": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
+          "id": "502761a673da",
+          "title": "Why are we cloning Photoshop?",
+          "url": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794312558,
+          "created_at_i": 1794435642,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 2.355,
+          "score": 1.978,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "dc5d40e183a4",
-          "title": "Every new medium gets called cheating",
-          "url": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/every-new-medium-gets-called-cheating-b990d7d53c0e?source=rss----138adf9c44c---4",
+          "id": "26cce3baf7cf",
+          "title": "Every click has a price now. Who designs how that “feels”?",
+          "url": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794312546,
+          "created_at_i": 1794435319,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.688,
+          "score": 1.975,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "9353e3bfef8f",
-          "title": "Next-gen feeling comic UX, love it. nerdy.dev/ponpon-mania...",
-          "url": "https://nerdy.dev/ponpon-mania-comic-ux",
-          "hn": "https://bsky.app/profile/nerdy.dev/post/3mzwr46f7f22p",
+          "id": "970e747f5cc4",
+          "title": "Computing with CSS Layout",
+          "url": "https://noscript.ing/compute",
+          "hn": "https://bsky.app/profile/lowpoly.gg/post/3mzlexzk27k2e",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794272577,
+          "created_at_i": 1793899323,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.652,
+          "score": 1.352,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "nerdy.dev"
+            "ericwbailey.website"
           ]
         }
       ]
@@ -301,6 +314,23 @@
       "iso_week": "2026-W46",
       "items": [
         {
+          "id": "cb131a8252d3",
+          "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
+          "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794434912,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.638,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "19e0ad177799",
           "title": "What’s !important Newsletter #21 - CSS-Tricks",
           "url": "https://css-tricks.com/newsletter/whats-important-21/",
@@ -335,6 +365,23 @@
           "sharers": 0,
           "score": 4.268,
           "why": []
+        },
+        {
+          "id": "ec4d0784e093",
+          "title": "There’s no better name for design systems",
+          "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+          "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794378699,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.693,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
         },
         {
           "id": "71cdf6a87afc",
@@ -433,9 +480,43 @@
           "why": [
             "editor's pick at Lenny's Newsletter"
           ]
+        },
+        {
+          "id": "c101175c67db",
+          "title": "2027 Product Conferences",
+          "url": "https://www.producttalk.org/2027-product-conferences/",
+          "hn": "https://www.producttalk.org/2027-product-conferences/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794405600,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
         }
       ],
       "candidates": [
+        {
+          "id": "cb131a8252d3",
+          "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
+          "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794434912,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.638,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
         {
           "id": "19e0ad177799",
           "title": "What’s !important Newsletter #21 - CSS-Tricks",
@@ -473,6 +554,23 @@
           "why": []
         },
         {
+          "id": "ec4d0784e093",
+          "title": "There’s no better name for design systems",
+          "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+          "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794378699,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.693,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "71cdf6a87afc",
           "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
           "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
@@ -504,6 +602,23 @@
           "score": 3.662,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "de608394675f",
+          "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
+          "url": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794353698,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.426,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -571,6 +686,23 @@
           ]
         },
         {
+          "id": "605683b389d5",
+          "title": "The bathroom flaws that infuriate every designer",
+          "url": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794435034,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.64,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "df7b2496f434",
           "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
           "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
@@ -622,6 +754,23 @@
           ]
         },
         {
+          "id": "c101175c67db",
+          "title": "2027 Product Conferences",
+          "url": "https://www.producttalk.org/2027-product-conferences/",
+          "hn": "https://www.producttalk.org/2027-product-conferences/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794405600,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
           "id": "4e8190527691",
           "title": "How this founder built a better Duolingo with Codex | William Imoh",
           "url": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
@@ -629,6 +778,23 @@
           "points": 0,
           "comments": 0,
           "created_at_i": 1794229457,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "2cac4253f10e",
+          "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+          "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+          "hn": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794402249,
           "sources": [
             "Lenny's Newsletter"
           ],
@@ -702,6 +868,74 @@
           ],
           "sharers": 0,
           "score": 2.381,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "5d7a311bf932",
+          "title": "Don’t make a human do what AI is amazing at",
+          "url": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
+          "hn": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794378914,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.361,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "bc23fb41c573",
+          "title": "1 in 8 billion",
+          "url": "https://1in8b.life/en/",
+          "hn": "https://1in8b.life/en/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794378836,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.36,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "0981be9212e1",
+          "title": "A family tree of software job titles",
+          "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+          "hn": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794378809,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.36,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d8887a09bc5e",
+          "title": "The components of agent memory",
+          "url": "https://www.anthropic.com/research/components-of-agent-memory",
+          "hn": "https://www.anthropic.com/research/components-of-agent-memory",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794378731,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.36,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -809,6 +1043,40 @@
           ],
           "authors": [
             "zeldman.bsky.social"
+          ]
+        },
+        {
+          "id": "502761a673da",
+          "title": "Why are we cloning Photoshop?",
+          "url": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794435642,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.978,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "26cce3baf7cf",
+          "title": "Every click has a price now. Who designs how that “feels”?",
+          "url": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794435319,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.975,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -935,6 +1203,26 @@
           "authors": [
             "ericwbailey.website"
           ]
+        },
+        {
+          "id": "970e747f5cc4",
+          "title": "Computing with CSS Layout",
+          "url": "https://noscript.ing/compute",
+          "hn": "https://bsky.app/profile/lowpoly.gg/post/3mzlexzk27k2e",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793899323,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.352,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
         }
       ]
     },
@@ -1015,6 +1303,23 @@
           ],
           "sharers": 0,
           "score": 4.778,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "cb131a8252d3",
+          "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
+          "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794434912,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.638,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -1111,23 +1416,6 @@
           "why": []
         },
         {
-          "id": "4a2fa40761c4",
-          "title": "What AI has changed in Design Systems, and what is still up to us",
-          "url": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/what-ai-has-changed-in-design-systems-and-what-is-still-up-to-us-d4e8e8f4ceb2?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793830329,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 4.107,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
           "id": "0ce29e469fa3",
           "title": "AI and the Future of the Product Role",
           "url": "https://www.svpg.com/ai-and-the-future-of-the-product-role/",
@@ -1145,18 +1433,18 @@
           ]
         },
         {
-          "id": "7269aedfdccb",
-          "title": "What does design system AI readiness mean, anyway?",
-          "url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
-          "hn": "https://seanvoisen.com/writing/design-system-ai-readiness/",
+          "id": "ec4d0784e093",
+          "title": "There’s no better name for design systems",
+          "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+          "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794200580,
+          "created_at_i": 1794378699,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.662,
+          "score": 3.693,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -1214,6 +1502,23 @@
           ],
           "sharers": 0,
           "score": 4.778,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "cb131a8252d3",
+          "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
+          "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794434912,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 4.638,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -1412,6 +1717,23 @@
           ]
         },
         {
+          "id": "ec4d0784e093",
+          "title": "There’s no better name for design systems",
+          "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+          "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794378699,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.693,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "71cdf6a87afc",
           "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
           "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
@@ -1494,6 +1816,23 @@
           "score": 3.511,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "de608394675f",
+          "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
+          "url": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794353698,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.426,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -1678,6 +2017,23 @@
           ]
         },
         {
+          "id": "605683b389d5",
+          "title": "The bathroom flaws that infuriate every designer",
+          "url": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794435034,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.64,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "687062cf80d5",
           "title": "Raising the ceiling must be earned",
           "url": "https://www.proofofconcept.pub/p/raising-the-ceiling-must-be-earned",
@@ -1798,6 +2154,23 @@
           ]
         },
         {
+          "id": "c101175c67db",
+          "title": "2027 Product Conferences",
+          "url": "https://www.producttalk.org/2027-product-conferences/",
+          "hn": "https://www.producttalk.org/2027-product-conferences/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794405600,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
           "id": "ea2c57144025",
           "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
           "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
@@ -1822,6 +2195,23 @@
           "points": 0,
           "comments": 0,
           "created_at_i": 1794229457,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "2cac4253f10e",
+          "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+          "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+          "hn": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794402249,
           "sources": [
             "Lenny's Newsletter"
           ],
@@ -1895,6 +2285,74 @@
           ],
           "sharers": 0,
           "score": 2.381,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "5d7a311bf932",
+          "title": "Don’t make a human do what AI is amazing at",
+          "url": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
+          "hn": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794378914,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.361,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "bc23fb41c573",
+          "title": "1 in 8 billion",
+          "url": "https://1in8b.life/en/",
+          "hn": "https://1in8b.life/en/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794378836,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.36,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "0981be9212e1",
+          "title": "A family tree of software job titles",
+          "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+          "hn": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794378809,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.36,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d8887a09bc5e",
+          "title": "The components of agent memory",
+          "url": "https://www.anthropic.com/research/components-of-agent-memory",
+          "hn": "https://www.anthropic.com/research/components-of-agent-memory",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794378731,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.36,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -2068,6 +2526,40 @@
           ],
           "sharers": 0,
           "score": 1.991,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "502761a673da",
+          "title": "Why are we cloning Photoshop?",
+          "url": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794435642,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.978,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "26cce3baf7cf",
+          "title": "Every click has a price now. Who designs how that “feels”?",
+          "url": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794435319,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.975,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -2427,11 +2919,48 @@
           "why": [
             "editor's pick at UX Collective"
           ]
+        },
+        {
+          "id": "970e747f5cc4",
+          "title": "Computing with CSS Layout",
+          "url": "https://noscript.ing/compute",
+          "hn": "https://bsky.app/profile/lowpoly.gg/post/3mzlexzk27k2e",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793899323,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.352,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
         }
       ]
     }
   },
   "items": [
+    {
+      "id": "cb131a8252d3",
+      "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
+      "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794434912,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 4.638,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
     {
       "id": "19e0ad177799",
       "title": "What’s !important Newsletter #21 - CSS-Tricks",
@@ -2467,6 +2996,23 @@
       "sharers": 0,
       "score": 4.268,
       "why": []
+    },
+    {
+      "id": "ec4d0784e093",
+      "title": "There’s no better name for design systems",
+      "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+      "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794378699,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.693,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
     },
     {
       "id": "71cdf6a87afc",
@@ -2564,6 +3110,23 @@
       "score": 2.563,
       "why": [
         "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "c101175c67db",
+      "title": "2027 Product Conferences",
+      "url": "https://www.producttalk.org/2027-product-conferences/",
+      "hn": "https://www.producttalk.org/2027-product-conferences/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794405600,
+      "sources": [
+        "Product Talk"
+      ],
+      "sharers": 0,
+      "score": 2.535,
+      "why": [
+        "editor's pick at Product Talk"
       ]
     }
   ],
