@@ -1,0 +1,334 @@
+{
+  "date": "2026-11-12",
+  "pool": 78,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 42,
+    "lexicon": 16,
+    "already_closed": 1,
+    "prerelease": 1,
+    "no_title": 4
+  },
+  "dropped_items": [
+    {
+      "url": "https://9to5mac.com/2026/11/03/new-ipad-mini-a20-pro-review/",
+      "title": "New iPad mini hands-on: Refreshed design, OLED display",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://acneally.vercel.app",
+      "title": "Show HN: I built a AI acne coach that helps find root cause of your acne",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/nitrosend/nitromta",
+      "title": "Show HN: Rebuilding Amazon SES in Rust",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.sporadic.app/",
+      "title": "Show HN: Move more with short random exercise challenges",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/kadirb4rut/voxadub",
+      "title": "Show HN: VoxaDub – Open-source AI video dubbing with speaker-aware voices",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50458889",
+      "title": "Platform-Capitalism on Steroids",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.cloudflare.com/choosing-quepaxa/",
+      "title": "Choosing QuePaxa, an unusual consensus algorithm",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/cmp3g37l566po",
+      "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50459476",
+      "title": "HackerTube, HackerBooks, and HackerBlogs are not 3 but 1 > HacksMedia",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.bnl.gov/newsroom/news.php?a=123133&utm_source=join1440&utm_medium=email&utm_placement=newsletter&user_id=66c4bf745d78644b3aa57b08",
+      "title": "LZ Sees Surprising Result in Search for Dark Matter",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50456394",
+      "title": "Ask HN: What models do you use for tasks Anthropic/OpenAI don't approve of?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/lettercamp/lettercamp",
+      "title": "Show HN: Lettercamp – open-source static blog framework",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ftrain.com/aboard-the-web-is-more-than-enough",
+      "title": "The Web Is More Than Enough",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+      "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.6",
+      "title": "Carbon (IBM) — v12.0.0-alpha.6",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://www.motherjones.com/politics/2026/11/blue-texas-james-talarico-gina-hinojosa-trump-abbott-paxton-bo-french/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://nerdy.dev/www-ep259-your-ai-agents-dont-need-you-anymore",
+      "title": "WWW Ep259 Your AI Agents Dont Need You Anymore · November 10, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/building-uscreens-remote-multi-tenant-mcp-server-inside-a-rails-app",
+      "title": "Building Uscreen’s remote, multi-tenant MCP server inside a Rails app—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://noautozoom.eliasf.se/",
+      "title": "Show HN: Stop Safari auto zoom on input fields",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.tripcoral.com/",
+      "title": "Show HN: TripCoral – Free itinerary and live updates from public flight data",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sproutings.app/",
+      "title": "Show HN: App to help parents find, plan, and review outings with their kids",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/DaleFranks/ramasite",
+      "title": "Show HN: Ramasite, a Self-Contained Laravel/Filament/SQLite CMS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.washingtonpost.com/obituaries/2026/11/11/richard-posner-influential-iconoclastic-federal-judge-dies-87/",
+      "title": "Richard Posner, influential and iconoclastic federal judge, dies at 87",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nrc.gov/about-nrc/news-releases/2026/26-083",
+      "title": "NRC Issues First Construction Permit in Nearly 60 Years for Gas-Cooled Reactor",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://developer.apple.com/documentation/safari-release-notes/safari-27_3-release-notes",
+      "title": "Safari 27.3 Beta Release Notes | Apple Developer Documentation",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=y1ZV2LU3-hQ",
+      "title": "I thoroughly enjoyed this conversation!",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://on.wsj.com/4ANGko3",
+      "title": "A Mystery Businessman Introduced Jensen Huang to His Paramour—Her Husband",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://buttondown.com/ericwbailey/archive/sc-244-these-techniques-shouldnt-be-proprietary/",
+      "title": "I have a weekly linkdump newsletter, and I constantly forget to promote it. Here's the latest issue: buttondown.com/ericwbailey/...",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://spectrum.ieee.org/human-centered-ai-product-design",
+      "title": "Smarter AI Product Design Centers the User's Real Needs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+      "title": "Design software reimagines everyday objects as self-aware devices",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.sam-brink.com/posts/the-font-is-the-cipher",
+      "title": "The Font Is the Cipher",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://leafpress.in/",
+      "title": "Show HN: Leafpress- a static site generator for digital gardens",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ispcol.potaroo.net/2026-11/dodnssec.html",
+      "title": "The DO's and DOn'ts of Post-Quantum DNSSEC",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/piercefreeman/trustme",
+      "title": "Show HN: Stop the app permission popups on macOS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://armincards.app/",
+      "title": "Show HN: Armin – Modern Anki alternative with prerrequisite graphs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50467717",
+      "title": "Tell HN: I'm working on original approaches to tag-based file organization",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://agaura.github.io/elevation_atlas/index.html",
+      "title": "Show HN: Interactive HDR and Wide-Gamut WebGPU Planetary Elevation Visualization",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/turri-oss/turri",
+      "title": "Show HN: Turri – a coding agent with the power of regenerative software",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://mergemax.dev",
+      "title": "Show HN: MergeMax, a monthly ranking of public merged PRs on GitHub",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apps.apple.com/redeem/?ctx=offercodes&id=6826834829&code=LAUNCH",
+      "title": "Free Fitchecks – Fitmaxxing App",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50469853",
+      "title": "Show HN: ReadyStack.dev – Bit-for-bit reproducible OSS containers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://generativeicons.com/",
+      "title": "Show HN: Open-source animated UI icons your coding agent can add to",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/ng-interactive/2026/nov/12/cfpb-consumer-financial-protection-bureau-consumers",
+      "title": "The CFPB says it's looking out for consumers. Data tells a different story",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/modcompare/",
+      "title": "Show HN: A small Firefox add-on to compare 2 similar pages",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://upstar.dev/",
+      "title": "Show HN: Upstar, GitHub projects ranked by velocity in each topics",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/vanviegen/tps#tps",
+      "title": "Show HN: TPS – My highly productive agent manager",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://plot.nostock.studio/",
+      "title": "Show HN: Plot, a 3D project tracker in your Chrome new tab",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50469011",
+      "title": "Show HN: DeployAngel – A verdict in ~20 minutes if a deploy broke production",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html",
+      "title": "Chicago schools tell Google they'd rather lose Search than be forced to use AI",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ploum.net/2026-11-12-anti-marketing-gemini.html",
+      "title": "The anti-marketing aspect of the Gemini network",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ridiculouslyinteresting.com/2011/11/07/women-laughing-alone-with-salad-2/",
+      "title": "Women Laughing Alone With Salad",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "title": "NVIDIA Announces CEO Transition",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.youtube.com/live/jOAMnVX_eMA?is=LpC89W19ReQXPBaW",
+      "title": "SS United States Sinking",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://stuffandnonsense.co.uk/books",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://zero.rocicorp.dev/docs/release-notes/1.12",
+      "title": "Zero 1.12",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/nodo-labs-uk/socratui",
+      "title": "Show HN: Socratui – A Socratic Tutor for the Terminal",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/bujna94/infinityTerminal",
+      "title": "Show HN: Infinity Terminal – a native macOS terminal with endless columns",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pokerdiary.app/g/demo",
+      "title": "Show HN: Poker Diary – replace your home game's spreadsheet and group-chat poll",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50472636",
+      "title": "Show HN: A Slack-like GitHub client for managing PRs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/cerulion-inc/cerulion",
+      "title": "Show HN: Cerulion – ROS 2-compatible robotics runtime with multi-process replay",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://research.veryserious.systems/w-hat-the-fx-infrastructure-re-use-on-the-biggest-github-action-attack-ever/",
+      "title": "W(hat the) FX: Infrastructure re-use on the biggest GitHub action attack?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=W4PIkmjwGsQ",
+      "title": "Investigating The President",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://skillmd.com/category/design-systems",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://github.com/sponsors/csstools",
+      "title": "",
+      "reason": "no_title"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T03:47:42.787343+00:00",
+  "updated_at": "2026-11-13T03:23:49.509864+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -5977,6 +5977,347 @@
         "already_closed": 1,
         "no_title": 2,
         "prerelease": 1
+      }
+    },
+    "2026-11-12": {
+      "items": [
+        {
+          "id": "b5472761e180",
+          "title": "Creating Diagrams and Graphs Using Modern CSS",
+          "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
+          "hn": "https://lobste.rs/s/itpaba/creating_diagrams_graphs_using_modern",
+          "points": 5,
+          "comments": 2,
+          "created_at_i": 1794486027,
+          "sources": [
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 5.859,
+          "why": [
+            "picked up by Lobsters and Bluesky"
+          ],
+          "authors": [
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "ba65e70ece68",
+          "title": "Design is a search problem",
+          "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+          "hn": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482787,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.804,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "4e85d964a8c0",
+          "title": "I made a film in Excel",
+          "url": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
+          "hn": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482626,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.469,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "3b77e75bc21c",
+          "title": "State of JavaScript 2026",
+          "url": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
+          "hn": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482515,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.469,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "b5472761e180",
+          "title": "Creating Diagrams and Graphs Using Modern CSS",
+          "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
+          "hn": "https://lobste.rs/s/itpaba/creating_diagrams_graphs_using_modern",
+          "points": 5,
+          "comments": 2,
+          "created_at_i": 1794486027,
+          "sources": [
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 5.859,
+          "why": [
+            "picked up by Lobsters and Bluesky"
+          ],
+          "authors": [
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "ba65e70ece68",
+          "title": "Design is a search problem",
+          "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+          "hn": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482787,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.804,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "4e85d964a8c0",
+          "title": "I made a film in Excel",
+          "url": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
+          "hn": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482626,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.469,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "3b77e75bc21c",
+          "title": "State of JavaScript 2026",
+          "url": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
+          "hn": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482515,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.469,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "cca06479f9a4",
+          "title": "By taking away",
+          "url": "https://haydenbleasel.com/taking-away",
+          "hn": "https://haydenbleasel.com/taking-away",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482424,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.468,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "ebb2101084be",
+          "title": "Should You Actually Add AI To That? A Four-Question Audit For Product Teams",
+          "url": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+          "hn": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794477600,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 2.436,
+          "why": [
+            "editor's pick at Smashing Magazine"
+          ]
+        },
+        {
+          "id": "605683b389d5",
+          "title": "The bathroom flaws that infuriate every designer",
+          "url": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794435034,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.069,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "0c849b5f2365",
+          "title": "Band-aid accessibility · Eric Eggert",
+          "url": "https://yatil.net/blog/band-aid-accessibility",
+          "hn": "https://bsky.app/profile/ericwbailey.website/post/3n24u75tjy22y",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794499785,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.992,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "6482149e82df",
+          "title": "Design Systems Agent Skills · SkillMD",
+          "url": "https://skillmd.com/category/design-systems?sort=installs",
+          "hn": "https://bsky.app/profile/pjonori.com/post/3n23cjgfekk22",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794446442,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.991,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "22217a5feec3",
+          "title": "WCAG Success Criteria and Conformance October and November 2026 – OZeWAI",
+          "url": "https://ozewai.org/blog/local-events/wcag-success-criteria-and-conformance-15-october-2026/",
+          "hn": "https://bsky.app/profile/tetralogical.com/post/3n246f7vzhc2e",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794476366,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.828,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "sarasoueidan.com"
+          ]
+        },
+        {
+          "id": "4fbbe7546139",
+          "title": "The AI mind tax that afflicts those who use AI best",
+          "url": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482080,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.666,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "502761a673da",
+          "title": "Why are we cloning Photoshop?",
+          "url": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794435642,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.405,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "26cce3baf7cf",
+          "title": "Every click has a price now. Who designs how that “feels”?",
+          "url": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794435319,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.403,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "824726b9e14f",
+          "title": "animation? where how why now nerdy.dev/animation-ev...",
+          "url": "https://nerdy.dev/animation-evolution",
+          "hn": "https://bsky.app/profile/nerdy.dev/post/3n23j6glwis2p",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794453589,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.362,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "nerdy.dev"
+          ]
+        }
+      ],
+      "pool": 78,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 42,
+        "lexicon": 16,
+        "already_closed": 1,
+        "prerelease": 1,
+        "no_title": 4
       }
     }
   }

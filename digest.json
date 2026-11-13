@@ -1,132 +1,191 @@
 {
-  "generated_at": "2026-11-12T03:47:42.793458+00:00",
+  "generated_at": "2026-11-13T03:23:49.516869+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "11 November 2026",
-      "period_start": "2026-11-11",
-      "period_end": "2026-11-11",
+      "label": "12 November 2026",
+      "period_start": "2026-11-12",
+      "period_end": "2026-11-12",
       "items": [
         {
-          "id": "cb131a8252d3",
-          "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
-          "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794434912,
+          "id": "b5472761e180",
+          "title": "Creating Diagrams and Graphs Using Modern CSS",
+          "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
+          "hn": "https://lobste.rs/s/itpaba/creating_diagrams_graphs_using_modern",
+          "points": 5,
+          "comments": 2,
+          "created_at_i": 1794486027,
           "sources": [
-            "UX Collective"
+            "Lobsters",
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 4.638,
+          "sharers": 1,
+          "score": 5.859,
           "why": [
-            "editor's pick at UX Collective"
+            "picked up by Lobsters and Bluesky"
+          ],
+          "authors": [
+            "joshwcomeau.com"
           ]
         },
         {
-          "id": "ec4d0784e093",
-          "title": "There’s no better name for design systems",
-          "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
-          "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+          "id": "ba65e70ece68",
+          "title": "Design is a search problem",
+          "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+          "hn": "https://mattstromawn.com/writing/design-is-a-search-problem/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794378699,
+          "created_at_i": 1794482787,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.693,
+          "score": 2.804,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "de608394675f",
-          "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
-          "url": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
+          "id": "4e85d964a8c0",
+          "title": "I made a film in Excel",
+          "url": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
+          "hn": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794353698,
+          "created_at_i": 1794482626,
           "sources": [
-            "UX Collective"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.426,
+          "score": 2.469,
           "why": [
-            "editor's pick at UX Collective"
+            "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "c101175c67db",
-          "title": "2027 Product Conferences",
-          "url": "https://www.producttalk.org/2027-product-conferences/",
-          "hn": "https://www.producttalk.org/2027-product-conferences/",
+          "id": "3b77e75bc21c",
+          "title": "State of JavaScript 2026",
+          "url": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
+          "hn": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794405600,
+          "created_at_i": 1794482515,
           "sources": [
-            "Product Talk"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.535,
+          "score": 2.469,
           "why": [
-            "editor's pick at Product Talk"
+            "editor's pick at Sidebar"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "cb131a8252d3",
-          "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
-          "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794434912,
+          "id": "b5472761e180",
+          "title": "Creating Diagrams and Graphs Using Modern CSS",
+          "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
+          "hn": "https://lobste.rs/s/itpaba/creating_diagrams_graphs_using_modern",
+          "points": 5,
+          "comments": 2,
+          "created_at_i": 1794486027,
           "sources": [
-            "UX Collective"
+            "Lobsters",
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 4.638,
+          "sharers": 1,
+          "score": 5.859,
           "why": [
-            "editor's pick at UX Collective"
+            "picked up by Lobsters and Bluesky"
+          ],
+          "authors": [
+            "joshwcomeau.com"
           ]
         },
         {
-          "id": "ec4d0784e093",
-          "title": "There’s no better name for design systems",
-          "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
-          "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
+          "id": "ba65e70ece68",
+          "title": "Design is a search problem",
+          "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+          "hn": "https://mattstromawn.com/writing/design-is-a-search-problem/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794378699,
+          "created_at_i": 1794482787,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.693,
+          "score": 2.804,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "de608394675f",
-          "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
-          "url": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
+          "id": "4e85d964a8c0",
+          "title": "I made a film in Excel",
+          "url": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
+          "hn": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794353698,
+          "created_at_i": 1794482626,
           "sources": [
-            "UX Collective"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.426,
+          "score": 2.469,
           "why": [
-            "editor's pick at UX Collective"
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "3b77e75bc21c",
+          "title": "State of JavaScript 2026",
+          "url": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
+          "hn": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482515,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.469,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "cca06479f9a4",
+          "title": "By taking away",
+          "url": "https://haydenbleasel.com/taking-away",
+          "hn": "https://haydenbleasel.com/taking-away",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482424,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.468,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "ebb2101084be",
+          "title": "Should You Actually Add AI To That? A Four-Question Audit For Product Teams",
+          "url": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+          "hn": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794477600,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 2.436,
+          "why": [
+            "editor's pick at Smashing Magazine"
           ]
         },
         {
@@ -141,111 +200,86 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 2.64,
+          "score": 2.069,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "c101175c67db",
-          "title": "2027 Product Conferences",
-          "url": "https://www.producttalk.org/2027-product-conferences/",
-          "hn": "https://www.producttalk.org/2027-product-conferences/",
+          "id": "0c849b5f2365",
+          "title": "Band-aid accessibility · Eric Eggert",
+          "url": "https://yatil.net/blog/band-aid-accessibility",
+          "hn": "https://bsky.app/profile/ericwbailey.website/post/3n24u75tjy22y",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794405600,
+          "created_at_i": 1794499785,
           "sources": [
-            "Product Talk"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 2.535,
+          "sharers": 1,
+          "score": 1.992,
           "why": [
-            "editor's pick at Product Talk"
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
           ]
         },
         {
-          "id": "2cac4253f10e",
-          "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
-          "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
-          "hn": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+          "id": "6482149e82df",
+          "title": "Design Systems Agent Skills · SkillMD",
+          "url": "https://skillmd.com/category/design-systems?sort=installs",
+          "hn": "https://bsky.app/profile/pjonori.com/post/3n23cjgfekk22",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794402249,
+          "created_at_i": 1794446442,
           "sources": [
-            "Lenny's Newsletter"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 2.511,
+          "sharers": 1,
+          "score": 1.991,
           "why": [
-            "editor's pick at Lenny's Newsletter"
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
           ]
         },
         {
-          "id": "5d7a311bf932",
-          "title": "Don’t make a human do what AI is amazing at",
-          "url": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
-          "hn": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
+          "id": "22217a5feec3",
+          "title": "WCAG Success Criteria and Conformance October and November 2026 – OZeWAI",
+          "url": "https://ozewai.org/blog/local-events/wcag-success-criteria-and-conformance-15-october-2026/",
+          "hn": "https://bsky.app/profile/tetralogical.com/post/3n246f7vzhc2e",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794378914,
+          "created_at_i": 1794476366,
           "sources": [
-            "Sidebar"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 2.361,
+          "sharers": 1,
+          "score": 1.828,
           "why": [
-            "editor's pick at Sidebar"
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "sarasoueidan.com"
           ]
         },
         {
-          "id": "bc23fb41c573",
-          "title": "1 in 8 billion",
-          "url": "https://1in8b.life/en/",
-          "hn": "https://1in8b.life/en/",
+          "id": "4fbbe7546139",
+          "title": "The AI mind tax that afflicts those who use AI best",
+          "url": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794378836,
+          "created_at_i": 1794482080,
           "sources": [
-            "Sidebar"
+            "UX Collective"
           ],
           "sharers": 0,
-          "score": 2.36,
+          "score": 1.666,
           "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "0981be9212e1",
-          "title": "A family tree of software job titles",
-          "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-          "hn": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378809,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.36,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "d8887a09bc5e",
-          "title": "The components of agent memory",
-          "url": "https://www.anthropic.com/research/components-of-agent-memory",
-          "hn": "https://www.anthropic.com/research/components-of-agent-memory",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378731,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.36,
-          "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -260,7 +294,7 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.978,
+          "score": 1.405,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -277,29 +311,29 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.975,
+          "score": 1.403,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "970e747f5cc4",
-          "title": "Computing with CSS Layout",
-          "url": "https://noscript.ing/compute",
-          "hn": "https://bsky.app/profile/lowpoly.gg/post/3mzlexzk27k2e",
+          "id": "824726b9e14f",
+          "title": "animation? where how why now nerdy.dev/animation-ev...",
+          "url": "https://nerdy.dev/animation-evolution",
+          "hn": "https://bsky.app/profile/nerdy.dev/post/3n23j6glwis2p",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1793899323,
+          "created_at_i": 1794453589,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.352,
+          "score": 1.362,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "ericwbailey.website"
+            "nerdy.dev"
           ]
         }
       ]
@@ -313,6 +347,27 @@
       "week_label": "9–15 November 2026",
       "iso_week": "2026-W46",
       "items": [
+        {
+          "id": "b5472761e180",
+          "title": "Creating Diagrams and Graphs Using Modern CSS",
+          "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
+          "hn": "https://lobste.rs/s/itpaba/creating_diagrams_graphs_using_modern",
+          "points": 5,
+          "comments": 2,
+          "created_at_i": 1794486027,
+          "sources": [
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 5.859,
+          "why": [
+            "picked up by Lobsters and Bluesky"
+          ],
+          "authors": [
+            "joshwcomeau.com"
+          ]
+        },
         {
           "id": "cb131a8252d3",
           "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
@@ -448,6 +503,23 @@
           "sharers": 0,
           "score": 3.024,
           "why": []
+        },
+        {
+          "id": "ba65e70ece68",
+          "title": "Design is a search problem",
+          "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+          "hn": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482787,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.804,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
         },
         {
           "id": "dc54a120bc62",
@@ -480,26 +552,30 @@
           "why": [
             "editor's pick at Lenny's Newsletter"
           ]
-        },
-        {
-          "id": "c101175c67db",
-          "title": "2027 Product Conferences",
-          "url": "https://www.producttalk.org/2027-product-conferences/",
-          "hn": "https://www.producttalk.org/2027-product-conferences/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794405600,
-          "sources": [
-            "Product Talk"
-          ],
-          "sharers": 0,
-          "score": 2.535,
-          "why": [
-            "editor's pick at Product Talk"
-          ]
         }
       ],
       "candidates": [
+        {
+          "id": "b5472761e180",
+          "title": "Creating Diagrams and Graphs Using Modern CSS",
+          "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
+          "hn": "https://lobste.rs/s/itpaba/creating_diagrams_graphs_using_modern",
+          "points": 5,
+          "comments": 2,
+          "created_at_i": 1794486027,
+          "sources": [
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 5.859,
+          "why": [
+            "picked up by Lobsters and Bluesky"
+          ],
+          "authors": [
+            "joshwcomeau.com"
+          ]
+        },
         {
           "id": "cb131a8252d3",
           "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
@@ -652,6 +728,23 @@
           "sharers": 0,
           "score": 3.024,
           "why": []
+        },
+        {
+          "id": "ba65e70ece68",
+          "title": "Design is a search problem",
+          "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+          "hn": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482787,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.804,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
         },
         {
           "id": "dc54a120bc62",
@@ -802,6 +895,74 @@
           "score": 2.511,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "4e85d964a8c0",
+          "title": "I made a film in Excel",
+          "url": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
+          "hn": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482626,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.469,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "3b77e75bc21c",
+          "title": "State of JavaScript 2026",
+          "url": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
+          "hn": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482515,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.469,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "cca06479f9a4",
+          "title": "By taking away",
+          "url": "https://haydenbleasel.com/taking-away",
+          "hn": "https://haydenbleasel.com/taking-away",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482424,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.468,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "ebb2101084be",
+          "title": "Should You Actually Add AI To That? A Four-Question Audit For Product Teams",
+          "url": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+          "hn": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794477600,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 2.436,
+          "why": [
+            "editor's pick at Smashing Magazine"
           ]
         },
         {
@@ -1046,6 +1207,46 @@
           ]
         },
         {
+          "id": "0c849b5f2365",
+          "title": "Band-aid accessibility · Eric Eggert",
+          "url": "https://yatil.net/blog/band-aid-accessibility",
+          "hn": "https://bsky.app/profile/ericwbailey.website/post/3n24u75tjy22y",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794499785,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.992,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "6482149e82df",
+          "title": "Design Systems Agent Skills · SkillMD",
+          "url": "https://skillmd.com/category/design-systems?sort=installs",
+          "hn": "https://bsky.app/profile/pjonori.com/post/3n23cjgfekk22",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794446442,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.991,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
           "id": "502761a673da",
           "title": "Why are we cloning Photoshop?",
           "url": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
@@ -1077,6 +1278,26 @@
           "score": 1.975,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "22217a5feec3",
+          "title": "WCAG Success Criteria and Conformance October and November 2026 – OZeWAI",
+          "url": "https://ozewai.org/blog/local-events/wcag-success-criteria-and-conformance-15-october-2026/",
+          "hn": "https://bsky.app/profile/tetralogical.com/post/3n246f7vzhc2e",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794476366,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.828,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "sarasoueidan.com"
           ]
         },
         {
@@ -1165,6 +1386,23 @@
           ]
         },
         {
+          "id": "4fbbe7546139",
+          "title": "The AI mind tax that afflicts those who use AI best",
+          "url": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482080,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.666,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "9353e3bfef8f",
           "title": "Next-gen feeling comic UX, love it. nerdy.dev/ponpon-mania...",
           "url": "https://nerdy.dev/ponpon-mania-comic-ux",
@@ -1202,6 +1440,26 @@
           ],
           "authors": [
             "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "824726b9e14f",
+          "title": "animation? where how why now nerdy.dev/animation-ev...",
+          "url": "https://nerdy.dev/animation-evolution",
+          "hn": "https://bsky.app/profile/nerdy.dev/post/3n23j6glwis2p",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794453589,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.362,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "nerdy.dev"
           ]
         },
         {
@@ -1271,6 +1529,27 @@
           ],
           "authors": [
             "jensimmons.bsky.social"
+          ]
+        },
+        {
+          "id": "b5472761e180",
+          "title": "Creating Diagrams and Graphs Using Modern CSS",
+          "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
+          "hn": "https://lobste.rs/s/itpaba/creating_diagrams_graphs_using_modern",
+          "points": 5,
+          "comments": 2,
+          "created_at_i": 1794486027,
+          "sources": [
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 5.859,
+          "why": [
+            "picked up by Lobsters and Bluesky"
+          ],
+          "authors": [
+            "joshwcomeau.com"
           ]
         },
         {
@@ -1431,23 +1710,6 @@
           "why": [
             "editor's pick at SVPG"
           ]
-        },
-        {
-          "id": "ec4d0784e093",
-          "title": "There’s no better name for design systems",
-          "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
-          "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378699,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.693,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
         }
       ],
       "candidates": [
@@ -1470,6 +1732,27 @@
           ],
           "authors": [
             "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "b5472761e180",
+          "title": "Creating Diagrams and Graphs Using Modern CSS",
+          "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
+          "hn": "https://lobste.rs/s/itpaba/creating_diagrams_graphs_using_modern",
+          "points": 5,
+          "comments": 2,
+          "created_at_i": 1794486027,
+          "sources": [
+            "Lobsters",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 5.859,
+          "why": [
+            "picked up by Lobsters and Bluesky"
+          ],
+          "authors": [
+            "joshwcomeau.com"
           ]
         },
         {
@@ -1953,6 +2236,23 @@
           "why": []
         },
         {
+          "id": "ba65e70ece68",
+          "title": "Design is a search problem",
+          "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+          "hn": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482787,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.804,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "08fddc36e5fe",
           "title": "IRA Velinsky – Commodore's Industrial Designer",
           "url": "https://www.commodore.ca/commodore-history/ira-velinsky-commodores-amazing-industrial-designer/",
@@ -2219,6 +2519,74 @@
           "score": 2.511,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "4e85d964a8c0",
+          "title": "I made a film in Excel",
+          "url": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
+          "hn": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482626,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.469,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "3b77e75bc21c",
+          "title": "State of JavaScript 2026",
+          "url": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
+          "hn": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482515,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.469,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "cca06479f9a4",
+          "title": "By taking away",
+          "url": "https://haydenbleasel.com/taking-away",
+          "hn": "https://haydenbleasel.com/taking-away",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482424,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.468,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "ebb2101084be",
+          "title": "Should You Actually Add AI To That? A Four-Question Audit For Product Teams",
+          "url": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+          "hn": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794477600,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 2.436,
+          "why": [
+            "editor's pick at Smashing Magazine"
           ]
         },
         {
@@ -2514,6 +2882,26 @@
           ]
         },
         {
+          "id": "0c849b5f2365",
+          "title": "Band-aid accessibility · Eric Eggert",
+          "url": "https://yatil.net/blog/band-aid-accessibility",
+          "hn": "https://bsky.app/profile/ericwbailey.website/post/3n24u75tjy22y",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794499785,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.992,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
           "id": "d9e15090a2b1",
           "title": "After the AI bubble: a manifesto",
           "url": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
@@ -2528,6 +2916,26 @@
           "score": 1.991,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "6482149e82df",
+          "title": "Design Systems Agent Skills · SkillMD",
+          "url": "https://skillmd.com/category/design-systems?sort=installs",
+          "hn": "https://bsky.app/profile/pjonori.com/post/3n23cjgfekk22",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794446442,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.991,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
           ]
         },
         {
@@ -2619,6 +3027,26 @@
           ],
           "authors": [
             "heydonworks.com"
+          ]
+        },
+        {
+          "id": "22217a5feec3",
+          "title": "WCAG Success Criteria and Conformance October and November 2026 – OZeWAI",
+          "url": "https://ozewai.org/blog/local-events/wcag-success-criteria-and-conformance-15-october-2026/",
+          "hn": "https://bsky.app/profile/tetralogical.com/post/3n246f7vzhc2e",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794476366,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.828,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "sarasoueidan.com"
           ]
         },
         {
@@ -2722,6 +3150,23 @@
           ],
           "sharers": 0,
           "score": 1.688,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "4fbbe7546139",
+          "title": "The AI mind tax that afflicts those who use AI best",
+          "url": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-ai-mind-tax-that-afflicts-those-who-use-ai-best-3eb67ff167d0?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794482080,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.666,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -2921,6 +3366,26 @@
           ]
         },
         {
+          "id": "824726b9e14f",
+          "title": "animation? where how why now nerdy.dev/animation-ev...",
+          "url": "https://nerdy.dev/animation-evolution",
+          "hn": "https://bsky.app/profile/nerdy.dev/post/3n23j6glwis2p",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794453589,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.362,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "nerdy.dev"
+          ]
+        },
+        {
           "id": "970e747f5cc4",
           "title": "Computing with CSS Layout",
           "url": "https://noscript.ing/compute",
@@ -2944,6 +3409,27 @@
     }
   },
   "items": [
+    {
+      "id": "b5472761e180",
+      "title": "Creating Diagrams and Graphs Using Modern CSS",
+      "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
+      "hn": "https://lobste.rs/s/itpaba/creating_diagrams_graphs_using_modern",
+      "points": 5,
+      "comments": 2,
+      "created_at_i": 1794486027,
+      "sources": [
+        "Lobsters",
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 5.859,
+      "why": [
+        "picked up by Lobsters and Bluesky"
+      ],
+      "authors": [
+        "joshwcomeau.com"
+      ]
+    },
     {
       "id": "cb131a8252d3",
       "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
@@ -3081,6 +3567,23 @@
       "why": []
     },
     {
+      "id": "ba65e70ece68",
+      "title": "Design is a search problem",
+      "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+      "hn": "https://mattstromawn.com/writing/design-is-a-search-problem/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794482787,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.804,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
       "id": "dc54a120bc62",
       "title": "Show HN: JavaScript web apps with WASM layout and GPU rendering in 280 KB",
       "url": "https://github.com/rkaehn/uniform",
@@ -3110,23 +3613,6 @@
       "score": 2.563,
       "why": [
         "editor's pick at Lenny's Newsletter"
-      ]
-    },
-    {
-      "id": "c101175c67db",
-      "title": "2027 Product Conferences",
-      "url": "https://www.producttalk.org/2027-product-conferences/",
-      "hn": "https://www.producttalk.org/2027-product-conferences/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1794405600,
-      "sources": [
-        "Product Talk"
-      ],
-      "sharers": 0,
-      "score": 2.535,
-      "why": [
-        "editor's pick at Product Talk"
       ]
     }
   ],
