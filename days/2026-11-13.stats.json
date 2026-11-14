@@ -1,0 +1,338 @@
+{
+  "date": "2026-11-13",
+  "pool": 99,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 37,
+    "lexicon": 22,
+    "no_title": 5,
+    "prerelease": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v2.0.0",
+      "title": "Flawless UI-UX Skill 2.0.0",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/nodo-labs-uk/socratui",
+      "title": "Show HN: Socratui – A Socratic Tutor for the Terminal",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/micha42-dot/uxzView",
+      "title": "Show HN: As IrfanView isn't on Linux, I've vibe-coded my own image viewer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/bujna94/infinityTerminal",
+      "title": "Show HN: Infinity Terminal – a native macOS terminal with endless columns",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pokerdiary.app/g/demo",
+      "title": "Show HN: Poker Diary – replace your home game's spreadsheet and group-chat poll",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50472636",
+      "title": "Show HN: A Slack-like GitHub client for managing PRs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://axiomstory.com",
+      "title": "Show HN: AxiomStory – Keep stories consistent across AI text, images, video",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/cerulion-inc/cerulion",
+      "title": "Show HN: Cerulion – ROS 2-compatible robotics runtime with multi-process replay",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://research.veryserious.systems/w-hat-the-fx-infrastructure-re-use-on-the-biggest-github-action-attack-ever/",
+      "title": "W(hat the) FX: Infrastructure re-use on the biggest GitHub action attack?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://activedns.net/",
+      "title": "Show HN: ActiveDNS, a free DNS search service",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=W4PIkmjwGsQ",
+      "title": "Investigating The President",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://skillmd.com/category/design-systems",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://github.com/sponsors/csstools",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://github.com/bryfur/tang-av-scaler",
+      "title": "Claude designed FPGA scaler board for 6th-gen consoles",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.malwaremustdie.org/2026/11/mmd-071-2026-kinsingbot-well-designed.html",
+      "title": "MMD-071-2026 Linux/KinsingBot a \"bad-bad\" designed botnet",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/brandrail-app/brandrail",
+      "title": "Brandrail – make Claude Code and Cursor follow your design system",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://vibeberry.io",
+      "title": "Show HN: Vibeberry.io – Font Generator, Symbols, Emoji, Lenny Faces Collection",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ilovetypography.com/2026/11/12/steven-hellers-font-of-the-month-brunner/",
+      "title": "Steven Heller's Font of the Month: Brunner",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/con-dog/clingon",
+      "title": "I let an LLM use my TUI like a user. It found multiple UX bugs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://rocketgit.com/user/catalinux/ai-drop",
+      "title": "Show HN: AI-drop project – drop traffic fast from misbehaving crawlers (AGPL)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.npr.org/2026/11/10/nx-s1-6026659/average-vehicle-price-record-high",
+      "title": "The average cost for a new vehicle in the U.S. hits a record high: over $51,000",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/graiz/kittybrowser",
+      "title": "Show HN: KittyBrowser, I built a web browser in your terminal",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sunshowers.io/posts/glue-work/",
+      "title": "Contra \"Glue work considered harmful\"",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50470809",
+      "title": "Ask HN: How do you market your consumer product",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://graphql.org/blog/2026-11-12-announcing-the-graphql-over-http-spec/",
+      "title": "Announcing the GraphQL over HTTP specification",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://shop.karthikmahadevan.com/flow-calendar",
+      "title": "Show HN: I designed my ideal wall calendar",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.leetsys.dev",
+      "title": "Show HN: Leetsys – Practice system design interviews with an AI interviewer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://soargram.io/content/908364498",
+      "title": "The System Design Roadmap for Juniors",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50481959",
+      "title": "Treating web animations as editable clips in a video timeline",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/pawlowskialex/zd1",
+      "title": "Show HN: Open-source firmware for 2011 Bowers and Wilkins Zeppelin Air",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/langfuse/langfuse/tree/main/ai-gateway",
+      "title": "Show HN: Langfuse AI Gateway, open source rust gateway to trace every LLM call",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://scenedraw.app",
+      "title": "Show HN: Scenedraw – Create multiple excalidraw scenes, backed up on GDrive",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sorleed.com/",
+      "title": "Show HN: Sorleed – Source-first React and CSS UI components for fintech",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://filemanager-cdn.mziq.com/published/3972906b-e50b-4f74-ab74-4d0d32125d11/9567a559-d20a-486e-a7ae-5c6bbc030c5e",
+      "title": "Brazil's Caixa insurer breach exposes names and tax IDs of all 7.6M customers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.analogish.app/",
+      "title": "iOS dadcam with lock screen icon, analog-ish film looks and funny shutter sounds",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.niklasroy.com/carton-clock/",
+      "title": "Show HN: Carton Clock – A working pendulum clock made from empty drink cartons",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://djangocontrolroom.com/build",
+      "title": "Show HN: Build Django Admin internal tools with your coding agent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ghmeier/agent-plan",
+      "title": "Show HN: Agent-plan a CLI that automatically commits your agent's plans",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://getairdash.com",
+      "title": "Show HN: I built SQLite databases for your agents with an Airtable view for you",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.joshka.net/cell-borders/",
+      "title": "Terminal borders that don't cost a cell",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sable.moe/en/blog/link-previews-and-you/",
+      "title": "Link Previews and You",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.7",
+      "title": "Carbon (IBM) — v12.0.0-alpha.7",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://theserotonium.app/",
+      "title": "The Serotonium — Find your new obsession",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/the-index/206/",
+      "title": "The Index: Issue #206",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22834",
+      "title": "The speakers at #FFconf have such excellent taste! 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wordpress.org/news/2026/11/wp-credits-reaches-50/",
+      "title": "WordPress Credits Welcomes More Than 50 Institutions",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://judgybaby.com/power-broker",
+      "title": "The Power Broker: A Marathon Reading | Judgy Baby",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://reut.rs/4jf34Hm",
+      "title": "Trump had urged Jensen Huang to fight for his job, New York Times reports",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.typetogether.com",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://zeldman.com/2026/11/13/diggs-this/?utm_source=bluesky&utm_medium=jetpack_social",
+      "title": "Diggs This",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://musically.com/2026/11/11/protect-ya-deck-wu-tang-clans-rza-invests-in-ayo-music-group/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/c6m24klyjr8no",
+      "title": "Microsoft profits soar days after announcing thousands of layoffs",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://allspice.io/post/how-allspice-built-a-frontier-hardware-design-agent",
+      "title": "How Allspice built a frontier hardware design agent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uxWARJ4s95Y",
+      "title": "Doctors Once Prescribed 300k IU of Vitamin D, Here's What Happened [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50489240",
+      "title": "Using LLMs outside of reflection is an anti-pattern",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fmrl.live",
+      "title": "Show HN: Host a site, content, or stream from a browser tab, served over WebRTC",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://agentic-system-lab.github.io/harness-relay/",
+      "title": "Show HN: Harness Relay – the coding agents you have, working together",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805",
+      "title": "Microsoft outage gives customers a crash course in dependence on Redmond",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://typewriter.foxipso.com",
+      "title": "Show HN: I simulated typewriters from 1926, 1970, and a 1980 IBM DisplayWriter",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tinbo.co/",
+      "title": "Show HN: Tinbo – yet another (modern) link shortener",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://portofcontext.com",
+      "title": "Show HN: Port of Context – Token efficient MCP context layer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails",
+      "title": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.cbc.ca/news/canada/app-data-privacy-9.7417814?cmp=rss",
+      "title": "We tested 6 popular apps to see what data they collect and share. Here’s what we found | CBC News",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://observablehq.com/@tmcw/drawing-with-corners",
+      "title": "",
+      "reason": "no_title"
+    }
+  ]
+}

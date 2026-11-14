@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T03:23:49.509864+00:00",
+  "updated_at": "2026-11-14T03:11:03.316250+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -6318,6 +6318,611 @@
         "already_closed": 1,
         "prerelease": 1,
         "no_title": 4
+      }
+    },
+    "2026-11-13": {
+      "items": [
+        {
+          "id": "a97c7cf547a2",
+          "title": "10 Big Ol’ 2027 Black Friday Deals",
+          "url": "https://css-tricks.com/2027-front-end-black-friday-deals/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3n275qw25ewnj",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794578724,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 4,
+          "score": 7.044,
+          "why": [
+            "shared by 4 design accounts"
+          ],
+          "authors": [
+            "joshwcomeau.com",
+            "piccalil.li",
+            "rachelandrew.co.uk",
+            "sarasoueidan.com"
+          ]
+        },
+        {
+          "id": "c16299b52f34",
+          "title": "November 2 - November 8 Round Up: AI’s Impact on UX, Hands-On Design Leadership, Figma in the AI Era",
+          "url": "https://aiforux.substack.com/p/november-2-november-8-round-up-ais",
+          "hn": "https://aiforux.substack.com/p/november-2-november-8-round-up-ais",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794167794,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.973,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "f5da730ae358",
+          "title": "October 26 - November 1 Round Up: AI UI Generator Gaps, UX’s AI Reckoning, Hands-On Design Leadership",
+          "url": "https://aiforux.substack.com/p/october-26-november-1-round-up-ai",
+          "hn": "https://aiforux.substack.com/p/october-26-november-1-round-up-ai",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793561077,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.934,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "c2c4b5d45ad6",
+          "title": "The new UX of Mobile",
+          "url": "https://departmentofproduct.substack.com/p/the-new-ux-of-mobile",
+          "hn": "https://departmentofproduct.substack.com/p/the-new-ux-of-mobile",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794322027,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.729,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "a97c7cf547a2",
+          "title": "10 Big Ol’ 2027 Black Friday Deals",
+          "url": "https://css-tricks.com/2027-front-end-black-friday-deals/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3n275qw25ewnj",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794578724,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 4,
+          "score": 7.044,
+          "why": [
+            "shared by 4 design accounts"
+          ],
+          "authors": [
+            "joshwcomeau.com",
+            "piccalil.li",
+            "rachelandrew.co.uk",
+            "sarasoueidan.com"
+          ]
+        },
+        {
+          "id": "c16299b52f34",
+          "title": "November 2 - November 8 Round Up: AI’s Impact on UX, Hands-On Design Leadership, Figma in the AI Era",
+          "url": "https://aiforux.substack.com/p/november-2-november-8-round-up-ais",
+          "hn": "https://aiforux.substack.com/p/november-2-november-8-round-up-ais",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794167794,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.973,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "f5da730ae358",
+          "title": "October 26 - November 1 Round Up: AI UI Generator Gaps, UX’s AI Reckoning, Hands-On Design Leadership",
+          "url": "https://aiforux.substack.com/p/october-26-november-1-round-up-ai",
+          "hn": "https://aiforux.substack.com/p/october-26-november-1-round-up-ai",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793561077,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.934,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "c2c4b5d45ad6",
+          "title": "The new UX of Mobile",
+          "url": "https://departmentofproduct.substack.com/p/the-new-ux-of-mobile",
+          "hn": "https://departmentofproduct.substack.com/p/the-new-ux-of-mobile",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794322027,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.729,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
+          "id": "6f448cafbd48",
+          "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+          "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794592800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 2.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "3215b4e6ce8e",
+          "title": "Journey Mapping 101",
+          "url": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794592800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 2.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "1e84d1835ae4",
+          "title": "Your Last UX Audit Is Already Out of Date",
+          "url": "https://blog.fuguux.com/p/your-last-ux-audit-is-already-out",
+          "hn": "https://blog.fuguux.com/p/your-last-ux-audit-is-already-out",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793831647,
+          "sources": [
+            "fuguUX’s Substack"
+          ],
+          "sharers": 0,
+          "score": 2.603,
+          "why": [
+            "editor's pick at fuguUX’s Substack"
+          ]
+        },
+        {
+          "id": "80d1bc3e15ce",
+          "title": "AI Is the New Old Design Material",
+          "url": "https://aiforux.substack.com/p/ai-is-the-new-old-design-material",
+          "hn": "https://aiforux.substack.com/p/ai-is-the-new-old-design-material",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794510391,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 2.486,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "d11bf2f59fd2",
+          "title": "Building interfaces that understand what we want to do",
+          "url": "https://agustinbarrientos.com/writing/senior-eye/interfaces-that-understand-what-we-want",
+          "hn": "https://agustinbarrientos.com/writing/senior-eye/interfaces-that-understand-what-we-want",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794546300,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.33,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "e7b5f6ae2eaf",
+          "title": "Below the surface",
+          "url": "https://belowthesurface.amsterdam/en/vondsten",
+          "hn": "https://belowthesurface.amsterdam/en/vondsten",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794546240,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.329,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "261f65d53750",
+          "title": "If X, then Y",
+          "url": "https://cdevroe.com/2026/11/05/if-x-then-y/",
+          "hn": "https://cdevroe.com/2026/11/05/if-x-then-y/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794546180,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.329,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "247954e031be",
+          "title": "Bodega cats of New York",
+          "url": "https://bodegacatsofnewyork.com/",
+          "hn": "https://bodegacatsofnewyork.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794546120,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.329,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "379d44327d90",
+          "title": "Where the disabled button got its rule",
+          "url": "https://www.hipuku.dev/writing/where-the-disabled-button-got-its-rule",
+          "hn": "https://www.hipuku.dev/writing/where-the-disabled-button-got-its-rule",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794546060,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.328,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "5d397839adf4",
+          "title": "I’m not descending into madness because mount and unmount icons make no sense",
+          "url": "https://www.osnews.com/story/146312/im-not-descending-into-madness-because-mount-and-unmount-icons-make-no-sense/",
+          "hn": "https://lobste.rs/s/fbsrym/i_m_not_descending_into_madness_because",
+          "points": 8,
+          "comments": 1,
+          "created_at_i": 1794538278,
+          "sources": [
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 2.311,
+          "why": []
+        },
+        {
+          "id": "c36fe14ef951",
+          "title": "Eight Truths About AI That Should Shape How You Design Products",
+          "url": "https://aiforux.substack.com/p/eight-truths-about-ai-that-should",
+          "hn": "https://aiforux.substack.com/p/eight-truths-about-ai-that-should",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794419409,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 2.207,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "ee384626235a",
+          "title": "Personal Agent Systems Explained - How 5 Leaders Run their work through AI Agents",
+          "url": "https://departmentofproduct.substack.com/p/personal-agent-systems-explained",
+          "hn": "https://departmentofproduct.substack.com/p/personal-agent-systems-explained",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794494071,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.088,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
+          "id": "5d70c5271f4b",
+          "title": "Why a Button Takes a Month",
+          "url": "https://southleft.substack.com/p/why-a-button-takes-a-month",
+          "hn": "https://southleft.substack.com/p/why-a-button-takes-a-month",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794486649,
+          "sources": [
+            "Slot Machine"
+          ],
+          "sharers": 0,
+          "score": 2.06,
+          "why": [
+            "editor's pick at Slot Machine"
+          ]
+        },
+        {
+          "id": "4b6177d5121f",
+          "title": "TBM 451: What We Learn to Notice and Ignore",
+          "url": "https://cutlefish.substack.com/p/tbm-451-what-we-learn-to-notice-and",
+          "hn": "https://cutlefish.substack.com/p/tbm-451-what-we-learn-to-notice-and",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794470694,
+          "sources": [
+            "The Beautiful Mess"
+          ],
+          "sharers": 0,
+          "score": 2.007,
+          "why": [
+            "editor's pick at The Beautiful Mess"
+          ]
+        },
+        {
+          "id": "8d4b1fe9b775",
+          "title": "TBM 449: Game Design, Consulting, and the Engagement as Product",
+          "url": "https://cutlefish.substack.com/p/tbm-449-game-design-consulting-and",
+          "hn": "https://cutlefish.substack.com/p/tbm-449-game-design-consulting-and",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793916562,
+          "sources": [
+            "The Beautiful Mess"
+          ],
+          "sharers": 0,
+          "score": 1.939,
+          "why": [
+            "editor's pick at The Beautiful Mess"
+          ]
+        },
+        {
+          "id": "fdb76f3a683a",
+          "title": "AI is the new old design material",
+          "url": "https://uxdesign.cc/ai-is-the-new-old-design-material-0e7f83540c9a?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ai-is-the-new-old-design-material-0e7f83540c9a?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794537189,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.813,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "9520b523d536",
+          "title": "The approve button needs an owner",
+          "url": "https://designsystemscollective.substack.com/p/the-approve-button-needs-an-owner",
+          "hn": "https://designsystemscollective.substack.com/p/the-approve-button-needs-an-owner",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794307458,
+          "sources": [
+            "Design Systems Collective"
+          ],
+          "sharers": 0,
+          "score": 1.716,
+          "why": [
+            "editor's pick at Design Systems Collective"
+          ]
+        },
+        {
+          "id": "6482149e82df",
+          "title": "Design Systems Agent Skills · SkillMD",
+          "url": "https://skillmd.com/category/design-systems?sort=installs",
+          "hn": "https://bsky.app/profile/pjonori.com/post/3n23cjgfekk22",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794446442,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.671,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "e30e69616b36",
+          "title": "#169 Don’t worry AI is cute!!!",
+          "url": "https://designlobster.substack.com/p/169-dont-worry-ai-is-cute",
+          "hn": "https://designlobster.substack.com/p/169-dont-worry-ai-is-cute",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794225702,
+          "sources": [
+            "Design Lobster"
+          ],
+          "sharers": 0,
+          "score": 1.661,
+          "why": [
+            "editor's pick at Design Lobster"
+          ]
+        },
+        {
+          "id": "9897618d648a",
+          "title": "The crooked plate that felt more human than the algorithm",
+          "url": "https://uxdesign.cc/the-crooked-plate-that-felt-more-human-than-the-algorithm-40bb4e5da147?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-crooked-plate-that-felt-more-human-than-the-algorithm-40bb4e5da147?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794567502,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.659,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "888d3894878b",
+          "title": "Most of the job is deciding what stays out",
+          "url": "https://designsystemscollective.substack.com/p/most-of-the-job-is-deciding-what",
+          "hn": "https://designsystemscollective.substack.com/p/most-of-the-job-is-deciding-what",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794204137,
+          "sources": [
+            "Design Systems Collective"
+          ],
+          "sharers": 0,
+          "score": 1.652,
+          "why": [
+            "editor's pick at Design Systems Collective"
+          ]
+        },
+        {
+          "id": "da11453ef871",
+          "title": "🔵 Uber says AI agents booked just 4 rides last quarter",
+          "url": "https://departmentofproduct.substack.com/p/uber-says-ai-agents-booked-just-4",
+          "hn": "https://departmentofproduct.substack.com/p/uber-says-ai-agents-booked-just-4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794142974,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 1.632,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
+          "id": "bd44c82769fb",
+          "title": "TBM 450: The Loss of Positive Friction",
+          "url": "https://cutlefish.substack.com/p/tbm-450-the-loss-of-positive-friction",
+          "hn": "https://cutlefish.substack.com/p/tbm-450-the-loss-of-positive-friction",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794092594,
+          "sources": [
+            "The Beautiful Mess"
+          ],
+          "sharers": 0,
+          "score": 1.622,
+          "why": [
+            "editor's pick at The Beautiful Mess"
+          ]
+        },
+        {
+          "id": "5e9d87fac8c7",
+          "title": "Berrypicking Still Beats the Single Answer For Search, Even In The World Of AI",
+          "url": "https://aiforux.substack.com/p/berrypicking-still-beats-the-single",
+          "hn": "https://aiforux.substack.com/p/berrypicking-still-beats-the-single",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793896217,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 1.605,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "51bf94c85b01",
+          "title": "Context Graphs Explained - A Guide for Product Teams",
+          "url": "https://departmentofproduct.substack.com/p/context-graphs-explained-a-guide",
+          "hn": "https://departmentofproduct.substack.com/p/context-graphs-explained-a-guide",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793889178,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 1.605,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
+          "id": "a79a6917e30a",
+          "title": "The World is what makes The Fool possible",
+          "url": "https://blobzine.substack.com/p/the-world-is-what-makes-the-fool",
+          "hn": "https://blobzine.substack.com/p/the-world-is-what-makes-the-fool",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1793896715,
+          "sources": [
+            "Blob"
+          ],
+          "sharers": 0,
+          "score": 1.605,
+          "why": [
+            "editor's pick at Blob"
+          ]
+        }
+      ],
+      "pool": 99,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 37,
+        "lexicon": 22,
+        "no_title": 5,
+        "prerelease": 1
       }
     }
   }
