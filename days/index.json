@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T03:11:03.316250+00:00",
+  "updated_at": "2026-11-15T02:37:58.908116+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -6923,6 +6923,202 @@
         "lexicon": 22,
         "no_title": 5,
         "prerelease": 1
+      }
+    },
+    "2026-11-14": {
+      "items": [
+        {
+          "id": "2fbdd17b3bb7",
+          "title": "Anti-OCR Typography",
+          "url": "https://aray-la.github.io/web-type/anti-ocr-typography/index.html",
+          "hn": "https://news.ycombinator.com/item?id=50500682",
+          "points": 2,
+          "comments": 8,
+          "created_at_i": 1794689422,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.36,
+          "why": []
+        },
+        {
+          "id": "6eef34634779",
+          "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
+          "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+          "hn": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794690946,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.743,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "7e1f6cc21c29",
+          "title": "Primer (GitHub) — @primer/react@38.46.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.46.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.46.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794614311,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.233,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "6f448cafbd48",
+          "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+          "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794592800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 2.136,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "2fbdd17b3bb7",
+          "title": "Anti-OCR Typography",
+          "url": "https://aray-la.github.io/web-type/anti-ocr-typography/index.html",
+          "hn": "https://news.ycombinator.com/item?id=50500682",
+          "points": 2,
+          "comments": 8,
+          "created_at_i": 1794689422,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.36,
+          "why": []
+        },
+        {
+          "id": "6eef34634779",
+          "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
+          "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+          "hn": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794690946,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.743,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "7e1f6cc21c29",
+          "title": "Primer (GitHub) — @primer/react@38.46.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.46.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.46.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794614311,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.233,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "6f448cafbd48",
+          "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
+          "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794592800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 2.136,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "3215b4e6ce8e",
+          "title": "Journey Mapping 101",
+          "url": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794592800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 2.136,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "cb5129a7fea2",
+          "title": "Decision theatre or decision design?",
+          "url": "https://uxdesign.cc/decision-theatre-or-decision-design-f1604f178685?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/decision-theatre-or-decision-design-f1604f178685?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794613902,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.764,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "335cd6514209",
+          "title": "Schrödinger’s Huang: Nvidia could not be everything to everybody",
+          "url": "https://uxdesign.cc/schr%C3%B6dingers-huang-d1da36bff88c?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/schr%C3%B6dingers-huang-d1da36bff88c?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794613887,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.431,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        }
+      ],
+      "pool": 53,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 25,
+        "lexicon": 14,
+        "no_title": 7
       }
     }
   }

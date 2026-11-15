@@ -1,0 +1,242 @@
+{
+  "date": "2026-11-14",
+  "pool": 53,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 25,
+    "lexicon": 14,
+    "no_title": 7
+  },
+  "dropped_items": [
+    {
+      "url": "https://allspice.io/post/how-allspice-built-a-frontier-hardware-design-agent",
+      "title": "How Allspice built a frontier hardware design agent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=uxWARJ4s95Y",
+      "title": "Doctors Once Prescribed 300k IU of Vitamin D, Here's What Happened [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50489240",
+      "title": "Using LLMs outside of reflection is an anti-pattern",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fmrl.live",
+      "title": "Show HN: Host a site, content, or stream from a browser tab, served over WebRTC",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://agentic-system-lab.github.io/harness-relay/",
+      "title": "Show HN: Harness Relay – the coding agents you have, working together",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theregister.com/saas/2026/11/13/microsoft-outage-gives-customers-a-crash-course-in-dependence-on-redmond/5309805",
+      "title": "Microsoft outage gives customers a crash course in dependence on Redmond",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://typewriter.foxipso.com",
+      "title": "Show HN: I simulated typewriters from 1926, 1970, and a 1980 IBM DisplayWriter",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tinbo.co/",
+      "title": "Show HN: Tinbo – yet another (modern) link shortener",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50491617",
+      "title": "Tell HN: Google Search to start locking down search behind a login wall",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://portofcontext.com",
+      "title": "Show HN: Port of Context – Token efficient MCP context layer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theguardian.com/world/2026/nov/13/russia-strikes-hospital-central-kyiv-spacex-starshield-system-fails",
+      "title": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.cbc.ca/news/canada/app-data-privacy-9.7417814?cmp=rss",
+      "title": "We tested 6 popular apps to see what data they collect and share. Here’s what we found | CBC News",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://observablehq.com/@tmcw/drawing-with-corners",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://chipagents.ai/",
+      "title": "ChipAgents – The agentic foundation for semiconductor design (AI for IC design)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://clowder.sh",
+      "title": "Sick of Herding AI Cats?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-914815",
+      "title": "Explainer: Three Israelis considered for Nvidia CEO role",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50491841",
+      "title": "Show HN: Feedback/AMA MeditionBench; LLMs for mediation and conflict resolution",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://unbreaking.org/blog/briefing-2026-11-13/",
+      "title": "Briefing: Data Security + Infectious Disease Control — Unbreaking",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nerdy.dev/www-ep260-will-ai-kill-us-all-jev-says-87",
+      "title": "WWW Ep260 Will AI Kill Us All Jev Says 87 · November 12, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/claynicholson/copper-kicad-mcp",
+      "title": "Show HN: Copper-KiCad – MCP to design PCBs in KiCad better and cheaper",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://scaleninja.com/blog/one-process-per-vm/",
+      "title": "One process per VM: MacVisor design and architecture",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://int10h.org/blog/2025/07/secret-fonts-isa16-ps2-again/",
+      "title": "Those Secret Fonts from the ISA-16 PS/2 Models (Again)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.w3.org/blog/2026/the-multiplier-effect-how-authoring-tools-can-transform-web-accessibility/",
+      "title": "The multiplier effect: How authoring tools can transform web accessibility",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arsh.zip/posts/north-east-arrow/",
+      "title": "The curious case of the north-east arrow",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50495982",
+      "title": "Ask HN: My product makes money, AI does the coding, and I feel useless",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://varinomics.com/logonomic/",
+      "title": "Show HN: Yet another agent manager (but we needed it)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://dracos.co.uk/said/ffconf-2026/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.faa.gov/iija",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://buttondown.com/monteiro/archive/how-to-walk-among-them-and-steal-their-shit/",
+      "title": "How to walk among them and steal their shit",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/13/us-politics-latest-news-updates-democrats-republicans-donald-trump-van-hollen-chuck-schumer?CMP=share_btn_url&page=with%3Ablock-6af7b0bd8f080d8d1c27a57f#block-6af7b0bd8f080d8d1c27a57f",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://kyivindependent.com/us-democrats-direct-musk-to-preserve-records-on-ukraines-starlink-restriction-wsj-reports/",
+      "title": "US Democrats direct Musk to preserve records on Ukraine's Starlink restriction, WSJ reports",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://apnews.com/video/city-of-detroit-says-drivers-will-get-additional-training-after-horses-were-allowed-to-board-city-bus-378eb9e6f42d434fa4eae8e59a50aa43",
+      "title": "City of Detroit says drivers will get additional training after horses were allowed to board city bus",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sciam.com/article/we-beat-screwworm-once-heres-how-were-trying-to-do-it-again/?utm_source=bluesky&utm_medium=social&utm_campaign=buffer",
+      "title": "We beat screwworm once. Here’s how we’re trying to do it again",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://flipbook-foundry.pages.dev/",
+      "title": "Show HN: Flipbook Foundry – animated stick figures baked into a font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v2.1.0",
+      "title": "Flawless UI-UX Skill 2.1.0",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.scatter.study/",
+      "title": "Show HN: Scatter – better way to learn new things with AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://school-of-hn.pages.dev",
+      "title": "Show HN: What HN community recommended learning in 2026",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html",
+      "title": "Nvidia board urged to consider 'return of Jensen Huang' by two major investors",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wici.ai/article/running-800b-models-with-inferssd",
+      "title": "Running 800B-parameter LLMs on consumer hardware with InferSSD",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.logohistories.com/p/milan-metro-logo-1962-logo-design-history?utm_source=bluesky&utm_medium=social&utm_campaign=rota&utm_content=bluesky_s22",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://thetypefounders.com/world-of-type/resilient-brand-typography-guidelines/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.weaselgear.com/screenprinting",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.orgiggly.com/dominoes",
+      "title": "Show HN: Domino Rally – design in 2D, watch in 3D",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://digitalseams.com/blog/making-a-font-for-the-jamaican-flag-alphabet",
+      "title": "Making a font for the Jamaican flag alphabet",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hacker.living/fonts",
+      "title": "Show HN: HN's Most Recommended Fonts",
+      "reason": "below_threshold"
+    }
+  ]
+}
