@@ -1,0 +1,173 @@
+{
+  "date": "2026-11-15",
+  "pool": 44,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 25,
+    "already_closed": 2,
+    "lexicon": 4,
+    "no_title": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.orgiggly.com/dominoes",
+      "title": "Show HN: Domino Rally – design in 2D, watch in 3D",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://aray-la.github.io/web-type/anti-ocr-typography/index.html",
+      "title": "Anti-OCR Typography",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://digitalseams.com/blog/making-a-font-for-the-jamaican-flag-alphabet",
+      "title": "Making a font for the Jamaican flag alphabet",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hacker.living/fonts",
+      "title": "Show HN: HN's Most Recommended Fonts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cell.com/joule/fulltext/S2542-4351(26)00362-4",
+      "title": "Toward a future space-based, highly scalable AI infrastructure system design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.delightql.org/post/2026/10/23/squinglish-sqls-inconsistent-calling-conventions/",
+      "title": "Squinglish: SQL's Inconsistent Calling Conventions",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.letsemploy.org",
+      "title": "Let's Employ",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+      "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://swordcoastmap.com/font",
+      "title": "Stonebrook Quill: full-featured AI-authored fantasy font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/typeshift-font-inspector/",
+      "title": "Made a Firefox addon to swap and inspect fonts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dynaura.ashutoshswamy.in",
+      "title": "Show HN: Dynaura – Dynamic Island toasts for the web",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.kizu.dev/cursors/",
+      "title": "cursor:pointer on buttons",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.sarasoueidan.com/blog/index.xml",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://rachsmith.com/how-long-until-agent-output-turns-to-shit",
+      "title": "How long have we got before the agent output is enshittified?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ferd.ca/control-and-complexity-tension-in-systems-design.html",
+      "title": "Control and complexity: tension in systems design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://facetypes.xyz/",
+      "title": "Hand-Picked Free Typefaces",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50506734",
+      "title": "Ask HN: Has Applemail UX/reliability been declining?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/AltharIDE/althar",
+      "title": "Show HN: Althar – an open-source IDE where agents review each other's work",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/TomerAberbach/profiler-md",
+      "title": "Show HN: profiler-md converts performance profiles to Markdown",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://securevibe-dev.vercel.app/",
+      "title": "Show HN: SecureVibe – Find and trace vulnerabilities before shipping",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twitter.com/stabilitytheory/status/2121895502560055496",
+      "title": "Some old bit.ly links get redirected",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ElliotKillick/operating-system-design-review",
+      "title": "Operating System Design Review",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/figranium/folate",
+      "title": "Show HN: Folate – Local DOM selector model that beats 7B VLMs at 1/60th the size",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/HiAriesZhou/Hairpin",
+      "title": "Hairpin – Reach macOS menu bar icons hidden by the notch",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://zeldman.com/2026/11/15/thanks-for-nothing-apple-logic-pro/?utm_source=bluesky&utm_medium=jetpack_social",
+      "title": "Thanks for nothing, Apple Logic Pro",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://computejunkie.substack.com/p/design-your-own-sram-like-its-1969",
+      "title": "Design your own SRAM like it's 1969",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cs.virginia.edu/~evans/cs655/readings/smalltalk.html",
+      "title": "Design Principles Behind Smalltalk (2001)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://fontsight.xyz/",
+      "title": "Fontsight: Font Finder for Chrome",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://x.com/paulg/status/2122033524857589799",
+      "title": "The limiting factor isn't investment. It's founder ability",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "http://badapple.rose.systems",
+      "title": "Animating Bad Apple with No JavaScript, No CSS, & Minimal HTML",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://rbit.sh/",
+      "title": "Show HN: Rbit – Self Hosted Git Forge in Rust",
+      "reason": "below_threshold"
+    }
+  ]
+}

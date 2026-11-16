@@ -1,0 +1,272 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-16T02:43:01.209298+00:00",
+  "items": [
+    {
+      "id": "e873ffb37f96",
+      "title": "Handwriting, as a Font",
+      "url": "https://ductus.sorenblank.com",
+      "hn": "https://news.ycombinator.com/item?id=50509972",
+      "points": 39,
+      "comments": 6,
+      "created_at_i": 1794771733,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.66,
+      "why": []
+    },
+    {
+      "id": "59e30295289f",
+      "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+      "url": "https://bobbiec.github.io/jamaican-font.html",
+      "hn": "https://news.ycombinator.com/item?id=50502839",
+      "points": 53,
+      "comments": 7,
+      "created_at_i": 1794704205,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.315,
+      "why": []
+    },
+    {
+      "id": "bf7cad672e18",
+      "title": "November 9 - November 15 Round Up: Designing for AI Mistakes, AI as Design Material, AI Design Workflows",
+      "url": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+      "hn": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794769291,
+      "sources": [
+        "AI for UX Substack"
+      ],
+      "sharers": 0,
+      "score": 3.008,
+      "why": [
+        "editor's pick at AI for UX Substack"
+      ]
+    },
+    {
+      "id": "d57e656a36a4",
+      "title": "Send and sign agreements from Claude with Lumin",
+      "url": "https://bit.ly/side-lum1",
+      "hn": "https://bit.ly/side-lum1",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794805500,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.8,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "e873ffb37f96",
+      "title": "Handwriting, as a Font",
+      "url": "https://ductus.sorenblank.com",
+      "hn": "https://news.ycombinator.com/item?id=50509972",
+      "points": 39,
+      "comments": 6,
+      "created_at_i": 1794771733,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.66,
+      "why": []
+    },
+    {
+      "id": "59e30295289f",
+      "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+      "url": "https://bobbiec.github.io/jamaican-font.html",
+      "hn": "https://news.ycombinator.com/item?id=50502839",
+      "points": 53,
+      "comments": 7,
+      "created_at_i": 1794704205,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.315,
+      "why": []
+    },
+    {
+      "id": "bf7cad672e18",
+      "title": "November 9 - November 15 Round Up: Designing for AI Mistakes, AI as Design Material, AI Design Workflows",
+      "url": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+      "hn": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794769291,
+      "sources": [
+        "AI for UX Substack"
+      ],
+      "sharers": 0,
+      "score": 3.008,
+      "why": [
+        "editor's pick at AI for UX Substack"
+      ]
+    },
+    {
+      "id": "d57e656a36a4",
+      "title": "Send and sign agreements from Claude with Lumin",
+      "url": "https://bit.ly/side-lum1",
+      "hn": "https://bit.ly/side-lum1",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794805500,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.8,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "eeb56a4ab110",
+      "title": "Slop is moving up the stack",
+      "url": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+      "hn": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794805440,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.8,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "e9668c91f29f",
+      "title": "Iconden",
+      "url": "https://iconden.com/",
+      "hn": "https://iconden.com/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794805380,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.8,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "a42eb83b5beb",
+      "title": "Guess the Year",
+      "url": "https://chronologygame.com/guess-the-year",
+      "hn": "https://chronologygame.com/guess-the-year",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794805320,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.8,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "6fa4efafca2d",
+      "title": "Glue work is still harmful in the age of AI",
+      "url": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+      "hn": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794805260,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.8,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "7eb5c219e9a9",
+      "title": "Building Story Factory",
+      "url": "https://www.proofofconcept.pub/p/building-story-factory",
+      "hn": "https://www.proofofconcept.pub/p/building-story-factory",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794763838,
+      "sources": [
+        "Proof of Concept"
+      ],
+      "sharers": 0,
+      "score": 2.63,
+      "why": [
+        "editor's pick at Proof of Concept"
+      ]
+    },
+    {
+      "id": "c1b0abbf1a9c",
+      "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+      "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+      "hn": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794749488,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.522,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "acdd36250789",
+      "title": "🔵 Anthropic is Coming for Everything",
+      "url": "https://departmentofproduct.substack.com/p/anthropic-is-coming-for-everything",
+      "hn": "https://departmentofproduct.substack.com/p/anthropic-is-coming-for-everything",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794747092,
+      "sources": [
+        "Department of Product"
+      ],
+      "sharers": 0,
+      "score": 2.505,
+      "why": [
+        "editor's pick at Department of Product"
+      ]
+    },
+    {
+      "id": "e6a48418624c",
+      "title": "Design Engineering Has a Handoff Problem",
+      "url": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
+      "hn": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794681219,
+      "sources": [
+        "Slot Machine"
+      ],
+      "sharers": 0,
+      "score": 2.478,
+      "why": [
+        "editor's pick at Slot Machine"
+      ]
+    }
+  ]
+}

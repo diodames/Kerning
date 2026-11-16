@@ -1,196 +1,277 @@
 {
-  "generated_at": "2026-11-15T02:37:58.913423+00:00",
+  "generated_at": "2026-11-16T02:43:01.215242+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "14 November 2026",
-      "period_start": "2026-11-14",
-      "period_end": "2026-11-14",
+      "label": "15 November 2026",
+      "period_start": "2026-11-15",
+      "period_end": "2026-11-15",
       "items": [
         {
-          "id": "2fbdd17b3bb7",
-          "title": "Anti-OCR Typography",
-          "url": "https://aray-la.github.io/web-type/anti-ocr-typography/index.html",
-          "hn": "https://news.ycombinator.com/item?id=50500682",
-          "points": 2,
-          "comments": 8,
-          "created_at_i": 1794689422,
+          "id": "e873ffb37f96",
+          "title": "Handwriting, as a Font",
+          "url": "https://ductus.sorenblank.com",
+          "hn": "https://news.ycombinator.com/item?id=50509972",
+          "points": 39,
+          "comments": 6,
+          "created_at_i": 1794771733,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 3.36,
+          "score": 3.66,
           "why": []
         },
         {
-          "id": "6eef34634779",
-          "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
-          "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
-          "hn": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794690946,
+          "id": "59e30295289f",
+          "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+          "url": "https://bobbiec.github.io/jamaican-font.html",
+          "hn": "https://news.ycombinator.com/item?id=50502839",
+          "points": 53,
+          "comments": 7,
+          "created_at_i": 1794704205,
           "sources": [
-            "Lenny's Newsletter"
+            "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.743,
+          "score": 3.315,
+          "why": []
+        },
+        {
+          "id": "bf7cad672e18",
+          "title": "November 9 - November 15 Round Up: Designing for AI Mistakes, AI as Design Material, AI Design Workflows",
+          "url": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+          "hn": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794769291,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.008,
           "why": [
-            "editor's pick at Lenny's Newsletter"
+            "editor's pick at AI for UX Substack"
           ]
         },
         {
-          "id": "7e1f6cc21c29",
-          "title": "Primer (GitHub) — @primer/react@38.46.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.46.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.46.0",
+          "id": "d57e656a36a4",
+          "title": "Send and sign agreements from Claude with Lumin",
+          "url": "https://bit.ly/side-lum1",
+          "hn": "https://bit.ly/side-lum1",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794614311,
+          "created_at_i": 1794805500,
           "sources": [
-            "Design systems"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.233,
+          "score": 2.8,
           "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "6f448cafbd48",
-          "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
-          "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794592800,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 2.136,
-          "why": [
-            "editor's pick at NN/g"
+            "editor's pick at Sidebar"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "2fbdd17b3bb7",
-          "title": "Anti-OCR Typography",
-          "url": "https://aray-la.github.io/web-type/anti-ocr-typography/index.html",
-          "hn": "https://news.ycombinator.com/item?id=50500682",
-          "points": 2,
-          "comments": 8,
-          "created_at_i": 1794689422,
+          "id": "e873ffb37f96",
+          "title": "Handwriting, as a Font",
+          "url": "https://ductus.sorenblank.com",
+          "hn": "https://news.ycombinator.com/item?id=50509972",
+          "points": 39,
+          "comments": 6,
+          "created_at_i": 1794771733,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 3.36,
+          "score": 3.66,
           "why": []
         },
         {
-          "id": "6eef34634779",
-          "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
-          "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
-          "hn": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+          "id": "59e30295289f",
+          "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+          "url": "https://bobbiec.github.io/jamaican-font.html",
+          "hn": "https://news.ycombinator.com/item?id=50502839",
+          "points": 53,
+          "comments": 7,
+          "created_at_i": 1794704205,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.315,
+          "why": []
+        },
+        {
+          "id": "bf7cad672e18",
+          "title": "November 9 - November 15 Round Up: Designing for AI Mistakes, AI as Design Material, AI Design Workflows",
+          "url": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+          "hn": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794690946,
+          "created_at_i": 1794769291,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.008,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "d57e656a36a4",
+          "title": "Send and sign agreements from Claude with Lumin",
+          "url": "https://bit.ly/side-lum1",
+          "hn": "https://bit.ly/side-lum1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805500,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "eeb56a4ab110",
+          "title": "Slop is moving up the stack",
+          "url": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+          "hn": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805440,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "e9668c91f29f",
+          "title": "Iconden",
+          "url": "https://iconden.com/",
+          "hn": "https://iconden.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805380,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "a42eb83b5beb",
+          "title": "Guess the Year",
+          "url": "https://chronologygame.com/guess-the-year",
+          "hn": "https://chronologygame.com/guess-the-year",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805320,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "6fa4efafca2d",
+          "title": "Glue work is still harmful in the age of AI",
+          "url": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+          "hn": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805260,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "7eb5c219e9a9",
+          "title": "Building Story Factory",
+          "url": "https://www.proofofconcept.pub/p/building-story-factory",
+          "hn": "https://www.proofofconcept.pub/p/building-story-factory",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794763838,
+          "sources": [
+            "Proof of Concept"
+          ],
+          "sharers": 0,
+          "score": 2.63,
+          "why": [
+            "editor's pick at Proof of Concept"
+          ]
+        },
+        {
+          "id": "c1b0abbf1a9c",
+          "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+          "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+          "hn": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794749488,
           "sources": [
             "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 2.743,
+          "score": 2.522,
           "why": [
             "editor's pick at Lenny's Newsletter"
           ]
         },
         {
-          "id": "7e1f6cc21c29",
-          "title": "Primer (GitHub) — @primer/react@38.46.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.46.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.46.0",
+          "id": "acdd36250789",
+          "title": "🔵 Anthropic is Coming for Everything",
+          "url": "https://departmentofproduct.substack.com/p/anthropic-is-coming-for-everything",
+          "hn": "https://departmentofproduct.substack.com/p/anthropic-is-coming-for-everything",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794614311,
+          "created_at_i": 1794747092,
           "sources": [
-            "Design systems"
+            "Department of Product"
           ],
           "sharers": 0,
-          "score": 2.233,
+          "score": 2.505,
           "why": [
-            "editor's pick at Design systems"
+            "editor's pick at Department of Product"
           ]
         },
         {
-          "id": "6f448cafbd48",
-          "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
-          "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "id": "e6a48418624c",
+          "title": "Design Engineering Has a Handoff Problem",
+          "url": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
+          "hn": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794592800,
+          "created_at_i": 1794681219,
           "sources": [
-            "NN/g"
+            "Slot Machine"
           ],
           "sharers": 0,
-          "score": 2.136,
+          "score": 2.478,
           "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "3215b4e6ce8e",
-          "title": "Journey Mapping 101",
-          "url": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794592800,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 2.136,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "cb5129a7fea2",
-          "title": "Decision theatre or decision design?",
-          "url": "https://uxdesign.cc/decision-theatre-or-decision-design-f1604f178685?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/decision-theatre-or-decision-design-f1604f178685?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794613902,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.764,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "335cd6514209",
-          "title": "Schrödinger’s Huang: Nvidia could not be everything to everybody",
-          "url": "https://uxdesign.cc/schr%C3%B6dingers-huang-d1da36bff88c?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/schr%C3%B6dingers-huang-d1da36bff88c?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794613887,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.431,
-          "why": [
-            "editor's pick at UX Collective"
+            "editor's pick at Slot Machine"
           ]
         }
       ]
@@ -387,6 +468,21 @@
           ]
         },
         {
+          "id": "e873ffb37f96",
+          "title": "Handwriting, as a Font",
+          "url": "https://ductus.sorenblank.com",
+          "hn": "https://news.ycombinator.com/item?id=50509972",
+          "points": 39,
+          "comments": 6,
+          "created_at_i": 1794771733,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.66,
+          "why": []
+        },
+        {
           "id": "2fbdd17b3bb7",
           "title": "Anti-OCR Typography",
           "url": "https://aray-la.github.io/web-type/anti-ocr-typography/index.html",
@@ -400,23 +496,6 @@
           "sharers": 0,
           "score": 3.36,
           "why": []
-        },
-        {
-          "id": "3f1d8afeb11e",
-          "title": "What product strategy does",
-          "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
-          "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794295920,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.048,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
         }
       ],
       "candidates": [
@@ -603,6 +682,21 @@
           ]
         },
         {
+          "id": "e873ffb37f96",
+          "title": "Handwriting, as a Font",
+          "url": "https://ductus.sorenblank.com",
+          "hn": "https://news.ycombinator.com/item?id=50509972",
+          "points": 39,
+          "comments": 6,
+          "created_at_i": 1794771733,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.66,
+          "why": []
+        },
+        {
           "id": "de608394675f",
           "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
           "url": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
@@ -632,6 +726,21 @@
           ],
           "sharers": 0,
           "score": 3.36,
+          "why": []
+        },
+        {
+          "id": "59e30295289f",
+          "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+          "url": "https://bobbiec.github.io/jamaican-font.html",
+          "hn": "https://news.ycombinator.com/item?id=50502839",
+          "points": 53,
+          "comments": 7,
+          "created_at_i": 1794704205,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.315,
           "why": []
         },
         {
@@ -667,6 +776,23 @@
           "why": []
         },
         {
+          "id": "bf7cad672e18",
+          "title": "November 9 - November 15 Round Up: Designing for AI Mistakes, AI as Design Material, AI Design Workflows",
+          "url": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+          "hn": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794769291,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.008,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
           "id": "ba65e70ece68",
           "title": "Design is a search problem",
           "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
@@ -679,6 +805,91 @@
           ],
           "sharers": 0,
           "score": 2.804,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d57e656a36a4",
+          "title": "Send and sign agreements from Claude with Lumin",
+          "url": "https://bit.ly/side-lum1",
+          "hn": "https://bit.ly/side-lum1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805500,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "eeb56a4ab110",
+          "title": "Slop is moving up the stack",
+          "url": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+          "hn": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805440,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "e9668c91f29f",
+          "title": "Iconden",
+          "url": "https://iconden.com/",
+          "hn": "https://iconden.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805380,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "a42eb83b5beb",
+          "title": "Guess the Year",
+          "url": "https://chronologygame.com/guess-the-year",
+          "hn": "https://chronologygame.com/guess-the-year",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805320,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "6fa4efafca2d",
+          "title": "Glue work is still harmful in the age of AI",
+          "url": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+          "hn": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805260,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -801,6 +1012,23 @@
           ]
         },
         {
+          "id": "7eb5c219e9a9",
+          "title": "Building Story Factory",
+          "url": "https://www.proofofconcept.pub/p/building-story-factory",
+          "hn": "https://www.proofofconcept.pub/p/building-story-factory",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794763838,
+          "sources": [
+            "Proof of Concept"
+          ],
+          "sharers": 0,
+          "score": 2.63,
+          "why": [
+            "editor's pick at Proof of Concept"
+          ]
+        },
+        {
           "id": "1e84d1835ae4",
           "title": "Your Last UX Audit Is Already Out of Date",
           "url": "https://blog.fuguux.com/p/your-last-ux-audit-is-already-out",
@@ -886,6 +1114,23 @@
           ]
         },
         {
+          "id": "c1b0abbf1a9c",
+          "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+          "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+          "hn": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794749488,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.522,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
           "id": "4e8190527691",
           "title": "How this founder built a better Duolingo with Codex | William Imoh",
           "url": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
@@ -920,6 +1165,23 @@
           ]
         },
         {
+          "id": "acdd36250789",
+          "title": "🔵 Anthropic is Coming for Everything",
+          "url": "https://departmentofproduct.substack.com/p/anthropic-is-coming-for-everything",
+          "hn": "https://departmentofproduct.substack.com/p/anthropic-is-coming-for-everything",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794747092,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.505,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
           "id": "80d1bc3e15ce",
           "title": "AI Is the New Old Design Material",
           "url": "https://aiforux.substack.com/p/ai-is-the-new-old-design-material",
@@ -934,6 +1196,23 @@
           "score": 2.486,
           "why": [
             "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "e6a48418624c",
+          "title": "Design Engineering Has a Handoff Problem",
+          "url": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
+          "hn": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794681219,
+          "sources": [
+            "Slot Machine"
+          ],
+          "sharers": 0,
+          "score": 2.478,
+          "why": [
+            "editor's pick at Slot Machine"
           ]
         },
         {
@@ -1240,214 +1519,6 @@
           "score": 2.329,
           "why": [
             "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "247954e031be",
-          "title": "Bodega cats of New York",
-          "url": "https://bodegacatsofnewyork.com/",
-          "hn": "https://bodegacatsofnewyork.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794546120,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.329,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "1c5451e58762",
-          "title": "Site Seeing",
-          "url": "https://ishadeed.com/article/beyond-the-viewport/",
-          "hn": "https://ishadeed.com/article/beyond-the-viewport/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794200460,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.328,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "379d44327d90",
-          "title": "Where the disabled button got its rule",
-          "url": "https://www.hipuku.dev/writing/where-the-disabled-button-got-its-rule",
-          "hn": "https://www.hipuku.dev/writing/where-the-disabled-button-got-its-rule",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794546060,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.328,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "455df882718c",
-          "title": "DD414 / Organising the discontent",
-          "url": "https://www.densediscovery.com/issues/414/",
-          "hn": "https://www.densediscovery.com/issues/414/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794197623,
-          "sources": [
-            "Dense Discovery"
-          ],
-          "sharers": 0,
-          "score": 2.312,
-          "why": [
-            "editor's pick at Dense Discovery"
-          ]
-        },
-        {
-          "id": "5d397839adf4",
-          "title": "I’m not descending into madness because mount and unmount icons make no sense",
-          "url": "https://www.osnews.com/story/146312/im-not-descending-into-madness-because-mount-and-unmount-icons-make-no-sense/",
-          "hn": "https://lobste.rs/s/fbsrym/i_m_not_descending_into_madness_because",
-          "points": 8,
-          "comments": 1,
-          "created_at_i": 1794538278,
-          "sources": [
-            "Lobsters"
-          ],
-          "sharers": 0,
-          "score": 2.311,
-          "why": []
-        },
-        {
-          "id": "4ee82c8ca893",
-          "title": "Jeffrey Zeldman Presents - The salad bar theory of UX professionalism - Design",
-          "url": "https://zeldman.com/2026/02/16/the-salad-bar-theory-of-ux-professionalism/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mzv5kzij3s2i",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794234968,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.284,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "zeldman.bsky.social"
-          ]
-        },
-        {
-          "id": "7e1f6cc21c29",
-          "title": "Primer (GitHub) — @primer/react@38.46.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.46.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.46.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794614311,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 2.233,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "c36fe14ef951",
-          "title": "Eight Truths About AI That Should Shape How You Design Products",
-          "url": "https://aiforux.substack.com/p/eight-truths-about-ai-that-should",
-          "hn": "https://aiforux.substack.com/p/eight-truths-about-ai-that-should",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794419409,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 2.207,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "ee384626235a",
-          "title": "Personal Agent Systems Explained - How 5 Leaders Run their work through AI Agents",
-          "url": "https://departmentofproduct.substack.com/p/personal-agent-systems-explained",
-          "hn": "https://departmentofproduct.substack.com/p/personal-agent-systems-explained",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794494071,
-          "sources": [
-            "Department of Product"
-          ],
-          "sharers": 0,
-          "score": 2.088,
-          "why": [
-            "editor's pick at Department of Product"
-          ]
-        },
-        {
-          "id": "5d70c5271f4b",
-          "title": "Why a Button Takes a Month",
-          "url": "https://southleft.substack.com/p/why-a-button-takes-a-month",
-          "hn": "https://southleft.substack.com/p/why-a-button-takes-a-month",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794486649,
-          "sources": [
-            "Slot Machine"
-          ],
-          "sharers": 0,
-          "score": 2.06,
-          "why": [
-            "editor's pick at Slot Machine"
-          ]
-        },
-        {
-          "id": "4b6177d5121f",
-          "title": "TBM 451: What We Learn to Notice and Ignore",
-          "url": "https://cutlefish.substack.com/p/tbm-451-what-we-learn-to-notice-and",
-          "hn": "https://cutlefish.substack.com/p/tbm-451-what-we-learn-to-notice-and",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794470694,
-          "sources": [
-            "The Beautiful Mess"
-          ],
-          "sharers": 0,
-          "score": 2.007,
-          "why": [
-            "editor's pick at The Beautiful Mess"
-          ]
-        },
-        {
-          "id": "0c849b5f2365",
-          "title": "Band-aid accessibility · Eric Eggert",
-          "url": "https://yatil.net/blog/band-aid-accessibility",
-          "hn": "https://bsky.app/profile/ericwbailey.website/post/3n24u75tjy22y",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794499785,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.992,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
           ]
         }
       ]
@@ -2082,6 +2153,21 @@
           ]
         },
         {
+          "id": "e873ffb37f96",
+          "title": "Handwriting, as a Font",
+          "url": "https://ductus.sorenblank.com",
+          "hn": "https://news.ycombinator.com/item?id=50509972",
+          "points": 39,
+          "comments": 6,
+          "created_at_i": 1794771733,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.66,
+          "why": []
+        },
+        {
           "id": "84bf03764f8c",
           "title": "Usability 101: Introduction to Usability",
           "url": "https://www.nngroup.com/articles/usability-101-introduction-to-usability/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
@@ -2216,6 +2302,21 @@
           ]
         },
         {
+          "id": "59e30295289f",
+          "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+          "url": "https://bobbiec.github.io/jamaican-font.html",
+          "hn": "https://news.ycombinator.com/item?id=50502839",
+          "points": 53,
+          "comments": 7,
+          "created_at_i": 1794704205,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.315,
+          "why": []
+        },
+        {
           "id": "2e54ec26db50",
           "title": "Virtue ethics in everyday interface design",
           "url": "https://uxdesign.cc/virtue-ethics-in-everyday-interface-design-5f2aca841781?source=rss----138adf9c44c---4",
@@ -2282,6 +2383,23 @@
           "why": []
         },
         {
+          "id": "bf7cad672e18",
+          "title": "November 9 - November 15 Round Up: Designing for AI Mistakes, AI as Design Material, AI Design Workflows",
+          "url": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+          "hn": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794769291,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.008,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
           "id": "ba65e70ece68",
           "title": "Design is a search problem",
           "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
@@ -2294,6 +2412,91 @@
           ],
           "sharers": 0,
           "score": 2.804,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d57e656a36a4",
+          "title": "Send and sign agreements from Claude with Lumin",
+          "url": "https://bit.ly/side-lum1",
+          "hn": "https://bit.ly/side-lum1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805500,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "eeb56a4ab110",
+          "title": "Slop is moving up the stack",
+          "url": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+          "hn": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805440,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "e9668c91f29f",
+          "title": "Iconden",
+          "url": "https://iconden.com/",
+          "hn": "https://iconden.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805380,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "a42eb83b5beb",
+          "title": "Guess the Year",
+          "url": "https://chronologygame.com/guess-the-year",
+          "hn": "https://chronologygame.com/guess-the-year",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805320,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "6fa4efafca2d",
+          "title": "Glue work is still harmful in the age of AI",
+          "url": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+          "hn": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805260,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.8,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -2485,6 +2688,23 @@
           ]
         },
         {
+          "id": "7eb5c219e9a9",
+          "title": "Building Story Factory",
+          "url": "https://www.proofofconcept.pub/p/building-story-factory",
+          "hn": "https://www.proofofconcept.pub/p/building-story-factory",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794763838,
+          "sources": [
+            "Proof of Concept"
+          ],
+          "sharers": 0,
+          "score": 2.63,
+          "why": [
+            "editor's pick at Proof of Concept"
+          ]
+        },
+        {
           "id": "2769f47996b6",
           "title": "Implementing GPT-2 in CSS",
           "url": "https://shubhampatil.dev/blog/gpt2-css",
@@ -2619,6 +2839,23 @@
           ]
         },
         {
+          "id": "c1b0abbf1a9c",
+          "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+          "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+          "hn": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794749488,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.522,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
           "id": "4e8190527691",
           "title": "How this founder built a better Duolingo with Codex | William Imoh",
           "url": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
@@ -2653,6 +2890,23 @@
           ]
         },
         {
+          "id": "acdd36250789",
+          "title": "🔵 Anthropic is Coming for Everything",
+          "url": "https://departmentofproduct.substack.com/p/anthropic-is-coming-for-everything",
+          "hn": "https://departmentofproduct.substack.com/p/anthropic-is-coming-for-everything",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794747092,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.505,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
           "id": "80d1bc3e15ce",
           "title": "AI Is the New Old Design Material",
           "url": "https://aiforux.substack.com/p/ai-is-the-new-old-design-material",
@@ -2667,6 +2921,23 @@
           "score": 2.486,
           "why": [
             "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "e6a48418624c",
+          "title": "Design Engineering Has a Handoff Problem",
+          "url": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
+          "hn": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794681219,
+          "sources": [
+            "Slot Machine"
+          ],
+          "sharers": 0,
+          "score": 2.478,
+          "why": [
+            "editor's pick at Slot Machine"
           ]
         },
         {
@@ -3198,225 +3469,6 @@
           ]
         },
         {
-          "id": "4b6177d5121f",
-          "title": "TBM 451: What We Learn to Notice and Ignore",
-          "url": "https://cutlefish.substack.com/p/tbm-451-what-we-learn-to-notice-and",
-          "hn": "https://cutlefish.substack.com/p/tbm-451-what-we-learn-to-notice-and",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794470694,
-          "sources": [
-            "The Beautiful Mess"
-          ],
-          "sharers": 0,
-          "score": 2.007,
-          "why": [
-            "editor's pick at The Beautiful Mess"
-          ]
-        },
-        {
-          "id": "0c849b5f2365",
-          "title": "Band-aid accessibility · Eric Eggert",
-          "url": "https://yatil.net/blog/band-aid-accessibility",
-          "hn": "https://bsky.app/profile/ericwbailey.website/post/3n24u75tjy22y",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794499785,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.992,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
-          ]
-        },
-        {
-          "id": "d9e15090a2b1",
-          "title": "After the AI bubble: a manifesto",
-          "url": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/after-the-ai-bubble-a-manifesto-2e3157387662?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794004978,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.991,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "6482149e82df",
-          "title": "Design Systems Agent Skills · SkillMD",
-          "url": "https://skillmd.com/category/design-systems?sort=installs",
-          "hn": "https://bsky.app/profile/pjonori.com/post/3n23cjgfekk22",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794446442,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.991,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
-          ]
-        },
-        {
-          "id": "502761a673da",
-          "title": "Why are we cloning Photoshop?",
-          "url": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/why-are-we-cloning-photoshop-52e6e165eef7?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794435642,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.978,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "26cce3baf7cf",
-          "title": "Every click has a price now. Who designs how that “feels”?",
-          "url": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/every-click-has-a-price-now-who-designs-how-that-feels-e3f00b6cabb8?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794435319,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.975,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "8d4b1fe9b775",
-          "title": "TBM 449: Game Design, Consulting, and the Engagement as Product",
-          "url": "https://cutlefish.substack.com/p/tbm-449-game-design-consulting-and",
-          "hn": "https://cutlefish.substack.com/p/tbm-449-game-design-consulting-and",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793916562,
-          "sources": [
-            "The Beautiful Mess"
-          ],
-          "sharers": 0,
-          "score": 1.939,
-          "why": [
-            "editor's pick at The Beautiful Mess"
-          ]
-        },
-        {
-          "id": "61dbb950df7d",
-          "title": "Theme Font Auditor",
-          "url": "https://theme-font-auditor.space.fast/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mziifhs36g2n",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793799917,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.928,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "zeldman.bsky.social"
-          ]
-        },
-        {
-          "id": "bbab8edd25b9",
-          "title": "Otherwise you’re just a machine",
-          "url": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/otherwise-youre-just-a-machine-a9d3b21179b5?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794082542,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.912,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "1c0cebc34178",
-          "title": "I am not a developer or an accessibility specialist. Hire me?",
-          "url": "https://heydonworks.com/article/i-am-not-an-accessibility-specialist-hire-me/",
-          "hn": "https://bsky.app/profile/heydonworks.com/post/3mzkupazv3k2a",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793881849,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.897,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "heydonworks.com"
-          ]
-        },
-        {
-          "id": "22217a5feec3",
-          "title": "WCAG Success Criteria and Conformance October and November 2026 – OZeWAI",
-          "url": "https://ozewai.org/blog/local-events/wcag-success-criteria-and-conformance-15-october-2026/",
-          "hn": "https://bsky.app/profile/tetralogical.com/post/3n246f7vzhc2e",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794476366,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.828,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "sarasoueidan.com"
-          ]
-        },
-        {
-          "id": "fdb76f3a683a",
-          "title": "AI is the new old design material",
-          "url": "https://uxdesign.cc/ai-is-the-new-old-design-material-0e7f83540c9a?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ai-is-the-new-old-design-material-0e7f83540c9a?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794537189,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.813,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
           "id": "7da3b08fd70d",
           "title": "Introducing Adaptive Dark Mode",
           "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
@@ -3624,6 +3676,21 @@
       ]
     },
     {
+      "id": "e873ffb37f96",
+      "title": "Handwriting, as a Font",
+      "url": "https://ductus.sorenblank.com",
+      "hn": "https://news.ycombinator.com/item?id=50509972",
+      "points": 39,
+      "comments": 6,
+      "created_at_i": 1794771733,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.66,
+      "why": []
+    },
+    {
       "id": "2fbdd17b3bb7",
       "title": "Anti-OCR Typography",
       "url": "https://aray-la.github.io/web-type/anti-ocr-typography/index.html",
@@ -3637,23 +3704,6 @@
       "sharers": 0,
       "score": 3.36,
       "why": []
-    },
-    {
-      "id": "3f1d8afeb11e",
-      "title": "What product strategy does",
-      "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
-      "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1794295920,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.048,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
     }
   ],
   "week_start": "2026-11-09",
