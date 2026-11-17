@@ -1,0 +1,362 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-17T05:03:38.915979+00:00",
+  "items": [
+    {
+      "id": "29c8dba282b0",
+      "title": "The CSS caret-* properties and custom caret accessibility",
+      "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
+      "hn": "https://bsky.app/profile/aardrian.bsky.social/post/3n2grw3idlk2o",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794819149,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 5.197,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "ericwbailey.website",
+        "sarasoueidan.com"
+      ]
+    },
+    {
+      "id": "5e1ab2af1d66",
+      "title": "UI edge cases: A reference guide",
+      "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794864024,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 2.946,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "35612161c8c9",
+      "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+      "hn": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794844975,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.589,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "d1354f5802c5",
+      "title": "Ch. 11: Measuring Impact",
+      "url": "https://www.producttalk.org/ch-11-measuring-impact/",
+      "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794837600,
+      "sources": [
+        "Product Talk"
+      ],
+      "sharers": 0,
+      "score": 2.535,
+      "why": [
+        "editor's pick at Product Talk"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "29c8dba282b0",
+      "title": "The CSS caret-* properties and custom caret accessibility",
+      "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
+      "hn": "https://bsky.app/profile/aardrian.bsky.social/post/3n2grw3idlk2o",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794819149,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 5.197,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "ericwbailey.website",
+        "sarasoueidan.com"
+      ]
+    },
+    {
+      "id": "5e1ab2af1d66",
+      "title": "UI edge cases: A reference guide",
+      "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794864024,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 2.946,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "35612161c8c9",
+      "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+      "hn": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794844975,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.589,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "d1354f5802c5",
+      "title": "Ch. 11: Measuring Impact",
+      "url": "https://www.producttalk.org/ch-11-measuring-impact/",
+      "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794837600,
+      "sources": [
+        "Product Talk"
+      ],
+      "sharers": 0,
+      "score": 2.535,
+      "why": [
+        "editor's pick at Product Talk"
+      ]
+    },
+    {
+      "id": "2c82738cbe42",
+      "title": "How I fight token fraud as a solo founder",
+      "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+      "hn": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794834249,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.511,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "53b63bda7e29",
+      "title": "Picking a token by its job, or by its number",
+      "url": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
+      "hn": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794826994,
+      "sources": [
+        "Design Systems Collective"
+      ],
+      "sharers": 0,
+      "score": 2.461,
+      "why": [
+        "editor's pick at Design Systems Collective"
+      ]
+    },
+    {
+      "id": "156836d6c9f6",
+      "title": "Staggering Scroll-Driven Animations with animation-range-start",
+      "url": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
+      "hn": "https://bsky.app/profile/css-tricks.com/post/3n2gy7eivcy3g",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794847625,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 2.343,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "joshwcomeau.com"
+      ]
+    },
+    {
+      "id": "eeb56a4ab110",
+      "title": "Slop is moving up the stack",
+      "url": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+      "hn": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794805440,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.329,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "e9668c91f29f",
+      "title": "Iconden",
+      "url": "https://iconden.com/",
+      "hn": "https://iconden.com/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794805380,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.329,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "a42eb83b5beb",
+      "title": "Guess the Year",
+      "url": "https://chronologygame.com/guess-the-year",
+      "hn": "https://chronologygame.com/guess-the-year",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794805320,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.329,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "6fa4efafca2d",
+      "title": "Glue work is still harmful in the age of AI",
+      "url": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+      "hn": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794805260,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.328,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "d12cc836d3e6",
+      "title": "DD415 / MBA: school of profit",
+      "url": "https://www.densediscovery.com/issues/415/",
+      "hn": "https://www.densediscovery.com/issues/415/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794803685,
+      "sources": [
+        "Dense Discovery"
+      ],
+      "sharers": 0,
+      "score": 2.319,
+      "why": [
+        "editor's pick at Dense Discovery"
+      ]
+    },
+    {
+      "id": "506b1ce506f5",
+      "title": "UI coding harness by Evil Martians",
+      "url": "https://evilmartians.com/services/ai-harness",
+      "hn": "https://bsky.app/profile/evilmartians.com/post/3n2gxnaolym2s",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794847076,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 2.005,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "evilmartians.com"
+      ]
+    },
+    {
+      "id": "7af16f190f1c",
+      "title": "Why bother paying for software anymore?",
+      "url": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794864434,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.95,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "12a06e8c7f01",
+      "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
+      "url": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794831428,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.691,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "c0ac6fc443af",
+      "title": "The trash robot that doesn’t pick up, but hands out",
+      "url": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794831375,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.691,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "date": "2026-11-16",
+  "pool": 68,
+  "kept": 4,
+  "dropped": {
+    "lexicon": 22,
+    "below_threshold": 26,
+    "prerelease": 2,
+    "no_title": 1,
+    "already_closed": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://cpldcpu.github.io/2026/11/14/touchsynth/",
+      "title": "Agentic AI Designs an Analog Synthesizer",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://iter.ca/post/ubo-uxss/",
+      "title": "Universal XSS in uBlock Origin from website-driven element picker",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://keytrace.dev/",
+      "title": "Keytrace – One identity, many proofs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50514154",
+      "title": "Ask HN: How to visually edit vibe coded websites?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://newsroom.bugatti.com/en/press-releases/from-vision-to-veyron",
+      "title": "From Vision to Veyron: The Evolution of a Bugatti Icon",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+      "title": "Apple launches research study to explore the use of AI for health",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://leastsquared.substack.com/p/designing-a-multi-agent-architecture",
+      "title": "Designing a Multi-Agent Architecture Guided by Advanced Type Systems",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sunshowers.io/posts/nextest-install-scripts/",
+      "title": "Designing Nextest's Install Scripts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/slavadubrov/harness-evals",
+      "title": "Harness-evals. compare agent designs with the model held fixed",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/kgoedecke/doop",
+      "title": "Doop: Open-Source Alternative to Paper.design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Avinash-jetwani/jevmem",
+      "title": "Show HN: Jevmem – Auto Tracked Project Rules for Claude Code, Codex and Cursor",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/itsmygithubacct/neuronte-v2",
+      "title": "Show HN: Neuronte – small neural nets as a font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://marketplace.visualstudio.com/items?itemName=prettywhale-ai.prettywhale",
+      "title": "Show HN: Prettywhale.ai – Generate data pipelines from data samples",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://junctioneda.com",
+      "title": "Show HN: Real-time collaborative KiCad",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://loadsketch.mclee.dev/",
+      "title": "Loadsketch: A system design simulator. Every request runs for real",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://codecainehq.com/",
+      "title": "Show HN: Figma Like AI Landing Page Builder",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ronaldsvilcins.com/2026/11/10/what-css-appearance-actually-does/",
+      "title": "What CSS Appearance Does",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/h4sh5/ironsurf",
+      "title": "Show HN: IronSurf – Browser in full Rust with cookie containers and userscripts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50518749",
+      "title": "Looking for a remote CTO for my micro SaaS ($600K ARR, $250k Profit)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/maxmart/hoststray",
+      "title": "Show HN: Hosts Tray – hosts file switcher with built-in HTTPS proxy",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50519403",
+      "title": "Project Gutenberg temporarily down for maintenance",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://daventry.io/making-of",
+      "title": "Show HN: Daventry.io – browser game engine inspired by Sierra, ZZT, and D&D",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/withcoral/coral",
+      "title": "Show HN: Coral – Open-source gateway where agents write their own tools",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://jack.cab/blog/siterate.html",
+      "title": "What is w2rt6byl5nf1opmc-a[.]com?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.8",
+      "title": "Carbon (IBM) — v12.0.0-alpha.8",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://app.freemix.fm/?utm_source=the-index&utm_medium=newsletter",
+      "title": "FreeMix — Music. Liberated for the open web.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://willybrauner.com/journal/remote-procedure-calls-for-interactive-applications",
+      "title": "Remote procedure calls for interactive applications",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://aftermath.site/ai-slop-hobbies-in-software-emulation/?utm_source=the-index&utm_medium=newsletter",
+      "title": "All My Hobbies Are Getting Slopped Up, And It’s Exhausting",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/black-friday/",
+      "title": "Black Friday Deals",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://codepen.io/leannerenard/full/gbmEjGx",
+      "title": "[untitled-2]",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bell.bz/its-been-a-very-hard-year/",
+      "title": "It’s been a very hard year",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22835",
+      "title": "Monday after house session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://learn.bradfrost.com/black-friday",
+      "title": "Black Friday sale | Brad Frost Web",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://zeldman.com/2026/11/16/standout-designs-for-the-web/?utm_source=bluesky&utm_medium=jetpack_social",
+      "title": "Standout Designs for the Web",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.propublica.org/article/trump-tariff-refunds-corporate-bonuses?utm_source=bluesky&utm_medium=social&utm_campaign=propublica-bsky",
+      "title": "These Companies Are Using Trump’s Tariff Refunds for Executive Bonuses",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://productpicnic.com/archive/thoughtless-changes-overwhelm-our-users-and-its/",
+      "title": "Thoughtless changes overwhelm our users, and it's our fault",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://douga11y.github.io/blog/",
+      "title": "Repeating Myself",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://a11y-tools.com/blog/category/tpgi-backup/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaLabelledByElements",
+      "title": "Element: ariaLabelledByElements property - Web APIs | MDN",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://sherif.io/2026/11/12/building-sunny-the-end.html",
+      "title": "Building Sunny Side Up - The End",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bit.ly/side-lum1",
+      "title": "Send and sign agreements from Claude with Lumin",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50522776",
+      "title": "Launch HN: Axonnic (YC F26) – Sleeves that track fingers and estimate force",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://solipsist.sh/",
+      "title": "Show HN: Solipsist – Work with Pi agents using Markdown",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/wanderingstan/vibeconf-app/",
+      "title": "Show HN: My OSS Claude Meetings alternative that works with any agent or call",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/VictorioBerra/miform",
+      "title": "Show HN: Self-Hosted Contact Forms for Your Web App in Go",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/dday9/t-pico",
+      "title": "Show HN: T'Pico, a classless CSS library for modern browsers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.csiro.au/en/news/All/News/2026/November/confirm-black-hole",
+      "title": "New CSIRO technique confirms iconic black hole image",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a",
+      "title": "Nvidia board not considering reinstating Jensen Huang as chief executive",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+      "title": "Nvidia board is not considering bringing Jensen Huang back as CEO",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://hsph.harvard.edu/news/hyperscale-data-centers-energy-consumption-carbon-emissions-newly-estimated-by-researchers/",
+      "title": "Research: Electricity use and carbon emissions for data centers rival US states",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50523886",
+      "title": "Quvanti Labs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0-rc.0",
+      "title": "Carbon (IBM) — v11.121.0-rc.0",
+      "reason": "prerelease"
+    }
+  ]
+}

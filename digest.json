@@ -1,1058 +1,59 @@
 {
-  "generated_at": "2026-11-16T02:43:01.215242+00:00",
+  "generated_at": "2026-11-17T05:03:38.922434+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "15 November 2026",
-      "period_start": "2026-11-15",
-      "period_end": "2026-11-15",
+      "label": "16 November 2026",
+      "period_start": "2026-11-16",
+      "period_end": "2026-11-16",
       "items": [
         {
-          "id": "e873ffb37f96",
-          "title": "Handwriting, as a Font",
-          "url": "https://ductus.sorenblank.com",
-          "hn": "https://news.ycombinator.com/item?id=50509972",
-          "points": 39,
-          "comments": 6,
-          "created_at_i": 1794771733,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.66,
-          "why": []
-        },
-        {
-          "id": "59e30295289f",
-          "title": "Show HN: A custom font based on the Jamaican flag alphabet",
-          "url": "https://bobbiec.github.io/jamaican-font.html",
-          "hn": "https://news.ycombinator.com/item?id=50502839",
-          "points": 53,
-          "comments": 7,
-          "created_at_i": 1794704205,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.315,
-          "why": []
-        },
-        {
-          "id": "bf7cad672e18",
-          "title": "November 9 - November 15 Round Up: Designing for AI Mistakes, AI as Design Material, AI Design Workflows",
-          "url": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
-          "hn": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
+          "id": "29c8dba282b0",
+          "title": "The CSS caret-* properties and custom caret accessibility",
+          "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
+          "hn": "https://bsky.app/profile/aardrian.bsky.social/post/3n2grw3idlk2o",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794769291,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 3.008,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "d57e656a36a4",
-          "title": "Send and sign agreements from Claude with Lumin",
-          "url": "https://bit.ly/side-lum1",
-          "hn": "https://bit.ly/side-lum1",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805500,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        }
-      ],
-      "candidates": [
-        {
-          "id": "e873ffb37f96",
-          "title": "Handwriting, as a Font",
-          "url": "https://ductus.sorenblank.com",
-          "hn": "https://news.ycombinator.com/item?id=50509972",
-          "points": 39,
-          "comments": 6,
-          "created_at_i": 1794771733,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.66,
-          "why": []
-        },
-        {
-          "id": "59e30295289f",
-          "title": "Show HN: A custom font based on the Jamaican flag alphabet",
-          "url": "https://bobbiec.github.io/jamaican-font.html",
-          "hn": "https://news.ycombinator.com/item?id=50502839",
-          "points": 53,
-          "comments": 7,
-          "created_at_i": 1794704205,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.315,
-          "why": []
-        },
-        {
-          "id": "bf7cad672e18",
-          "title": "November 9 - November 15 Round Up: Designing for AI Mistakes, AI as Design Material, AI Design Workflows",
-          "url": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
-          "hn": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794769291,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 3.008,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "d57e656a36a4",
-          "title": "Send and sign agreements from Claude with Lumin",
-          "url": "https://bit.ly/side-lum1",
-          "hn": "https://bit.ly/side-lum1",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805500,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "eeb56a4ab110",
-          "title": "Slop is moving up the stack",
-          "url": "https://gabeorlanski.github.io/posts/slop-moves-up/",
-          "hn": "https://gabeorlanski.github.io/posts/slop-moves-up/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805440,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "e9668c91f29f",
-          "title": "Iconden",
-          "url": "https://iconden.com/",
-          "hn": "https://iconden.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805380,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "a42eb83b5beb",
-          "title": "Guess the Year",
-          "url": "https://chronologygame.com/guess-the-year",
-          "hn": "https://chronologygame.com/guess-the-year",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805320,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "6fa4efafca2d",
-          "title": "Glue work is still harmful in the age of AI",
-          "url": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
-          "hn": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805260,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "7eb5c219e9a9",
-          "title": "Building Story Factory",
-          "url": "https://www.proofofconcept.pub/p/building-story-factory",
-          "hn": "https://www.proofofconcept.pub/p/building-story-factory",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794763838,
-          "sources": [
-            "Proof of Concept"
-          ],
-          "sharers": 0,
-          "score": 2.63,
-          "why": [
-            "editor's pick at Proof of Concept"
-          ]
-        },
-        {
-          "id": "c1b0abbf1a9c",
-          "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
-          "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
-          "hn": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794749488,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.522,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "acdd36250789",
-          "title": "🔵 Anthropic is Coming for Everything",
-          "url": "https://departmentofproduct.substack.com/p/anthropic-is-coming-for-everything",
-          "hn": "https://departmentofproduct.substack.com/p/anthropic-is-coming-for-everything",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794747092,
-          "sources": [
-            "Department of Product"
-          ],
-          "sharers": 0,
-          "score": 2.505,
-          "why": [
-            "editor's pick at Department of Product"
-          ]
-        },
-        {
-          "id": "e6a48418624c",
-          "title": "Design Engineering Has a Handoff Problem",
-          "url": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
-          "hn": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794681219,
-          "sources": [
-            "Slot Machine"
-          ],
-          "sharers": 0,
-          "score": 2.478,
-          "why": [
-            "editor's pick at Slot Machine"
-          ]
-        }
-      ]
-    },
-    "weekly": {
-      "label": "9–15 November 2026",
-      "period_start": "2026-11-09",
-      "period_end": "2026-11-15",
-      "week_start": "2026-11-09",
-      "week_end": "2026-11-15",
-      "week_label": "9–15 November 2026",
-      "iso_week": "2026-W46",
-      "items": [
-        {
-          "id": "a97c7cf547a2",
-          "title": "10 Big Ol’ 2027 Black Friday Deals",
-          "url": "https://css-tricks.com/2027-front-end-black-friday-deals/",
-          "hn": "https://bsky.app/profile/css-tricks.com/post/3n275qw25ewnj",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794578724,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 4,
-          "score": 7.044,
-          "why": [
-            "shared by 4 design accounts"
-          ],
-          "authors": [
-            "joshwcomeau.com",
-            "piccalil.li",
-            "rachelandrew.co.uk",
-            "sarasoueidan.com"
-          ]
-        },
-        {
-          "id": "b5472761e180",
-          "title": "Creating Diagrams and Graphs Using Modern CSS",
-          "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
-          "hn": "https://lobste.rs/s/itpaba/creating_diagrams_graphs_using_modern",
-          "points": 5,
-          "comments": 2,
-          "created_at_i": 1794486027,
-          "sources": [
-            "Lobsters",
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 5.859,
-          "why": [
-            "picked up by Lobsters and Bluesky"
-          ],
-          "authors": [
-            "joshwcomeau.com"
-          ]
-        },
-        {
-          "id": "cb131a8252d3",
-          "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
-          "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794434912,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 4.638,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "19e0ad177799",
-          "title": "What’s !important Newsletter #21 - CSS-Tricks",
-          "url": "https://css-tricks.com/newsletter/whats-important-21/",
-          "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794325538,
+          "created_at_i": 1794819149,
           "sources": [
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 4.368,
+          "score": 5.197,
           "why": [
             "shared by 2 design accounts"
           ],
           "authors": [
             "ericwbailey.website",
-            "joshwcomeau.com"
-          ]
-        },
-        {
-          "id": "13783859176d",
-          "title": "Ultorg: The User Interface for Relational Databases",
-          "url": "https://www.ultorg.com/",
-          "hn": "https://news.ycombinator.com/item?id=50435898",
-          "points": 142,
-          "comments": 51,
-          "created_at_i": 1794283179,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.268,
-          "why": []
-        },
-        {
-          "id": "c16299b52f34",
-          "title": "November 2 - November 8 Round Up: AI’s Impact on UX, Hands-On Design Leadership, Figma in the AI Era",
-          "url": "https://aiforux.substack.com/p/november-2-november-8-round-up-ais",
-          "hn": "https://aiforux.substack.com/p/november-2-november-8-round-up-ais",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794167794,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 3.973,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "f5da730ae358",
-          "title": "October 26 - November 1 Round Up: AI UI Generator Gaps, UX’s AI Reckoning, Hands-On Design Leadership",
-          "url": "https://aiforux.substack.com/p/october-26-november-1-round-up-ai",
-          "hn": "https://aiforux.substack.com/p/october-26-november-1-round-up-ai",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793561077,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 3.934,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "ec4d0784e093",
-          "title": "There’s no better name for design systems",
-          "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
-          "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378699,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.693,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "71cdf6a87afc",
-          "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
-          "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794226807,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.692,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "7269aedfdccb",
-          "title": "What does design system AI readiness mean, anyway?",
-          "url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
-          "hn": "https://seanvoisen.com/writing/design-system-ai-readiness/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794200580,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.662,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "e873ffb37f96",
-          "title": "Handwriting, as a Font",
-          "url": "https://ductus.sorenblank.com",
-          "hn": "https://news.ycombinator.com/item?id=50509972",
-          "points": 39,
-          "comments": 6,
-          "created_at_i": 1794771733,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.66,
-          "why": []
-        },
-        {
-          "id": "2fbdd17b3bb7",
-          "title": "Anti-OCR Typography",
-          "url": "https://aray-la.github.io/web-type/anti-ocr-typography/index.html",
-          "hn": "https://news.ycombinator.com/item?id=50500682",
-          "points": 2,
-          "comments": 8,
-          "created_at_i": 1794689422,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.36,
-          "why": []
-        }
-      ],
-      "candidates": [
-        {
-          "id": "a97c7cf547a2",
-          "title": "10 Big Ol’ 2027 Black Friday Deals",
-          "url": "https://css-tricks.com/2027-front-end-black-friday-deals/",
-          "hn": "https://bsky.app/profile/css-tricks.com/post/3n275qw25ewnj",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794578724,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 4,
-          "score": 7.044,
-          "why": [
-            "shared by 4 design accounts"
-          ],
-          "authors": [
-            "joshwcomeau.com",
-            "piccalil.li",
-            "rachelandrew.co.uk",
             "sarasoueidan.com"
           ]
         },
         {
-          "id": "b5472761e180",
-          "title": "Creating Diagrams and Graphs Using Modern CSS",
-          "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
-          "hn": "https://lobste.rs/s/itpaba/creating_diagrams_graphs_using_modern",
-          "points": 5,
-          "comments": 2,
-          "created_at_i": 1794486027,
-          "sources": [
-            "Lobsters",
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 5.859,
-          "why": [
-            "picked up by Lobsters and Bluesky"
-          ],
-          "authors": [
-            "joshwcomeau.com"
-          ]
-        },
-        {
-          "id": "cb131a8252d3",
-          "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
-          "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
+          "id": "5e1ab2af1d66",
+          "title": "UI edge cases: A reference guide",
+          "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794434912,
+          "created_at_i": 1794864024,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 4.638,
+          "score": 2.946,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "19e0ad177799",
-          "title": "What’s !important Newsletter #21 - CSS-Tricks",
-          "url": "https://css-tricks.com/newsletter/whats-important-21/",
-          "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
+          "id": "35612161c8c9",
+          "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794325538,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 4.368,
-          "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "ericwbailey.website",
-            "joshwcomeau.com"
-          ]
-        },
-        {
-          "id": "13783859176d",
-          "title": "Ultorg: The User Interface for Relational Databases",
-          "url": "https://www.ultorg.com/",
-          "hn": "https://news.ycombinator.com/item?id=50435898",
-          "points": 142,
-          "comments": 51,
-          "created_at_i": 1794283179,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.268,
-          "why": []
-        },
-        {
-          "id": "c16299b52f34",
-          "title": "November 2 - November 8 Round Up: AI’s Impact on UX, Hands-On Design Leadership, Figma in the AI Era",
-          "url": "https://aiforux.substack.com/p/november-2-november-8-round-up-ais",
-          "hn": "https://aiforux.substack.com/p/november-2-november-8-round-up-ais",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794167794,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 3.973,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "f5da730ae358",
-          "title": "October 26 - November 1 Round Up: AI UI Generator Gaps, UX’s AI Reckoning, Hands-On Design Leadership",
-          "url": "https://aiforux.substack.com/p/october-26-november-1-round-up-ai",
-          "hn": "https://aiforux.substack.com/p/october-26-november-1-round-up-ai",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793561077,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 3.934,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "ec4d0784e093",
-          "title": "There’s no better name for design systems",
-          "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
-          "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378699,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.693,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "71cdf6a87afc",
-          "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
-          "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794226807,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.692,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "7269aedfdccb",
-          "title": "What does design system AI readiness mean, anyway?",
-          "url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
-          "hn": "https://seanvoisen.com/writing/design-system-ai-readiness/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794200580,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.662,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "e873ffb37f96",
-          "title": "Handwriting, as a Font",
-          "url": "https://ductus.sorenblank.com",
-          "hn": "https://news.ycombinator.com/item?id=50509972",
-          "points": 39,
-          "comments": 6,
-          "created_at_i": 1794771733,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.66,
-          "why": []
-        },
-        {
-          "id": "de608394675f",
-          "title": "AI Prototyping inside your design system. A hands-on guide for design & product teams.",
-          "url": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ai-prototyping-inside-your-design-system-a-hands-on-guide-for-design-product-teams-44825904c08d?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794353698,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 3.426,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "2fbdd17b3bb7",
-          "title": "Anti-OCR Typography",
-          "url": "https://aray-la.github.io/web-type/anti-ocr-typography/index.html",
-          "hn": "https://news.ycombinator.com/item?id=50500682",
-          "points": 2,
-          "comments": 8,
-          "created_at_i": 1794689422,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.36,
-          "why": []
-        },
-        {
-          "id": "59e30295289f",
-          "title": "Show HN: A custom font based on the Jamaican flag alphabet",
-          "url": "https://bobbiec.github.io/jamaican-font.html",
-          "hn": "https://news.ycombinator.com/item?id=50502839",
-          "points": 53,
-          "comments": 7,
-          "created_at_i": 1794704205,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.315,
-          "why": []
-        },
-        {
-          "id": "3f1d8afeb11e",
-          "title": "What product strategy does",
-          "url": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
-          "hn": "https://www.davesresearch.com/product-strategy/?utm_source=tldrproduct",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794295920,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 3.048,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "80987bf094de",
-          "title": "I was wrong about dark mode",
-          "url": "https://dbushell.com/2026/11/09/dark-mode/",
-          "hn": "https://lobste.rs/s/iqhxz6/i_was_wrong_about_dark_mode",
-          "points": 9,
-          "comments": 5,
-          "created_at_i": 1794243243,
-          "sources": [
-            "Lobsters"
-          ],
-          "sharers": 0,
-          "score": 3.024,
-          "why": []
-        },
-        {
-          "id": "bf7cad672e18",
-          "title": "November 9 - November 15 Round Up: Designing for AI Mistakes, AI as Design Material, AI Design Workflows",
-          "url": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
-          "hn": "https://aiforux.substack.com/p/november-9-november-15-round-up-designing",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794769291,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 3.008,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "ba65e70ece68",
-          "title": "Design is a search problem",
-          "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
-          "hn": "https://mattstromawn.com/writing/design-is-a-search-problem/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794482787,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.804,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "d57e656a36a4",
-          "title": "Send and sign agreements from Claude with Lumin",
-          "url": "https://bit.ly/side-lum1",
-          "hn": "https://bit.ly/side-lum1",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805500,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "eeb56a4ab110",
-          "title": "Slop is moving up the stack",
-          "url": "https://gabeorlanski.github.io/posts/slop-moves-up/",
-          "hn": "https://gabeorlanski.github.io/posts/slop-moves-up/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805440,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "e9668c91f29f",
-          "title": "Iconden",
-          "url": "https://iconden.com/",
-          "hn": "https://iconden.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805380,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "a42eb83b5beb",
-          "title": "Guess the Year",
-          "url": "https://chronologygame.com/guess-the-year",
-          "hn": "https://chronologygame.com/guess-the-year",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805320,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "6fa4efafca2d",
-          "title": "Glue work is still harmful in the age of AI",
-          "url": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
-          "hn": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805260,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.8,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "6eef34634779",
-          "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
-          "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
-          "hn": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794690946,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.743,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "dc54a120bc62",
-          "title": "Show HN: JavaScript web apps with WASM layout and GPU rendering in 280 KB",
-          "url": "https://github.com/rkaehn/uniform",
-          "hn": "https://news.ycombinator.com/item?id=50401844",
-          "points": 46,
-          "comments": 21,
-          "created_at_i": 1794028591,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 2.73,
-          "why": []
-        },
-        {
-          "id": "c2c4b5d45ad6",
-          "title": "The new UX of Mobile",
-          "url": "https://departmentofproduct.substack.com/p/the-new-ux-of-mobile",
-          "hn": "https://departmentofproduct.substack.com/p/the-new-ux-of-mobile",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794322027,
-          "sources": [
-            "Department of Product"
-          ],
-          "sharers": 0,
-          "score": 2.729,
-          "why": [
-            "editor's pick at Department of Product"
-          ]
-        },
-        {
-          "id": "f9419f0d8f8d",
-          "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
-          "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
-          "hn": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794256669,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.724,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "6f448cafbd48",
-          "title": "Research-In-The-Loop: How UXR Adapts to Development at AI Speed",
-          "url": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/research-in-the-loop/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794592800,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 2.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "3215b4e6ce8e",
-          "title": "Journey Mapping 101",
-          "url": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/journey-mapping-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794592800,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 2.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "605683b389d5",
-          "title": "The bathroom flaws that infuriate every designer",
-          "url": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/the-bathroom-flaws-that-infuriate-every-designer-a26d50145d47?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794435034,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 2.64,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "7eb5c219e9a9",
-          "title": "Building Story Factory",
-          "url": "https://www.proofofconcept.pub/p/building-story-factory",
-          "hn": "https://www.proofofconcept.pub/p/building-story-factory",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794763838,
-          "sources": [
-            "Proof of Concept"
-          ],
-          "sharers": 0,
-          "score": 2.63,
-          "why": [
-            "editor's pick at Proof of Concept"
-          ]
-        },
-        {
-          "id": "1e84d1835ae4",
-          "title": "Your Last UX Audit Is Already Out of Date",
-          "url": "https://blog.fuguux.com/p/your-last-ux-audit-is-already-out",
-          "hn": "https://blog.fuguux.com/p/your-last-ux-audit-is-already-out",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793831647,
-          "sources": [
-            "fuguUX’s Substack"
-          ],
-          "sharers": 0,
-          "score": 2.603,
-          "why": [
-            "editor's pick at fuguUX’s Substack"
-          ]
-        },
-        {
-          "id": "df7b2496f434",
-          "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
-          "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
-          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794240080,
+          "created_at_i": 1794844975,
           "sources": [
             "Lenny's Newsletter"
           ],
@@ -1063,30 +64,13 @@
           ]
         },
         {
-          "id": "fdc5cf3a67a5",
-          "title": "State of the tech job market: late 2026",
-          "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
-          "hn": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+          "id": "d1354f5802c5",
+          "title": "Ch. 11: Measuring Impact",
+          "url": "https://www.producttalk.org/ch-11-measuring-impact/",
+          "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794323043,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.563,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "3ad0c6ad6c2c",
-          "title": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
-          "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
-          "hn": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794319200,
+          "created_at_i": 1794837600,
           "sources": [
             "Product Talk"
           ],
@@ -1095,389 +79,143 @@
           "why": [
             "editor's pick at Product Talk"
           ]
-        },
+        }
+      ],
+      "candidates": [
         {
-          "id": "c101175c67db",
-          "title": "2027 Product Conferences",
-          "url": "https://www.producttalk.org/2027-product-conferences/",
-          "hn": "https://www.producttalk.org/2027-product-conferences/",
+          "id": "29c8dba282b0",
+          "title": "The CSS caret-* properties and custom caret accessibility",
+          "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
+          "hn": "https://bsky.app/profile/aardrian.bsky.social/post/3n2grw3idlk2o",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794405600,
+          "created_at_i": 1794819149,
           "sources": [
-            "Product Talk"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 2.535,
+          "sharers": 2,
+          "score": 5.197,
           "why": [
-            "editor's pick at Product Talk"
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "sarasoueidan.com"
           ]
         },
         {
-          "id": "c1b0abbf1a9c",
-          "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
-          "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
-          "hn": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+          "id": "5e1ab2af1d66",
+          "title": "UI edge cases: A reference guide",
+          "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794749488,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.522,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "4e8190527691",
-          "title": "How this founder built a better Duolingo with Codex | William Imoh",
-          "url": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
-          "hn": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794229457,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.511,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "2cac4253f10e",
-          "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
-          "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
-          "hn": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794402249,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.511,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "acdd36250789",
-          "title": "🔵 Anthropic is Coming for Everything",
-          "url": "https://departmentofproduct.substack.com/p/anthropic-is-coming-for-everything",
-          "hn": "https://departmentofproduct.substack.com/p/anthropic-is-coming-for-everything",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794747092,
-          "sources": [
-            "Department of Product"
-          ],
-          "sharers": 0,
-          "score": 2.505,
-          "why": [
-            "editor's pick at Department of Product"
-          ]
-        },
-        {
-          "id": "80d1bc3e15ce",
-          "title": "AI Is the New Old Design Material",
-          "url": "https://aiforux.substack.com/p/ai-is-the-new-old-design-material",
-          "hn": "https://aiforux.substack.com/p/ai-is-the-new-old-design-material",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794510391,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 2.486,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "e6a48418624c",
-          "title": "Design Engineering Has a Handoff Problem",
-          "url": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
-          "hn": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794681219,
-          "sources": [
-            "Slot Machine"
-          ],
-          "sharers": 0,
-          "score": 2.478,
-          "why": [
-            "editor's pick at Slot Machine"
-          ]
-        },
-        {
-          "id": "4e85d964a8c0",
-          "title": "I made a film in Excel",
-          "url": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
-          "hn": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794482626,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.469,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "3b77e75bc21c",
-          "title": "State of JavaScript 2026",
-          "url": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
-          "hn": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794482515,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.469,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "cca06479f9a4",
-          "title": "By taking away",
-          "url": "https://haydenbleasel.com/taking-away",
-          "hn": "https://haydenbleasel.com/taking-away",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794482424,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.468,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "ebb2101084be",
-          "title": "Should You Actually Add AI To That? A Four-Question Audit For Product Teams",
-          "url": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
-          "hn": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794477600,
-          "sources": [
-            "Smashing Magazine"
-          ],
-          "sharers": 0,
-          "score": 2.436,
-          "why": [
-            "editor's pick at Smashing Magazine"
-          ]
-        },
-        {
-          "id": "a3ff371a3921",
-          "title": "Please use AI",
-          "url": "https://shawnsmucker.substack.com/p/please-use-ai",
-          "hn": "https://shawnsmucker.substack.com/p/please-use-ai",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794296084,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.382,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "d368aea092f9",
-          "title": "TK",
-          "url": "https://tk.xyz/",
-          "hn": "https://tk.xyz/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794295980,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.381,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "8d718a4b5814",
-          "title": "Blossom carousel",
-          "url": "https://blossom-carousel.com/",
-          "hn": "https://blossom-carousel.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794295953,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.381,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "7e23093f15fc",
-          "title": "Customer or product?",
-          "url": "https://customerorproduct.org/",
-          "hn": "https://customerorproduct.org/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794295869,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.381,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "5d7a311bf932",
-          "title": "Don’t make a human do what AI is amazing at",
-          "url": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
-          "hn": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378914,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.361,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "bc23fb41c573",
-          "title": "1 in 8 billion",
-          "url": "https://1in8b.life/en/",
-          "hn": "https://1in8b.life/en/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378836,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.36,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "0981be9212e1",
-          "title": "A family tree of software job titles",
-          "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-          "hn": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378809,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.36,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "d8887a09bc5e",
-          "title": "The components of agent memory",
-          "url": "https://www.anthropic.com/research/components-of-agent-memory",
-          "hn": "https://www.anthropic.com/research/components-of-agent-memory",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378731,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.36,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "5f472ec10a17",
-          "title": "What being the new kid taught me about persuasion as a designer",
-          "url": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794312558,
+          "created_at_i": 1794864024,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 2.355,
+          "score": 2.946,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "143476f10336",
-          "title": "Vote in Readymag Websites of the Year 2026",
-          "url": "https://bit.ly/side-mag5",
-          "hn": "https://bit.ly/side-mag5",
+          "id": "35612161c8c9",
+          "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794200700,
+          "created_at_i": 1794844975,
           "sources": [
-            "Sidebar"
+            "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 2.33,
+          "score": 2.589,
           "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at Lenny's Newsletter"
           ]
         },
         {
-          "id": "d11bf2f59fd2",
-          "title": "Building interfaces that understand what we want to do",
-          "url": "https://agustinbarrientos.com/writing/senior-eye/interfaces-that-understand-what-we-want",
-          "hn": "https://agustinbarrientos.com/writing/senior-eye/interfaces-that-understand-what-we-want",
+          "id": "d1354f5802c5",
+          "title": "Ch. 11: Measuring Impact",
+          "url": "https://www.producttalk.org/ch-11-measuring-impact/",
+          "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794546300,
+          "created_at_i": 1794837600,
           "sources": [
-            "Sidebar"
+            "Product Talk"
           ],
           "sharers": 0,
-          "score": 2.33,
+          "score": 2.535,
           "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at Product Talk"
           ]
         },
         {
-          "id": "610cfa261100",
-          "title": "edge-aura",
-          "url": "https://edge-aura.js.org/",
-          "hn": "https://edge-aura.js.org/",
+          "id": "2c82738cbe42",
+          "title": "How I fight token fraud as a solo founder",
+          "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794200520,
+          "created_at_i": 1794834249,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "53b63bda7e29",
+          "title": "Picking a token by its job, or by its number",
+          "url": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
+          "hn": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794826994,
+          "sources": [
+            "Design Systems Collective"
+          ],
+          "sharers": 0,
+          "score": 2.461,
+          "why": [
+            "editor's pick at Design Systems Collective"
+          ]
+        },
+        {
+          "id": "156836d6c9f6",
+          "title": "Staggering Scroll-Driven Animations with animation-range-start",
+          "url": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3n2gy7eivcy3g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794847625,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.343,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "eeb56a4ab110",
+          "title": "Slop is moving up the stack",
+          "url": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+          "hn": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805440,
           "sources": [
             "Sidebar"
           ],
@@ -1488,13 +226,13 @@
           ]
         },
         {
-          "id": "e7b5f6ae2eaf",
-          "title": "Below the surface",
-          "url": "https://belowthesurface.amsterdam/en/vondsten",
-          "hn": "https://belowthesurface.amsterdam/en/vondsten",
+          "id": "e9668c91f29f",
+          "title": "Iconden",
+          "url": "https://iconden.com/",
+          "hn": "https://iconden.com/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794546240,
+          "created_at_i": 1794805380,
           "sources": [
             "Sidebar"
           ],
@@ -1505,13 +243,13 @@
           ]
         },
         {
-          "id": "261f65d53750",
-          "title": "If X, then Y",
-          "url": "https://cdevroe.com/2026/11/05/if-x-then-y/",
-          "hn": "https://cdevroe.com/2026/11/05/if-x-then-y/",
+          "id": "a42eb83b5beb",
+          "title": "Guess the Year",
+          "url": "https://chronologygame.com/guess-the-year",
+          "hn": "https://chronologygame.com/guess-the-year",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794546180,
+          "created_at_i": 1794805320,
           "sources": [
             "Sidebar"
           ],
@@ -1519,6 +257,478 @@
           "score": 2.329,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "6fa4efafca2d",
+          "title": "Glue work is still harmful in the age of AI",
+          "url": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+          "hn": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805260,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.328,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d12cc836d3e6",
+          "title": "DD415 / MBA: school of profit",
+          "url": "https://www.densediscovery.com/issues/415/",
+          "hn": "https://www.densediscovery.com/issues/415/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794803685,
+          "sources": [
+            "Dense Discovery"
+          ],
+          "sharers": 0,
+          "score": 2.319,
+          "why": [
+            "editor's pick at Dense Discovery"
+          ]
+        },
+        {
+          "id": "506b1ce506f5",
+          "title": "UI coding harness by Evil Martians",
+          "url": "https://evilmartians.com/services/ai-harness",
+          "hn": "https://bsky.app/profile/evilmartians.com/post/3n2gxnaolym2s",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794847076,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.005,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "evilmartians.com"
+          ]
+        },
+        {
+          "id": "7af16f190f1c",
+          "title": "Why bother paying for software anymore?",
+          "url": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794864434,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.95,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "12a06e8c7f01",
+          "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
+          "url": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794831428,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.691,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "c0ac6fc443af",
+          "title": "The trash robot that doesn’t pick up, but hands out",
+          "url": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794831375,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.691,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        }
+      ]
+    },
+    "weekly": {
+      "label": "16–22 November 2026",
+      "period_start": "2026-11-16",
+      "period_end": "2026-11-22",
+      "week_start": "2026-11-16",
+      "week_end": "2026-11-22",
+      "week_label": "16–22 November 2026",
+      "iso_week": "2026-W47",
+      "items": [
+        {
+          "id": "29c8dba282b0",
+          "title": "The CSS caret-* properties and custom caret accessibility",
+          "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
+          "hn": "https://bsky.app/profile/aardrian.bsky.social/post/3n2grw3idlk2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794819149,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 5.197,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "sarasoueidan.com"
+          ]
+        },
+        {
+          "id": "5e1ab2af1d66",
+          "title": "UI edge cases: A reference guide",
+          "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794864024,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.946,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "35612161c8c9",
+          "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794844975,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.589,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "d1354f5802c5",
+          "title": "Ch. 11: Measuring Impact",
+          "url": "https://www.producttalk.org/ch-11-measuring-impact/",
+          "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794837600,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "29c8dba282b0",
+          "title": "The CSS caret-* properties and custom caret accessibility",
+          "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
+          "hn": "https://bsky.app/profile/aardrian.bsky.social/post/3n2grw3idlk2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794819149,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 5.197,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "sarasoueidan.com"
+          ]
+        },
+        {
+          "id": "5e1ab2af1d66",
+          "title": "UI edge cases: A reference guide",
+          "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794864024,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.946,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "35612161c8c9",
+          "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794844975,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.589,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "d1354f5802c5",
+          "title": "Ch. 11: Measuring Impact",
+          "url": "https://www.producttalk.org/ch-11-measuring-impact/",
+          "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794837600,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
+          "id": "2c82738cbe42",
+          "title": "How I fight token fraud as a solo founder",
+          "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794834249,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "53b63bda7e29",
+          "title": "Picking a token by its job, or by its number",
+          "url": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
+          "hn": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794826994,
+          "sources": [
+            "Design Systems Collective"
+          ],
+          "sharers": 0,
+          "score": 2.461,
+          "why": [
+            "editor's pick at Design Systems Collective"
+          ]
+        },
+        {
+          "id": "156836d6c9f6",
+          "title": "Staggering Scroll-Driven Animations with animation-range-start",
+          "url": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3n2gy7eivcy3g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794847625,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.343,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "joshwcomeau.com"
+          ]
+        },
+        {
+          "id": "eeb56a4ab110",
+          "title": "Slop is moving up the stack",
+          "url": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+          "hn": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805440,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.329,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "e9668c91f29f",
+          "title": "Iconden",
+          "url": "https://iconden.com/",
+          "hn": "https://iconden.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805380,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.329,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "a42eb83b5beb",
+          "title": "Guess the Year",
+          "url": "https://chronologygame.com/guess-the-year",
+          "hn": "https://chronologygame.com/guess-the-year",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805320,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.329,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "6fa4efafca2d",
+          "title": "Glue work is still harmful in the age of AI",
+          "url": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+          "hn": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794805260,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.328,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d12cc836d3e6",
+          "title": "DD415 / MBA: school of profit",
+          "url": "https://www.densediscovery.com/issues/415/",
+          "hn": "https://www.densediscovery.com/issues/415/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794803685,
+          "sources": [
+            "Dense Discovery"
+          ],
+          "sharers": 0,
+          "score": 2.319,
+          "why": [
+            "editor's pick at Dense Discovery"
+          ]
+        },
+        {
+          "id": "506b1ce506f5",
+          "title": "UI coding harness by Evil Martians",
+          "url": "https://evilmartians.com/services/ai-harness",
+          "hn": "https://bsky.app/profile/evilmartians.com/post/3n2gxnaolym2s",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794847076,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.005,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "evilmartians.com"
+          ]
+        },
+        {
+          "id": "7af16f190f1c",
+          "title": "Why bother paying for software anymore?",
+          "url": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794864434,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.95,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "12a06e8c7f01",
+          "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
+          "url": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794831428,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.691,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "c0ac6fc443af",
+          "title": "The trash robot that doesn’t pick up, but hands out",
+          "url": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794831375,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.691,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         }
       ]
@@ -1632,6 +842,27 @@
           ]
         },
         {
+          "id": "29c8dba282b0",
+          "title": "The CSS caret-* properties and custom caret accessibility",
+          "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
+          "hn": "https://bsky.app/profile/aardrian.bsky.social/post/3n2grw3idlk2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794819149,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 5.197,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "sarasoueidan.com"
+          ]
+        },
+        {
           "id": "06a612f5cbe4",
           "title": "Sparkle buttons, Autonomy by design, AI reckoning in UX, Figma with MCP",
           "url": "https://uxdesign.cc/sparkle-buttons-autonomy-by-design-ai-reckoning-in-ux-figma-with-mcp-c93e38fa36e3?source=rss----138adf9c44c---4",
@@ -1718,27 +949,6 @@
           "authors": [
             "rachelandrew.co.uk",
             "zeldman.bsky.social"
-          ]
-        },
-        {
-          "id": "19e0ad177799",
-          "title": "What’s !important Newsletter #21 - CSS-Tricks",
-          "url": "https://css-tricks.com/newsletter/whats-important-21/",
-          "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794325538,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 4.368,
-          "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "ericwbailey.website",
-            "joshwcomeau.com"
           ]
         },
         {
@@ -1838,6 +1048,27 @@
           "score": 5.326,
           "why": [
             "heavily argued (30 comments)"
+          ]
+        },
+        {
+          "id": "29c8dba282b0",
+          "title": "The CSS caret-* properties and custom caret accessibility",
+          "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
+          "hn": "https://bsky.app/profile/aardrian.bsky.social/post/3n2grw3idlk2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794819149,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 5.197,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "sarasoueidan.com"
           ]
         },
         {
@@ -2400,6 +1631,23 @@
           ]
         },
         {
+          "id": "5e1ab2af1d66",
+          "title": "UI edge cases: A reference guide",
+          "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794864024,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.946,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "ba65e70ece68",
           "title": "Design is a search problem",
           "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
@@ -2754,6 +2002,23 @@
           ]
         },
         {
+          "id": "35612161c8c9",
+          "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794844975,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.589,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
           "id": "fdc5cf3a67a5",
           "title": "State of the tech job market: late 2026",
           "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
@@ -2822,6 +2087,23 @@
           ]
         },
         {
+          "id": "d1354f5802c5",
+          "title": "Ch. 11: Measuring Impact",
+          "url": "https://www.producttalk.org/ch-11-measuring-impact/",
+          "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794837600,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
           "id": "ea2c57144025",
           "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
           "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
@@ -2880,6 +2162,23 @@
           "points": 0,
           "comments": 0,
           "created_at_i": 1794402249,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "2c82738cbe42",
+          "title": "How I fight token fraud as a solo founder",
+          "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794834249,
           "sources": [
             "Lenny's Newsletter"
           ],
@@ -2989,6 +2288,23 @@
           "score": 2.468,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "53b63bda7e29",
+          "title": "Picking a token by its job, or by its number",
+          "url": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
+          "hn": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794826994,
+          "sources": [
+            "Design Systems Collective"
+          ],
+          "sharers": 0,
+          "score": 2.461,
+          "why": [
+            "editor's pick at Design Systems Collective"
           ]
         },
         {
@@ -3162,6 +2478,26 @@
           ]
         },
         {
+          "id": "156836d6c9f6",
+          "title": "Staggering Scroll-Driven Animations with animation-range-start",
+          "url": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3n2gy7eivcy3g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794847625,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.343,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "joshwcomeau.com"
+          ]
+        },
+        {
           "id": "143476f10336",
           "title": "Vote in Readymag Websites of the Year 2026",
           "url": "https://bit.ly/side-mag5",
@@ -3298,6 +2634,23 @@
           ]
         },
         {
+          "id": "d12cc836d3e6",
+          "title": "DD415 / MBA: school of profit",
+          "url": "https://www.densediscovery.com/issues/415/",
+          "hn": "https://www.densediscovery.com/issues/415/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794803685,
+          "sources": [
+            "Dense Discovery"
+          ],
+          "sharers": 0,
+          "score": 2.319,
+          "why": [
+            "editor's pick at Dense Discovery"
+          ]
+        },
+        {
           "id": "9371392b7937",
           "title": "A sans serif built on oversized round shapes",
           "url": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
@@ -3332,143 +2685,6 @@
           ]
         },
         {
-          "id": "c4b4e3b963f0",
-          "title": "A-Frame",
-          "url": "https://aframe.io/",
-          "hn": "https://aframe.io/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793938735,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.314,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "455df882718c",
-          "title": "DD414 / Organising the discontent",
-          "url": "https://www.densediscovery.com/issues/414/",
-          "hn": "https://www.densediscovery.com/issues/414/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794197623,
-          "sources": [
-            "Dense Discovery"
-          ],
-          "sharers": 0,
-          "score": 2.312,
-          "why": [
-            "editor's pick at Dense Discovery"
-          ]
-        },
-        {
-          "id": "5d397839adf4",
-          "title": "I’m not descending into madness because mount and unmount icons make no sense",
-          "url": "https://www.osnews.com/story/146312/im-not-descending-into-madness-because-mount-and-unmount-icons-make-no-sense/",
-          "hn": "https://lobste.rs/s/fbsrym/i_m_not_descending_into_madness_because",
-          "points": 8,
-          "comments": 1,
-          "created_at_i": 1794538278,
-          "sources": [
-            "Lobsters"
-          ],
-          "sharers": 0,
-          "score": 2.311,
-          "why": []
-        },
-        {
-          "id": "4ee82c8ca893",
-          "title": "Jeffrey Zeldman Presents - The salad bar theory of UX professionalism - Design",
-          "url": "https://zeldman.com/2026/02/16/the-salad-bar-theory-of-ux-professionalism/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3mzv5kzij3s2i",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794234968,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.284,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "zeldman.bsky.social"
-          ]
-        },
-        {
-          "id": "7e1f6cc21c29",
-          "title": "Primer (GitHub) — @primer/react@38.46.0",
-          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.46.0",
-          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.46.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794614311,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 2.233,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "c36fe14ef951",
-          "title": "Eight Truths About AI That Should Shape How You Design Products",
-          "url": "https://aiforux.substack.com/p/eight-truths-about-ai-that-should",
-          "hn": "https://aiforux.substack.com/p/eight-truths-about-ai-that-should",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794419409,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 2.207,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "ee384626235a",
-          "title": "Personal Agent Systems Explained - How 5 Leaders Run their work through AI Agents",
-          "url": "https://departmentofproduct.substack.com/p/personal-agent-systems-explained",
-          "hn": "https://departmentofproduct.substack.com/p/personal-agent-systems-explained",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794494071,
-          "sources": [
-            "Department of Product"
-          ],
-          "sharers": 0,
-          "score": 2.088,
-          "why": [
-            "editor's pick at Department of Product"
-          ]
-        },
-        {
-          "id": "5d70c5271f4b",
-          "title": "Why a Button Takes a Month",
-          "url": "https://southleft.substack.com/p/why-a-button-takes-a-month",
-          "hn": "https://southleft.substack.com/p/why-a-button-takes-a-month",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794486649,
-          "sources": [
-            "Slot Machine"
-          ],
-          "sharers": 0,
-          "score": 2.06,
-          "why": [
-            "editor's pick at Slot Machine"
-          ]
-        },
-        {
           "id": "7da3b08fd70d",
           "title": "Introducing Adaptive Dark Mode",
           "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
@@ -3494,220 +2710,80 @@
   },
   "items": [
     {
-      "id": "a97c7cf547a2",
-      "title": "10 Big Ol’ 2027 Black Friday Deals",
-      "url": "https://css-tricks.com/2027-front-end-black-friday-deals/",
-      "hn": "https://bsky.app/profile/css-tricks.com/post/3n275qw25ewnj",
+      "id": "29c8dba282b0",
+      "title": "The CSS caret-* properties and custom caret accessibility",
+      "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
+      "hn": "https://bsky.app/profile/aardrian.bsky.social/post/3n2grw3idlk2o",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1794578724,
-      "sources": [
-        "Bluesky"
-      ],
-      "sharers": 4,
-      "score": 7.044,
-      "why": [
-        "shared by 4 design accounts"
-      ],
-      "authors": [
-        "joshwcomeau.com",
-        "piccalil.li",
-        "rachelandrew.co.uk",
-        "sarasoueidan.com"
-      ]
-    },
-    {
-      "id": "b5472761e180",
-      "title": "Creating Diagrams and Graphs Using Modern CSS",
-      "url": "https://blog.master.dev/creating-diagrams-and-graphs-using-modern-css/",
-      "hn": "https://lobste.rs/s/itpaba/creating_diagrams_graphs_using_modern",
-      "points": 5,
-      "comments": 2,
-      "created_at_i": 1794486027,
-      "sources": [
-        "Lobsters",
-        "Bluesky"
-      ],
-      "sharers": 1,
-      "score": 5.859,
-      "why": [
-        "picked up by Lobsters and Bluesky"
-      ],
-      "authors": [
-        "joshwcomeau.com"
-      ]
-    },
-    {
-      "id": "cb131a8252d3",
-      "title": "In-system design: from code to Figma and back. Prototyping in your real design system",
-      "url": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/in-system-design-from-code-to-figma-and-back-prototyping-in-your-real-design-system-7372b128de9a?source=rss----138adf9c44c---4",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1794434912,
-      "sources": [
-        "UX Collective"
-      ],
-      "sharers": 0,
-      "score": 4.638,
-      "why": [
-        "editor's pick at UX Collective"
-      ]
-    },
-    {
-      "id": "19e0ad177799",
-      "title": "What’s !important Newsletter #21 - CSS-Tricks",
-      "url": "https://css-tricks.com/newsletter/whats-important-21/",
-      "hn": "https://bsky.app/profile/css-tricks.com/post/3mzxrw6zbes2h",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1794325538,
+      "created_at_i": 1794819149,
       "sources": [
         "Bluesky"
       ],
       "sharers": 2,
-      "score": 4.368,
+      "score": 5.197,
       "why": [
         "shared by 2 design accounts"
       ],
       "authors": [
         "ericwbailey.website",
-        "joshwcomeau.com"
+        "sarasoueidan.com"
       ]
     },
     {
-      "id": "13783859176d",
-      "title": "Ultorg: The User Interface for Relational Databases",
-      "url": "https://www.ultorg.com/",
-      "hn": "https://news.ycombinator.com/item?id=50435898",
-      "points": 142,
-      "comments": 51,
-      "created_at_i": 1794283179,
-      "sources": [
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 4.268,
-      "why": []
-    },
-    {
-      "id": "c16299b52f34",
-      "title": "November 2 - November 8 Round Up: AI’s Impact on UX, Hands-On Design Leadership, Figma in the AI Era",
-      "url": "https://aiforux.substack.com/p/november-2-november-8-round-up-ais",
-      "hn": "https://aiforux.substack.com/p/november-2-november-8-round-up-ais",
+      "id": "5e1ab2af1d66",
+      "title": "UI edge cases: A reference guide",
+      "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1794167794,
-      "sources": [
-        "AI for UX Substack"
-      ],
-      "sharers": 0,
-      "score": 3.973,
-      "why": [
-        "editor's pick at AI for UX Substack"
-      ]
-    },
-    {
-      "id": "f5da730ae358",
-      "title": "October 26 - November 1 Round Up: AI UI Generator Gaps, UX’s AI Reckoning, Hands-On Design Leadership",
-      "url": "https://aiforux.substack.com/p/october-26-november-1-round-up-ai",
-      "hn": "https://aiforux.substack.com/p/october-26-november-1-round-up-ai",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1793561077,
-      "sources": [
-        "AI for UX Substack"
-      ],
-      "sharers": 0,
-      "score": 3.934,
-      "why": [
-        "editor's pick at AI for UX Substack"
-      ]
-    },
-    {
-      "id": "ec4d0784e093",
-      "title": "There’s no better name for design systems",
-      "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
-      "hn": "https://karolinaszczur.com/journal/translation-not-rebranding/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1794378699,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 3.693,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "71cdf6a87afc",
-      "title": "Design by numbers, Teaching AI prototyping, Context is the new UI",
-      "url": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/design-by-numbers-teaching-ai-prototyping-context-is-the-new-ui-c88a432a8df8?source=rss----138adf9c44c---4",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1794226807,
+      "created_at_i": 1794864024,
       "sources": [
         "UX Collective"
       ],
       "sharers": 0,
-      "score": 3.692,
+      "score": 2.946,
       "why": [
         "editor's pick at UX Collective"
       ]
     },
     {
-      "id": "7269aedfdccb",
-      "title": "What does design system AI readiness mean, anyway?",
-      "url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
-      "hn": "https://seanvoisen.com/writing/design-system-ai-readiness/",
+      "id": "35612161c8c9",
+      "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+      "hn": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
       "points": 0,
       "comments": 0,
-      "created_at_i": 1794200580,
+      "created_at_i": 1794844975,
       "sources": [
-        "Sidebar"
+        "Lenny's Newsletter"
       ],
       "sharers": 0,
-      "score": 3.662,
+      "score": 2.589,
       "why": [
-        "editor's pick at Sidebar"
+        "editor's pick at Lenny's Newsletter"
       ]
     },
     {
-      "id": "e873ffb37f96",
-      "title": "Handwriting, as a Font",
-      "url": "https://ductus.sorenblank.com",
-      "hn": "https://news.ycombinator.com/item?id=50509972",
-      "points": 39,
-      "comments": 6,
-      "created_at_i": 1794771733,
+      "id": "d1354f5802c5",
+      "title": "Ch. 11: Measuring Impact",
+      "url": "https://www.producttalk.org/ch-11-measuring-impact/",
+      "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794837600,
       "sources": [
-        "Hacker News"
+        "Product Talk"
       ],
       "sharers": 0,
-      "score": 3.66,
-      "why": []
-    },
-    {
-      "id": "2fbdd17b3bb7",
-      "title": "Anti-OCR Typography",
-      "url": "https://aray-la.github.io/web-type/anti-ocr-typography/index.html",
-      "hn": "https://news.ycombinator.com/item?id=50500682",
-      "points": 2,
-      "comments": 8,
-      "created_at_i": 1794689422,
-      "sources": [
-        "Hacker News"
-      ],
-      "sharers": 0,
-      "score": 3.36,
-      "why": []
+      "score": 2.535,
+      "why": [
+        "editor's pick at Product Talk"
+      ]
     }
   ],
-  "week_start": "2026-11-09",
-  "week_end": "2026-11-15",
-  "week_label": "9–15 November 2026",
-  "iso_week": "2026-W46"
+  "week_start": "2026-11-16",
+  "week_end": "2026-11-22",
+  "week_label": "16–22 November 2026",
+  "iso_week": "2026-W47"
 }
