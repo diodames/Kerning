@@ -1,0 +1,369 @@
+{
+  "date": "2026-11-17",
+  "pool": 84,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 42,
+    "lexicon": 18,
+    "already_closed": 1,
+    "prerelease": 3,
+    "no_title": 7
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD648.html",
+      "title": "\"Why is software so expensive?\" An explanation to the hardware designer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50525329",
+      "title": "Ask HN: Who's really winning with AI-Coding?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50522776",
+      "title": "Launch HN: Axonnic (YC F26) – Sleeves that track fingers and estimate force",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://solipsist.sh/",
+      "title": "Show HN: Solipsist – Work with Pi agents using Markdown",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/wanderingstan/vibeconf-app/",
+      "title": "Show HN: My OSS Claude Meetings alternative that works with any agent or call",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/VictorioBerra/miform",
+      "title": "Show HN: Self-Hosted Contact Forms for Your Web App in Go",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/nine-sudoku/id6789779314",
+      "title": "Show HN: Nine is multiplayer sudoku across all Apple devices",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/",
+      "title": "Spatial CSS: A Developer Preview",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/dday9/t-pico",
+      "title": "Show HN: T'Pico, a classless CSS library for modern browsers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
+      "title": "California sues OpenAI over hacking risks",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.csiro.au/en/news/All/News/2026/November/confirm-black-hole",
+      "title": "New CSIRO technique confirms iconic black hole image",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.ft.com/content/e5275763-d7e2-4857-8ac6-6b888111986a",
+      "title": "Nvidia board not considering reinstating Jensen Huang as chief executive",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+      "title": "Nvidia board is not considering bringing Jensen Huang back as CEO",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.cbc.ca/lite/story/9.7424473",
+      "title": "Meta would 'consider' pulling services from Canada if lawful access bill passes",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://hsph.harvard.edu/news/hyperscale-data-centers-energy-consumption-carbon-emissions-newly-estimated-by-researchers/",
+      "title": "Research: Electricity use and carbon emissions for data centers rival US states",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50523886",
+      "title": "Quvanti Labs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://handlewithcare.dev/blog/pitter_patter_launch_announcement/",
+      "title": "Announcing Pitter Patter (a collaborative rich text editing framework)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
+      "title": "UI edge cases: A reference guide",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0-rc.0",
+      "title": "Carbon (IBM) — v11.121.0-rc.0",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://github.com/ZigaoWang/zigzag",
+      "title": "Show HN: Zigzag, a native Mac browser for people leaving Arc",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/directionally-local/autopilot",
+      "title": "Autopilot: Use whichever AI model you want, with one coding-agent interface",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/yellinzero/lingdong-news/blob/main/README.en.md",
+      "title": "Show HN: LingDongNews, a small desktop news ticker for your own feeds",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50529909",
+      "title": "Ask HN: What's the new open source business model",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://toolmaker.io/",
+      "title": "Show HN: Toolmaker Agent–Software project management for human and AI agent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50530610",
+      "title": "Ask HN: What does your internal code search setup look like?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.9",
+      "title": "Carbon (IBM) — v12.0.0-alpha.9",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://perf.email",
+      "title": "Perf.Email | Your best source of web performance news",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.erikkroes.nl/blog/ai-has-made-design-systems-more-important-than-ever/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.designsystemscollective.com/your-design-system-is-no-longer-a-design-system-its-experience-infrastructure-e9de954efc0a?source=rss----dbd299f90c1d---4",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://dshub.pixelflips.com/articles?mtm_campaign=daily-post&mtm_content=articles",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://dshub.pixelflips.com/releases?mtm_campaign=daily-post&mtm_content=releases",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://dshub.pixelflips.com/social?mtm_campaign=daily-post&mtm_content=social",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://dshub.pixelflips.com/?mtm_campaign=daily-post&mtm_content=home",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://github.com/prapaa-ai/agav",
+      "title": "Show HN: Agav – an open-source terminal agent designed to waste fewer tokens",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.metabase.com/blog/mcp-tool-design-lessons",
+      "title": "Rebuilding the Metabase MCP server: lessons for MCP tool design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.euronews.com/2026/11/11/eu-targets-subscription-traps-addictive-design-and-hidden-fees-with-new-digital-rules",
+      "title": "EU targets subscription traps, addictive design and hidden fees with new rules",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50537272",
+      "title": "Ask HN: Anyone else blurting?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://typegraph.dev/blog/an-ontology-that-holds/",
+      "title": "An Ontology That Holds",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tabletop-grand-prix.typeonce.games/",
+      "title": "Show HN: Tabletop Grand Prix – Race anyone's ghost in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.design-research.be/by-womxn/",
+      "title": "Libre Fonts by Womxn",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://skiss.co/",
+      "title": "Show HN: Skiss – Save websites with their real CSS, fonts and full-page shots",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2026/novembro/receita-federal-publica-primeiro-codigo-fonte-aberto-no-github-e-amplia-transparencia-da-reforma-tributaria",
+      "title": "Brazil's tax authority open-sources its tax calculator on GitHub under MIT",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chinesehuangli.com/",
+      "title": "Show HN: ChineseHuangli: A modern spin of traditional Chinese almanac calendar",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/bestboyhq/malini",
+      "title": "Show HN: If Conductor and Cursor Had a Baby (Open Source, macOS)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://matchdayfeed.com/",
+      "title": "Show HN: Matchday – your team's whole season in one auto-updating calendar",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://darkroomfinder.org/",
+      "title": "Show HN: Darkroomfinder.org – A Directory of Photography Darkrooms",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50535716",
+      "title": "Show HN: Tool to measure log TCO savings without losing or migrating any data",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://newbooksnetwork.com/the-color-of-social-security",
+      "title": "The Color of Social Security Race, Retirement, Disability, and Disparity",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://geoawesome.com/bolt-scooters-accessibility-mapping-wheels4wheels/",
+      "title": "Bolt's Scooters Are Becoming Accessibility Sensors",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/tchoa91/cog-ext/blob/main/ACCESSIBILITY.md",
+      "title": "Case Study: WCAG AAA for a dynamic multi-data web system monitor",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://dashbit.co/blog/precision-in-type-system-design",
+      "title": "Precision in Type System Design",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/sigmap-wifi-heatmap/id6819154750",
+      "title": "Show HN: SigMap, an AR Wi-Fi Heatmap for iPhone",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.amitmerchant.com/giving-ai-agents-a-better-way-to-debug-css/",
+      "title": "Giving AI Agents a Better Way to Debug CSS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/leyscore/kalka",
+      "title": "Show HN: Kalka – An open-source design tool where every layer is real HTML/CSS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chessreport.ca/games",
+      "title": "Show HN: A Variety of Chess Games",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/vihren-dev/belay",
+      "title": "Show HN: Belay – formal verification for SQLite migrations and queries in Lean 4",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lumber-jack.koenvangilst.nl/",
+      "title": "Show HN: Lumberjack – a browser game about an engineer who lost his job to AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50532071",
+      "title": "Ask HN: Flip Phone with Business Capabilities",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/sourpatchdad/patchboard",
+      "title": "Show HN: A dashboard my wife is finally interested in",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://aispar.app",
+      "title": "Show HN: AI Spar – Turn conflicting AI answers into a structured debate",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://quebec.yarn.so",
+      "title": "Show HN: An API for word timestamps from speech, 75% within 20ms",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://picaq.github.io/sarasa",
+      "title": "Sarasa Gothic Mono",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.10",
+      "title": "Carbon (IBM) — v12.0.0-alpha.10",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://jola.dev/posts/building-atproto-link-aggregator?utm_source=the-index&utm_medium=newsletter",
+      "title": "Building an atproto link aggregator | jola.dev",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://developer.apple.com/news/?id=oqng0zjk",
+      "title": "Updates to Device Control and Data Access, and Full Disk Access in macOS - Latest News - Apple Developer",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wp.me/pZhYe-5J9",
+      "title": "WordPress 7.2 Release Candidate 1",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nypost.com/2026/11/17/us-news/markwayne-mullin-took-his-government-plane-to-lsu-texas-game-as-thousands-were-stranded-in-faa-ground-stoppage/?utm_campaign=nypost",
+      "title": "Exclusive | Markwayne Mullin took his government plane to LSU-Texas game as thousands were stranded in FAA ground stoppage",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.macrumors.com/2026/11/16/macos-27-3-full-desk-access/",
+      "title": "macOS 27.3 Warns Against Giving AI Apps Full Mac Control",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://lea.verou.me/blog/2026/tag/",
+      "title": "Candidate Statement for the 2026 W3C TAG Election • Lea Verou",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.w3.org/Consortium/Member/List",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://ericwbailey.website/published/heres-yet-another-metaphor-about-tech-debt/",
+      "title": "Here’s yet another metaphor about tech debt",
+      "reason": "lexicon"
+    }
+  ]
+}

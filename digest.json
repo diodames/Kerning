@@ -1,150 +1,207 @@
 {
-  "generated_at": "2026-11-17T05:03:38.922434+00:00",
+  "generated_at": "2026-11-18T04:15:25.165320+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "16 November 2026",
-      "period_start": "2026-11-16",
-      "period_end": "2026-11-16",
+      "label": "17 November 2026",
+      "period_start": "2026-11-17",
+      "period_end": "2026-11-17",
       "items": [
         {
-          "id": "29c8dba282b0",
-          "title": "The CSS caret-* properties and custom caret accessibility",
-          "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
-          "hn": "https://bsky.app/profile/aardrian.bsky.social/post/3n2grw3idlk2o",
+          "id": "f0c70df868e9",
+          "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+          "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3n2j7qbnkh22i",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794819149,
+          "created_at_i": 1794902400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.791,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "ce70a52c5251",
+          "title": "Why CSS-Tricks Succeeds on WordPress ft. Geoff Graham",
+          "url": "https://webmasters.fm/why-css-tricks-succeeds-on-wordpress-ft-geoff-graham/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3n2iyn5fzls2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794916866,
           "sources": [
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 5.197,
+          "score": 4.271,
           "why": [
             "shared by 2 design accounts"
           ],
           "authors": [
-            "ericwbailey.website",
-            "sarasoueidan.com"
+            "zeldman.bsky.social",
+            "geoffgraham.me"
           ]
         },
         {
-          "id": "5e1ab2af1d66",
-          "title": "UI edge cases: A reference guide",
-          "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794864024,
+          "id": "2c43cd14957f",
+          "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
+          "url": "https://alloyhtml.com/example.html",
+          "hn": "https://news.ycombinator.com/item?id=50532385",
+          "points": 160,
+          "comments": 27,
+          "created_at_i": 1794928029,
           "sources": [
-            "UX Collective"
+            "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.946,
+          "score": 3.752,
           "why": [
-            "editor's pick at UX Collective"
+            "160 points"
           ]
         },
         {
-          "id": "35612161c8c9",
-          "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
-          "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
-          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+          "id": "71ad09450980",
+          "title": "Shield Font",
+          "url": "https://shieldfont.org/",
+          "hn": "https://shieldfont.org/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794844975,
+          "created_at_i": 1794909444,
           "sources": [
-            "Lenny's Newsletter"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.589,
+          "score": 3.435,
           "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "d1354f5802c5",
-          "title": "Ch. 11: Measuring Impact",
-          "url": "https://www.producttalk.org/ch-11-measuring-impact/",
-          "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794837600,
-          "sources": [
-            "Product Talk"
-          ],
-          "sharers": 0,
-          "score": 2.535,
-          "why": [
-            "editor's pick at Product Talk"
+            "editor's pick at Sidebar"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "29c8dba282b0",
-          "title": "The CSS caret-* properties and custom caret accessibility",
-          "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
-          "hn": "https://bsky.app/profile/aardrian.bsky.social/post/3n2grw3idlk2o",
+          "id": "f0c70df868e9",
+          "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+          "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3n2j7qbnkh22i",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794819149,
+          "created_at_i": 1794902400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.791,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "ce70a52c5251",
+          "title": "Why CSS-Tricks Succeeds on WordPress ft. Geoff Graham",
+          "url": "https://webmasters.fm/why-css-tricks-succeeds-on-wordpress-ft-geoff-graham/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3n2iyn5fzls2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794916866,
           "sources": [
             "Bluesky"
           ],
           "sharers": 2,
-          "score": 5.197,
+          "score": 4.271,
           "why": [
             "shared by 2 design accounts"
           ],
           "authors": [
-            "ericwbailey.website",
-            "sarasoueidan.com"
+            "zeldman.bsky.social",
+            "geoffgraham.me"
           ]
         },
         {
-          "id": "5e1ab2af1d66",
-          "title": "UI edge cases: A reference guide",
-          "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794864024,
+          "id": "2c43cd14957f",
+          "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
+          "url": "https://alloyhtml.com/example.html",
+          "hn": "https://news.ycombinator.com/item?id=50532385",
+          "points": 160,
+          "comments": 27,
+          "created_at_i": 1794928029,
           "sources": [
-            "UX Collective"
+            "Hacker News"
           ],
           "sharers": 0,
-          "score": 2.946,
+          "score": 3.752,
           "why": [
-            "editor's pick at UX Collective"
+            "160 points"
           ]
         },
         {
-          "id": "35612161c8c9",
-          "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
-          "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
-          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+          "id": "71ad09450980",
+          "title": "Shield Font",
+          "url": "https://shieldfont.org/",
+          "hn": "https://shieldfont.org/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794844975,
+          "created_at_i": 1794909444,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.435,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d97800a73912",
+          "title": "Github Redesign (2019)",
+          "url": "https://tonsky.me/blog/github-redesign/",
+          "hn": "https://lobste.rs/s/kseyz1/github_redesign_2019",
+          "points": 35,
+          "comments": 8,
+          "created_at_i": 1794907698,
+          "sources": [
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 3.074,
+          "why": []
+        },
+        {
+          "id": "84256b4008a0",
+          "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+          "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+          "hn": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794938522,
           "sources": [
             "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 2.589,
+          "score": 2.645,
           "why": [
             "editor's pick at Lenny's Newsletter"
           ]
         },
         {
-          "id": "d1354f5802c5",
-          "title": "Ch. 11: Measuring Impact",
-          "url": "https://www.producttalk.org/ch-11-measuring-impact/",
-          "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
+          "id": "8009c36c0458",
+          "title": "The Sharing Gap - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "hn": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794837600,
+          "created_at_i": 1794924000,
           "sources": [
             "Product Talk"
           ],
@@ -155,125 +212,71 @@
           ]
         },
         {
-          "id": "2c82738cbe42",
-          "title": "How I fight token fraud as a solo founder",
-          "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
-          "hn": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+          "id": "ea1bd15d2eac",
+          "title": "Meet AI 2027 Conference (Dec 1)",
+          "url": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+          "hn": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794834249,
+          "created_at_i": 1794916800,
           "sources": [
-            "Lenny's Newsletter"
+            "Smashing Magazine"
           ],
           "sharers": 0,
-          "score": 2.511,
+          "score": 2.484,
           "why": [
-            "editor's pick at Lenny's Newsletter"
+            "editor's pick at Smashing Magazine"
           ]
         },
         {
-          "id": "53b63bda7e29",
-          "title": "Picking a token by its job, or by its number",
-          "url": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
-          "hn": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
+          "id": "2b699e1f4bac",
+          "title": "HUMAN.md",
+          "url": "https://www.human-md.ai/",
+          "hn": "https://www.human-md.ai/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794826994,
-          "sources": [
-            "Design Systems Collective"
-          ],
-          "sharers": 0,
-          "score": 2.461,
-          "why": [
-            "editor's pick at Design Systems Collective"
-          ]
-        },
-        {
-          "id": "156836d6c9f6",
-          "title": "Staggering Scroll-Driven Animations with animation-range-start",
-          "url": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
-          "hn": "https://bsky.app/profile/css-tricks.com/post/3n2gy7eivcy3g",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794847625,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.343,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "joshwcomeau.com"
-          ]
-        },
-        {
-          "id": "eeb56a4ab110",
-          "title": "Slop is moving up the stack",
-          "url": "https://gabeorlanski.github.io/posts/slop-moves-up/",
-          "hn": "https://gabeorlanski.github.io/posts/slop-moves-up/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805440,
+          "created_at_i": 1794909531,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.329,
+          "score": 2.436,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "e9668c91f29f",
-          "title": "Iconden",
-          "url": "https://iconden.com/",
-          "hn": "https://iconden.com/",
+          "id": "f9470f54a1a9",
+          "title": "Bird Dreams",
+          "url": "https://research.nvidia.com/labs/sil/projects/birddreams/",
+          "hn": "https://research.nvidia.com/labs/sil/projects/birddreams/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794805380,
+          "created_at_i": 1794909380,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.329,
+          "score": 2.435,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "a42eb83b5beb",
-          "title": "Guess the Year",
-          "url": "https://chronologygame.com/guess-the-year",
-          "hn": "https://chronologygame.com/guess-the-year",
+          "id": "52e49410bf5f",
+          "title": "5 Ways You’re Misusing ICE Scoring",
+          "url": "https://itamargilad.com/ice-antipatterns/",
+          "hn": "https://itamargilad.com/ice-antipatterns/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794805320,
+          "created_at_i": 1794908748,
           "sources": [
-            "Sidebar"
+            "Itamar Gilad"
           ],
           "sharers": 0,
-          "score": 2.329,
+          "score": 2.431,
           "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "6fa4efafca2d",
-          "title": "Glue work is still harmful in the age of AI",
-          "url": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
-          "hn": "https://www.seangoedecke.com/glue-work-is-still-harmful-in-the-age-of-ai/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794805260,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.328,
-          "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at Itamar Gilad"
           ]
         },
         {
@@ -288,29 +291,9 @@
             "Dense Discovery"
           ],
           "sharers": 0,
-          "score": 2.319,
+          "score": 1.969,
           "why": [
             "editor's pick at Dense Discovery"
-          ]
-        },
-        {
-          "id": "506b1ce506f5",
-          "title": "UI coding harness by Evil Martians",
-          "url": "https://evilmartians.com/services/ai-harness",
-          "hn": "https://bsky.app/profile/evilmartians.com/post/3n2gxnaolym2s",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794847076,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.005,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "evilmartians.com"
           ]
         },
         {
@@ -325,41 +308,7 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.95,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "12a06e8c7f01",
-          "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
-          "url": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794831428,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.691,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "c0ac6fc443af",
-          "title": "The trash robot that doesn’t pick up, but hands out",
-          "url": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794831375,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.691,
+          "score": 1.39,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -376,6 +325,27 @@
       "iso_week": "2026-W47",
       "items": [
         {
+          "id": "f0c70df868e9",
+          "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+          "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3n2j7qbnkh22i",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794902400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.791,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
           "id": "29c8dba282b0",
           "title": "The CSS caret-* properties and custom caret accessibility",
           "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
@@ -394,6 +364,61 @@
           "authors": [
             "ericwbailey.website",
             "sarasoueidan.com"
+          ]
+        },
+        {
+          "id": "ce70a52c5251",
+          "title": "Why CSS-Tricks Succeeds on WordPress ft. Geoff Graham",
+          "url": "https://webmasters.fm/why-css-tricks-succeeds-on-wordpress-ft-geoff-graham/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3n2iyn5fzls2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794916866,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.271,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "zeldman.bsky.social",
+            "geoffgraham.me"
+          ]
+        },
+        {
+          "id": "2c43cd14957f",
+          "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
+          "url": "https://alloyhtml.com/example.html",
+          "hn": "https://news.ycombinator.com/item?id=50532385",
+          "points": 160,
+          "comments": 27,
+          "created_at_i": 1794928029,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.752,
+          "why": [
+            "160 points"
+          ]
+        },
+        {
+          "id": "71ad09450980",
+          "title": "Shield Font",
+          "url": "https://shieldfont.org/",
+          "hn": "https://shieldfont.org/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794909444,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.435,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -450,6 +475,27 @@
       ],
       "candidates": [
         {
+          "id": "f0c70df868e9",
+          "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+          "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3n2j7qbnkh22i",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794902400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.791,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
           "id": "29c8dba282b0",
           "title": "The CSS caret-* properties and custom caret accessibility",
           "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
@@ -471,6 +517,76 @@
           ]
         },
         {
+          "id": "ce70a52c5251",
+          "title": "Why CSS-Tricks Succeeds on WordPress ft. Geoff Graham",
+          "url": "https://webmasters.fm/why-css-tricks-succeeds-on-wordpress-ft-geoff-graham/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3n2iyn5fzls2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794916866,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.271,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "zeldman.bsky.social",
+            "geoffgraham.me"
+          ]
+        },
+        {
+          "id": "2c43cd14957f",
+          "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
+          "url": "https://alloyhtml.com/example.html",
+          "hn": "https://news.ycombinator.com/item?id=50532385",
+          "points": 160,
+          "comments": 27,
+          "created_at_i": 1794928029,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.752,
+          "why": [
+            "160 points"
+          ]
+        },
+        {
+          "id": "71ad09450980",
+          "title": "Shield Font",
+          "url": "https://shieldfont.org/",
+          "hn": "https://shieldfont.org/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794909444,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.435,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d97800a73912",
+          "title": "Github Redesign (2019)",
+          "url": "https://tonsky.me/blog/github-redesign/",
+          "hn": "https://lobste.rs/s/kseyz1/github_redesign_2019",
+          "points": 35,
+          "comments": 8,
+          "created_at_i": 1794907698,
+          "sources": [
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 3.074,
+          "why": []
+        },
+        {
           "id": "5e1ab2af1d66",
           "title": "UI edge cases: A reference guide",
           "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
@@ -485,6 +601,23 @@
           "score": 2.946,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "84256b4008a0",
+          "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+          "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+          "hn": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794938522,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.645,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
           ]
         },
         {
@@ -522,6 +655,23 @@
           ]
         },
         {
+          "id": "8009c36c0458",
+          "title": "The Sharing Gap - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "hn": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794924000,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
           "id": "2c82738cbe42",
           "title": "How I fight token fraud as a solo founder",
           "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
@@ -539,6 +689,23 @@
           ]
         },
         {
+          "id": "ea1bd15d2eac",
+          "title": "Meet AI 2027 Conference (Dec 1)",
+          "url": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+          "hn": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794916800,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 2.484,
+          "why": [
+            "editor's pick at Smashing Magazine"
+          ]
+        },
+        {
           "id": "53b63bda7e29",
           "title": "Picking a token by its job, or by its number",
           "url": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
@@ -553,6 +720,57 @@
           "score": 2.461,
           "why": [
             "editor's pick at Design Systems Collective"
+          ]
+        },
+        {
+          "id": "2b699e1f4bac",
+          "title": "HUMAN.md",
+          "url": "https://www.human-md.ai/",
+          "hn": "https://www.human-md.ai/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794909531,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.436,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "f9470f54a1a9",
+          "title": "Bird Dreams",
+          "url": "https://research.nvidia.com/labs/sil/projects/birddreams/",
+          "hn": "https://research.nvidia.com/labs/sil/projects/birddreams/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794909380,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.435,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "52e49410bf5f",
+          "title": "5 Ways You’re Misusing ICE Scoring",
+          "url": "https://itamargilad.com/ice-antipatterns/",
+          "hn": "https://itamargilad.com/ice-antipatterns/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794908748,
+          "sources": [
+            "Itamar Gilad"
+          ],
+          "sharers": 0,
+          "score": 2.431,
+          "why": [
+            "editor's pick at Itamar Gilad"
           ]
         },
         {
@@ -762,6 +980,27 @@
           ]
         },
         {
+          "id": "f0c70df868e9",
+          "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+          "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3n2j7qbnkh22i",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794902400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.791,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
           "id": "89375f5d5154",
           "title": "Modern CSS Might Make Your Front-End More Complex",
           "url": "https://smashingmagazine.com/2026/11/modern-css-might-make-your-front-end-more-complex/",
@@ -950,21 +1189,6 @@
             "rachelandrew.co.uk",
             "zeldman.bsky.social"
           ]
-        },
-        {
-          "id": "13783859176d",
-          "title": "Ultorg: The User Interface for Relational Databases",
-          "url": "https://www.ultorg.com/",
-          "hn": "https://news.ycombinator.com/item?id=50435898",
-          "points": 142,
-          "comments": 51,
-          "created_at_i": 1794283179,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 4.268,
-          "why": []
         }
       ],
       "candidates": [
@@ -989,6 +1213,27 @@
             "piccalil.li",
             "rachelandrew.co.uk",
             "sarasoueidan.com"
+          ]
+        },
+        {
+          "id": "f0c70df868e9",
+          "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+          "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3n2j7qbnkh22i",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794902400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.791,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
           ]
         },
         {
@@ -1199,6 +1444,27 @@
           ]
         },
         {
+          "id": "ce70a52c5251",
+          "title": "Why CSS-Tricks Succeeds on WordPress ft. Geoff Graham",
+          "url": "https://webmasters.fm/why-css-tricks-succeeds-on-wordpress-ft-geoff-graham/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3n2iyn5fzls2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794916866,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.271,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "zeldman.bsky.social",
+            "geoffgraham.me"
+          ]
+        },
+        {
           "id": "13783859176d",
           "title": "Ultorg: The User Interface for Relational Databases",
           "url": "https://www.ultorg.com/",
@@ -1333,6 +1599,23 @@
           ]
         },
         {
+          "id": "2c43cd14957f",
+          "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
+          "url": "https://alloyhtml.com/example.html",
+          "hn": "https://news.ycombinator.com/item?id=50532385",
+          "points": 160,
+          "comments": 27,
+          "created_at_i": 1794928029,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.752,
+          "why": [
+            "160 points"
+          ]
+        },
+        {
           "id": "ec4d0784e093",
           "title": "There’s no better name for design systems",
           "url": "https://karolinaszczur.com/journal/translation-not-rebranding/",
@@ -1447,6 +1730,23 @@
           "score": 3.511,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "71ad09450980",
+          "title": "Shield Font",
+          "url": "https://shieldfont.org/",
+          "hn": "https://shieldfont.org/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794909444,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.435,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -1580,6 +1880,21 @@
           "why": [
             "editor's pick at UX Collective"
           ]
+        },
+        {
+          "id": "d97800a73912",
+          "title": "Github Redesign (2019)",
+          "url": "https://tonsky.me/blog/github-redesign/",
+          "hn": "https://lobste.rs/s/kseyz1/github_redesign_2019",
+          "points": 35,
+          "comments": 8,
+          "created_at_i": 1794907698,
+          "sources": [
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 3.074,
+          "why": []
         },
         {
           "id": "3f1d8afeb11e",
@@ -1826,6 +2141,23 @@
           ],
           "sharers": 0,
           "score": 2.724,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "84256b4008a0",
+          "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+          "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+          "hn": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794938522,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.645,
           "why": [
             "editor's pick at Lenny's Newsletter"
           ]
@@ -2104,6 +2436,23 @@
           ]
         },
         {
+          "id": "8009c36c0458",
+          "title": "The Sharing Gap - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "hn": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794924000,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
           "id": "ea2c57144025",
           "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
           "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
@@ -2223,6 +2572,23 @@
           ]
         },
         {
+          "id": "ea1bd15d2eac",
+          "title": "Meet AI 2027 Conference (Dec 1)",
+          "url": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+          "hn": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794916800,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 2.484,
+          "why": [
+            "editor's pick at Smashing Magazine"
+          ]
+        },
+        {
           "id": "e6a48418624c",
           "title": "Design Engineering Has a Handoff Problem",
           "url": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
@@ -2322,6 +2688,57 @@
           "score": 2.436,
           "why": [
             "editor's pick at Smashing Magazine"
+          ]
+        },
+        {
+          "id": "2b699e1f4bac",
+          "title": "HUMAN.md",
+          "url": "https://www.human-md.ai/",
+          "hn": "https://www.human-md.ai/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794909531,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.436,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "f9470f54a1a9",
+          "title": "Bird Dreams",
+          "url": "https://research.nvidia.com/labs/sil/projects/birddreams/",
+          "hn": "https://research.nvidia.com/labs/sil/projects/birddreams/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794909380,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.435,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "52e49410bf5f",
+          "title": "5 Ways You’re Misusing ICE Scoring",
+          "url": "https://itamargilad.com/ice-antipatterns/",
+          "hn": "https://itamargilad.com/ice-antipatterns/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794908748,
+          "sources": [
+            "Itamar Gilad"
+          ],
+          "sharers": 0,
+          "score": 2.431,
+          "why": [
+            "editor's pick at Itamar Gilad"
           ]
         },
         {
@@ -2498,193 +2915,6 @@
           ]
         },
         {
-          "id": "143476f10336",
-          "title": "Vote in Readymag Websites of the Year 2026",
-          "url": "https://bit.ly/side-mag5",
-          "hn": "https://bit.ly/side-mag5",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794200700,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.33,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "d11bf2f59fd2",
-          "title": "Building interfaces that understand what we want to do",
-          "url": "https://agustinbarrientos.com/writing/senior-eye/interfaces-that-understand-what-we-want",
-          "hn": "https://agustinbarrientos.com/writing/senior-eye/interfaces-that-understand-what-we-want",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794546300,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.33,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "610cfa261100",
-          "title": "edge-aura",
-          "url": "https://edge-aura.js.org/",
-          "hn": "https://edge-aura.js.org/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794200520,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.329,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "e7b5f6ae2eaf",
-          "title": "Below the surface",
-          "url": "https://belowthesurface.amsterdam/en/vondsten",
-          "hn": "https://belowthesurface.amsterdam/en/vondsten",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794546240,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.329,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "261f65d53750",
-          "title": "If X, then Y",
-          "url": "https://cdevroe.com/2026/11/05/if-x-then-y/",
-          "hn": "https://cdevroe.com/2026/11/05/if-x-then-y/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794546180,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.329,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "247954e031be",
-          "title": "Bodega cats of New York",
-          "url": "https://bodegacatsofnewyork.com/",
-          "hn": "https://bodegacatsofnewyork.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794546120,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.329,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "1c5451e58762",
-          "title": "Site Seeing",
-          "url": "https://ishadeed.com/article/beyond-the-viewport/",
-          "hn": "https://ishadeed.com/article/beyond-the-viewport/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794200460,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.328,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "379d44327d90",
-          "title": "Where the disabled button got its rule",
-          "url": "https://www.hipuku.dev/writing/where-the-disabled-button-got-its-rule",
-          "hn": "https://www.hipuku.dev/writing/where-the-disabled-button-got-its-rule",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794546060,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.328,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "d12cc836d3e6",
-          "title": "DD415 / MBA: school of profit",
-          "url": "https://www.densediscovery.com/issues/415/",
-          "hn": "https://www.densediscovery.com/issues/415/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794803685,
-          "sources": [
-            "Dense Discovery"
-          ],
-          "sharers": 0,
-          "score": 2.319,
-          "why": [
-            "editor's pick at Dense Discovery"
-          ]
-        },
-        {
-          "id": "9371392b7937",
-          "title": "A sans serif built on oversized round shapes",
-          "url": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
-          "hn": "https://the-brandidentity.com/typeface/superior-types-heaven-is-a-sans-serif-built-on-oversized-round-shapes",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793938855,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.315,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "5e0daffd7881",
-          "title": "Attention is all you need",
-          "url": "https://longnow.org/ideas/attention-ai-pace-layers/",
-          "hn": "https://longnow.org/ideas/attention-ai-pace-layers/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793938764,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.314,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
           "id": "7da3b08fd70d",
           "title": "Introducing Adaptive Dark Mode",
           "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
@@ -2710,6 +2940,27 @@
   },
   "items": [
     {
+      "id": "f0c70df868e9",
+      "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+      "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+      "hn": "https://bsky.app/profile/smashingmagazine.com/post/3n2j7qbnkh22i",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794902400,
+      "sources": [
+        "Smashing Magazine",
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 6.791,
+      "why": [
+        "picked up by Smashing Magazine and Bluesky"
+      ],
+      "authors": [
+        "smashingmagazine.com"
+      ]
+    },
+    {
       "id": "29c8dba282b0",
       "title": "The CSS caret-* properties and custom caret accessibility",
       "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
@@ -2728,6 +2979,61 @@
       "authors": [
         "ericwbailey.website",
         "sarasoueidan.com"
+      ]
+    },
+    {
+      "id": "ce70a52c5251",
+      "title": "Why CSS-Tricks Succeeds on WordPress ft. Geoff Graham",
+      "url": "https://webmasters.fm/why-css-tricks-succeeds-on-wordpress-ft-geoff-graham/",
+      "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3n2iyn5fzls2g",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794916866,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 4.271,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "zeldman.bsky.social",
+        "geoffgraham.me"
+      ]
+    },
+    {
+      "id": "2c43cd14957f",
+      "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
+      "url": "https://alloyhtml.com/example.html",
+      "hn": "https://news.ycombinator.com/item?id=50532385",
+      "points": 160,
+      "comments": 27,
+      "created_at_i": 1794928029,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.752,
+      "why": [
+        "160 points"
+      ]
+    },
+    {
+      "id": "71ad09450980",
+      "title": "Shield Font",
+      "url": "https://shieldfont.org/",
+      "hn": "https://shieldfont.org/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794909444,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.435,
+      "why": [
+        "editor's pick at Sidebar"
       ]
     },
     {

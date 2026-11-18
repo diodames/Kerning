@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T05:03:38.916633+00:00",
+  "updated_at": "2026-11-18T04:15:25.157855+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -7766,6 +7766,324 @@
         "prerelease": 2,
         "no_title": 1,
         "already_closed": 1
+      }
+    },
+    "2026-11-17": {
+      "items": [
+        {
+          "id": "f0c70df868e9",
+          "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+          "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3n2j7qbnkh22i",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794902400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.791,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "ce70a52c5251",
+          "title": "Why CSS-Tricks Succeeds on WordPress ft. Geoff Graham",
+          "url": "https://webmasters.fm/why-css-tricks-succeeds-on-wordpress-ft-geoff-graham/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3n2iyn5fzls2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794916866,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.271,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "zeldman.bsky.social",
+            "geoffgraham.me"
+          ]
+        },
+        {
+          "id": "2c43cd14957f",
+          "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
+          "url": "https://alloyhtml.com/example.html",
+          "hn": "https://news.ycombinator.com/item?id=50532385",
+          "points": 160,
+          "comments": 27,
+          "created_at_i": 1794928029,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.752,
+          "why": [
+            "160 points"
+          ]
+        },
+        {
+          "id": "71ad09450980",
+          "title": "Shield Font",
+          "url": "https://shieldfont.org/",
+          "hn": "https://shieldfont.org/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794909444,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.435,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "f0c70df868e9",
+          "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
+          "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
+          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3n2j7qbnkh22i",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794902400,
+          "sources": [
+            "Smashing Magazine",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 6.791,
+          "why": [
+            "picked up by Smashing Magazine and Bluesky"
+          ],
+          "authors": [
+            "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "ce70a52c5251",
+          "title": "Why CSS-Tricks Succeeds on WordPress ft. Geoff Graham",
+          "url": "https://webmasters.fm/why-css-tricks-succeeds-on-wordpress-ft-geoff-graham/",
+          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3n2iyn5fzls2g",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794916866,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.271,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "zeldman.bsky.social",
+            "geoffgraham.me"
+          ]
+        },
+        {
+          "id": "2c43cd14957f",
+          "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
+          "url": "https://alloyhtml.com/example.html",
+          "hn": "https://news.ycombinator.com/item?id=50532385",
+          "points": 160,
+          "comments": 27,
+          "created_at_i": 1794928029,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.752,
+          "why": [
+            "160 points"
+          ]
+        },
+        {
+          "id": "71ad09450980",
+          "title": "Shield Font",
+          "url": "https://shieldfont.org/",
+          "hn": "https://shieldfont.org/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794909444,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.435,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "d97800a73912",
+          "title": "Github Redesign (2019)",
+          "url": "https://tonsky.me/blog/github-redesign/",
+          "hn": "https://lobste.rs/s/kseyz1/github_redesign_2019",
+          "points": 35,
+          "comments": 8,
+          "created_at_i": 1794907698,
+          "sources": [
+            "Lobsters"
+          ],
+          "sharers": 0,
+          "score": 3.074,
+          "why": []
+        },
+        {
+          "id": "84256b4008a0",
+          "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+          "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+          "hn": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794938522,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.645,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "8009c36c0458",
+          "title": "The Sharing Gap - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "hn": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794924000,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
+          "id": "ea1bd15d2eac",
+          "title": "Meet AI 2027 Conference (Dec 1)",
+          "url": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+          "hn": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794916800,
+          "sources": [
+            "Smashing Magazine"
+          ],
+          "sharers": 0,
+          "score": 2.484,
+          "why": [
+            "editor's pick at Smashing Magazine"
+          ]
+        },
+        {
+          "id": "2b699e1f4bac",
+          "title": "HUMAN.md",
+          "url": "https://www.human-md.ai/",
+          "hn": "https://www.human-md.ai/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794909531,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.436,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "f9470f54a1a9",
+          "title": "Bird Dreams",
+          "url": "https://research.nvidia.com/labs/sil/projects/birddreams/",
+          "hn": "https://research.nvidia.com/labs/sil/projects/birddreams/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794909380,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.435,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "52e49410bf5f",
+          "title": "5 Ways You’re Misusing ICE Scoring",
+          "url": "https://itamargilad.com/ice-antipatterns/",
+          "hn": "https://itamargilad.com/ice-antipatterns/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794908748,
+          "sources": [
+            "Itamar Gilad"
+          ],
+          "sharers": 0,
+          "score": 2.431,
+          "why": [
+            "editor's pick at Itamar Gilad"
+          ]
+        },
+        {
+          "id": "d12cc836d3e6",
+          "title": "DD415 / MBA: school of profit",
+          "url": "https://www.densediscovery.com/issues/415/",
+          "hn": "https://www.densediscovery.com/issues/415/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794803685,
+          "sources": [
+            "Dense Discovery"
+          ],
+          "sharers": 0,
+          "score": 1.969,
+          "why": [
+            "editor's pick at Dense Discovery"
+          ]
+        },
+        {
+          "id": "7af16f190f1c",
+          "title": "Why bother paying for software anymore?",
+          "url": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794864434,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.39,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        }
+      ],
+      "pool": 84,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 42,
+        "lexicon": 18,
+        "already_closed": 1,
+        "prerelease": 3,
+        "no_title": 7
       }
     }
   }
