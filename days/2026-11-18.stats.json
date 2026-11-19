@@ -1,0 +1,253 @@
+{
+  "date": "2026-11-18",
+  "pool": 63,
+  "kept": 4,
+  "dropped": {
+    "lexicon": 17,
+    "below_threshold": 24,
+    "prerelease": 2,
+    "no_title": 5
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.ga.gov.au/news/australias-full-national-topographic-library-at-your-fingertips",
+      "title": "Australia's full national topographic library at your fingertips",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://spillwayapp.com/",
+      "title": "Show HN: Spillway – HTTP API load testing on macOS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.cmpxchg8b.com/2012/09/fun-with-constrained-programming.html",
+      "title": "Fun with Constrained Programming (2012)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50541857",
+      "title": "How are large companies not ripshit about the frontier labs?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50542286",
+      "title": "Ask HN: Can world models lead to racisim? Are there any Alignment frameworks?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.jquery.com/2026/11/17/jquery-4-1-0-and-3-8-0-released-passing-the-torch/",
+      "title": "jQuery 4.1.0 Released",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://quuxplusone.github.io/blog/2026/11/16/named-arguments-in-c/",
+      "title": "C's designated initializers give us named arguments",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://designmanifestos.org/dieter-rams-ten-principles-for-good-design/",
+      "title": "Principles of good design (Dieter Rams)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.getdot.ai/dindot/",
+      "title": "Dindot Font – Rounded German Din",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://klistra.ai/",
+      "title": "Show HN: Klistra – A complete studio for spec-driven AI motion design and video",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.clearofficehub.com/",
+      "title": "Show HN: ClearOffice Hub – Build Enterprise Apps with Natural Language",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.openmetropolitan.com",
+      "title": "Show HN: I built an infinite canvas to explore 340k artworks from The Met",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/anarchy89/csshm",
+      "title": "Show HN: csshm – cluster SSH written in Swift for macOS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twitter.com/pmamtraveller/status/2122897308090351668",
+      "title": "Illustrations of Impossible Creatures by Wildlife Artist Tim Andraka",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Windshiftapp/core",
+      "title": "Show HN: Windshift – the Jira alternative for people who liked Jira",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://featurestream-prototype.vercel.app/",
+      "title": "Show HN: Prototype of a product management tool for AI agent companies",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/dmreedy/job-board",
+      "title": "Show HN: A simple Kanban job application tracker",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50545764",
+      "title": "How we ended up building a set of elite text humanizers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://brave.com/blog/google-goto-anti-scraping/",
+      "title": "Brave Search now uses Redirect URLs in search results",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.solidjs.com/blog/solid-2-0-the-long-hold",
+      "title": "Solid 2.0",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.11",
+      "title": "Carbon (IBM) — v12.0.0-alpha.11",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://joshcollinsworth.com/blog/tupo?utm_source=the-index&utm_medium=newsletter",
+      "title": "The story of Tupo, my new daily logic puzzle",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/journal/22840",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://adactio.com/notes/22839",
+      "title": "Going to Amsterdam. brb 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bradfrost.com/skills",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/18/us/politics/audit-ai-terrorist-attack-plans.html?unlocked_article_code=1.RVE.CMjr.2l8lLSA3nTN0&smid=url-share",
+      "title": "American A.I. Models Have Potential to Be Turned Against U.S., Study Finds (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://buthonestly.io/1password-cli-setup/",
+      "title": "1Password CLI Setup: Environments, Agents, and GitHub Actions",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/17/well/us-measles-elimination-status.html?smid=nytcore-ios-share",
+      "title": "U.S. Loses Its Measles Elimination Status, a Historic Setback for American Health",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ma.tt/2003/05/a-better-image-rotator/",
+      "title": "A Better Image Rotator",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/noscripting/todomvc",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://codepen.io/editor/alowpoly/pen/01a1eee3-02d4-72fe-bffd-516510b29c32",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://shorturl.at/SfG1R",
+      "title": "Rocky Mountain Ruby 2026 - Got AI ontological shock? No worries: UFOs, Theology... by Travis Turner",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://cutlefish.substack.com/p/tbm-452-contexting-vs-context",
+      "title": "TBM 452: Contexting vs. Context",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "title": "Advancing chip design with OpenAI models",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://erikdemaine.org/fonts/stringart/",
+      "title": "String Art Font (2017)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://robinduckett.github.io/boo-mas/",
+      "title": "Show HN: Boo-Mas",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://app.getgoldcrest.com",
+      "title": "Show HN: Goldcrest, a household financial model you fill in by talking",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50549188",
+      "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0003347226002940?via%3Dihub=",
+      "title": "The social use of meow in the interaction between cats and humans",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://intrusive.ai/",
+      "title": "Show HN: Intrusive.ai – open-source AI attack simulation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://now.itsby.you/",
+      "title": "Show HN: A forkable folk song; each recording holds the code that sang it",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://petalformllc.com/apps/infrasim/",
+      "title": "Show HN: InfraSim, a system design simulator game for iOS and Android",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.percona.com/blog/just-because-you-can-doesnt-mean-you-should-re-evaluating-galera-node-weights/",
+      "title": "Just Because You Can, Doesn't Mean You Should: Re-Evaluating Galera Node Weights",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://demo.bonbonweb.org/",
+      "title": "markdownWeb",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.12",
+      "title": "Carbon (IBM) — v12.0.0-alpha.12",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://adactio.com/notes/22841",
+      "title": "Wednesday night session in Amsterdam 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://apple.com",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/we-stopped-a-railway-migration-3-weeks-out-how-to-know-to-stop-or-go",
+      "title": "We stopped a Railway migration 3 weeks out. How to know to stop or go?—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    }
+  ]
+}

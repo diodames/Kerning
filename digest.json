@@ -1,207 +1,184 @@
 {
-  "generated_at": "2026-11-18T04:15:25.165320+00:00",
+  "generated_at": "2026-11-19T04:09:30.009611+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "17 November 2026",
-      "period_start": "2026-11-17",
-      "period_end": "2026-11-17",
+      "label": "18 November 2026",
+      "period_start": "2026-11-18",
+      "period_end": "2026-11-18",
       "items": [
         {
-          "id": "f0c70df868e9",
-          "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
-          "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
-          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3n2j7qbnkh22i",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794902400,
+          "id": "940edf162a5f",
+          "title": "When Everything Has Changed, What Do We Do Next?",
+          "url": "https://css-tricks.com/when-everything-has-changed/",
+          "hn": "https://news.ycombinator.com/item?id=50551503",
+          "points": 19,
+          "comments": 6,
+          "created_at_i": 1795013721,
           "sources": [
-            "Smashing Magazine",
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 6.791,
-          "why": [
-            "picked up by Smashing Magazine and Bluesky"
-          ],
-          "authors": [
-            "smashingmagazine.com"
-          ]
-        },
-        {
-          "id": "ce70a52c5251",
-          "title": "Why CSS-Tricks Succeeds on WordPress ft. Geoff Graham",
-          "url": "https://webmasters.fm/why-css-tricks-succeeds-on-wordpress-ft-geoff-graham/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3n2iyn5fzls2g",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794916866,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 4.271,
-          "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "zeldman.bsky.social",
-            "geoffgraham.me"
-          ]
-        },
-        {
-          "id": "2c43cd14957f",
-          "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
-          "url": "https://alloyhtml.com/example.html",
-          "hn": "https://news.ycombinator.com/item?id=50532385",
-          "points": 160,
-          "comments": 27,
-          "created_at_i": 1794928029,
-          "sources": [
+            "Bluesky",
             "Hacker News"
           ],
-          "sharers": 0,
-          "score": 3.752,
+          "sharers": 1,
+          "score": 6.449,
           "why": [
-            "160 points"
+            "picked up by Bluesky and Hacker News"
+          ],
+          "authors": [
+            "ericwbailey.website"
           ]
         },
         {
-          "id": "71ad09450980",
-          "title": "Shield Font",
-          "url": "https://shieldfont.org/",
-          "hn": "https://shieldfont.org/",
+          "id": "aa3237a78d71",
+          "title": "Tomjohnville",
+          "url": "https://www.tomjohn.design/content/tomjohnville",
+          "hn": "https://www.tomjohn.design/content/tomjohnville",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794909444,
+          "created_at_i": 1794988304,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.435,
+          "score": 2.721,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "071caa6e23d3",
+          "title": "Design writing: working with AI agents",
+          "url": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "hn": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988172,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.721,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "f3227d9e1d09",
+          "title": "Carbon (IBM) — v11.121.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795014918,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.568,
+          "why": [
+            "editor's pick at Design systems"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "f0c70df868e9",
-          "title": "AI Sped Up The Build: How Can Accessibility Testing Keep Up?",
-          "url": "https://smashingmagazine.com/2026/11/ai-sped-up-build-how-can-accessibility-testing-keep-up/",
-          "hn": "https://bsky.app/profile/smashingmagazine.com/post/3n2j7qbnkh22i",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794902400,
+          "id": "940edf162a5f",
+          "title": "When Everything Has Changed, What Do We Do Next?",
+          "url": "https://css-tricks.com/when-everything-has-changed/",
+          "hn": "https://news.ycombinator.com/item?id=50551503",
+          "points": 19,
+          "comments": 6,
+          "created_at_i": 1795013721,
           "sources": [
-            "Smashing Magazine",
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 6.791,
-          "why": [
-            "picked up by Smashing Magazine and Bluesky"
-          ],
-          "authors": [
-            "smashingmagazine.com"
-          ]
-        },
-        {
-          "id": "ce70a52c5251",
-          "title": "Why CSS-Tricks Succeeds on WordPress ft. Geoff Graham",
-          "url": "https://webmasters.fm/why-css-tricks-succeeds-on-wordpress-ft-geoff-graham/",
-          "hn": "https://bsky.app/profile/zeldman.bsky.social/post/3n2iyn5fzls2g",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794916866,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 4.271,
-          "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "zeldman.bsky.social",
-            "geoffgraham.me"
-          ]
-        },
-        {
-          "id": "2c43cd14957f",
-          "title": "Show HN: Alloy CSS, dialogs, menus and tabs that work with JavaScript off",
-          "url": "https://alloyhtml.com/example.html",
-          "hn": "https://news.ycombinator.com/item?id=50532385",
-          "points": 160,
-          "comments": 27,
-          "created_at_i": 1794928029,
-          "sources": [
+            "Bluesky",
             "Hacker News"
           ],
-          "sharers": 0,
-          "score": 3.752,
+          "sharers": 1,
+          "score": 6.449,
           "why": [
-            "160 points"
+            "picked up by Bluesky and Hacker News"
+          ],
+          "authors": [
+            "ericwbailey.website"
           ]
         },
         {
-          "id": "71ad09450980",
-          "title": "Shield Font",
-          "url": "https://shieldfont.org/",
-          "hn": "https://shieldfont.org/",
+          "id": "aa3237a78d71",
+          "title": "Tomjohnville",
+          "url": "https://www.tomjohn.design/content/tomjohnville",
+          "hn": "https://www.tomjohn.design/content/tomjohnville",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794909444,
+          "created_at_i": 1794988304,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.435,
+          "score": 2.721,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "d97800a73912",
-          "title": "Github Redesign (2019)",
-          "url": "https://tonsky.me/blog/github-redesign/",
-          "hn": "https://lobste.rs/s/kseyz1/github_redesign_2019",
-          "points": 35,
-          "comments": 8,
-          "created_at_i": 1794907698,
-          "sources": [
-            "Lobsters"
-          ],
-          "sharers": 0,
-          "score": 3.074,
-          "why": []
-        },
-        {
-          "id": "84256b4008a0",
-          "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
-          "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
-          "hn": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+          "id": "071caa6e23d3",
+          "title": "Design writing: working with AI agents",
+          "url": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "hn": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794938522,
+          "created_at_i": 1794988172,
           "sources": [
-            "Lenny's Newsletter"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.645,
+          "score": 2.721,
           "why": [
-            "editor's pick at Lenny's Newsletter"
+            "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "8009c36c0458",
-          "title": "The Sharing Gap - All Things Product Podcast with Teresa Torres & Petra Wille",
-          "url": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
-          "hn": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "id": "f3227d9e1d09",
+          "title": "Carbon (IBM) — v11.121.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794924000,
+          "created_at_i": 1795014918,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.568,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "19d24449de7d",
+          "title": "Grab My Personal Annual Review Claude Code Plugin",
+          "url": "https://www.producttalk.org/personal-annual-review-claude-code-plugin/",
+          "hn": "https://www.producttalk.org/personal-annual-review-claude-code-plugin/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795010700,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.537,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
+          "id": "a7919d7e054b",
+          "title": "My Personal Annual Review Process (Now a Claude Code Plugin)",
+          "url": "https://www.producttalk.org/personal-annual-review/",
+          "hn": "https://www.producttalk.org/personal-annual-review/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795010400,
           "sources": [
             "Product Talk"
           ],
@@ -212,103 +189,160 @@
           ]
         },
         {
-          "id": "ea1bd15d2eac",
-          "title": "Meet AI 2027 Conference (Dec 1)",
-          "url": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
-          "hn": "https://smashingmagazine.com/2026/11/online-smashingconf-ai-2027/",
+          "id": "6e307f0d2493",
+          "title": "I love markers",
+          "url": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
+          "hn": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794916800,
-          "sources": [
-            "Smashing Magazine"
-          ],
-          "sharers": 0,
-          "score": 2.484,
-          "why": [
-            "editor's pick at Smashing Magazine"
-          ]
-        },
-        {
-          "id": "2b699e1f4bac",
-          "title": "HUMAN.md",
-          "url": "https://www.human-md.ai/",
-          "hn": "https://www.human-md.ai/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794909531,
+          "created_at_i": 1794988270,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.436,
+          "score": 2.388,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "f9470f54a1a9",
-          "title": "Bird Dreams",
-          "url": "https://research.nvidia.com/labs/sil/projects/birddreams/",
-          "hn": "https://research.nvidia.com/labs/sil/projects/birddreams/",
+          "id": "8f6d1ee34660",
+          "title": "Glimm",
+          "url": "https://glimm.dev/",
+          "hn": "https://glimm.dev/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794909380,
+          "created_at_i": 1794988088,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.435,
+          "score": 2.387,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "52e49410bf5f",
-          "title": "5 Ways You’re Misusing ICE Scoring",
-          "url": "https://itamargilad.com/ice-antipatterns/",
-          "hn": "https://itamargilad.com/ice-antipatterns/",
+          "id": "f9e0812ad0b7",
+          "title": "Designing with html",
+          "url": "https://shiftnudge.com/archive/26905760",
+          "hn": "https://shiftnudge.com/archive/26905760",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794908748,
+          "created_at_i": 1794987993,
           "sources": [
-            "Itamar Gilad"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.431,
+          "score": 2.386,
           "why": [
-            "editor's pick at Itamar Gilad"
+            "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "d12cc836d3e6",
-          "title": "DD415 / MBA: school of profit",
-          "url": "https://www.densediscovery.com/issues/415/",
-          "hn": "https://www.densediscovery.com/issues/415/",
+          "id": "71ac483c3e18",
+          "title": "If AI works from anywhere, why are we commuting to watch it?",
+          "url": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794803685,
-          "sources": [
-            "Dense Discovery"
-          ],
-          "sharers": 0,
-          "score": 1.969,
-          "why": [
-            "editor's pick at Dense Discovery"
-          ]
-        },
-        {
-          "id": "7af16f190f1c",
-          "title": "Why bother paying for software anymore?",
-          "url": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/why-bother-paying-for-software-anymore-e1f76093f772?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794864434,
+          "created_at_i": 1795033059,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.39,
+          "score": 1.913,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "bf6bb9a482f4",
+          "title": "Too Claudified",
+          "url": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795033025,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.913,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "b71fa8550e2d",
+          "title": "Everyone knows sparkles mean AI. Use them to make design audits easier",
+          "url": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794957921,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.757,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "1ec3f46741e5",
+          "title": "I've just added a new module to CSS Demystified! To celebrate, it's 32% off through Dec 1st. 👉 thecascade.dev/courses/css-...",
+          "url": "https://thecascade.dev/courses/css-demystified/",
+          "hn": "https://bsky.app/profile/kevinpowell.co/post/3n2llqjmtr227",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795006100,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.571,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "ed11cf58d943",
+          "title": "Understanding CSS random()",
+          "url": "https://piccalil.li/blog/understanding-css-random/",
+          "hn": "https://bsky.app/profile/bell.bz/post/3n2ljhzysv22h",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795003458,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.552,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "924c8912ccc9",
+          "title": "What is a researcher’s worth?",
+          "url": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794957984,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.424,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -346,6 +380,27 @@
           ]
         },
         {
+          "id": "940edf162a5f",
+          "title": "When Everything Has Changed, What Do We Do Next?",
+          "url": "https://css-tricks.com/when-everything-has-changed/",
+          "hn": "https://news.ycombinator.com/item?id=50551503",
+          "points": 19,
+          "comments": 6,
+          "created_at_i": 1795013721,
+          "sources": [
+            "Bluesky",
+            "Hacker News"
+          ],
+          "sharers": 1,
+          "score": 6.449,
+          "why": [
+            "picked up by Bluesky and Hacker News"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
           "id": "29c8dba282b0",
           "title": "The CSS caret-* properties and custom caret accessibility",
           "url": "https://www.sarasoueidan.com/blog/caret-styling-accessibility/",
@@ -439,6 +494,40 @@
           ]
         },
         {
+          "id": "aa3237a78d71",
+          "title": "Tomjohnville",
+          "url": "https://www.tomjohn.design/content/tomjohnville",
+          "hn": "https://www.tomjohn.design/content/tomjohnville",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988304,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.721,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "071caa6e23d3",
+          "title": "Design writing: working with AI agents",
+          "url": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "hn": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988172,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.721,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "35612161c8c9",
           "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
           "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
@@ -453,6 +542,23 @@
           "score": 2.589,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "f3227d9e1d09",
+          "title": "Carbon (IBM) — v11.121.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795014918,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.568,
+          "why": [
+            "editor's pick at Design systems"
           ]
         },
         {
@@ -493,6 +599,27 @@
           ],
           "authors": [
             "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "940edf162a5f",
+          "title": "When Everything Has Changed, What Do We Do Next?",
+          "url": "https://css-tricks.com/when-everything-has-changed/",
+          "hn": "https://news.ycombinator.com/item?id=50551503",
+          "points": 19,
+          "comments": 6,
+          "created_at_i": 1795013721,
+          "sources": [
+            "Bluesky",
+            "Hacker News"
+          ],
+          "sharers": 1,
+          "score": 6.449,
+          "why": [
+            "picked up by Bluesky and Hacker News"
+          ],
+          "authors": [
+            "ericwbailey.website"
           ]
         },
         {
@@ -604,6 +731,40 @@
           ]
         },
         {
+          "id": "aa3237a78d71",
+          "title": "Tomjohnville",
+          "url": "https://www.tomjohn.design/content/tomjohnville",
+          "hn": "https://www.tomjohn.design/content/tomjohnville",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988304,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.721,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "071caa6e23d3",
+          "title": "Design writing: working with AI agents",
+          "url": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "hn": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988172,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.721,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "84256b4008a0",
           "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
           "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
@@ -638,6 +799,40 @@
           ]
         },
         {
+          "id": "f3227d9e1d09",
+          "title": "Carbon (IBM) — v11.121.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795014918,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.568,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "19d24449de7d",
+          "title": "Grab My Personal Annual Review Claude Code Plugin",
+          "url": "https://www.producttalk.org/personal-annual-review-claude-code-plugin/",
+          "hn": "https://www.producttalk.org/personal-annual-review-claude-code-plugin/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795010700,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.537,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
           "id": "d1354f5802c5",
           "title": "Ch. 11: Measuring Impact",
           "url": "https://www.producttalk.org/ch-11-measuring-impact/",
@@ -662,6 +857,23 @@
           "points": 0,
           "comments": 0,
           "created_at_i": 1794924000,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
+          "id": "a7919d7e054b",
+          "title": "My Personal Annual Review Process (Now a Claude Code Plugin)",
+          "url": "https://www.producttalk.org/personal-annual-review/",
+          "hn": "https://www.producttalk.org/personal-annual-review/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795010400,
           "sources": [
             "Product Talk"
           ],
@@ -771,6 +983,57 @@
           "score": 2.431,
           "why": [
             "editor's pick at Itamar Gilad"
+          ]
+        },
+        {
+          "id": "6e307f0d2493",
+          "title": "I love markers",
+          "url": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
+          "hn": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988270,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.388,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "8f6d1ee34660",
+          "title": "Glimm",
+          "url": "https://glimm.dev/",
+          "hn": "https://glimm.dev/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988088,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.387,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "f9e0812ad0b7",
+          "title": "Designing with html",
+          "url": "https://shiftnudge.com/archive/26905760",
+          "hn": "https://shiftnudge.com/archive/26905760",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794987993,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.386,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -916,6 +1179,57 @@
           ]
         },
         {
+          "id": "71ac483c3e18",
+          "title": "If AI works from anywhere, why are we commuting to watch it?",
+          "url": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795033059,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.913,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "bf6bb9a482f4",
+          "title": "Too Claudified",
+          "url": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795033025,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.913,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "b71fa8550e2d",
+          "title": "Everyone knows sparkles mean AI. Use them to make design audits easier",
+          "url": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794957921,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.757,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "12a06e8c7f01",
           "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
           "url": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
@@ -945,6 +1259,63 @@
           ],
           "sharers": 0,
           "score": 1.691,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "1ec3f46741e5",
+          "title": "I've just added a new module to CSS Demystified! To celebrate, it's 32% off through Dec 1st. 👉 thecascade.dev/courses/css-...",
+          "url": "https://thecascade.dev/courses/css-demystified/",
+          "hn": "https://bsky.app/profile/kevinpowell.co/post/3n2llqjmtr227",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795006100,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.571,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "ed11cf58d943",
+          "title": "Understanding CSS random()",
+          "url": "https://piccalil.li/blog/understanding-css-random/",
+          "hn": "https://bsky.app/profile/bell.bz/post/3n2ljhzysv22h",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795003458,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.552,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "924c8912ccc9",
+          "title": "What is a researcher’s worth?",
+          "url": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794957984,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.424,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -1019,6 +1390,27 @@
           ],
           "authors": [
             "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "940edf162a5f",
+          "title": "When Everything Has Changed, What Do We Do Next?",
+          "url": "https://css-tricks.com/when-everything-has-changed/",
+          "hn": "https://news.ycombinator.com/item?id=50551503",
+          "points": 19,
+          "comments": 6,
+          "created_at_i": 1795013721,
+          "sources": [
+            "Bluesky",
+            "Hacker News"
+          ],
+          "sharers": 1,
+          "score": 6.449,
+          "why": [
+            "picked up by Bluesky and Hacker News"
+          ],
+          "authors": [
+            "ericwbailey.website"
           ]
         },
         {
@@ -1168,27 +1560,6 @@
           "why": [
             "380 points"
           ]
-        },
-        {
-          "id": "62cb89d6491c",
-          "title": "Making features generic in CSS",
-          "url": "https://rachelandrew.co.uk/archives/2026/11/02/making-features-generic-in-css/",
-          "hn": "https://bsky.app/profile/rachelandrew.co.uk/post/3mzdrcxdjktxr",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1793637598,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 2,
-          "score": 4.393,
-          "why": [
-            "shared by 2 design accounts"
-          ],
-          "authors": [
-            "rachelandrew.co.uk",
-            "zeldman.bsky.social"
-          ]
         }
       ],
       "candidates": [
@@ -1255,6 +1626,27 @@
           ],
           "authors": [
             "smashingmagazine.com"
+          ]
+        },
+        {
+          "id": "940edf162a5f",
+          "title": "When Everything Has Changed, What Do We Do Next?",
+          "url": "https://css-tricks.com/when-everything-has-changed/",
+          "hn": "https://news.ycombinator.com/item?id=50551503",
+          "points": 19,
+          "comments": 6,
+          "created_at_i": 1795013721,
+          "sources": [
+            "Bluesky",
+            "Hacker News"
+          ],
+          "sharers": 1,
+          "score": 6.449,
+          "why": [
+            "picked up by Bluesky and Hacker News"
+          ],
+          "authors": [
+            "ericwbailey.website"
           ]
         },
         {
@@ -2146,6 +2538,40 @@
           ]
         },
         {
+          "id": "aa3237a78d71",
+          "title": "Tomjohnville",
+          "url": "https://www.tomjohn.design/content/tomjohnville",
+          "hn": "https://www.tomjohn.design/content/tomjohnville",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988304,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.721,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "071caa6e23d3",
+          "title": "Design writing: working with AI agents",
+          "url": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "hn": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988172,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.721,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "84256b4008a0",
           "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
           "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
@@ -2351,6 +2777,23 @@
           ]
         },
         {
+          "id": "f3227d9e1d09",
+          "title": "Carbon (IBM) — v11.121.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795014918,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.568,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
           "id": "fdc5cf3a67a5",
           "title": "State of the tech job market: late 2026",
           "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
@@ -2382,6 +2825,23 @@
           "score": 2.557,
           "why": [
             "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "19d24449de7d",
+          "title": "Grab My Personal Annual Review Claude Code Plugin",
+          "url": "https://www.producttalk.org/personal-annual-review-claude-code-plugin/",
+          "hn": "https://www.producttalk.org/personal-annual-review-claude-code-plugin/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795010700,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.537,
+          "why": [
+            "editor's pick at Product Talk"
           ]
         },
         {
@@ -2443,6 +2903,23 @@
           "points": 0,
           "comments": 0,
           "created_at_i": 1794924000,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
+          "id": "a7919d7e054b",
+          "title": "My Personal Annual Review Process (Now a Claude Code Plugin)",
+          "url": "https://www.producttalk.org/personal-annual-review/",
+          "hn": "https://www.producttalk.org/personal-annual-review/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795010400,
           "sources": [
             "Product Talk"
           ],
@@ -2742,6 +3219,57 @@
           ]
         },
         {
+          "id": "6e307f0d2493",
+          "title": "I love markers",
+          "url": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
+          "hn": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988270,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.388,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "8f6d1ee34660",
+          "title": "Glimm",
+          "url": "https://glimm.dev/",
+          "hn": "https://glimm.dev/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988088,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.387,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "f9e0812ad0b7",
+          "title": "Designing with html",
+          "url": "https://shiftnudge.com/archive/26905760",
+          "hn": "https://shiftnudge.com/archive/26905760",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794987993,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.386,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "a3ff371a3921",
           "title": "Please use AI",
           "url": "https://shawnsmucker.substack.com/p/please-use-ai",
@@ -2756,162 +3284,6 @@
           "score": 2.382,
           "why": [
             "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "d368aea092f9",
-          "title": "TK",
-          "url": "https://tk.xyz/",
-          "hn": "https://tk.xyz/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794295980,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.381,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "8d718a4b5814",
-          "title": "Blossom carousel",
-          "url": "https://blossom-carousel.com/",
-          "hn": "https://blossom-carousel.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794295953,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.381,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "7e23093f15fc",
-          "title": "Customer or product?",
-          "url": "https://customerorproduct.org/",
-          "hn": "https://customerorproduct.org/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794295869,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.381,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "5d7a311bf932",
-          "title": "Don’t make a human do what AI is amazing at",
-          "url": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
-          "hn": "https://www.johnnunemaker.com/dont-make-a-human-do-what-ai-is-amazing-at/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378914,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.361,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "bc23fb41c573",
-          "title": "1 in 8 billion",
-          "url": "https://1in8b.life/en/",
-          "hn": "https://1in8b.life/en/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378836,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.36,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "0981be9212e1",
-          "title": "A family tree of software job titles",
-          "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-          "hn": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378809,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.36,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "d8887a09bc5e",
-          "title": "The components of agent memory",
-          "url": "https://www.anthropic.com/research/components-of-agent-memory",
-          "hn": "https://www.anthropic.com/research/components-of-agent-memory",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794378731,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.36,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "5f472ec10a17",
-          "title": "What being the new kid taught me about persuasion as a designer",
-          "url": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/what-being-the-new-kid-taught-me-about-persuasion-as-a-designer-c731818f91d9?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794312558,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 2.355,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "156836d6c9f6",
-          "title": "Staggering Scroll-Driven Animations with animation-range-start",
-          "url": "https://css-tricks.com/staggering-scroll-driven-animations-with-animation-range-start/",
-          "hn": "https://bsky.app/profile/css-tricks.com/post/3n2gy7eivcy3g",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794847625,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 2.343,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "joshwcomeau.com"
           ]
         },
         {
@@ -2958,6 +3330,27 @@
       ],
       "authors": [
         "smashingmagazine.com"
+      ]
+    },
+    {
+      "id": "940edf162a5f",
+      "title": "When Everything Has Changed, What Do We Do Next?",
+      "url": "https://css-tricks.com/when-everything-has-changed/",
+      "hn": "https://news.ycombinator.com/item?id=50551503",
+      "points": 19,
+      "comments": 6,
+      "created_at_i": 1795013721,
+      "sources": [
+        "Bluesky",
+        "Hacker News"
+      ],
+      "sharers": 1,
+      "score": 6.449,
+      "why": [
+        "picked up by Bluesky and Hacker News"
+      ],
+      "authors": [
+        "ericwbailey.website"
       ]
     },
     {
@@ -3054,6 +3447,40 @@
       ]
     },
     {
+      "id": "aa3237a78d71",
+      "title": "Tomjohnville",
+      "url": "https://www.tomjohn.design/content/tomjohnville",
+      "hn": "https://www.tomjohn.design/content/tomjohnville",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794988304,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.721,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "071caa6e23d3",
+      "title": "Design writing: working with AI agents",
+      "url": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+      "hn": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794988172,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.721,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
       "id": "35612161c8c9",
       "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
@@ -3068,6 +3495,23 @@
       "score": 2.589,
       "why": [
         "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "f3227d9e1d09",
+      "title": "Carbon (IBM) — v11.121.0",
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+      "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795014918,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 2.568,
+      "why": [
+        "editor's pick at Design systems"
       ]
     },
     {

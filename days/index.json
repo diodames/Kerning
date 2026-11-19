@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18T04:15:25.157855+00:00",
+  "updated_at": "2026-11-19T04:09:30.000196+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -8084,6 +8084,357 @@
         "already_closed": 1,
         "prerelease": 3,
         "no_title": 7
+      }
+    },
+    "2026-11-18": {
+      "items": [
+        {
+          "id": "940edf162a5f",
+          "title": "When Everything Has Changed, What Do We Do Next?",
+          "url": "https://css-tricks.com/when-everything-has-changed/",
+          "hn": "https://news.ycombinator.com/item?id=50551503",
+          "points": 19,
+          "comments": 6,
+          "created_at_i": 1795013721,
+          "sources": [
+            "Bluesky",
+            "Hacker News"
+          ],
+          "sharers": 1,
+          "score": 6.449,
+          "why": [
+            "picked up by Bluesky and Hacker News"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "aa3237a78d71",
+          "title": "Tomjohnville",
+          "url": "https://www.tomjohn.design/content/tomjohnville",
+          "hn": "https://www.tomjohn.design/content/tomjohnville",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988304,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.721,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "071caa6e23d3",
+          "title": "Design writing: working with AI agents",
+          "url": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "hn": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988172,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.721,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "f3227d9e1d09",
+          "title": "Carbon (IBM) — v11.121.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795014918,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.568,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "940edf162a5f",
+          "title": "When Everything Has Changed, What Do We Do Next?",
+          "url": "https://css-tricks.com/when-everything-has-changed/",
+          "hn": "https://news.ycombinator.com/item?id=50551503",
+          "points": 19,
+          "comments": 6,
+          "created_at_i": 1795013721,
+          "sources": [
+            "Bluesky",
+            "Hacker News"
+          ],
+          "sharers": 1,
+          "score": 6.449,
+          "why": [
+            "picked up by Bluesky and Hacker News"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "aa3237a78d71",
+          "title": "Tomjohnville",
+          "url": "https://www.tomjohn.design/content/tomjohnville",
+          "hn": "https://www.tomjohn.design/content/tomjohnville",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988304,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.721,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "071caa6e23d3",
+          "title": "Design writing: working with AI agents",
+          "url": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "hn": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988172,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.721,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "f3227d9e1d09",
+          "title": "Carbon (IBM) — v11.121.0",
+          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795014918,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.568,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "19d24449de7d",
+          "title": "Grab My Personal Annual Review Claude Code Plugin",
+          "url": "https://www.producttalk.org/personal-annual-review-claude-code-plugin/",
+          "hn": "https://www.producttalk.org/personal-annual-review-claude-code-plugin/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795010700,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.537,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
+          "id": "a7919d7e054b",
+          "title": "My Personal Annual Review Process (Now a Claude Code Plugin)",
+          "url": "https://www.producttalk.org/personal-annual-review/",
+          "hn": "https://www.producttalk.org/personal-annual-review/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795010400,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
+          "id": "6e307f0d2493",
+          "title": "I love markers",
+          "url": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
+          "hn": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988270,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.388,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "8f6d1ee34660",
+          "title": "Glimm",
+          "url": "https://glimm.dev/",
+          "hn": "https://glimm.dev/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794988088,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.387,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "f9e0812ad0b7",
+          "title": "Designing with html",
+          "url": "https://shiftnudge.com/archive/26905760",
+          "hn": "https://shiftnudge.com/archive/26905760",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794987993,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.386,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "71ac483c3e18",
+          "title": "If AI works from anywhere, why are we commuting to watch it?",
+          "url": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795033059,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.913,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "bf6bb9a482f4",
+          "title": "Too Claudified",
+          "url": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795033025,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.913,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "b71fa8550e2d",
+          "title": "Everyone knows sparkles mean AI. Use them to make design audits easier",
+          "url": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794957921,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.757,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "1ec3f46741e5",
+          "title": "I've just added a new module to CSS Demystified! To celebrate, it's 32% off through Dec 1st. 👉 thecascade.dev/courses/css-...",
+          "url": "https://thecascade.dev/courses/css-demystified/",
+          "hn": "https://bsky.app/profile/kevinpowell.co/post/3n2llqjmtr227",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795006100,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.571,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "ed11cf58d943",
+          "title": "Understanding CSS random()",
+          "url": "https://piccalil.li/blog/understanding-css-random/",
+          "hn": "https://bsky.app/profile/bell.bz/post/3n2ljhzysv22h",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795003458,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.552,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "924c8912ccc9",
+          "title": "What is a researcher’s worth?",
+          "url": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794957984,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.424,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        }
+      ],
+      "pool": 63,
+      "kept": 4,
+      "dropped": {
+        "lexicon": 17,
+        "below_threshold": 24,
+        "prerelease": 2,
+        "no_title": 5
       }
     }
   }
