@@ -1,0 +1,297 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-20T03:57:32.838887+00:00",
+  "items": [
+    {
+      "id": "6057e3d1ba5d",
+      "title": "AI Product Management in Practice",
+      "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+      "hn": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794926420,
+      "sources": [
+        "Department of Product"
+      ],
+      "sharers": 0,
+      "score": 2.851,
+      "why": [
+        "editor's pick at Department of Product"
+      ]
+    },
+    {
+      "id": "46c17a5bf49c",
+      "title": "Design Zeitgeist",
+      "url": "https://deimos.evilrabbit.com/",
+      "hn": "https://deimos.evilrabbit.com/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795080090,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.755,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "cea1deb51796",
+      "title": "Agent Sandboxes Explained - A Guide for Product Teams",
+      "url": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
+      "hn": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795099466,
+      "sources": [
+        "Department of Product"
+      ],
+      "sharers": 0,
+      "score": 2.554,
+      "why": [
+        "editor's pick at Department of Product"
+      ]
+    },
+    {
+      "id": "cc6be7b1dc80",
+      "title": "Making a website in 2026",
+      "url": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
+      "hn": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795080306,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.423,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "6057e3d1ba5d",
+      "title": "AI Product Management in Practice",
+      "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+      "hn": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794926420,
+      "sources": [
+        "Department of Product"
+      ],
+      "sharers": 0,
+      "score": 2.851,
+      "why": [
+        "editor's pick at Department of Product"
+      ]
+    },
+    {
+      "id": "46c17a5bf49c",
+      "title": "Design Zeitgeist",
+      "url": "https://deimos.evilrabbit.com/",
+      "hn": "https://deimos.evilrabbit.com/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795080090,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.755,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "cea1deb51796",
+      "title": "Agent Sandboxes Explained - A Guide for Product Teams",
+      "url": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
+      "hn": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795099466,
+      "sources": [
+        "Department of Product"
+      ],
+      "sharers": 0,
+      "score": 2.554,
+      "why": [
+        "editor's pick at Department of Product"
+      ]
+    },
+    {
+      "id": "cc6be7b1dc80",
+      "title": "Making a website in 2026",
+      "url": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
+      "hn": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795080306,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.423,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "68245e765ad4",
+      "title": "Exactitudes",
+      "url": "https://exactitudes.com/collectie/",
+      "hn": "https://exactitudes.com/collectie/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795080192,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.422,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "1e8d620dd91d",
+      "title": "‘AI’ might be the end of our careers",
+      "url": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/",
+      "hn": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795080121,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.422,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "de79875dd6d8",
+      "title": "Squircles",
+      "url": "https://jespervos.com/craft/squircles",
+      "hn": "https://jespervos.com/craft/squircles",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795080006,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.421,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "c99dd595358a",
+      "title": "How do you know what you think?",
+      "url": "https://blobzine.substack.com/p/how-do-you-know-what-you-think",
+      "hn": "https://blobzine.substack.com/p/how-do-you-know-what-you-think",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795016549,
+      "sources": [
+        "Blob"
+      ],
+      "sharers": 0,
+      "score": 2.103,
+      "why": [
+        "editor's pick at Blob"
+      ]
+    },
+    {
+      "id": "57597ff7c82d",
+      "title": "Everyone’s got the tools. Not everyone’s got the tricks.",
+      "url": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795124182,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.954,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "439d671b0ed1",
+      "title": "Prototypes Have Always Been The Most Effective Specification. Here’s How To Do It Better In The Age of AI.",
+      "url": "https://aiforux.substack.com/p/prototypes-have-always-been-the-most",
+      "hn": "https://aiforux.substack.com/p/prototypes-have-always-been-the-most",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794945204,
+      "sources": [
+        "AI for UX Substack"
+      ],
+      "sharers": 0,
+      "score": 1.89,
+      "why": [
+        "editor's pick at AI for UX Substack"
+      ]
+    },
+    {
+      "id": "8165e19e73ec",
+      "title": "Send the Firefighters to the Fires",
+      "url": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795092845,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.706,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "71ac483c3e18",
+      "title": "If AI works from anywhere, why are we commuting to watch it?",
+      "url": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795033059,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.371,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "bf6bb9a482f4",
+      "title": "Too Claudified",
+      "url": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795033025,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.371,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    }
+  ]
+}

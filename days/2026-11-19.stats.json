@@ -1,0 +1,363 @@
+{
+  "date": "2026-11-19",
+  "pool": 83,
+  "kept": 4,
+  "dropped": {
+    "lexicon": 19,
+    "below_threshold": 44,
+    "prerelease": 2,
+    "no_title": 5
+  },
+  "dropped_items": [
+    {
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+      "title": "Advancing chip design with OpenAI models",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50553802",
+      "title": "I open-sourced an AI loop for RISC-V CPU design months prior to OpenAI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://erikdemaine.org/fonts/stringart/",
+      "title": "String Art Font (2017)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://robinduckett.github.io/boo-mas/",
+      "title": "Show HN: Boo-Mas",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://app.getgoldcrest.com",
+      "title": "Show HN: Goldcrest, a household financial model you fill in by talking",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50549188",
+      "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0003347226002940?via%3Dihub=",
+      "title": "The social use of meow in the interaction between cats and humans",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://intrusive.ai/",
+      "title": "Show HN: Intrusive.ai – open-source AI attack simulation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://now.itsby.you/",
+      "title": "Show HN: A forkable folk song; each recording holds the code that sang it",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://petalformllc.com/apps/infrasim/",
+      "title": "Show HN: InfraSim, a system design simulator game for iOS and Android",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.percona.com/blog/just-because-you-can-doesnt-mean-you-should-re-evaluating-galera-node-weights/",
+      "title": "Just Because You Can, Doesn't Mean You Should: Re-Evaluating Galera Node Weights",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/shoppilot/jaookbeghccminjahkpgfgpdjblabhia",
+      "title": "Show HN: GTA 6 is out, so I built an agent to do my job in Chrome",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/google-deepmind/robotics-antigravity-plugin",
+      "title": "Show HN: Try Vibe Robotics! (IRL or MuJoCo SIM)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://demo.bonbonweb.org/",
+      "title": "markdownWeb",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.12",
+      "title": "Carbon (IBM) — v12.0.0-alpha.12",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://adactio.com/notes/22841",
+      "title": "Wednesday night session in Amsterdam 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://standwithjensen.com/",
+      "title": "Stand with Jensen | An Open Letter to The NVIDIA Board",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://apple.com",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/we-stopped-a-railway-migration-3-weeks-out-how-to-know-to-stop-or-go",
+      "title": "We stopped a Railway migration 3 weeks out. How to know to stop or go?—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://architectlabs.com/blog/frostbite",
+      "title": "Frostbite: A new CPU architecture discovered, designed, and verified E2E by AI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50555010",
+      "title": "Show HN: Solid 2.0 + Lily Design System = seeking alpha testers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://whatislocalhost.com/",
+      "title": "Show HN: What is localhost? An interactive guide",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pcblues.com/personal/usability/2026/11/19/omarchy-and-keyboard-shortcuts.html",
+      "title": "My missed keyboard shortcuts used to be safe places",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://idlewords.com/talks/web_design_first_100_years.htm",
+      "title": "Web Design: The First 100 Years (2014)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50557273",
+      "title": "SlashCollect",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.wired.com/story/just-ridiculous-a-famed-philosopher-takes-on-ai-consciousness/",
+      "title": "Thomas Nagel says that it's criminal to build AI that feigns consciousness",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://twitter.com/aaronsibarium/status/2122361245357478085",
+      "title": "AI researcher at Anthropic hosts \"consensual non-consent\" orgies",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://openai.com/index/the-silent-consensus/",
+      "title": "The Silent Consensus",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cbs.nl/en-gb/news/2026/47/data-centres-consume-5-percent-of-the-netherlands-electricity",
+      "title": "Data centres consume 5 percent of the Netherlands' electricity",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://troublegrid.com/fix/nvidia-driver-constant-ssd-writes-nvdisplay-container",
+      "title": "Nvidia driver writes to the SSD constantly",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.digitalfoundry.net/reviews/grand-theft-auto-6-a-landmark-achievement-that-redefines-a-console-generation",
+      "title": "Grand Theft Auto 6: A Landmark Achievement That Redefines a Console Generation",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.theintrinsicperspective.com/p/the-moral-mandate-for-ai-non-consciousness",
+      "title": "The Moral Mandate for AI Non-consciousness (and other responses to qualiaphobia)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.scientificamerican.com/article/many-differences-between-liberals-and-conservatives-may-boil-down-to-one-belief/",
+      "title": "Many Differences Between Liberals and Conservatives May Boil Down to One Belief",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://piccalil.li",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://2026.stateofhtml.com/en-US/",
+      "title": "State of HTML 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://treo.sh/softnavs",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://github.com/onlook-dev/onlook/",
+      "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50560915",
+      "title": "Ask HN: When was the last time you thought \"that's bad API design\"?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://commission.europa.eu/document/download/a0539d90-2758-48e5-9010-1e856030d166_en?filename=Annexes%20to%20the%20Proposal%20for%20a%20Digital%20Fairness%20Act.pdf",
+      "title": "Deceptive design patterns proposed to be banned by the Digital Fairness Act [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://dfarq.homeip.net/ira-velinsky-industrial-designer-of-the-commodore-64/",
+      "title": "IRA Velinsky, industrial designer for Commodore and Atari",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uncurses.org",
+      "title": "Uncurses: Terminal User Interfaces",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://foolscap.works/",
+      "title": "Show HN: Foolscap – a writing app that reads your book and never writes for you",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50561703",
+      "title": "Releasing Typemaid on NPM Turning your mermaid diagrams into AI workflows",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50558257",
+      "title": "I will build an LLM to actively defend cyber attacks",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/gabrielmfern/forbear",
+      "title": "Show HN: Forbear - React-style native UI in C; a calculator in 3.6MB, 10MB RAM",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://system-design-in-depth.vedgupta.in/",
+      "title": "Show HN: System Design in Depth – Free interactive curriculum with 32 simulators",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/celishq/openspot",
+      "title": "Show HN: Openspot – macOS launcher for disposable tools",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pierre.computer/writing/on-drawing-icons",
+      "title": "On Drawing Icons",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/npodbielski/FdroidManager",
+      "title": "Show HN: Fdroid Feed Manager and API",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tooljet.com",
+      "title": "Show HN: ToolJet 4.0 – vibe-code internal tools with governance",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50565484",
+      "title": "Ask HN: Where do you see Software in 5 years?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50561078",
+      "title": "Ask HN: How to stay disciplined when tail-risk taking is rewarded?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://omnibuscloud.io/blog/simulation/",
+      "title": "Show HN: Run CalculiX, OpenFOAM and ParaView jobs on your office's idle PCs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50565795",
+      "title": "Some thoughts about being a developer in AI age and call for help",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/leetheguy/purple_flow",
+      "title": "Show HN: Purple Flow – AI-first n8n alternative, 10k+ workflows on 512MB",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://relic-app.com",
+      "title": "Show HN: Relic – An AI that only answers from what you've saved",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://diff.wikimedia.org/2026/11/19/the-new-era-of-wikimedia-traffic-thinking-beyond-pageviews/",
+      "title": "The New Era of Wikimedia Traffic: Thinking Beyond Pageviews",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.13",
+      "title": "Carbon (IBM) — v12.0.0-alpha.13",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://stuffandnonsense.co.uk/shop/standout-designs-for-the-web/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=dL1G0DGqy8w",
+      "title": "Cast it into the fire! Destroy it! | Lord of The Rings",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nr.apple.com/Dm0l4I6vO7",
+      "title": "Meet the 2026 App Store Award finalists",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://puck.news/hollywood/2026/11/the-wachowskis-are-reclaiming-the-matrix",
+      "title": "The Wachowskis Are Reclaiming ‘The Matrix’",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://lea.verou.me/blog/2026/nudeps/",
+      "title": "Nudeps: bundler-like imports, none of the baggage • Lea Verou",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.joyforjs.com/",
+      "title": "Joy for JavaScript Developers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://wdrl.info/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://wdrl.info/archive/314",
+      "title": "WDRL 314: Rebirth of the WDRL — a personal take on the web’s latest",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bocalito.com",
+      "title": "Show HN: Bocalito – A Meal Prep Planner",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/prethink-ai/ekolohicgedlnehalkchpnbhpfmgnglk",
+      "title": "Show HN: Wellness Tracker for AI Usage",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mktwsk.xyz/billet/",
+      "title": "Show HN: Billet – 6MB (Agentic) Task Management System",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://speakerdeck.com/csswizardry/well-thats-weird",
+      "title": "Well, that’s weird…",
+      "reason": "lexicon"
+    }
+  ]
+}

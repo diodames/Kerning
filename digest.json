@@ -1,242 +1,268 @@
 {
-  "generated_at": "2026-11-19T04:09:30.009611+00:00",
+  "generated_at": "2026-11-20T03:57:32.849889+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "18 November 2026",
-      "period_start": "2026-11-18",
-      "period_end": "2026-11-18",
+      "label": "19 November 2026",
+      "period_start": "2026-11-19",
+      "period_end": "2026-11-19",
       "items": [
         {
-          "id": "940edf162a5f",
-          "title": "When Everything Has Changed, What Do We Do Next?",
-          "url": "https://css-tricks.com/when-everything-has-changed/",
-          "hn": "https://news.ycombinator.com/item?id=50551503",
-          "points": 19,
-          "comments": 6,
-          "created_at_i": 1795013721,
+          "id": "6057e3d1ba5d",
+          "title": "AI Product Management in Practice",
+          "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+          "hn": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794926420,
           "sources": [
-            "Bluesky",
-            "Hacker News"
+            "Department of Product"
           ],
-          "sharers": 1,
-          "score": 6.449,
+          "sharers": 0,
+          "score": 2.851,
           "why": [
-            "picked up by Bluesky and Hacker News"
-          ],
-          "authors": [
-            "ericwbailey.website"
+            "editor's pick at Department of Product"
           ]
         },
         {
-          "id": "aa3237a78d71",
-          "title": "Tomjohnville",
-          "url": "https://www.tomjohn.design/content/tomjohnville",
-          "hn": "https://www.tomjohn.design/content/tomjohnville",
+          "id": "46c17a5bf49c",
+          "title": "Design Zeitgeist",
+          "url": "https://deimos.evilrabbit.com/",
+          "hn": "https://deimos.evilrabbit.com/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794988304,
+          "created_at_i": 1795080090,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.721,
+          "score": 2.755,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "071caa6e23d3",
-          "title": "Design writing: working with AI agents",
-          "url": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
-          "hn": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "id": "cea1deb51796",
+          "title": "Agent Sandboxes Explained - A Guide for Product Teams",
+          "url": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
+          "hn": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794988172,
+          "created_at_i": 1795099466,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.554,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
+          "id": "cc6be7b1dc80",
+          "title": "Making a website in 2026",
+          "url": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
+          "hn": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795080306,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.721,
+          "score": 2.423,
           "why": [
             "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "f3227d9e1d09",
-          "title": "Carbon (IBM) — v11.121.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795014918,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 2.568,
-          "why": [
-            "editor's pick at Design systems"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "940edf162a5f",
-          "title": "When Everything Has Changed, What Do We Do Next?",
-          "url": "https://css-tricks.com/when-everything-has-changed/",
-          "hn": "https://news.ycombinator.com/item?id=50551503",
-          "points": 19,
-          "comments": 6,
-          "created_at_i": 1795013721,
+          "id": "6057e3d1ba5d",
+          "title": "AI Product Management in Practice",
+          "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+          "hn": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794926420,
           "sources": [
-            "Bluesky",
-            "Hacker News"
+            "Department of Product"
           ],
-          "sharers": 1,
-          "score": 6.449,
+          "sharers": 0,
+          "score": 2.851,
           "why": [
-            "picked up by Bluesky and Hacker News"
-          ],
-          "authors": [
-            "ericwbailey.website"
+            "editor's pick at Department of Product"
           ]
         },
         {
-          "id": "aa3237a78d71",
-          "title": "Tomjohnville",
-          "url": "https://www.tomjohn.design/content/tomjohnville",
-          "hn": "https://www.tomjohn.design/content/tomjohnville",
+          "id": "46c17a5bf49c",
+          "title": "Design Zeitgeist",
+          "url": "https://deimos.evilrabbit.com/",
+          "hn": "https://deimos.evilrabbit.com/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794988304,
+          "created_at_i": 1795080090,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.721,
+          "score": 2.755,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "071caa6e23d3",
-          "title": "Design writing: working with AI agents",
-          "url": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
-          "hn": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
+          "id": "cea1deb51796",
+          "title": "Agent Sandboxes Explained - A Guide for Product Teams",
+          "url": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
+          "hn": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794988172,
+          "created_at_i": 1795099466,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.554,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
+          "id": "cc6be7b1dc80",
+          "title": "Making a website in 2026",
+          "url": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
+          "hn": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795080306,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.721,
+          "score": 2.423,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "f3227d9e1d09",
-          "title": "Carbon (IBM) — v11.121.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
+          "id": "68245e765ad4",
+          "title": "Exactitudes",
+          "url": "https://exactitudes.com/collectie/",
+          "hn": "https://exactitudes.com/collectie/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795014918,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 2.568,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "19d24449de7d",
-          "title": "Grab My Personal Annual Review Claude Code Plugin",
-          "url": "https://www.producttalk.org/personal-annual-review-claude-code-plugin/",
-          "hn": "https://www.producttalk.org/personal-annual-review-claude-code-plugin/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795010700,
-          "sources": [
-            "Product Talk"
-          ],
-          "sharers": 0,
-          "score": 2.537,
-          "why": [
-            "editor's pick at Product Talk"
-          ]
-        },
-        {
-          "id": "a7919d7e054b",
-          "title": "My Personal Annual Review Process (Now a Claude Code Plugin)",
-          "url": "https://www.producttalk.org/personal-annual-review/",
-          "hn": "https://www.producttalk.org/personal-annual-review/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795010400,
-          "sources": [
-            "Product Talk"
-          ],
-          "sharers": 0,
-          "score": 2.535,
-          "why": [
-            "editor's pick at Product Talk"
-          ]
-        },
-        {
-          "id": "6e307f0d2493",
-          "title": "I love markers",
-          "url": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
-          "hn": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794988270,
+          "created_at_i": 1795080192,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.388,
+          "score": 2.422,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "8f6d1ee34660",
-          "title": "Glimm",
-          "url": "https://glimm.dev/",
-          "hn": "https://glimm.dev/",
+          "id": "1e8d620dd91d",
+          "title": "‘AI’ might be the end of our careers",
+          "url": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/",
+          "hn": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794988088,
+          "created_at_i": 1795080121,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.387,
+          "score": 2.422,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "f9e0812ad0b7",
-          "title": "Designing with html",
-          "url": "https://shiftnudge.com/archive/26905760",
-          "hn": "https://shiftnudge.com/archive/26905760",
+          "id": "de79875dd6d8",
+          "title": "Squircles",
+          "url": "https://jespervos.com/craft/squircles",
+          "hn": "https://jespervos.com/craft/squircles",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794987993,
+          "created_at_i": 1795080006,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.386,
+          "score": 2.421,
           "why": [
             "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "c99dd595358a",
+          "title": "How do you know what you think?",
+          "url": "https://blobzine.substack.com/p/how-do-you-know-what-you-think",
+          "hn": "https://blobzine.substack.com/p/how-do-you-know-what-you-think",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795016549,
+          "sources": [
+            "Blob"
+          ],
+          "sharers": 0,
+          "score": 2.103,
+          "why": [
+            "editor's pick at Blob"
+          ]
+        },
+        {
+          "id": "57597ff7c82d",
+          "title": "Everyone’s got the tools. Not everyone’s got the tricks.",
+          "url": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795124182,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.954,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "439d671b0ed1",
+          "title": "Prototypes Have Always Been The Most Effective Specification. Here’s How To Do It Better In The Age of AI.",
+          "url": "https://aiforux.substack.com/p/prototypes-have-always-been-the-most",
+          "hn": "https://aiforux.substack.com/p/prototypes-have-always-been-the-most",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794945204,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 1.89,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "8165e19e73ec",
+          "title": "Send the Firefighters to the Fires",
+          "url": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795092845,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.706,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -251,7 +277,7 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.913,
+          "score": 1.371,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -268,81 +294,7 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.913,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "b71fa8550e2d",
-          "title": "Everyone knows sparkles mean AI. Use them to make design audits easier",
-          "url": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794957921,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.757,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "1ec3f46741e5",
-          "title": "I've just added a new module to CSS Demystified! To celebrate, it's 32% off through Dec 1st. 👉 thecascade.dev/courses/css-...",
-          "url": "https://thecascade.dev/courses/css-demystified/",
-          "hn": "https://bsky.app/profile/kevinpowell.co/post/3n2llqjmtr227",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795006100,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.571,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
-          ]
-        },
-        {
-          "id": "ed11cf58d943",
-          "title": "Understanding CSS random()",
-          "url": "https://piccalil.li/blog/understanding-css-random/",
-          "hn": "https://bsky.app/profile/bell.bz/post/3n2ljhzysv22h",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795003458,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.552,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
-          ]
-        },
-        {
-          "id": "924c8912ccc9",
-          "title": "What is a researcher’s worth?",
-          "url": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794957984,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.424,
+          "score": 1.371,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -494,6 +446,40 @@
           ]
         },
         {
+          "id": "6057e3d1ba5d",
+          "title": "AI Product Management in Practice",
+          "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+          "hn": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794926420,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.851,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
+          "id": "46c17a5bf49c",
+          "title": "Design Zeitgeist",
+          "url": "https://deimos.evilrabbit.com/",
+          "hn": "https://deimos.evilrabbit.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795080090,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.755,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "aa3237a78d71",
           "title": "Tomjohnville",
           "url": "https://www.tomjohn.design/content/tomjohnville",
@@ -542,40 +528,6 @@
           "score": 2.589,
           "why": [
             "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "f3227d9e1d09",
-          "title": "Carbon (IBM) — v11.121.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795014918,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 2.568,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "d1354f5802c5",
-          "title": "Ch. 11: Measuring Impact",
-          "url": "https://www.producttalk.org/ch-11-measuring-impact/",
-          "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794837600,
-          "sources": [
-            "Product Talk"
-          ],
-          "sharers": 0,
-          "score": 2.535,
-          "why": [
-            "editor's pick at Product Talk"
           ]
         }
       ],
@@ -731,6 +683,40 @@
           ]
         },
         {
+          "id": "6057e3d1ba5d",
+          "title": "AI Product Management in Practice",
+          "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+          "hn": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794926420,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.851,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
+          "id": "46c17a5bf49c",
+          "title": "Design Zeitgeist",
+          "url": "https://deimos.evilrabbit.com/",
+          "hn": "https://deimos.evilrabbit.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795080090,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.755,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "aa3237a78d71",
           "title": "Tomjohnville",
           "url": "https://www.tomjohn.design/content/tomjohnville",
@@ -813,6 +799,23 @@
           "score": 2.568,
           "why": [
             "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "cea1deb51796",
+          "title": "Agent Sandboxes Explained - A Guide for Product Teams",
+          "url": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
+          "hn": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795099466,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.554,
+          "why": [
+            "editor's pick at Department of Product"
           ]
         },
         {
@@ -986,6 +989,74 @@
           ]
         },
         {
+          "id": "cc6be7b1dc80",
+          "title": "Making a website in 2026",
+          "url": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
+          "hn": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795080306,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.423,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "68245e765ad4",
+          "title": "Exactitudes",
+          "url": "https://exactitudes.com/collectie/",
+          "hn": "https://exactitudes.com/collectie/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795080192,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.422,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "1e8d620dd91d",
+          "title": "‘AI’ might be the end of our careers",
+          "url": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/",
+          "hn": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795080121,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.422,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "de79875dd6d8",
+          "title": "Squircles",
+          "url": "https://jespervos.com/craft/squircles",
+          "hn": "https://jespervos.com/craft/squircles",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795080006,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.421,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "6e307f0d2493",
           "title": "I love markers",
           "url": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
@@ -1142,6 +1213,23 @@
           ]
         },
         {
+          "id": "c99dd595358a",
+          "title": "How do you know what you think?",
+          "url": "https://blobzine.substack.com/p/how-do-you-know-what-you-think",
+          "hn": "https://blobzine.substack.com/p/how-do-you-know-what-you-think",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795016549,
+          "sources": [
+            "Blob"
+          ],
+          "sharers": 0,
+          "score": 2.103,
+          "why": [
+            "editor's pick at Blob"
+          ]
+        },
+        {
           "id": "506b1ce506f5",
           "title": "UI coding harness by Evil Martians",
           "url": "https://evilmartians.com/services/ai-harness",
@@ -1159,6 +1247,23 @@
           ],
           "authors": [
             "evilmartians.com"
+          ]
+        },
+        {
+          "id": "57597ff7c82d",
+          "title": "Everyone’s got the tools. Not everyone’s got the tricks.",
+          "url": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795124182,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.954,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         },
         {
@@ -1213,6 +1318,23 @@
           ]
         },
         {
+          "id": "439d671b0ed1",
+          "title": "Prototypes Have Always Been The Most Effective Specification. Here’s How To Do It Better In The Age of AI.",
+          "url": "https://aiforux.substack.com/p/prototypes-have-always-been-the-most",
+          "hn": "https://aiforux.substack.com/p/prototypes-have-always-been-the-most",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794945204,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 1.89,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
           "id": "b71fa8550e2d",
           "title": "Everyone knows sparkles mean AI. Use them to make design audits easier",
           "url": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
@@ -1225,6 +1347,23 @@
           ],
           "sharers": 0,
           "score": 1.757,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "8165e19e73ec",
+          "title": "Send the Firefighters to the Fires",
+          "url": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795092845,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.706,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -2355,6 +2494,23 @@
           ]
         },
         {
+          "id": "6057e3d1ba5d",
+          "title": "AI Product Management in Practice",
+          "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+          "hn": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1794926420,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.851,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
           "id": "ba65e70ece68",
           "title": "Design is a search problem",
           "url": "https://mattstromawn.com/writing/design-is-a-search-problem/",
@@ -2470,6 +2626,23 @@
           "sharers": 0,
           "score": 2.796,
           "why": []
+        },
+        {
+          "id": "46c17a5bf49c",
+          "title": "Design Zeitgeist",
+          "url": "https://deimos.evilrabbit.com/",
+          "hn": "https://deimos.evilrabbit.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795080090,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.755,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
         },
         {
           "id": "6eef34634779",
@@ -2825,6 +2998,23 @@
           "score": 2.557,
           "why": [
             "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "cea1deb51796",
+          "title": "Agent Sandboxes Explained - A Guide for Product Teams",
+          "url": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
+          "hn": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795099466,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.554,
+          "why": [
+            "editor's pick at Department of Product"
           ]
         },
         {
@@ -3219,69 +3409,18 @@
           ]
         },
         {
-          "id": "6e307f0d2493",
-          "title": "I love markers",
-          "url": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
-          "hn": "https://www.kooslooijesteijn.net/blog/alcohol-markers",
+          "id": "cc6be7b1dc80",
+          "title": "Making a website in 2026",
+          "url": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
+          "hn": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794988270,
+          "created_at_i": 1795080306,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.388,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "8f6d1ee34660",
-          "title": "Glimm",
-          "url": "https://glimm.dev/",
-          "hn": "https://glimm.dev/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794988088,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.387,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "f9e0812ad0b7",
-          "title": "Designing with html",
-          "url": "https://shiftnudge.com/archive/26905760",
-          "hn": "https://shiftnudge.com/archive/26905760",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794987993,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.386,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "a3ff371a3921",
-          "title": "Please use AI",
-          "url": "https://shawnsmucker.substack.com/p/please-use-ai",
-          "hn": "https://shawnsmucker.substack.com/p/please-use-ai",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794296084,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.382,
+          "score": 2.423,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -3447,6 +3586,40 @@
       ]
     },
     {
+      "id": "6057e3d1ba5d",
+      "title": "AI Product Management in Practice",
+      "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+      "hn": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1794926420,
+      "sources": [
+        "Department of Product"
+      ],
+      "sharers": 0,
+      "score": 2.851,
+      "why": [
+        "editor's pick at Department of Product"
+      ]
+    },
+    {
+      "id": "46c17a5bf49c",
+      "title": "Design Zeitgeist",
+      "url": "https://deimos.evilrabbit.com/",
+      "hn": "https://deimos.evilrabbit.com/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795080090,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.755,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
       "id": "aa3237a78d71",
       "title": "Tomjohnville",
       "url": "https://www.tomjohn.design/content/tomjohnville",
@@ -3495,40 +3668,6 @@
       "score": 2.589,
       "why": [
         "editor's pick at Lenny's Newsletter"
-      ]
-    },
-    {
-      "id": "f3227d9e1d09",
-      "title": "Carbon (IBM) — v11.121.0",
-      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
-      "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1795014918,
-      "sources": [
-        "Design systems"
-      ],
-      "sharers": 0,
-      "score": 2.568,
-      "why": [
-        "editor's pick at Design systems"
-      ]
-    },
-    {
-      "id": "d1354f5802c5",
-      "title": "Ch. 11: Measuring Impact",
-      "url": "https://www.producttalk.org/ch-11-measuring-impact/",
-      "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1794837600,
-      "sources": [
-        "Product Talk"
-      ],
-      "sharers": 0,
-      "score": 2.535,
-      "why": [
-        "editor's pick at Product Talk"
       ]
     }
   ],
