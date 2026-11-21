@@ -1,77 +1,77 @@
 {
-  "generated_at": "2026-11-20T03:57:32.849889+00:00",
+  "generated_at": "2026-11-21T03:56:59.991318+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "19 November 2026",
-      "period_start": "2026-11-19",
-      "period_end": "2026-11-19",
+      "label": "20 November 2026",
+      "period_start": "2026-11-20",
+      "period_end": "2026-11-20",
       "items": [
         {
-          "id": "6057e3d1ba5d",
-          "title": "AI Product Management in Practice",
-          "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
-          "hn": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+          "id": "96aa9af75e61",
+          "title": "UX Conference March Announced (Mar 1 - Mar 4)",
+          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794926420,
+          "created_at_i": 1795146264,
           "sources": [
-            "Department of Product"
+            "NN/g"
           ],
           "sharers": 0,
-          "score": 2.851,
+          "score": 3.303,
           "why": [
-            "editor's pick at Department of Product"
+            "editor's pick at NN/g"
           ]
         },
         {
-          "id": "46c17a5bf49c",
-          "title": "Design Zeitgeist",
-          "url": "https://deimos.evilrabbit.com/",
-          "hn": "https://deimos.evilrabbit.com/",
+          "id": "864f7e13f216",
+          "title": "UX Conference February Announced (Feb 22 - Feb 26)",
+          "url": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795080090,
+          "created_at_i": 1795144604,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.294,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "15d696dd12cc",
+          "title": "Always on: What it’s like being a twenty-something founder in the age of AI",
+          "url": "https://review.firstround.com/young-ai-founders/",
+          "hn": "https://review.firstround.com/young-ai-founders/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795200332,
+          "sources": [
+            "First Round Review"
+          ],
+          "sharers": 0,
+          "score": 2.667,
+          "why": [
+            "editor's pick at First Round Review"
+          ]
+        },
+        {
+          "id": "f4cb70e5a6bd",
+          "title": "Impermanence",
+          "url": "https://tcosta.com/impermanence/",
+          "hn": "https://tcosta.com/impermanence/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795166365,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.755,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "cea1deb51796",
-          "title": "Agent Sandboxes Explained - A Guide for Product Teams",
-          "url": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
-          "hn": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795099466,
-          "sources": [
-            "Department of Product"
-          ],
-          "sharers": 0,
-          "score": 2.554,
-          "why": [
-            "editor's pick at Department of Product"
-          ]
-        },
-        {
-          "id": "cc6be7b1dc80",
-          "title": "Making a website in 2026",
-          "url": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
-          "hn": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795080306,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.423,
+          "score": 2.421,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -79,115 +79,98 @@
       ],
       "candidates": [
         {
-          "id": "6057e3d1ba5d",
-          "title": "AI Product Management in Practice",
-          "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
-          "hn": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
+          "id": "96aa9af75e61",
+          "title": "UX Conference March Announced (Mar 1 - Mar 4)",
+          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1794926420,
+          "created_at_i": 1795146264,
           "sources": [
-            "Department of Product"
+            "NN/g"
           ],
           "sharers": 0,
-          "score": 2.851,
+          "score": 3.303,
           "why": [
-            "editor's pick at Department of Product"
+            "editor's pick at NN/g"
           ]
         },
         {
-          "id": "46c17a5bf49c",
-          "title": "Design Zeitgeist",
-          "url": "https://deimos.evilrabbit.com/",
-          "hn": "https://deimos.evilrabbit.com/",
+          "id": "864f7e13f216",
+          "title": "UX Conference February Announced (Feb 22 - Feb 26)",
+          "url": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795080090,
+          "created_at_i": 1795144604,
           "sources": [
-            "Sidebar"
+            "NN/g"
           ],
           "sharers": 0,
-          "score": 2.755,
+          "score": 3.294,
           "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at NN/g"
           ]
         },
         {
-          "id": "cea1deb51796",
-          "title": "Agent Sandboxes Explained - A Guide for Product Teams",
-          "url": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
-          "hn": "https://departmentofproduct.substack.com/p/agent-sandboxes-explained-a-guide",
+          "id": "15d696dd12cc",
+          "title": "Always on: What it’s like being a twenty-something founder in the age of AI",
+          "url": "https://review.firstround.com/young-ai-founders/",
+          "hn": "https://review.firstround.com/young-ai-founders/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795099466,
+          "created_at_i": 1795200332,
           "sources": [
-            "Department of Product"
+            "First Round Review"
           ],
           "sharers": 0,
-          "score": 2.554,
+          "score": 2.667,
           "why": [
-            "editor's pick at Department of Product"
+            "editor's pick at First Round Review"
           ]
         },
         {
-          "id": "cc6be7b1dc80",
-          "title": "Making a website in 2026",
-          "url": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
-          "hn": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
+          "id": "053f38f47f15",
+          "title": "Qualitative User-Research Methods: An Overview",
+          "url": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795080306,
+          "created_at_i": 1795197600,
           "sources": [
-            "Sidebar"
+            "NN/g"
           ],
           "sharers": 0,
-          "score": 2.423,
+          "score": 2.644,
           "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at NN/g"
           ]
         },
         {
-          "id": "68245e765ad4",
-          "title": "Exactitudes",
-          "url": "https://exactitudes.com/collectie/",
-          "hn": "https://exactitudes.com/collectie/",
+          "id": "706403dd4b30",
+          "title": "Can AI Generate Good Designs from Raw User Data?",
+          "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795080192,
+          "created_at_i": 1795197600,
           "sources": [
-            "Sidebar"
+            "NN/g"
           ],
           "sharers": 0,
-          "score": 2.422,
+          "score": 2.644,
           "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at NN/g"
           ]
         },
         {
-          "id": "1e8d620dd91d",
-          "title": "‘AI’ might be the end of our careers",
-          "url": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/",
-          "hn": "https://www.baldurbjarnason.com/2026/08-ai-might-be-the-end-of-our-careers/",
+          "id": "f4cb70e5a6bd",
+          "title": "Impermanence",
+          "url": "https://tcosta.com/impermanence/",
+          "hn": "https://tcosta.com/impermanence/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795080121,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.422,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "de79875dd6d8",
-          "title": "Squircles",
-          "url": "https://jespervos.com/craft/squircles",
-          "hn": "https://jespervos.com/craft/squircles",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795080006,
+          "created_at_i": 1795166365,
           "sources": [
             "Sidebar"
           ],
@@ -198,20 +181,71 @@
           ]
         },
         {
-          "id": "c99dd595358a",
-          "title": "How do you know what you think?",
-          "url": "https://blobzine.substack.com/p/how-do-you-know-what-you-think",
-          "hn": "https://blobzine.substack.com/p/how-do-you-know-what-you-think",
+          "id": "5ea62ebc54a5",
+          "title": "How rich is a billionaire, really?",
+          "url": "https://www.thehowpage.com/economics/billionaire-wealth",
+          "hn": "https://www.thehowpage.com/economics/billionaire-wealth",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795016549,
+          "created_at_i": 1795166327,
           "sources": [
-            "Blob"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.103,
+          "score": 2.42,
           "why": [
-            "editor's pick at Blob"
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "46f1f09be02f",
+          "title": "In making things, we make ourselves",
+          "url": "https://justinjay.wang/in-making-things-we-make-ourselves/",
+          "hn": "https://justinjay.wang/in-making-things-we-make-ourselves/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795166291,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.42,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "8148552b8a3c",
+          "title": "Squircles",
+          "url": "https://linebender.org/wiki/curves/squircle/",
+          "hn": "https://linebender.org/wiki/curves/squircle/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795166255,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.42,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "9e5ce6b53aca",
+          "title": "Only the human merges",
+          "url": "https://itsmeduncan.com/2026/11/17/only-the-human-merges/",
+          "hn": "https://itsmeduncan.com/2026/11/17/only-the-human-merges/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795166160,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.419,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -226,75 +260,7 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.954,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "439d671b0ed1",
-          "title": "Prototypes Have Always Been The Most Effective Specification. Here’s How To Do It Better In The Age of AI.",
-          "url": "https://aiforux.substack.com/p/prototypes-have-always-been-the-most",
-          "hn": "https://aiforux.substack.com/p/prototypes-have-always-been-the-most",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794945204,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 1.89,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "8165e19e73ec",
-          "title": "Send the Firefighters to the Fires",
-          "url": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795092845,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.706,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "71ac483c3e18",
-          "title": "If AI works from anywhere, why are we commuting to watch it?",
-          "url": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795033059,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.371,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "bf6bb9a482f4",
-          "title": "Too Claudified",
-          "url": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795033025,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.371,
+          "score": 1.393,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -429,6 +395,40 @@
           ]
         },
         {
+          "id": "96aa9af75e61",
+          "title": "UX Conference March Announced (Mar 1 - Mar 4)",
+          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795146264,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.303,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "864f7e13f216",
+          "title": "UX Conference February Announced (Feb 22 - Feb 26)",
+          "url": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795144604,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.294,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
           "id": "5e1ab2af1d66",
           "title": "UI edge cases: A reference guide",
           "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
@@ -494,40 +494,6 @@
           "score": 2.721,
           "why": [
             "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "071caa6e23d3",
-          "title": "Design writing: working with AI agents",
-          "url": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
-          "hn": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794988172,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.721,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "35612161c8c9",
-          "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
-          "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
-          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794844975,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.589,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
           ]
         }
       ],
@@ -651,6 +617,40 @@
           ]
         },
         {
+          "id": "96aa9af75e61",
+          "title": "UX Conference March Announced (Mar 1 - Mar 4)",
+          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795146264,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.303,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "864f7e13f216",
+          "title": "UX Conference February Announced (Feb 22 - Feb 26)",
+          "url": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795144604,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.294,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
           "id": "d97800a73912",
           "title": "Github Redesign (2019)",
           "url": "https://tonsky.me/blog/github-redesign/",
@@ -751,6 +751,23 @@
           ]
         },
         {
+          "id": "15d696dd12cc",
+          "title": "Always on: What it’s like being a twenty-something founder in the age of AI",
+          "url": "https://review.firstround.com/young-ai-founders/",
+          "hn": "https://review.firstround.com/young-ai-founders/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795200332,
+          "sources": [
+            "First Round Review"
+          ],
+          "sharers": 0,
+          "score": 2.667,
+          "why": [
+            "editor's pick at First Round Review"
+          ]
+        },
+        {
           "id": "84256b4008a0",
           "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
           "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
@@ -765,6 +782,40 @@
           "score": 2.645,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "053f38f47f15",
+          "title": "Qualitative User-Research Methods: An Overview",
+          "url": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795197600,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 2.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "706403dd4b30",
+          "title": "Can AI Generate Good Designs from Raw User Data?",
+          "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795197600,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 2.644,
+          "why": [
+            "editor's pick at NN/g"
           ]
         },
         {
@@ -1052,6 +1103,91 @@
           ],
           "sharers": 0,
           "score": 2.421,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "f4cb70e5a6bd",
+          "title": "Impermanence",
+          "url": "https://tcosta.com/impermanence/",
+          "hn": "https://tcosta.com/impermanence/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795166365,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.421,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "5ea62ebc54a5",
+          "title": "How rich is a billionaire, really?",
+          "url": "https://www.thehowpage.com/economics/billionaire-wealth",
+          "hn": "https://www.thehowpage.com/economics/billionaire-wealth",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795166327,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.42,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "46f1f09be02f",
+          "title": "In making things, we make ourselves",
+          "url": "https://justinjay.wang/in-making-things-we-make-ourselves/",
+          "hn": "https://justinjay.wang/in-making-things-we-make-ourselves/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795166291,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.42,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "8148552b8a3c",
+          "title": "Squircles",
+          "url": "https://linebender.org/wiki/curves/squircle/",
+          "hn": "https://linebender.org/wiki/curves/squircle/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795166255,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.42,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "9e5ce6b53aca",
+          "title": "Only the human merges",
+          "url": "https://itsmeduncan.com/2026/11/17/only-the-human-merges/",
+          "hn": "https://itsmeduncan.com/2026/11/17/only-the-human-merges/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795166160,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.419,
           "why": [
             "editor's pick at Sidebar"
           ]
@@ -1398,63 +1534,6 @@
           ],
           "sharers": 0,
           "score": 1.691,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "1ec3f46741e5",
-          "title": "I've just added a new module to CSS Demystified! To celebrate, it's 32% off through Dec 1st. 👉 thecascade.dev/courses/css-...",
-          "url": "https://thecascade.dev/courses/css-demystified/",
-          "hn": "https://bsky.app/profile/kevinpowell.co/post/3n2llqjmtr227",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795006100,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.571,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
-          ]
-        },
-        {
-          "id": "ed11cf58d943",
-          "title": "Understanding CSS random()",
-          "url": "https://piccalil.li/blog/understanding-css-random/",
-          "hn": "https://bsky.app/profile/bell.bz/post/3n2ljhzysv22h",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795003458,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.552,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
-          ]
-        },
-        {
-          "id": "924c8912ccc9",
-          "title": "What is a researcher’s worth?",
-          "url": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/what-is-a-researchers-worth-ea14c95c6d12?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794957984,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.424,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -2396,6 +2475,40 @@
           ]
         },
         {
+          "id": "96aa9af75e61",
+          "title": "UX Conference March Announced (Mar 1 - Mar 4)",
+          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795146264,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.303,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "864f7e13f216",
+          "title": "UX Conference February Announced (Feb 22 - Feb 26)",
+          "url": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795144604,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.294,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
           "id": "97621ba86b5e",
           "title": "What I learned teaching AI prototyping at university",
           "url": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
@@ -2745,6 +2858,23 @@
           ]
         },
         {
+          "id": "15d696dd12cc",
+          "title": "Always on: What it’s like being a twenty-something founder in the age of AI",
+          "url": "https://review.firstround.com/young-ai-founders/",
+          "hn": "https://review.firstround.com/young-ai-founders/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795200332,
+          "sources": [
+            "First Round Review"
+          ],
+          "sharers": 0,
+          "score": 2.667,
+          "why": [
+            "editor's pick at First Round Review"
+          ]
+        },
+        {
           "id": "84256b4008a0",
           "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
           "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
@@ -2803,6 +2933,40 @@
           "points": 0,
           "comments": 0,
           "created_at_i": 1794592800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 2.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "053f38f47f15",
+          "title": "Qualitative User-Research Methods: An Overview",
+          "url": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795197600,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 2.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "706403dd4b30",
+          "title": "Can AI Generate Good Designs from Raw User Data?",
+          "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795197600,
           "sources": [
             "NN/g"
           ],
@@ -3341,91 +3505,6 @@
           ]
         },
         {
-          "id": "ebb2101084be",
-          "title": "Should You Actually Add AI To That? A Four-Question Audit For Product Teams",
-          "url": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
-          "hn": "https://smashingmagazine.com/2026/11/should-you-add-ai-audit-product-teams/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794477600,
-          "sources": [
-            "Smashing Magazine"
-          ],
-          "sharers": 0,
-          "score": 2.436,
-          "why": [
-            "editor's pick at Smashing Magazine"
-          ]
-        },
-        {
-          "id": "2b699e1f4bac",
-          "title": "HUMAN.md",
-          "url": "https://www.human-md.ai/",
-          "hn": "https://www.human-md.ai/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794909531,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.436,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "f9470f54a1a9",
-          "title": "Bird Dreams",
-          "url": "https://research.nvidia.com/labs/sil/projects/birddreams/",
-          "hn": "https://research.nvidia.com/labs/sil/projects/birddreams/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794909380,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.435,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "52e49410bf5f",
-          "title": "5 Ways You’re Misusing ICE Scoring",
-          "url": "https://itamargilad.com/ice-antipatterns/",
-          "hn": "https://itamargilad.com/ice-antipatterns/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794908748,
-          "sources": [
-            "Itamar Gilad"
-          ],
-          "sharers": 0,
-          "score": 2.431,
-          "why": [
-            "editor's pick at Itamar Gilad"
-          ]
-        },
-        {
-          "id": "cc6be7b1dc80",
-          "title": "Making a website in 2026",
-          "url": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
-          "hn": "https://blog.jim-nielsen.com/2026/making-websites-in-2026/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795080306,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.423,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
           "id": "7da3b08fd70d",
           "title": "Introducing Adaptive Dark Mode",
           "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
@@ -3569,6 +3648,40 @@
       ]
     },
     {
+      "id": "96aa9af75e61",
+      "title": "UX Conference March Announced (Mar 1 - Mar 4)",
+      "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795146264,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.303,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
+      "id": "864f7e13f216",
+      "title": "UX Conference February Announced (Feb 22 - Feb 26)",
+      "url": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795144604,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.294,
+      "why": [
+        "editor's pick at NN/g"
+      ]
+    },
+    {
       "id": "5e1ab2af1d66",
       "title": "UI edge cases: A reference guide",
       "url": "https://uxdesign.cc/ui-edge-cases-a-reference-guide-e778061588ef?source=rss----138adf9c44c---4",
@@ -3634,40 +3747,6 @@
       "score": 2.721,
       "why": [
         "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "071caa6e23d3",
-      "title": "Design writing: working with AI agents",
-      "url": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
-      "hn": "https://automattic.design/2026/11/16/design-writing-working-with-ai-agents/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1794988172,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 2.721,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "35612161c8c9",
-      "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
-      "hn": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1794844975,
-      "sources": [
-        "Lenny's Newsletter"
-      ],
-      "sharers": 0,
-      "score": 2.589,
-      "why": [
-        "editor's pick at Lenny's Newsletter"
       ]
     }
   ],

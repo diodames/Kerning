@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-20",
+  "pool": 56,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 26,
+    "lexicon": 16,
+    "prerelease": 1,
+    "no_title": 2
+  },
+  "dropped_items": [
+    {
+      "url": "https://apps.apple.com/us/app/tyche-intelligent-interface/id6835683787",
+      "title": "Show HN: Tyche, An intelligent interface that clicks, books, and shops on iPhone",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://bocalito.com",
+      "title": "Show HN: Bocalito – A Meal Prep Planner",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/prethink-ai/ekolohicgedlnehalkchpnbhpfmgnglk",
+      "title": "Show HN: Wellness Tracker for AI Usage",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jam.resonantdsp.com",
+      "title": "Show HN: Jam – A music making game where you play gigs to earn studio gear",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://mktwsk.xyz/billet/",
+      "title": "Show HN: Billet – 6MB (Agentic) Task Management System",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://stass.github.io/erXos/",
+      "title": "Show HN: erXos – a microkernel OS in Erlang based on Genera/Plan 9/QNX ideas",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://speakerdeck.com/csswizardry/well-thats-weird",
+      "title": "Well, that’s weird…",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50570020",
+      "title": "Ask HN: Do you find Windows font rendering jagged?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tuklusan.itch.io/zx-ux-unix-for-sinclair-zx-spectrum-48k",
+      "title": "ZX-UX: Unix Operating System for Sinclair ZX Spectrum 48K",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tps.neuralrad.com",
+      "title": "Show HN: Radiotherapy Delivery Demo",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.percona.com/blog/inside-an-openeverest-mysql-cluster-galera-health-and-a-live-failover-test/",
+      "title": "An OpenEverest MySQL Cluster: Galera Health and a Live Failover Test",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.irrlicht3d.org/index.php?t=1629",
+      "title": "Page Transitions are now easy: CSS View Transitions",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50570283",
+      "title": "Ask HN: Does AI slop require more marketing in the future?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://margeux.com/temporaland/login.html",
+      "title": "Show HN: Temporaland – Multiplayer digital jam space",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
+      "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://dbushell.com/2026/11/16/visited-links/",
+      "title": "Visited links are purple",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.14",
+      "title": "Carbon (IBM) — v12.0.0-alpha.14",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://www.smashingmagazine.com/2026/09/stop-treating-css-container-queries-traditional-media-queries/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://piccalil.li/the-index/207/",
+      "title": "The Index: Issue #207",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://webweekly.email/archive/web-weekly-202/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.reddit.com/r/AskUK/comments/1xzp8du/whats_a_baby_name_you_loved_but_was_vetoed_by/",
+      "title": "From the AskUK community on Reddit",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://webbed-briefs.teemill.com/product/immunized-tee/",
+      "title": "This old Star Wars PSA poster is public domain, so I made it into a T-shirt. 👉️ webbed-briefs.teemill.com/product/immu...",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://jschuster.org/blog/2026/11/19/design-for-understandability/",
+      "title": "Design for Understandability",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://peek.zone",
+      "title": "Show HN: I stole a game interaction and brought it to macOS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://arkviz.io",
+      "title": "Show HN: ArkViz – AI generated software architecture diagrams",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50577102",
+      "title": "Pssst: Your Agents Aren't Actually Sandboxed",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50577613",
+      "title": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50582662",
+      "title": "Ask HN: What's stopping us from putting agents in general purpose robots?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hyprmac.app/",
+      "title": "Show HN: HyprMac: Keyboard-driven tiling window manager for macOS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://acrpacket.com/check",
+      "title": "Show HN: Free red-flag checker for VPAT accessibility reports",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50581873",
+      "title": "Second Brain and Agent Maintenance Thoughts on AI Usage?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/figranium/frowse",
+      "title": "Show HN: Frowse – Drop-in agent-browser CLI that cuts token spend by up to 90%+",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.ssassociates.sns&hl=en_US",
+      "title": "We have created  android app for interior designer and contactors",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50571637",
+      "title": "Ask HN: Why aren't there more games where you use your body as a controller?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.cloudcurling.com",
+      "title": "Show HN: Online curling game/SIM with Three.js",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.vaticin.ai",
+      "title": "Show HN: Prediction market competition where only agents can trade",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://learnfromx.com/research/rwkv-anki-fsrs",
+      "title": "RWKV-P, a neural network, beat both Anki algorithms for 9,999 of 9,999 users",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pivot-to-ai.com/2026/10/27/anthropic-files-its-ipo-but-all-the-key-numbers-are-missing/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Anthropic files its ‘IPO’ — but all the key numbers are missing",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://vimeo.com/1235495571/50100ad1c5?share=copy&fl=sv&fe=ci",
+      "title": "How Presenting Design in the Real World Works — SAIC presentation",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://zeldman.com/2026/11/20/snow-white-2008-2026/?utm_source=bluesky&utm_medium=jetpack_social",
+      "title": "Snow White, 2008–2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://rea.tools/",
+      "title": "REA: Reverse Engineering for Your Coding Agent",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://whimsy.joshwcomeau.com/#registration-section",
+      "title": "Whimsical Animations",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.joshwcomeau.com/ai-policy/",
+      "title": "AI Policy • Josh W. Comeau",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nerdy.dev/www-ep261-openai-nerfed-your-tokens",
+      "title": "WWW Ep261 Openai Nerfed Your Tokens · November 19, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://slopstrap.mikelacher.com/",
+      "title": "slopstrap.mikelacher.com Now that's just funny.",
+      "reason": "lexicon"
+    }
+  ]
+}
