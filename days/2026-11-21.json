@@ -1,0 +1,161 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-22T03:06:36.193386+00:00",
+  "items": [
+    {
+      "id": "2f5929224510",
+      "title": "Getting to Teach AI and Design Systems",
+      "url": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+      "hn": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795242096,
+      "sources": [
+        "Slot Machine"
+      ],
+      "sharers": 0,
+      "score": 3.689,
+      "why": [
+        "editor's pick at Slot Machine"
+      ]
+    },
+    {
+      "id": "4b640759d25f",
+      "title": "A Refresher That UX Teams Can’t Fix Process Alone, Even in the Age of AI",
+      "url": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+      "hn": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795123347,
+      "sources": [
+        "AI for UX Substack"
+      ],
+      "sharers": 0,
+      "score": 2.902,
+      "why": [
+        "editor's pick at AI for UX Substack"
+      ]
+    },
+    {
+      "id": "0d3333ef9d9b",
+      "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+      "hn": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795279796,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.611,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "e11014f576b6",
+      "title": "A Spec-first Component Authoring Harness",
+      "url": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
+      "hn": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795199819,
+      "sources": [
+        "Nathan Curtis"
+      ],
+      "sharers": 0,
+      "score": 2.145,
+      "why": [
+        "editor's pick at Nathan Curtis"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "2f5929224510",
+      "title": "Getting to Teach AI and Design Systems",
+      "url": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+      "hn": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795242096,
+      "sources": [
+        "Slot Machine"
+      ],
+      "sharers": 0,
+      "score": 3.689,
+      "why": [
+        "editor's pick at Slot Machine"
+      ]
+    },
+    {
+      "id": "4b640759d25f",
+      "title": "A Refresher That UX Teams Can’t Fix Process Alone, Even in the Age of AI",
+      "url": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+      "hn": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795123347,
+      "sources": [
+        "AI for UX Substack"
+      ],
+      "sharers": 0,
+      "score": 2.902,
+      "why": [
+        "editor's pick at AI for UX Substack"
+      ]
+    },
+    {
+      "id": "0d3333ef9d9b",
+      "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+      "hn": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795279796,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.611,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "e11014f576b6",
+      "title": "A Spec-first Component Authoring Harness",
+      "url": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
+      "hn": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795199819,
+      "sources": [
+        "Nathan Curtis"
+      ],
+      "sharers": 0,
+      "score": 2.145,
+      "why": [
+        "editor's pick at Nathan Curtis"
+      ]
+    },
+    {
+      "id": "efbf2c88b235",
+      "title": "The judge used to be the user",
+      "url": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795271656,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.75,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    }
+  ]
+}

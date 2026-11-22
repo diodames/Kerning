@@ -1,266 +1,164 @@
 {
-  "generated_at": "2026-11-21T03:56:59.991318+00:00",
+  "generated_at": "2026-11-22T03:06:36.203407+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "20 November 2026",
-      "period_start": "2026-11-20",
-      "period_end": "2026-11-20",
+      "label": "21 November 2026",
+      "period_start": "2026-11-21",
+      "period_end": "2026-11-21",
       "items": [
         {
-          "id": "96aa9af75e61",
-          "title": "UX Conference March Announced (Mar 1 - Mar 4)",
-          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "id": "2f5929224510",
+          "title": "Getting to Teach AI and Design Systems",
+          "url": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+          "hn": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795146264,
+          "created_at_i": 1795242096,
           "sources": [
-            "NN/g"
+            "Slot Machine"
           ],
           "sharers": 0,
-          "score": 3.303,
+          "score": 3.689,
           "why": [
-            "editor's pick at NN/g"
+            "editor's pick at Slot Machine"
           ]
         },
         {
-          "id": "864f7e13f216",
-          "title": "UX Conference February Announced (Feb 22 - Feb 26)",
-          "url": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "id": "4b640759d25f",
+          "title": "A Refresher That UX Teams Can’t Fix Process Alone, Even in the Age of AI",
+          "url": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+          "hn": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795144604,
+          "created_at_i": 1795123347,
           "sources": [
-            "NN/g"
+            "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 3.294,
+          "score": 2.902,
           "why": [
-            "editor's pick at NN/g"
+            "editor's pick at AI for UX Substack"
           ]
         },
         {
-          "id": "15d696dd12cc",
-          "title": "Always on: What it’s like being a twenty-something founder in the age of AI",
-          "url": "https://review.firstround.com/young-ai-founders/",
-          "hn": "https://review.firstround.com/young-ai-founders/",
+          "id": "0d3333ef9d9b",
+          "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+          "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+          "hn": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795200332,
+          "created_at_i": 1795279796,
           "sources": [
-            "First Round Review"
+            "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 2.667,
+          "score": 2.611,
           "why": [
-            "editor's pick at First Round Review"
+            "editor's pick at Lenny's Newsletter"
           ]
         },
         {
-          "id": "f4cb70e5a6bd",
-          "title": "Impermanence",
-          "url": "https://tcosta.com/impermanence/",
-          "hn": "https://tcosta.com/impermanence/",
+          "id": "e11014f576b6",
+          "title": "A Spec-first Component Authoring Harness",
+          "url": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
+          "hn": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795166365,
+          "created_at_i": 1795199819,
           "sources": [
-            "Sidebar"
+            "Nathan Curtis"
           ],
           "sharers": 0,
-          "score": 2.421,
+          "score": 2.145,
           "why": [
-            "editor's pick at Sidebar"
+            "editor's pick at Nathan Curtis"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "96aa9af75e61",
-          "title": "UX Conference March Announced (Mar 1 - Mar 4)",
-          "url": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/training/nov-asia-au/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "id": "2f5929224510",
+          "title": "Getting to Teach AI and Design Systems",
+          "url": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+          "hn": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795146264,
+          "created_at_i": 1795242096,
           "sources": [
-            "NN/g"
+            "Slot Machine"
           ],
           "sharers": 0,
-          "score": 3.303,
+          "score": 3.689,
           "why": [
-            "editor's pick at NN/g"
+            "editor's pick at Slot Machine"
           ]
         },
         {
-          "id": "864f7e13f216",
-          "title": "UX Conference February Announced (Feb 22 - Feb 26)",
-          "url": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/training/february/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "id": "4b640759d25f",
+          "title": "A Refresher That UX Teams Can’t Fix Process Alone, Even in the Age of AI",
+          "url": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+          "hn": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795144604,
+          "created_at_i": 1795123347,
           "sources": [
-            "NN/g"
+            "AI for UX Substack"
           ],
           "sharers": 0,
-          "score": 3.294,
+          "score": 2.902,
           "why": [
-            "editor's pick at NN/g"
+            "editor's pick at AI for UX Substack"
           ]
         },
         {
-          "id": "15d696dd12cc",
-          "title": "Always on: What it’s like being a twenty-something founder in the age of AI",
-          "url": "https://review.firstround.com/young-ai-founders/",
-          "hn": "https://review.firstround.com/young-ai-founders/",
+          "id": "0d3333ef9d9b",
+          "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+          "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+          "hn": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795200332,
+          "created_at_i": 1795279796,
           "sources": [
-            "First Round Review"
+            "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 2.667,
+          "score": 2.611,
           "why": [
-            "editor's pick at First Round Review"
+            "editor's pick at Lenny's Newsletter"
           ]
         },
         {
-          "id": "053f38f47f15",
-          "title": "Qualitative User-Research Methods: An Overview",
-          "url": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/qual-research-methods/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "id": "e11014f576b6",
+          "title": "A Spec-first Component Authoring Harness",
+          "url": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
+          "hn": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795197600,
+          "created_at_i": 1795199819,
           "sources": [
-            "NN/g"
+            "Nathan Curtis"
           ],
           "sharers": 0,
-          "score": 2.644,
+          "score": 2.145,
           "why": [
-            "editor's pick at NN/g"
+            "editor's pick at Nathan Curtis"
           ]
         },
         {
-          "id": "706403dd4b30",
-          "title": "Can AI Generate Good Designs from Raw User Data?",
-          "url": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
-          "hn": "https://www.nngroup.com/articles/raw-data-vs-synthesized-data/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "id": "efbf2c88b235",
+          "title": "The judge used to be the user",
+          "url": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795197600,
-          "sources": [
-            "NN/g"
-          ],
-          "sharers": 0,
-          "score": 2.644,
-          "why": [
-            "editor's pick at NN/g"
-          ]
-        },
-        {
-          "id": "f4cb70e5a6bd",
-          "title": "Impermanence",
-          "url": "https://tcosta.com/impermanence/",
-          "hn": "https://tcosta.com/impermanence/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795166365,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.421,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "5ea62ebc54a5",
-          "title": "How rich is a billionaire, really?",
-          "url": "https://www.thehowpage.com/economics/billionaire-wealth",
-          "hn": "https://www.thehowpage.com/economics/billionaire-wealth",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795166327,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.42,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "46f1f09be02f",
-          "title": "In making things, we make ourselves",
-          "url": "https://justinjay.wang/in-making-things-we-make-ourselves/",
-          "hn": "https://justinjay.wang/in-making-things-we-make-ourselves/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795166291,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.42,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "8148552b8a3c",
-          "title": "Squircles",
-          "url": "https://linebender.org/wiki/curves/squircle/",
-          "hn": "https://linebender.org/wiki/curves/squircle/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795166255,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.42,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "9e5ce6b53aca",
-          "title": "Only the human merges",
-          "url": "https://itsmeduncan.com/2026/11/17/only-the-human-merges/",
-          "hn": "https://itsmeduncan.com/2026/11/17/only-the-human-merges/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795166160,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.419,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "57597ff7c82d",
-          "title": "Everyone’s got the tools. Not everyone’s got the tricks.",
-          "url": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/everyones-got-the-tools-not-everyone-s-got-the-tricks-986a5c154924?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795124182,
+          "created_at_i": 1795271656,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.393,
+          "score": 1.75,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -378,6 +276,23 @@
           ]
         },
         {
+          "id": "2f5929224510",
+          "title": "Getting to Teach AI and Design Systems",
+          "url": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+          "hn": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795242096,
+          "sources": [
+            "Slot Machine"
+          ],
+          "sharers": 0,
+          "score": 3.689,
+          "why": [
+            "editor's pick at Slot Machine"
+          ]
+        },
+        {
           "id": "71ad09450980",
           "title": "Shield Font",
           "url": "https://shieldfont.org/",
@@ -446,6 +361,23 @@
           ]
         },
         {
+          "id": "4b640759d25f",
+          "title": "A Refresher That UX Teams Can’t Fix Process Alone, Even in the Age of AI",
+          "url": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+          "hn": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795123347,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 2.902,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
           "id": "6057e3d1ba5d",
           "title": "AI Product Management in Practice",
           "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
@@ -460,40 +392,6 @@
           "score": 2.851,
           "why": [
             "editor's pick at Department of Product"
-          ]
-        },
-        {
-          "id": "46c17a5bf49c",
-          "title": "Design Zeitgeist",
-          "url": "https://deimos.evilrabbit.com/",
-          "hn": "https://deimos.evilrabbit.com/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795080090,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.755,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "aa3237a78d71",
-          "title": "Tomjohnville",
-          "url": "https://www.tomjohn.design/content/tomjohnville",
-          "hn": "https://www.tomjohn.design/content/tomjohnville",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794988304,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.721,
-          "why": [
-            "editor's pick at Sidebar"
           ]
         }
       ],
@@ -600,6 +498,23 @@
           ]
         },
         {
+          "id": "2f5929224510",
+          "title": "Getting to Teach AI and Design Systems",
+          "url": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+          "hn": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795242096,
+          "sources": [
+            "Slot Machine"
+          ],
+          "sharers": 0,
+          "score": 3.689,
+          "why": [
+            "editor's pick at Slot Machine"
+          ]
+        },
+        {
           "id": "71ad09450980",
           "title": "Shield Font",
           "url": "https://shieldfont.org/",
@@ -680,6 +595,23 @@
           "score": 2.946,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "4b640759d25f",
+          "title": "A Refresher That UX Teams Can’t Fix Process Alone, Even in the Age of AI",
+          "url": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+          "hn": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795123347,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 2.902,
+          "why": [
+            "editor's pick at AI for UX Substack"
           ]
         },
         {
@@ -816,6 +748,23 @@
           "score": 2.644,
           "why": [
             "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "0d3333ef9d9b",
+          "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+          "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+          "hn": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795279796,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.611,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
           ]
         },
         {
@@ -1349,6 +1298,23 @@
           ]
         },
         {
+          "id": "e11014f576b6",
+          "title": "A Spec-first Component Authoring Harness",
+          "url": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
+          "hn": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795199819,
+          "sources": [
+            "Nathan Curtis"
+          ],
+          "sharers": 0,
+          "score": 2.145,
+          "why": [
+            "editor's pick at Nathan Curtis"
+          ]
+        },
+        {
           "id": "c99dd595358a",
           "title": "How do you know what you think?",
           "url": "https://blobzine.substack.com/p/how-do-you-know-what-you-think",
@@ -1468,74 +1434,6 @@
           "score": 1.89,
           "why": [
             "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "b71fa8550e2d",
-          "title": "Everyone knows sparkles mean AI. Use them to make design audits easier",
-          "url": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/everyone-knows-sparkles-mean-ai-use-them-to-make-design-audits-easier-bdacc76cef11?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794957921,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.757,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "8165e19e73ec",
-          "title": "Send the Firefighters to the Fires",
-          "url": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/send-the-firefighters-to-the-fires-6cd7b1893ae7?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795092845,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.706,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "12a06e8c7f01",
-          "title": "Before you ship your Wrapped, Schrödinger’s Nvidia, Infinite tokens",
-          "url": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/before-you-ship-your-wrapped-schr%C3%B6dingers-nvidia-infinite-tokens-64a9160bd2eb?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794831428,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.691,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "c0ac6fc443af",
-          "title": "The trash robot that doesn’t pick up, but hands out",
-          "url": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/the-trash-robot-that-doesnt-pick-up-but-hands-out-9f599d49f8d0?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794831375,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.691,
-          "why": [
-            "editor's pick at UX Collective"
           ]
         }
       ]
@@ -2260,6 +2158,23 @@
           ]
         },
         {
+          "id": "2f5929224510",
+          "title": "Getting to Teach AI and Design Systems",
+          "url": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+          "hn": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795242096,
+          "sources": [
+            "Slot Machine"
+          ],
+          "sharers": 0,
+          "score": 3.689,
+          "why": [
+            "editor's pick at Slot Machine"
+          ]
+        },
+        {
           "id": "7269aedfdccb",
           "title": "What does design system AI readiness mean, anyway?",
           "url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
@@ -2604,6 +2519,23 @@
           "score": 2.946,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "4b640759d25f",
+          "title": "A Refresher That UX Teams Can’t Fix Process Alone, Even in the Age of AI",
+          "url": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+          "hn": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795123347,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 2.902,
+          "why": [
+            "editor's pick at AI for UX Substack"
           ]
         },
         {
@@ -3063,6 +2995,23 @@
           "why": []
         },
         {
+          "id": "0d3333ef9d9b",
+          "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+          "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+          "hn": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795279796,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.611,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
           "id": "1e84d1835ae4",
           "title": "Your Last UX Audit Is Already Out of Date",
           "url": "https://blog.fuguux.com/p/your-last-ux-audit-is-already-out",
@@ -3454,57 +3403,6 @@
           ]
         },
         {
-          "id": "3b77e75bc21c",
-          "title": "State of JavaScript 2026",
-          "url": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
-          "hn": "https://survey.devographics.com/en-US/survey/state-of-js/2026",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794482515,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.469,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "cca06479f9a4",
-          "title": "By taking away",
-          "url": "https://haydenbleasel.com/taking-away",
-          "hn": "https://haydenbleasel.com/taking-away",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794482424,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.468,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "53b63bda7e29",
-          "title": "Picking a token by its job, or by its number",
-          "url": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
-          "hn": "https://designsystemscollective.substack.com/p/picking-a-token-by-its-job-or-by",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794826994,
-          "sources": [
-            "Design Systems Collective"
-          ],
-          "sharers": 0,
-          "score": 2.461,
-          "why": [
-            "editor's pick at Design Systems Collective"
-          ]
-        },
-        {
           "id": "7da3b08fd70d",
           "title": "Introducing Adaptive Dark Mode",
           "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
@@ -3631,6 +3529,23 @@
       ]
     },
     {
+      "id": "2f5929224510",
+      "title": "Getting to Teach AI and Design Systems",
+      "url": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+      "hn": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795242096,
+      "sources": [
+        "Slot Machine"
+      ],
+      "sharers": 0,
+      "score": 3.689,
+      "why": [
+        "editor's pick at Slot Machine"
+      ]
+    },
+    {
       "id": "71ad09450980",
       "title": "Shield Font",
       "url": "https://shieldfont.org/",
@@ -3699,6 +3614,23 @@
       ]
     },
     {
+      "id": "4b640759d25f",
+      "title": "A Refresher That UX Teams Can’t Fix Process Alone, Even in the Age of AI",
+      "url": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+      "hn": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795123347,
+      "sources": [
+        "AI for UX Substack"
+      ],
+      "sharers": 0,
+      "score": 2.902,
+      "why": [
+        "editor's pick at AI for UX Substack"
+      ]
+    },
+    {
       "id": "6057e3d1ba5d",
       "title": "AI Product Management in Practice",
       "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
@@ -3713,40 +3645,6 @@
       "score": 2.851,
       "why": [
         "editor's pick at Department of Product"
-      ]
-    },
-    {
-      "id": "46c17a5bf49c",
-      "title": "Design Zeitgeist",
-      "url": "https://deimos.evilrabbit.com/",
-      "hn": "https://deimos.evilrabbit.com/",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1795080090,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 2.755,
-      "why": [
-        "editor's pick at Sidebar"
-      ]
-    },
-    {
-      "id": "aa3237a78d71",
-      "title": "Tomjohnville",
-      "url": "https://www.tomjohn.design/content/tomjohnville",
-      "hn": "https://www.tomjohn.design/content/tomjohnville",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1794988304,
-      "sources": [
-        "Sidebar"
-      ],
-      "sharers": 0,
-      "score": 2.721,
-      "why": [
-        "editor's pick at Sidebar"
       ]
     }
   ],

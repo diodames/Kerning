@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-21",
+  "pool": 22,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 12,
+    "lexicon": 5
+  },
+  "dropped_items": [
+    {
+      "url": "https://news.ycombinator.com/item?id=50585039",
+      "title": "Portkey Security Incident",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50584109",
+      "title": "Show HN: Primeward – Exploring a stateful recurrence for the next prime",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://slopstrap.mikelacher.com/l",
+      "title": "Slopstrap: Make your site look hastily vibecoded",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://lucassifoni.info/blog/building-a-typographic-tester-station-with-elixir/",
+      "title": "Building a typographic tester station with Elixir",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/Musset-App/musset",
+      "title": "Show HN: Musset, open-source Scrivener alternative with an AI that never writes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.n10l.com/",
+      "title": "Show HN: I made my visual resume after 10 years",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50588314",
+      "title": "Ask HN: I'm in highschool, what would y'all recommend to learn?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50585962",
+      "title": "Tell HN: OpenRouter prompts to Minimax may have been read",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ghostfleet.in/play?mode=wraithAI",
+      "title": "Show HN: GhostFleet: A Battleship game with an advanced AI opponent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://adactio.com/notes/22842",
+      "title": "See you later, Amsterdam! 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://blog.mozilla.org/en/mozilla/internet-policy/apple-ios-browser-engine-rules/",
+      "title": "Why there are still no non-WebKit browsers on iOS | The Mozilla Blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.simplenewss.com/",
+      "title": "Provide Feedback on SimpleNewss Usability",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://systems-design.aiengineer.co/",
+      "title": "Free System Design Course (Visual Learners)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50592288",
+      "title": "Ask HN: Advice on switching careers within software dev?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50591694",
+      "title": "Tell HN: OpenRouter – \"Requests you sent to MiniMax models may have been read\"",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://typeonce.games/tabletop-champions",
+      "title": "Show HN: Tabletop Champions – Drift toy cars round a tabletop",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://allo.joshpuckett.me/",
+      "title": "Allo, your friendly neighborhood font",
+      "reason": "below_threshold"
+    }
+  ]
+}
