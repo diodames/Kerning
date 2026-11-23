@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-22",
+  "pool": 26,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 16,
+    "lexicon": 6
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.youtube.com/watch?v=MYyyhAhHgT8",
+      "title": "Metro UI: How a Bold Design Language Changed Everything [video]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://typeonce.games/tabletop-champions",
+      "title": "Show HN: Tabletop Champions – Drift toy cars round a tabletop",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://allo.joshpuckett.me/",
+      "title": "Allo, your friendly neighborhood font",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50595097",
+      "title": "Open-Source FPGA The \"startup idea\" to \"go big fast\"",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/18/world/europe/grand-theft-auto-america-scotland-global-reaction.html",
+      "title": "Grand Theft Auto: An American Icon, Born in Scotland",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://meetadmiral.com/website-seo-checker",
+      "title": "Show HN: A free website check that starts from what your buyers search",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://memalign.github.io/m/memfiddle/index.html",
+      "title": "Show HN: MemFiddle",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ThrudTheBarbarian/xc",
+      "title": "Show HN: Compile the same source for GPUs and CPUs",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nebusec.ai/research/meta-muse-credential-exposure/",
+      "title": "Hacking Muse: Stealing Private Chats Through Browser Use",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://twitterapi.io/blog/x-searchtimeline-nov-2026-breaking-change-user-legacy-removed",
+      "title": "X's silent update yesterday broke third-party scraper pipelines",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/19/world/europe/myanmar-genocide-icj-decision-.html",
+      "title": "Myanmar Committed Genocide Against the Rohingya, Top Global Court Finds",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://typingg.app/",
+      "title": "Show HN: I built an app that turns typing practice into language practice",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://rmux.app",
+      "title": "Show HN: Rmux – A lightweight GPU rendered terminal workspace",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.autostrum.com",
+      "title": "Show HN: Autostrum – Play along with guitar tabs at your own tempo",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.harvard.edu/gazette/story/2026/07/is-that-bot-a-pomeranian-or-a-wolf-and-who-to-sue-when-it-bites/",
+      "title": "Domesticity and Danger: Harvard Law's \"Canine Framework\" for AI Liability",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jam.lanlan.site/",
+      "title": "Show HN: Lanlan Jam – a multiplayer DJ booth in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/pkukielka/gitfold",
+      "title": "Show HN: Gitfold – every Git branch as a folder, ready in a second",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50602740",
+      "title": "Ask HN: Are startups today worth it even in a best case scenario?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://owl.billpg.com/what-if-netscape-did-ssl-the-http-way/",
+      "title": "What If Netscape Did SSL the HTTP Way?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://joshua.hu/fixing-google-feedburner-cache-problem-atom-rss",
+      "title": "Fixing Google’s Feedburner problem, and caching that half works",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/20/magazine/ai-slop-taste-aesthetic-silicon-valley.html?unlocked_article_code=1.SFE.1a6T.-kpbFF_tJYZx&smid=url-share",
+      "title": "The Internet Broke Our Taste. Will A.I. Destroy It for Good? (Gift Article)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/ltrgoddard/gall",
+      "title": "Show HN: Gall – Inkling 2 Mini on 24GB M2, frees RAM between messages",
+      "reason": "below_threshold"
+    }
+  ]
+}

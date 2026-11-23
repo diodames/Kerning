@@ -1,164 +1,147 @@
 {
-  "generated_at": "2026-11-22T03:06:36.203407+00:00",
+  "generated_at": "2026-11-23T03:41:55.083272+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "21 November 2026",
-      "period_start": "2026-11-21",
-      "period_end": "2026-11-21",
+      "label": "22 November 2026",
+      "period_start": "2026-11-22",
+      "period_end": "2026-11-22",
       "items": [
         {
-          "id": "2f5929224510",
-          "title": "Getting to Teach AI and Design Systems",
-          "url": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
-          "hn": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+          "id": "0045010b29f8",
+          "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+          "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+          "hn": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795242096,
-          "sources": [
-            "Slot Machine"
-          ],
-          "sharers": 0,
-          "score": 3.689,
-          "why": [
-            "editor's pick at Slot Machine"
-          ]
-        },
-        {
-          "id": "4b640759d25f",
-          "title": "A Refresher That UX Teams Can’t Fix Process Alone, Even in the Age of AI",
-          "url": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
-          "hn": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795123347,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 2.902,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "0d3333ef9d9b",
-          "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
-          "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
-          "hn": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795279796,
+          "created_at_i": 1795354313,
           "sources": [
             "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 2.611,
+          "score": 3.522,
           "why": [
             "editor's pick at Lenny's Newsletter"
           ]
         },
         {
-          "id": "e11014f576b6",
-          "title": "A Spec-first Component Authoring Harness",
-          "url": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
-          "hn": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
+          "id": "20b32e2119fc",
+          "title": "Photo printing as (software) factory",
+          "url": "https://www.proofofconcept.pub/p/photo-printing-as-software-factory",
+          "hn": "https://www.proofofconcept.pub/p/photo-printing-as-software-factory",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795199819,
+          "created_at_i": 1795368673,
           "sources": [
-            "Nathan Curtis"
+            "Proof of Concept"
           ],
           "sharers": 0,
-          "score": 2.145,
+          "score": 2.631,
           "why": [
-            "editor's pick at Nathan Curtis"
+            "editor's pick at Proof of Concept"
+          ]
+        },
+        {
+          "id": "05bf2cc9a557",
+          "title": "The attack of the giant AI design slop monster: a survivor’s guide",
+          "url": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795347419,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.008,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "924c411b1089",
+          "title": "Prototypes have always been the most effective specification-especially with AI",
+          "url": "https://uxdesign.cc/prototypes-have-always-been-the-most-effective-specification-10162107b2ee?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/prototypes-have-always-been-the-most-effective-specification-10162107b2ee?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795347391,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.674,
+          "why": [
+            "editor's pick at UX Collective"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "2f5929224510",
-          "title": "Getting to Teach AI and Design Systems",
-          "url": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
-          "hn": "https://southleft.substack.com/p/getting-to-teach-ai-and-design-systems",
+          "id": "0045010b29f8",
+          "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+          "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+          "hn": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795242096,
-          "sources": [
-            "Slot Machine"
-          ],
-          "sharers": 0,
-          "score": 3.689,
-          "why": [
-            "editor's pick at Slot Machine"
-          ]
-        },
-        {
-          "id": "4b640759d25f",
-          "title": "A Refresher That UX Teams Can’t Fix Process Alone, Even in the Age of AI",
-          "url": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
-          "hn": "https://aiforux.substack.com/p/a-refresher-that-ux-teams-cant-fix",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795123347,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 2.902,
-          "why": [
-            "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "0d3333ef9d9b",
-          "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
-          "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
-          "hn": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795279796,
+          "created_at_i": 1795354313,
           "sources": [
             "Lenny's Newsletter"
           ],
           "sharers": 0,
-          "score": 2.611,
+          "score": 3.522,
           "why": [
             "editor's pick at Lenny's Newsletter"
           ]
         },
         {
-          "id": "e11014f576b6",
-          "title": "A Spec-first Component Authoring Harness",
-          "url": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
-          "hn": "https://nathanacurtis.substack.com/p/a-spec-first-component-authoring",
+          "id": "20b32e2119fc",
+          "title": "Photo printing as (software) factory",
+          "url": "https://www.proofofconcept.pub/p/photo-printing-as-software-factory",
+          "hn": "https://www.proofofconcept.pub/p/photo-printing-as-software-factory",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795199819,
+          "created_at_i": 1795368673,
           "sources": [
-            "Nathan Curtis"
+            "Proof of Concept"
           ],
           "sharers": 0,
-          "score": 2.145,
+          "score": 2.631,
           "why": [
-            "editor's pick at Nathan Curtis"
+            "editor's pick at Proof of Concept"
           ]
         },
         {
-          "id": "efbf2c88b235",
-          "title": "The judge used to be the user",
-          "url": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?source=rss----138adf9c44c---4",
+          "id": "05bf2cc9a557",
+          "title": "The attack of the giant AI design slop monster: a survivor’s guide",
+          "url": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795271656,
+          "created_at_i": 1795347419,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.75,
+          "score": 2.008,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "924c411b1089",
+          "title": "Prototypes have always been the most effective specification-especially with AI",
+          "url": "https://uxdesign.cc/prototypes-have-always-been-the-most-effective-specification-10162107b2ee?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/prototypes-have-always-been-the-most-effective-specification-10162107b2ee?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795347391,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.674,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -293,6 +276,23 @@
           ]
         },
         {
+          "id": "0045010b29f8",
+          "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+          "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+          "hn": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795354313,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.522,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
           "id": "71ad09450980",
           "title": "Shield Font",
           "url": "https://shieldfont.org/",
@@ -375,23 +375,6 @@
           "score": 2.902,
           "why": [
             "editor's pick at AI for UX Substack"
-          ]
-        },
-        {
-          "id": "6057e3d1ba5d",
-          "title": "AI Product Management in Practice",
-          "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
-          "hn": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794926420,
-          "sources": [
-            "Department of Product"
-          ],
-          "sharers": 0,
-          "score": 2.851,
-          "why": [
-            "editor's pick at Department of Product"
           ]
         }
       ],
@@ -512,6 +495,23 @@
           "score": 3.689,
           "why": [
             "editor's pick at Slot Machine"
+          ]
+        },
+        {
+          "id": "0045010b29f8",
+          "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+          "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+          "hn": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795354313,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.522,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
           ]
         },
         {
@@ -748,6 +748,23 @@
           "score": 2.644,
           "why": [
             "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "20b32e2119fc",
+          "title": "Photo printing as (software) factory",
+          "url": "https://www.proofofconcept.pub/p/photo-printing-as-software-factory",
+          "hn": "https://www.proofofconcept.pub/p/photo-printing-as-software-factory",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795368673,
+          "sources": [
+            "Proof of Concept"
+          ],
+          "sharers": 0,
+          "score": 2.631,
+          "why": [
+            "editor's pick at Proof of Concept"
           ]
         },
         {
@@ -1332,6 +1349,23 @@
           ]
         },
         {
+          "id": "05bf2cc9a557",
+          "title": "The attack of the giant AI design slop monster: a survivor’s guide",
+          "url": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-attack-of-the-giant-ai-design-slop-monster-a-survivors-guide-55f5918f78f4?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795347419,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.008,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "506b1ce506f5",
           "title": "UI coding harness by Evil Martians",
           "url": "https://evilmartians.com/services/ai-harness",
@@ -1383,57 +1417,6 @@
           "score": 1.95,
           "why": [
             "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "71ac483c3e18",
-          "title": "If AI works from anywhere, why are we commuting to watch it?",
-          "url": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/if-ai-works-from-anywhere-why-are-we-commuting-to-watch-it-f903012aaa86?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795033059,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.913,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "bf6bb9a482f4",
-          "title": "Too Claudified",
-          "url": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/too-claudified-9af067298b2a?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795033025,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.913,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "439d671b0ed1",
-          "title": "Prototypes Have Always Been The Most Effective Specification. Here’s How To Do It Better In The Age of AI.",
-          "url": "https://aiforux.substack.com/p/prototypes-have-always-been-the-most",
-          "hn": "https://aiforux.substack.com/p/prototypes-have-always-been-the-most",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794945204,
-          "sources": [
-            "AI for UX Substack"
-          ],
-          "sharers": 0,
-          "score": 1.89,
-          "why": [
-            "editor's pick at AI for UX Substack"
           ]
         }
       ]
@@ -2241,6 +2224,23 @@
           ]
         },
         {
+          "id": "0045010b29f8",
+          "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+          "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+          "hn": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795354313,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 3.522,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
           "id": "8e0ca3b2816d",
           "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
           "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
@@ -2943,6 +2943,23 @@
           ]
         },
         {
+          "id": "20b32e2119fc",
+          "title": "Photo printing as (software) factory",
+          "url": "https://www.proofofconcept.pub/p/photo-printing-as-software-factory",
+          "hn": "https://www.proofofconcept.pub/p/photo-printing-as-software-factory",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795368673,
+          "sources": [
+            "Proof of Concept"
+          ],
+          "sharers": 0,
+          "score": 2.631,
+          "why": [
+            "editor's pick at Proof of Concept"
+          ]
+        },
+        {
           "id": "bbf9751fd85b",
           "title": "Taming Typography: Building a Modern CSS Reset",
           "url": "https://css-tricks.com/taming-typography-modern-css-reset/",
@@ -3369,40 +3386,6 @@
           ]
         },
         {
-          "id": "e6a48418624c",
-          "title": "Design Engineering Has a Handoff Problem",
-          "url": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
-          "hn": "https://southleft.substack.com/p/design-engineering-has-a-handoff",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794681219,
-          "sources": [
-            "Slot Machine"
-          ],
-          "sharers": 0,
-          "score": 2.478,
-          "why": [
-            "editor's pick at Slot Machine"
-          ]
-        },
-        {
-          "id": "4e85d964a8c0",
-          "title": "I made a film in Excel",
-          "url": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
-          "hn": "https://www.youtube.com/watch?v=sz_vI8V_k1E",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794482626,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.469,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
           "id": "7da3b08fd70d",
           "title": "Introducing Adaptive Dark Mode",
           "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
@@ -3546,6 +3529,23 @@
       ]
     },
     {
+      "id": "0045010b29f8",
+      "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+      "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+      "hn": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795354313,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 3.522,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
       "id": "71ad09450980",
       "title": "Shield Font",
       "url": "https://shieldfont.org/",
@@ -3628,23 +3628,6 @@
       "score": 2.902,
       "why": [
         "editor's pick at AI for UX Substack"
-      ]
-    },
-    {
-      "id": "6057e3d1ba5d",
-      "title": "AI Product Management in Practice",
-      "url": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
-      "hn": "https://departmentofproduct.substack.com/p/ai-product-management-in-practice",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1794926420,
-      "sources": [
-        "Department of Product"
-      ],
-      "sharers": 0,
-      "score": 2.851,
-      "why": [
-        "editor's pick at Department of Product"
       ]
     }
   ],
