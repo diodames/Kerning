@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T03:41:55.072445+00:00",
+  "updated_at": "2026-11-24T06:56:41.274133+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -9320,6 +9320,393 @@
       "dropped": {
         "below_threshold": 16,
         "lexicon": 6
+      }
+    },
+    "2026-11-23": {
+      "items": [
+        {
+          "id": "66a13e16f0a3",
+          "title": "Dev Material Archive",
+          "url": "https://css-tricks.com/dev-material-archive/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3n2yd5f6dmc75",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795443530,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 3,
+          "score": 5.921,
+          "why": [
+            "shared by 3 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "piccalil.li",
+            "rachelandrew.co.uk"
+          ]
+        },
+        {
+          "id": "fc4ae2cd20a2",
+          "title": "Is product design a people industry or a tech industry?",
+          "url": "https://uxdesign.cc/is-product-design-a-people-industry-or-a-tech-industry-b8f9acc8cb6d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/is-product-design-a-people-industry-or-a-tech-industry-b8f9acc8cb6d?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795473634,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.323,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "71beeef02b5f",
+          "title": "Primer (GitHub) — @primer/react@38.47.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.47.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.47.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795473703,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.79,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "2bb834ddd999",
+          "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795449708,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.589,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "66a13e16f0a3",
+          "title": "Dev Material Archive",
+          "url": "https://css-tricks.com/dev-material-archive/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3n2yd5f6dmc75",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795443530,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 3,
+          "score": 5.921,
+          "why": [
+            "shared by 3 design accounts"
+          ],
+          "authors": [
+            "ericwbailey.website",
+            "piccalil.li",
+            "rachelandrew.co.uk"
+          ]
+        },
+        {
+          "id": "fc4ae2cd20a2",
+          "title": "Is product design a people industry or a tech industry?",
+          "url": "https://uxdesign.cc/is-product-design-a-people-industry-or-a-tech-industry-b8f9acc8cb6d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/is-product-design-a-people-industry-or-a-tech-industry-b8f9acc8cb6d?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795473634,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 3.323,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "71beeef02b5f",
+          "title": "Primer (GitHub) — @primer/react@38.47.0",
+          "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.47.0",
+          "hn": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.47.0",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795473703,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 2.79,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "2bb834ddd999",
+          "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
+          "url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795449708,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.589,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "df9acd756c94",
+          "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
+          "url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+          "hn": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795439083,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "bbd7d84154ce",
+          "title": "WordPress forms that look clean before you style them, up to 50% off",
+          "url": "https://bit.ly/side-ivy1",
+          "hn": "https://bit.ly/side-ivy1",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795424640,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.415,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "ac69c46313cd",
+          "title": "The era of personal software",
+          "url": "https://jakub.kr/writing/the-era-of-personal-software",
+          "hn": "https://jakub.kr/writing/the-era-of-personal-software",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795424473,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.414,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "64fdaee3741f",
+          "title": "The answer to slop is accountability",
+          "url": "https://naildrivin5.com/blog/2026/11/18/the-answer-to-slop-is-accountability.html",
+          "hn": "https://naildrivin5.com/blog/2026/11/18/the-answer-to-slop-is-accountability.html",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795424429,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.414,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "7f9b278015e4",
+          "title": "AI, consciousness and the future of humanity",
+          "url": "https://www.youtube.com/watch?v=H43e72-2aAs",
+          "hn": "https://www.youtube.com/watch?v=H43e72-2aAs",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795424358,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.413,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "5326fdabcabf",
+          "title": "DD416 / Adrift in a world of options",
+          "url": "https://www.densediscovery.com/issues/416/",
+          "hn": "https://www.densediscovery.com/issues/416/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795409271,
+          "sources": [
+            "Dense Discovery"
+          ],
+          "sharers": 0,
+          "score": 2.324,
+          "why": [
+            "editor's pick at Dense Discovery"
+          ]
+        },
+        {
+          "id": "6292312c1771",
+          "title": "Relearn CSS layout",
+          "url": "https://every-layout.dev",
+          "hn": "https://bsky.app/profile/fvoort.com/post/3n2ydlxzspc2x",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795431996,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 2.196,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "heydonworks.com"
+          ]
+        },
+        {
+          "id": "3528cccf7615",
+          "title": "Don’t make me read",
+          "url": "https://uxdesign.cc/dont-make-me-read-a6821e418bb1?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/dont-make-me-read-a6821e418bb1?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795473601,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.989,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "f6560265876c",
+          "title": "Decision theater, Human.MD, What is a researcher’s worth",
+          "url": "https://uxdesign.cc/decision-theater-human-md-what-is-a-researchers-worth-d7687978bd26?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/decision-theater-human-md-what-is-a-researchers-worth-d7687978bd26?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795436294,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.692,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "5c896cec2cab",
+          "title": "The Layout Maestro by Ahmad Shadeed",
+          "url": "https://thelayoutmaestro.com/",
+          "hn": "https://bsky.app/profile/kevinpowell.co/post/3n2y5lnqgmc2u",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795437579,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.567,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "5c4e3e83203e",
+          "title": "Lessons from 3D scanning St John’s Co-Cathedral",
+          "url": "https://uxdesign.cc/lessons-from-3d-scanning-st-johns-co-cathedral-700911d61cfe?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/lessons-from-3d-scanning-st-johns-co-cathedral-700911d61cfe?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795389517,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.421,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "0835f6175b4f",
+          "title": "Seven things AI killed while you were measuring productivity",
+          "url": "https://uxdesign.cc/seven-things-ai-killed-while-you-were-measuring-productivity-b4499232ac3d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/seven-things-ai-killed-while-you-were-measuring-productivity-b4499232ac3d?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795389476,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.421,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "35348475dd72",
+          "title": "How to write great skills",
+          "url": "https://uxdesign.cc/how-to-write-great-skills-91635bc45ada?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/how-to-write-great-skills-91635bc45ada?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795389452,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.421,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        }
+      ],
+      "pool": 58,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 26,
+        "lexicon": 13,
+        "no_title": 1,
+        "prerelease": 1
       }
     }
   }

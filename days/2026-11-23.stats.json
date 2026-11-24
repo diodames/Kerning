@@ -1,0 +1,218 @@
+{
+  "date": "2026-11-23",
+  "pool": 58,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 26,
+    "lexicon": 13,
+    "no_title": 1,
+    "prerelease": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://estrella.pe/",
+      "title": "Site uses circadian lighting, next big thing interfaces",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.nab.org/documents/newsRoom/pdfs/Economic_Impact_Tech_Platforms_Broadcast_News.pdf",
+      "title": "Economic Impact of Big Tech Platforms on the Viability of Local Broadcast News (2021) [pdf]",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hdombrovskaya.wordpress.com/2026/11/22/the-last-prairie-pug-meetup-of-2026/",
+      "title": "Henrietta Dombrovskaya: The Last Prairie Pug Meetup of 2026",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/geastack/html-renderer",
+      "title": "Native HTML and CSS Renderer",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ltrgoddard/gall",
+      "title": "Show HN: Gall – Inkling 2 Mini on 24GB M2, frees RAM between messages",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://thanes-quest.daventry.io/",
+      "title": "Show HN: I used Fable to make an open source 80s-style Skyrim browser game",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://plantsresearch.pro/chess-lab",
+      "title": "Show HN: Biohacking in Chess – can coffee make you a better player?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ohheybrian.com/blog/",
+      "title": "Simple Bar Graphs with HTML and CSS Variables",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://top10q.app/",
+      "title": "Show HN: Top10Q – a to-do list app that does not create more work for you",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://maeto.saphal.me/",
+      "title": "Show HN: I built Maeto, an SRv6 SD-WAN from scratch on Linux that you can break",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://karozieminski.substack.com/p/iconic-and-niche-design-inspiration-bookmarks",
+      "title": "Niche Design Inspiration Websites",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ameesme/shoebox",
+      "title": "Show HN: Crazy simple AI agent orchestration with Markdown and Containers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://returntorepeat.gusbyheart.se",
+      "title": "Show HN: An interactive album that changes with stuff like time and moon phase",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/codex-config/codexed",
+      "title": "Show HN: Codexed – A local settings editor for Codex CLI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://dave.writersweb.org/index.md",
+      "title": "Good morning and welcome to my idea of a new web",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.smashingmagazine.com/2026/09/death-button-why-best-interface-is-no-interface/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://localghost.dev/blog/digital-recipe-management-for-fastidious-cooks/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Digital recipe management for fastidious cooks - localghost",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bell.bz/in-response-to-the-death-of-web-development-education/",
+      "title": "In response to “The death of web development education”",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/courses/",
+      "title": "Premium Courses",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/links/black-friday-2026-is-live/",
+      "title": "Our Black Friday deal is here!",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://derekhanson.blog/ai-is-my-writing-assistant-not-my-writer/",
+      "title": "AI as a Writing Assistant, Not a Replacement for Writers",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.twitch.tv/jrjresq",
+      "title": "jrjresq - Twitch",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.nytimes.com/2026/11/23/us/federal-court-typography-rules.html",
+      "title": "Squeezed for Space in Court Filings, Lawyers Get Typographically Creative",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://timeline.place/guides/footsteps-instead-of-cron",
+      "title": "Footsteps cut my Grok Bot quota burn by 50%",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://progrium.github.io/9ux/",
+      "title": "9/UX: a Macintosh-inspired desktop for 9front",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sticksandstones.fyi/",
+      "title": "Show HN: Sticks & Stones – 4,600yrs of historical conflict on an interactive map",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/",
+      "title": "Kubernetes v1.38 Sneak Peek",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50618582",
+      "title": "Show HN: FLEY AI-Voce – Open-source PC control via voice and commands",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://commonedge.org/what-if-we-designed-cities-around-the-wind/",
+      "title": "What If We Designed Cities Around the Wind?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://modeloop.app/",
+      "title": "Show HN: Modeloop – Design and simulate discrete-time controllers in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://codeyam.com/apps/cadyam",
+      "title": "Show HN: A free creative suite, built in Rust, for AI collaboration",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pattern-dump.design/",
+      "title": "Show HN: Pattern Dump, HTML-first style guides after Pattern Lab was archived",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50618223",
+      "title": "Ask HN: Harness vs. Feature Factories",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/tymzap/seed-method",
+      "title": "Seed Method: managing evolving project knowledge through a staging area",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50616985",
+      "title": "Vibe-Hackers: Script kiddies, stronger?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.15",
+      "title": "Carbon (IBM) — v12.0.0-alpha.15",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://adactio.com/notes/22843",
+      "title": "Monday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.404media.co/google-wants-to-make-a-24-7-ai-tv-channel-youll-be-the-main-character/",
+      "title": "Google Wants To Make a 24/7 AI TV Channel. You’ll Be the Main Character",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bit.ly/4jxIJw7",
+      "title": "Trump's claim he was never warned about Nvidia spy suspect unravels",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.16personalities.com/infp-personality",
+      "title": "INFP Personality (Mediator) | 16Personalities",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://vrchat.com/home/world/wrld_67bc2e94-a007-4a38-8032-278bb549c9a9/info",
+      "title": "Decision Hole by Matrices",
+      "reason": "lexicon"
+    }
+  ]
+}
