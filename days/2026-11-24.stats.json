@@ -1,0 +1,354 @@
+{
+  "date": "2026-11-24",
+  "pool": 87,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 39,
+    "lexicon": 21,
+    "already_closed": 4,
+    "prerelease": 2,
+    "no_title": 2
+  },
+  "dropped_items": [
+    {
+      "url": "https://www.nytimes.com/2026/11/23/us/federal-court-typography-rules.html",
+      "title": "Squeezed for Space in Court Filings, Lawyers Get Typographically Creative",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://timeline.place/guides/footsteps-instead-of-cron",
+      "title": "Footsteps cut my Grok Bot quota burn by 50%",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://progrium.github.io/9ux/",
+      "title": "9/UX: a Macintosh-inspired desktop for 9front",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://tripup.me/",
+      "title": "Show HN: Tripup – Type words not in a text corpus as fast as you can",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sticksandstones.fyi/",
+      "title": "Show HN: Sticks & Stones – 4,600yrs of historical conflict on an interactive map",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://kubernetes.io/blog/2026/11/23/kubernetes-v1-38-sneak-peek/",
+      "title": "Kubernetes v1.38 Sneak Peek",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50618582",
+      "title": "Show HN: FLEY AI-Voce – Open-source PC control via voice and commands",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://commonedge.org/what-if-we-designed-cities-around-the-wind/",
+      "title": "What If We Designed Cities Around the Wind?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://modeloop.app/",
+      "title": "Show HN: Modeloop – Design and simulate discrete-time controllers in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://codeyam.com/apps/cadyam",
+      "title": "Show HN: A free creative suite, built in Rust, for AI collaboration",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://pattern-dump.design/",
+      "title": "Show HN: Pattern Dump, HTML-first style guides after Pattern Lab was archived",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50618223",
+      "title": "Ask HN: Harness vs. Feature Factories",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://merget.ai/",
+      "title": "Show HN: Merget – Merge queue using deep static analysis to resolve GitHub PRs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/tymzap/seed-method",
+      "title": "Seed Method: managing evolving project knowledge through a staging area",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50616985",
+      "title": "Vibe-Hackers: Script kiddies, stronger?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://uxdesign.cc/is-product-design-a-people-industry-or-a-tech-industry-b8f9acc8cb6d?source=rss----138adf9c44c---4",
+      "title": "Is product design a people industry or a tech industry?",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/primer/react/releases/tag/%40primer%2Freact%4038.47.0",
+      "title": "Primer (GitHub) — @primer/react@38.47.0",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.15",
+      "title": "Carbon (IBM) — v12.0.0-alpha.15",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://css-tricks.com/dev-material-archive/",
+      "title": "Dev Material Archive",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://adactio.com/notes/22843",
+      "title": "Monday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.404media.co/google-wants-to-make-a-24-7-ai-tv-channel-youll-be-the-main-character/",
+      "title": "Google Wants To Make a 24/7 AI TV Channel. You’ll Be the Main Character",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bit.ly/4jxIJw7",
+      "title": "Trump's claim he was never warned about Nvidia spy suspect unravels",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.16personalities.com/infp-personality",
+      "title": "INFP Personality (Mediator) | 16Personalities",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://vrchat.com/home/world/wrld_67bc2e94-a007-4a38-8032-278bb549c9a9/info",
+      "title": "Decision Hole by Matrices",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+      "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://quicktou.ch/",
+      "title": "Show HN: A PDF/DOC editor that changes text in its original font, in the browser",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://knockbox.app/",
+      "title": "Show HN: Knockbox – a drum machine that plays your beat like a drummer would",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://techcrunch.com/2026/11/23/figma-employee-sues-alleging-company-forced-her-to-confront-harassers/",
+      "title": "Figma employee sues, alleging company forced her to confront harassers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.sleuthsayers.org/2013/06/the-3500-shirt-history-lesson-in.html",
+      "title": "Web Design: The First 100 Years (2014)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://status.me/",
+      "title": "Show HN: status: an emoji and your status, built with SvelteKit and Claude",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chameleonicons.com/",
+      "title": "Show HN: Chameleon Icons – Make those missing icons and share them with others",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ribbonarchitect.com",
+      "title": "Show HN: Ribbon Architect – Endless ways to tie a gift ribbon",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.indiehackers.com/product/raseed",
+      "title": "Raseed Billing and business management software",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/clockoli/clockoli",
+      "title": "Show HN: We replaced our time tracking SaaS with a Git repository",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.paulox.net/2026/11/23/my-django-on-the-med-2026/",
+      "title": "My Django on the Med 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.16",
+      "title": "Carbon (IBM) — v12.0.0-alpha.16",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://wil.to/js4e/newsletter/mat-update-30/",
+      "title": "Making the Case",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://heydonheydon.gumroad.com/l/hel-variable-font",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://buymeacoffee.com/heydon/e/536619",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://grist.org/culture/cozy-radicalism-right-to-repair-cafes/",
+      "title": "The cozy radicalism of repair cafés",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://arjmandi.github.io/videotape/",
+      "title": "User Interface as Video",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/hatchet-dev/brickie",
+      "title": "Show HN: Brickie – Deploy sandboxes in your own AWS account",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50631103",
+      "title": "Show HN: Kept, a local-first habit tracker",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://joonoo.art/create-comic",
+      "title": "Show HN: Keeping faces and features consistent across 24 AI-driven comic pages",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://openteams.com/engineering-blog/can-a-skill-replace-a-design-system/",
+      "title": "Can a Skill Replace a Design System?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ivangsa.com/articles/whats-wrong-with-spec-driven-development-and-how-to-fix-it/",
+      "title": "You can't design event-driven systems in Markdown specs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hush.kardashevcatalyst.com/",
+      "title": "Hush UI A component library for HTML and CSS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://thewebtools.vercel.app/",
+      "title": "Show HN: Webtools(PWA)- Offline Tools for PDFs, Images, and QR Codes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.baseshift.com/blog/dc1",
+      "title": "Show HN: Novel DB compression models in Libc – Dockerized NY OpenStreetMap 9:1",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/reylosql/reylo",
+      "title": "Show HN: Reylo – Import .sql files into TypeScript with full type inference",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://livingwallapp.com/hn",
+      "title": "Show HN: Living Wall – a Mac wallpaper that grows around your desktop icons",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://phials.phoundry.app/",
+      "title": "Show HN: Phials – A file manager for knowledge work and productivity",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/stevelacey/proton-vpn-menubar",
+      "title": "Show HN: Proton VPN from your terminal, menu bar and Alfred on macOS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50635126",
+      "title": "I got $487 MRR in 3 days with zero ads. the exact distribution process I used",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://stetup.com/capture",
+      "title": "Show HN: Turn a list of URLs or a sitemap into one PDF of full-page captures",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://masondata.ai/",
+      "title": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50633601",
+      "title": "Ask HN: Am I the only one whose AI hype is cooling down a lot?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50630534",
+      "title": "Show HN: How do you handle Slack interruptions during deep work?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.rchive.computer/",
+      "title": "Show HN: Rchive – Every drive I've owned since the 90s, searchable in one window",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50634426",
+      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://poznote.com/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Poznote - Powerful note-taking without the hassle",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://principles.design/learn/",
+      "title": "Learn",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://buttons.joshwcomeau.com/",
+      "title": "Button Sounds",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://rudyfaile.com/2026/11/22/everything-is-just-data/",
+      "title": "Rudy Faile - Everything Is Just Data",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/161",
+      "title": "Firefox 161 release notes for developers (Stable) - Mozilla | MDN",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://vale.rocks/micros/20261124-0220",
+      "title": "Ladybird Browser Politics - 24 Nov 2026 02:20 UTC",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/type-errors-cost-our-coding-agents-under-one-percent-of-their-time",
+      "title": "Type errors cost our coding agents under 1% of their time—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    }
+  ]
+}

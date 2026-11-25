@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T06:56:41.274133+00:00",
+  "updated_at": "2026-11-25T05:25:25.453593+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -9707,6 +9707,421 @@
         "lexicon": 13,
         "no_title": 1,
         "prerelease": 1
+      }
+    },
+    "2026-11-24": {
+      "items": [
+        {
+          "id": "e573f4115502",
+          "title": "UI feed",
+          "url": "https://ui-feed.dev/",
+          "hn": "https://ui-feed.dev/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795504493,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.375,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "cbc5869bf475",
+          "title": "If you want to grow beyond Senior Designer, you have to address this one thing",
+          "url": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795558437,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.641,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "edd72b1eb62f",
+          "title": "How Uber built an Internal Marketplace of 5,000 Agent Skills",
+          "url": "https://departmentofproduct.substack.com/p/how-uber-built-an-internal-marketplace",
+          "hn": "https://departmentofproduct.substack.com/p/how-uber-built-an-internal-marketplace",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795532689,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.563,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
+          "id": "00ad42a9bac4",
+          "title": "Who Speaks Up for the User?",
+          "url": "https://uxpsychology.substack.com/p/who-speaks-up-for-the-user",
+          "hn": "https://uxpsychology.substack.com/p/who-speaks-up-for-the-user",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795529621,
+          "sources": [
+            "UX Psychology"
+          ],
+          "sharers": 0,
+          "score": 2.541,
+          "why": [
+            "editor's pick at UX Psychology"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "e573f4115502",
+          "title": "UI feed",
+          "url": "https://ui-feed.dev/",
+          "hn": "https://ui-feed.dev/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795504493,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.375,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "cbc5869bf475",
+          "title": "If you want to grow beyond Senior Designer, you have to address this one thing",
+          "url": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795558437,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.641,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "edd72b1eb62f",
+          "title": "How Uber built an Internal Marketplace of 5,000 Agent Skills",
+          "url": "https://departmentofproduct.substack.com/p/how-uber-built-an-internal-marketplace",
+          "hn": "https://departmentofproduct.substack.com/p/how-uber-built-an-internal-marketplace",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795532689,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 2.563,
+          "why": [
+            "editor's pick at Department of Product"
+          ]
+        },
+        {
+          "id": "00ad42a9bac4",
+          "title": "Who Speaks Up for the User?",
+          "url": "https://uxpsychology.substack.com/p/who-speaks-up-for-the-user",
+          "hn": "https://uxpsychology.substack.com/p/who-speaks-up-for-the-user",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795529621,
+          "sources": [
+            "UX Psychology"
+          ],
+          "sharers": 0,
+          "score": 2.541,
+          "why": [
+            "editor's pick at UX Psychology"
+          ]
+        },
+        {
+          "id": "374488396458",
+          "title": "Bugs - All Things Product Podcast with Teresa Torres & Petra Wille",
+          "url": "https://www.producttalk.org/bugs-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "hn": "https://www.producttalk.org/bugs-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795528800,
+          "sources": [
+            "Product Talk"
+          ],
+          "sharers": 0,
+          "score": 2.535,
+          "why": [
+            "editor's pick at Product Talk"
+          ]
+        },
+        {
+          "id": "0ab1b1cded24",
+          "title": "Are we actually building better things?",
+          "url": "https://medium.com/design-bootcamp/are-we-actually-building-better-things-the-great-software-bazaar-c2494d208934",
+          "hn": "https://medium.com/design-bootcamp/are-we-actually-building-better-things-the-great-software-bazaar-c2494d208934",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795504646,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.376,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "66f3d10c262d",
+          "title": "Chimera",
+          "url": "https://www.chimera.audio/",
+          "hn": "https://www.chimera.audio/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795504554,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.375,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "725e503f0614",
+          "title": "Strategic building blocks",
+          "url": "https://www.davesresearch.com/strategic-building-blocks/",
+          "hn": "https://www.davesresearch.com/strategic-building-blocks/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795504463,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.375,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "369881e9a8ca",
+          "title": "Futures thinking as an everyday design practice",
+          "url": "https://uxdesign.cc/futures-thinking-as-an-everyday-design-practice-465146ee6db8?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/futures-thinking-as-an-everyday-design-practice-465146ee6db8?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795558579,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.309,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "80ec761c0311",
+          "title": "The design process is changing. Are we asking the right questions?",
+          "url": "https://uxdesign.cc/the-design-process-is-changing-are-we-asking-the-right-questions-c3c376cb7cb8?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/the-design-process-is-changing-are-we-asking-the-right-questions-c3c376cb7cb8?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795558273,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.307,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "94b6b040c6b4",
+          "title": "Beyond the Pixel: Reclaiming Design as a Reflective Practice",
+          "url": "https://uxdesign.cc/beyond-the-pixel-reclaiming-design-as-a-reflective-practice-6f6789acb2bd?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/beyond-the-pixel-reclaiming-design-as-a-reflective-practice-6f6789acb2bd?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795558163,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.306,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "3f51ebb77535",
+          "title": "Four hidden dimensions of effective teams",
+          "url": "https://uxdesign.cc/four-hidden-dimensions-of-effective-teams-be268c61cf44?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/four-hidden-dimensions-of-effective-teams-be268c61cf44?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795558500,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.975,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "ed57f9f09bf2",
+          "title": "Designing for the AI agent customer",
+          "url": "https://uxdesign.cc/designing-ux-for-agentic-commerce-digital-marketing-for-personal-ai-agents-c8c99e1b0b37?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/designing-ux-for-agentic-commerce-digital-marketing-for-personal-ai-agents-c8c99e1b0b37?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795558319,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.974,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "b65bc526bebd",
+          "title": "Who draws the in-betweens?",
+          "url": "https://uxdesign.cc/who-draws-the-in-betweens-3b61d1957efe?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/who-draws-the-in-betweens-3b61d1957efe?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795558240,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.973,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "5326fdabcabf",
+          "title": "DD416 / Adrift in a world of options",
+          "url": "https://www.densediscovery.com/issues/416/",
+          "hn": "https://www.densediscovery.com/issues/416/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795409271,
+          "sources": [
+            "Dense Discovery"
+          ],
+          "sharers": 0,
+          "score": 1.972,
+          "why": [
+            "editor's pick at Dense Discovery"
+          ]
+        },
+        {
+          "id": "40a4fcf4c428",
+          "title": "rotate3d() | CSS-Tricks",
+          "url": "https://css-tricks.com/almanac/functions/r/rotate3d/",
+          "hn": "https://bsky.app/profile/css-tricks.com/post/3n32tnmjaxs2v",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795529988,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.61,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "d00916180cc1",
+          "title": "Web Performance Budgets, Pragmatically – CSS Wizardry",
+          "url": "https://csswizardry.com/2020/01/performance-budgets-pragmatically/",
+          "hn": "https://bsky.app/profile/csswizardry.com/post/3n32ol6hbk222",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795524538,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.571,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "csswizardry.com"
+          ]
+        },
+        {
+          "id": "af6c1999414c",
+          "title": "HTML5Doctor.com Doctored – HTML Accessibility",
+          "url": "https://html5accessibility.com/stuff/2026/11/23/html5doctor-com-doctored/",
+          "hn": "https://bsky.app/profile/stevefaulkner.eurosky.social/post/3n2ygo33xy22j",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795447325,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.498,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "ericwbailey.website"
+          ]
+        },
+        {
+          "id": "3528cccf7615",
+          "title": "Don’t make me read",
+          "url": "https://uxdesign.cc/dont-make-me-read-a6821e418bb1?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/dont-make-me-read-a6821e418bb1?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795473601,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.41,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        }
+      ],
+      "pool": 87,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 39,
+        "lexicon": 21,
+        "already_closed": 4,
+        "prerelease": 2,
+        "no_title": 2
       }
     }
   }
