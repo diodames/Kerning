@@ -1,0 +1,447 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-26T04:58:59.613608+00:00",
+  "items": [
+    {
+      "id": "1cfbe571c9b6",
+      "title": "Local Interest font family",
+      "url": "https://buymeacoffee.com/heydon/e/602519",
+      "hn": "https://bsky.app/profile/heydonworks.com/post/3n34z3g4r4k2d",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795604539,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 4.581,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "heydonworks.com",
+        "piccalil.li"
+      ]
+    },
+    {
+      "id": "97b3599fdd99",
+      "title": "shadcn/ui — @shadcn/registry@0.2.2",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795633036,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 3.672,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "e453d80439c5",
+      "title": "The Slopnami is an accessibility problem",
+      "url": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+      "hn": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795597585,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.416,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "c4894412377b",
+      "title": "Does AI make design systems unnecessary?",
+      "url": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+      "hn": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795413736,
+      "sources": [
+        "Design Systems Collective"
+      ],
+      "sharers": 0,
+      "score": 3.131,
+      "why": [
+        "editor's pick at Design Systems Collective"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1cfbe571c9b6",
+      "title": "Local Interest font family",
+      "url": "https://buymeacoffee.com/heydon/e/602519",
+      "hn": "https://bsky.app/profile/heydonworks.com/post/3n34z3g4r4k2d",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795604539,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 4.581,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "heydonworks.com",
+        "piccalil.li"
+      ]
+    },
+    {
+      "id": "97b3599fdd99",
+      "title": "shadcn/ui — @shadcn/registry@0.2.2",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795633036,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 3.672,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "e453d80439c5",
+      "title": "The Slopnami is an accessibility problem",
+      "url": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+      "hn": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795597585,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.416,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "c4894412377b",
+      "title": "Does AI make design systems unnecessary?",
+      "url": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+      "hn": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795413736,
+      "sources": [
+        "Design Systems Collective"
+      ],
+      "sharers": 0,
+      "score": 3.131,
+      "why": [
+        "editor's pick at Design Systems Collective"
+      ]
+    },
+    {
+      "id": "21160e87da9d",
+      "title": "November 16 - November 22 Round Up: Who’s Making Sure It’s Usable, AI-First Design Systems, Prototypes As Specifications",
+      "url": "https://aiforux.substack.com/p/november-16-november-22-round-up",
+      "hn": "https://aiforux.substack.com/p/november-16-november-22-round-up",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795375493,
+      "sources": [
+        "AI for UX Substack"
+      ],
+      "sharers": 0,
+      "score": 3.08,
+      "why": [
+        "editor's pick at AI for UX Substack"
+      ]
+    },
+    {
+      "id": "fa9827167ead",
+      "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+      "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+      "hn": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795611861,
+      "sources": [
+        "Lenny's Newsletter"
+      ],
+      "sharers": 0,
+      "score": 2.511,
+      "why": [
+        "editor's pick at Lenny's Newsletter"
+      ]
+    },
+    {
+      "id": "71312f9910b6",
+      "title": "Mirror mode",
+      "url": "https://mattstromawn.com/writing/mirror-mode/",
+      "hn": "https://mattstromawn.com/writing/mirror-mode/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795597790,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.417,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "dc0dcb4a0564",
+      "title": "A visual identity for Reset that adapts like its app",
+      "url": "https://the-brandidentity.com/project/studio-kiln-designs-an-identity-for-reset-that-adapts-like-its-app",
+      "hn": "https://the-brandidentity.com/project/studio-kiln-designs-an-identity-for-reset-that-adapts-like-its-app",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795597709,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.417,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "b6aa556ad17b",
+      "title": "Generative Loaders",
+      "url": "https://generativeloaders.com/",
+      "hn": "https://generativeloaders.com/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795597617,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 2.416,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
+      "id": "94b6b040c6b4",
+      "title": "Beyond the craft: Reclaiming Design as a Reflective Practice",
+      "url": "https://uxdesign.cc/beyond-the-pixel-reclaiming-design-as-a-reflective-practice-6f6789acb2bd?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/beyond-the-pixel-reclaiming-design-as-a-reflective-practice-6f6789acb2bd?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795558163,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 2.068,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "74f3dcc8f543",
+      "title": "Things you’re not supposed to say on LinkedIn",
+      "url": "https://uxdesign.cc/things-youre-not-supposed-to-say-on-linkedin-a9c2ec2a0185?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/things-youre-not-supposed-to-say-on-linkedin-a9c2ec2a0185?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795646092,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.986,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "7a006da179e9",
+      "title": "Future-proofing is dead and AI killed it",
+      "url": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795646052,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.986,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "6c70931eb3ac",
+      "title": "Designing a composer",
+      "url": "https://pablostanley.substack.com/p/designing-a-composer",
+      "hn": "https://pablostanley.substack.com/p/designing-a-composer",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795447138,
+      "sources": [
+        "Pablo Stanley"
+      ],
+      "sharers": 0,
+      "score": 1.856,
+      "why": [
+        "editor's pick at Pablo Stanley"
+      ]
+    },
+    {
+      "id": "8f8f056e526d",
+      "title": "Applying accessibility fixes with stealth for the greater good",
+      "url": "https://piccalil.li/blog/applying-accessibility-fixes-with-stealth-for-the-greater-good/",
+      "hn": "https://bsky.app/profile/dbushell.com/post/3n34qwsnpwk22",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795595795,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.805,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "piccalil.li"
+      ]
+    },
+    {
+      "id": "369881e9a8ca",
+      "title": "Futures thinking as an everyday design practice",
+      "url": "https://uxdesign.cc/futures-thinking-as-an-everyday-design-practice-465146ee6db8?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/futures-thinking-as-an-everyday-design-practice-465146ee6db8?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795558579,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.737,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "80ec761c0311",
+      "title": "The design process is changing. Are we asking the right questions?",
+      "url": "https://uxdesign.cc/the-design-process-is-changing-are-we-asking-the-right-questions-c3c376cb7cb8?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/the-design-process-is-changing-are-we-asking-the-right-questions-c3c376cb7cb8?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795558273,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.736,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "ecaeef9446ea",
+      "title": "🔵 Replit, Google and Vercel are betting on Agent Swarms",
+      "url": "https://departmentofproduct.substack.com/p/replit-google-and-vercel-are-betting",
+      "hn": "https://departmentofproduct.substack.com/p/replit-google-and-vercel-are-betting",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795351398,
+      "sources": [
+        "Department of Product"
+      ],
+      "sharers": 0,
+      "score": 1.722,
+      "why": [
+        "editor's pick at Department of Product"
+      ]
+    },
+    {
+      "id": "3f51ebb77535",
+      "title": "Four hidden dimensions of effective teams",
+      "url": "https://uxdesign.cc/four-hidden-dimensions-of-effective-teams-be268c61cf44?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/four-hidden-dimensions-of-effective-teams-be268c61cf44?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795558500,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.403,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "ed57f9f09bf2",
+      "title": "Designing for the AI agent customer",
+      "url": "https://uxdesign.cc/designing-ux-for-agentic-commerce-digital-marketing-for-personal-ai-agents-c8c99e1b0b37?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/designing-ux-for-agentic-commerce-digital-marketing-for-personal-ai-agents-c8c99e1b0b37?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795558319,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.403,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "b65bc526bebd",
+      "title": "Who draws the in-betweens?",
+      "url": "https://uxdesign.cc/who-draws-the-in-betweens-3b61d1957efe?source=rss----138adf9c44c---4",
+      "hn": "https://uxdesign.cc/who-draws-the-in-betweens-3b61d1957efe?source=rss----138adf9c44c---4",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795558240,
+      "sources": [
+        "UX Collective"
+      ],
+      "sharers": 0,
+      "score": 1.402,
+      "why": [
+        "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "776c76a83691",
+      "title": "Poetic CSS",
+      "url": "https://courses.oddbird.net/poetic-css/",
+      "hn": "https://bsky.app/profile/miriam.codes/post/3n33r2e2x2k2o",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795561554,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 1,
+      "score": 1.284,
+      "why": [
+        "spotted on Bluesky"
+      ],
+      "authors": [
+        "piccalil.li"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,435 @@
+{
+  "date": "2026-11-25",
+  "pool": 105,
+  "kept": 4,
+  "dropped": {
+    "lexicon": 38,
+    "below_threshold": 39,
+    "already_closed": 3,
+    "prerelease": 1,
+    "patch": 1,
+    "no_title": 2
+  },
+  "dropped_items": [
+    {
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.core77.com/posts/145766/An-Italian-Folding-Bicycle-Design-that-Fits-Into-a-Suitcase",
+      "title": "An Italian folding bicycle design that fits into a suitcase",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://arjmandi.github.io/videotape/",
+      "title": "User Interface as Video",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/hatchet-dev/brickie",
+      "title": "Show HN: Brickie – Deploy sandboxes in your own AWS account",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50631103",
+      "title": "Show HN: Kept, a local-first habit tracker",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://joonoo.art/create-comic",
+      "title": "Show HN: Keeping faces and features consistent across 24 AI-driven comic pages",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://openteams.com/engineering-blog/can-a-skill-replace-a-design-system/",
+      "title": "Can a Skill Replace a Design System?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://ivangsa.com/articles/whats-wrong-with-spec-driven-development-and-how-to-fix-it/",
+      "title": "You can't design event-driven systems in Markdown specs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hush.kardashevcatalyst.com/",
+      "title": "Hush UI A component library for HTML and CSS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://thewebtools.vercel.app/",
+      "title": "Show HN: Webtools(PWA)- Offline Tools for PDFs, Images, and QR Codes",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.baseshift.com/blog/dc1",
+      "title": "Show HN: Novel DB compression models in Libc – Dockerized NY OpenStreetMap 9:1",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/reylosql/reylo",
+      "title": "Show HN: Reylo – Import .sql files into TypeScript with full type inference",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://livingwallapp.com/hn",
+      "title": "Show HN: Living Wall – a Mac wallpaper that grows around your desktop icons",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://phials.phoundry.app/",
+      "title": "Show HN: Phials – A file manager for knowledge work and productivity",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/stevelacey/proton-vpn-menubar",
+      "title": "Show HN: Proton VPN from your terminal, menu bar and Alfred on macOS",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50635126",
+      "title": "I got $487 MRR in 3 days with zero ads. the exact distribution process I used",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://stetup.com/capture",
+      "title": "Show HN: Turn a list of URLs or a sitemap into one PDF of full-page captures",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://masondata.ai/",
+      "title": "Show HN: Mason – A lightweight Postgres read-replica, built on columnar storage",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50633601",
+      "title": "Ask HN: Am I the only one whose AI hype is cooling down a lot?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50630534",
+      "title": "Show HN: How do you handle Slack interruptions during deep work?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.rchive.computer/",
+      "title": "Show HN: Rchive – Every drive I've owned since the 90s, searchable in one window",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50634426",
+      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
+      "title": "If you want to grow beyond Senior Designer, you have to address this one thing",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://poznote.com/?utm_source=the-index&utm_medium=newsletter",
+      "title": "Poznote - Powerful note-taking without the hassle",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://principles.design/learn/",
+      "title": "Learn",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://buttons.joshwcomeau.com/",
+      "title": "Button Sounds",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://rudyfaile.com/2026/11/22/everything-is-just-data/",
+      "title": "Rudy Faile - Everything Is Just Data",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Firefox/Releases/161",
+      "title": "Firefox 161 release notes for developers (Stable) - Mozilla | MDN",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://vale.rocks/micros/20261124-0220",
+      "title": "Ladybird Browser Politics - 24 Nov 2026 02:20 UTC",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://billmorris.io/shoals/2026/11/19/overexposure.html",
+      "title": "Overexposure",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://evilmartians.com/chronicles/type-errors-cost-our-coding-agents-under-one-percent-of-their-time",
+      "title": "Type errors cost our coding agents under 1% of their time—Martian Chronicles, Evil Martians’ team blog",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://departmentofproduct.substack.com/p/how-uber-built-an-internal-marketplace",
+      "title": "How Uber built an Internal Marketplace of 5,000 Agent Skills",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://uxpsychology.substack.com/p/who-speaks-up-for-the-user",
+      "title": "Who Speaks Up for the User?",
+      "reason": "already_closed"
+    },
+    {
+      "url": "https://www.evertype.com/standards/euro/eurotypo.html",
+      "title": "Typographers Discuss the Euro (1996)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50639432",
+      "title": "ROMS: iOS server manager app with multi-snippets/SSH/Shortcuts (TestFlight)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50637594",
+      "title": "How to Stay Abreast of Compromised Software?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://lightscale.ai/",
+      "title": "Show HN: Lightscale AI – A language for LLMs to write business software",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://provost.unlimitedweb.space/",
+      "title": "Show HN: Archiver that opens every format",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://iconoir.com",
+      "title": "Iconoir: Open Source Free Icons",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50635452",
+      "title": "Four C/C++ libraries ported to pure managed .NET on a $20 plan",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50625275",
+      "title": "Ask HN: How do engineers approach startups that aren't actively hiring?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://polypane.app/black-friday/",
+      "title": "Polypane Black Friday | Polypane",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://open.spotify.com/album/4iYaGiGiRgbubTJgKS3X5c?si=P4bttAB9T_GsGlylrFdbnQ",
+      "title": "Listen to Altered States - Album by Ravenous Hounds | Spotify",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://tidal.com/album/altered-states/581860347",
+      "title": "Our band’s full album is now (finally) on streaming. Spotify: open.spotify.com/album/4iYaGi... Tidal: tidal.com/album/altere...",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://donttrustme.ai/assay-013.html",
+      "title": "Prism – exact BigInt Bayes vs. TypeSafe Jev (0/100 wrong, 10 refusals)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.thomasmcgee.co/fonts/makeable-sans",
+      "title": "Makeable Sans: A Free, Clean and Friendly Font Family",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://bbogovich.github.io/mockitdown/demos/",
+      "title": "Mockitdown examples – user-interface mockup language like SwiftUI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://longyan.app/",
+      "title": "Show HN: Longyan, a Chinese popup dictionary that picks meanings from context",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/igaurab/gpython",
+      "title": "Show HN: Gpython – A Terminal based notebook for Python",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/jantimon/css-in-js-bench",
+      "title": "CSS-in-JS Benchmarks",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
+      "title": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/icons8/hub",
+      "title": "Show HN: Hub, an open-source coordinator for Claude Code and Codex sessions",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://developer.microsoft.com/blog/do-inconsistent-docs-hurt-ai-coding-agents/",
+      "title": "Do inconsistent docs hurt AI coding agents?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/ArcadeMakerSources/ArcadeMaker/blob/master/src/Exp/libs/linq.txt",
+      "title": "Show HN: I implemented LINQ in my own programming language",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50647851",
+      "title": "Queue Theory: a software engineering tutorial",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50647893",
+      "title": "Ask HN: Nobel Prizes for OpenAI and Anthropic: When?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50644383",
+      "title": "Can I surpass? Is that even a plausible matter",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+      "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50647440",
+      "title": "Ask HN: For professional Mathematicians –- about your career in the future",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://thatplace.io",
+      "title": "Show HN: Thatplace – iOS/macOS app to remember the places you've been",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50645376",
+      "title": "Show HN: Dualayer Hierarchy Standard (DHS) – Zero-FHS Layout for Musl and Glibc",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://bowerbird.gallery/",
+      "title": "Show HN: Bowerbird, a private image organizer for Windows, Mac and Linux",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://inxpanse.com/heycube",
+      "title": "Show HN: HeyCube – The personalized feed for your always-on AI agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://servo.org/blog/2026/11/25/october-in-servo/",
+      "title": "October in Servo: video captions and inert content",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.17",
+      "title": "Carbon (IBM) — v12.0.0-alpha.17",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.23.1",
+      "title": "shadcn/ui — shadcn@4.23.1",
+      "reason": "patch"
+    },
+    {
+      "url": "https://www.smashingmagazine.com/2026/09/building-ux-roi-case-survives-boardroom/",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kRhI-gNII_c",
+      "title": "Mindful Design Course Q&A",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/blog/as-the-credits-roll/",
+      "title": "As the credits roll on the AI industry, now is the time reevaluate its use in your organisation",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://perfnow.nl/2026/photos/",
+      "title": "Pictures from performance.now() in Amsterdam, including me blabbing away on stage: 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22848",
+      "title": "Pictures from performance.now() in Amsterdam, including me blabbing away on stage: 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22847",
+      "title": "My coworker 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/journal/22846",
+      "title": "Journal: Amsterdammed I really enjoyed talking about The Session at the performance.now() conference. 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.thriftbooks.com/a/dan-cederholm/340321/?srsltid=AYCX9vJdkuDxvTXo1aDrqVE2SuX0EXNa6GDRhS9O-VBsA2nvfz1LkOkH",
+      "title": "Dan Cederholm Books | List of books by author Dan Cederholm",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://heydonworks.com/article/hybrid-props-for-custom-elements/",
+      "title": "Hybrid Props For Custom Elements",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://threejs-journey.com/?voucher=WHIMSY",
+      "title": "Three.js Journey | Learn WebGL with Three.js",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://static.klipy.com/ii/39f2394ae36df6e199be9eb7c9fa1012/8d/a5/GOrv1ofU.gif?hh=280&ww=498&mp4=a4PlOkL7SJHL4lJ&webm=yLrBi6us3aH8Cf",
+      "title": "DJ Khaled Eating",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://patreon.com/mrlovenstein/posts/drinkin-master-124281235",
+      "title": "Secret Panel HERE 💦 patreon.com/mrlovenstein/posts/drinkin-master-124281235",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://billionthings.shop/products/digital-pixel-art-character-sprite",
+      "title": "Digital Pixel Art - Character Sprite",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://lists.honeybadger.io/archive/making-the-boring-parts-better",
+      "title": "Making the boring parts better",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.honeybadger.io/newsletter/",
+      "title": "Subscribe to the Honeybadger Newsletter",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/browserslist/caniuse-lite/pull/145",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://kittygiraudel.com/2026/11/01/playing-with-css-layers/",
+      "title": "Playing with CSS Layers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jmmv.dev/2026/11/entering-the-geminispace.html",
+      "title": "Entering the Geminispace",
+      "reason": "lexicon"
+    }
+  ]
+}

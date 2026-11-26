@@ -1,217 +1,330 @@
 {
-  "generated_at": "2026-11-25T05:25:25.461385+00:00",
+  "generated_at": "2026-11-26T04:58:59.621914+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "24 November 2026",
-      "period_start": "2026-11-24",
-      "period_end": "2026-11-24",
+      "label": "25 November 2026",
+      "period_start": "2026-11-25",
+      "period_end": "2026-11-25",
       "items": [
         {
-          "id": "e573f4115502",
-          "title": "UI feed",
-          "url": "https://ui-feed.dev/",
-          "hn": "https://ui-feed.dev/",
+          "id": "1cfbe571c9b6",
+          "title": "Local Interest font family",
+          "url": "https://buymeacoffee.com/heydon/e/602519",
+          "hn": "https://bsky.app/profile/heydonworks.com/post/3n34z3g4r4k2d",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795504493,
+          "created_at_i": 1795604539,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.581,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "heydonworks.com",
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "97b3599fdd99",
+          "title": "shadcn/ui — @shadcn/registry@0.2.2",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795633036,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 3.672,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "e453d80439c5",
+          "title": "The Slopnami is an accessibility problem",
+          "url": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+          "hn": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795597585,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.375,
+          "score": 3.416,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "cbc5869bf475",
-          "title": "If you want to grow beyond Senior Designer, you have to address this one thing",
-          "url": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
+          "id": "c4894412377b",
+          "title": "Does AI make design systems unnecessary?",
+          "url": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+          "hn": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795558437,
+          "created_at_i": 1795413736,
           "sources": [
-            "UX Collective"
+            "Design Systems Collective"
           ],
           "sharers": 0,
-          "score": 2.641,
+          "score": 3.131,
           "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "edd72b1eb62f",
-          "title": "How Uber built an Internal Marketplace of 5,000 Agent Skills",
-          "url": "https://departmentofproduct.substack.com/p/how-uber-built-an-internal-marketplace",
-          "hn": "https://departmentofproduct.substack.com/p/how-uber-built-an-internal-marketplace",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795532689,
-          "sources": [
-            "Department of Product"
-          ],
-          "sharers": 0,
-          "score": 2.563,
-          "why": [
-            "editor's pick at Department of Product"
-          ]
-        },
-        {
-          "id": "00ad42a9bac4",
-          "title": "Who Speaks Up for the User?",
-          "url": "https://uxpsychology.substack.com/p/who-speaks-up-for-the-user",
-          "hn": "https://uxpsychology.substack.com/p/who-speaks-up-for-the-user",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795529621,
-          "sources": [
-            "UX Psychology"
-          ],
-          "sharers": 0,
-          "score": 2.541,
-          "why": [
-            "editor's pick at UX Psychology"
+            "editor's pick at Design Systems Collective"
           ]
         }
       ],
       "candidates": [
         {
-          "id": "e573f4115502",
-          "title": "UI feed",
-          "url": "https://ui-feed.dev/",
-          "hn": "https://ui-feed.dev/",
+          "id": "1cfbe571c9b6",
+          "title": "Local Interest font family",
+          "url": "https://buymeacoffee.com/heydon/e/602519",
+          "hn": "https://bsky.app/profile/heydonworks.com/post/3n34z3g4r4k2d",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795504493,
+          "created_at_i": 1795604539,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.581,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "heydonworks.com",
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "97b3599fdd99",
+          "title": "shadcn/ui — @shadcn/registry@0.2.2",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795633036,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 3.672,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "e453d80439c5",
+          "title": "The Slopnami is an accessibility problem",
+          "url": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+          "hn": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795597585,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.375,
+          "score": 3.416,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "cbc5869bf475",
-          "title": "If you want to grow beyond Senior Designer, you have to address this one thing",
-          "url": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
+          "id": "c4894412377b",
+          "title": "Does AI make design systems unnecessary?",
+          "url": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+          "hn": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795558437,
+          "created_at_i": 1795413736,
+          "sources": [
+            "Design Systems Collective"
+          ],
+          "sharers": 0,
+          "score": 3.131,
+          "why": [
+            "editor's pick at Design Systems Collective"
+          ]
+        },
+        {
+          "id": "21160e87da9d",
+          "title": "November 16 - November 22 Round Up: Who’s Making Sure It’s Usable, AI-First Design Systems, Prototypes As Specifications",
+          "url": "https://aiforux.substack.com/p/november-16-november-22-round-up",
+          "hn": "https://aiforux.substack.com/p/november-16-november-22-round-up",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795375493,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.08,
+          "why": [
+            "editor's pick at AI for UX Substack"
+          ]
+        },
+        {
+          "id": "fa9827167ead",
+          "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+          "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+          "hn": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795611861,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "71312f9910b6",
+          "title": "Mirror mode",
+          "url": "https://mattstromawn.com/writing/mirror-mode/",
+          "hn": "https://mattstromawn.com/writing/mirror-mode/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795597790,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.417,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "dc0dcb4a0564",
+          "title": "A visual identity for Reset that adapts like its app",
+          "url": "https://the-brandidentity.com/project/studio-kiln-designs-an-identity-for-reset-that-adapts-like-its-app",
+          "hn": "https://the-brandidentity.com/project/studio-kiln-designs-an-identity-for-reset-that-adapts-like-its-app",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795597709,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.417,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "b6aa556ad17b",
+          "title": "Generative Loaders",
+          "url": "https://generativeloaders.com/",
+          "hn": "https://generativeloaders.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795597617,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.416,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "94b6b040c6b4",
+          "title": "Beyond the craft: Reclaiming Design as a Reflective Practice",
+          "url": "https://uxdesign.cc/beyond-the-pixel-reclaiming-design-as-a-reflective-practice-6f6789acb2bd?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/beyond-the-pixel-reclaiming-design-as-a-reflective-practice-6f6789acb2bd?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795558163,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 2.641,
+          "score": 2.068,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "edd72b1eb62f",
-          "title": "How Uber built an Internal Marketplace of 5,000 Agent Skills",
-          "url": "https://departmentofproduct.substack.com/p/how-uber-built-an-internal-marketplace",
-          "hn": "https://departmentofproduct.substack.com/p/how-uber-built-an-internal-marketplace",
+          "id": "74f3dcc8f543",
+          "title": "Things you’re not supposed to say on LinkedIn",
+          "url": "https://uxdesign.cc/things-youre-not-supposed-to-say-on-linkedin-a9c2ec2a0185?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/things-youre-not-supposed-to-say-on-linkedin-a9c2ec2a0185?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795532689,
+          "created_at_i": 1795646092,
           "sources": [
-            "Department of Product"
+            "UX Collective"
           ],
           "sharers": 0,
-          "score": 2.563,
+          "score": 1.986,
           "why": [
-            "editor's pick at Department of Product"
+            "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "00ad42a9bac4",
-          "title": "Who Speaks Up for the User?",
-          "url": "https://uxpsychology.substack.com/p/who-speaks-up-for-the-user",
-          "hn": "https://uxpsychology.substack.com/p/who-speaks-up-for-the-user",
+          "id": "7a006da179e9",
+          "title": "Future-proofing is dead and AI killed it",
+          "url": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795529621,
+          "created_at_i": 1795646052,
           "sources": [
-            "UX Psychology"
+            "UX Collective"
           ],
           "sharers": 0,
-          "score": 2.541,
+          "score": 1.986,
           "why": [
-            "editor's pick at UX Psychology"
+            "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "374488396458",
-          "title": "Bugs - All Things Product Podcast with Teresa Torres & Petra Wille",
-          "url": "https://www.producttalk.org/bugs-all-things-product-podcast-with-teresa-torres-petra-wille/",
-          "hn": "https://www.producttalk.org/bugs-all-things-product-podcast-with-teresa-torres-petra-wille/",
+          "id": "6c70931eb3ac",
+          "title": "Designing a composer",
+          "url": "https://pablostanley.substack.com/p/designing-a-composer",
+          "hn": "https://pablostanley.substack.com/p/designing-a-composer",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795528800,
+          "created_at_i": 1795447138,
           "sources": [
-            "Product Talk"
+            "Pablo Stanley"
           ],
           "sharers": 0,
-          "score": 2.535,
+          "score": 1.856,
           "why": [
-            "editor's pick at Product Talk"
+            "editor's pick at Pablo Stanley"
           ]
         },
         {
-          "id": "0ab1b1cded24",
-          "title": "Are we actually building better things?",
-          "url": "https://medium.com/design-bootcamp/are-we-actually-building-better-things-the-great-software-bazaar-c2494d208934",
-          "hn": "https://medium.com/design-bootcamp/are-we-actually-building-better-things-the-great-software-bazaar-c2494d208934",
+          "id": "8f8f056e526d",
+          "title": "Applying accessibility fixes with stealth for the greater good",
+          "url": "https://piccalil.li/blog/applying-accessibility-fixes-with-stealth-for-the-greater-good/",
+          "hn": "https://bsky.app/profile/dbushell.com/post/3n34qwsnpwk22",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795504646,
+          "created_at_i": 1795595795,
           "sources": [
-            "Sidebar"
+            "Bluesky"
           ],
-          "sharers": 0,
-          "score": 2.376,
+          "sharers": 1,
+          "score": 1.805,
           "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "66f3d10c262d",
-          "title": "Chimera",
-          "url": "https://www.chimera.audio/",
-          "hn": "https://www.chimera.audio/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795504554,
-          "sources": [
-            "Sidebar"
+            "spotted on Bluesky"
           ],
-          "sharers": 0,
-          "score": 2.375,
-          "why": [
-            "editor's pick at Sidebar"
-          ]
-        },
-        {
-          "id": "725e503f0614",
-          "title": "Strategic building blocks",
-          "url": "https://www.davesresearch.com/strategic-building-blocks/",
-          "hn": "https://www.davesresearch.com/strategic-building-blocks/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795504463,
-          "sources": [
-            "Sidebar"
-          ],
-          "sharers": 0,
-          "score": 2.375,
-          "why": [
-            "editor's pick at Sidebar"
+          "authors": [
+            "piccalil.li"
           ]
         },
         {
@@ -226,7 +339,7 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 2.309,
+          "score": 1.737,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -243,26 +356,26 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 2.307,
+          "score": 1.736,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "94b6b040c6b4",
-          "title": "Beyond the Pixel: Reclaiming Design as a Reflective Practice",
-          "url": "https://uxdesign.cc/beyond-the-pixel-reclaiming-design-as-a-reflective-practice-6f6789acb2bd?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/beyond-the-pixel-reclaiming-design-as-a-reflective-practice-6f6789acb2bd?source=rss----138adf9c44c---4",
+          "id": "ecaeef9446ea",
+          "title": "🔵 Replit, Google and Vercel are betting on Agent Swarms",
+          "url": "https://departmentofproduct.substack.com/p/replit-google-and-vercel-are-betting",
+          "hn": "https://departmentofproduct.substack.com/p/replit-google-and-vercel-are-betting",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795558163,
+          "created_at_i": 1795351398,
           "sources": [
-            "UX Collective"
+            "Department of Product"
           ],
           "sharers": 0,
-          "score": 2.306,
+          "score": 1.722,
           "why": [
-            "editor's pick at UX Collective"
+            "editor's pick at Department of Product"
           ]
         },
         {
@@ -277,7 +390,7 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.975,
+          "score": 1.403,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -294,7 +407,7 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.974,
+          "score": 1.403,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -311,103 +424,29 @@
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.973,
+          "score": 1.402,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "5326fdabcabf",
-          "title": "DD416 / Adrift in a world of options",
-          "url": "https://www.densediscovery.com/issues/416/",
-          "hn": "https://www.densediscovery.com/issues/416/",
+          "id": "776c76a83691",
+          "title": "Poetic CSS",
+          "url": "https://courses.oddbird.net/poetic-css/",
+          "hn": "https://bsky.app/profile/miriam.codes/post/3n33r2e2x2k2o",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795409271,
-          "sources": [
-            "Dense Discovery"
-          ],
-          "sharers": 0,
-          "score": 1.972,
-          "why": [
-            "editor's pick at Dense Discovery"
-          ]
-        },
-        {
-          "id": "40a4fcf4c428",
-          "title": "rotate3d() | CSS-Tricks",
-          "url": "https://css-tricks.com/almanac/functions/r/rotate3d/",
-          "hn": "https://bsky.app/profile/css-tricks.com/post/3n32tnmjaxs2v",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795529988,
+          "created_at_i": 1795561554,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.61,
+          "score": 1.284,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
             "piccalil.li"
-          ]
-        },
-        {
-          "id": "d00916180cc1",
-          "title": "Web Performance Budgets, Pragmatically – CSS Wizardry",
-          "url": "https://csswizardry.com/2020/01/performance-budgets-pragmatically/",
-          "hn": "https://bsky.app/profile/csswizardry.com/post/3n32ol6hbk222",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795524538,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.571,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "csswizardry.com"
-          ]
-        },
-        {
-          "id": "af6c1999414c",
-          "title": "HTML5Doctor.com Doctored – HTML Accessibility",
-          "url": "https://html5accessibility.com/stuff/2026/11/23/html5doctor-com-doctored/",
-          "hn": "https://bsky.app/profile/stevefaulkner.eurosky.social/post/3n2ygo33xy22j",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795447325,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.498,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
-          ]
-        },
-        {
-          "id": "3528cccf7615",
-          "title": "Don’t make me read",
-          "url": "https://uxdesign.cc/dont-make-me-read-a6821e418bb1?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/dont-make-me-read-a6821e418bb1?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795473601,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.41,
-          "why": [
-            "editor's pick at UX Collective"
           ]
         }
       ]
@@ -444,6 +483,61 @@
           ]
         },
         {
+          "id": "1cfbe571c9b6",
+          "title": "Local Interest font family",
+          "url": "https://buymeacoffee.com/heydon/e/602519",
+          "hn": "https://bsky.app/profile/heydonworks.com/post/3n34z3g4r4k2d",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795604539,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.581,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "heydonworks.com",
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "97b3599fdd99",
+          "title": "shadcn/ui — @shadcn/registry@0.2.2",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795633036,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 3.672,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "e453d80439c5",
+          "title": "The Slopnami is an accessibility problem",
+          "url": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+          "hn": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795597585,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.416,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "e573f4115502",
           "title": "UI feed",
           "url": "https://ui-feed.dev/",
@@ -475,6 +569,23 @@
           "score": 3.323,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "c4894412377b",
+          "title": "Does AI make design systems unnecessary?",
+          "url": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+          "hn": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795413736,
+          "sources": [
+            "Design Systems Collective"
+          ],
+          "sharers": 0,
+          "score": 3.131,
+          "why": [
+            "editor's pick at Design Systems Collective"
           ]
         },
         {
@@ -587,6 +698,61 @@
           ]
         },
         {
+          "id": "1cfbe571c9b6",
+          "title": "Local Interest font family",
+          "url": "https://buymeacoffee.com/heydon/e/602519",
+          "hn": "https://bsky.app/profile/heydonworks.com/post/3n34z3g4r4k2d",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795604539,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.581,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "heydonworks.com",
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "97b3599fdd99",
+          "title": "shadcn/ui — @shadcn/registry@0.2.2",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795633036,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 3.672,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "e453d80439c5",
+          "title": "The Slopnami is an accessibility problem",
+          "url": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+          "hn": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795597585,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.416,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "e573f4115502",
           "title": "UI feed",
           "url": "https://ui-feed.dev/",
@@ -618,6 +784,40 @@
           "score": 3.323,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "c4894412377b",
+          "title": "Does AI make design systems unnecessary?",
+          "url": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+          "hn": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795413736,
+          "sources": [
+            "Design Systems Collective"
+          ],
+          "sharers": 0,
+          "score": 3.131,
+          "why": [
+            "editor's pick at Design Systems Collective"
+          ]
+        },
+        {
+          "id": "21160e87da9d",
+          "title": "November 16 - November 22 Round Up: Who’s Making Sure It’s Usable, AI-First Design Systems, Prototypes As Specifications",
+          "url": "https://aiforux.substack.com/p/november-16-november-22-round-up",
+          "hn": "https://aiforux.substack.com/p/november-16-november-22-round-up",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795375493,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.08,
+          "why": [
+            "editor's pick at AI for UX Substack"
           ]
         },
         {
@@ -737,6 +937,74 @@
           "score": 2.511,
           "why": [
             "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "fa9827167ead",
+          "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+          "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+          "hn": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795611861,
+          "sources": [
+            "Lenny's Newsletter"
+          ],
+          "sharers": 0,
+          "score": 2.511,
+          "why": [
+            "editor's pick at Lenny's Newsletter"
+          ]
+        },
+        {
+          "id": "71312f9910b6",
+          "title": "Mirror mode",
+          "url": "https://mattstromawn.com/writing/mirror-mode/",
+          "hn": "https://mattstromawn.com/writing/mirror-mode/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795597790,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.417,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "dc0dcb4a0564",
+          "title": "A visual identity for Reset that adapts like its app",
+          "url": "https://the-brandidentity.com/project/studio-kiln-designs-an-identity-for-reset-that-adapts-like-its-app",
+          "hn": "https://the-brandidentity.com/project/studio-kiln-designs-an-identity-for-reset-that-adapts-like-its-app",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795597709,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.417,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "b6aa556ad17b",
+          "title": "Generative Loaders",
+          "url": "https://generativeloaders.com/",
+          "hn": "https://generativeloaders.com/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795597617,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.416,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -964,6 +1232,40 @@
           ]
         },
         {
+          "id": "74f3dcc8f543",
+          "title": "Things you’re not supposed to say on LinkedIn",
+          "url": "https://uxdesign.cc/things-youre-not-supposed-to-say-on-linkedin-a9c2ec2a0185?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/things-youre-not-supposed-to-say-on-linkedin-a9c2ec2a0185?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795646092,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.986,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "7a006da179e9",
+          "title": "Future-proofing is dead and AI killed it",
+          "url": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795646052,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.986,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "3f51ebb77535",
           "title": "Four hidden dimensions of effective teams",
           "url": "https://uxdesign.cc/four-hidden-dimensions-of-effective-teams-be268c61cf44?source=rss----138adf9c44c---4",
@@ -1012,6 +1314,60 @@
           "score": 1.973,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "6c70931eb3ac",
+          "title": "Designing a composer",
+          "url": "https://pablostanley.substack.com/p/designing-a-composer",
+          "hn": "https://pablostanley.substack.com/p/designing-a-composer",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795447138,
+          "sources": [
+            "Pablo Stanley"
+          ],
+          "sharers": 0,
+          "score": 1.856,
+          "why": [
+            "editor's pick at Pablo Stanley"
+          ]
+        },
+        {
+          "id": "8f8f056e526d",
+          "title": "Applying accessibility fixes with stealth for the greater good",
+          "url": "https://piccalil.li/blog/applying-accessibility-fixes-with-stealth-for-the-greater-good/",
+          "hn": "https://bsky.app/profile/dbushell.com/post/3n34qwsnpwk22",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795595795,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.805,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "ecaeef9446ea",
+          "title": "🔵 Replit, Google and Vercel are betting on Agent Swarms",
+          "url": "https://departmentofproduct.substack.com/p/replit-google-and-vercel-are-betting",
+          "hn": "https://departmentofproduct.substack.com/p/replit-google-and-vercel-are-betting",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795351398,
+          "sources": [
+            "Department of Product"
+          ],
+          "sharers": 0,
+          "score": 1.722,
+          "why": [
+            "editor's pick at Department of Product"
           ]
         },
         {
@@ -1160,6 +1516,26 @@
           "score": 1.421,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "776c76a83691",
+          "title": "Poetic CSS",
+          "url": "https://courses.oddbird.net/poetic-css/",
+          "hn": "https://bsky.app/profile/miriam.codes/post/3n33r2e2x2k2o",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795561554,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.284,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
           ]
         }
       ]
@@ -1624,6 +2000,27 @@
           ]
         },
         {
+          "id": "1cfbe571c9b6",
+          "title": "Local Interest font family",
+          "url": "https://buymeacoffee.com/heydon/e/602519",
+          "hn": "https://bsky.app/profile/heydonworks.com/post/3n34z3g4r4k2d",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795604539,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 2,
+          "score": 4.581,
+          "why": [
+            "shared by 2 design accounts"
+          ],
+          "authors": [
+            "heydonworks.com",
+            "piccalil.li"
+          ]
+        },
+        {
           "id": "46c1230e04f9",
           "title": "Carbon (IBM) — v11.120.0",
           "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.120.0",
@@ -1923,6 +2320,23 @@
           ]
         },
         {
+          "id": "97b3599fdd99",
+          "title": "shadcn/ui — @shadcn/registry@0.2.2",
+          "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+          "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795633036,
+          "sources": [
+            "Design systems"
+          ],
+          "sharers": 0,
+          "score": 3.672,
+          "why": [
+            "editor's pick at Design systems"
+          ]
+        },
+        {
           "id": "7269aedfdccb",
           "title": "What does design system AI readiness mean, anyway?",
           "url": "https://seanvoisen.com/writing/design-system-ai-readiness/",
@@ -2054,6 +2468,23 @@
           "score": 3.426,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "e453d80439c5",
+          "title": "The Slopnami is an accessibility problem",
+          "url": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+          "hn": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795597585,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 3.416,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -2223,6 +2654,23 @@
           ]
         },
         {
+          "id": "c4894412377b",
+          "title": "Does AI make design systems unnecessary?",
+          "url": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+          "hn": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795413736,
+          "sources": [
+            "Design Systems Collective"
+          ],
+          "sharers": 0,
+          "score": 3.131,
+          "why": [
+            "editor's pick at Design Systems Collective"
+          ]
+        },
+        {
           "id": "97621ba86b5e",
           "title": "What I learned teaching AI prototyping at university",
           "url": "https://uxdesign.cc/what-i-learned-teaching-ai-prototyping-at-university-b9fff222625e?source=rss----138adf9c44c---4",
@@ -2237,6 +2685,23 @@
           "score": 3.106,
           "why": [
             "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "21160e87da9d",
+          "title": "November 16 - November 22 Round Up: Who’s Making Sure It’s Usable, AI-First Design Systems, Prototypes As Specifications",
+          "url": "https://aiforux.substack.com/p/november-16-november-22-round-up",
+          "hn": "https://aiforux.substack.com/p/november-16-november-22-round-up",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795375493,
+          "sources": [
+            "AI for UX Substack"
+          ],
+          "sharers": 0,
+          "score": 3.08,
+          "why": [
+            "editor's pick at AI for UX Substack"
           ]
         },
         {
@@ -3049,91 +3514,6 @@
           ]
         },
         {
-          "id": "3ad0c6ad6c2c",
-          "title": "Discovery & The 4 Risks - All Things Product Podcast with Teresa Torres & Petra Wille",
-          "url": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
-          "hn": "https://www.producttalk.org/discovery-the-4-risks-all-things-product-podcast-with-teresa-torres-petra-wille/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794319200,
-          "sources": [
-            "Product Talk"
-          ],
-          "sharers": 0,
-          "score": 2.535,
-          "why": [
-            "editor's pick at Product Talk"
-          ]
-        },
-        {
-          "id": "c101175c67db",
-          "title": "2027 Product Conferences",
-          "url": "https://www.producttalk.org/2027-product-conferences/",
-          "hn": "https://www.producttalk.org/2027-product-conferences/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794405600,
-          "sources": [
-            "Product Talk"
-          ],
-          "sharers": 0,
-          "score": 2.535,
-          "why": [
-            "editor's pick at Product Talk"
-          ]
-        },
-        {
-          "id": "d1354f5802c5",
-          "title": "Ch. 11: Measuring Impact",
-          "url": "https://www.producttalk.org/ch-11-measuring-impact/",
-          "hn": "https://www.producttalk.org/ch-11-measuring-impact/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794837600,
-          "sources": [
-            "Product Talk"
-          ],
-          "sharers": 0,
-          "score": 2.535,
-          "why": [
-            "editor's pick at Product Talk"
-          ]
-        },
-        {
-          "id": "8009c36c0458",
-          "title": "The Sharing Gap - All Things Product Podcast with Teresa Torres & Petra Wille",
-          "url": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
-          "hn": "https://www.producttalk.org/the-sharing-gap-all-things-product-podcast-with-teresa-torres-petra-wille/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794924000,
-          "sources": [
-            "Product Talk"
-          ],
-          "sharers": 0,
-          "score": 2.535,
-          "why": [
-            "editor's pick at Product Talk"
-          ]
-        },
-        {
-          "id": "a7919d7e054b",
-          "title": "My Personal Annual Review Process (Now a Claude Code Plugin)",
-          "url": "https://www.producttalk.org/personal-annual-review/",
-          "hn": "https://www.producttalk.org/personal-annual-review/",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795010400,
-          "sources": [
-            "Product Talk"
-          ],
-          "sharers": 0,
-          "score": 2.535,
-          "why": [
-            "editor's pick at Product Talk"
-          ]
-        },
-        {
           "id": "7da3b08fd70d",
           "title": "Introducing Adaptive Dark Mode",
           "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
@@ -3181,6 +3561,61 @@
       ]
     },
     {
+      "id": "1cfbe571c9b6",
+      "title": "Local Interest font family",
+      "url": "https://buymeacoffee.com/heydon/e/602519",
+      "hn": "https://bsky.app/profile/heydonworks.com/post/3n34z3g4r4k2d",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795604539,
+      "sources": [
+        "Bluesky"
+      ],
+      "sharers": 2,
+      "score": 4.581,
+      "why": [
+        "shared by 2 design accounts"
+      ],
+      "authors": [
+        "heydonworks.com",
+        "piccalil.li"
+      ]
+    },
+    {
+      "id": "97b3599fdd99",
+      "title": "shadcn/ui — @shadcn/registry@0.2.2",
+      "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+      "hn": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795633036,
+      "sources": [
+        "Design systems"
+      ],
+      "sharers": 0,
+      "score": 3.672,
+      "why": [
+        "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "e453d80439c5",
+      "title": "The Slopnami is an accessibility problem",
+      "url": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+      "hn": "https://www.soren.work/writing/the-slopnami-is-an-accessibility-problem/",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795597585,
+      "sources": [
+        "Sidebar"
+      ],
+      "sharers": 0,
+      "score": 3.416,
+      "why": [
+        "editor's pick at Sidebar"
+      ]
+    },
+    {
       "id": "e573f4115502",
       "title": "UI feed",
       "url": "https://ui-feed.dev/",
@@ -3212,6 +3647,23 @@
       "score": 3.323,
       "why": [
         "editor's pick at UX Collective"
+      ]
+    },
+    {
+      "id": "c4894412377b",
+      "title": "Does AI make design systems unnecessary?",
+      "url": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+      "hn": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795413736,
+      "sources": [
+        "Design Systems Collective"
+      ],
+      "sharers": 0,
+      "score": 3.131,
+      "why": [
+        "editor's pick at Design Systems Collective"
       ]
     },
     {
