@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T04:58:59.614570+00:00",
+  "updated_at": "2026-11-27T04:59:51.618752+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -10577,6 +10577,301 @@
         "prerelease": 1,
         "patch": 1,
         "no_title": 2
+      }
+    },
+    "2026-11-26": {
+      "items": [
+        {
+          "id": "2202b68fa4e6",
+          "title": "The Beauty of CSS Mixins",
+          "url": "https://patrickbrosset.com/articles/2026-11-25-the-beauty-of-css-mixins/",
+          "hn": "https://news.ycombinator.com/item?id=50651604",
+          "points": 30,
+          "comments": 3,
+          "created_at_i": 1795654937,
+          "sources": [
+            "Lobsters",
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 6.141,
+          "why": [
+            "picked up by Lobsters and Hacker News"
+          ]
+        },
+        {
+          "id": "a29e74b8be2d",
+          "title": "TBM 453: How to Get Unstuck Without Losing Yourself (or Pretending Everything Is Fine)",
+          "url": "https://cutlefish.substack.com/p/tbm-453-how-to-get-unstuck-without",
+          "hn": "https://bsky.app/profile/johncutle.fish/post/3n37uobzvgk2f",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795672921,
+          "sources": [
+            "The Beautiful Mess",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 5.749,
+          "why": [
+            "picked up by The Beautiful Mess and Bluesky"
+          ],
+          "authors": [
+            "johncutle.fish"
+          ]
+        },
+        {
+          "id": "91ef480232c5",
+          "title": "Intel One Mono font (2023)",
+          "url": "https://github.com/intel/intel-one-mono",
+          "hn": "https://news.ycombinator.com/item?id=50653667",
+          "points": 441,
+          "comments": 234,
+          "created_at_i": 1795687861,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.646,
+          "why": [
+            "441 points"
+          ]
+        },
+        {
+          "id": "36a937bcc40a",
+          "title": "Ask HN: What do you think of a revamped HN UI/UX?",
+          "url": "https://news.ycombinator.com/item?id=50650633",
+          "hn": "https://news.ycombinator.com/item?id=50650633",
+          "points": 1,
+          "comments": 5,
+          "created_at_i": 1795659737,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.448,
+          "why": []
+        }
+      ],
+      "candidates": [
+        {
+          "id": "2202b68fa4e6",
+          "title": "The Beauty of CSS Mixins",
+          "url": "https://patrickbrosset.com/articles/2026-11-25-the-beauty-of-css-mixins/",
+          "hn": "https://news.ycombinator.com/item?id=50651604",
+          "points": 30,
+          "comments": 3,
+          "created_at_i": 1795654937,
+          "sources": [
+            "Lobsters",
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 6.141,
+          "why": [
+            "picked up by Lobsters and Hacker News"
+          ]
+        },
+        {
+          "id": "a29e74b8be2d",
+          "title": "TBM 453: How to Get Unstuck Without Losing Yourself (or Pretending Everything Is Fine)",
+          "url": "https://cutlefish.substack.com/p/tbm-453-how-to-get-unstuck-without",
+          "hn": "https://bsky.app/profile/johncutle.fish/post/3n37uobzvgk2f",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795672921,
+          "sources": [
+            "The Beautiful Mess",
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 5.749,
+          "why": [
+            "picked up by The Beautiful Mess and Bluesky"
+          ],
+          "authors": [
+            "johncutle.fish"
+          ]
+        },
+        {
+          "id": "91ef480232c5",
+          "title": "Intel One Mono font (2023)",
+          "url": "https://github.com/intel/intel-one-mono",
+          "hn": "https://news.ycombinator.com/item?id=50653667",
+          "points": 441,
+          "comments": 234,
+          "created_at_i": 1795687861,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 4.646,
+          "why": [
+            "441 points"
+          ]
+        },
+        {
+          "id": "36a937bcc40a",
+          "title": "Ask HN: What do you think of a revamped HN UI/UX?",
+          "url": "https://news.ycombinator.com/item?id=50650633",
+          "hn": "https://news.ycombinator.com/item?id=50650633",
+          "points": 1,
+          "comments": 5,
+          "created_at_i": 1795659737,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.448,
+          "why": []
+        },
+        {
+          "id": "288e32210c2c",
+          "title": "Forward-deployed design as plumbing",
+          "url": "https://blog.ronbronson.com/forward-deployed-design-as-plumbing",
+          "hn": "https://blog.ronbronson.com/forward-deployed-design-as-plumbing",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795691470,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.798,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "6bc402ea8b23",
+          "title": "Lighting that feels just right",
+          "url": "https://blog.maximeheckel.com/posts/lighting-that-feels-just-right/",
+          "hn": "https://blog.maximeheckel.com/posts/lighting-that-feels-just-right/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795691627,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.465,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "0a5c310dddba",
+          "title": "12ft Lab",
+          "url": "https://12ft.studio/lab/",
+          "hn": "https://12ft.studio/lab/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795691551,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.465,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "0aa9624a3744",
+          "title": "High fidelity, low definition",
+          "url": "https://www.seangood.win/articles/high-fidelity-low-definition",
+          "hn": "https://www.seangood.win/articles/high-fidelity-low-definition",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795691496,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.464,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "4df154bb43cf",
+          "title": "Machines are trying to get gut feelings while you’re telling me to ignore mine",
+          "url": "https://uxdesign.cc/machines-are-trying-to-get-gut-feelings-while-youre-telling-me-to-ignore-mine-17095e56f22d?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/machines-are-trying-to-get-gut-feelings-while-youre-telling-me-to-ignore-mine-17095e56f22d?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795695511,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.692,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "fcccdf9faa18",
+          "title": "Fixing Illustrations on a Dark Background with CSS",
+          "url": "https://rknight.me/blog/fixing-illustrations-on-a-dark-background-with-css/?utm_source=the-index&utm_medium=newsletter",
+          "hn": "https://bsky.app/profile/piccalil.li/post/3n37tuvbbch2x",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795702030,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.604,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "piccalil.li"
+          ]
+        },
+        {
+          "id": "74f3dcc8f543",
+          "title": "Things you’re not supposed to say on LinkedIn",
+          "url": "https://uxdesign.cc/things-youre-not-supposed-to-say-on-linkedin-a9c2ec2a0185?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/things-youre-not-supposed-to-say-on-linkedin-a9c2ec2a0185?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795646092,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.409,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "7a006da179e9",
+          "title": "Future-proofing is dead and AI killed it",
+          "url": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795646052,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 1.409,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        }
+      ],
+      "pool": 50,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 26,
+        "lexicon": 9,
+        "prerelease": 2,
+        "no_title": 1
       }
     }
   }

@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-26",
+  "pool": 50,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 26,
+    "lexicon": 9,
+    "prerelease": 2,
+    "no_title": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://news.ycombinator.com/item?id=50651107",
+      "title": "Ask HN: What IDE do you use and how many agents touch your tickets before merge?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50648976",
+      "title": "Is it time to switch to Cybersecurity?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50650927",
+      "title": "Tell HN: Finality is like the speed of light to LLMs from the labs",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://kittygiraudel.com/2026/11/01/playing-with-css-layers/",
+      "title": "Playing with CSS Layers",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hackaday.io/project/207443-lomenett-usb-password-manager",
+      "title": "A Physical Password Manager that doesn't use the cloud",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://sidelong.app",
+      "title": "Show HN: Sidelong – read-it-later and highlighting for every type of content",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://jmmv.dev/2026/11/entering-the-geminispace.html",
+      "title": "Entering the Geminispace",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://treg.to/people-search",
+      "title": "Treg People API powered by TypeSafeAI",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/TrueType",
+      "title": "Virtual Machine in TrueType Fonts",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/tanaydin/c64Logo",
+      "title": "The Commodore logo in pure CSS, from its 1965 construction card",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50654648",
+      "title": "Ask HN: What's your minimum criteria for a project to be low-AI or not vibecoded",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://garagehq.deuxfleurs.fr/blog/2026-11-webadmin-release/",
+      "title": "Garage v2.6.0 released with web admin, v1.x EoL & other news",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.18",
+      "title": "Carbon (IBM) — v12.0.0-alpha.18",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://www.truthdig.com/articles/the-economics-behind-the-collapse-of-the-ai-bubble/",
+      "title": "The Economics Behind the Collapse of the AI Bubble",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22849",
+      "title": "DakhaBrakha were in top form last night—Слава Україні! 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://reut.rs/4A8Tdcn",
+      "title": "AI consumes less water per dollar spent than almond milk or golf, Enverus report says",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://idps.substack.com/p/pep-5089-how-we-used-ai-and-biophysics",
+      "title": "We used AI and biophysics to design a first in class prostate cancer drug",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/fwilhe2/grind",
+      "title": "Show HN: Grind, my OpenDocument native office suite built in Rust",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50657965",
+      "title": "Ask HN: What do you all think of Rex (Superlogical)?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hubris.live/",
+      "title": "Show HN: Hubris - Local like Obsidian, but real-time collaboration like Figma",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://k-adam.github.io/CSS3D-Renderer/demos/lights-out/index.html",
+      "title": "Show HN: Real-time lights and shadows in CSS 3D, no runtime JavaScript",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.master.dev/motion-design-with-css-anchors/",
+      "title": "Motion Design with CSS Anchors",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://k-adam.github.io/CSS3D-Renderer/demos/still-water/index.html",
+      "title": "Show HN: Walk out onto a dock in CSS 3D, no runtime JavaScript (scroll to walk)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.myscreenbreak.com/",
+      "title": "Show HN: I posted a read-later-to-paper app here in 2020. Here's what happened",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/graphvein/graphvein/",
+      "title": "Show HN: Graphvein – Trace calls to handlers and tables across repos, no LLM",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://potluckpicks.com",
+      "title": "Show HN: Potluck – a small, algorithm-free way to share what you love",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/doors-dev/neui",
+      "title": "Show HN: Neui – Go web apps with a built-in AI agent",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50658963",
+      "title": "DietPi released a new version v10.9",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50660683",
+      "title": "Ask HN: What is the OpenRouter equivalent to launch in 2026?",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.google.com/search?q=setsockopt&sitesearch=man7.org%2Flinux%2Fman-pages",
+      "title": "Google Search now ignores `site:` operator for anonymous users",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://www.seekquarry.com/",
+      "title": "Show HN: Yioop 10 – a PHP search engine that runs groups, wikis, Git and mail",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://talira.ai/",
+      "title": "Show HN: Talira – Search engine for software, built for AI agents",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.19",
+      "title": "Carbon (IBM) — v12.0.0-alpha.19",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://ishadeed.com/article/web-personality/",
+      "title": "The web is losing its personality",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://aftermath.site/how-quit-cancel-spotify/?utm_source=the-index&utm_medium=newsletter",
+      "title": "How To Quit Spotify And Improve Your Life In The Process",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/notes/22851",
+      "title": "Thursday session 🔗",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nyti.ms/4Cq8Iht",
+      "title": "Thanksgiving Storm Is Expected to Hit East Coast With Heavy Rain and Flooding",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://ringailedemsyte.com/the-untamed-type-copy",
+      "title": "",
+      "reason": "no_title"
+    }
+  ]
+}
