@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-27",
+  "pool": 45,
+  "kept": 4,
+  "dropped": {
+    "below_threshold": 16,
+    "lexicon": 18,
+    "no_title": 1,
+    "prerelease": 1
+  },
+  "dropped_items": [
+    {
+      "url": "https://scolast.com",
+      "title": "Show HN: Scolast – AI tutor for autodidacts inspired by Bloom's 2 sigma problem",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://longbinlai.github.io/riemann-atlas/?lang=en&step=reflection&view=overview",
+      "title": "Show HN: An interactive map of the Riemann Hypothesis proof",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50664246",
+      "title": "Why Stripe is not what you need to charge for your AI product (kind of)",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://hnpredictions.com/",
+      "title": "Show HN: Analysis of Hacker News predictions since 2008",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://hyperblam.how",
+      "title": "Hyperblam Docs Home",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://www.bbc.co.uk/news/articles/ck9d7e11lnq4o",
+      "title": "QUB: Jason Arday research cleared following university investigation",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://nerdy.dev/www-ep262-bot-vs-dot-the-ai-agent-wars-begin",
+      "title": "WWW Ep262 Bot Vs Dot The AI Agent Wars Begin · November 23, 2026",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://europatmosphe.re/",
+      "title": "Europe Atmosphere | Your social media, at home in Europe.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://etbe.coker.com.au/2026/11/27/coding-font-problems/",
+      "title": "Coding Font Problems",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50666520",
+      "title": "Sheetlytic – Take a photo of sheet music and hear it play",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://connect.mozilla.org/t5/discussions/firefox-s-new-design-your-feedback-and-what-s-changing-in/td-p/147462",
+      "title": "Firefox Taking Away Ability to Disable Nova Theme",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://journeytoeuropa.com/",
+      "title": "Show HN: Journey To Europa: An interactive look at the Europa Clipper mission",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50668691",
+      "title": "Ask HN: How to Start a Blog?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://tink.uk/accessibility-is-resistance/",
+      "title": "Accessibility Is Resistance",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://blog.jacobstechtavern.com/p/apps-system-design",
+      "title": "Building apps is a system design exercise",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://github.com/orkestralai/codesignflo",
+      "title": "Show HN: CoDesignFlo – Keep Figma in sync with the code your AI agents ship",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://chromewebstore.google.com/detail/pasteup-paste-screenshots/lbmbeemclenmfgdogpmgoofecpajclkd",
+      "title": "Show HN: Pasteup – Paste screenshots into file upload fields",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://bloque.run",
+      "title": "Show HN: Bloque – Hosted MCP gateway for teams without an IT department",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://europeinstead.com",
+      "title": "Show HN: Europe Instead – find the European version of the tools you use",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50669533",
+      "title": "Show HN: Built NerdBot cause I couldn't pay for Grok bot",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50665232",
+      "title": "Ask HN: Is Claude Code nerfing AI and agent-harness projects?",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=50670468",
+      "title": "Show HN: A local-first AI memory for your video footage",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://pub.roddie.digital/3n3aavxi6hc2g",
+      "title": "Objections to .php application being published on ICANN site",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/links/black-friday-deals-2026/",
+      "title": "A round-up of round-ups of Black Friday deals",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://piccalil.li/the-index/208/",
+      "title": "The Index: Issue #208",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://adactio.com/journal/22852",
+      "title": "",
+      "reason": "no_title"
+    },
+    {
+      "url": "https://buttondown.com/SaraSoueidan/archive/favorite-things-friday-2-the-black-edition/",
+      "title": "Favorite Things Friday #2: The Black Edition",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://letterboxd.com/zeldman/film/twelve-monkeys/1/",
+      "title": "A ★★★ review of Twelve Monkeys (1995)",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://zeldman.com/2026/11/27/claudine/?utm_source=bluesky&utm_medium=jetpack_social",
+      "title": "Claudine",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://stuffandnonsense.co.uk/shop/killer-bundle/",
+      "title": "Killer Docs Bundle - Stuff & Nonsense Ltd.",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://bloom.bg/4A5xkdK",
+      "title": "Trump’s Tariffs Cast New Pall Over Thanksgiving",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://samk.app/links/",
+      "title": "Links » Sameera Kapila",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://labs.opentangle.com/after-proof/",
+      "title": "Show HN: Free audiobook and eBook with the story of recent discoveries in math",
+      "reason": "below_threshold"
+    },
+    {
+      "url": "https://datastar-instant-intent.ndyg.cross.stream/corrosive/",
+      "title": "Why optimistic updates are corrosive",
+      "reason": "lexicon"
+    },
+    {
+      "url": "https://github.com/carbon-design-system/carbon/releases/tag/v12.0.0-alpha.20",
+      "title": "Carbon (IBM) — v12.0.0-alpha.20",
+      "reason": "prerelease"
+    },
+    {
+      "url": "https://meyerweb.com/eric/thoughts/2014/12/24/inadvertent-algorithmic-cruelty/",
+      "title": "Inadvertent Algorithmic Cruelty",
+      "reason": "lexicon"
+    }
+  ]
+}

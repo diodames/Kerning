@@ -1,294 +1,233 @@
 {
-  "generated_at": "2026-11-27T04:59:51.630994+00:00",
+  "generated_at": "2026-11-28T04:43:08.682787+00:00",
   "cadence": "weekly",
   "window_days": 7,
   "cadences": {
     "daily": {
-      "label": "26 November 2026",
-      "period_start": "2026-11-26",
-      "period_end": "2026-11-26",
+      "label": "27 November 2026",
+      "period_start": "2026-11-27",
+      "period_end": "2026-11-27",
       "items": [
         {
-          "id": "2202b68fa4e6",
-          "title": "The Beauty of CSS Mixins",
-          "url": "https://patrickbrosset.com/articles/2026-11-25-the-beauty-of-css-mixins/",
-          "hn": "https://news.ycombinator.com/item?id=50651604",
-          "points": 30,
-          "comments": 3,
-          "created_at_i": 1795654937,
+          "id": "8ee6fa50f0e4",
+          "title": "UX: Immediate Intent vs. Optimistic Update",
+          "url": "https://romshark.github.io/ux-immediate-intent/",
+          "hn": "https://news.ycombinator.com/item?id=50671245",
+          "points": 23,
+          "comments": 14,
+          "created_at_i": 1795810822,
           "sources": [
-            "Lobsters",
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 6.141,
-          "why": [
-            "picked up by Lobsters and Hacker News"
-          ]
+          "score": 3.844,
+          "why": []
         },
         {
-          "id": "a29e74b8be2d",
-          "title": "TBM 453: How to Get Unstuck Without Losing Yourself (or Pretending Everything Is Fine)",
-          "url": "https://cutlefish.substack.com/p/tbm-453-how-to-get-unstuck-without",
-          "hn": "https://bsky.app/profile/johncutle.fish/post/3n37uobzvgk2f",
+          "id": "6e544391b39b",
+          "title": "Usability Testing 101",
+          "url": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795672921,
+          "created_at_i": 1795798800,
           "sources": [
-            "The Beautiful Mess",
-            "Bluesky"
+            "NN/g"
           ],
-          "sharers": 1,
-          "score": 5.749,
+          "sharers": 0,
+          "score": 3.616,
           "why": [
-            "picked up by The Beautiful Mess and Bluesky"
-          ],
-          "authors": [
-            "johncutle.fish"
+            "editor's pick at NN/g"
           ]
         },
         {
-          "id": "91ef480232c5",
-          "title": "Intel One Mono font (2023)",
-          "url": "https://github.com/intel/intel-one-mono",
-          "hn": "https://news.ycombinator.com/item?id=50653667",
-          "points": 441,
-          "comments": 234,
-          "created_at_i": 1795687861,
+          "id": "6c177ca8ceac",
+          "title": "Design.md VS Code Extension",
+          "url": "https://christianoliff.com/blog/design-md-vs-code-extension/",
+          "hn": "https://christianoliff.com/blog/design-md-vs-code-extension/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761811,
           "sources": [
-            "Hacker News"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 4.646,
+          "score": 2.697,
           "why": [
-            "441 points"
+            "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "36a937bcc40a",
-          "title": "Ask HN: What do you think of a revamped HN UI/UX?",
-          "url": "https://news.ycombinator.com/item?id=50650633",
-          "hn": "https://news.ycombinator.com/item?id=50650633",
-          "points": 1,
-          "comments": 5,
-          "created_at_i": 1795659737,
+          "id": "7089475fa9de",
+          "title": "Worn into shape",
+          "url": "https://mouthprint.com/e/worn-into-shape",
+          "hn": "https://mouthprint.com/e/worn-into-shape",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761990,
           "sources": [
-            "Hacker News"
+            "Sidebar"
           ],
           "sharers": 0,
-          "score": 3.448,
-          "why": []
+          "score": 2.365,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
         }
       ],
       "candidates": [
         {
-          "id": "2202b68fa4e6",
-          "title": "The Beauty of CSS Mixins",
-          "url": "https://patrickbrosset.com/articles/2026-11-25-the-beauty-of-css-mixins/",
-          "hn": "https://news.ycombinator.com/item?id=50651604",
-          "points": 30,
-          "comments": 3,
-          "created_at_i": 1795654937,
-          "sources": [
-            "Lobsters",
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 6.141,
-          "why": [
-            "picked up by Lobsters and Hacker News"
-          ]
-        },
-        {
-          "id": "a29e74b8be2d",
-          "title": "TBM 453: How to Get Unstuck Without Losing Yourself (or Pretending Everything Is Fine)",
-          "url": "https://cutlefish.substack.com/p/tbm-453-how-to-get-unstuck-without",
-          "hn": "https://bsky.app/profile/johncutle.fish/post/3n37uobzvgk2f",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795672921,
-          "sources": [
-            "The Beautiful Mess",
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 5.749,
-          "why": [
-            "picked up by The Beautiful Mess and Bluesky"
-          ],
-          "authors": [
-            "johncutle.fish"
-          ]
-        },
-        {
-          "id": "91ef480232c5",
-          "title": "Intel One Mono font (2023)",
-          "url": "https://github.com/intel/intel-one-mono",
-          "hn": "https://news.ycombinator.com/item?id=50653667",
-          "points": 441,
-          "comments": 234,
-          "created_at_i": 1795687861,
+          "id": "8ee6fa50f0e4",
+          "title": "UX: Immediate Intent vs. Optimistic Update",
+          "url": "https://romshark.github.io/ux-immediate-intent/",
+          "hn": "https://news.ycombinator.com/item?id=50671245",
+          "points": 23,
+          "comments": 14,
+          "created_at_i": 1795810822,
           "sources": [
             "Hacker News"
           ],
           "sharers": 0,
-          "score": 4.646,
-          "why": [
-            "441 points"
-          ]
-        },
-        {
-          "id": "36a937bcc40a",
-          "title": "Ask HN: What do you think of a revamped HN UI/UX?",
-          "url": "https://news.ycombinator.com/item?id=50650633",
-          "hn": "https://news.ycombinator.com/item?id=50650633",
-          "points": 1,
-          "comments": 5,
-          "created_at_i": 1795659737,
-          "sources": [
-            "Hacker News"
-          ],
-          "sharers": 0,
-          "score": 3.448,
+          "score": 3.844,
           "why": []
         },
         {
-          "id": "288e32210c2c",
-          "title": "Forward-deployed design as plumbing",
-          "url": "https://blog.ronbronson.com/forward-deployed-design-as-plumbing",
-          "hn": "https://blog.ronbronson.com/forward-deployed-design-as-plumbing",
+          "id": "6e544391b39b",
+          "title": "Usability Testing 101",
+          "url": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795691470,
+          "created_at_i": 1795798800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.616,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "6c177ca8ceac",
+          "title": "Design.md VS Code Extension",
+          "url": "https://christianoliff.com/blog/design-md-vs-code-extension/",
+          "hn": "https://christianoliff.com/blog/design-md-vs-code-extension/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761811,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.798,
+          "score": 2.697,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "6bc402ea8b23",
-          "title": "Lighting that feels just right",
-          "url": "https://blog.maximeheckel.com/posts/lighting-that-feels-just-right/",
-          "hn": "https://blog.maximeheckel.com/posts/lighting-that-feels-just-right/",
+          "id": "7089475fa9de",
+          "title": "Worn into shape",
+          "url": "https://mouthprint.com/e/worn-into-shape",
+          "hn": "https://mouthprint.com/e/worn-into-shape",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795691627,
+          "created_at_i": 1795761990,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.465,
+          "score": 2.365,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "0a5c310dddba",
-          "title": "12ft Lab",
-          "url": "https://12ft.studio/lab/",
-          "hn": "https://12ft.studio/lab/",
+          "id": "35b6f0d4e3d4",
+          "title": "The year the web industry gave up",
+          "url": "https://dbushell.com/2026/11/25/web-industry/",
+          "hn": "https://dbushell.com/2026/11/25/web-industry/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795691551,
+          "created_at_i": 1795761913,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.465,
+          "score": 2.364,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "0aa9624a3744",
-          "title": "High fidelity, low definition",
-          "url": "https://www.seangood.win/articles/high-fidelity-low-definition",
-          "hn": "https://www.seangood.win/articles/high-fidelity-low-definition",
+          "id": "37fab443c950",
+          "title": "I’m a 100x engineer now",
+          "url": "https://veszelovszki.com/a/tpe/",
+          "hn": "https://veszelovszki.com/a/tpe/",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795691496,
+          "created_at_i": 1795761884,
           "sources": [
             "Sidebar"
           ],
           "sharers": 0,
-          "score": 2.464,
+          "score": 2.364,
           "why": [
             "editor's pick at Sidebar"
           ]
         },
         {
-          "id": "4df154bb43cf",
-          "title": "Machines are trying to get gut feelings while you’re telling me to ignore mine",
-          "url": "https://uxdesign.cc/machines-are-trying-to-get-gut-feelings-while-youre-telling-me-to-ignore-mine-17095e56f22d?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/machines-are-trying-to-get-gut-feelings-while-youre-telling-me-to-ignore-mine-17095e56f22d?source=rss----138adf9c44c---4",
+          "id": "7ae02e4e640e",
+          "title": "How I use AI as a solo designer",
+          "url": "https://uxdesign.cc/how-do-i-use-ai-as-a-solo-designer-956a3954614e?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/how-do-i-use-ai-as-a-solo-designer-956a3954614e?source=rss----138adf9c44c---4",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795695511,
+          "created_at_i": 1795778546,
           "sources": [
             "UX Collective"
           ],
           "sharers": 0,
-          "score": 1.692,
+          "score": 2.335,
           "why": [
             "editor's pick at UX Collective"
           ]
         },
         {
-          "id": "fcccdf9faa18",
-          "title": "Fixing Illustrations on a Dark Background with CSS",
-          "url": "https://rknight.me/blog/fixing-illustrations-on-a-dark-background-with-css/?utm_source=the-index&utm_medium=newsletter",
-          "hn": "https://bsky.app/profile/piccalil.li/post/3n37tuvbbch2x",
+          "id": "106e9e0375d4",
+          "title": "The judge used to be the user",
+          "url": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?sk=e8c664d3852c69ce41f28a0f997a2a71",
+          "hn": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?sk=e8c664d3852c69ce41f28a0f997a2a71",
           "points": 0,
           "comments": 0,
-          "created_at_i": 1795702030,
+          "created_at_i": 1795762026,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 1.565,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "caa40ef90613",
+          "title": "Designing (and Evolving) a New Web Performance Score – CSS Wizardry",
+          "url": "https://csswizardry.com/2024/11/designing-and-evolving-a-new-performance-score/",
+          "hn": "https://bsky.app/profile/csswizardry.com/post/3n3c445nshs2p",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795779584,
           "sources": [
             "Bluesky"
           ],
           "sharers": 1,
-          "score": 1.604,
+          "score": 1.542,
           "why": [
             "spotted on Bluesky"
           ],
           "authors": [
-            "piccalil.li"
-          ]
-        },
-        {
-          "id": "74f3dcc8f543",
-          "title": "Things you’re not supposed to say on LinkedIn",
-          "url": "https://uxdesign.cc/things-youre-not-supposed-to-say-on-linkedin-a9c2ec2a0185?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/things-youre-not-supposed-to-say-on-linkedin-a9c2ec2a0185?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795646092,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.409,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "7a006da179e9",
-          "title": "Future-proofing is dead and AI killed it",
-          "url": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/future-proofing-is-dead-and-ai-killed-it-23368ce3cc02?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795646052,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.409,
-          "why": [
-            "editor's pick at UX Collective"
+            "csswizardry.com"
           ]
         }
       ]
@@ -402,6 +341,21 @@
           ]
         },
         {
+          "id": "8ee6fa50f0e4",
+          "title": "UX: Immediate Intent vs. Optimistic Update",
+          "url": "https://romshark.github.io/ux-immediate-intent/",
+          "hn": "https://news.ycombinator.com/item?id=50671245",
+          "points": 23,
+          "comments": 14,
+          "created_at_i": 1795810822,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.844,
+          "why": []
+        },
+        {
           "id": "97b3599fdd99",
           "title": "shadcn/ui — @shadcn/registry@0.2.2",
           "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
@@ -416,6 +370,23 @@
           "score": 3.672,
           "why": [
             "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "6e544391b39b",
+          "title": "Usability Testing 101",
+          "url": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795798800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.616,
+          "why": [
+            "editor's pick at NN/g"
           ]
         },
         {
@@ -480,40 +451,6 @@
           ],
           "sharers": 0,
           "score": 3.323,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "c4894412377b",
-          "title": "Does AI make design systems unnecessary?",
-          "url": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
-          "hn": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795413736,
-          "sources": [
-            "Design Systems Collective"
-          ],
-          "sharers": 0,
-          "score": 3.131,
-          "why": [
-            "editor's pick at Design Systems Collective"
-          ]
-        },
-        {
-          "id": "cbc5869bf475",
-          "title": "If you want to grow beyond Senior Designer, you have to address this one thing",
-          "url": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795558437,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 2.641,
           "why": [
             "editor's pick at UX Collective"
           ]
@@ -620,6 +557,21 @@
           ]
         },
         {
+          "id": "8ee6fa50f0e4",
+          "title": "UX: Immediate Intent vs. Optimistic Update",
+          "url": "https://romshark.github.io/ux-immediate-intent/",
+          "hn": "https://news.ycombinator.com/item?id=50671245",
+          "points": 23,
+          "comments": 14,
+          "created_at_i": 1795810822,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.844,
+          "why": []
+        },
+        {
           "id": "97b3599fdd99",
           "title": "shadcn/ui — @shadcn/registry@0.2.2",
           "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
@@ -634,6 +586,23 @@
           "score": 3.672,
           "why": [
             "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "6e544391b39b",
+          "title": "Usability Testing 101",
+          "url": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795798800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.616,
+          "why": [
+            "editor's pick at NN/g"
           ]
         },
         {
@@ -768,6 +737,23 @@
           "score": 2.79,
           "why": [
             "editor's pick at Design systems"
+          ]
+        },
+        {
+          "id": "6c177ca8ceac",
+          "title": "Design.md VS Code Extension",
+          "url": "https://christianoliff.com/blog/design-md-vs-code-extension/",
+          "hn": "https://christianoliff.com/blog/design-md-vs-code-extension/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761811,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.697,
+          "why": [
+            "editor's pick at Sidebar"
           ]
         },
         {
@@ -1111,6 +1097,74 @@
           ]
         },
         {
+          "id": "7089475fa9de",
+          "title": "Worn into shape",
+          "url": "https://mouthprint.com/e/worn-into-shape",
+          "hn": "https://mouthprint.com/e/worn-into-shape",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761990,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.365,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "35b6f0d4e3d4",
+          "title": "The year the web industry gave up",
+          "url": "https://dbushell.com/2026/11/25/web-industry/",
+          "hn": "https://dbushell.com/2026/11/25/web-industry/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761913,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.364,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "37fab443c950",
+          "title": "I’m a 100x engineer now",
+          "url": "https://veszelovszki.com/a/tpe/",
+          "hn": "https://veszelovszki.com/a/tpe/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761884,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.364,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "7ae02e4e640e",
+          "title": "How I use AI as a solo designer",
+          "url": "https://uxdesign.cc/how-do-i-use-ai-as-a-solo-designer-956a3954614e?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/how-do-i-use-ai-as-a-solo-designer-956a3954614e?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795778546,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.335,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
           "id": "5326fdabcabf",
           "title": "DD416 / Adrift in a world of options",
           "url": "https://www.densediscovery.com/issues/416/",
@@ -1446,117 +1500,6 @@
           ],
           "authors": [
             "csswizardry.com"
-          ]
-        },
-        {
-          "id": "5c896cec2cab",
-          "title": "The Layout Maestro by Ahmad Shadeed",
-          "url": "https://thelayoutmaestro.com/",
-          "hn": "https://bsky.app/profile/kevinpowell.co/post/3n2y5lnqgmc2u",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795437579,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.567,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
-          ]
-        },
-        {
-          "id": "af6c1999414c",
-          "title": "HTML5Doctor.com Doctored – HTML Accessibility",
-          "url": "https://html5accessibility.com/stuff/2026/11/23/html5doctor-com-doctored/",
-          "hn": "https://bsky.app/profile/stevefaulkner.eurosky.social/post/3n2ygo33xy22j",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795447325,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.498,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "ericwbailey.website"
-          ]
-        },
-        {
-          "id": "5c4e3e83203e",
-          "title": "Lessons from 3D scanning St John’s Co-Cathedral",
-          "url": "https://uxdesign.cc/lessons-from-3d-scanning-st-johns-co-cathedral-700911d61cfe?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/lessons-from-3d-scanning-st-johns-co-cathedral-700911d61cfe?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795389517,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.421,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "0835f6175b4f",
-          "title": "Seven things AI killed while you were measuring productivity",
-          "url": "https://uxdesign.cc/seven-things-ai-killed-while-you-were-measuring-productivity-b4499232ac3d?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/seven-things-ai-killed-while-you-were-measuring-productivity-b4499232ac3d?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795389476,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.421,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "35348475dd72",
-          "title": "How to write great skills",
-          "url": "https://uxdesign.cc/how-to-write-great-skills-91635bc45ada?source=rss----138adf9c44c---4",
-          "hn": "https://uxdesign.cc/how-to-write-great-skills-91635bc45ada?source=rss----138adf9c44c---4",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795389452,
-          "sources": [
-            "UX Collective"
-          ],
-          "sharers": 0,
-          "score": 1.421,
-          "why": [
-            "editor's pick at UX Collective"
-          ]
-        },
-        {
-          "id": "776c76a83691",
-          "title": "Poetic CSS",
-          "url": "https://courses.oddbird.net/poetic-css/",
-          "hn": "https://bsky.app/profile/miriam.codes/post/3n33r2e2x2k2o",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795561554,
-          "sources": [
-            "Bluesky"
-          ],
-          "sharers": 1,
-          "score": 1.284,
-          "why": [
-            "spotted on Bluesky"
-          ],
-          "authors": [
-            "piccalil.li"
           ]
         }
       ]
@@ -2300,6 +2243,21 @@
           ]
         },
         {
+          "id": "8ee6fa50f0e4",
+          "title": "UX: Immediate Intent vs. Optimistic Update",
+          "url": "https://romshark.github.io/ux-immediate-intent/",
+          "hn": "https://news.ycombinator.com/item?id=50671245",
+          "points": 23,
+          "comments": 14,
+          "created_at_i": 1795810822,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.844,
+          "why": []
+        },
+        {
           "id": "259b3aa5799a",
           "title": "Design by numbers: is AI ruining UX or just pouring gasoline on the fire?",
           "url": "https://uxdesign.cc/design-by-numbers-is-ai-ruining-ux-or-just-pouring-gasoline-on-the-fire-24164d49e422?source=rss----138adf9c44c---4",
@@ -2463,6 +2421,23 @@
           ],
           "sharers": 0,
           "score": 3.644,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "6e544391b39b",
+          "title": "Usability Testing 101",
+          "url": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795798800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.616,
           "why": [
             "editor's pick at NN/g"
           ]
@@ -3185,6 +3160,23 @@
           ]
         },
         {
+          "id": "6c177ca8ceac",
+          "title": "Design.md VS Code Extension",
+          "url": "https://christianoliff.com/blog/design-md-vs-code-extension/",
+          "hn": "https://christianoliff.com/blog/design-md-vs-code-extension/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761811,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.697,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
           "id": "15d696dd12cc",
           "title": "Always on: What it’s like being a twenty-something founder in the age of AI",
           "url": "https://review.firstround.com/young-ai-founders/",
@@ -3492,57 +3484,6 @@
           ]
         },
         {
-          "id": "2bb834ddd999",
-          "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
-          "url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
-          "hn": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795449708,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.589,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
-          "id": "f3227d9e1d09",
-          "title": "Carbon (IBM) — v11.121.0",
-          "url": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
-          "hn": "https://github.com/carbon-design-system/carbon/releases/tag/v11.121.0",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1795014918,
-          "sources": [
-            "Design systems"
-          ],
-          "sharers": 0,
-          "score": 2.568,
-          "why": [
-            "editor's pick at Design systems"
-          ]
-        },
-        {
-          "id": "fdc5cf3a67a5",
-          "title": "State of the tech job market: late 2026",
-          "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
-          "hn": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
-          "points": 0,
-          "comments": 0,
-          "created_at_i": 1794323043,
-          "sources": [
-            "Lenny's Newsletter"
-          ],
-          "sharers": 0,
-          "score": 2.563,
-          "why": [
-            "editor's pick at Lenny's Newsletter"
-          ]
-        },
-        {
           "id": "7da3b08fd70d",
           "title": "Introducing Adaptive Dark Mode",
           "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
@@ -3667,6 +3608,21 @@
       ]
     },
     {
+      "id": "8ee6fa50f0e4",
+      "title": "UX: Immediate Intent vs. Optimistic Update",
+      "url": "https://romshark.github.io/ux-immediate-intent/",
+      "hn": "https://news.ycombinator.com/item?id=50671245",
+      "points": 23,
+      "comments": 14,
+      "created_at_i": 1795810822,
+      "sources": [
+        "Hacker News"
+      ],
+      "sharers": 0,
+      "score": 3.844,
+      "why": []
+    },
+    {
       "id": "97b3599fdd99",
       "title": "shadcn/ui — @shadcn/registry@0.2.2",
       "url": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Fregistry%400.2.2",
@@ -3681,6 +3637,23 @@
       "score": 3.672,
       "why": [
         "editor's pick at Design systems"
+      ]
+    },
+    {
+      "id": "6e544391b39b",
+      "title": "Usability Testing 101",
+      "url": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "hn": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+      "points": 0,
+      "comments": 0,
+      "created_at_i": 1795798800,
+      "sources": [
+        "NN/g"
+      ],
+      "sharers": 0,
+      "score": 3.616,
+      "why": [
+        "editor's pick at NN/g"
       ]
     },
     {
@@ -3745,40 +3718,6 @@
       ],
       "sharers": 0,
       "score": 3.323,
-      "why": [
-        "editor's pick at UX Collective"
-      ]
-    },
-    {
-      "id": "c4894412377b",
-      "title": "Does AI make design systems unnecessary?",
-      "url": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
-      "hn": "https://designsystemscollective.substack.com/p/does-ai-make-design-systems-unnecessary",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1795413736,
-      "sources": [
-        "Design Systems Collective"
-      ],
-      "sharers": 0,
-      "score": 3.131,
-      "why": [
-        "editor's pick at Design Systems Collective"
-      ]
-    },
-    {
-      "id": "cbc5869bf475",
-      "title": "If you want to grow beyond Senior Designer, you have to address this one thing",
-      "url": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
-      "hn": "https://uxdesign.cc/if-you-want-to-grow-beyond-senior-designer-you-have-to-address-this-one-thing-15f94ba5b1f7?source=rss----138adf9c44c---4",
-      "points": 0,
-      "comments": 0,
-      "created_at_i": 1795558437,
-      "sources": [
-        "UX Collective"
-      ],
-      "sharers": 0,
-      "score": 2.641,
       "why": [
         "editor's pick at UX Collective"
       ]

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-27T04:59:51.618752+00:00",
+  "updated_at": "2026-11-28T04:43:08.672661+00:00",
   "days": {
     "2026-10-01": {
       "items": [
@@ -10872,6 +10872,240 @@
         "lexicon": 9,
         "prerelease": 2,
         "no_title": 1
+      }
+    },
+    "2026-11-27": {
+      "items": [
+        {
+          "id": "8ee6fa50f0e4",
+          "title": "UX: Immediate Intent vs. Optimistic Update",
+          "url": "https://romshark.github.io/ux-immediate-intent/",
+          "hn": "https://news.ycombinator.com/item?id=50671245",
+          "points": 23,
+          "comments": 14,
+          "created_at_i": 1795810822,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.844,
+          "why": []
+        },
+        {
+          "id": "6e544391b39b",
+          "title": "Usability Testing 101",
+          "url": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795798800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.616,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "6c177ca8ceac",
+          "title": "Design.md VS Code Extension",
+          "url": "https://christianoliff.com/blog/design-md-vs-code-extension/",
+          "hn": "https://christianoliff.com/blog/design-md-vs-code-extension/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761811,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.697,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "7089475fa9de",
+          "title": "Worn into shape",
+          "url": "https://mouthprint.com/e/worn-into-shape",
+          "hn": "https://mouthprint.com/e/worn-into-shape",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761990,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.365,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "id": "8ee6fa50f0e4",
+          "title": "UX: Immediate Intent vs. Optimistic Update",
+          "url": "https://romshark.github.io/ux-immediate-intent/",
+          "hn": "https://news.ycombinator.com/item?id=50671245",
+          "points": 23,
+          "comments": 14,
+          "created_at_i": 1795810822,
+          "sources": [
+            "Hacker News"
+          ],
+          "sharers": 0,
+          "score": 3.844,
+          "why": []
+        },
+        {
+          "id": "6e544391b39b",
+          "title": "Usability Testing 101",
+          "url": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "hn": "https://www.nngroup.com/articles/usability-testing-101/?utm_source=rss&utm_medium=feed&utm_campaign=rss-syndication",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795798800,
+          "sources": [
+            "NN/g"
+          ],
+          "sharers": 0,
+          "score": 3.616,
+          "why": [
+            "editor's pick at NN/g"
+          ]
+        },
+        {
+          "id": "6c177ca8ceac",
+          "title": "Design.md VS Code Extension",
+          "url": "https://christianoliff.com/blog/design-md-vs-code-extension/",
+          "hn": "https://christianoliff.com/blog/design-md-vs-code-extension/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761811,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.697,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "7089475fa9de",
+          "title": "Worn into shape",
+          "url": "https://mouthprint.com/e/worn-into-shape",
+          "hn": "https://mouthprint.com/e/worn-into-shape",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761990,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.365,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "35b6f0d4e3d4",
+          "title": "The year the web industry gave up",
+          "url": "https://dbushell.com/2026/11/25/web-industry/",
+          "hn": "https://dbushell.com/2026/11/25/web-industry/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761913,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.364,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "37fab443c950",
+          "title": "I’m a 100x engineer now",
+          "url": "https://veszelovszki.com/a/tpe/",
+          "hn": "https://veszelovszki.com/a/tpe/",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795761884,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 2.364,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "7ae02e4e640e",
+          "title": "How I use AI as a solo designer",
+          "url": "https://uxdesign.cc/how-do-i-use-ai-as-a-solo-designer-956a3954614e?source=rss----138adf9c44c---4",
+          "hn": "https://uxdesign.cc/how-do-i-use-ai-as-a-solo-designer-956a3954614e?source=rss----138adf9c44c---4",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795778546,
+          "sources": [
+            "UX Collective"
+          ],
+          "sharers": 0,
+          "score": 2.335,
+          "why": [
+            "editor's pick at UX Collective"
+          ]
+        },
+        {
+          "id": "106e9e0375d4",
+          "title": "The judge used to be the user",
+          "url": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?sk=e8c664d3852c69ce41f28a0f997a2a71",
+          "hn": "https://uxdesign.cc/the-judge-used-to-be-the-user-0a958f24bb32?sk=e8c664d3852c69ce41f28a0f997a2a71",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795762026,
+          "sources": [
+            "Sidebar"
+          ],
+          "sharers": 0,
+          "score": 1.565,
+          "why": [
+            "editor's pick at Sidebar"
+          ]
+        },
+        {
+          "id": "caa40ef90613",
+          "title": "Designing (and Evolving) a New Web Performance Score – CSS Wizardry",
+          "url": "https://csswizardry.com/2024/11/designing-and-evolving-a-new-performance-score/",
+          "hn": "https://bsky.app/profile/csswizardry.com/post/3n3c445nshs2p",
+          "points": 0,
+          "comments": 0,
+          "created_at_i": 1795779584,
+          "sources": [
+            "Bluesky"
+          ],
+          "sharers": 1,
+          "score": 1.542,
+          "why": [
+            "spotted on Bluesky"
+          ],
+          "authors": [
+            "csswizardry.com"
+          ]
+        }
+      ],
+      "pool": 45,
+      "kept": 4,
+      "dropped": {
+        "below_threshold": 16,
+        "lexicon": 18,
+        "no_title": 1,
+        "prerelease": 1
       }
     }
   }
